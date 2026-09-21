@@ -22,7 +22,7 @@ Planning and circularity decisions
 
 The central question is not only whether uncertainty is reported at an individual modelling stage, but also whether it is preserved, reduced, amplified, transformed, masked, or lost as information moves between stages and spatial scales.
 
-> **Project status:** Active development. Search queries, exports, screening data, coding files, analytical scripts, and outputs will be added progressively as the review advances.
+> **Project status:** Active development. The Scopus queries for **S1–S3 are currently approved**. The S4 and S5 search strategies and query strings remain **draft / not fixed** and must not be used for formal retrieval until they are reviewed and frozen.
 
 ---
 
@@ -149,7 +149,7 @@ S3-2 = P AND T AND U
 
 Here, `T` is the stock-dynamics and event-timing concept block.
 
-### S4 — Circularity / Recoverability
+### S4 — Circularity / Recoverability *(Draft — not fixed)*
 
 **Purpose:** Identify how estimated stocks and released materials are converted into technically and practically recoverable circular resources.
 
@@ -171,7 +171,7 @@ S4-2 = P AND C AND U
 
 Here, `C` is the Circularity concept block.
 
-### S5 — LCA / Decision
+### S5 — LCA / Decision *(Draft — not fixed)*
 
 **Purpose:** Identify how material-stock and circularity evidence is translated into environmental assessment and decision support.
 
