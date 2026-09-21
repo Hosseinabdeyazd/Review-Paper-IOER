@@ -1,5 +1,0 @@
-DRAFT — NOT FIXED
-Do not use for formal search execution.
-Candidate query retained for review and revision:
-
-TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND ("embodied carbon" OR "embodied emission*" OR "embodied greenhouse gas*" OR "life cycle assessment" OR "life-cycle assessment" OR LCA OR "environmental impact*" OR decision* OR ranking OR priorit* OR "decision support" OR intervention* OR "carbon footprint") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR "Monte Carlo" OR sensitiv* OR variabil* OR calibrat* OR robust* OR "decision confidence" OR "value of information" OR "prediction interval*" OR "confidence interval*"))
