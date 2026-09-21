@@ -4,7 +4,7 @@
 
 This repository contains the reproducible search, screening, coding, analysis, and visualization workflow for a global **systematic review and evidence map with nested meta-analyses**.
 
-The review addresses **Gap 8: end-to-end uncertainty propagation** across the full analytical chain from building observation to material and environmental decision-making:
+The review addresses **end-to-end uncertainty propagation** across the full analytical chain from building observation to material and environmental decision-making:
 
 ```text
 GeoAI / building observation
@@ -248,20 +248,15 @@ Review-Paper-IOER/
 │
 ├── searches/
 │   ├── S1_observation_geoai/
-│   │   ├── S1-1_base/
-│   │   └── S1-2_base_plus_uncertainty/
+│   │   └── SCOPUS_S1_queries.md
 │   ├── S2_material_stock/
-│   │   ├── S2-1_base/
-│   │   └── S2-2_base_plus_uncertainty/
+│   │   └── SCOPUS_S2_queries.md
 │   ├── S3_stock_dynamics/
-│   │   ├── S3-1_base/
-│   │   └── S3-2_base_plus_uncertainty/
+│   │   └── SCOPUS_S3_queries.md
 │   ├── S4_circularity/
-│   │   ├── S4-1_base/
-│   │   └── S4-2_base_plus_uncertainty/
+│   │   └── SCOPUS_S4_queries.md
 │   └── S5_lca_decision/
-│       ├── S5-1_base/
-│       └── S5-2_base_plus_uncertainty/
+│       └── SCOPUS_S5_queries.md
 │
 ├── data/
 │   ├── raw/
