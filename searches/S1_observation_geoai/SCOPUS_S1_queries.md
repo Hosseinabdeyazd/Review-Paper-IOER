@@ -1,0 +1,15 @@
+# Scopus queries — S1: Observation / GeoAI
+
+**Status:** APPROVED
+
+## S1-1 — Base
+
+```text
+TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND (GeoAI OR "geospatial artificial intelligence" OR "machine learning" OR "deep learning" OR "computer vision" OR "remote sensing" OR "street view" OR LiDAR OR UAV OR "vision language" OR multimodal OR "semantic segmentation" OR "object detection"))
+```
+
+## S1-2 — Base + uncertainty
+
+```text
+TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND (GeoAI OR "geospatial artificial intelligence" OR "machine learning" OR "deep learning" OR "computer vision" OR "remote sensing" OR "street view" OR LiDAR OR UAV OR "vision language" OR multimodal OR "semantic segmentation" OR "object detection") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR "Monte Carlo" OR sensitiv* OR variabil* OR calibrat* OR robust* OR "decision confidence" OR "value of information" OR "prediction interval*" OR "confidence interval*"))
+```
