@@ -1,0 +1,71 @@
+(
+  (
+    "All Metadata":"building age" OR
+    "All Metadata":"building height" OR
+    "All Metadata":"building function" OR
+    "All Metadata":"building use" OR
+    "All Metadata":"building footprint*" OR
+    "All Metadata":"building geometry" OR
+    "All Metadata":"building condition" OR
+    "All Metadata":"facade material*" OR
+    "All Metadata":"façade material*" OR
+    "All Metadata":"roof material*" OR
+    "All Metadata":"structural system*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":GeoAI OR
+    "All Metadata":"computer vision" OR
+    "All Metadata":"remote sensing" OR
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":LiDAR OR
+    "All Metadata":UAV OR
+    "All Metadata":satellite OR
+    "All Metadata":aerial OR
+    "All Metadata":GIS OR
+    "All Metadata":geospatial OR
+    "All Metadata":"vision-language" OR
+    "All Metadata":"semantic segmentation" OR
+    "All Metadata":"object detection" OR
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning"
+  )
+  AND
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"urban stock*" OR
+    "All Metadata":"material inventor*" OR
+    "All Metadata":archetype OR
+    "All Metadata":archetypes OR
+    "All Metadata":circular OR
+    "All Metadata":circularity OR
+    "All Metadata":"urban mining" OR
+    "All Metadata":"embodied carbon" OR
+    "All Metadata":"life cycle assessment" OR
+    "All Metadata":LCA
+  )
+)
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
