@@ -1,0 +1,26 @@
+(
+  (
+    "All Metadata":"material passport*" OR
+    "All Metadata":BIM OR
+    "All Metadata":"building information model*" OR
+    "All Metadata":"building information modelling" OR
+    "All Metadata":"building information modeling"
+  )
+  AND
+  (
+    "All Metadata":"existing building*" OR
+    "All Metadata":"building stock*" OR
+    "All Metadata":demolition OR
+    "All Metadata":deconstruction OR
+    "All Metadata":reuse OR
+    "All Metadata":recycling OR
+    "All Metadata":circular*
+  )
+  AND
+  (
+    "All Metadata":"material inventor*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material quant*" OR
+    "All Metadata":"component inventor*"
+  )
+)
