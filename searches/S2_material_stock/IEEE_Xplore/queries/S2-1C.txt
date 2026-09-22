@@ -1,0 +1,24 @@
+(
+  (
+    "All Metadata":"building archetype*" OR
+    "All Metadata":"building typolog*" OR
+    "All Metadata":"construction type*" OR
+    "All Metadata":"structural system*"
+  )
+  AND
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":stock OR
+    "All Metadata":urban OR
+    "All Metadata":city OR
+    "All Metadata":neighbourhood* OR
+    "All Metadata":neighborhood* OR
+    "All Metadata":district*
+  )
+)
