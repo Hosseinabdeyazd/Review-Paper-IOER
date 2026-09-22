@@ -1,0 +1,165 @@
+TITLE-ABS-KEY(
+  (
+    "building material stock*" OR
+    "urban building material stock*" OR
+    "material stock of building*" OR
+    "materials in building stock*" OR
+    "building material intensit*" OR
+    "material intensity of building*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material inventor*"
+    )
+    AND
+    (
+      "building stock*" OR
+      "existing building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "non-residential building stock*" OR
+      "building archetype*" OR
+      "building typolog*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building archetype*" OR
+      "building typolog*" OR
+      "construction type*" OR
+      "structural system*"
+    )
+    AND
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      stock OR
+      urban OR
+      city OR
+      neighbourhood* OR
+      neighborhood* OR
+      district*
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material passport*" OR
+      BIM OR
+      "building information model*" OR
+      "building information modelling" OR
+      "building information modeling"
+    )
+    AND
+    (
+      "existing building*" OR
+      "building stock*" OR
+      demolition OR
+      deconstruction OR
+      reuse OR
+      recycling OR
+      circular*
+    )
+    AND
+    (
+      "material inventor*" OR
+      "material stock*" OR
+      "material quant*" OR
+      "component inventor*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      "residential building*" OR
+      "non-residential building*" OR
+      "commercial building*" OR
+      "office building*" OR
+      "individual building*"
+    )
+    AND
+    (
+      "machine learning" OR
+      classification OR
+      "semi-supervised" OR
+      "supervised learning" OR
+      "statistical model*"
+    )
+  )
+)
+
+AND TITLE-ABS-KEY(
+  uncertaint* OR
+  uncertain* OR
+  probabil* OR
+  stochastic* OR
+  Bayesian OR
+  "Monte Carlo" OR
+  sensitiv* OR
+  variabil* OR
+  calibrat* OR
+  robust* OR
+  "prediction interval*" OR
+  "confidence interval*" OR
+  "credible interval*" OR
+  bootstrap* OR
+  ensemble* OR
+  "value of information"
+)
+
+AND NOT TITLE-ABS-KEY(
+  pavement* OR
+  road* OR
+  bridge* OR
+  turbine* OR
+  "wind turbine*" OR
+  "smart window*" OR
+  "3D print*" OR
+  "additive manufacturing" OR
+  battery OR
+  photovoltaic OR
+  "solar cell*" OR
+  "thermal management" OR
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation*" OR
+  "energy simulation*" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "heating energy" OR
+  "cooling energy" OR
+  HVAC OR
+  "thermal comfort" OR
+  "indoor thermal comfort" OR
+  "thermal performance" OR
+  "indoor temperature" OR
+  "urban heat" OR
+  "urban heat island"
+)
