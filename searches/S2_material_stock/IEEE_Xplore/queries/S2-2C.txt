@@ -1,0 +1,60 @@
+(
+  (
+    "All Metadata":"building archetype*" OR
+    "All Metadata":"building typolog*" OR
+    "All Metadata":"construction type*" OR
+    "All Metadata":"structural system*"
+  )
+  AND
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":stock OR
+    "All Metadata":urban OR
+    "All Metadata":city OR
+    "All Metadata":neighbourhood* OR
+    "All Metadata":neighborhood* OR
+    "All Metadata":district*
+  )
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
