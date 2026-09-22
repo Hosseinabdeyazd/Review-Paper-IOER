@@ -1,0 +1,83 @@
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building inventor*" OR
+    "All Metadata":"building material stock*" OR
+    "All Metadata":"material cadastre*" OR
+    "All Metadata":"resource cadastre*"
+  )
+  AND
+  (
+    "All Metadata":GeoAI OR
+    "All Metadata":"geospatial artificial intelligence" OR
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"neural network*" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"computer vision" OR
+    "All Metadata":"remote sensing" OR
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":LiDAR OR
+    "All Metadata":UAV OR
+    "All Metadata":"vision-language" OR
+    "All Metadata":multimodal OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+)
+
+AND
+(
+  "All Metadata":uncertainty OR
+  "All Metadata":uncertainties OR
+  "All Metadata":uncertain OR
+  "All Metadata":probability OR
+  "All Metadata":probabilistic OR
+  "All Metadata":stochastic OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitivity OR
+  "All Metadata":sensitivities OR
+  "All Metadata":variability OR
+  "All Metadata":variabilities OR
+  "All Metadata":calibration OR
+  "All Metadata":calibrated OR
+  "All Metadata":robust OR
+  "All Metadata":robustness OR
+  "All Metadata":"decision confidence" OR
+  "All Metadata":"value of information" OR
+  "All Metadata":"prediction interval" OR
+  "All Metadata":"prediction intervals" OR
+  "All Metadata":"confidence interval" OR
+  "All Metadata":"confidence intervals" OR
+  "All Metadata":"credible interval" OR
+  "All Metadata":"credible intervals" OR
+  "All Metadata":bootstrap OR
+  "All Metadata":bootstrapping OR
+  "All Metadata":ensemble OR
+  "All Metadata":ensembles
+)
+
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
