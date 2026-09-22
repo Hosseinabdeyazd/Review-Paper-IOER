@@ -1,0 +1,8 @@
+(
+  "All Metadata":"building material stock*" OR
+  "All Metadata":"urban building material stock*" OR
+  "All Metadata":"material stock of building*" OR
+  "All Metadata":"materials in building stock*" OR
+  "All Metadata":"building material intensit*" OR
+  "All Metadata":"material intensity of building*"
+)
