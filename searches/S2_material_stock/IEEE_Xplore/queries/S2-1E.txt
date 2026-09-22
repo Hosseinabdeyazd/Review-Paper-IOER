@@ -1,0 +1,23 @@
+(
+  (
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":"residential building*" OR
+    "All Metadata":"non-residential building*" OR
+    "All Metadata":"commercial building*" OR
+    "All Metadata":"office building*" OR
+    "All Metadata":"individual building*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":classification OR
+    "All Metadata":"semi-supervised" OR
+    "All Metadata":"supervised learning" OR
+    "All Metadata":"statistical model*"
+  )
+)
