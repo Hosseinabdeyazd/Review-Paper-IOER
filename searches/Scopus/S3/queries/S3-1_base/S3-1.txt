@@ -1,0 +1,147 @@
+TITLE-ABS-KEY(
+  (
+    "dynamic building stock model*" OR
+    "dynamic building stock modelling" OR
+    "building stock dynamic model*" OR
+    "building stock turnover dynamic*" OR
+    "stock turnover dynamic*" OR
+    "building stock mortality" OR
+    "building stock survival"
+  )
+
+  OR
+
+  (
+    (
+      "building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "urban residential building*"
+    )
+    AND
+    (
+      "building lifetime*" OR
+      "building lifespan*" OR
+      "service life distribution*" OR
+      "lifetime distribution*" OR
+      "demolition rate*" OR
+      "demolition probabilit*" OR
+      "demolition timing" OR
+      "demolition record*" OR
+      "demolition data"
+    )
+  )
+
+  OR
+
+  (
+    building*
+    AND
+    (
+      "service life distribution*" OR
+      "lifetime distribution*"
+    )
+    AND
+    (
+      "demolition record*" OR
+      "demolition data" OR
+      "demolition big data"
+    )
+  )
+
+  OR
+
+  (
+    "building lifespan assumption*" OR
+    "building lifetime assumption*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "building material stock*"
+    )
+    AND
+    (
+      "building lifespan*" OR
+      "building lifetime*"
+    )
+    AND
+    (
+      "demolition waste" OR
+      outflow* OR
+      "material flow*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building stock*" OR
+      "building stocks"
+    )
+    AND
+    (
+      "construction material flow*" OR
+      "material flow*" OR
+      "material outflow*" OR
+      "stock outflow*"
+    )
+    AND
+    (
+      temporal OR
+      dynamic* OR
+      prospective OR
+      "over time" OR
+      "space and time"
+    )
+  )
+
+  OR
+
+  (
+    building*
+    AND
+    (
+      "stock turnover dynamics" OR
+      "building stock turnover"
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  biomedical OR
+  clinical OR
+  patient* OR
+  cancer OR
+  "cox regression" OR
+  "survival analysis techniques" OR
+
+  astronaut* OR
+  spacecraft OR
+  satellite OR
+  "space capability" OR
+
+  earthquake* OR
+  seismic* OR
+  "structural reliability" OR
+  "structural health monitoring" OR
+
+  pavement* OR
+  road* OR
+  bridge* OR
+
+  fire OR
+  flashover OR
+  combustion OR
+
+  "residential mobility" OR
+  "population mobility" OR
+  gentrification OR
+  "housing policy" OR
+  "labour market" OR
+  "labor market"
+)
