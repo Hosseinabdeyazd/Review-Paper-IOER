@@ -1,0 +1,162 @@
+TITLE-ABS-KEY(
+  (
+    (
+      "building stock*" OR
+      "building inventor*" OR
+      "building material stock*" OR
+      "material cadastre*" OR
+      "resource cadastre*"
+    )
+    AND
+    (
+      GeoAI OR
+      "geospatial artificial intelligence" OR
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      "vision-language" OR
+      multimodal OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "building height" OR
+      "building function" OR
+      "building use" OR
+      "building footprint*" OR
+      "building geometry" OR
+      "building condition" OR
+      "facade material*" OR
+      "façade material*" OR
+      "roof material*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      GeoAI OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      satellite OR
+      aerial OR
+      GIS OR
+      geospatial OR
+      "vision-language" OR
+      "semantic segmentation" OR
+      "object detection" OR
+      "machine learning" OR
+      "deep learning"
+    )
+    AND
+    (
+      "building stock*" OR
+      "material stock*" OR
+      "urban stock*" OR
+      "material inventor*" OR
+      archetype* OR
+      circular* OR
+      "urban mining" OR
+      "embodied carbon" OR
+      "life cycle assessment" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building typolog*" OR
+      "building type*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "material stock*" OR
+      "building stock*" OR
+      archetype* OR
+      "material intensit*" OR
+      circular* OR
+      "embodied carbon" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "built year" OR
+      "building structure*" OR
+      "structural type*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "street view" OR
+      "street-view" OR
+      GIS OR
+      geospatial OR
+      urban OR
+      city
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "thermal comfort" OR
+  "urban heat" OR
+  "urban heat island" OR
+  photovoltaic OR
+  "PV system*" OR
+  HVAC OR
+  "solar energy" OR
+  "heat demand"
+)
