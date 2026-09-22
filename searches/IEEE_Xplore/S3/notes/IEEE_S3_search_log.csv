@@ -1,0 +1,43 @@
+Database,Search family,Block,Search date,Results,Export filename,Notes,Query variant
+IEEE Xplore,S3-1,A,2026-09-22,2,IEEE_S3-1A_raw.csv,"raw; exclusions not applied; document types: Conferences 1; Journals 1",base A
+IEEE Xplore,S3-1,B-part1,2026-09-22,1,IEEE_S3-1B_raw.csv,"raw; original B split part 1 because the base block contains 11 wildcard operators; exclusions not applied; document types: Conferences 1",base B part 1
+IEEE Xplore,S3-1,B-part2,2026-09-22,0,,"0 records; no CSV; original B split part 2 because of the wildcard limit; exclusions not applied",base B part 2
+IEEE Xplore,S3-1,C,2026-09-22,0,,"0 records; no CSV; exclusions not applied",base C
+IEEE Xplore,S3-1,D,2026-09-22,0,,"0 records; no CSV; exclusions not applied",base D
+IEEE Xplore,S3-1,E,2026-09-22,0,,"0 records; no CSV; exclusions not applied",base E
+IEEE Xplore,S3-1,F,2026-09-22,1,IEEE_S3-1F_raw.csv,"raw; exclusions not applied; document types: Conferences 1",base F
+IEEE Xplore,S3-1,G,2026-09-22,0,,"0 records; no CSV; exclusions not applied",base G
+IEEE Xplore,S3-2,A-U1,2026-09-22,2,IEEE_S3-2A_U1_raw.csv,"raw; base A + uncertainty partition U_A1; exclusions not applied; document types: Conferences 1; Journals 1",base A + U_A1
+IEEE Xplore,S3-2,A-U2,2026-09-22,1,IEEE_S3-2A_U2_raw.csv,"raw; base A + uncertainty partition U_A2; exclusions not applied; document types: Conferences 1",base A + U_A2
+IEEE Xplore,S3-2,A-U3,2026-09-22,0,,"0 records; no CSV; base A + uncertainty partition U_A3; exclusions not applied",base A + U_A3
+IEEE Xplore,S3-2,B-L1-U1,2026-09-22,0,,"0 records; no CSV; base B life partition L1 + uncertainty partition U_E1; exclusions not applied",base B L1 + U_E1
+IEEE Xplore,S3-2,B-L1-U2,2026-09-22,0,,"0 records; no CSV; base B life partition L1 + uncertainty partition U_E2; exclusions not applied",base B L1 + U_E2
+IEEE Xplore,S3-2,B-L1-U3,2026-09-22,0,,"0 records; no CSV; base B life partition L1 + uncertainty partition U_E3; exclusions not applied",base B L1 + U_E3
+IEEE Xplore,S3-2,B-L1-U4,2026-09-22,0,,"0 records; no CSV; base B life partition L1 + uncertainty partition U_E4; exclusions not applied",base B L1 + U_E4
+IEEE Xplore,S3-2,B-L2-U1,2026-09-22,0,,"0 records; no CSV; base B life partition L2 + uncertainty partition U_E1; exclusions not applied",base B L2 + U_E1
+IEEE Xplore,S3-2,B-L2-U2,2026-09-22,0,,"0 records; no CSV; base B life partition L2 + uncertainty partition U_E2; exclusions not applied",base B L2 + U_E2
+IEEE Xplore,S3-2,B-L2-U3,2026-09-22,0,,"0 records; no CSV; base B life partition L2 + uncertainty partition U_E3; exclusions not applied",base B L2 + U_E3
+IEEE Xplore,S3-2,B-L2-U4,2026-09-22,0,,"0 records; no CSV; base B life partition L2 + uncertainty partition U_E4; exclusions not applied",base B L2 + U_E4
+IEEE Xplore,S3-2,B-L3-U1,2026-09-22,0,,"0 records; no CSV; base B life partition L3 + uncertainty partition U_E1; exclusions not applied",base B L3 + U_E1
+IEEE Xplore,S3-2,B-L3-U2,2026-09-22,0,,"0 records; no CSV; base B life partition L3 + uncertainty partition U_E2; exclusions not applied",base B L3 + U_E2
+IEEE Xplore,S3-2,B-L3-U3,2026-09-22,0,,"0 records; no CSV; base B life partition L3 + uncertainty partition U_E3; exclusions not applied",base B L3 + U_E3
+IEEE Xplore,S3-2,B-L3-U4,2026-09-22,0,,"0 records; no CSV; base B life partition L3 + uncertainty partition U_E4; exclusions not applied",base B L3 + U_E4
+IEEE Xplore,S3-2,B-L4-U1,2026-09-22,0,,"0 records; no CSV; base B life partition L4 + uncertainty partition U_E1; exclusions not applied",base B L4 + U_E1
+IEEE Xplore,S3-2,B-L4-U2,2026-09-22,0,,"0 records; no CSV; base B life partition L4 + uncertainty partition U_E2; exclusions not applied",base B L4 + U_E2
+IEEE Xplore,S3-2,B-L4-U3,2026-09-22,0,,"0 records; no CSV; base B life partition L4 + uncertainty partition U_E3; exclusions not applied",base B L4 + U_E3
+IEEE Xplore,S3-2,B-L4-U4,2026-09-22,0,,"0 records; no CSV; base B life partition L4 + uncertainty partition U_E4; exclusions not applied",base B L4 + U_E4
+IEEE Xplore,S3-2,C-U1,2026-09-22,0,,"0 records; no CSV; base C + uncertainty partition U_A1; exclusions not applied",base C + U_A1
+IEEE Xplore,S3-2,C-U2,2026-09-22,0,,"0 records; no CSV; base C + uncertainty partition U_A2; exclusions not applied",base C + U_A2
+IEEE Xplore,S3-2,C-U3,2026-09-22,0,,"0 records; no CSV; base C + uncertainty partition U_A3; exclusions not applied",base C + U_A3
+IEEE Xplore,S3-2,D-U1,2026-09-22,0,,"0 records; no CSV; base D + uncertainty partition U_D1; exclusions not applied",base D + U_D1
+IEEE Xplore,S3-2,D-U2,2026-09-22,0,,"0 records; no CSV; base D + uncertainty partition U_D2; exclusions not applied",base D + U_D2
+IEEE Xplore,S3-2,E-U1,2026-09-22,0,,"0 records; no CSV; base E + uncertainty partition U_E1; exclusions not applied",base E + U_E1
+IEEE Xplore,S3-2,E-U2,2026-09-22,0,,"0 records; no CSV; base E + uncertainty partition U_E2; exclusions not applied",base E + U_E2
+IEEE Xplore,S3-2,E-U3,2026-09-22,0,,"0 records; no CSV; base E + uncertainty partition U_E3; exclusions not applied",base E + U_E3
+IEEE Xplore,S3-2,E-U4,2026-09-22,0,,"0 records; no CSV; base E + uncertainty partition U_E4; exclusions not applied",base E + U_E4
+IEEE Xplore,S3-2,F-U1,2026-09-22,0,,"0 records; no CSV; base F + uncertainty partition U_E1; exclusions not applied",base F + U_E1
+IEEE Xplore,S3-2,F-U2,2026-09-22,0,,"0 records; no CSV; base F + uncertainty partition U_E2; exclusions not applied",base F + U_E2
+IEEE Xplore,S3-2,F-U3,2026-09-22,0,,"0 records; no CSV; base F + uncertainty partition U_E3; exclusions not applied",base F + U_E3
+IEEE Xplore,S3-2,F-U4,2026-09-22,0,,"0 records; no CSV; base F + uncertainty partition U_E4; exclusions not applied",base F + U_E4
+IEEE Xplore,S3-2,G-U1,2026-09-22,0,,"0 records; no CSV; base G + uncertainty partition U_D1; exclusions not applied",base G + U_D1
+IEEE Xplore,S3-2,G-U2,2026-09-22,0,,"0 records; no CSV; base G + uncertainty partition U_D2; exclusions not applied",base G + U_D2
