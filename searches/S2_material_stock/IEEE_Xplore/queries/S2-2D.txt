@@ -1,0 +1,62 @@
+(
+  (
+    "All Metadata":"material passport*" OR
+    "All Metadata":BIM OR
+    "All Metadata":"building information model*" OR
+    "All Metadata":"building information modelling" OR
+    "All Metadata":"building information modeling"
+  )
+  AND
+  (
+    "All Metadata":"existing building*" OR
+    "All Metadata":"building stock*" OR
+    "All Metadata":demolition OR
+    "All Metadata":deconstruction OR
+    "All Metadata":reuse OR
+    "All Metadata":recycling OR
+    "All Metadata":circular*
+  )
+  AND
+  (
+    "All Metadata":"material inventor*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material quant*" OR
+    "All Metadata":"component inventor*"
+  )
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
