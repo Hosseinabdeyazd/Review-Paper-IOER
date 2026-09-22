@@ -1,0 +1,3 @@
+Database,Search family,Variant,Provided result file,Records,Status,Notes
+Scopus,S1,S1-1,,,"MISSING RESULT","No separate S1-1 CSV is present in the supplied Scopous.zip."
+Scopus,S1,S1-2,S1.csv,199,"PROVIDED / LABEL INFERRED","The supplied S1.csv contains 199 records; all 199 contain at least one S1-2 uncertainty term in Title/Abstract/Author Keywords/Index Keywords, so it is consistent with S1-2. Original filename did not specify -1/-2."
