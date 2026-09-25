@@ -1,0 +1,21 @@
+{
+  "database": "Web of Science Core Collection",
+  "family": "S1",
+  "variant": "S1-2 Base + uncertainty",
+  "query_date": "2026-09-25",
+  "result_count": 152,
+  "query_file": "queries/S1-2_WoS_executed.txt",
+  "source_query_file": "queries/S1-2_Scopus_source.txt",
+  "field_mapping": "TITLE-ABS-KEY terms expanded to TI OR AB OR AK",
+  "syntax_adjustment": "AND NOT changed to NOT after WoS rejected AND NOT and accepted NOT",
+  "query_split": false,
+  "export_format": "Plain text; Full Record and Cited References",
+  "export_limit": 1000,
+  "export_files": [
+    "raw/WOS_S1-2_part001.txt",
+    "final/WOS_S1-2_full_record_cited_references.txt",
+    "final/WOS_S1-2.csv"
+  ],
+  "export_status": "complete; raw export validated locally; CSV converted and deduplicated",
+  "notes": "152 records in the export; 152 unique WoS accession numbers; 152 UTs overlap with S1-1; no duplicate removed."
+}
