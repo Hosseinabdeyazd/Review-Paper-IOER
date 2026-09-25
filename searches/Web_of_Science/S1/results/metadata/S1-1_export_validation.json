@@ -1,0 +1,34 @@
+{
+  "database": "Web of Science Core Collection",
+  "family_variant": "S1-1",
+  "query_date": "2026-09-25",
+  "expected_results": 504,
+  "raw_exports": [
+    {
+      "filename": "WOS_S1-1_part001.txt",
+      "source_upload": "result 1.txt",
+      "records": 500,
+      "unique_UT": 500,
+      "all_UT_present": true,
+      "records_with_CR": 498,
+      "sha256": "0f4834517a982ac9d302665d1ae812df28549c31a6fde54a5f7274391b1cfc88"
+    },
+    {
+      "filename": "WOS_S1-1_part002.txt",
+      "source_upload": "Result 2.txt",
+      "records": 4,
+      "unique_UT": 4,
+      "all_UT_present": true,
+      "records_with_CR": 4,
+      "sha256": "ed938dad6ab1f654fe6eeca637e7ba15ede7b1a354f6f025f81b2adf2d94ef7f"
+    }
+  ],
+  "combined_raw_records": 504,
+  "distinct_UTs": 504,
+  "duplicates_removed": 0,
+  "final_records": 504,
+  "all_records_have_title_abstract_author_names_and_UT": true,
+  "records_with_CR": 502,
+  "final_file": "WOS_S1-1_full_record_cited_references.txt",
+  "note": "Absence of an optional field on a specific record can mean WoS has no value for that record; it is not evidence of an incomplete export."
+}

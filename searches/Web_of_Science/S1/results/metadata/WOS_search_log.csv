@@ -1,0 +1,2 @@
+Database,Search family,Variant,Query date,Results,Export filename,Query / Block,Notes
+Web of Science Core Collection,S1,S1-1 Base,2026-09-25,504,"WOS_S1-1_part001.txt; WOS_S1-1_part002.txt; final/WOS_S1-1.csv",S1/queries/S1-1_WoS_executed.txt,"WoS Core Collection; Advanced Search; TI/AB/AK field expansion; minimal syntax fix: replaced AND NOT with NOT after WoS rejected AND NOT. Full Record and Cited References; exported in 500 + 4 records. 504 distinct UTs; 0 duplicate records removed."

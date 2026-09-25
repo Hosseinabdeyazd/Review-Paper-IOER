@@ -1,0 +1,49 @@
+{
+  "database": "Web of Science Core Collection",
+  "family": "S1",
+  "variant": "S1-1 Base",
+  "query_date": "2026-09-25",
+  "result_count": 504,
+  "query_file": "queries/S1-1_WoS_executed.txt",
+  "source_query_file": "queries/S1-1_Scopus_source.txt",
+  "field_mapping": "TITLE-ABS-KEY terms expanded to TI OR AB OR AK",
+  "syntax_adjustment": "AND NOT changed to NOT after WoS rejected AND NOT and accepted NOT",
+  "query_split": false,
+  "export_format": "Plain text; Full Record and Cited References",
+  "export_limit": 500,
+  "export_files": [
+    "WOS_S1-1_part001.txt",
+    "WOS_S1-1_part002.txt"
+  ],
+  "export_status": "locally verified; two raw Plain Text exports preserved; merged/deduplicated final file created",
+  "notes": "A maximum of 500 records per export was shown. Export dialog action was attempted; no downloaded file was verified in the local workspace.",
+  "raw_record_counts": [
+    500,
+    4
+  ],
+  "combined_records_before_dedup": 504,
+  "deduplicated_records": 504,
+  "duplicates_removed": 0,
+  "raw_exports": [
+    {
+      "filename": "WOS_S1-1_part001.txt",
+      "source_upload": "result 1.txt",
+      "records": 500,
+      "unique_UT": 500,
+      "all_UT_present": true,
+      "records_with_CR": 498,
+      "sha256": "0f4834517a982ac9d302665d1ae812df28549c31a6fde54a5f7274391b1cfc88"
+    },
+    {
+      "filename": "WOS_S1-1_part002.txt",
+      "source_upload": "Result 2.txt",
+      "records": 4,
+      "unique_UT": 4,
+      "all_UT_present": true,
+      "records_with_CR": 4,
+      "sha256": "ed938dad6ab1f654fe6eeca637e7ba15ede7b1a354f6f025f81b2adf2d94ef7f"
+    }
+  ],
+  "final_file": "../final/WOS_S1-1_full_record_cited_references.txt",
+  "record_content": "Full Record and Cited References (CR field present for records that have cited references)"
+}

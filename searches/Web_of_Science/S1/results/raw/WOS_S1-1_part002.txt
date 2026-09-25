@@ -1,0 +1,581 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Wang, XR
+   Chan, TO
+   Yang, FF
+   Lin, G
+   Chen, ZY
+AF Wang, Xianrui
+   Chan, Ting On
+   Yang, Fiona Fan
+   Lin, Geng
+   Chen, Zhanyong
+TI Age-friendly community environments and depressive symptom trajectories
+   among middle-aged and older adults in China: Evidence from the China
+   Health and Retirement Longitudinal Study (CHARLS)
+SO SOCIAL SCIENCE & MEDICINE
+LA English
+DT Article
+DE Age-friendly communities; Depressive symptoms; Group-based trajectory
+   modeling; Middle-aged and older adults; China
+ID COGNITIVE APPRAISAL; PEOPLE; SUPPORT; ACCESS
+AB How age-friendly community environments contribute to reducing the risk of developing adverse depressive trajectories remains an important area for scholarly inquiry. Using the China Health and Retirement Longitudinal Study (CHARLS) data from 2011 to 2020, this study employed Group-based trajectory modeling (GBTM) to identify depressive symptom trajectories, and multinomial logistic regression to examine associations between baseline age-friendly community environments and those trajectories among middle-aged and older adults, considering health heterogeneity and urban-rural differences. Three trajectories were identified: stable low, moderate increasing, and high depressive symptoms. Chronic diseases, limitations in Instrumental Activities of Daily Living (IADL) and poor self-rated health were fundamental risk factors for adverse trajectories. After covariate adjustment, higher overall age-friendly community scores were associated with lower risks of adverse trajectories. Specifically, connectivity-related domains, including communication and information infrastructure, transportation, neighborhood support, and facilities and associations for social participation, showed significant protective associations. These protective associations were stronger among individuals with better self-rated health or a lower chronic disease burden, but weaker among those with greater health disadvantages. Stratified estimates also suggested that neighborhood support may be more protective among individuals with IADL limitations. Protective associations were more evident in rural areas, especially for communication and information infrastructure, facilities and associations for social participation, housing, and neighborhood support. Building age-friendly communities should move beyond universal resource improvement and toward community support tailored to health-vulnerable older adults and urban-rural differences.
+C1 [Wang, Xianrui; Chan, Ting On; Yang, Fiona Fan; Lin, Geng] Sun Yat sen Univ, Sch Geog & Planning, Guangzhou, Guangdong, Peoples R China.
+   [Chan, Ting On; Lin, Geng] Sun Yat sen Univ, United Res Inst Digital Humanities, Guangzhou, Guangdong, Peoples R China.
+   [Chen, Zhanyong] Sun Yat Sen Univ, Affiliated Hosp 1, Dept Sci Res & Discipline Dev, 58,Zhongshan 2nd Rd, Guangzhou, Guangdong, Peoples R China.
+   [Lin, Geng] Sun Yat sen Univ, Sch Geog & Planning, United Res Inst Digital Humanities, 132 Waihuan East Rd, Guangzhou, Guangdong, Peoples R China.
+C3 Sun Yat Sen University; Sun Yat Sen University; Sun Yat Sen University;
+   Sun Yat Sen University
+RP Chen, ZY (corresponding author), Sun Yat Sen Univ, Affiliated Hosp 1, Dept Sci Res & Discipline Dev, 58,Zhongshan 2nd Rd, Guangzhou, Guangdong, Peoples R China.; Lin, G (corresponding author), Sun Yat sen Univ, Sch Geog & Planning, United Res Inst Digital Humanities, 132 Waihuan East Rd, Guangzhou, Guangdong, Peoples R China.; Chen, ZY (corresponding author), Sun Yat Sen Univ, United Res Inst Digital Humanities, Sch Geog & Planning, 132 Waihuan East Rd, Guangzhou, Guangdong, Peoples R China.
+EM eeslg@mail.sysu.edu.cn; chenzhy233@mail.sysu.edu.cn
+FU National Natural Science Foundation of China [42571239, 42071178]; Key
+   Projects of Philosophy and Social Sciences Research, Ministry of
+   Edu-cation of China [23JZD008]
+FX The data that support the findings of this study are publicly available
+   from the China Health and Retirement Longitudinal Study (CHARLS)
+   repository at http://charls.pku.edu.cn/. This work was supported by the
+   National Natural Science Foundation of China [grant numbers 42571239,
+   42071178] as well as The Key Projects of Philosophy and Social Sciences
+   Research, Ministry of Edu-cation of China [grant numbers 23JZD008] . We
+   thank the research team and participants of the China Health and
+   Retirement Longitudinal Study (CHARLS) for providing the data used in
+   this research, and thank the editor and reviewers for their suggestions
+   for revisions.
+CR Abruquah LA, 2019, INT J ENV RES PUB HE, V16, DOI 10.3390/ijerph16111918
+   Ahmed A, 2019, BMC PREGNANCY CHILDB, V19, DOI 10.1186/s12884-019-2177-y
+   ANDRESEN EM, 1994, AM J PREV MED, V10, P77, DOI 10.1016/S0749-3797(18)30622-6
+   Benyamini Y, 2011, PSYCHOL HEALTH, V26, P1407, DOI 10.1080/08870446.2011.621703
+   Berg T, 2017, AUSTRALAS J AGEING, V36, P313, DOI 10.1111/ajag.12449
+   Bigatti SM, 2012, STRESS HEALTH, V28, P355, DOI 10.1002/smi.2444
+   China Association of the Aged, 2024, BASIC DATA B 5 SAMPL
+   Di XD, 2026, INT J PUBLIC HEALTH, V71, DOI 10.3389/ijph.2026.1609432
+   Ding YF, 2022, FRONT PUBLIC HEALTH, V10, DOI 10.3389/fpubh.2022.996606
+   Eckerblad J, 2015, BMC GERIATR, V15, DOI 10.1186/1471-2318-15-1
+   Fan XW, 2021, J AFFECT DISORDERS, V293, P222, DOI 10.1016/j.jad.2021.06.044
+   Feng ZX, 2026, SOC SCI MED, V389, DOI 10.1016/j.socscimed.2025.118809
+   Fiske A, 2009, ANNU REV CLIN PSYCHO, V5, P363, DOI 10.1146/annurev.clinpsy.032408.153621
+   FOLKMAN S, 1986, J PERS SOC PSYCHOL, V50, P992, DOI 10.1037/0022-3514.50.5.992
+   Gan DRY, 2022, GERONTOLOGIST, V62, P855, DOI 10.1093/geront/gnac004
+   Gao FF, 2026, POPUL SPACE PLACE, V32, DOI 10.1002/psp.70232
+   Guo SY, 2026, SOC SCI MED, V396, DOI 10.1016/j.socscimed.2026.119110
+   Herrman H, 2022, LANCET, V399, P957, DOI 10.1016/S0140-6736(21)02141-3
+   Hodge H, 2017, J RURAL STUD, V54, P469, DOI 10.1016/j.jrurstud.2016.06.016
+   Huang DR, 2023, J GLOB HEALTH, V13, DOI 10.7189/jogh.13.04119
+   Huang JH, 2024, BMC PUBLIC HEALTH, V24, DOI 10.1186/s12889-024-19975-9
+   Kennedy MA, 2021, J AM GERIATR SOC, V69, P1670, DOI 10.1111/jgs.17078
+   Kiosses D.N., 2014, Curr Treat Options Psychiatry, V1, P15, DOI [DOI 10.1007/S40501-013-0003-0, 10.1007/s40501-013-0003-0]
+   Kroemeke A, 2016, J BEHAV MED, V39, P181, DOI 10.1007/s10865-015-9681-y
+   Kung WW, 2004, J COMMUNITY PSYCHOL, V32, P27, DOI 10.1002/jcop.10077
+   Lawton M.P., 1973, PSYCHOL ADULT DEV AG, P619, DOI DOI 10.1037/10044-020
+   Lawton M.P., 1982, AGING ENV, P33
+   LAWTON MP, 1983, GERONTOLOGIST, V23, P349, DOI 10.1093/geront/23.4.349
+   Lazarus R.S., 1984, STRESS APPRAISAL COP
+   Lei P, 2021, J AFFECT DISORDERS, V286, P187, DOI 10.1016/j.jad.2021.02.081
+   Leong F T, 2001, Ment Health Serv Res, V3, P201, DOI 10.1023/A:1013177014788
+   Li L, 2023, J AFFECT DISORDERS, V323, P514, DOI 10.1016/j.jad.2022.12.001
+   Liu YQ, 2023, LANDSCAPE URBAN PLAN, V240, DOI 10.1016/j.landurbplan.2023.104897
+   Liu YQ, 2021, HEALTH PLACE, V70, DOI 10.1016/j.healthplace.2021.102585
+   Luo MS, 2023, AGING MENT HEALTH, V27, P18, DOI 10.1080/13607863.2021.2010182
+   Mu YX, 2023, BMC GERIATR, V23, DOI 10.1186/s12877-023-04369-0
+   Musliner KL, 2016, J AFFECT DISORDERS, V192, P199, DOI 10.1016/j.jad.2015.12.030
+   Nagin DS, 2018, STAT METHODS MED RES, V27, P2015, DOI 10.1177/0962280216673085
+   Nagin DS, 2014, ANN NUTR METAB, V65, P205, DOI 10.1159/000360229
+   National Health Commission of the People's Republic of China, 2021, NOTICE ISSUING TRIAL
+   National Health Commission of the People's Republic of China, 2012, LAW PEOPLES REPUBLIC
+   Pan ZL, 2024, SOC SCI MED, V340, DOI 10.1016/j.socscimed.2023.116403
+   Paquet C, 2023, J MED INTERNET RES, V25, DOI 10.2196/40213
+   Percival A, 2022, FAM MED COMMUNITY HE, V10, DOI 10.1136/fmch-2022-001829
+   Plouffe L, 2010, J URBAN HEALTH, V87, P733, DOI 10.1007/s11524-010-9466-0
+   Qin WD, 2023, AGING MENT HEALTH, V27, P2220, DOI 10.1080/13607863.2023.2215180
+   Ramírez-Maestre C, 2008, EUR J PAIN, V12, P749, DOI 10.1016/j.ejpain.2007.11.004
+   Ravensbergen L, 2022, J TRANSP GEOGR, V103, DOI 10.1016/j.jtrangeo.2022.103408
+   Sen K, 2022, SSM-POPUL HLTH, V17, DOI 10.1016/j.ssmph.2021.101020
+   Song Q, 2017, DEMOGR RES, V37, P1761, DOI 10.4054/demres.2017.37.55
+   Steels S, 2015, CITIES, V47, P45, DOI 10.1016/j.cities.2015.02.004
+   Tang X, 2023, FRONT PUBLIC HEALTH, V11, DOI 10.3389/fpubh.2023.1171046
+   Tian G, 2022, FRONT PUBLIC HEALTH, V10, DOI 10.3389/fpubh.2022.980465
+   Toyama M, 2021, GERONTOLOGIST, V61, P917, DOI 10.1093/geront/gnaa135
+   van Dijk HM, 2013, HEALTH SOC CARE COMM, V21, P150, DOI 10.1111/hsc.12006
+   World Health Organization, 2015, WORLD REPORT AGEING
+   World Health Organization, 2025, DEPRESSIVE DISORDER
+   World Health Organization, 2007, GLOBAL AGE FRIENDLY
+   Wu ZY, 2025, BMJ OPEN, V15, DOI 10.1136/bmjopen-2024-095754
+   Yan R, 2025, J AFFECT DISORDERS, V380, P456, DOI 10.1016/j.jad.2025.03.154
+   Yang L, 2024, SOC PSYCH PSYCH EPID, V59, P1999, DOI 10.1007/s00127-024-02612-6
+   Yu Y, 2025, APPL SCI-BASEL, V15, DOI 10.3390/app15094601
+   Yuan Q, 2024, SCI REP-UK, V14, DOI 10.1038/s41598-024-76339-4
+   Zhao Y., 2013, CHINA HLTH RETIREMEN
+   Zhao YH, 2014, INT J EPIDEMIOL, V43, P61, DOI 10.1093/ije/dys203
+   Zheng ZH, 2019, INT J ENV RES PUB HE, V16, DOI 10.3390/ijerph16152794
+   Zhou LN, 2021, J AFFECT DISORDERS, V281, P454, DOI 10.1016/j.jad.2020.12.059
+   Zhu HY, 2019, AGEING SOC, V39, P1335, DOI 10.1017/S0144686X17001593
+NR 68
+TC 0
+Z9 0
+U1 0
+U2 0
+PU PERGAMON-ELSEVIER SCIENCE LTD
+PI OXFORD
+PA THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN 0277-9536
+EI 1873-5347
+J9 SOC SCI MED
+JI Soc. Sci. Med.
+PD NOV
+PY 2026
+VL 408
+AR 119798
+DI 10.1016/j.socscimed.2026.119798
+EA SEP 2026
+PG 13
+WC Public, Environmental & Occupational Health; Social Sciences, Biomedical
+WE Science Citation Index Expanded (SCI-EXPANDED); Social Science Citation Index (SSCI)
+SC Public, Environmental & Occupational Health; Biomedical Social Sciences
+GA OC2WV
+UT WOS:001874127100001
+PM 42715644
+DA 2026-09-25
+ER
+
+PT J
+AU Grespan, A
+   Garcia, J
+   Brikalski, MP
+   Henning, E
+   Kalbusch, A
+AF Grespan, Alice
+   Garcia, Janine
+   Brikalski, Miqueias Paulo
+   Henning, Elisa
+   Kalbusch, Andreza
+TI Assessment of water consumption in households using statistical analysis
+   and regression trees
+SO SUSTAINABLE CITIES AND SOCIETY
+LA English
+DT Article
+DE Water consumption; Households; Regression tree; Machine learning;
+   Socioeconomic variables; Building characteristics
+ID RESOURCE-MANAGEMENT; LAND-USE; DEMAND; DETERMINANTS; CLASSIFICATION;
+   POLICIES; PHOENIX; REUSE; CITY
+AB Understanding the drivers of water consumption is essential for effective water resources management. This paper evaluates how socioeconomic and demographic variables, construction characteristics and behavioral aspects of residents influence domestic water consumption in the city of Joinville, Southern Brazil, analyzing data from 394 households. Statistical analysis and Univariate Regression Trees were applied to the data set. The results show that the average per capita consumption is 143.67 L/person/day, while the average household monthly water consumption is 14.53 m3/household/month. Amidst the findings in the statistical analysis, so-cioeconomic aspects such as number of residents, income and presence of children in the household showed an effect on water consumption, as well as building age and typology, number of bathrooms and presence of a bathtub and a swimming pool. The regression trees allowed identifying that the number of residents and area per capita are the variables with greater importance to estimate household and per capita water consumption, respectively. As a key implication of this study, the analysis presented herein provides additional empirical support for the body of knowledge on the factors that influence residential water consumption and can help decision-makers to direct actions and public policies aimed at water conservation in the built environment.
+C1 [Grespan, Alice; Garcia, Janine; Brikalski, Miqueias Paulo; Kalbusch, Andreza] Santa Catarina State Univ UDESC, Civil Engn Dept, BR-89219710 Joinville, SC, Brazil.
+   [Henning, Elisa] Santa Catarina State Univ UDESC, Math Dept, BR-89219710 Joinville, SC, Brazil.
+C3 Universidade do Estado de Santa Catarina; Universidade do Estado de
+   Santa Catarina
+RP Kalbusch, A (corresponding author), Santa Catarina State Univ UDESC, Civil Engn Dept, BR-89219710 Joinville, SC, Brazil.
+EM andreza.kalbusch@udesc.br
+RI Kalbusch, Andreza/AAR-5980-2021; Henning, Elisa/AAS-7682-2021
+OI Kalbusch, Andreza/0000-0002-4770-1758; 
+FU Conselho Nacional de Desenvolvimento Cientifico e Tecnologico - CNPq
+   [423090/2021-6]; Fundacao de Amparo a Pesquisa e Inovacao do Estado de
+   Santa Catarina - FAPESC [2021TR837]
+FX The authors would like to acknowledge Aguas de Jonville for the water
+   consumption database. This research was supported by Conselho Nacional
+   de Desenvolvimento Cientifico e Tecnologico - CNPq [grant number
+   423090/2021-6] and Fundacao de Amparo a Pesquisa e Inovacao do Estado de
+   Santa Catarina - FAPESC [grant number 2021TR837].
+CR Agthe DE, 2002, J WATER RES PL-ASCE, V128, P366, DOI 10.1061/(ASCE)0733-9496(2002)128:5(366)
+   [Anonymous], 2020, R LANG ENV STAT COMP
+   Arbués F, 2006, URBAN STUD, V43, P2421, DOI 10.1080/00420980601038255
+   Arbués F, 2010, AUST J AGR RESOUR EC, V54, P61, DOI 10.1111/j.1467-8489.2009.00479.x
+   Beal CD, 2013, J CLEAN PROD, V60, P116, DOI 10.1016/j.jclepro.2011.09.007
+   Bich-Ngoc N, 2022, UTIL POLICY, V74, DOI 10.1016/j.jup.2021.101281
+   Breiman L., 1984, CLASSIFICATION REGRE
+   Bruce P., 2020, Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python
+   Cavanagh S. M., 2002, SSRN ELECT J, DOI [10.2139/ssrn.317924, DOI 10.2139/SSRN.317924]
+   Chang HJ, 2017, SCI TOTAL ENVIRON, V596, P451, DOI 10.1016/j.scitotenv.2017.03.164
+   Chang H, 2010, URBAN GEOGR, V31, P953, DOI 10.2747/0272-3638.31.7.953
+   da Silva KPT, 2021, URBAN WATER J, V18, P783, DOI 10.1080/1573062X.2021.1934040
+   Das A, 2009, J SAFETY RES, V40, P317, DOI 10.1016/j.jsr.2009.05.003
+   Cruz AOI, 2017, J CLEAN PROD, V142, P1901, DOI 10.1016/j.jclepro.2016.11.094
+   Dias TF, 2018, J CLEAN PROD, V184, P160, DOI 10.1016/j.jclepro.2018.02.093
+   Domene E, 2006, URBAN STUD, V43, P1605, DOI 10.1080/00420980600749969
+   Echeverría JMA, 2020, J CLEAN PROD, V260, DOI 10.1016/j.jclepro.2020.120895
+   Everitt B., 2001, ANAL MEDICAL DATA US, DOI [10.1007/978-1-4757-3285-6, DOI 10.1007/978-1-4757-3285-6]
+   Fagerland MW, 2012, BMC MED RES METHODOL, V12, DOI 10.1186/1471-2288-12-78
+   Fan LX, 2017, J CLEAN PROD, V166, P124, DOI 10.1016/j.jclepro.2017.08.044
+   Feizizadeh B, 2021, SUSTAIN CITIES SOC, V64, DOI 10.1016/j.scs.2020.102584
+   Fink A., 2010, Survey Research Methods, V3rd, P152, DOI [DOI 10.1016/B978-0-08-044894-7.00296-7, 10.1016/B978-0-08-044894-7.00296-7]
+   Fox C, 2009, LAND USE POLICY, V26, P558, DOI 10.1016/j.landusepol.2008.08.004
+   Galloway G., 2005, Encyclopedia of social measurement, P859, DOI DOI 10.1016/B0-12-369398-5/00382-0
+   Garcia-Cuerva L, 2016, RESOUR CONSERV RECY, V113, P106, DOI 10.1016/j.resconrec.2016.06.006
+   Ghavidelfar S, 2017, WATER RESOUR MANAG, V31, P2173, DOI 10.1007/s11269-017-1635-4
+   Gholamy Afshin., 2018, WHY 7030 8020 RELATI
+   Gonzalez F. C., 2008, CUADERNOS I D I 4 MI
+   Grafton RQ, 2011, WATER RESOUR RES, V47, DOI 10.1029/2010WR009685
+   Guhathakurta S, 2010, J PLAN EDUC RES, V30, P40, DOI 10.1177/0739456X10374187
+   Hamner B., 2018, Metrics: Evaluation Metrics for Machine Learning
+   Harlan SL, 2009, SOC NATUR RESOUR, V22, P691, DOI 10.1080/08941920802064679
+   Hayes T, 2015, PSYCHOL AGING, V30, P911, DOI 10.1037/pag0000046
+   House-Peters L, 2010, J AM WATER RESOUR AS, V46, P461, DOI 10.1111/j.1752-1688.2009.00415.x
+   Hussien WA, 2016, WATER RESOUR MANAG, V30, P2931, DOI 10.1007/s11269-016-1314-x
+   IBGE, 2018, ABOUT US
+   IBGE-Instituto Brasileiro de Geografia e Estatistica Dados do Censo, 2010, ABOUT US
+   IBGE-Instituto Brasileiro de Geografia e Estatistica Estimativas de Populaçao, 2021, About us
+   Instituto Brasileiro de Geografia e Estatistica - IBGE, 2017, US
+   Jaglarz A, 2015, LECT NOTES COMPUT SC, V9178, P303, DOI 10.1007/978-3-319-20687-5_29
+   James G, 2013, SPRINGER TEXTS STAT, V103, P127, DOI 10.1007/978-1-4614-7138-7_4
+   Kakwani NS, 2020, J ENVIRON MANAGE, V271, DOI 10.1016/j.jenvman.2020.111010
+   King A., 2019, STAT BIOMEDICAL ENG, V1st
+   Kontokosta CE, 2015, SUSTAIN CITIES SOC, V18, P44, DOI 10.1016/j.scs.2015.05.007
+   Kotu V., 2019, DATA SCI, VSecond, DOI [10.1016/B978-0-12-814761-0.00016-2, DOI 10.1016/B978-0-12-814761-0.00016-2]
+   Kuhn M., 2013, Applied Predictive Modeling, DOI [DOI 10.1007/978-1-4614-6849-3, 10.1007/978-1-4614-6849-3_19, DOI 10.1007/978-1-4614-6849-3_19]
+   Kumar S, 2018, MOL BIOL EVOL, V35, P1547, DOI [10.1093/molbev/msy096, 10.1021/acs.jmedchem.5b00104]
+   Kutner M.H., 2005, Applied Linear Statistical Models, V5th
+   Lee D, 2020, J WATER RES PLAN MAN, V146, DOI 10.1061/(ASCE)WR.1943-5452.0001119
+   Lever J, 2016, NAT METHODS, V13, P703, DOI 10.1038/nmeth.3968
+   Lewis R.J., 2000, INTRO CLASSIFICATION
+   Lu SB, 2018, HABITAT INT, V78, P29, DOI 10.1016/j.habitatint.2018.05.002
+   Makki AA, 2015, RESOUR CONSERV RECY, V95, P15, DOI 10.1016/j.resconrec.2014.11.009
+   Matos C, 2014, SCI TOTAL ENVIRON, V466, P467, DOI 10.1016/j.scitotenv.2013.07.036
+   Mayer P.W., 1999, RESIDENTIAL END USES
+   Montgomery D.C., 2010, Applied Statistics and Probability for Engineers
+   Mukaka MM, 2012, MALAWI MED J, V24, P69
+   Nguyen BN, 2018, LECT NOTES COMPUT SC, V10964, P685, DOI 10.1007/978-3-319-95174-4_52
+   Ogunbode T. O., 2014, African Journal of Environmental Science and Technology, V8, P247
+   Rahim MS, 2021, KNOWL-BASED SYST, V233, DOI 10.1016/j.knosys.2021.107522
+   Rajeevan U, 2020, GROUNDWATER SUST DEV, V10, DOI 10.1016/j.gsd.2019.100280
+   Ramezan CA, 2021, REMOTE SENS-BASEL, V13, DOI 10.3390/rs13030368
+   Rathnayaka K, 2014, RESOUR CONSERV RECY, V92, P85, DOI 10.1016/j.resconrec.2014.08.012
+   Romano G, 2016, J CLEAN PROD, V130, P74, DOI 10.1016/j.jclepro.2015.09.141
+   Sant'Ana D, 2018, SUST WAT RESOUR MAN, V4, P921, DOI 10.1007/s40899-017-0186-4
+   Schleich J, 2009, ECOL ECON, V68, P1756, DOI 10.1016/j.ecolecon.2008.11.012
+   SEPUD, 2018, US
+   SEPUD, 2021, US
+   Shandas V, 2010, ENVIRON PLANN B, V37, P112, DOI 10.1068/b35036
+   Smith R, 2019, ENVIRON MODELL SOFTW, V120, DOI 10.1016/j.envsoft.2019.104498
+   Stoker P, 2014, SUSTAIN CITIES SOC, V12, P1, DOI 10.1016/j.scs.2014.03.002
+   Strobl C, 2009, PSYCHOL METHODS, V14, P323, DOI 10.1037/a0016973
+   Syme GJ, 2004, LANDSCAPE URBAN PLAN, V68, P121, DOI 10.1016/j.landurbplan.2003.08.002
+   Therneau TerryM., 2019, INTRO RECURSIVE PART
+   Tsani S, 2020, ENVIRON SCI POLICY, V114, P570, DOI 10.1016/j.envsci.2020.09.008
+   Villarin MC, 2019, J WATER RES PLAN MAN, V145, DOI 10.1061/(ASCE)WR.1943-5452.0001067
+   Villarín MC, 2019, APPL GEOGR, V103, P22, DOI 10.1016/j.apgeog.2018.12.005
+   Voskamp IM, 2020, J CLEAN PROD, V256, DOI 10.1016/j.jclepro.2020.120310
+   Voulvoulis N, 2018, CURR OPIN ENV SCI HL, V2, P32, DOI 10.1016/j.coesh.2018.01.005
+   Wang Q, 2021, SUSTAIN CITIES SOC, V75, DOI 10.1016/j.scs.2021.103272
+   Wang Y, 2021, J ENVIRON MANAGE, V289, DOI 10.1016/j.jenvman.2021.112449
+   Wentz EA, 2007, WATER RESOUR MANAG, V21, P1849, DOI 10.1007/s11269-006-9133-0
+   Wickham H., 2016, GGPLOT2 ELEGANT GRAP, VSecond Edition
+   Zhang HH, 2005, HABITAT INT, V29, P469, DOI 10.1016/j.habitatint.2004.04.002
+   Zheng H, 2020, INT J ENV RES PUB HE, V17, DOI 10.3390/ijerph17092983
+NR 85
+TC 44
+Z9 46
+U1 1
+U2 21
+PU ELSEVIER
+PI AMSTERDAM
+PA RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN 2210-6707
+EI 2210-6715
+J9 SUSTAIN CITIES SOC
+JI Sust. Cities Soc.
+PD DEC
+PY 2022
+VL 87
+AR 104186
+DI 10.1016/j.scs.2022.104186
+EA SEP 2022
+PG 13
+WC Construction & Building Technology; Green & Sustainable Science &
+   Technology; Energy & Fuels
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Construction & Building Technology; Science & Technology - Other Topics;
+   Energy & Fuels
+GA 5K5JV
+UT WOS:000869763400003
+OA Green Published
+DA 2026-09-25
+ER
+
+PT J
+AU Zhang, HC
+   Zou, Y
+   Castillo, ED
+   Yang, XF
+AF Zhang, Hongchang
+   Zou, Yang
+   del Rey Castillo, Enrique
+   Yang, Xiaofei
+TI Detection of RC Spalling Damage and Quantification of Its Key Properties
+   from 3D Point Cloud
+SO KSCE JOURNAL OF CIVIL ENGINEERING
+LA English
+DT Article
+DE Point cloud; Spalling; Damage detection; Damage quantification;
+   Reinforced concrete structure
+ID CONCRETE STRUCTURES; MACHINE VISION; INSPECTION; BUILDINGS; BIM
+AB Reinforced concrete (RC) structures are prone to spalling damage. Successful detection and quantification of spalling are critical to monitoring the structural safety condition. Point cloud generated by emerging surveying technologies such as photogrammetry, laser scanning and Light Detection and Ranging (LiDAR) has been growingly used for spalling damage detection. However, little is known about how to automatically extract all key properties of RC spalling from point cloud data (PCD). This paper presents a three-step computational framework to semi-automatically detect the spalling and quantify its key properties in RC columns from PCD. Specifically, it first removes noise points, calibrates the coordinate system of the captured PCD, and horizontally slices the PCD into thin layers for the spalling damaged RC columns. Secondly, the points for undamaged and damaged areas are detected by measuring the location of each point on its horizontal surface and comparing it with the boundary line of the intact column. The points for the exposed reinforcement is then detected by combining the use of boundary curve fitting and the consideration of the circular shape of vertical rebars. Thirdly, the spalling's surface area and lost concrete volume are calculated by linear interpolation. A full-size RC column after seismic testing was selected for illustration. The findings contribute to the body of knowledge in structural inspection by introducing a new computational approach for detecting and measuring RC spalling damage. Such an automated approach may largely reduce human interventions and make damage detection and quantification more efficient for post-disaster impact assessment and large-scale building condition assessment.
+C1 [Zhang, Hongchang; Zou, Yang; del Rey Castillo, Enrique; Yang, Xiaofei] Univ Auckland, Dept Civil & Environm Engn, Auckland 1010, New Zealand.
+C3 University of Auckland
+RP Zou, Y (corresponding author), Univ Auckland, Dept Civil & Environm Engn, Auckland 1010, New Zealand.
+EM yang.zou@auckland.ac.nz
+RI ZOU, YANG/HLQ-0796-2023
+OI ZOU, YANG/0000-0001-6150-6126; del Rey Castillo,
+   Enrique/0000-0003-1103-3804; Yang, Xiaofei/0000-0001-9901-4944; MARTINEZ
+   CASTILLO, ENRIQUE/0000-0001-8916-9379
+FU University of Auckland Faculty Research Development Fund [3716476]
+FX The authors would like to acknowledge the financial support received
+   from the University of Auckland Faculty Research Development Fund
+   (Project No. 3716476).
+CR ACI, 2015, 3021R15 ACI
+   ACI (American Concrete Institute), 2013, PRC374213 ACI
+   Adhikari RS, 2014, AUTOMAT CONSTR, V39, P180, DOI 10.1016/j.autcon.2013.06.011
+   Ahmad S, 2003, CEMENT CONCRETE COMP, V25, P459, DOI 10.1016/S0958-9465(02)00086-0
+   [Anonymous], 2021, MATLAB
+   [Anonymous], 2014, An ACI Standard and Report: Building Code Requirements for Structural Concrete (ACI 318-14), P524
+   Barazzetti L, 2016, ISPRS ANN PHOTO REM, V3, P51, DOI 10.5194/isprsannals-III-5-51-2016
+   Barazzetti L, 2009, ISPRS J PHOTOGRAMM, V64, P285, DOI 10.1016/j.isprsjprs.2009.02.004
+   Belhaoua A, 2010, EURASIP J IMAGE VIDE, DOI 10.1155/2010/539836
+   Bracewell R.N., 1986, FOURIER TRANSFORM IT
+   Brilakis I, 2010, ADV ENG INFORM, V24, P456, DOI 10.1016/j.aei.2010.06.006
+   Cameron AC, 1997, J ECONOMETRICS, V77, P329
+   Castillo ED, 2021, J COMPOS CONSTR, V25, DOI 10.1061/(ASCE)CC.1943-5614.0001095
+   Castillo ED, 2018, COMPOS STRUCT, V203, P382, DOI 10.1016/j.compstruct.2018.07.029
+   Catalucci S, 2018, MEASUREMENT, V127, P221, DOI 10.1016/j.measurement.2018.05.111
+   Dore C, 2014, J INF TECHNOL CONSTR, V19, P20
+   Erdélyi J, 2017, APPL GEOMAT, V9, P105, DOI 10.1007/s12518-017-0186-y
+   Erkal BG, 2017, AUTOMAT CONSTR, V83, P285, DOI 10.1016/j.autcon.2017.08.004
+   FARO, 2020, FARO LAS SCANN TECH
+   Fryskowska A, 2018, J CULT HERIT, V34, P95, DOI 10.1016/j.culher.2018.04.003
+   Fuchs PA, 2004, J PERFORM CONSTR FAC, V18, P213, DOI 10.1061/(ASCE)0887-3828(2004)18:4(213)
+   Gao HB, 2018, IEEE T IND INFORM, V14, P4224, DOI 10.1109/TII.2018.2822828
+   German S, 2012, P SPIE SMART STRUCTU
+   German S, 2012, ADV ENG INFORM, V26, P846, DOI 10.1016/j.aei.2012.06.005
+   Hashemi MJ, 2017, J STRUCT ENG, V143, DOI 10.1061/(ASCE)ST.1943-541X.0001629
+   Hutchinson TC, 2006, J COMPUT CIVIL ENG, V20, P210, DOI 10.1061/(ASCE)0887-3801(2006)20:3(210)
+   Hüthwohl P, 2018, J COMPUT CIVIL ENG, V32, DOI 10.1061/(ASCE)CP.1943-5487.0000744
+   Ip Cheuk Yiu., 2007, Computer-Aided Design and Applications, V4, P629, DOI DOI 10.1080/16864360.2007.10738497
+   Kang D, 2020, AUTOMAT CONSTR, V118, DOI 10.1016/j.autcon.2020.103291
+   Kim H, 2020, STRUCT CONTROL HLTH, V27, DOI 10.1002/stc.2591
+   Kim MK, 2016, AUTOMAT CONSTR, V72, P102, DOI 10.1016/j.autcon.2016.08.035
+   Kim MK, 2015, J COMPUT CIVIL ENG, V29, DOI 10.1061/(ASCE)CP.1943-5487.0000415
+   Kim MK, 2015, AUTOMAT CONSTR, V49, P225, DOI 10.1016/j.autcon.2014.07.010
+   Koch C, 2014, ADV STRUCT ENG, V17, P303, DOI 10.1260/1369-4332.17.3.303
+   Koch C, 2011, ADV ENG INFORM, V25, P507, DOI 10.1016/j.aei.2011.01.002
+   Liu YC, 2019, IEEE I CONF COMP VIS, P5238, DOI 10.1109/ICCV.2019.00534
+   Lu RD, 2019, COMPUT-AIDED CIV INF, V34, P191, DOI 10.1111/mice.12407
+   Ma L, 2016, J COMPUT CIVIL ENG, V30, DOI 10.1061/(ASCE)CP.1943-5487.0000500
+   Maeda M, 2004, P 13 WORLD C EARTHQ
+   Maffei J, 2008, EARTHQ SPECTRA, V24, P667, DOI 10.1193/1.2950066
+   Majorana CE, 2010, MATH COMPUT SIMULAT, V80, P1694, DOI 10.1016/j.matcom.2009.05.011
+   Matlab, 2021, DEL TRIANG
+   Minehane M, 2014, CIV ENG RES IR CERI, P235
+   Mizoguchi T, 2013, AUTOMAT CONSTR, V35, P263, DOI 10.1016/j.autcon.2013.05.022
+   Mukupa W, 2017, SURV REV, V49, P99, DOI 10.1080/00396265.2015.1133039
+   NZTA, 2019, BRIDG GEOT STRUCT OT
+   Park HS, 2007, COMPUT-AIDED CIV INF, V22, P19, DOI 10.1111/j.1467-8667.2006.00466.x
+   PCA, 2002, TYP CAUS CONCR DET
+   PointCab GmbH, 2021, POINTCAB ORIGINS PRO
+   RAJAN VT, 1994, DISCRETE COMPUT GEOM, V12, P189, DOI 10.1007/BF02574375
+   Rau JY, 2017, INT ARCH PHOTOGRAMM, V42-2, P311, DOI 10.5194/isprs-archives-XLII-2-W6-311-2017
+   Rogers R., 2016, ASSESSING PRETENSION
+   Sacks R, 2018, AUTOMAT CONSTR, V90, P134, DOI 10.1016/j.autcon.2018.02.033
+   Shiradhonkar S, 2014, P 15 S EARTHQ ENG I5
+   Torok MM, 2014, J COMPUT CIVIL ENG, V28, DOI 10.1061/(ASCE)CP.1943-5487.0000334
+   Truong-Hong L., 2014, IABSE REPORTS, V102, P2713
+   Verma SanjeevKumar., 2013, J CONSTRUCTION ENG 2, DOI DOI 10.1155/2013/834572
+   Wu HB, 2019, J SENSORS, V2019, DOI 10.1155/2019/8574750
+   Yang P, 2019, ACM T INTEL SYST TEC, V10, DOI 10.1145/3339474
+   Zhou ZX, 2016, J COMPUT CIVIL ENG, V30, DOI 10.1061/(ASCE)CP.1943-5487.0000480
+   Zhu JX, 2019, AUTOMAT CONSTR, V106, DOI 10.1016/j.autcon.2019.102859
+   Zhu Z, 2010, AUTOMAT CONSTR, V19, P1047, DOI 10.1016/j.autcon.2010.07.016
+NR 62
+TC 27
+Z9 29
+U1 4
+U2 71
+PU KOREAN SOCIETY OF CIVIL ENGINEERS-KSCE
+PI SEOUL
+PA 3-16 JUNGDAE-RO 25-GIL, SONGPA-GU, SEOUL, 05661, SOUTH KOREA
+SN 1226-7988
+EI 1976-3808
+J9 KSCE J CIV ENG
+JI KSCE J. Civ. Eng.
+PD MAY
+PY 2022
+VL 26
+IS 5
+BP 2023
+EP 2035
+DI 10.1007/s12205-022-0890-y
+EA FEB 2022
+PG 13
+WC Engineering, Civil
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Engineering
+GA 0O9IJ
+UT WOS:000757784600004
+OA hybrid
+DA 2026-09-25
+ER
+
+PT J
+AU Kwok, YT
+   De Munck, C
+   Schoetter, R
+   Ren, C
+   Lau, KKL
+AF Kwok, Yu Ting
+   De Munck, Cecile
+   Schoetter, Robert
+   Ren, Chao
+   Lau, Kevin Ka-Lun
+TI Refined dataset to describe the complex urban environment of Hong Kong
+   for urban climate modelling studies at the mesoscale
+SO THEORETICAL AND APPLIED CLIMATOLOGY
+LA English
+DT Article
+ID BUILDING ENERGY-CONSUMPTION; HEAT-ISLAND; CANOPY MODEL; ANTHROPOGENIC
+   HEAT; EXCHANGE PARAMETERIZATION; OFFICE BUILDINGS; AIR-TEMPERATURE;
+   BALANCE MODEL; SINGLE-LAYER; IMPACT
+AB Urban climate models are indispensable tools for the evaluation of climatic risks faced by the growing urban population. In order to accurately simulate the urban surface energy balance at a high spatial resolution, it is important to provide models with detailed input data that can adequately describe the spatial variation of land covers, urban morphology, construction materials, and building functions within an urban area. Using Hong Kong-a city well-known for its complex, high-rise urban environment-as the testing ground, this study aims to present a geographic information system-based workflow for the construction of a refined urban database. Firstly, maps of land cover tiles, pervious and impervious surface fractions, building height, and other input parameters required by mesoscale atmospheric models are derived from multiple data sources including administrative building data, satellite images, and land use surveys. Secondly, a total of 18 representative building archetypes, with their corresponding architectural characteristics and occupant behaviour schedules, are defined. This allows for models to take into account the radiative, thermal, and dynamic interactions between buildings and the atmosphere, as well as the anthropogenic heat fluxes. Finally, locally adapted ranges of urban morphological parameters for the different local climate zones (LCZs) are derived, enabling the expansion of data coverage to neighbouring areas of Hong Kong, where detailed urban data are not readily available. Uncertainties of the refined database and limitations of the LCZ scheme are also discussed so that a similar approach may be adapted and applied to other cities in the world.
+C1 [Kwok, Yu Ting] Chinese Univ Hong Kong, Sch Architecture, Hong Kong, Peoples R China.
+   [De Munck, Cecile; Schoetter, Robert] Univ Toulouse, CNRM, Meteo France, CNRS, Toulouse 1, France.
+   [Ren, Chao] Univ Hong Kong, Fac Architecture, Hong Kong, Peoples R China.
+   [Lau, Kevin Ka-Lun] Chinese Univ Hong Kong, Inst Future Cities, Hong Kong, Peoples R China.
+C3 Chinese University of Hong Kong; Centre National de la Recherche
+   Scientifique (CNRS); Communaute d'universites et etablissements de
+   Toulouse (Comue); Meteo France; University of Hong Kong; Chinese
+   University of Hong Kong
+RP Kwok, YT (corresponding author), Chinese Univ Hong Kong, Sch Architecture, Hong Kong, Peoples R China.
+EM ytkwok@link.cuhk.edu.hk
+RI Kwok, Yu Ting/ABD-7450-2020; Schoetter, Robert/JQV-8894-2023; Ren,
+   Chao/L-8938-2019; Lau, KL/IXX-1078-2023
+OI Kwok, Yu Ting/0000-0002-3612-748X; Ren, Chao/0000-0002-8494-2585; 
+FU PROCORE-France/Hong Kong Joint Research Scheme - Research Grants
+   Council; Consulate General of France in Hong Kong [F-CUHK403/18];
+   Chinese University of Hong Kong
+FX The work is supported by a grant from the PROCORE-France/Hong Kong Joint
+   Research Scheme sponsored by the Research Grants Council and the
+   Consulate General of France in Hong Kong (Reference No. F-CUHK403/18),
+   as well as the Vice-Chancellor's Discretionary Fund of the Chinese
+   University of Hong Kong. The authors would also like to thank all
+   students who have helped with the mapping of building archetypes, as
+   well as practitioners from Sang Hing Construction Company Limited for
+   their advice on building construction materials. The LCZ data used in
+   this study have been developed by Miss Meng Cai and Miss Ran Wang.
+CR Alexander PJ, 2015, URBAN CLIM, V13, P14, DOI 10.1016/j.uclim.2015.05.001
+   Ali M., 2007, Architectural science review, P205, DOI [10.3763/asre.2007.5027, DOI 10.3763/ASRE.2007.5027]
+   Allen L, 2011, INT J CLIMATOL, V31, P1990, DOI 10.1002/joc.2210
+   AVISSAR R, 1989, MON WEATHER REV, V117, P2113, DOI 10.1175/1520-0493(1989)117<2113:APOHLS>2.0.CO;2
+   Bernard M, 2018, MODELISATION VARIABI
+   Best MJ, 2015, B AM METEOROL SOC, V96, P805, DOI 10.1175/BAMS-D-14-00122.1
+   Bocher E, 2018, URBAN CLIM, V24, P153, DOI 10.1016/j.uclim.2018.01.008
+   Bonczak B, 2019, COMPUT ENVIRON URBAN, V73, P126, DOI 10.1016/j.compenvurbsys.2018.09.004
+   Bueno B, 2012, GEOSCI MODEL DEV, V5, P433, DOI 10.5194/gmd-5-433-2012
+   Chen FF, 2011, INDISPENSABLE TRUTH: HOW FUSION POWER CAN SAVE THE PLANET, P273, DOI [10.1002/joc.2158, 10.1007/978-1-4419-7820-2_8]
+   Chen H, 2010, ENERG BUILDINGS, V42, P243, DOI 10.1016/j.enbuild.2009.08.020
+   Ching J, 2018, B AM METEOROL SOC, V99, P1907, DOI 10.1175/BAMS-D-16-0236.1
+   Ching J, 2019, URBAN CLIM, V28, DOI 10.1016/j.uclim.2019.100459
+   Ching J, 2009, B AM METEOROL SOC, V90, P1157, DOI 10.1175/2009BAMS2675.1
+   Cox W., 2019, DEMOGRAPHIA WORLD URBAN AREAS 15 th ANNUAL EDITION
+   de Munck CS, 2013, GEOSCI MODEL DEV, V6, P1941, DOI 10.5194/gmd-6-1941-2013
+   Dong Y, 2017, ATMOS ENVIRON, V150, P276, DOI 10.1016/j.atmosenv.2016.11.040
+   Dupont S, 2004, BOUND-LAY METEOROL, V113, P111, DOI 10.1023/B:BOUN.0000037327.19159.ac
+   ESA, 2019, COP OP ACC HUB
+   Fan HL, 2005, ATMOS ENVIRON, V39, P73, DOI 10.1016/j.atmosenv.2004.09.031
+   Garuma GF, 2018, URBAN CLIM, V24, P830, DOI 10.1016/j.uclim.2017.10.006
+   Gong FY, 2018, BUILD ENVIRON, V134, P155, DOI 10.1016/j.buildenv.2018.02.042
+   Grekousis G, 2015, INT J REMOTE SENS, V36, P5309, DOI 10.1080/01431161.2015.1093195
+   Grimmond CSB, 2011, INT J CLIMATOL, V31, P244, DOI 10.1002/joc.2227
+   Grimmond CSB, 1999, J APPL METEOROL, V38, P1262, DOI 10.1175/1520-0450(1999)038<1262:APOUAD>2.0.CO;2
+   Haklay M, 2008, IEEE PERVAS COMPUT, V7, P12, DOI 10.1109/MPRV.2008.80
+   Hidalgo J, 2019, URBAN CLIM, V27, P64, DOI 10.1016/j.uclim.2018.10.004
+   Holt T, 2007, MON WEATHER REV, V135, P1906, DOI 10.1175/MWR3372.1
+   Hong Kong Buildings Department (HKBD), 2014, GUID DES CONSTR REQ
+   Hong Kong Buildings Department (HKBD), 1995, COD PRACT OV THERM T
+   Hong Kong Electrical and Mechanical Services Department (HKEMSD), 2018, COD PRACT HONG KONG
+   Hong Kong Electrical and Mechanical Services Department (HKEMSD), 2007, GUID PERF BAS BUILD
+   Hong Kong Planning Department (HKPlanD), 2016, LAND UT HONG KONG
+   Hong Kong Planning Department (HKPlanD), 2019, LAND UT HONG KONG 20
+   Jackson TL, 2010, ANN ASSOC AM GEOGR, V100, P848, DOI 10.1080/00045608.2010.497328
+   Jaillon L, 2009, AUTOMAT CONSTR, V18, P239, DOI 10.1016/j.autcon.2008.09.002
+   Jia GS, 2015, CLIMATIC CHANGE, V129, P543, DOI 10.1007/s10584-014-1114-3
+   Jia J, 2018, ENERG BUILDINGS, V166, P296, DOI 10.1016/j.enbuild.2018.01.062
+   Jiang ZY, 2006, REMOTE SENS ENVIRON, V101, P366, DOI 10.1016/j.rse.2006.01.003
+   Kikegawa Y, 2003, APPL ENERG, V76, P449, DOI 10.1016/S0306-2619(03)00009-6
+   Krüger T, 2018, MICROMACHINES-BASEL, V9, DOI 10.3390/mi9020063
+   Kusaka H, 2001, BOUND-LAY METEOROL, V101, P329, DOI 10.1023/A:1019207923078
+   Kwok YT, 2017, ENERG BUILDINGS, V156, P390, DOI 10.1016/j.enbuild.2017.09.067
+   Lac C, 2018, GEOSCI MODEL DEV, V11, P1929, DOI 10.5194/gmd-11-1929-2018
+   Lam JC, 2005, ENERGY, V30, P933, DOI 10.1016/j.energy.2004.07.001
+   Lam JC, 2003, BUILD ENVIRON, V38, P493, DOI 10.1016/S0360-1323(02)00132-4
+   Lemonsu A, 2012, GEOSCI MODEL DEV, V5, P1377, DOI 10.5194/gmd-5-1377-2012
+   Li D, 2013, J GEOPHYS RES-ATMOS, V118, P11918, DOI 10.1002/2013JD020657
+   Li DHW, 2012, ENERGY, V42, P103, DOI 10.1016/j.energy.2012.03.044
+   Loga T, 2016, ENERG BUILDINGS, V132, P4, DOI 10.1016/j.enbuild.2016.06.094
+   Martilli A, 2002, BOUND-LAY METEOROL, V104, P261, DOI 10.1023/A:1016099921195
+   Martino P, 2016, DOI [10.2788/656115, DOI 10.2788/253582, 10.2788/253582]
+   Masson V, 2006, THEOR APPL CLIMATOL, V84, P35, DOI 10.1007/s00704-005-0142-3
+   Masson V, 2013, GEOSCI MODEL DEV, V6, P929, DOI 10.5194/gmd-6-929-2013
+   Masson V, 2003, J CLIMATE, V16, P1261, DOI 10.1175/1520-0442-16.9.1261
+   Masson V, 2000, BOUND-LAY METEOROL, V94, P357, DOI 10.1023/A:1002463829265
+   Masson V, 2020, URBAN CLIM, V31, DOI 10.1016/j.uclim.2019.100536
+   Monaghan AJ, 2014, J GEOPHYS RES-ATMOS, V119, P6376, DOI 10.1002/2013JD021227
+   Morris KI, 2016, COMPUT ENVIRON URBAN, V58, P39, DOI 10.1016/j.compenvurbsys.2016.03.005
+   Nemunaitis-Berry KL, 2017, J APPL METEOROL CLIM, V56, P573, DOI 10.1175/JAMC-D-16-0157.1
+   Ohashi Y, 2007, J APPL METEOROL CLIM, V46, P66, DOI 10.1175/JAM2441.1
+   Oke T.R., 1987, BOUNDARY LAYER CLIMA, Vsecond edition
+   OKE TR, 1981, J CLIMATOL, V1, P237, DOI 10.1002/joc.3370010304
+   Oleson KW, 2010, GEOPHYS RES LETT, V37, DOI 10.1029/2009GL042194
+   Pigeon G, 2014, ENERG BUILDINGS, V76, P1, DOI 10.1016/j.enbuild.2013.10.038
+   Redon EC, 2017, GEOSCI MODEL DEV, V10, P385, DOI 10.5194/gmd-10-385-2017
+   Revi A, 2014, CLIMATE CHANGE 2014: IMPACTS, ADAPTATION, AND VULNERABILITY, PT A: GLOBAL AND SECTORAL ASPECTS, P535
+   Roth M, 2000, Q J ROY METEOR SOC, V126, P941, DOI 10.1256/smsqj.56408
+   Sabo F, 2018, T GIS, V22, P1406, DOI 10.1111/tgis.12480
+   Sailor DJ, 2011, INT J CLIMATOL, V31, P189, DOI 10.1002/joc.2106
+   Salamanca F, 2010, THEOR APPL CLIMATOL, V99, P331, DOI [10.1007/s00704-009-0142-9, 10.1007/s00704-009-0143-8]
+   Salamanca F, 2011, J APPL METEOROL CLIM, V50, P1107, DOI 10.1175/2010JAMC2538.1
+   Santamouris M, 2014, SOL ENERGY, V103, P682, DOI 10.1016/j.solener.2012.07.003
+   Santamouris M, 2018, J CIV ENG MANAG, V24, P638, DOI 10.3846/jcem.2018.6604
+   Schoetter R, 2017, GEOSCI MODEL DEV, V10, P2801, DOI 10.5194/gmd-10-2801-2017
+   Shaffer SR, 2015, J APPL METEOROL CLIM, V54, P322, DOI 10.1175/JAMC-D-14-0051.1
+   Shashua-Bar L, 2000, ENERG BUILDINGS, V31, P221, DOI 10.1016/S0378-7788(99)00018-3
+   Shelton B, 2011, PLAN HIST ENVIRON SE, P1
+   Stewart ID, 2012, B AM METEOROL SOC, V93, P1879, DOI 10.1175/BAMS-D-11-00019.1
+   Tian YY, 2019, LANDSCAPE ECOL, V34, P1161, DOI 10.1007/s10980-019-00834-7
+   Tornay N, 2017, URBAN CLIM, V20, P75, DOI 10.1016/j.uclim.2017.03.002
+   Tse JWP, 2018, URBAN CLIM, V26, P174, DOI 10.1016/j.uclim.2018.08.007
+   Vahmani P, 2016, J GEOPHYS RES-ATMOS, V121, P1511, DOI 10.1002/2015JD023718
+   Wang R, 2018, URBAN CLIM, V24, P567, DOI 10.1016/j.uclim.2017.10.001
+   Wang XM, 2014, J APPL METEOROL CLIM, V53, P346, DOI 10.1175/JAMC-D-13-054.1
+   Wang Y, 2018, ENVIRON RES LETT, V13, DOI 10.1088/1748-9326/aaa848
+   Wang Y, 2017, J GEOPHYS RES-ATMOS, V122, P4332, DOI 10.1002/2017JD026702
+   Wong LT, 2008, ENERG POLICY, V36, P714, DOI 10.1016/j.enpol.2007.10.022
+   Wong MS, 2015, IEEE GEOSCI REMOTE S, V12, P1466, DOI 10.1109/LGRS.2015.2409111
+   Wong MMF, 2019, URBAN CLIM, V28, DOI 10.1016/j.uclim.2019.100460
+   Wong W. S., 2014, J CIVIL ENG ARCHITEC, V1, P215
+   Zhao D., 2018, THEORETICAL APPL CLI, P1
+NR 92
+TC 23
+Z9 25
+U1 2
+U2 48
+PU SPRINGER WIEN
+PI Vienna
+PA Prinz-Eugen-Strasse 8-10, A-1040 Vienna, AUSTRIA
+SN 0177-798X
+EI 1434-4483
+J9 THEOR APPL CLIMATOL
+JI Theor. Appl. Climatol.
+PD OCT
+PY 2020
+VL 142
+IS 1-2
+BP 129
+EP 150
+DI 10.1007/s00704-020-03298-x
+EA JUN 2020
+PG 22
+WC Meteorology & Atmospheric Sciences
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Meteorology & Atmospheric Sciences
+GA NY7WI
+UT WOS:000547654400001
+DA 2026-09-25
+ER
+
+EF
