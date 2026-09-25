@@ -1,0 +1,146 @@
+(
+  (
+    (TI=("building material stock*") OR AB=("building material stock*") OR AK=("building material stock*")) OR
+    (TI=("urban building material stock*") OR AB=("urban building material stock*") OR AK=("urban building material stock*")) OR
+    (TI=("material stock of building*") OR AB=("material stock of building*") OR AK=("material stock of building*")) OR
+    (TI=("materials in building stock*") OR AB=("materials in building stock*") OR AK=("materials in building stock*")) OR
+    (TI=("building material intensit*") OR AB=("building material intensit*") OR AK=("building material intensit*")) OR
+    (TI=("material intensity of building*") OR AB=("material intensity of building*") OR AK=("material intensity of building*"))
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*"))
+    )
+    AND
+    (
+      (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR
+      (TI=("existing building stock*") OR AB=("existing building stock*") OR AK=("existing building stock*")) OR
+      (TI=("urban building stock*") OR AB=("urban building stock*") OR AK=("urban building stock*")) OR
+      (TI=("residential building stock*") OR AB=("residential building stock*") OR AK=("residential building stock*")) OR
+      (TI=("non-residential building stock*") OR AB=("non-residential building stock*") OR AK=("non-residential building stock*")) OR
+      (TI=("building archetype*") OR AB=("building archetype*") OR AK=("building archetype*")) OR
+      (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*"))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("building archetype*") OR AB=("building archetype*") OR AK=("building archetype*")) OR
+      (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*")) OR
+      (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) OR
+      (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*"))
+    )
+    AND
+    (
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*"))
+    )
+    AND
+    (
+      (TI=(stock) OR AB=(stock) OR AK=(stock)) OR
+      (TI=(urban) OR AB=(urban) OR AK=(urban)) OR
+      (TI=(city) OR AB=(city) OR AK=(city)) OR
+      (TI=(neighbourhood*) OR AB=(neighbourhood*) OR AK=(neighbourhood*)) OR
+      (TI=(neighborhood*) OR AB=(neighborhood*) OR AK=(neighborhood*)) OR
+      (TI=(district*) OR AB=(district*) OR AK=(district*))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material passport*") OR AB=("material passport*") OR AK=("material passport*")) OR
+      (TI=(BIM) OR AB=(BIM) OR AK=(BIM)) OR
+      (TI=("building information model*") OR AB=("building information model*") OR AK=("building information model*")) OR
+      (TI=("building information modelling") OR AB=("building information modelling") OR AK=("building information modelling")) OR
+      (TI=("building information modeling") OR AB=("building information modeling") OR AK=("building information modeling"))
+    )
+    AND
+    (
+      (TI=("existing building*") OR AB=("existing building*") OR AK=("existing building*")) OR
+      (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR
+      (TI=(demolition) OR AB=(demolition) OR AK=(demolition)) OR
+      (TI=(deconstruction) OR AB=(deconstruction) OR AK=(deconstruction)) OR
+      (TI=(reuse) OR AB=(reuse) OR AK=(reuse)) OR
+      (TI=(recycling) OR AB=(recycling) OR AK=(recycling)) OR
+      (TI=(circular*) OR AB=(circular*) OR AK=(circular*))
+    )
+    AND
+    (
+      (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*")) OR
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*")) OR
+      (TI=("component inventor*") OR AB=("component inventor*") OR AK=("component inventor*"))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*"))
+    )
+    AND
+    (
+      (TI=("residential building*") OR AB=("residential building*") OR AK=("residential building*")) OR
+      (TI=("non-residential building*") OR AB=("non-residential building*") OR AK=("non-residential building*")) OR
+      (TI=("commercial building*") OR AB=("commercial building*") OR AK=("commercial building*")) OR
+      (TI=("office building*") OR AB=("office building*") OR AK=("office building*")) OR
+      (TI=("individual building*") OR AB=("individual building*") OR AK=("individual building*"))
+    )
+    AND
+    (
+      (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR
+      (TI=(classification) OR AB=(classification) OR AK=(classification)) OR
+      (TI=("semi-supervised") OR AB=("semi-supervised") OR AK=("semi-supervised")) OR
+      (TI=("supervised learning") OR AB=("supervised learning") OR AK=("supervised learning")) OR
+      (TI=("statistical model*") OR AB=("statistical model*") OR AK=("statistical model*"))
+    )
+  )
+)
+
+NOT (
+  (TI=(pavement*) OR AB=(pavement*) OR AK=(pavement*)) OR
+  (TI=(road*) OR AB=(road*) OR AK=(road*)) OR
+  (TI=(bridge*) OR AB=(bridge*) OR AK=(bridge*)) OR
+  (TI=(turbine*) OR AB=(turbine*) OR AK=(turbine*)) OR
+  (TI=("wind turbine*") OR AB=("wind turbine*") OR AK=("wind turbine*")) OR
+  (TI=("smart window*") OR AB=("smart window*") OR AK=("smart window*")) OR
+  (TI=("3D print*") OR AB=("3D print*") OR AK=("3D print*")) OR
+  (TI=("additive manufacturing") OR AB=("additive manufacturing") OR AK=("additive manufacturing")) OR
+  (TI=(battery) OR AB=(battery) OR AK=(battery)) OR
+  (TI=(photovoltaic) OR AB=(photovoltaic) OR AK=(photovoltaic)) OR
+  (TI=("solar cell*") OR AB=("solar cell*") OR AK=("solar cell*")) OR
+  (TI=("thermal management") OR AB=("thermal management") OR AK=("thermal management")) OR
+  (TI=("operational energy") OR AB=("operational energy") OR AK=("operational energy")) OR
+  (TI=("building energy model*") OR AB=("building energy model*") OR AK=("building energy model*")) OR
+  (TI=("building energy simulation*") OR AB=("building energy simulation*") OR AK=("building energy simulation*")) OR
+  (TI=("energy simulation*") OR AB=("energy simulation*") OR AK=("energy simulation*")) OR
+  (TI=("energy performance") OR AB=("energy performance") OR AK=("energy performance")) OR
+  (TI=("energy consumption") OR AB=("energy consumption") OR AK=("energy consumption")) OR
+  (TI=("energy demand") OR AB=("energy demand") OR AK=("energy demand")) OR
+  (TI=("heating demand") OR AB=("heating demand") OR AK=("heating demand")) OR
+  (TI=("cooling demand") OR AB=("cooling demand") OR AK=("cooling demand")) OR
+  (TI=("heating energy") OR AB=("heating energy") OR AK=("heating energy")) OR
+  (TI=("cooling energy") OR AB=("cooling energy") OR AK=("cooling energy")) OR
+  (TI=(HVAC) OR AB=(HVAC) OR AK=(HVAC)) OR
+  (TI=("thermal comfort") OR AB=("thermal comfort") OR AK=("thermal comfort")) OR
+  (TI=("indoor thermal comfort") OR AB=("indoor thermal comfort") OR AK=("indoor thermal comfort")) OR
+  (TI=("thermal performance") OR AB=("thermal performance") OR AK=("thermal performance")) OR
+  (TI=("indoor temperature") OR AB=("indoor temperature") OR AK=("indoor temperature")) OR
+  (TI=("urban heat") OR AB=("urban heat") OR AK=("urban heat")) OR
+  (TI=("urban heat island") OR AB=("urban heat island") OR AK=("urban heat island"))
+)

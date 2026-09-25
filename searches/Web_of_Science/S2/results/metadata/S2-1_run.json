@@ -1,0 +1,21 @@
+{
+  "database": "Web of Science Core Collection",
+  "family": "S2",
+  "variant": "S2-1 Base",
+  "query_date": "2026-09-25",
+  "result_count": 182,
+  "query_file": "queries/S2-1_base/S2-1_WoS_executed.txt",
+  "source_query_file": "queries/S2-1_base/S2-1_Scopus_source.txt",
+  "field_mapping": "Scopus TITLE-ABS-KEY terms expanded term-by-term to TI OR AB OR AK.",
+  "syntax_adjustment": "AND NOT translated to NOT, following the WoS-compatible S1 translation pattern; exclusion logic retained.",
+  "query_split": false,
+  "export_format": "Plain text; Full Record and Cited References",
+  "export_limit": "Not recorded in supplied export; one raw file supplied for this search.",
+  "export_files": [
+    "raw/WOS_S2-1_part001.txt",
+    "final/WOS_S2-1_full_record_cited_references.txt",
+    "final/WOS_S2-1.csv"
+  ],
+  "export_status": "User-supplied WoS tagged export parsed and converted locally; raw copy preserved byte-for-byte.",
+  "notes": "The tagged export does not embed the executed query or selected collection. Search-to-file association follows the user-provided S2 label and the prepared query file. Optional record fields may be blank."
+}
