@@ -6,7 +6,7 @@ This directory contains only the Web of Science Core Collection work completed t
 
 - **S1-1 Base** — 504 records; executed 2026-09-25 in Web of Science Core Collection Advanced Search.
 - **S1-2 Base + uncertainty** — 152 records; executed 2026-09-25 in Web of Science Core Collection Advanced Search.
-- Exact Scopus source and executed WoS query are under `S1/queries/`.
+- Each variant has its own query folder under `S1/queries/S1-1_base/` or `S1/queries/S1-2_uncertainty/`, containing the Scopus source and executed WoS query.
 - Raw WoS tagged Plain Text exports are preserved under `S1/results/raw/`.
 - `S1/results/final/WOS_S1-1.csv` (504 rows) and `WOS_S1-2.csv` (152 rows) match the Scopus CSV schema, with WoS-only identifiers/metadata appended.
 - Merged tagged exports are preserved in `S1/results/final/` as `WOS_S1-1_full_record_cited_references.txt` and `WOS_S1-2_full_record_cited_references.txt`.
