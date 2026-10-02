@@ -2,9 +2,9 @@
 
 [بازگشت به فهرست](README.md) · [یادداشت JCP-02](articles/02_Patouillard_et_al_2018.md) · [یادداشت JCP-03](articles/03_Baustert_Benetto_2017.md) · [ساختار پیشنهادی](PROPOSED_MANUSCRIPT_STRUCTURE.md)
 
-**تاریخ ایجاد:** 2026-10-01. **آخرین به‌روزرسانی:** 2026-10-02 (افزودن JCP-02 و A13–A20).
+**تاریخ ایجاد:** 2026-10-01. **آخرین به‌روزرسانی:** 2026-10-02 (تصمیم‌های پذیرفته‌شده از JCP-02 و Digital Twin).
 
-این دفتر فاصله میان «نکته‌ای که از مطالعه یاد گرفته‌ایم» و «تغییری که واقعاً در پروژه اعمال شده» را نگه می‌دارد. اقدام‌ها ابتدا به‌صورت پیشنهاد ثبت شدند. با درخواست صریح حسین، اکنون **اصل اصلاح A02 و A03 برای اجرا پذیرفته شده است**؛ سایر اقدام‌ها همچنان پیشنهادی هستند. هنوز هیچ‌یک از این اصلاح‌ها در فایل‌های اصلی مقاله یا پروتکل پیاده‌سازی نشده‌اند.
+این دفتر فاصله میان «نکته‌ای که از مطالعه یاد گرفته‌ایم» و «تغییری که واقعاً در پروژه اعمال شده» را نگه می‌دارد. علاوه بر A02–A03 از JCP-03، پس از بررسی JCP-02 و درخواست صریح حسین، **A13، A14، A15، A17، A18، A21 و A22 نیز برای ورود به طراحی مقاله پذیرفته شده‌اند**. این تصمیم‌ها هنوز به معنی Implemented شدن در فایل‌های اصلی manuscript/codebook نیستند.
 
 **متن تصمیم و توضیح کامل:** [اصلاح لازم در کار خودمان: منبع عدم‌قطعیت را از نحوه انتقال آن جدا کنیم](articles/03_Baustert_Benetto_2017.md#coding-decision).
 
@@ -39,14 +39,16 @@
 | A10 | E09: اتصال مدل‌ها و عدم‌قطعیت موضوعی پیشین دارد | تمایز احتمالی در زنجیره خاص GeoAI–مصالح–LCA، اتصال‌ها، مقیاس و تصمیم مستند شود | Introduction و Discussion | هیچ ادعای «اولین» یا نبود ادبیات بدون جست‌وجوی مناسب باقی نماند | Proposed |
 | A11 | پیشنهاد خودمان؛ نه یافته JCP-03 | دیجیتال‌تویین فعلاً گزینه چارچوب آینده باشد؛ سازوکار داده تازه، بازخورد و منشأ اطلاعات مشخص شود | Discussion / framework | پیشنهاد مفهومی از سامانه اجراشده جدا شود؛ بازخورد به‌تنهایی مدرک دیجیتال‌تویین نباشد | Proposed |
 | A12 | شرط موجود در README پروژه، نه نتیجه JCP-03 | کتاب‌سنجی پشتیبان باشد؛ فراتحلیل فقط در زیرمجموعه‌های قابل‌مقایسه و با توجه به وابستگی اثرها انجام شود | برنامه سنتز و بخش نتایج مرتبط | تصمیم تجمیع/عدم‌تجمیع مستند شود؛ حفظ عنوان meta-analysis دلیل ادغام داده ناهمگن نباشد | Proposed |
-| A13 | E10 و مقایسه JCP-02/JCP-03 | variability واقعی سیستم از uncertainty ناشی از کمبود شناخت/مدل جدا کدگذاری شود؛ اصطلاح اصلی هر منبع نیز حفظ شود | codebook و Methods | کدگذار بتواند «تفاوت واقعی» را بدون نام‌گذاری خودکار به‌عنوان uncertainty ثبت کند؛ نگاشت harmonized مستند باشد | Proposed |
-| A14 | E11 و E15 | regionalization، spatialization، aggregation/disaggregation و spatial matching به‌عنوان عملیات متفاوت ثبت شوند | فرم استخراج و تحلیل spatial | هر operation تعریف مستقل داشته باشد و GIS visualization با spatial calculation یکی نشود | Proposed |
-| A15 | E12، E16 و E17 | برای هر link، source grain، target grain، spatial coverage/native resolution و قاعده گذار مقیاس ثبت شود | Study–Link extraction | تغییر مقیاس بدون rule یا evidence به‌عنوان نامشخص ثبت شود؛ fine resolution خودکار «بهتر» کد نشود | Proposed |
+| A13 | E10 و مقایسه JCP-02/JCP-03 | variability واقعی سیستم از uncertainty ناشی از کمبود شناخت/مدل جدا کدگذاری شود؛ اصطلاح اصلی هر منبع نیز حفظ شود | codebook و Methods | کدگذار بتواند «تفاوت واقعی» را بدون نام‌گذاری خودکار به‌عنوان uncertainty ثبت کند؛ نگاشت harmonized مستند باشد | Accepted |
+| A14 | E11 و E15 | regionalization، spatialization، aggregation/disaggregation و spatial matching به‌عنوان عملیات متفاوت ثبت شوند | فرم استخراج و تحلیل spatial | هر operation تعریف مستقل داشته باشد و GIS visualization با spatial calculation یکی نشود | Accepted |
+| A15 | E12، E16 و E17 | برای هر link، source grain، target grain، spatial coverage/native resolution و قاعده گذار مقیاس ثبت شود | Study–Link extraction | تغییر مقیاس بدون rule یا evidence به‌عنوان نامشخص ثبت شود؛ fine resolution خودکار «بهتر» کد نشود | Accepted |
 | A16 | E14 | impact contribution از uncertainty contribution جدا ثبت شود؛ اهمیت impact به اهمیت uncertainty تعمیم داده نشود | Results/Discussion و فرم استخراج | hotspotهای impact و uncertainty در تحلیل دو متغیر مستقل باشند | Proposed |
-| A17 | E13 | اثر aggregation/resolution change بر uncertainty فقط با شواهد و مبنای مقایسه ثبت شود | cross-scale analysis | افزایش/کاهش uncertainty از صرف تغییر grain استنباط نشود | Proposed |
-| A18 | برداشت ساختاری از JCP-02 | در cross-link synthesis، زیرتحلیل مستقل برای scale transition و spatial information loss در نظر گرفته شود | ساختار مقاله پیشنهادی | نتایج spatial فقط به سطح مطالعه خلاصه نشوند؛ link-level transitions گزارش شوند | Proposed |
+| A17 | E13 | اثر aggregation/resolution change بر uncertainty فقط با شواهد و مبنای مقایسه ثبت شود | cross-scale analysis | افزایش/کاهش uncertainty از صرف تغییر grain استنباط نشود | Accepted |
+| A18 | برداشت ساختاری از JCP-02 | در cross-link synthesis، زیرتحلیل مستقل برای scale transition و spatial information loss در نظر گرفته شود | ساختار مقاله پیشنهادی | نتایج spatial فقط به سطح مطالعه خلاصه نشوند؛ link-level transitions گزارش شوند | Accepted |
 | A19 | E18 | recommendations در صورت کفایت شواهد به stakeholder و short-term/long-term تفکیک شوند | Discussion / recommendations | توصیه‌ها مشخص کنند برای GeoAI/data/model/LCA/planning چه کسی مخاطب است و آیا قابل‌اجرا یا پژوهشی‌اند | Proposed |
 | A20 | E19 | منطق iterative «آیا uncertainty برای تصمیم کافی/قابل‌قبول است؟ اگر نه، dominant link را بهبود بده و دوباره ارزیابی کن» برای framework آینده بررسی شود | Integrated Discussion / framework | به‌عنوان adaptation پیشنهادی ما برچسب بخورد، نه framework اثبات‌شده برای زنجیره GeoAI–materials | Proposed |
+| A21 | تصمیم ما با تکیه بر E11–E17 | Spatial Context & Scale Management به‌عنوان capability افقی Digital Twin تعریف شود: regionalization، spatialization، grain/coverage، scale transition و matching | Digital Twin framework + spatial extraction | هر capability از evidence/source جدا باشد؛ ادعای بهبود accuracy/efficiency فقط در صورت وجود شواهد | Accepted |
+| A22 | تصمیم صریح حسین پس از JCP-02 | Digital Twin در مقاله نهایی به‌صورت cross-cutting architecture موازی S1–S5 وارد شود، نه S6؛ identity، provenance، spatial context، scale, time, updating, uncertainty traceability و decision feedback را پیوند دهد | Integrated Discussion / Proposed Framework | framework مفهومی از یافته تجربی جدا برچسب بخورد؛ نقش هر capability به gap/نیاز مستند متصل باشد | Accepted |
 
 در baseline پروژه، واحدهای Study–Link–Effect، متغیرهای منبع عدم‌قطعیت و شرط مقایسه‌پذیری فراتحلیل از قبل آمده‌اند. A01، A02 و A12 ادعای اختراع این مؤلفه‌ها ندارند؛ هدف، عملیاتی‌ترکردن آن‌هاست.
 
@@ -60,6 +62,17 @@ JCP-02 بین **spatial variability** (تغییر واقعی در جهان) و *
 - اگر aggregation یا ندانستن location باعث شود variability واقعی به uncertainty نتیجه تبدیل شود، این transition جدا ثبت شود.
 
 A13 این پیشنهاد را پیگیری می‌کند و هنوز `Proposed` است؛ بنابراین A02–A03 پذیرفته‌شده‌اند اما taxonomy نهایی uncertainty هنوز بسته نشده است.
+
+## تصمیم پذیرفته‌شده از JCP-02 — چهار چیزی که وارد مقاله خودمان می‌کنیم
+
+این تصمیم‌ها در [یادداشت JCP-02](articles/02_Patouillard_et_al_2018.md#76-تصمیمهای-پذیرفتهشده-برای-آوردن-به-مقاله-خودمان) با جزئیات ثبت شده‌اند.
+
+1. **Spatial Scale & Spatial Information** به‌عنوان capability در دل Digital Twin: regionalization، spatialization، grain/coverage و scale transition باید قابل‌ردیابی و مدیریت باشند.
+2. **Variability ≠ Uncertainty** در بخش تعریف uncertainty: variability تفاوت واقعی سیستم است؛ uncertainty کمبود شناخت/داده/مدل است. terminology اصلی منابع حفظ می‌شود.
+3. **Scale transition در سرنوشت uncertainty:** aggregation/disaggregation و از دست‌رفتن اطلاعات مکانی باید کنار Preserved/Reduced/Amplified/Transformed/Masked-Lost/Unassessed تحلیل شوند تا معلوم شود تغییر spatial representation چه اثری داشته است.
+4. **Digital Twin حتماً در مقاله می‌آید، اما به‌صورت cross-cutting architecture موازی S1–S5، نه S6.** نقش آن continuity، provenance، spatial context، scale management، updating و uncertainty traceability است.
+
+این چهار تصمیم طراحی مقاله هستند. JCP-02 مستقیماً Digital Twin را مطرح نمی‌کند؛ اتصال مفاهیم spatial آن به Digital Twin، synthesis پیشنهادی خود ماست.
 
 ## خلاصه تصمیم پذیرفته‌شده — A02 و A03
 
@@ -93,13 +106,14 @@ A13 این پیشنهاد را پیگیری می‌کند و هنوز `Proposed`
 
 ## دفتر تصمیم و اجرا
 
-**A02 و A03 برای اجرا پذیرفته شده‌اند؛ هیچ اقدام A01–A12 هنوز در فایل‌های اصلی پروژه اجرا یا تأیید اجرایی نشده است.** تکمیل این یادداشت‌ها با پیاده‌سازی اصلاح در مقاله، README اصلی یا فرم استخراج یکسان نیست.
+**A02، A03، A13، A14، A15، A17، A18، A21 و A22 برای ورود به طراحی/روش مقاله پذیرفته شده‌اند؛ هنوز هیچ‌کدام در فایل‌های اصلی manuscript/codebook به سطح Implemented یا Verified نرسیده‌اند.** تکمیل این دفتر با اجرای علمی یکسان نیست.
 
 | تاریخ | شناسه | تصمیم | دلیل/مرجع تأیید | فایل واقعاً تغییرکرده | commit اجرا | نتیجه کنترل |
 |---|---|---|---|---|---|---|
 | 2026-10-01، هنگام ایجاد دفتر | A01–A12 | Proposed | ثبت اولیه درس‌آموخته‌ها؛ بدون پذیرش یا اجرای علمی | فقط فایل‌های پوشه درس‌آموخته‌ها | — | اجرای علمی مطرح نبوده است |
 | 2026-10-01، پس از درخواست توضیح تفصیلی | A02–A03 | Accepted برای پیاده‌سازی | درخواست صریح حسین: این تفکیک روشن ثبت شود و باید روی کار خودمان اعمال شود | بخش 5.1 و وضعیت تصمیم‌های `articles/03_Baustert_Benetto_2017.md`؛ همین دفتر اقدام‌ها | —؛ هنوز اجرای علمی انجام نشده | مستندسازی تصمیم انجام شده؛ آزمون codebook و اعمال در فایل‌های اصلی باقی است |
 | 2026-10-02 | A13–A20 | Proposed | استخراج درس‌ها از متن کامل JCP-02؛ هنوز تصمیم برای اجرای علمی گرفته نشده | `articles/02_Patouillard_et_al_2018.md` و همین دفتر | a5955ce466703985d12c8d09560172b6252fc442 | مستندسازی انجام شد؛ نیازمند مقایسه با منابع بعدی و تصمیم جداگانه |
+| 2026-10-02، پس از تعیین جایگاه مفاهیم در مقاله | A13، A14، A15، A17، A18، A21، A22 | Accepted | تصمیم صریح حسین درباره تعریف uncertainty، scale/aggregation و قرارگیری Digital Twin موازی S1–S5 | JCP-02 note + همین دفتر؛ فایل‌های اصلی پروژه هنوز تغییر نکرده‌اند | d956d93cd16c8218db8d32fea220fac59dc12600 | تصمیم مستند شد؛ implementation در manuscript/codebook باقی است |
 
 commit افزودن توضیح تفصیلی به یادداشت مقاله: `bacc997664a309f6cc2d3b58e90f69b5f00c0bfc`. این commit مربوط به مستندسازی تصمیم است، نه اجرای آن در فایل‌های اصلی پروژه.
 
