@@ -262,7 +262,9 @@ Digital Twin Architecture/
 ├── RESEARCH_SOURCE_REGISTER.md
 ├── CORE_ARCHITECTURE.md
 ├── MATERIAL_DECISION_PROFILE.md
+├── MASTER_ARCHITECTURE_v1.md
 ├── PARAMETER_REGISTRY.md
+├── LITERATURE_EVIDENCE_BASE.md
 ├── S1_S5_CONNECTION_MATRIX.md
 └── layers/
     ├── DT-L1_observation_data_acquisition.md
@@ -329,6 +331,18 @@ The architecture now explicitly includes, among others:
 - uncertainty source, representation, propagation, contribution and targeted data-improvement logic.
 
 This is a broad v1 architecture, not a closed final ontology. Every new paper can add, modify or challenge parameters, with evidence status recorded.
+
+---
+
+## Current research status
+
+A first high-detail research synthesis has now been added in `MASTER_ARCHITECTURE_v1.md`. It expands the architecture from coarse layer descriptions to detailed building, component, material, lifecycle, circularity, logistics, environmental-impact and uncertainty variables.
+
+The current parameter registry contains controlled families for geometry, typology/age, structure, envelope, internal components, services, material identity/quantity, condition/quality, connections/disassembly, service life/events, material flows, circular pathways, facilities/logistics, market context, LCA, scenarios, uncertainty and decision outputs.
+
+`LITERATURE_EVIDENCE_BASE.md` records the evidence chain behind these choices and separates source-supported variables from synthesis and project-specific proposals.
+
+This is **v1, not an exhaustive final ontology**. It is intentionally a living architecture that will be revised as the systematic review and full-text coding progress.
 
 ---
 
