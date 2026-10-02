@@ -256,6 +256,7 @@ This separation prevents properties such as building age, material type, demolit
 Digital Twin Architecture/
 ├── README.md
 ├── UNCERTAINTY_HOTSPOT_REGISTER.md
+├── UNCERTAINTY_TRACEABILITY_MODEL.md
 ├── CORE_ARCHITECTURE.md
 ├── MATERIAL_DECISION_PROFILE.md
 ├── PARAMETER_REGISTRY.md
