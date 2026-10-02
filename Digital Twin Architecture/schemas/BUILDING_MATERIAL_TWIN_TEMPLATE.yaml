@@ -1,0 +1,613 @@
+# Building-to-Material Decision Twin
+# Canonical data template v0.1
+# Values are placeholders. Every populated field should preserve evidence and uncertainty metadata.
+
+schema_version: "0.1"
+
+building:
+  building_id: null
+  external_ids: []
+  address: null
+  parcel_id: null
+
+  spatial_context:
+    centroid:
+      x: null
+      y: null
+      crs: null
+    footprint_geometry_ref: null
+    administrative_units:
+      municipality: null
+      district: null
+      region: null
+      country: null
+    climate_zone: null
+    urban_rural_class: null
+    heritage_status: null
+    regional_material_cadastre_ref: null
+
+  classification:
+    primary_use:
+      value: null
+      uncertainty: null
+      evidence: []
+    secondary_uses: []
+    residential_subtype: null
+    non_residential_subtype: null
+    archetype:
+      probabilities: {}
+      selected_for_scenario: null
+      source_model: null
+
+  history:
+    construction_year:
+      value: null
+      interval: null
+      probability_distribution: null
+      evidence: []
+    construction_period_class: null
+    extensions: []
+    change_of_use_events: []
+    renovations:
+      - event_id: null
+        year: null
+        scope: null
+        affected_components: []
+        evidence: []
+    known_replacements: []
+
+  geometry:
+    footprint_area_m2:
+      value: null
+      uncertainty: null
+      evidence: []
+    footprint_perimeter_m: null
+    perimeter_area_ratio: null
+    length_m: null
+    width_m: null
+    height_m:
+      value: null
+      uncertainty: null
+      evidence: []
+    eave_height_m: null
+    ridge_height_m: null
+    floors_above_ground:
+      value: null
+      confidence: null
+    floors_below_ground: null
+    floor_to_floor_height_m: null
+    gross_floor_area_m2:
+      value: null
+      uncertainty: null
+    net_floor_area_m2: null
+    gross_internal_area_m2: null
+    volume_m3:
+      value: null
+      uncertainty: null
+    basement_area_m2: null
+    basement_volume_m3: null
+    roof:
+      shape: null
+      slope_deg: null
+      area_m2: null
+    facade:
+      area_total_m2: null
+      area_by_orientation: {}
+    windows:
+      area_total_m2: null
+      window_to_wall_ratio: null
+      window_to_wall_ratio_by_orientation: {}
+    external_door_area_m2: null
+    internal_partition_area_m2: null
+    slab_area_m2: null
+
+  structural_system:
+    probabilities: {}
+    primary_system: null
+    lateral_system: null
+    foundation_system: null
+    floor_system: null
+    roof_system: null
+    structural_grid: null
+    typical_span_m: null
+    design_code_era: null
+
+components:
+  - component_id: null
+    parent_component_id: null
+    component_class: null
+    component_subclass: null
+    storey_or_zone: null
+    geometry_ref: null
+
+    geometry:
+      count: null
+      length_m: null
+      width_m: null
+      height_m: null
+      area_m2: null
+      thickness_m: null
+      volume_m3: null
+
+    installation:
+      installation_year: null
+      last_replacement_year: null
+      renovation_state: null
+
+    assembly:
+      assembly_type: null
+      total_thickness_m: null
+      layers:
+        - sequence: null
+          material_batch_id: null
+          function: null
+          thickness_m: null
+
+    connection:
+      connection_id: null
+      connection_type: null
+      reversible: null
+      fastener_material: null
+      accessibility: null
+      tool_requirement: null
+      effort_class: null
+      expected_removal_damage: null
+      sequence_dependencies: []
+      separability: null
+      mono_material_recovery_potential: null
+
+    condition:
+      grade: null
+      inspection_date: null
+      inspection_method: null
+      damage_types: []
+      moisture_damage: null
+      corrosion: null
+      cracking: null
+      spalling: null
+      deformation: null
+      rot_or_biological_damage: null
+      fire_damage: null
+      chemical_attack: null
+      remaining_performance: null
+
+    service_life:
+      reference_service_life_years: null
+      distribution: null
+      remaining_service_life: null
+      replacement_interval_years: null
+
+    evidence: []
+    uncertainty_records: []
+
+material_batches:
+  - material_batch_id: null
+    building_id: null
+    component_id: null
+    layer_sequence: null
+
+    identity:
+      material_group: null
+      material_subgroup: null
+      product_name: null
+      standard_or_grade: null
+      manufacturer: null
+      production_region: null
+      product_or_passport_id: null
+
+    origin:
+      virgin_fraction: null
+      recycled_fraction: null
+      reused_fraction: null
+      renewable_fraction: null
+      secondary_material_fraction: null
+
+    physical_properties:
+      density_kg_m3:
+        value: null
+        uncertainty: null
+      bulk_density_kg_m3: null
+      moisture_content: null
+      dimensions: null
+      strength: null
+      thermal_conductivity: null
+      durability_class: null
+      exposure_class: null
+
+    quantity:
+      observed_quantity: null
+      estimated_mass_kg:
+        value: null
+        distribution: null
+        uncertainty: null
+      estimated_volume_m3: null
+      estimated_area_m2: null
+      count: null
+      material_intensity:
+        value: null
+        unit: null
+        distribution: null
+        building_type: null
+        age_class: null
+        component_scope: null
+        region: null
+        source: null
+        transferability_status: null
+      geometry_to_quantity_rule: null
+      density_source: null
+      validation: null
+
+    quality:
+      quality_grade: null
+      condition_grade: null
+      retained_function: null
+      residual_strength: null
+      visual_damage: []
+      test_required: null
+      test_results: []
+      recertification_required: null
+      certification_status: null
+
+    hazards_and_contamination:
+      hazardous_flag: null
+      asbestos_risk: null
+      lead_or_heavy_metal_risk: null
+      pcb_risk: null
+      pah_risk: null
+      treated_timber_risk: null
+      coating_contamination: null
+      mixed_material_contamination: null
+      concentration_tests: []
+      hazardous_handling_requirement: null
+
+    circularity_intrinsic_state:
+      accessibility: null
+      detachability: null
+      separability: null
+      purity_potential: null
+      expected_deconstruction_damage: null
+      reuse_candidate: null
+      recycling_candidate: null
+
+    environmental_profile_refs: []
+    evidence: []
+    uncertainty_records: []
+
+events:
+  - event_id: null
+    event_type: null
+    scenario_id: null
+    event_time:
+      expected_year: null
+      distribution: null
+      probability: null
+    trigger: null
+    affected_components: []
+    affected_material_batches: []
+    releases:
+      - material_batch_id: null
+        released_mass_kg:
+          value: null
+          distribution: null
+        retained_mass_kg: null
+        state_after_release: null
+    installs: []
+    evidence: []
+    uncertainty_records: []
+
+pre_demolition_audits:
+  - audit_id: null
+    date: null
+    documentation_review_complete: null
+    site_inspection_complete: null
+    sampling_complete: null
+    hazardous_survey_complete: null
+    verified_component_ids: []
+    verified_material_batch_ids: []
+    reusable_candidates: []
+    recycling_candidates: []
+    findings: null
+    evidence: []
+
+facilities:
+  - facility_id: null
+    facility_type: null
+    coordinates: null
+    accepted_materials: []
+    acceptance_quality_thresholds: {}
+    contamination_limits: {}
+    process_technology: null
+    capacity:
+      nominal: null
+      available_at_target_time: null
+    process_yields: {}
+    output_products: []
+    energy_input: null
+    water_input: null
+    emissions_profile_ref: null
+    residue_fraction: null
+    evidence: []
+    uncertainty_records: []
+
+demand_nodes:
+  - demand_id: null
+    location: null
+    time_window: null
+    requested_material_or_product: null
+    requested_quantity: null
+    required_quality: null
+    required_dimensions: null
+    required_certification: null
+    max_transport_distance_km: null
+    evidence: []
+    uncertainty_records: []
+
+scenarios:
+  - scenario_id: null
+    name: null
+    baseline: false
+    reference_date: null
+    target_year: null
+    assessment_horizon_years: null
+    intervention:
+      type: null
+      selected_event_ids: []
+    pathway_permissions:
+      direct_reuse: null
+      preparation_for_reuse: null
+      closed_loop_recycling: null
+      open_loop_recycling: null
+      other_recovery: null
+      energy_recovery: null
+      backfilling: null
+      landfill: null
+    constraints:
+      max_transport_radius_km: null
+      minimum_quality: null
+      minimum_confidence: null
+      allowed_facility_ids: []
+      regulatory_context: null
+    future_context:
+      energy_mix_ref: null
+      technology_assumptions: null
+      market_assumptions: null
+      demand_assumptions: null
+    objective:
+      primary: null
+      secondary: []
+    uncertainty_records: []
+
+material_flows:
+  - flow_id: null
+    scenario_id: null
+    source_event_id: null
+    source_material_batch_id: null
+    destination_type: null
+    destination_id: null
+    pathway_id: null
+    quantity_kg:
+      value: null
+      distribution: null
+    time: null
+    route_distance_km: null
+    transport_mode: null
+    transport_factor_ref: null
+    storage: null
+    evidence: []
+    uncertainty_records: []
+
+circularity_pathways:
+  - pathway_id: null
+    scenario_id: null
+    material_batch_id: null
+    pathway_type: null
+    loop_type: null
+    feasibility_status: null
+    infeasibility_reason: null
+
+    deconstruction:
+      accessible_fraction: null
+      separable_fraction: null
+      expected_damage_fraction: null
+      collection_yield: null
+      sorting_yield: null
+      contamination_acceptance_fraction: null
+      technically_recoverable_mass_kg: null
+
+    reuse:
+      quality_pass_fraction: null
+      dimensional_match: null
+      structural_match: null
+      certification_pass: null
+      preparation_process: null
+      preparation_yield: null
+      demand_match: null
+      final_reusable_mass_kg: null
+
+    recycling:
+      process_chain_id: null
+      processing_yield: null
+      output_material_or_product: null
+      output_quality: null
+      substitution_ratio: null
+      replacement_coefficient: null
+      displaced_virgin_material: null
+      effective_substituted_mass_kg: null
+
+    disposal:
+      energy_recovery_fraction: null
+      backfill_fraction: null
+      landfill_fraction: null
+      hazardous_disposal_fraction: null
+      residual_loss_fraction: null
+
+    mass_balance:
+      input_mass_kg: null
+      output_product_mass_kg: null
+      residue_mass_kg: null
+      unaccounted_mass_kg: null
+      valid: null
+
+    evidence: []
+    uncertainty_records: []
+
+lca_models:
+  - lca_model_id: null
+    functional_unit: null
+    reference_study_period: null
+    system_boundary: null
+    lci_method: null
+    lci_database: null
+    database_version: null
+    geography: null
+    reference_year: null
+    allocation_method: null
+    recycling_allocation_method: null
+    substitution_method: null
+    characterization_method: null
+    cut_off_rules: null
+    biogenic_carbon_method: null
+    uncertainty_method: null
+
+environmental_factors:
+  - factor_id: null
+    object_type: null
+    object_id: null
+    indicator: null
+    value: null
+    unit: null
+    lifecycle_module: null
+    geography: null
+    reference_year: null
+    lci_method: null
+    database: null
+    system_boundary: null
+    uncertainty: null
+    evidence: []
+
+impact_results:
+  - result_id: null
+    scenario_id: null
+    material_batch_id: null
+    pathway_id: null
+    lca_model_id: null
+    baseline_result_id: null
+    impacts:
+      gwp: null
+      primary_energy: null
+      water: null
+      resource_use: null
+      acidification: null
+      eutrophication: null
+      photochemical_ozone: null
+      ozone_depletion: null
+      particulate_matter: null
+      toxicity: null
+      land_use: null
+      waste: null
+    impact_components:
+      deconstruction: null
+      transport: null
+      processing: null
+      disposal: null
+      avoided_virgin_production: null
+      module_d_or_other_credit: null
+    uncertainty_records: []
+
+material_decision_profiles:
+  - profile_id: null
+    building_id: null
+    material_batch_id: null
+    scenario_id: null
+
+    stock:
+      material: null
+      component: null
+      quantity_distribution: null
+      quality: null
+      evidence_tier: null
+      data_completeness: null
+
+    release:
+      event: null
+      expected_time_distribution: null
+      released_quantity_distribution: null
+
+    pathways:
+      direct_reuse:
+        feasible_mass_distribution: null
+        environmental_result_ref: null
+      closed_loop:
+        feasible_mass_distribution: null
+        effective_substitution_distribution: null
+        environmental_result_ref: null
+      open_loop:
+        feasible_mass_distribution: null
+        effective_replacement_distribution: null
+        environmental_result_ref: null
+      other_recovery:
+        mass_distribution: null
+        environmental_result_ref: null
+      landfill:
+        mass_distribution: null
+        environmental_result_ref: null
+
+    uncertainty:
+      output_uncertainty: null
+      dominant_sources: []
+      impact_hotspots: []
+      uncertainty_hotspots: []
+      unassessed_sources: []
+
+    decision:
+      robustness: null
+      critical_constraints: []
+      missing_evidence: []
+      recommended_next_data_actions: []
+
+evidence_items:
+  - evidence_id: null
+    source_type: null
+    uri_or_reference: null
+    acquisition_method: null
+    source_version: null
+    observation_time: null
+    spatial_grain: null
+    spatial_coverage: null
+    regionalization_status: null
+    validation_status: null
+    evidence_tier: null
+    data_completeness: null
+
+uncertainty_records:
+  - uncertainty_id: null
+    target_object_type: null
+    target_object_id: null
+    target_parameter: null
+    origin_layer: null
+    affected_streams: []
+    source_type_original: null
+    source_type_harmonized: null
+    variability_or_uncertainty: null
+    representation: null
+    parameters: null
+    inherited_or_new: null
+    dependency_ids: []
+    correlation_group: null
+    transfer_status: null
+    representation_change: null
+    magnitude_change: null
+    decision_consequence: null
+    evidence_locator: null
+    candidate_mitigation: null
+
+provenance_graph:
+  transformations:
+    - transformation_id: null
+      input_object_ids: []
+      method: null
+      model_id: null
+      model_version: null
+      parameters: null
+      output_object_ids: []
+      executed_at: null
