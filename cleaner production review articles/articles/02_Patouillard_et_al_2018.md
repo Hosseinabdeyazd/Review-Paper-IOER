@@ -14,7 +14,7 @@
 | نوع | Review؛ در عنوان: critical review |
 | منبع بررسی | PDF ارائه‌شده توسط کاربر: `1-s2.0-S0959652617331827-main.pdf`، 15 صفحه |
 | تاریخ یادداشت | 2026-10-02 |
-| وضعیت | متن کامل بررسی شد؛ درس‌ها ثبت شده‌اند؛ پیشنهادهای جدید هنوز در فایل‌های اصلی پروژه اعمال نشده‌اند |
+| وضعیت | متن کامل بررسی شد؛ چهار جهت مشخص برای ورود به مقاله خودمان پذیرفته شده‌اند و در این یادداشت ثبت شده‌اند؛ اجرای آن‌ها در فایل‌های اصلی پروژه جداگانه پیگیری می‌شود |
 | نقش برای پروژه | منبع مستقیم برای spatial LCA، GIS، spatial scale، spatial variability، regionalization/spatialization و پیوند آن‌ها با uncertainty |
 
 شماره صفحات زیر، صفحات چاپی ژورنال 398–412 هستند.
@@ -169,6 +169,80 @@
 
 این adaptation باید به‌عنوان پیشنهاد ما معرفی شود و نباید به‌عنوان framework آزموده‌شده برای GeoAI-material-stock chain به مقاله Patouillard نسبت داده شود.
 
+## 7.6 تصمیم‌های پذیرفته‌شده برای آوردن به مقاله خودمان
+
+این بخش نتیجه **تصمیم طراحی خودمان پس از مطالعه JCP-02** است. مقاله Patouillard et al. مفاهیم spatial variability، regionalization، spatialization، resolution mismatch و uncertainty spatial را پشتیبانی می‌کند؛ اما **Digital Twin را پیشنهاد یا ارزیابی نمی‌کند**. قرار دادن این مفاهیم در معماری Digital Twin، synthesis و طراحی خود ماست.
+
+### تصمیم 1 — Spatial Scale & Spatial Information به‌عنوان capability در معماری Digital Twin
+
+در مقاله خودمان، regionalization، spatialization، spatial resolution، spatial coverage و scale transition را فقط به‌صورت متغیرهای توصیفی نگه نمی‌داریم. این‌ها باید به‌عنوان یک **Spatial Context & Scale Management capability** در Digital Twin پیشنهادی ما دیده شوند.
+
+Digital Twin باید بتواند برای هر موجودیت و هر link ثبت کند:
+- داده به کدام Building ID / object تعلق دارد؛
+- در چه spatial grain و coverage تولید شده؛
+- آیا value برای context جغرافیایی regionalized شده است؛
+- آیا object/flow spatialized شده است؛
+- downstream model داده را در چه grainی مصرف می‌کند؛
+- اگر scale تغییر کرده، aggregation/disaggregation/matching با چه قاعده‌ای انجام شده؛
+- چه spatial information یا uncertainty در این انتقال حفظ یا از دست رفته است.
+
+**هدف طراحی ما:** افزایش information continuity، contextual consistency و جلوگیری از انتقال کورکورانه داده میان scaleهای ناسازگار. هر ادعای کمی درباره بهبود accuracy یا efficiency باید بعداً با شواهد پشتیبانی شود.
+
+### تصمیم 2 — تمایز Variability و Uncertainty در بخش تعریف مفاهیم
+
+در بخش مفهومی/Methods مقاله خودمان، باید روشن کنیم:
+
+- **Variability** = تفاوت واقعی در سیستم، از جمله تغییرات مکانی یا زمانی؛
+- **Uncertainty** = کمبود شناخت، داده، representativeness، انتخاب یا ساختار مدل؛
+- **Representation / aggregation** = فرایندی که ممکن است variability واقعی را حفظ، فشرده یا پنهان کند و در نتیجه بر uncertainty خروجی اثر بگذارد.
+
+در عین حال، چون ادبیات از taxonomyهای متفاوت استفاده می‌کند، اصطلاح اصلی هر مطالعه در `source_type_original` حفظ و harmonization ما جداگانه انجام می‌شود. بنابراین این تعریف، جایگزین بی‌قیدوشرط اصطلاحات منابع نمی‌شود.
+
+### تصمیم 3 — آوردن Spatial Scale Transition در تحلیل سرنوشت Uncertainty
+
+در بخشی که سرنوشت uncertainty را بررسی می‌کنیم — مانند **Preserved، Legitimately reduced، Amplified، Transformed، Masked/lost و Unassessed** — spatial scale transition باید به‌عنوان یکی از contextها/مکانیسم‌های اصلی تحلیل اضافه شود.
+
+برای هر uncertainty source در هر link باید علاوه بر سه پرسش پذیرفته‌شده قبلی (انتقال، تغییر representation، تغییر magnitude) روشن کنیم:
+- آیا grain/coverage تغییر کرده است؟
+- آیا aggregation یا disaggregation انجام شده؟
+- آیا location information یا spatial heterogeneity حذف یا فشرده شده؟
+- آیا این تغییر فقط representation را عوض کرده یا شواهدی از تغییر magnitude uncertainty وجود دارد؟
+- اگر اطلاعات مکانی ناپدید شده، آیا واقعاً `Masked/lost` است یا فقط گزارش کافی وجود ندارد؟
+
+این بخش برای شفافیت مفهوم `Transformed` و `Masked/lost` مهم است و اجازه می‌دهد loss of spatial information را با uncertainty loss اشتباه نگیریم.
+
+### تصمیم 4 — Digital Twin را به‌طور صریح در مقاله می‌آوریم؛ اما به‌عنوان Cross-cutting Architecture
+
+Digital Twin در ساختار مقاله ما **S6 بعد از LCA نیست**. آن را به‌صورت یک معماری موازی و cross-cutting روی S1–S5 در Discussion/Framework می‌آوریم.
+
+نقش‌های پیشنهادی Digital Twin عبارت‌اند از:
+- persistent identity / Building ID؛
+- provenance و versioning؛
+- spatialization و regionalization؛
+- management of spatial grain, coverage and scale transitions؛
+- uncertainty traceability across links؛
+- temporal updating و state tracking؛
+- feedback from downstream decision needs to upstream data/model refinement.
+
+به‌صورت مفهومی:
+
+```text
+                     DIGITAL TWIN ARCHITECTURE
+  ───────────────────────────────────────────────────────────
+   Identity | Provenance | Spatial context | Scale | Time
+   Uncertainty traceability | Updating | Decision feedback
+  ───────────────────────────────────────────────────────────
+        │              │             │             │
+       S1  →           S2  →        S3  →        S4  →       S5
+     GeoAI          Material      Dynamics      Circularity    LCA
+  Observation        Stock        & Events       & Recovery   Decision
+```
+
+**ادعای ما در این مرحله:** Digital Twin یک architecture پیشنهادی برای بهبود continuity، traceability، cross-scale consistency و updateability است.  
+**ادعایی که هنوز نباید بدون شواهد بنویسیم:** اینکه Digital Twin به‌طور عمومی یا کمی accuracy/efficiency را حتماً افزایش می‌دهد.
+
+پس در مقاله نهایی، قابلیت‌هایی که شواهد کافی دارند از قابلیت‌هایی که فقط به‌عنوان future framework پیشنهاد می‌شوند جدا برچسب می‌خورند.
+
 ## 8. چه چیزهایی را کپی نکنیم؟
 
 - سیستم امتیازدهی +/− مقاله را بدون rubric و آزمون reliability خودمان کپی نکنیم.
@@ -183,14 +257,16 @@
 
 | شناسه | اقدام | وضعیت اولیه |
 |---|---|---|
-| A13 | variability واقعی را از uncertainty شناختی/مدلی در codebook جدا کنیم، در حالی که اصطلاح اصلی هر مطالعه حفظ شود | Proposed |
-| A14 | regionalization، spatialization، aggregation/disaggregation و spatial matching را به‌صورت عملیات جداگانه استخراج کنیم | Proposed |
-| A15 | برای هر link، source grain، target grain، spatial coverage و rule گذار مقیاس را ثبت کنیم | Proposed |
+| A13 | variability واقعی را از uncertainty شناختی/مدلی در codebook جدا کنیم، در حالی که اصطلاح اصلی هر مطالعه حفظ شود | Accepted |
+| A14 | regionalization، spatialization، aggregation/disaggregation و spatial matching را به‌صورت عملیات جداگانه استخراج کنیم | Accepted |
+| A15 | برای هر link، source grain، target grain، spatial coverage و rule گذار مقیاس را ثبت کنیم | Accepted |
 | A16 | impact contribution را از uncertainty contribution جدا کنیم و از اولی، دومی را استنباط نکنیم | Proposed |
-| A17 | اثر aggregation/resolution change بر uncertainty را فقط با شواهد و مبنای مقایسه ثبت کنیم | Proposed |
-| A18 | در بخش cross-link synthesis، زیرتحلیل مستقل برای scale transition و spatial information loss ایجاد کنیم | Proposed |
+| A17 | اثر aggregation/resolution change بر uncertainty را فقط با شواهد و مبنای مقایسه ثبت کنیم | Accepted |
+| A18 | در بخش cross-link synthesis، زیرتحلیل مستقل برای scale transition و spatial information loss ایجاد کنیم | Accepted |
 | A19 | در Discussion، توصیه‌ها را در صورت کفایت شواهد بر اساس stakeholder و short-term/long-term تفکیک کنیم | Proposed |
 | A20 | منطق iterative «uncertainty acceptable? → improve dominant link → re-evaluate» را به‌عنوان گزینه framework آینده بررسی کنیم | Proposed |
+| A21 | Spatial Context & Scale Management را به‌عنوان capability افقی Digital Twin روی S1–S5 وارد کنیم | Accepted |
+| A22 | Digital Twin را به‌صورت cross-cutting architecture در مقاله نهایی بیاوریم، نه به‌عنوان S6؛ نقش آن continuity، provenance، spatial context، scale management، updating و uncertainty traceability باشد | Accepted |
 
 ## 10. مقایسه با JCP-03
 
@@ -205,6 +281,6 @@
 
 ## 11. وضعیت تصمیم‌ها
 
-A13–A20 در این مرحله فقط `Proposed` هستند. ثبت آن‌ها در این پوشه به معنی اعمال‌شدن در README اصلی، queryها، codebook یا manuscript نیست.
+با تصمیم صریح حسین در 2026-10-02، **A13، A14، A15، A17، A18، A21 و A22 برای ورود به طراحی مقاله پذیرفته شده‌اند (Accepted)**. A16، A19 و A20 فعلاً Proposed می‌مانند. Accepted بودن به معنی ثبت تصمیم علمی/ساختاری است؛ تا وقتی فایل‌های اصلی پروژه و manuscript واقعاً تغییر نکرده‌اند، وضعیت Implemented یا Verified محسوب نمی‌شود.
 
 **کار بعدی پیشنهادی:** مقاله بعدی spatial/GIS-LCA را بخوانیم تا ببینیم این درس‌ها در یک منبع مستقل تکرار، تکمیل یا نقض می‌شوند.
