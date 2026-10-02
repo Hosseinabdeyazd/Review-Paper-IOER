@@ -38,3 +38,27 @@ If decision uncertainty is too high, DT-L5 should be able to request improved ev
 
 ## Uncertainty analysis
 Focus on quality loss, contamination, recovery rates, market conditions, substitution assumptions, EoL choices, LCA model choices and decision robustness.
+
+
+## Output contract — canonical final output
+
+DT-L5 produces the final **Material Decision Profiles** for the selected building.
+
+For every material/batch it should compare, where relevant:
+- direct/component reuse;
+- closed-loop recycling;
+- open-loop recycling;
+- other recovery;
+- disposal baseline.
+
+Each pathway should report:
+- feasible/recoverable quantity;
+- quality/process losses;
+- substitution or replacement potential;
+- spatial/logistical assumptions;
+- environmental consequences;
+- uncertainty;
+- dominant uncertainty source;
+- decision robustness.
+
+Open-loop / closed-loop are scenario/pathway attributes, not intrinsic building properties.
