@@ -1,164 +1,428 @@
-# Parameter Registry
+# Parameter Registry — Extended v1
 
 ## Purpose
 
-This registry prevents the architecture from becoming an uncontrolled list of inputs.
+This registry is the controlled vocabulary for the Building-to-Material Circularity Digital Twin.
 
-Every parameter should be assigned to:
+Every parameter must be assigned to:
 1. an entity;
 2. a modelling role;
-3. one or more Digital Twin layers;
-4. one or more S1–S5 streams;
-5. a downstream material-decision function.
+3. DT layer(s);
+4. S1–S5 stream(s);
+5. downstream decision function;
+6. evidence status.
+
+The full architecture is in [MASTER_ARCHITECTURE_v1.md](MASTER_ARCHITECTURE_v1.md).
 
 ---
 
-## 1. Entity classes
-
-- Building
-- Component
-- Material
-- Event
-- Material Flow
-- Process / Facility
-- Scenario
-- Environmental Impact
-- Decision
-
----
-
-## 2. Modelling-role classes
-
-- Observed
-- Inferred
-- Dynamic
-- Scenario / decision
-
----
-
-## 3. Mandatory parameter metadata
-
-Where applicable, every parameter record should include:
+# 1. Mandatory metadata for every parameter
 
 | Field | Description |
 |---|---|
 | parameter_id | stable identifier |
-| entity_type | Building / Material / Event / etc. |
-| parameter_name | clear name |
-| modelling_role | Observed / Inferred / Dynamic / Scenario |
-| value_type | scalar / category / interval / distribution / probability |
-| unit | unit if applicable |
-| source | data/model source |
-| provenance | method / dataset / version |
-| spatial_grain | building / component / district / region etc. |
-| spatial_coverage | geographic validity |
-| temporal_reference | date / period / target year |
-| uncertainty_type | as reported / harmonized |
-| uncertainty_representation | confidence / SD / range / distribution / unknown |
-| validation_status | validated / partially validated / unvalidated / unreported |
-| DT_layer | one or more DT-L1–DT-L5 |
-| S_stream | one or more S1–S5 |
-| downstream_use | quantity / quality / timing / pathway / substitution / LCA |
-| evidence_status | source-supported / synthesis / proposed |
+| entity_type | Building/System/Component/Material/Event/Flow/Process/Scenario/Impact/Decision |
+| parameter_name | canonical name |
+| aliases | source-specific terminology |
+| modelling_role | Observed/Inferred/Dynamic/Scenario |
+| value_type | scalar/category/interval/distribution/probability/boolean/text |
+| unit | SI or documented source unit |
+| source | dataset/model/document/sensor |
+| provenance | method/version/author/tool |
+| spatial_grain | building/component/material/district/region/etc. |
+| spatial_coverage | validity extent |
+| temporal_reference | observation or scenario time |
+| valid_from | start |
+| valid_to | end |
+| uncertainty_type_original | source terminology |
+| uncertainty_type_harmonized | project taxonomy |
+| uncertainty_representation | SD/range/CI/distribution/probability/unknown |
+| validation_status | validated/partial/unvalidated/unreported |
+| DT_layers | one or more |
+| S_streams | one or more |
+| downstream_use | identity/quantity/quality/timing/pathway/substitution/LCA/decision |
+| evidence_status | source-supported/multi-source synthesis/proposed/optional |
+| evidence_locator | DOI/source/section |
+| version | current value version |
 
 ---
 
-## 4. Initial parameter families
+# 2. Controlled parameter families
 
-### Building
-- footprint
-- height
-- floor count
-- use
-- construction period
-- building age
-- typology
-- structural system
-- renovation history
-- current condition
+## B — Building identity, location and geometry
+- B_ID persistent building ID
+- B_ADDRESS
+- B_PARCEL_ID
+- B_COORDINATES
+- B_FOOTPRINT_GEOMETRY
+- B_FOOTPRINT_AREA
+- B_GROSS_FLOOR_AREA
+- B_NET_FLOOR_AREA
+- B_GROSS_VOLUME
+- B_HEIGHT
+- B_EAVES_HEIGHT
+- B_RIDGE_HEIGHT
+- B_STOREY_COUNT
+- B_BASEMENT_COUNT
+- B_PERIMETER
+- B_ORIENTATION
+- B_FORM_FACTOR
+- B_ADJACENCY
+- B_SHARED_WALL_LENGTH
+- B_ROOF_FORM
+- B_ROOF_SLOPE
+- B_GEOMETRY_LOD
+- B_GEOMETRY_ACCURACY
+- B_GEOMETRY_DATE
 
-### Component
-- component type
-- geometry
-- assembly
-- installation date
-- replacement history
-- separability
-- accessibility
+## T — Typology, use and age
+- T_CURRENT_USE
+- T_ORIGINAL_USE
+- T_MIXED_USE_SHARE
+- T_TYPOLOGY
+- T_MORPHOLOGY_CLASS
+- T_CONSTRUCTION_YEAR
+- T_CONSTRUCTION_PERIOD
+- T_COMPLETION_YEAR
+- T_MAJOR_RENOVATION_YEAR
+- T_EXTENSION_YEAR
+- T_CHANGE_OF_USE_YEAR
+- T_HERITAGE_STATUS
+- T_AGE_CONFIDENCE
 
-### Material
-- material type
-- quantity
-- density
-- intensity
-- quality
-- condition
-- contamination
-- embodied impact factor
-- recyclability
-- reusability
+## S — Structural system
+- S_PRIMARY_SYSTEM
+- S_FOUNDATION_TYPE
+- S_FOUNDATION_MATERIAL
+- S_COLUMN_SYSTEM
+- S_COLUMN_MATERIAL
+- S_BEAM_SYSTEM
+- S_BEAM_MATERIAL
+- S_LOADBEARING_WALL_TYPE
+- S_LOADBEARING_WALL_MATERIAL
+- S_FLOOR_SYSTEM
+- S_SLAB_TYPE
+- S_SLAB_MATERIAL
+- S_REINFORCEMENT_RATIO
+- S_PREFABRICATION_LEVEL
+- S_MODULARITY
 
-### Event
-- event type
-- event timing
-- probability
-- affected component/material
-- released quantity
+## ENV — Envelope/openings
+- ENV_EXTERNAL_WALL_ASSEMBLY
+- ENV_EXTERNAL_WALL_LAYER_MATERIAL
+- ENV_EXTERNAL_WALL_LAYER_THICKNESS
+- ENV_EXTERNAL_WALL_AREA
+- ENV_FACADE_MATERIAL
+- ENV_CLADDING_MATERIAL
+- ENV_INSULATION_MATERIAL
+- ENV_INSULATION_THICKNESS
+- ENV_RENDER_COATING
+- ENV_WINDOW_COUNT
+- ENV_WINDOW_AREA
+- ENV_WINDOW_WALL_RATIO
+- ENV_WINDOW_FRAME_MATERIAL
+- ENV_GLAZING_TYPE
+- ENV_WINDOW_INSTALLATION_YEAR
+- ENV_WINDOW_CONDITION
+- ENV_EXTERNAL_DOOR_COUNT
+- ENV_EXTERNAL_DOOR_MATERIAL
+- ENV_ROOF_ASSEMBLY
+- ENV_ROOF_COVERING
+- ENV_ROOF_INSULATION
+- ENV_ROOF_INSTALLATION_YEAR
+- ENV_ROOF_CONDITION
 
-### Material Flow
-- source
-- destination
-- quantity
-- time
-- transport distance
-- processing route
-- loss rate
+## INT — Internal components
+- INT_PARTITION_TYPE
+- INT_PARTITION_MATERIAL
+- INT_PARTITION_AREA
+- INT_PARTITION_THICKNESS
+- INT_INTERNAL_DOOR_COUNT
+- INT_INTERNAL_DOOR_MATERIAL
+- INT_FLOOR_FINISH
+- INT_WALL_FINISH
+- INT_CEILING_FINISH
+- INT_PAINT_COATING
+- INT_TILE
+- INT_CARPET
+- INT_ADHESIVE
+- INT_SUSPENDED_CEILING
 
-### Process / Facility
-- process type
-- capacity
-- distance
-- recovery efficiency
-- energy input
-- output quality
+## MEP — Services
+- MEP_PIPE_MATERIAL
+- MEP_DUCT_MATERIAL
+- MEP_CABLE_MATERIAL
+- MEP_HVAC_COMPONENT
+- MEP_SANITARY_FIXTURE
+- MEP_INSTALLATION_YEAR
+- MEP_REPLACEMENT_INTERVAL
 
-### Scenario
-- target year
-- pathway
-- open-loop / closed-loop
-- reuse enabled?
-- recycling enabled?
-- recovery enabled?
-- transport constraint
-- demand assumption
-- market assumption
-- substitution ratio
-- replacement coefficient
-- optimization objective
+## MAT — Material identity and quantity
+- MAT_ID
+- MAT_FAMILY
+- MAT_SUBTYPE_GRADE
+- MAT_COMPONENT_ID
+- MAT_COMPOSITION
+- MAT_DENSITY
+- MAT_AREA
+- MAT_VOLUME
+- MAT_COUNT
+- MAT_MASS
+- MAT_INTENSITY_PER_M2
+- MAT_INTENSITY_PER_M3
+- MAT_WASTAGE_FACTOR
+- MAT_VIRGIN_CONTENT
+- MAT_RECYCLED_CONTENT
+- MAT_PRODUCTION_YEAR
+- MAT_MANUFACTURER
+- MAT_PRODUCT_ID
+- MAT_EPD_ID
 
-### Environmental Impact
-- functional unit
-- system boundary
-- LCI source
-- LCIA method
-- impact category
-- baseline burden
-- avoided burden
-- scenario burden
+## Q — Quality, condition and safety
+- Q_CONDITION
+- Q_DAMAGE
+- Q_CRACKING
+- Q_CORROSION
+- Q_DECAY
+- Q_MOISTURE
+- Q_DEFORMATION
+- Q_CONTAMINATION_TYPE
+- Q_CONTAMINATION_LEVEL
+- Q_HAZARDOUS_SUBSTANCE
+- Q_COATING
+- Q_RESIDUAL_STRENGTH
+- Q_RESIDUAL_CAPACITY
+- Q_DIMENSIONAL_TOLERANCE
+- Q_AESTHETIC_QUALITY
+- Q_CERTIFICATION_STATUS
+- Q_TEST_STATUS
+- Q_TRACEABILITY
+- Q_UNKNOWN_FRACTION
 
-### Decision
-- decision objective
-- feasible pathways
-- robustness
-- dominant uncertainty
-- additional information need
+## CON — Connection, accessibility and disassembly
+- CON_CONNECTION_TYPE
+- CON_REVERSIBILITY
+- CON_FIXING_MATERIAL
+- CON_ADHESIVE_PRESENT
+- CON_MORTAR_PRESENT
+- CON_WELD_PRESENT
+- CON_ACCESSIBILITY
+- CON_TOOL_REQUIREMENT
+- CON_DESTRUCTIVE_REMOVAL
+- CON_DEPENDENCY_COUNT
+- CON_DISASSEMBLY_SEQUENCE
+- CON_EXPECTED_REMOVAL_DAMAGE
+- CON_DECONSTRUCTION_TIME
+- CON_LABOUR_INTENSITY
+- CON_SAFETY_CONSTRAINT
+- CON_SEPARABILITY
+
+## LIFE — Life, maintenance and event timing
+- LIFE_BUILDING_DESIGN_LIFE
+- LIFE_COMPONENT_REFERENCE_LIFE
+- LIFE_MATERIAL_REFERENCE_LIFE
+- LIFE_COMPONENT_AGE
+- LIFE_REMAINING_SERVICE_LIFE
+- LIFE_MAINTENANCE_INTERVAL
+- LIFE_REPLACEMENT_INTERVAL
+- LIFE_SURVIVAL_DISTRIBUTION
+- LIFE_HAZARD_RATE
+- LIFE_OBSOLESCENCE_RATE
+- LIFE_EVENT_TYPE
+- LIFE_EVENT_YEAR
+- LIFE_EVENT_PROBABILITY
+- LIFE_RELEASE_YEAR
+- LIFE_RELEASE_QUANTITY
+
+## FLOW — Material flows
+- FLOW_SOURCE
+- FLOW_DESTINATION
+- FLOW_QUANTITY
+- FLOW_TIME
+- FLOW_CAPTURE_RATE
+- FLOW_SORTING_RATE
+- FLOW_SORTING_LOSS
+- FLOW_PROCESSING_LOSS
+- FLOW_RECOVERED_QUANTITY
+- FLOW_RESIDUAL_QUANTITY
+- FLOW_TRANSPORT_DISTANCE
+- FLOW_TRANSPORT_MODE
+- FLOW_STORAGE_TIME
+- FLOW_STORAGE_LOSS
+
+## CIRC — Circular pathway parameters
+- CIRC_PATHWAY
+- CIRC_REUSE_ENABLED
+- CIRC_REUSE_FEASIBILITY
+- CIRC_REUSE_RATE
+- CIRC_REUSABLE_QUANTITY
+- CIRC_REPAIR_REQUIREMENT
+- CIRC_CLEANING_REQUIREMENT
+- CIRC_RECERTIFICATION_REQUIREMENT
+- CIRC_REMANUFACTURE_ENABLED
+- CIRC_RECYCLING_ENABLED
+- CIRC_RECOVERY_RATE
+- CIRC_RECYCLING_RATE
+- CIRC_PROCESS_YIELD
+- CIRC_QUALITY_RETENTION
+- CIRC_CLOSED_LOOP
+- CIRC_OPEN_LOOP
+- CIRC_DESTINATION_PRODUCT
+- CIRC_SUBSTITUTION_RATIO
+- CIRC_REPLACEMENT_COEFFICIENT
+- CIRC_DOWNCYCLING_FLAG
+- CIRC_UPCYCLING_FLAG
+- CIRC_ENERGY_RECOVERY_SHARE
+- CIRC_LANDFILL_SHARE
+- CIRC_HAZARDOUS_DISPOSAL_SHARE
+
+## FAC — Facility/logistics
+- FAC_ID
+- FAC_TYPE
+- FAC_LOCATION
+- FAC_DISTANCE
+- FAC_CAPACITY
+- FAC_ACCEPTED_MATERIAL
+- FAC_QUALITY_THRESHOLD
+- FAC_CONTAMINATION_THRESHOLD
+- FAC_PROCESS_ENERGY
+- FAC_PROCESS_WATER
+- FAC_PROCESS_YIELD
+- FAC_OUTPUT_QUALITY
+
+## MARKET — Demand/economic-context parameters
+- MARKET_DESTINATION
+- MARKET_DEMAND
+- MARKET_DEMAND_YEAR
+- MARKET_PRICE if later included
+- MARKET_QUALITY_REQUIREMENT
+- MARKET_DIMENSION_REQUIREMENT
+- MARKET_SUPPLY_DEMAND_TIME_MATCH
+- MARKET_REGULATORY_ACCEPTANCE
+
+## LCA — Environmental data
+- LCA_FUNCTIONAL_UNIT
+- LCA_SYSTEM_BOUNDARY
+- LCA_LCI_SOURCE
+- LCA_LCIA_METHOD
+- LCA_DATASET_REGION
+- LCA_DATASET_YEAR
+- LCA_TECHNOLOGY
+- LCA_DENSITY
+- LCA_EMBODIED_ENERGY
+- LCA_EMBODIED_WATER
+- LCA_GWP
+- LCA_RESOURCE_USE
+- LCA_ACIDIFICATION
+- LCA_EUTROPHICATION
+- LCA_PHOTOCHEMICAL_OZONE
+- LCA_OZONE_DEPLETION
+- LCA_PARTICULATE_MATTER
+- LCA_TOXICITY where supported
+- LCA_A1_A3
+- LCA_A4
+- LCA_A5
+- LCA_B4
+- LCA_C1
+- LCA_C2
+- LCA_C3
+- LCA_C4
+- LCA_MODULE_D
+- LCA_AVOIDED_VIRGIN_BURDEN
+- LCA_AVOIDED_DISPOSAL_BURDEN
+- LCA_PROCESSING_BURDEN
+- LCA_TRANSPORT_BURDEN
+- LCA_NET_SCENARIO_BURDEN
+
+## SCN — Scenario controls
+- SCN_ID
+- SCN_TARGET_YEAR
+- SCN_OBJECTIVE
+- SCN_REUSE_PRIORITY
+- SCN_CLOSED_LOOP_ONLY
+- SCN_OPEN_LOOP_ALLOWED
+- SCN_MAX_TRANSPORT_DISTANCE
+- SCN_MIN_QUALITY
+- SCN_MIN_SUBSTITUTION
+- SCN_FACILITY_CAPACITY_CONSTRAINT
+- SCN_MARKET_CONSTRAINT
+- SCN_LANDFILL_RESTRICTION
+- SCN_GRID_MIX
+- SCN_TECHNOLOGY_ASSUMPTION
+- SCN_POLICY_ASSUMPTION
+
+## UNC — Uncertainty/data quality
+- UNC_SOURCE_ID
+- UNC_TYPE_ORIGINAL
+- UNC_TYPE_HARMONIZED
+- UNC_DISTRIBUTION
+- UNC_INTERVAL
+- UNC_CONFIDENCE
+- UNC_RELIABILITY
+- UNC_COMPLETENESS
+- UNC_TEMPORAL_REPRESENTATIVENESS
+- UNC_GEOGRAPHIC_REPRESENTATIVENESS
+- UNC_TECHNOLOGICAL_REPRESENTATIVENESS
+- UNC_CORRELATION
+- UNC_REPORTING_STATUS
+- UNC_TRANSFER_STATUS
+- UNC_REPRESENTATION_CHANGE
+- UNC_MAGNITUDE_CHANGE
+- UNC_FATE
+- UNC_DECISION_CONSEQUENCE
+- UNC_HOTSPOT_SCORE if later methodologically defined
+- UNC_VALUE_OF_INFORMATION if later supported
+
+## DEC — Decision outputs
+- DEC_FEASIBLE_PATHWAYS
+- DEC_REUSABLE_MASS
+- DEC_RECYCLABLE_MASS
+- DEC_EFFECTIVE_SUBSTITUTED_MASS
+- DEC_LANDFILL_MASS
+- DEC_SCENARIO_ENVIRONMENTAL_BURDEN
+- DEC_COMPARISON_ROBUSTNESS
+- DEC_DOMINANT_UNCERTAINTY
+- DEC_REQUIRED_ADDITIONAL_DATA
+- DEC_NEXT_MEASUREMENT
 
 ---
 
-## 5. Scope test
+# 3. Variable roles
 
-Before adding any parameter, ask:
+Every parameter is tagged as one or more of:
+- Observed
+- Inferred
+- Dynamic
+- Scenario/decision
+- Reference/background data
 
-**Does this parameter improve our ability to estimate material quantity, quality, release timing, circular pathway feasibility, effective substitution, environmental consequence or uncertainty?**
+---
 
-If not, it should not automatically enter the core architecture.
+# 4. Core vs optional
+
+The registry will later be tiered:
+- Tier 0 — minimum identity;
+- Tier 1 — material-stock estimation;
+- Tier 2 — release/dynamics;
+- Tier 3 — circularity feasibility;
+- Tier 4 — LCA/decision-quality detail.
+
+This tiering is intentionally not finalized yet. Recent material-passport literature supports tiered data structures, but the exact mapping for this project must be validated against the systematic review.
+
+---
+
+# 5. Inclusion test
+
+A parameter enters the core only if it can affect at least one of:
+
+- material identity;
+- material quantity;
+- material quality;
+- release timing;
+- reuse feasibility;
+- recycling feasibility;
+- substitution potential;
+- landfill/residual fraction;
+- environmental consequence;
+- decision robustness;
+- uncertainty attribution.
