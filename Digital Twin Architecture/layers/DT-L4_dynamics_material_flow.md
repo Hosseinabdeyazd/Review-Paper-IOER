@@ -21,3 +21,15 @@ How should building states and material stocks evolve through time and release m
 
 ## Uncertainty analysis
 Focus on event timing, lifetime distributions, scenario uncertainty, future technology/context, dynamic parameter change and inherited stock uncertainty.
+
+
+## Output contract to Material Decision Profile
+
+DT-L4 converts the probabilistic material inventory into **release profiles**:
+- which material batch is released;
+- through which event;
+- when;
+- how much;
+- with what uncertainty.
+
+The output must preserve the identity/state of the released material so DT-L5 can evaluate pathway-specific reuse and recycling options.
