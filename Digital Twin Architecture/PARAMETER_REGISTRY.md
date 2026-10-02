@@ -1,4 +1,6 @@
-# Parameter Registry — Governance and Registration Rules
+# Parameter Registry
+
+> This file is the compact registry template. The comprehensive field catalogue is maintained in **MASTER_PARAMETER_SCHEMA.md**. New detailed parameters should be added there first and then normalized into this registry with stable IDs and evidence tags. — Governance and Registration Rules
 
 ## Purpose
 
