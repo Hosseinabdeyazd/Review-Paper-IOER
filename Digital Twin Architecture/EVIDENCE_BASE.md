@@ -464,3 +464,104 @@ Every architecture field should eventually be tagged:
 - E4 — placeholder / not yet supported.
 
 No field is removed merely because evidence is currently sparse. Instead, its evidence status remains explicit.
+
+
+---
+
+## I. Material-specific reuse and recycling evidence
+
+### Bartsch — Reuse of reclaimed steel components in construction: A systematic review
+
+Structures (2025), DOI 10.1016/j.istruc.2025.110057.
+
+Architecture lessons:
+- steel reuse depends on technical, regulatory, economic, and logistical feasibility;
+- component identity, condition, geometry, documentation, and deconstruction process should be preserved.
+
+### Steel Element Reuse Ontology (SERO)
+
+Developments in the Built Environment (2025), DOI 10.1016/j.dibe.2025.100638.
+
+Architecture lessons:
+- reusability ontology should include economic, technical, condition, and documentation factors;
+- human- and machine-readable audit structures are feasible for steel members.
+
+### Reuse of Steel in the Construction Industry: Challenges and Opportunities
+
+International Journal of Steel Structures (2023/2024).
+
+Architecture lessons:
+- reclaimed structural steel assessment can require yield/tensile strength, ductility, heat-treatment condition, chemical composition/weldability, and certification;
+- original documentation materially affects reuse feasibility.
+
+Supports:
+steel grade; mechanical properties; chemical composition; weldability; certification; documentation.
+
+### Vaughan et al. — Circular masonry: A scoping review on enabling brick reuse
+
+Journal of Building Engineering (2026), DOI 10.1016/j.jobe.2026.117213.
+
+Architecture lessons:
+- reused bricks can satisfy structural testing;
+- mortar bond/removability is a major reuse barrier;
+- standardized mortar-removability metrics are lacking.
+
+Supports:
+brick condition; mortar type/bond; separation method; reclaim yield; compressive performance.
+
+### Technical viability of reclaimed bricks
+
+Developments in the Built Environment (2020), DOI 10.1016/j.dibe.2020.100006.
+
+Architecture lessons:
+- reclamation method and mortar separation affect recovery;
+- reclaimed-brick strength and damage should be assessed;
+- reclamation yield and process energy can be explicit pathway parameters.
+
+### Reclaimed structural timber grading
+
+Construction and Building Materials (2026), DOI 10.1016/j.conbuildmat.2026.146554.
+
+Architecture lessons:
+- element-by-element grading helps manage reclaimed-timber variability;
+- density, reuse-related defects, non-destructive modulus estimates, and strength testing can inform reuse quality.
+
+Supports:
+timber species/product; density; defects; visual grade; modulus; residual strength.
+
+### Reuse/remanufacturing of insulating glass units
+
+Glass Structures & Engineering (2024–2026).
+
+Architecture lessons:
+- glazing inventory should include quantity, size/configuration, condition, harmful-substance exposure, dismantling feasibility, and technical properties;
+- surface damage, coatings, seal condition, strength, and connection/putty/bead systems influence reuse/remanufacturing;
+- logistics and non-destructive removal are important.
+
+Supports:
+IGU configuration; glazing layers; coatings; surface damage; bending strength; seal condition; frame/connection; dismantling yield.
+
+### Gypsum circularity / best practices
+
+Journal of Cleaner Production and related literature.
+
+Architecture lessons:
+- source separation is crucial;
+- waste acceptance criteria and recycled-gypsum quality criteria are needed;
+- gypsum contamination can impair other mineral recycling streams.
+
+Supports:
+gypsum purity; paper/additives; contamination; segregation; facility acceptance; recycled-product quality.
+
+### Mapping circular-economy practices for steel, cement, glass, brick, insulation, and wood
+
+Renewable and Sustainable Energy Reviews (2024), DOI 10.1016/j.rser.2024.114697.
+
+Architecture lessons:
+- circular pathways differ strongly by material family;
+- reuse, remanufacture, repurpose, recycle, and recover should be represented separately;
+- sorting/separation is a major closed-loop constraint;
+- open-loop synergies can connect different material value chains.
+
+Supports:
+material-specific pathway templates; sorting; separation; loop definition.
