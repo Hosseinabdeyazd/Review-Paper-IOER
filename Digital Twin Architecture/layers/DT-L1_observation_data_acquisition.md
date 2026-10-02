@@ -33,3 +33,20 @@ What observations are needed to characterize buildings and their context with su
 
 ## Uncertainty analysis
 To be completed layer by layer.
+
+
+## Output contract to Material Decision Profile
+
+DT-L1 is successful only if its observations constrain one or more downstream material-decision variables, such as:
+- material identification;
+- material quantity;
+- quality/state;
+- component accessibility/separability;
+- age/renovation history;
+- release timing.
+
+Every observation should carry provenance, spatial/temporal validity and uncertainty.
+
+## Feedback trigger
+
+If DT-L5 identifies a decision bottleneck caused by missing or uncertain physical evidence, DT-L1 should support targeted reacquisition—inspection, imagery, records, scan or sampling—rather than indiscriminate collection of more data.
