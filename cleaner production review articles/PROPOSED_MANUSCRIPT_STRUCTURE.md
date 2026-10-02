@@ -1,10 +1,10 @@
-# Proposed Manuscript Structure — Working Draft v0.1
+# Proposed Manuscript Structure — Working Draft v0.2
 
 [بازگشت به فهرست](README.md) · [مقاله الهام‌بخش اولیه](articles/03_Baustert_Benetto_2017.md) · [دفتر اقدام‌ها](LESSONS_AND_ACTIONS.md)
 
-**تاریخ:** 2026-10-01.  
-**وضعیت:** Proposed؛ برای بحث و مقایسه با مقاله‌های بعدی.  
-**پایه:** چارچوب موجود در README پروژه و برداشت ساختاری ما از JCP-03.  
+**تاریخ:** 2026-10-02.  
+**وضعیت:** Working draft؛ جهت‌های پذیرفته‌شده از JCP-03 و JCP-02 در آن ثبت شده‌اند، اما هنوز manuscript اصلی نیست.  
+**پایه:** چارچوب موجود در README پروژه، JCP-03 و JCP-02.  
 **حدود:** این فایل ساختار واقعی مقاله Baustert & Benetto نیست؛ پیشنهاد ما برای مقاله خودمان است. هیچ عنوان، نتیجه یا فصل اصلی پروژه با ایجاد این فایل جایگزین نشده است.
 
 ## اصل راهنما
@@ -31,7 +31,7 @@
 
 **محتوا:** جریان‌های جست‌وجوی S1–S5؛ جست‌وجوی پایه و لایه عدم‌قطعیت؛ معیارهای ورود و خروج؛ حذف تکراری‌ها؛ غربالگری؛ استخراج Study–Link–Effect؛ کیفیت و کفایت گزارش؛ قواعد نگاشت اصطلاحات؛ قواعد سنتز.
 
-**بهبود پیشنهادی:** منشأ عدم‌قطعیت، نمایش، گزارش‌شدن، انتقال و تغییر اندازه آن جدا تعریف شوند. طرح چندمحوری در دفتر اقدام‌ها فعلاً آزمایشی است، نه codebook مصوب.
+**جهت پذیرفته‌شده:** منشأ عدم‌قطعیت، نمایش، گزارش‌شدن، انتقال و تغییر اندازه آن جدا تعریف شوند. همچنین در تعریف مفاهیم، **variability واقعی سیستم** از **uncertainty ناشی از کمبود شناخت/داده/مدل** تفکیک شود، در حالی که اصطلاح اصلی هر منبع حفظ و harmonization جدا انجام می‌شود. جزئیات فنی codebook هنوز نیازمند آزمون روی مطالعات واقعی است.
 
 **خروجی‌های برنامه‌ریزی‌شده:** سابقه قابل‌ردیابی انتخاب مطالعات، راهنمای استخراج و جدول تعریف متغیرها. تا زمان تولید واقعی، این‌ها خروجی موجود محسوب نمی‌شوند.
 
@@ -61,15 +61,31 @@
 
 **احتیاط:** اصطلاحات خود منابع حفظ شوند؛ هماهنگ‌سازی آن‌ها با طبقه‌بندی ما باید مستند باشد.
 
-## 5. Uncertainty Across Links and Spatial–Temporal Scales
+## 5. Uncertainty Propagation Across Analytical Links and Scales
 
-**نقش پیشنهادی:** بخش مرکزی سنتز؛ بررسی انتقال بین مرحله‌ها و مقیاس‌ها، نه تکرار بخش 4.
+**نقش پذیرفته‌شده:** بخش مرکزی سنتز؛ بررسی انتقال uncertainty همراه با تغییرات مکانی/مقیاسی، نه تکرار بخش 4.
 
-**محتوا:** اتصال‌های S1→S2، S2→S3، S3→S4 و S4→S5، همراه با مسیرهای غیرمجاور یا بازخورددار در صورت وجود شواهد؛ نحوه انتقال عدم‌قطعیت؛ وابستگی‌ها؛ تبدیل نمایش؛ وضعیت گزارش؛ شواهد کاهش یا افزایش؛ تغییر مقیاس فضایی و افق زمانی.
+### 5.1 Cross-stage propagation
+اتصال‌های S1→S2، S2→S3، S3→S4 و S4→S5، همراه با مسیرهای غیرمجاور یا بازخورددار در صورت وجود شواهد.
 
-**پرسش اصلی:** کدام منابع عدم‌قطعیت واقعاً به پایین‌دست می‌رسند و برای بقیه چه شواهدی داریم؟
+### 5.2 Spatial variability versus uncertainty
+تفکیک تغییرپذیری واقعی مکانی از کمبود شناخت/representativeness و بررسی اینکه مدل چگونه با هرکدام برخورد می‌کند.
 
-**احتیاط:** حفظ‌شدن و تبدیل‌شدن ممکن است هم‌زمان رخ دهند. نبود گزارش، اثبات حذف نیست. اندازه بازه ارتفاع، جرم مصالح و اثر محیط‌زیستی بدون مبنای مشترک مستقیماً قابل‌مقایسه نیست.
+### 5.3 Regionalization and spatialization
+تفکیک geographic representativeness از location assignment؛ بررسی اینکه هر مطالعه کدام operation را انجام می‌دهد.
+
+### 5.4 Scale transitions, aggregation/disaggregation and matching
+ثبت source grain، target grain، coverage/native resolution و rule تبدیل بین scaleها.
+
+### 5.5 Spatial information loss and resolution mismatch
+بررسی اینکه آیا aggregation یا mismatch اطلاعات مکانی را فشرده/حذف کرده و این اتفاق در سرنوشت uncertainty چگونه بازتاب یافته است.
+
+### 5.6 Uncertainty fate
+برای هر uncertainty source: Preserved، Legitimately reduced، Amplified، Transformed، Masked/lost یا Unassessed؛ با این قید که transition، representation change و magnitude change جدا ثبت شوند.
+
+**پرسش اصلی:** وقتی اطلاعات از یک مرحله و یک مقیاس به مرحله/مقیاس بعدی می‌رود، چه چیزی از uncertainty و spatial information حفظ، تبدیل، تجمیع، پنهان یا از دست می‌رود؟
+
+**احتیاط:** نبود گزارش، اثبات حذف نیست. از تغییر resolution به‌تنهایی نمی‌توان کاهش/افزایش uncertainty را نتیجه گرفت.
 
 ## 6. Consequences for LCA and Circularity Decisions
 
@@ -89,7 +105,33 @@
 
 **چارچوب پیشنهادی:** هر مؤلفه به یک شکاف یا نیاز مستند متصل شود. قابلیت اجراشده در منابع، استنباط حاصل از سنتز و پیشنهاد آینده با برچسب مستقل نشان داده شوند.
 
-**جایگاه موقت دیجیتال‌تویین:** گزینه‌ای برای بررسی در این بخش؛ نه محور قطعی کل مرور. نقش داده تازه، به‌روزرسانی، منشأ اطلاعات و بازخورد باید مشخص و ادعای کاهش عدم‌قطعیت مشروط باشد. اتصال بازخورددار ABM–LCA در مقاله مرجع به‌خودی‌خود اثبات دیجیتال‌تویین نیست.
+**جایگاه پذیرفته‌شده Digital Twin:** Digital Twin در مقاله نهایی به‌صورت **cross-cutting architecture موازی S1–S5** وارد می‌شود، نه به‌عنوان S6. معماری پیشنهادی باید دست‌کم این capabilityها را پوشش دهد:
+
+- persistent identity / Building ID؛
+- provenance و versioning؛
+- spatialization و regionalization؛
+- spatial grain, coverage و scale-transition management؛
+- uncertainty traceability across links؛
+- temporal updating و state tracking؛
+- feedback from decision needs to upstream data/model refinement.
+
+هدف مفهومی Digital Twin در مقاله، بهبود **information continuity، contextual consistency، updateability و traceability** است. هر ادعای کمی درباره افزایش accuracy یا efficiency فقط در صورت وجود شواهد گزارش خواهد شد.
+
+به‌صورت مفهومی:
+
+```text
+                     DIGITAL TWIN ARCHITECTURE
+  ───────────────────────────────────────────────────────────
+   Identity | Provenance | Spatial context | Scale | Time
+   Uncertainty traceability | Updating | Decision feedback
+  ───────────────────────────────────────────────────────────
+        │              │             │             │
+       S1  →           S2  →        S3  →        S4  →       S5
+     GeoAI          Material      Dynamics      Circularity    LCA
+  Observation        Stock        & Events       & Recovery   Decision
+```
+
+این معماری synthesis پیشنهادی خود ماست؛ JCP-02 خودِ Digital Twin را معرفی یا اعتبارسنجی نمی‌کند.
 
 **محدودیت‌ها:** پوشش جست‌وجو، قابلیت دسترسی متن کامل، ناهمگنی اصطلاحات و پیامدها، کیفیت گزارش، وابستگی شواهد و حدود انتقال نتیجه‌ها.
 
@@ -110,3 +152,4 @@
 | نسخه | تاریخ | پایه تغییر | وضعیت |
 |---|---|---|---|
 | v0.1 | 2026-10-01 | اولین بحث ساختاری درباره JCP-03 و README موجود پروژه | Proposed؛ هنوز با نه مقاله دیگر مقایسه نشده |
+| v0.2 | 2026-10-02 | افزودن درس‌های پذیرفته‌شده JCP-02: variability/uncertainty، spatial scale transitions و Digital Twin cross-cutting architecture | Working draft؛ جهت‌ها پذیرفته شده‌اند، implementation نهایی نشده |
