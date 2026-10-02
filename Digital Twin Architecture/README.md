@@ -1,4 +1,4 @@
-# Digital Twin Architecture — Building-to-Material Decision Twin
+# Digital Twin Architecture — Evidence-Driven Working Architecture v0.2 — Building-to-Material Decision Twin
 
 ## Current architecture status
 
@@ -25,6 +25,12 @@ The detailed specification is distributed across:
 The master parameter catalog is intentionally extensive. Not all fields are mandatory for every building; parameters are marked conceptually as core, conditional, advanced or optional and should be populated according to available evidence and decision need.
 
 ---
+
+## Status
+
+**Version:** v0.2 — detailed evidence-driven architecture, 2026-10-02.
+
+This is a working research architecture, not a finished standard. It has been expanded using literature on building material stocks, material intensities, GeoAI/data acquisition, material passports, design for disassembly, dynamic material-flow analysis, circularity logistics, building LCA, and uncertainty. Every field should continue to receive an evidence status as the systematic review progresses.
 
 ## Purpose
 
@@ -312,6 +318,16 @@ Digital Twin Architecture/
 ```
 
 The layer files are working documents. They will be expanded one by one as the review progresses.
+
+### Key architecture documents
+
+- **MASTER_PARAMETER_SCHEMA.md** — comprehensive parameter architecture across 21 domains, from geometry and structural systems to material quality, disassembly, circular pathways, LCA and uncertainty.
+- **DT_LAYER_PARAMETER_MAP.md** — maps those parameter families to DT-L1–DT-L5 and S1–S5, including inputs, processing, outputs and uncertainty mechanisms.
+- **DATA_ACQUISITION_AND_INFERENCE.md** — defines how values enter the twin, evidence hierarchies, and progressive refinement.
+- **CIRCULARITY_ENGINE.md** — stock → release → salvage → quality gate → reuse/closed-loop/open-loop/recovery/disposal → substitution.
+- **LCA_ENGINE.md** — material-to-LCA mapping, A–D modules, regional/time context, pathway burdens and uncertainty.
+- **UNCERTAINTY_ENGINE.md** — end-to-end uncertainty records, propagation, dependence, hotspot analysis and value-of-information feedback.
+- **EVIDENCE_BASE.md** — literature ledger supporting architecture decisions.
 
 ---
 
