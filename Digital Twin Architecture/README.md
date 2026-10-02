@@ -276,6 +276,17 @@ This separation prevents properties such as building age, material type, demolit
 
 ---
 
+## Detailed architecture documents
+
+- [Master Parameter Architecture](MASTER_PARAMETER_ARCHITECTURE.md) — detailed parameter-by-parameter architecture from observation to circularity/LCA decision.
+- [Evidence Base](EVIDENCE_BASE.md) — literature supporting parameter families and the boundary between source evidence and our synthesis.
+- [Uncertainty Propagation Map](UNCERTAINTY_PROPAGATION_MAP.md) — source-to-decision uncertainty paths and feedback logic.
+- [Material Decision Profile](MATERIAL_DECISION_PROFILE.md) — final output contract.
+- [Parameter Registry](PARAMETER_REGISTRY.md) — parameter metadata and taxonomy.
+- [S1–S5 Connection Matrix](S1_S5_CONNECTION_MATRIX.md) — non-one-to-one mapping between Digital Twin capabilities and review streams.
+
+---
+
 ## Folder structure
 
 ```text
