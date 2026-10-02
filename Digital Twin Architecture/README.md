@@ -1,4 +1,30 @@
-# Digital Twin Architecture
+# Digital Twin Architecture — Building-to-Material Decision Twin
+
+## Current architecture status
+
+**Working version: v0.3 — literature-informed master architecture.**
+
+The architecture has now been expanded using literature across:
+- IOER / Georg Schiller material cadastres, MCIs and continuous MFA;
+- Robert H. Crawford's embodied environmental inventory and CE-assessment work;
+- geo-referenced material-stock and prospective MFA;
+- building archetypes and material-intensity modelling;
+- material passports / DPP ontologies;
+- pre-demolition audit, component reuse and design-for-disassembly;
+- service-life / replacement uncertainty;
+- LCA / environmental uncertainty and Level(s).
+
+The detailed specification is distributed across:
+- `MASTER_ARCHITECTURE_SPECIFICATION.md`
+- `MASTER_PARAMETER_CATALOG.md`
+- `LITERATURE_EVIDENCE_BASE.md`
+- `MATERIAL_DECISION_PROFILE.md`
+- `UNCERTAINTY_TRACEABILITY_MODEL.md`
+- `schemas/BUILDING_MATERIAL_TWIN_TEMPLATE.yaml`
+
+The master parameter catalog is intentionally extensive. Not all fields are mandatory for every building; parameters are marked conceptually as core, conditional, advanced or optional and should be populated according to available evidence and decision need.
+
+---
 
 ## Purpose
 
@@ -346,17 +372,43 @@ This is **v1, not an exhaustive final ontology**. It is intentionally a living a
 
 ---
 
+## Core output contract
+
+For a selected building, the system should produce one or more **Material Decision Profiles**, each at material/component-batch level:
+
+```text
+material identity
+→ component/location
+→ quantity distribution
+→ quality/condition/hazards
+→ expected release event/time
+→ technically recoverable quantity
+→ direct reuse quantity
+→ closed-loop recyclable quantity
+→ open-loop recyclable quantity
+→ substitution/replacement potential
+→ process/logistics
+→ scenario environmental consequences
+→ uncertainty decomposition
+→ decision robustness
+→ next-data recommendation
+```
+
+The architecture must support both sparse-data and high-evidence cases. A type-based material estimate and a physically audited material inventory can occupy the same schema but must never be presented as equally certain evidence.
+
+---
+
 ## Immediate next step
 
 Before expanding DT-L1 in isolation, the architecture should now be developed **from the final material output backward**.
 
 Priority sequence:
 
-1. define the exact **Material Decision Profile**;
-2. define the **core entity / parameter model** required to generate that profile;
-3. map required parameters to DT-L1–DT-L5;
-4. map DT capabilities to S1–S5;
-5. identify uncertainty creation, inheritance and transformation points;
-6. then expand each DT layer in detail.
+1. continue mapping new literature into `LITERATURE_EVIDENCE_BASE.md`;
+2. validate/refine the fields in `MASTER_PARAMETER_CATALOG.md`;
+3. expand each DT layer against the master catalog;
+4. identify material-specific quality/reuse/recycling thresholds rather than assuming universal rates;
+5. connect evidence tiers to uncertainty propagation and hotspot analysis;
+6. use the YAML template as the canonical input/output structure for future data ingestion.
 
 This avoids building an oversized Digital Twin containing parameters that do not contribute to material-level circularity and environmental decisions.
