@@ -21,3 +21,16 @@ How should heterogeneous data be linked to the same building/material entities w
 
 ## Uncertainty analysis
 Focus on identity mismatch, spatial mismatch, temporal mismatch, contextual representativeness and information loss during harmonization or aggregation.
+
+
+## Output contract to Material Decision Profile
+
+DT-L2 must ensure that every material result can be traced to:
+- the correct Building ID;
+- component/material batch;
+- spatial context;
+- temporal validity;
+- regionalized/generic coefficient status;
+- evidence/model version.
+
+It is responsible for preventing context loss when values move between S1–S5 and between spatial scales.
