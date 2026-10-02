@@ -1,52 +1,222 @@
 # DT-L1 — Observation & Data Acquisition
 
 ## Status
-Working scaffold — not yet analyzed in detail.
+Architecture v0.3 — detailed working specification.
 
-## Core question
-What observations are needed to characterize buildings and their context with sufficient quality for downstream S1–S5 analyses?
+## Mission
+Acquire building-specific and contextual evidence that can constrain **material identity, quantity, quality, release timing and circularity feasibility**.
 
-## Candidate input families
-- satellite imagery
-- aerial imagery
-- street-level imagery
-- LiDAR / point clouds
-- photogrammetry / UAV
-- cadastral data
-- building registries
-- BIM / design documents
-- permits / renovation records
-- on-site surveys
-- material inspections
-- environmental/contextual datasets
+DT-L1 does not output unquestioned facts. It outputs **EvidenceItems** with provenance, temporal validity, spatial context, validation and uncertainty.
 
-## To define
-- minimum metadata
-- spatial grain and coverage
-- temporal validity
-- data quality and provenance
-- measurement/classification uncertainty
-- validation strategy
-- update frequency
-- triggers for additional observation
-- outputs needed by S1–S5
+---
 
-## Uncertainty analysis
-To be completed layer by layer.
+## 1. Evidence channels
 
+### A. Geospatial base data
+- cadastral footprint;
+- parcel;
+- address;
+- coordinates;
+- 2D/3D city model;
+- terrain/elevation;
+- administrative boundaries;
+- building function/use;
+- building height/volume;
+- number of storeys where available.
 
-## Output contract to Material Decision Profile
+### B. Remote sensing / GeoAI
+- satellite imagery;
+- aerial orthophoto;
+- oblique imagery;
+- street-level imagery;
+- LiDAR / point cloud;
+- photogrammetry/UAV;
+- thermal imagery where relevant.
 
-DT-L1 is successful only if its observations constrain one or more downstream material-decision variables, such as:
-- material identification;
-- material quantity;
-- quality/state;
-- component accessibility/separability;
-- age/renovation history;
-- release timing.
+Potential observations:
+- footprint;
+- height;
+- roof type/material cues;
+- façade material cues;
+- windows/WWR;
+- storeys;
+- use/typology cues;
+- structural clues;
+- condition/damage cues.
 
-Every observation should carry provenance, spatial/temporal validity and uncertainty.
+### C. Administrative/document evidence
+- construction year;
+- building use;
+- permits;
+- renovation/refurbishment records;
+- change-of-use records;
+- demolition permits;
+- building-energy/asset records;
+- heritage status.
 
-## Feedback trigger
+### D. Design/construction documents
+- BIM/IFC;
+- drawings;
+- sections/elevations;
+- schedules;
+- specifications;
+- bill of quantities;
+- product data;
+- EPD/material-passport/DPP references;
+- structural calculations;
+- as-built records.
 
-If DT-L5 identifies a decision bottleneck caused by missing or uncertain physical evidence, DT-L1 should support targeted reacquisition—inspection, imagery, records, scan or sampling—rather than indiscriminate collection of more data.
+### E. Physical survey
+- measured geometry;
+- visual inspection;
+- interior survey;
+- opening-up inspection;
+- component/material inventory;
+- connection survey;
+- pre-demolition audit.
+
+### F. Testing
+- material sampling;
+- NDT;
+- destructive testing;
+- strength/grade verification;
+- moisture/corrosion;
+- hazardous-material tests;
+- contamination tests.
+
+### G. Context data
+- material cadastre;
+- local building typologies/MCIs;
+- regional waste statistics;
+- facility locations;
+- process technologies;
+- energy mix;
+- secondary-material demand;
+- regulations.
+
+---
+
+## 2. Mandatory metadata for every observation
+
+- evidence_id;
+- source;
+- acquisition method;
+- observation date;
+- source version;
+- object/building/component ID;
+- spatial grain/coverage;
+- coordinate system if spatial;
+- regionalization status;
+- data completeness;
+- validation status;
+- uncertainty/confidence;
+- access/usage restrictions if relevant.
+
+---
+
+## 3. Quality checks
+
+### Geometry
+- topology validity;
+- footprint overlap/conflict;
+- height plausibility;
+- floor-count consistency;
+- GFA/volume consistency;
+- LoD/resolution.
+
+### Classification
+- class probability vector;
+- confusion/validation metrics;
+- out-of-domain flag;
+- image/document date.
+
+### Documents
+- as-designed vs as-built?;
+- document date;
+- renovation superseding document?;
+- completeness;
+- building-ID match.
+
+### Inspection/testing
+- sample location;
+- sample representativeness;
+- test method;
+- uncertainty/measurement precision;
+- chain of custody/provenance.
+
+---
+
+## 4. Evidence tiers
+
+- E0 regional/archetype prior;
+- E1 geospatial/GeoAI;
+- E2 administrative record;
+- E3 BIM/plan/BoQ;
+- E4 inspection/audit/test;
+- E5 dynamic asset/maintenance evidence.
+
+Higher tier means more direct/specific evidence, not guaranteed lower uncertainty.
+
+---
+
+## 5. Output to DT-L2 / DT-L3
+
+DT-L1 sends:
+- raw evidence;
+- observed geometry;
+- classification probabilities;
+- construction/use/history records;
+- component evidence;
+- material clues;
+- quality/condition evidence;
+- connection/separability evidence;
+- hazards;
+- contextual datasets.
+
+No observation may lose its provenance on transfer.
+
+---
+
+## 6. Uncertainty sources
+
+- measurement error;
+- spatial resolution;
+- geolocation error;
+- occlusion;
+- incomplete imagery;
+- classification uncertainty;
+- class imbalance/domain shift;
+- missing/incorrect records;
+- outdated documentation;
+- as-designed vs as-built mismatch;
+- renovation not documented;
+- sampling uncertainty;
+- test uncertainty;
+- observer subjectivity.
+
+---
+
+## 7. Targeted reacquisition logic
+
+DT-L5 may request additional evidence.
+
+Examples:
+- material quantity dominates uncertainty → retrieve plan/BIM or scan;
+- wall composition uncertain → opening-up survey;
+- reuse quality uncertain → condition/strength test;
+- pollutant risk uncertain → targeted lab test;
+- separability uncertain → connection inspection;
+- age/renovation uncertain → permit/archive lookup.
+
+The architecture should prefer **decision-relevant information gain** over indiscriminate data accumulation.
+
+---
+
+## 8. Success criterion
+
+DT-L1 is successful when every downstream material-decision variable can state:
+- what direct evidence exists;
+- what remains inferred;
+- how current/specific the evidence is;
+- what uncertainty it carries;
+- what additional acquisition could improve it.
