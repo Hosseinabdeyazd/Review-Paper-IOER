@@ -14,7 +14,7 @@
 
 | فایل | کاربرد |
 |---|---|
-| [یادداشت مقاله Baustert & Benetto (2017)](articles/03_Baustert_Benetto_2017.md) | اولین بررسی ثبت‌شده؛ ساختار مقاله، شواهد با شماره بخش و صفحه، تفسیر ما و پیشنهادهای کاربردی |
+| [یادداشت Patouillard et al. (2018)](articles/02_Patouillard_et_al_2018.md) | بررسی spatial LCA؛ تمایز variability/uncertainty، regionalization/spatialization، گذار مقیاس و درس‌های قابل‌اعمال |\n| [یادداشت مقاله Baustert & Benetto (2017)](articles/03_Baustert_Benetto_2017.md) | بررسی uncertainty در مدل‌های متصل؛ ساختار مقاله، شواهد، تفسیر و پیشنهادهای کاربردی |
 | [LESSONS_AND_ACTIONS.md](LESSONS_AND_ACTIONS.md) | دفتر تجمیعی درس‌ها و اقدام‌ها؛ مشخص می‌کند چه چیزی پیشنهاد شده، کجا باید اعمال شود و چه زمانی واقعاً اعمال شده است |
 | [PROPOSED_MANUSCRIPT_STRUCTURE.md](PROPOSED_MANUSCRIPT_STRUCTURE.md) | ساختار موقت پیشنهادی برای مقاله خودمان؛ قابل بازنگری پس از مطالعه مقاله‌های بعدی |
 | [ARTICLE_REVIEW_TEMPLATE.md](ARTICLE_REVIEW_TEMPLATE.md) | قالب یکسان برای بررسی هر مقاله بعدی |
@@ -34,14 +34,14 @@
 - برای **یک مقاله**، یادداشت ساختاری مبتنی بر متن کامل ثبت شده است: **JCP-03**؛ شماره آن مطابق فهرست اولیه ده‌مقاله‌ای است، نه ترتیب مطالعه.
 - **نه مقاله دیگر** در صف بررسی متن کامل هستند. برای آن‌ها فعلاً نتیجه ساختاری ثبت نشده است.
 - فهرست زیر فهرست مطالعه و الگوبرداری است؛ **مجموعه مطالعات واردشده به مرور سیستماتیک نیست** و نباید مستقیماً در شمارش PRISMA یا تحلیل اثرها استفاده شود.
-- برای نه مقاله بررسی‌نشده، عنوان، سال و DOI از فهرست پیشنهادی قبلی منتقل شده‌اند و در ایجاد این پوشه مستقلاً بازتأیید نشده‌اند. پیش از یادداشت‌برداری، تطابق DOI، عنوان، ژورنال و نوع مقاله با صفحه ناشر یا PDF کنترل شود.
+- برای هشت مقاله بررسی‌نشده، عنوان، سال و DOI از فهرست پیشنهادی قبلی منتقل شده‌اند و در ایجاد این پوشه مستقلاً بازتأیید نشده‌اند. پیش از یادداشت‌برداری، تطابق DOI، عنوان، ژورنال و نوع مقاله با صفحه ناشر یا PDF کنترل شود.
 
 ## فهرست ده مقاله
 
 | شناسه | عنوان ثبت‌شده در فهرست اولیه | سال | DOI | وضعیت یادداشت |
 |---|---|---|---|---|
 | JCP-01 | Spatializing environmental footprint by integrating geographic information system into life cycle assessment: A review and practice recommendations | 2021 | [10.1016/j.jclepro.2021.129113](https://doi.org/10.1016/j.jclepro.2021.129113) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-02 | Critical review and practical recommendations to integrate the spatial dimension into life cycle assessment | 2018 | [10.1016/j.jclepro.2017.12.192](https://doi.org/10.1016/j.jclepro.2017.12.192) | در انتظار کنترل مشخصات و بررسی متن کامل |
+| JCP-02 | Critical review and practical recommendations to integrate the spatial dimension into life cycle assessment | 2018 | [10.1016/j.jclepro.2017.12.192](https://doi.org/10.1016/j.jclepro.2017.12.192) | [یادداشت ثبت شد؛ مشخصات با PDF تطبیق داده شد](articles/02_Patouillard_et_al_2018.md) |
 | JCP-03 | Uncertainty analysis in agent-based modelling and consequential life cycle assessment coupled models: A critical review | 2017 | [10.1016/j.jclepro.2017.03.193](https://doi.org/10.1016/j.jclepro.2017.03.193) | [یادداشت ثبت شد؛ مشخصات با PDF تطبیق داده شد](articles/03_Baustert_Benetto_2017.md) |
 | JCP-04 | Application of machine learning initiatives and intelligent perspectives for CO₂ emissions reduction in construction | 2023 | [10.1016/j.jclepro.2022.135504](https://doi.org/10.1016/j.jclepro.2022.135504) | در انتظار کنترل مشخصات و بررسی متن کامل |
 | JCP-05 | Circular economy in the construction industry: A review of decision support tools based on Information & Communication Technologies | 2022 | [10.1016/j.jclepro.2022.131335](https://doi.org/10.1016/j.jclepro.2022.131335) | در انتظار کنترل مشخصات و بررسی متن کامل |
@@ -75,4 +75,4 @@
 
 | تاریخ | تغییر |
 |---|---|
-| 2026-10-01 | ایجاد پوشه؛ ثبت فهرست ده مقاله، یادداشت JCP-03، قالب بررسی، دفتر اقدام‌ها و ساختار موقت پیشنهادی. فایل‌های اصلی پروژه بدون تغییر باقی ماندند. |
+| 2026-10-01 | ایجاد پوشه؛ ثبت فهرست ده مقاله، یادداشت JCP-03، قالب بررسی، دفتر اقدام‌ها و ساختار موقت پیشنهادی. فایل‌های اصلی پروژه بدون تغییر باقی ماندند. |\n| 2026-10-02 | بررسی متن کامل JCP-02 و ثبت درس‌های spatial LCA، scale transition و uncertainty/variability. |
