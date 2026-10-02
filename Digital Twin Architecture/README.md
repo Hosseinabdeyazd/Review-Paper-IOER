@@ -257,6 +257,9 @@ Digital Twin Architecture/
 ├── README.md
 ├── UNCERTAINTY_HOTSPOT_REGISTER.md
 ├── UNCERTAINTY_TRACEABILITY_MODEL.md
+├── DETAILED_PARAMETER_ARCHITECTURE_V1.md
+├── LITERATURE_EVIDENCE_MAP.md
+├── RESEARCH_SOURCE_REGISTER.md
 ├── CORE_ARCHITECTURE.md
 ├── MATERIAL_DECISION_PROFILE.md
 ├── PARAMETER_REGISTRY.md
@@ -297,6 +300,35 @@ Working lessons already accepted elsewhere in the repository:
 - dynamic material flows and temporal changes are relevant to building environmental assessment.
 
 These lessons support the architecture, but the Digital Twin synthesis itself is our proposed integration and must be labelled as such.
+
+---
+
+## Current detailed architecture baseline
+
+A literature-driven parameter architecture has now been created in:
+
+- `DETAILED_PARAMETER_ARCHITECTURE_V1.md` — detailed parameter schema across DT-L1–DT-L5;
+- `LITERATURE_EVIDENCE_MAP.md` — maps literature themes to architectural requirements;
+- `RESEARCH_SOURCE_REGISTER.md` — seed literature register for continued expansion.
+
+The architecture now explicitly includes, among others:
+
+- building identity, location, geometry and morphology;
+- age/cohort, use, construction history and renovation history;
+- structural system and member-level material information;
+- external wall assemblies, internal walls, roofs, floors, ceilings, windows and doors;
+- building services and replaceable components;
+- material type/subtype, quantity, density, intensity, composition, additives, coatings, origin and environmental coefficients;
+- quality, condition, damage, contamination, purity, residual performance and certification;
+- service lives, renovation/replacement cycles, demolition/survival modelling and event uncertainty;
+- reuse, repair, closed-loop, open-loop, downcycling, recovery and landfill pathways;
+- disassembly, connections, accessibility, separability, damage risk and selective demolition;
+- processing, sorting, recovery yields, quality coefficients, substitution/replacement and market absorption;
+- facilities, transport, storage, spatial demand-supply matching and timing;
+- LCA methodology, modules, databases, allocation, avoided impacts and material-specific impact coefficients;
+- uncertainty source, representation, propagation, contribution and targeted data-improvement logic.
+
+This is a broad v1 architecture, not a closed final ontology. Every new paper can add, modify or challenge parameters, with evidence status recorded.
 
 ---
 
