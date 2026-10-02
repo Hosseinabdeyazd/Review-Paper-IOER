@@ -322,6 +322,7 @@ The layer files are working documents. They will be expanded one by one as the r
 ### Key architecture documents
 
 - **MASTER_PARAMETER_SCHEMA.md** — comprehensive parameter architecture across 21 domains, from geometry and structural systems to material quality, disassembly, circular pathways, LCA and uncertainty.
+- **MATERIAL_PATHWAY_TEMPLATES.md** — material-specific templates for concrete, brick, steel, timber, glass/windows, aluminum, gypsum, insulation, plastics, MEP metals and reusable fixtures.
 - **DT_LAYER_PARAMETER_MAP.md** — maps those parameter families to DT-L1–DT-L5 and S1–S5, including inputs, processing, outputs and uncertainty mechanisms.
 - **DATA_ACQUISITION_AND_INFERENCE.md** — defines how values enter the twin, evidence hierarchies, and progressive refinement.
 - **CIRCULARITY_ENGINE.md** — stock → release → salvage → quality gate → reuse/closed-loop/open-loop/recovery/disposal → substitution.
