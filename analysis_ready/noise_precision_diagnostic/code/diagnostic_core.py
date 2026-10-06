@@ -15,14 +15,14 @@ def write_csv(path, rows, fields):
 
 def normalize_doi(x):
     x=(x or "").strip().lower()
-    x=re.sub(r"^https?://(dx\\.)?doi\\.org/", "", x)
-    x=re.sub(r"^doi:\\s*", "", x)
+    x=re.sub(r"^https?://(dx\.)?doi\.org/", "", x)
+    x=re.sub(r"^doi:\s*", "", x)
     return x.rstrip(".,; ")
 
 def normalize_title(x):
     x=unicodedata.normalize("NFKD", x or "")
     x="".join(c for c in x if not unicodedata.combining(c)).lower()
-    return re.sub(r"\\s+", " ", re.sub(r"[^a-z0-9]+", " ", x)).strip()
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9]+", " ", x)).strip()
 
 def record_key(r):
     d=normalize_doi(r.get("DOI"))
