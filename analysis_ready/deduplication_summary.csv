@@ -1,0 +1,7 @@
+Stream,Input records,Unique records,Duplicates removed,Cross-database overlaps,Scopus input,Web of Science input,IEEE Xplore input
+S1b,1400,878,522,497,726,504,170
+S1u,410,256,154,150,208,152,50
+S2b,419,246,173,173,226,182,11
+S2u,75,44,31,31,42,32,1
+S3b,272,165,107,107,155,113,4
+S3u,80,49,31,31,46,32,2
