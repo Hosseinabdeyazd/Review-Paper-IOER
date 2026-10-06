@@ -55,7 +55,7 @@ noise_stage=["S1","S2","S3"]; full=np.array([29.2,17.9,29.1]); sens=np.array([28
 fig,ax=plt.subplots(figsize=(6.3,4.7)); x=np.arange(3)
 a=ax.bar(x-w/2,stage_broad,w,color=P["broad"],label="Broad (Sb)"); b=ax.bar(x+w/2,stage_u,w,color=P["uncertainty"],label="Uncertainty (Su)")
 labels(ax,a); labels(ax,b)
-ax.set_xticks(x); ax.set_xticklabels(stage_labels); ax.set_ylabel("Number of records"); ax.set_title("A  Stage-level evidence base",loc="left",fontweight="bold"); ax.legend(frameon=False,ncol=2); style(ax)
+ax.set_xticks(x); ax.set_xticklabels(stage_labels); ax.set_ylabel("Records"); ax.set_title("A  Stage-level evidence base",loc="left",fontweight="bold"); ax.legend(frameon=False,ncol=2); style(ax)
 p1=save_panel(fig,"F1_A_stage_counts.png")
 
 fig,ax=plt.subplots(figsize=(6.3,4.7)); x=np.arange(4)
@@ -73,7 +73,7 @@ p3=save_panel(fig,"F1_C_retention.png")
 fig,ax=plt.subplots(figsize=(6.3,4.7)); x=np.arange(3)
 a=ax.bar(x-w/2,full,w,color=P["broad"],label="Full corpus"); b=ax.bar(x+w/2,sens,w,color=P["uncertainty"],label="After diagnostic flags removed")
 labels(ax,a,"{:.1f}",8); labels(ax,b,"{:.1f}",8)
-ax.set_xticks(x); ax.set_xticklabels(noise_stage); ax.set_ylim(0,36); ax.set_ylabel("Subset-consistent U/B share (%)"); ax.set_title("D  Sensitivity to diagnostic noise flags",loc="left",fontweight="bold"); ax.legend(frameon=False,fontsize=8); style(ax)
+ax.set_xticks(x); ax.set_xticklabels(noise_stage); ax.set_ylim(0,36); ax.set_ylabel("U/B share (%)"); ax.set_title("D  Sensitivity to diagnostic noise flags",loc="left",fontweight="bold"); ax.legend(frameon=False,fontsize=8); style(ax)
 p4=save_panel(fig,"F1_D_noise_sensitivity.png")
 
 compose([p1,p2,p3,p4],FIG/"Figure_01_Multipanel_Evidence_Fragmentation.png","Evidence fragmentation across S1–S3","")
