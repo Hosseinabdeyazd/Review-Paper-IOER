@@ -1,8 +1,9 @@
 from __future__ import annotations
-import csv, math, random, re, unicodedata
+import csv, math, re, unicodedata
 from pathlib import Path
 
-SEED = 20261006
+SEED = "20261006"
+SEARCH_YEAR = 2026
 
 def read_csv(path):
     with open(path, "r", encoding="utf-8-sig", newline="") as f:
@@ -38,6 +39,34 @@ def hits(r, compiled):
     t=searchable_text(r)
     return [k for k,rx in compiled.items() if rx.search(t)]
 
+def fnv1a32(text):
+    h=2166136261
+    for ch in text:
+        h ^= ord(ch)
+        h=(h*16777619) & 0xffffffff
+    return h
+
+def deterministic_sample(rows, stage, layer, n):
+    ranked=sorted(rows, key=lambda r:(fnv1a32(SEED+stage+layer+record_key(r)), record_key(r)))
+    return ranked[:min(n,len(ranked))]
+
+def duplicate_title_rows(rows,stage,layer):
+    groups={}
+    for r in rows:
+        t=normalize_title(r.get("Title"))
+        if t: groups.setdefault(t,[]).append(r)
+    out=[]; g=0
+    for title,items in groups.items():
+        if len(items)<2: continue
+        g+=1; gid=f"{stage}{layer.upper()}_{g:03d}"
+        for r in items:
+            out.append({
+                "Stage":stage,"Layer":"Broad" if layer=="b" else "Uncertainty","Duplicate group":gid,
+                "Normalized title":title,"Title":r.get("Title",""),"Year":r.get("Year",""),"DOI":r.get("DOI",""),
+                "Source title":r.get("Source title",""),"Database provenance":r.get("Database provenance","")
+            })
+    return out
+
 def wilson(k,n,z=1.96):
     if not n: return "","",""
     p=k/n; den=1+z*z/n
@@ -49,17 +78,43 @@ def run_stage(stage,broad_path,uncertainty_path,output_dir,positive_terms,noise_
     b=read_csv(broad_path); u=read_csv(uncertainty_path)
     pos=compile_terms(positive_terms); noise=compile_terms(noise_terms)
     bkeys={record_key(r) for r in b}
-    viol=[r for r in u if record_key(r) not in bkeys]
-    write_csv(output_dir/"subset_violations.csv",viol,list(u[0].keys()) if u else [])
+    violations=[r for r in u if record_key(r) not in bkeys]
+
+    duplicates=duplicate_title_rows(b,stage,"b")+duplicate_title_rows(u,stage,"u")
+    write_csv(output_dir/"subset_violations.csv",violations,list(u[0].keys()) if u else [])
+    write_csv(output_dir/"residual_duplicate_titles.csv",duplicates,
+              ["Stage","Layer","Duplicate group","Normalized title","Title","Year","DOI","Source title","Database provenance"])
+
+    year_anomalies=[]
+    for layer,rows in [("Broad",b),("Uncertainty",u)]:
+        for r in rows:
+            y=r.get("Year","")
+            if y.isdigit() and int(y)>SEARCH_YEAR:
+                year_anomalies.append({"Stage":stage,"Layer":layer,"Title":r.get("Title",""),"Year":y,"DOI":r.get("DOI",""),"Source title":r.get("Source title","")})
+    write_csv(output_dir/"year_anomalies.csv",year_anomalies,["Stage","Layer","Title","Year","DOI","Source title"])
+
+    summary=[]
+    for layer,rows in [("Broad",b),("Uncertainty",u)]:
+        years=sorted(int(r["Year"]) for r in rows if (r.get("Year") or "").isdigit())
+        pcount=sum(bool(hits(r,pos)) for r in rows)
+        ncount=sum(bool(hits(r,noise)) for r in rows)
+        dups=duplicate_title_rows(rows,stage,"b" if layer=="Broad" else "u")
+        summary.append({
+            "Stage":stage,"Layer":layer,"Records":len(rows),"Year min":years[0] if years else "","Year max":years[-1] if years else "",
+            "Residual normalized-title duplicate groups":len({r["Duplicate group"] for r in dups}),
+            "Positive-scope-signal records":pcount,"Positive-scope-signal rate (%)":round(100*pcount/len(rows),1) if rows else "",
+            "Candidate-noise-flag records":ncount,"Candidate-noise-flag rate (%)":round(100*ncount/len(rows),1) if rows else "",
+            "U subset violations":len(violations) if layer=="Uncertainty" else ""
+        })
+    write_csv(output_dir/"diagnostic_summary.csv",summary,list(summary[0].keys()))
 
     pilot_path=output_dir/"precision_pilot.csv"
     existing=read_csv(pilot_path) if pilot_path.exists() else []
     manual={(r.get("Layer",""),r.get("Record key","")):r for r in existing}
     pilot=[]
-    for layer,rows,n,off in [("Broad",b,broad_n,1),("Uncertainty",u,uncertainty_n,2)]:
-        idx=list(range(len(rows))); random.Random(SEED+off+int(stage[1:])*100).shuffle(idx)
-        for i in idx[:min(n,len(rows))]:
-            r=rows[i]; k=record_key(r); old=manual.get((layer,k),{})
+    for layer,rows,n in [("Broad",b,broad_n),("Uncertainty",u,uncertainty_n)]:
+        for r in deterministic_sample(rows,stage,layer,n):
+            k=record_key(r); old=manual.get((layer,k),{})
             pilot.append({
                 "Stage":stage,"Layer":layer,"Record key":k,"Title":r.get("Title",""),"Year":r.get("Year",""),
                 "Source title":r.get("Source title",""),"DOI":r.get("DOI",""),"Database provenance":r.get("Database provenance",""),

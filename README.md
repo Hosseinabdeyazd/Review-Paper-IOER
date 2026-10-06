@@ -349,7 +349,7 @@ The repository follows these rules:
 
 Before descriptive evidence mapping or cross-stage analysis, the merged corpus for each stream undergoes a reproducible noise and precision diagnostic after cross-database deduplication and before formal title/abstract screening.
 
-The diagnostic verifies broad/uncertainty subset consistency, checks residual DOI/title duplicates, applies transparent stage-specific scope and candidate-noise flags, and draws a fixed-seed random precision pilot for manual relevance coding. Automated flags are diagnostic only and are never automatic exclusion rules. Precision is estimated only from manually reviewed pilot records, with a Wilson 95% confidence interval.
+The diagnostic verifies broad/uncertainty subset consistency, checks residual DOI/title duplicates, applies transparent stage-specific scope and candidate-noise flags, and draws a fixed-seed deterministic pseudo-random precision pilot for manual relevance coding. Automated flags are diagnostic only and are never automatic exclusion rules. Precision is estimated only from manually reviewed pilot records, with a Wilson 95% confidence interval.
 
 Cross-stream overlap is treated as a candidate interface rather than evidence of propagation. Information transfer or uncertainty propagation is coded only after full-text verification with an evidence anchor.
 
