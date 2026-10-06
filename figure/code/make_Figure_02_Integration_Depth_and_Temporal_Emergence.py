@@ -52,23 +52,23 @@ s12u=[0,0,4,5]; s23u=[1,3,1,5]; triu=[0,0,1,0]; w=.34
 
 fig,ax=plt.subplots(figsize=(6.5,4.8)); x=np.arange(len(exclusive_labels))
 bars=ax.bar(x,exclusive,color=[P["broad"]]*3+[P["highlight"]]*4); labels(ax,bars)
-ax.set_yscale("log"); ax.set_xticks(x); ax.set_xticklabels(exclusive_labels,rotation=25,ha="right"); ax.set_ylabel("Records (log scale)"); ax.set_title("A  Exclusive stage membership",loc="left",fontweight="bold"); style(ax)
+ax.set_yscale("log"); ax.set_xticks(x); ax.set_xticklabels(exclusive_labels,rotation=25,ha="right"); ax.set_ylabel("Records (log)"); ax.set_title("A  Exclusive stage membership",loc="left",fontweight="bold"); style(ax)
 p1=save_panel(fig,"F2_A_exclusive_membership.png")
 
 fig,ax=plt.subplots(figsize=(6.5,4.8)); x=np.arange(4)
 a=ax.bar(x-w/2,jb,w,color=P["broad"],label="Broad Jaccard"); b=ax.bar(x+w/2,ju,w,color=P["uncertainty"],label="U-layer Jaccard")
 labels(ax,a,"{:.2f}",8); labels(ax,b,"{:.2f}",8)
-ax.set_xticks(x); ax.set_xticklabels(density_labels); ax.set_ylabel("Intersection / union (%)"); ax.set_title("B  Size-adjusted transition density",loc="left",fontweight="bold"); ax.legend(frameon=False); style(ax)
+ax.set_xticks(x); ax.set_xticklabels(density_labels); ax.set_ylabel("Jaccard (%)"); ax.set_title("B  Size-adjusted transition density",loc="left",fontweight="bold"); ax.legend(frameon=False); style(ax)
 p2=save_panel(fig,"F2_B_jaccard_density.png")
 
 fig,ax=plt.subplots(figsize=(6.5,4.8)); x=np.arange(4); bw=.18
 for off,v,n,c in [(-1.5*bw,s12b,"S1→S2",P["broad"]),(-.5*bw,s23b,"S2→S3",P["highlight"]),(.5*bw,s13b,"S1→S3",P["neutral"]),(1.5*bw,trib,"All three",P["soft"])]: ax.bar(x+off,v,bw,label=n,color=c)
-ax.set_xticks(x); ax.set_xticklabels(periods); ax.set_ylabel("Broad bridge candidates"); ax.set_title("C  Temporal emergence of broad bridges",loc="left",fontweight="bold"); ax.legend(frameon=False,ncol=2); style(ax)
+ax.set_xticks(x); ax.set_xticklabels(periods); ax.set_ylabel("Bridge records"); ax.set_title("C  Temporal emergence of broad bridges",loc="left",fontweight="bold"); ax.legend(frameon=False,ncol=2); style(ax)
 p3=save_panel(fig,"F2_C_temporal_broad_bridges.png")
 
 fig,ax=plt.subplots(figsize=(6.5,4.8)); x=np.arange(4); bw=.24
 for off,v,n,c in [(-bw,s12u,"S1→S2",P["uncertainty"]),(0,s23u,"S2→S3",P["highlight"]),(bw,triu,"All three",P["neutral"])]: ax.bar(x+off,v,bw,label=n,color=c)
-ax.set_xticks(x); ax.set_xticklabels(periods); ax.set_ylabel("U-layer bridge candidates"); ax.set_title("D  Temporal emergence of uncertainty-oriented bridges",loc="left",fontweight="bold"); ax.legend(frameon=False); style(ax)
+ax.set_xticks(x); ax.set_xticklabels(periods); ax.set_ylabel("U-layer bridges"); ax.set_title("D  Temporal emergence of uncertainty-oriented bridges",loc="left",fontweight="bold"); ax.legend(frameon=False); style(ax)
 p4=save_panel(fig,"F2_D_temporal_uncertainty_bridges.png")
 
 compose([p1,p2,p3,p4],FIG/"Figure_02_Integration_Depth_and_Temporal_Emergence.png","Integration depth and temporal emergence of bridge papers","")
