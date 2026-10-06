@@ -1,0 +1,9 @@
+Interface,Candidate records
+S1-S2 Broad,41
+S2-S3 Broad,34
+S1-S3 Broad,6
+S1-S2-S3 Broad,4
+S1-S2 Uncertainty,9
+S2-S3 Uncertainty,10
+S1-S3 Uncertainty,3
+S1-S2-S3 Uncertainty,1

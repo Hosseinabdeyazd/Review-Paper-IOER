@@ -1,0 +1,6 @@
+from pathlib import Path
+from diagnostic_core import run_stage
+B=Path(__file__).resolve().parents[1]
+run_stage("S1",B/"analysis_inputs/current_merged/S1b.csv",B/"analysis_inputs/current_merged/S1u.csv",B/"outputs/S1",
+{"remote_sensing":r"\\b(remote sensing|satellite|aerial|orthophoto|earth observation|imagery)\\b","lidar_point_cloud":r"\\b(lidar|laser scanning|point cloud)\\b","street_view":r"\\b(street view|streetview|panoramic image)\\b","computer_vision":r"\\b(computer vision|semantic segmentation|instance segmentation|object detection|image classification)\\b","building_attributes":r"\\b(building (height|age|type|use|function|attribute|typology)|construction year|roof type|facade|façade|building footprint)\\b"},
+{"indoor_health":r"\\b(sick building syndrome|indoor air pollution|indoor air quality|ocular symptoms|nasal congestion)\\b","operational_energy":r"\\b(thermal comfort|hvac|operational energy|building energy simulation|building energy model)\\b","real_estate_price":r"\\b(housing price|house price|real estate price|property price)\\b","telecom_uav":r"\\b(line[- ]of[- ]sight probability|uav communication|wireless communication)\\b","solar_only":r"\\b(solar irradiation|solar irradiance|photovoltaic potential)\\b"})

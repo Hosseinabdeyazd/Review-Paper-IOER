@@ -1,0 +1,7 @@
+Stage,Layer,Records,Year min,Year max,Residual normalized-title duplicate groups,Positive-scope-signal records,Positive-scope-signal rate (%),Candidate-noise-flag records,Candidate-noise-flag rate (%),U subset violations
+S1,Broad,878,1984,2027,19,537,61.2,22,2.5,
+S1,Uncertainty,256,1995,2027,5,141,55.1,10,3.9,0
+S2,Broad,246,2007,2026,0,231,93.9,6,2.4,
+S2,Uncertainty,44,2007,2026,0,40,90.9,2,4.5,0
+S3,Broad,165,1997,2026,2,155,93.9,16,9.7,
+S3,Uncertainty,49,1997,2026,0,44,89.8,8,16.3,1
