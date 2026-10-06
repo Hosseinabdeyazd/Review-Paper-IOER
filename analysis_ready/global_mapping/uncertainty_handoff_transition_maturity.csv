@@ -1,0 +1,13 @@
+transition,category,count
+S1→S2,H1,5
+S1→S2,H2,1
+S1→S2,H3,2
+S1→S2,H4,1
+S1→S2,H5,0
+S1→S2,Unverified,0
+S2→S3,H1,3
+S2→S3,H2,0
+S2→S3,H3,2
+S2→S3,H4,4
+S2→S3,H5,0
+S2→S3,Unverified,1

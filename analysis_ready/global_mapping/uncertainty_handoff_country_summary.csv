@@ -1,0 +1,12 @@
+country,weighted_papers,max_handoff,mean_handoff,weighted_H2plus
+China,4.0,4,2.5,2.0
+Colombia,1.0,1,1.0,0.0
+Egypt,1.0,1,1.0,0.0
+Japan,0.3333333333333333,4,4.0,0.3333333333333333
+Luxembourg,1.0,3,3.0,1.0
+Singapore,1.0,1,1.0,0.0
+South Korea,1.0,4,4.0,1.0
+Sweden,1.0,3,3.0,1.0
+Switzerland,1.0,4,4.0,1.0
+United Kingdom,1.3333333333333333,4,3.25,1.3333333333333333
+United States,0.3333333333333333,4,4.0,0.3333333333333333
