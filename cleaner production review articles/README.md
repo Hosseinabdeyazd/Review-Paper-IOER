@@ -1,78 +1,80 @@
 # Cleaner Production Review Articles
 
-## دفتر درس‌آموخته‌ها برای بهبود مقاله خودمان
+## Lessons-learned repository for improving our manuscript
 
-این پوشه برای ثبت ساختار، منطق استدلال، نقاط قوت، محدودیت‌ها و درس‌های قابل‌انتقال از مقاله‌های مروری **Journal of Cleaner Production** ایجاد شده است. هدف این است که نتیجه بررسی هر مقاله فراموش نشود و بعداً بتوانیم پیشنهادهای منتخب را به تغییرهای مشخص و قابل‌ردیابی در مرور خودمان تبدیل کنیم.
+This folder records the structure, argument logic, strengths, limitations, and transferable lessons from review articles published in the **Journal of Cleaner Production**. The goal is to ensure that the outcome of each article review is retained and that selected lessons can later be translated into specific, traceable changes in our own review.
 
-**پروژه مرتبط:** End-to-End Uncertainty Propagation in GeoAI-Informed Urban Material-Stock and Circularity Decisions.
+**Related project:** End-to-End Uncertainty Propagation in GeoAI-Informed Urban Material-Stock and Circularity Decisions.
 
-**تاریخ ایجاد:** 2026-10-01.
+**Created:** 2026-10-01.
 
-> ثبت یک پیشنهاد در این پوشه به معنی تأیید یا اعمال آن در مقاله، پروتکل یا کدگذاری نیست. در زمان ایجاد این پوشه، هیچ‌کدام از پیشنهادهای جدید به فایل‌های اصلی پروژه اعمال نشده‌اند.
+> Recording a proposal in this folder does not mean that it has been approved or implemented in the manuscript, protocol, or coding framework. At the time this folder was created, none of the new proposals had been applied to the main project files.
 
-## راهنمای فایل‌ها
+## File guide
 
-| فایل | کاربرد |
+| File | Purpose |
 |---|---|
-| [یادداشت Patouillard et al. (2018)](articles/02_Patouillard_et_al_2018.md) | بررسی spatial LCA؛ تمایز variability/uncertainty، regionalization/spatialization، گذار مقیاس و درس‌های قابل‌اعمال |\n| [یادداشت مقاله Baustert & Benetto (2017)](articles/03_Baustert_Benetto_2017.md) | بررسی uncertainty در مدل‌های متصل؛ ساختار مقاله، شواهد، تفسیر و پیشنهادهای کاربردی |
-| [LESSONS_AND_ACTIONS.md](LESSONS_AND_ACTIONS.md) | دفتر تجمیعی درس‌ها و اقدام‌ها؛ مشخص می‌کند چه چیزی پیشنهاد شده، کجا باید اعمال شود و چه زمانی واقعاً اعمال شده است |
-| [PROPOSED_MANUSCRIPT_STRUCTURE.md](PROPOSED_MANUSCRIPT_STRUCTURE.md) | ساختار موقت پیشنهادی برای مقاله خودمان؛ قابل بازنگری پس از مطالعه مقاله‌های بعدی |
-| [ARTICLE_REVIEW_TEMPLATE.md](ARTICLE_REVIEW_TEMPLATE.md) | قالب یکسان برای بررسی هر مقاله بعدی |
+| [Patouillard et al. (2018) note](articles/02_Patouillard_et_al_2018.md) | Review of spatial LCA; distinction between variability and uncertainty, regionalization and spatialization, scale transitions, and transferable lessons |
+| [Baustert & Benetto (2017) note](articles/03_Baustert_Benetto_2017.md) | Review of uncertainty in coupled models; article structure, evidence, interpretation, and practical adaptations |
+| [LESSONS_AND_ACTIONS.md](LESSONS_AND_ACTIONS.md) | Consolidated lessons-and-actions register showing what has been proposed, where it should be applied, and when it has actually been implemented |
+| [PROPOSED_MANUSCRIPT_STRUCTURE.md](PROPOSED_MANUSCRIPT_STRUCTURE.md) | Working proposed structure for our manuscript; to be revised as additional articles are reviewed |
+| [ARTICLE_REVIEW_TEMPLATE.md](ARTICLE_REVIEW_TEMPLATE.md) | Standard template for reviewing each subsequent article |
 
-## تفکیک سه لایه
+## Separation of three layers
 
-**شاهد مقاله / Source evidence:** مطلبی که خود مقاله پشتیبانی می‌کند؛ همراه با DOI و شماره بخش و صفحه.
+**Source evidence:** What is actually supported by the reviewed article, with DOI and section/page references.
 
-**برداشت ما / Interpretation:** تفسیر ما از نقش آن مطلب در ساختار یا استدلال مقاله؛ نه ادعای مستقیم نویسندگان.
+**Our interpretation:** Our interpretation of the role of that content in the article's structure or argument; this is not presented as a direct claim by the original authors.
 
-**پیشنهاد برای پروژه / Proposed adaptation:** ایده‌ای برای مقاله خودمان که باید بررسی، تأیید، پیاده‌سازی و کنترل شود.
+**Proposed adaptation:** An idea for our own manuscript that must be assessed, approved, implemented, and verified separately.
 
-یک مثال توضیحی، اعتبارسنجی تجربی نیست. یک شکاف گزارش‌شده در مقاله‌ای متعلق به سال ۲۰۱۷ نیز بدون بررسی جدید، شکاف قطعی امروز محسوب نمی‌شود.
+An illustrative example is not empirical validation. Likewise, a gap reported in a 2017 paper should not be treated as a confirmed gap in the current literature without an updated check.
 
-## وضعیت فعلی
+## Current status
 
-- برای **یک مقاله**، یادداشت ساختاری مبتنی بر متن کامل ثبت شده است: **JCP-03**؛ شماره آن مطابق فهرست اولیه ده‌مقاله‌ای است، نه ترتیب مطالعه.
-- **نه مقاله دیگر** در صف بررسی متن کامل هستند. برای آن‌ها فعلاً نتیجه ساختاری ثبت نشده است.
-- فهرست زیر فهرست مطالعه و الگوبرداری است؛ **مجموعه مطالعات واردشده به مرور سیستماتیک نیست** و نباید مستقیماً در شمارش PRISMA یا تحلیل اثرها استفاده شود.
-- برای هشت مقاله بررسی‌نشده، عنوان، سال و DOI از فهرست پیشنهادی قبلی منتقل شده‌اند و در ایجاد این پوشه مستقلاً بازتأیید نشده‌اند. پیش از یادداشت‌برداری، تطابق DOI، عنوان، ژورنال و نوع مقاله با صفحه ناشر یا PDF کنترل شود.
+- A full-text structural note has been recorded for **one article: JCP-03**. Its number follows the original ten-paper list rather than the order in which the papers were reviewed.
+- **Nine additional articles** remain queued for full-text review. No structural conclusions have yet been recorded for them.
+- The list below is a reading and benchmarking list; it is **not the set of studies included in the systematic review** and must not be used directly in PRISMA counts or effect analyses.
+- For the eight articles not yet reviewed, titles, publication years, and DOIs were transferred from the earlier candidate list and were not independently re-verified when this folder was created. Before preparing a note, the DOI, title, journal, and article type should be checked against the publisher page or PDF.
 
-## فهرست ده مقاله
+## List of ten articles
 
-| شناسه | عنوان ثبت‌شده در فهرست اولیه | سال | DOI | وضعیت یادداشت |
+| ID | Title recorded in the original list | Year | DOI | Note status |
 |---|---|---|---|---|
-| JCP-01 | Spatializing environmental footprint by integrating geographic information system into life cycle assessment: A review and practice recommendations | 2021 | [10.1016/j.jclepro.2021.129113](https://doi.org/10.1016/j.jclepro.2021.129113) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-02 | Critical review and practical recommendations to integrate the spatial dimension into life cycle assessment | 2018 | [10.1016/j.jclepro.2017.12.192](https://doi.org/10.1016/j.jclepro.2017.12.192) | [یادداشت ثبت شد؛ مشخصات با PDF تطبیق داده شد](articles/02_Patouillard_et_al_2018.md) |
-| JCP-03 | Uncertainty analysis in agent-based modelling and consequential life cycle assessment coupled models: A critical review | 2017 | [10.1016/j.jclepro.2017.03.193](https://doi.org/10.1016/j.jclepro.2017.03.193) | [یادداشت ثبت شد؛ مشخصات با PDF تطبیق داده شد](articles/03_Baustert_Benetto_2017.md) |
-| JCP-04 | Application of machine learning initiatives and intelligent perspectives for CO₂ emissions reduction in construction | 2023 | [10.1016/j.jclepro.2022.135504](https://doi.org/10.1016/j.jclepro.2022.135504) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-05 | Circular economy in the construction industry: A review of decision support tools based on Information & Communication Technologies | 2022 | [10.1016/j.jclepro.2022.131335](https://doi.org/10.1016/j.jclepro.2022.131335) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-06 | Critical consideration of buildings’ environmental impact assessment towards adoption of circular economy: An analytical review | 2018 | [10.1016/j.jclepro.2018.09.120](https://doi.org/10.1016/j.jclepro.2018.09.120) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-07 | Circular economy in the construction industry: A systematic literature review | 2020 | [10.1016/j.jclepro.2020.121046](https://doi.org/10.1016/j.jclepro.2020.121046) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-08 | Combining Life Cycle Assessment and System Dynamics to improve impact assessment: A systematic review | 2021 | [10.1016/j.jclepro.2021.128060](https://doi.org/10.1016/j.jclepro.2021.128060) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-09 | To what extent can agent-based modelling enhance a life cycle assessment? Answers based on a literature review | 2019 | [10.1016/j.jclepro.2019.118123](https://doi.org/10.1016/j.jclepro.2019.118123) | در انتظار کنترل مشخصات و بررسی متن کامل |
-| JCP-10 | Systematic review of scale-up methods for prospective life cycle assessment of emerging technologies | 2024 | [10.1016/j.jclepro.2024.142161](https://doi.org/10.1016/j.jclepro.2024.142161) | در انتظار کنترل مشخصات و بررسی متن کامل |
+| JCP-01 | Spatializing environmental footprint by integrating geographic information system into life cycle assessment: A review and practice recommendations | 2021 | [10.1016/j.jclepro.2021.129113](https://doi.org/10.1016/j.jclepro.2021.129113) | Pending bibliographic verification and full-text review |
+| JCP-02 | Critical review and practical recommendations to integrate the spatial dimension into life cycle assessment | 2018 | [10.1016/j.jclepro.2017.12.192](https://doi.org/10.1016/j.jclepro.2017.12.192) | [Note recorded; bibliographic details checked against PDF](articles/02_Patouillard_et_al_2018.md) |
+| JCP-03 | Uncertainty analysis in agent-based modelling and consequential life cycle assessment coupled models: A critical review | 2017 | [10.1016/j.jclepro.2017.03.193](https://doi.org/10.1016/j.jclepro.2017.03.193) | [Note recorded; bibliographic details checked against PDF](articles/03_Baustert_Benetto_2017.md) |
+| JCP-04 | Application of machine learning initiatives and intelligent perspectives for CO₂ emissions reduction in construction | 2023 | [10.1016/j.jclepro.2022.135504](https://doi.org/10.1016/j.jclepro.2022.135504) | Pending bibliographic verification and full-text review |
+| JCP-05 | Circular economy in the construction industry: A review of decision support tools based on Information & Communication Technologies | 2022 | [10.1016/j.jclepro.2022.131335](https://doi.org/10.1016/j.jclepro.2022.131335) | Pending bibliographic verification and full-text review |
+| JCP-06 | Critical consideration of buildings’ environmental impact assessment towards adoption of circular economy: An analytical review | 2018 | [10.1016/j.jclepro.2018.09.120](https://doi.org/10.1016/j.jclepro.2018.09.120) | Pending bibliographic verification and full-text review |
+| JCP-07 | Circular economy in the construction industry: A systematic literature review | 2020 | [10.1016/j.jclepro.2020.121046](https://doi.org/10.1016/j.jclepro.2020.121046) | Pending bibliographic verification and full-text review |
+| JCP-08 | Combining Life Cycle Assessment and System Dynamics to improve impact assessment: A systematic review | 2021 | [10.1016/j.jclepro.2021.128060](https://doi.org/10.1016/j.jclepro.2021.128060) | Pending bibliographic verification and full-text review |
+| JCP-09 | To what extent can agent-based modelling enhance a life cycle assessment? Answers based on a literature review | 2019 | [10.1016/j.jclepro.2019.118123](https://doi.org/10.1016/j.jclepro.2019.118123) | Pending bibliographic verification and full-text review |
+| JCP-10 | Systematic review of scale-up methods for prospective life cycle assessment of emerging technologies | 2024 | [10.1016/j.jclepro.2024.142161](https://doi.org/10.1016/j.jclepro.2024.142161) | Pending bibliographic verification and full-text review |
 
-## روند استفاده
+## Workflow
 
-1. متن کامل و مشخصات مقاله را کنترل کنیم و فایل یادداشت آن را از روی قالب بسازیم.
-2. ابتدا ساختار واقعی، اصطلاحات و حدود ادعاهای نویسندگان را ثبت کنیم؛ سپس برداشت و پیشنهاد خودمان را جدا بنویسیم.
-3. پیشنهادهای قابل‌پیگیری را با شناسه پایدار وارد دفتر درس‌ها و اقدام‌ها کنیم.
-4. پیش از تغییر پروتکل، کدگذاری یا ساختار اصلی، پیشنهاد را بررسی و تصمیم را ثبت کنیم.
-5. فقط پس از تغییر واقعی فایل هدف و بررسی آن، وضعیت را به `Implemented` یا `Verified` تغییر بدهیم و لینک commit را ثبت کنیم.
+1. Verify the full text and bibliographic details, then create the article note from the standard template.
+2. First record the article's actual structure, terminology, and claim boundaries; then document our interpretation and proposed adaptations separately.
+3. Enter trackable proposals into the lessons-and-actions register using stable IDs.
+4. Before changing the protocol, coding framework, or manuscript structure, review the proposal and record the decision.
+5. Change an action status to `Implemented` or `Verified` only after the target file has actually been changed and checked, and record the relevant commit link.
 
-وضعیت‌های اقدام: `Proposed → Accepted → Implemented → Verified`؛ همچنین `Deferred` یا `Rejected` همراه با دلیل. وضعیت مطالعه مقاله از وضعیت اعمال پیشنهادها مستقل است.
+Action states: `Proposed → Accepted → Implemented → Verified`; `Deferred` and `Rejected` are also available with a documented reason. The status of an article review is independent from the implementation status of its proposed lessons.
 
-## ارتباط با فایل‌های اصلی
+## Relationship to the main project files
 
-مرجع طراحی موجود پروژه، [README اصلی](../README.md) است. هنگام ایجاد این پوشه، آن فایل خوانده شد؛ blob SHA آن `ea5eea63a31bf930ed5c46d2deff28fe3ab5d67d` بود. این یک شناسه محتوای فایل است، نه commit SHA.
+The current design reference for the project is the [main README](../README.md). When this folder was created, that file was reviewed; its blob SHA was `ea5eea63a31bf930ed5c46d2deff28fe3ab5d67d`. This is a file-content identifier, not a commit SHA.
 
-طبق همان نسخه، S1–S3 جست‌وجوی Scopus تأیید شده‌اند و S4–S5 هنوز پیش‌نویس‌اند. ایجاد این دفتر وضعیت آن‌ها را تغییر نمی‌دهد. مسیرهای آینده‌ای مثل `docs/coding_framework.md` در یادداشت‌ها، تا زمان ایجاد واقعی، فقط مقصد پیشنهادی هستند.
+According to that version, the Scopus searches for S1–S3 are approved, while S4–S5 remain drafts. Creating this lessons repository does not change their status. Future paths such as `docs/coding_framework.md`, when mentioned in the notes, remain proposed destinations until those files actually exist.
 
-## نگهداری منابع
+## Source management
 
-در این پوشه یادداشت‌ها و ارجاع‌ها نگهداری می‌شوند؛ PDF ناشر یا متن کامل مقاله‌ها در این مرحله بارگذاری نشده است. برای استناد بیرون از این گفتگو از DOI و شماره بخش/صفحه استفاده شود، نه شناسه‌های موقت گفتگو.
+This folder stores notes and references; publisher PDFs or full article texts have not been uploaded here. For citation outside this conversation, use DOI and section/page references rather than temporary conversation identifiers.
 
-## تاریخچه
+## Revision history
 
-| تاریخ | تغییر |
+| Date | Change |
 |---|---|
-| 2026-10-01 | ایجاد پوشه؛ ثبت فهرست ده مقاله، یادداشت JCP-03، قالب بررسی، دفتر اقدام‌ها و ساختار موقت پیشنهادی. فایل‌های اصلی پروژه بدون تغییر باقی ماندند. |\n| 2026-10-02 | بررسی متن کامل JCP-02 و ثبت درس‌های spatial LCA، scale transition و uncertainty/variability. |
+| 2026-10-01 | Created the folder; recorded the ten-paper list, the JCP-03 note, the review template, the action register, and the provisional manuscript structure. Main project files remained unchanged. |
+| 2026-10-02 | Reviewed the full text of JCP-02 and recorded lessons on spatial LCA, scale transitions, and uncertainty/variability. |
