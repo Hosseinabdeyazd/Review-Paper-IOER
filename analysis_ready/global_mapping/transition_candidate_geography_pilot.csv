@@ -1,0 +1,21 @@
+transition,title,doi,geographic_scope_type,country_of_application,study_area,fractional_weight,evidence_basis
+S1→S2,Modelling of mineral construction and demolition waste dynamics through a combination of geospatial and image analysis,10.1016/j.jenvman.2020.111879,country,Luxembourg,Luxembourg,1.0,Full text
+S1→S2,Dataset for Urban Scale Building Stock Modelling: Identification and Review of Potential Data Collection Approaches,10.5194/isprs-annals-X-4-W2-2022-225-2022,country,Singapore,Singapore,1.0,Full text
+S1→S2,Semisupervised machine learning classification framework for material intensity parameters of residential buildings,10.1111/jiec.13174,global_database,,Global material-intensity database,1.0,Full text
+S1→S2,What matters most to the material intensity coefficient of buildings? Random forest-based evidence from China,10.1111/jiec.13332,country,China,China,1.0,Full text
+S1→S2,Building feature-based machine learning regression to quantify urban material stocks: A Hong Kong study,10.1111/jiec.13348,city,China,Hong Kong SAR,1.0,Full text
+S1→S2,"A Satellite-Driven Model for Monitoring Urban Material Metabolism, Embodied Emissions, and Carbonation",10.1021/acs.est.5c03058,city,China,Xiamen,1.0,Supporting information + repository metadata
+S1→S2,Geometry-informed material intensity reveals considerable intra-archetype material variability of UK housing,10.1016/j.resconrec.2025.108392,city,United Kingdom,Sheffield,1.0,Full text
+S1→S2,Integrated BIM-GIS framework for holistic building stock assessment using 5D geo-modeling and digital twin concepts,10.1016/j.jobe.2025.113391,city,Egypt,6th of October City,1.0,Full text
+S1→S2,Assessing the sensitivity of material-intensity-based building stock estimates to design parameters,10.1007/s44498-026-00138-5,synthetic,,Synthetic design space; multi-city validation,1.0,Full text
+S2→S3,Exploration of urban deposits: Long-term prospects for resource and waste management,10.1177/0734242X07079183,pending_full_text,,Pending full text,1.0,Not available in supplied ZIPs
+S2→S3,How important are realistic building lifespan assumptions for material stock and demolition waste accounts?,10.1016/j.resconrec.2017.01.015,multi_country,Japan,Nagoya and Wakayama,0.5,Full text
+S2→S3,How important are realistic building lifespan assumptions for material stock and demolition waste accounts?,10.1016/j.resconrec.2017.01.015,multi_country,United Kingdom,Salford,0.5,Full text
+S2→S3,A Probabilistic Dynamic Material Flow Analysis Model for Chinese Urban Housing Stock,10.1111/jiec.12579,country,China,China,1.0,Full text
+S2→S3,Tracking Construction Material over Space and Time: Prospective and Geo-referenced Modeling of Building Stocks and Construction Material Flows,10.1111/jiec.12739,country,Switzerland,Switzerland,1.0,Full text
+S2→S3,Modelling of mineral construction and demolition waste dynamics through a combination of geospatial and image analysis,10.1016/j.jenvman.2020.111879,country,Luxembourg,Luxembourg,1.0,Full text
+S2→S3,Dynamic life cycle assessment of buildings and building stocks – A review,10.1016/j.rser.2024.115262,review,,Review; no single application country,1.0,Full text
+S2→S3,Greenhouse Gas Emissions and Decarbonization Potential of Global Fired Clay Brick Production,10.1021/acs.est.4c08994,global,,Global,1.0,Full text
+S2→S3,Material intensity and embodied carbon of Korea's residential buildings over four decades,10.1016/j.resconrec.2025.108228,country,South Korea,South Korea,1.0,Full text
+S2→S3,Pathways to a net zero building sector in Colombia: Insights from a circular economy perspective,10.1016/j.resconrec.2024.107971,country,Colombia,Colombia,1.0,Full text
+S2→S3,A layered dynamic material flow framework for modeling building renovations,10.1007/s44498-026-00164-3,country,Sweden,Sweden,1.0,Full text
