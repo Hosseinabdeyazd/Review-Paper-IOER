@@ -1,0 +1,12 @@
+metric,category,broad,uncertainty
+exclusive,S1 only,835,
+exclusive,S2 only,175,
+exclusive,S3 only,129,
+exclusive,S1-S2 only,37,
+exclusive,S2-S3 only,30,
+exclusive,S1-S3 only,2,
+exclusive,all three,4,
+jaccard,S1-S2,3.79,3.09
+jaccard,S2-S3,9.02,12.05
+jaccard,S1-S3,0.58,0.99
+jaccard,all three,0.33,0.30
