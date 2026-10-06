@@ -1,0 +1,85 @@
+Stage,Period,Method,Broad records in period,Method hits,Share (%)
+S1,≤2014,ML / DL,91,22,24.2
+S1,≤2014,Remote sensing / EO,91,57,62.6
+S1,≤2014,Computer vision / segmentation,91,6,6.6
+S1,≤2014,LiDAR / point cloud,91,12,13.2
+S1,≤2014,Street-level imagery,91,2,2.2
+S1,≤2014,GIS / cadastral,91,25,27.5
+S1,≤2014,Building attributes / typology,91,7,7.7
+S1,2015–2019,ML / DL,106,50,47.2
+S1,2015–2019,Remote sensing / EO,106,52,49.1
+S1,2015–2019,Computer vision / segmentation,106,11,10.4
+S1,2015–2019,LiDAR / point cloud,106,16,15.1
+S1,2015–2019,Street-level imagery,106,2,1.9
+S1,2015–2019,GIS / cadastral,106,29,27.4
+S1,2015–2019,Building attributes / typology,106,19,17.9
+S1,2020–2022,ML / DL,193,143,74.1
+S1,2020–2022,Remote sensing / EO,193,62,32.1
+S1,2020–2022,Computer vision / segmentation,193,28,14.5
+S1,2020–2022,LiDAR / point cloud,193,17,8.8
+S1,2020–2022,Street-level imagery,193,13,6.7
+S1,2020–2022,GIS / cadastral,193,38,19.7
+S1,2020–2022,Building attributes / typology,193,36,18.7
+S1,2023–2026,ML / DL,487,378,77.6
+S1,2023–2026,Remote sensing / EO,487,153,31.4
+S1,2023–2026,Computer vision / segmentation,487,94,19.3
+S1,2023–2026,LiDAR / point cloud,487,36,7.4
+S1,2023–2026,Street-level imagery,487,32,6.6
+S1,2023–2026,GIS / cadastral,487,111,22.8
+S1,2023–2026,Building attributes / typology,487,134,27.5
+S2,≤2014,Material stock,9,4,44.4
+S2,≤2014,Material intensity,9,0,0
+S2,≤2014,Inventory / bottom-up,9,2,22.2
+S2,≤2014,MFA,9,3,33.3
+S2,≤2014,GIS / spatial,9,1,11.1
+S2,≤2014,BIM / digital building,9,0,0
+S2,≤2014,Archetype / typology,9,1,11.1
+S2,2015–2019,Material stock,38,28,73.7
+S2,2015–2019,Material intensity,38,0,0
+S2,2015–2019,Inventory / bottom-up,38,23,60.5
+S2,2015–2019,MFA,38,15,39.5
+S2,2015–2019,GIS / spatial,38,12,31.6
+S2,2015–2019,BIM / digital building,38,2,5.3
+S2,2015–2019,Archetype / typology,38,2,5.3
+S2,2020–2022,Material stock,50,34,68
+S2,2020–2022,Material intensity,50,3,6
+S2,2020–2022,Inventory / bottom-up,50,21,42
+S2,2020–2022,MFA,50,13,26
+S2,2020–2022,GIS / spatial,50,10,20
+S2,2020–2022,BIM / digital building,50,10,20
+S2,2020–2022,Archetype / typology,50,4,8
+S2,2023–2026,Material stock,149,102,68.5
+S2,2023–2026,Material intensity,149,10,6.7
+S2,2023–2026,Inventory / bottom-up,149,46,30.9
+S2,2023–2026,MFA,149,29,19.5
+S2,2023–2026,GIS / spatial,149,35,23.5
+S2,2023–2026,BIM / digital building,149,38,25.5
+S2,2023–2026,Archetype / typology,149,22,14.8
+S3,≤2014,Lifetime / service life,22,10,45.5
+S3,≤2014,Demolition / deconstruction,22,8,36.4
+S3,≤2014,Dynamic MFA / stock-driven,22,9,40.9
+S3,≤2014,Scenario / forecast,22,6,27.3
+S3,≤2014,Turnover / cohort / replacement,22,4,18.2
+S3,≤2014,Outflow / demolition waste,22,1,4.5
+S3,≤2014,Survival / hazard,22,2,9.1
+S3,2015–2019,Lifetime / service life,28,11,39.3
+S3,2015–2019,Demolition / deconstruction,28,15,53.6
+S3,2015–2019,Dynamic MFA / stock-driven,28,12,42.9
+S3,2015–2019,Scenario / forecast,28,10,35.7
+S3,2015–2019,Turnover / cohort / replacement,28,15,53.6
+S3,2015–2019,Outflow / demolition waste,28,10,35.7
+S3,2015–2019,Survival / hazard,28,3,10.7
+S3,2020–2022,Lifetime / service life,41,16,39
+S3,2020–2022,Demolition / deconstruction,41,23,56.1
+S3,2020–2022,Dynamic MFA / stock-driven,41,20,48.8
+S3,2020–2022,Scenario / forecast,41,18,43.9
+S3,2020–2022,Turnover / cohort / replacement,41,13,31.7
+S3,2020–2022,Outflow / demolition waste,41,15,36.6
+S3,2020–2022,Survival / hazard,41,3,7.3
+S3,2023–2026,Lifetime / service life,74,29,39.2
+S3,2023–2026,Demolition / deconstruction,74,29,39.2
+S3,2023–2026,Dynamic MFA / stock-driven,74,35,47.3
+S3,2023–2026,Scenario / forecast,74,36,48.6
+S3,2023–2026,Turnover / cohort / replacement,74,22,29.7
+S3,2023–2026,Outflow / demolition waste,74,12,16.2
+S3,2023–2026,Survival / hazard,74,4,5.4

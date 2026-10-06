@@ -1,0 +1,4 @@
+Stage,Full broad,Full subset-consistent U,Full U/B (%),Broad after removing diagnostic flags,Subset-consistent U after diagnostic flags,Sensitivity U/B (%)
+S1,878,256,29.2,856,246,28.7
+S2,246,44,17.9,240,42,17.5
+S3,165,48,29.1,149,40,26.8

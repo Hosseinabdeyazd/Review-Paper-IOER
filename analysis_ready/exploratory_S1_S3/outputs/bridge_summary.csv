@@ -1,0 +1,5 @@
+Interface,Broad candidates,U-layer candidates,U share of broad candidates (%),Candidate-noise flagged,Noise-flag share (%)
+S1→S2,41,9,22,1,2.4
+S2→S3,34,10,29.4,1,2.9
+S1→S3,6,3,50,0,0
+S1→S2→S3,4,1,25,0,0

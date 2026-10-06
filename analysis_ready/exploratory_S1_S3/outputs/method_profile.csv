@@ -1,0 +1,22 @@
+Stage,Method,Broad hits,Broad share (%),U hits,U share (%)
+S1,ML / DL,594,67.7,188,73.4
+S1,Remote sensing / EO,324,36.9,73,28.5
+S1,Computer vision / segmentation,139,15.8,31,12.1
+S1,LiDAR / point cloud,81,9.2,12,4.7
+S1,Street-level imagery,49,5.6,16,6.3
+S1,GIS / cadastral,203,23.1,48,18.8
+S1,Building attributes / typology,196,22.3,63,24.6
+S2,Material stock,168,68.3,31,70.5
+S2,Material intensity,13,5.3,5,11.4
+S2,Inventory / bottom-up,92,37.4,15,34.1
+S2,MFA,60,24.4,15,34.1
+S2,GIS / spatial,58,23.6,8,18.2
+S2,BIM / digital building,50,20.3,6,13.6
+S2,Archetype / typology,29,11.8,6,13.6
+S3,Lifetime / service life,66,40,23,47.9
+S3,Demolition / deconstruction,75,45.5,21,43.8
+S3,Dynamic MFA / stock-driven,76,46.1,19,39.6
+S3,Scenario / forecast,70,42.4,19,39.6
+S3,Turnover / cohort / replacement,54,32.7,17,35.4
+S3,Outflow / demolition waste,38,23,10,20.8
+S3,Survival / hazard,12,7.3,9,18.8

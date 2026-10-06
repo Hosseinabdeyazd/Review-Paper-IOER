@@ -1,0 +1,34 @@
+Stage,Signal,Subset-consistent U,Hits,Share (%)
+S1,Explicit uncertainty,256,58,22.7
+S1,Sensitivity,256,40,15.6
+S1,Probabilistic,256,42,16.4
+S1,Stochastic,256,7,2.7
+S1,Monte Carlo,256,14,5.5
+S1,Bayesian,256,9,3.5
+S1,Ensemble,256,23,9
+S1,Interval / range,256,10,3.9
+S1,Robustness,256,85,33.2
+S1,Fuzzy,256,7,2.7
+S1,Calibration / validation,256,69,27
+S2,Explicit uncertainty,44,16,36.4
+S2,Sensitivity,44,9,20.5
+S2,Probabilistic,44,8,18.2
+S2,Stochastic,44,3,6.8
+S2,Monte Carlo,44,3,6.8
+S2,Bayesian,44,1,2.3
+S2,Ensemble,44,2,4.5
+S2,Interval / range,44,1,2.3
+S2,Robustness,44,6,13.6
+S2,Fuzzy,44,0,0
+S2,Calibration / validation,44,10,22.7
+S3,Explicit uncertainty,48,16,33.3
+S3,Sensitivity,48,13,27.1
+S3,Probabilistic,48,12,25
+S3,Stochastic,48,2,4.2
+S3,Monte Carlo,48,4,8.3
+S3,Bayesian,48,4,8.3
+S3,Ensemble,48,2,4.2
+S3,Interval / range,48,2,4.2
+S3,Robustness,48,11,22.9
+S3,Fuzzy,48,0,0
+S3,Calibration / validation,48,9,18.8
