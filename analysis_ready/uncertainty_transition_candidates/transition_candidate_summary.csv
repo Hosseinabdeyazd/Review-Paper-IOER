@@ -1,0 +1,5 @@
+Transition,Candidate type,Subset-consistent candidates
+S1→S2,Adjacent transition,9
+S2→S3,Adjacent transition,10
+S1→S3,Non-adjacent bridge candidate,2
+S1→S2→S3,Three-stage chain candidate,1
