@@ -40,7 +40,7 @@ def compose(paths,out,title,footer):
     c=Image.new("RGB",(mw*2+gap*3,mh*2+gap*3+th+fh),"white")
     xy=[(gap,th+gap),(mw+gap*2,th+gap),(gap,th+mh+gap*2),(mw+gap*2,th+mh+gap*2)]
     for im,pos in zip(norm,xy): c.paste(im,pos)
-    d=ImageDraw.Draw(c); d.text((gap,25),title,fill=P["text"]); d.text((gap,c.height-fh+20),footer,fill=P["text"])
+    d=ImageDraw.Draw(c); d.text((gap,25),title,fill=P["text"]);\n    if footer: d.text((gap,c.height-fh+20),footer,fill=P["text"])
     c.save(out,dpi=(300,300))
 
 exclusive_labels=["S1 only","S2 only","S3 only","S1∩S2 only","S2∩S3 only","S1∩S3 only","All three"]
@@ -71,4 +71,4 @@ for off,v,n,c in [(-bw,s12u,"S1→S2",P["uncertainty"]),(0,s23u,"S2→S3",P["hig
 ax.set_xticks(x); ax.set_xticklabels(periods); ax.set_ylabel("U-layer bridge candidates"); ax.set_title("D  Temporal emergence of uncertainty-oriented bridges",loc="left",fontweight="bold"); ax.legend(frameon=False); style(ax)
 p4=save_panel(fig,"F2_D_temporal_uncertainty_bridges.png")
 
-compose([p1,p2,p3,p4],FIG/"Figure_02_Integration_Depth_and_Temporal_Emergence.png","Cross-stage integration remains sparse despite recent growth in bridge papers","Jaccard density controls for corpus size. Publication-year counts are shown through 2026; 2026 is incomplete.")
+compose([p1,p2,p3,p4],FIG/"Figure_02_Integration_Depth_and_Temporal_Emergence.png","Integration depth and temporal emergence of bridge papers","")

@@ -40,7 +40,7 @@ def compose(paths,out,title,footer):
     c=Image.new("RGB",(mw*2+gap*3,mh*2+gap*3+th+fh),"white")
     xy=[(gap,th+gap),(mw+gap*2,th+gap),(gap,th+mh+gap*2),(mw+gap*2,th+mh+gap*2)]
     for im,pos in zip(norm,xy): c.paste(im,pos)
-    d=ImageDraw.Draw(c); d.text((gap,25),title,fill=P["text"]); d.text((gap,c.height-fh+20),footer,fill=P["text"])
+    d=ImageDraw.Draw(c); d.text((gap,25),title,fill=P["text"]);\n    if footer: d.text((gap,c.height-fh+20),footer,fill=P["text"])
     c.save(out,dpi=(300,300))
 
 stage_labels=["S1\nObservation / GeoAI","S2\nMaterial stock","S3\nStock dynamics"]
@@ -55,14 +55,12 @@ noise_stage=["S1","S2","S3"]; full=np.array([29.2,17.9,29.1]); sens=np.array([28
 fig,ax=plt.subplots(figsize=(6.3,4.7)); x=np.arange(3)
 a=ax.bar(x-w/2,stage_broad,w,color=P["broad"],label="Broad (Sb)"); b=ax.bar(x+w/2,stage_u,w,color=P["uncertainty"],label="Uncertainty (Su)")
 labels(ax,a); labels(ax,b)
-for i,s in enumerate(stage_share): ax.text(i,stage_broad[i]+45,f"U/B {s:.1f}%",ha="center",fontsize=9)
 ax.set_xticks(x); ax.set_xticklabels(stage_labels); ax.set_ylabel("Number of records"); ax.set_title("A  Stage-level evidence base",loc="left",fontweight="bold"); ax.legend(frameon=False,ncol=2); style(ax)
 p1=save_panel(fig,"F1_A_stage_counts.png")
 
 fig,ax=plt.subplots(figsize=(6.3,4.7)); x=np.arange(4)
 a=ax.bar(x-w/2,bridge_broad,w,color=P["broad"],label="Broad candidates"); b=ax.bar(x+w/2,bridge_u,w,color=P["uncertainty"],label="U-layer candidates")
 labels(ax,a); labels(ax,b)
-for i,s in enumerate(bridge_share): ax.text(i,max(bridge_broad[i],bridge_u[i])+2.1,f"{s:.1f}% U",ha="center",fontsize=9)
 ax.set_xticks(x); ax.set_xticklabels(bridge_labels); ax.set_ylabel("Number of candidate records"); ax.set_title("B  Cross-stage bridge candidates",loc="left",fontweight="bold"); ax.legend(frameon=False); style(ax)
 p2=save_panel(fig,"F1_B_bridge_counts.png")
 
@@ -78,4 +76,4 @@ labels(ax,a,"{:.1f}",8); labels(ax,b,"{:.1f}",8)
 ax.set_xticks(x); ax.set_xticklabels(noise_stage); ax.set_ylim(0,36); ax.set_ylabel("Subset-consistent U/B share (%)"); ax.set_title("D  Sensitivity to diagnostic noise flags",loc="left",fontweight="bold"); ax.legend(frameon=False,fontsize=8); style(ax)
 p4=save_panel(fig,"F1_D_noise_sensitivity.png")
 
-compose([p1,p2,p3,p4],FIG/"Figure_01_Multipanel_Evidence_Fragmentation.png","Evidence fragmentation across S1–S3 and uncertainty-oriented bridge retention","Pre-screening merged corpora; noise flags are sensitivity diagnostics only; overlap = candidate bridge, not verified propagation.")
+compose([p1,p2,p3,p4],FIG/"Figure_01_Multipanel_Evidence_Fragmentation.png","Evidence fragmentation across S1–S3","")
