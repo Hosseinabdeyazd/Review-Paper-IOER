@@ -1,0 +1,12 @@
+Code,Uncertainty method,Papers,Share (%)
+UM00,Deterministic / no formal UQ,3,17.6
+UM01,One-way / local sensitivity,6,35.3
+UM02,Global sensitivity,0,0
+UM03,Scenario ensemble,4,23.5
+UM04,Intervals / ranges,3,17.6
+UM05,Monte Carlo,3,17.6
+UM06,Bayesian,0,0
+UM07,Bootstrap,4,23.5
+UM08,Probabilistic ML / probabilistic parameter modelling,2,11.8
+UM09,Fuzzy / possibility,0,0
+UM10,Analytical error propagation,0,0

@@ -1,0 +1,14 @@
+Code,Uncertainty source/type,Papers,Share (%)
+U01,Observation / measurement,2,11.8
+U02,Classification / prediction,3,17.6
+U03,Hidden / missing building information,3,17.6
+U04,Material intensity / composition,11,64.7
+U05,Model-form / structural,5,29.4
+U06,Temporal / event,6,35.3
+U07,Recovery / technical feasibility,1,5.9
+U08,Spatial / logistics,0,0
+U09,Demand / market matching,0,0
+U10,LCA inventory / factor,5,29.4
+U11,Boundary / allocation / accounting,1,5.9
+U12,Scenario / future context,7,41.2
+U13,Transferability / domain shift,2,11.8

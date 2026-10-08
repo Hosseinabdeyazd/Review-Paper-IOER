@@ -357,6 +357,31 @@ Scripts, exact input snapshots, and outputs are stored under analysis_ready/nois
 
 ---
 
+## Preliminary full-text uncertainty audit — current S1-S3 pilot
+
+A targeted full-text/SI audit has been completed for the current uncertainty-transition candidate set to test the analytical framework before formal screening of the complete review corpus.
+
+Current verified statistical base: **17 papers**, with one additional provisional abstract-level record and one operational-energy-focused Digital Twin review screened out of the core chain.
+
+The pilot uses three separate coding axes:
+
+- uncertainty source/type (U01-U13);
+- uncertainty method (UM00-UM10); and
+- transition-level propagation outcome.
+
+Current signals are preliminary:
+
+- U04 material intensity/composition is the most frequent uncertainty source (64.7%);
+- one-way/local sensitivity is the most frequent uncertainty method (35.3%);
+- downstream uncertainty remains unassessed in 52.9% of the verified papers;
+- at least partial propagation is observed in 11.1% of audited S1→S2 papers versus 66.7% of S2→S3 papers.
+
+This supports the current working hypothesis that uncertainty integration is substantially less mature at the GeoAI → material-stock interface than at the material-stock → stock-dynamics interface. These percentages must not be treated as final review findings until full screening and eligibility assessment are complete.
+
+Detailed coding and summary tables are stored in `analysis_ready/fulltext_uncertainty_results/`. Figures 05-08 reproduce these outputs.
+
+---
+
 ## Expected outputs
 
 The repository is intended to support:

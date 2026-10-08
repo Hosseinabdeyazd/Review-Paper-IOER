@@ -30,3 +30,8 @@ The archived Scopus S1 base export contains 726 records. A separately confirmed 
 - S2u: 44 unique records from 75 database records; 31 duplicates removed.
 - S3b: 165 unique records from 272 database records; 107 duplicates removed.
 - S3u: 49 unique records from 80 database records; 31 duplicates removed.
+
+
+## Preliminary full-text uncertainty results
+
+`fulltext_uncertainty_results/` contains the current three-axis full-text audit of uncertainty source/type, uncertainty method, and transition-level propagation outcome. This is a pilot result layer and is not yet the final screened review corpus.
