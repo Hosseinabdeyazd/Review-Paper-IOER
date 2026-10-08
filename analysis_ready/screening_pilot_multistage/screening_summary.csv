@@ -1,0 +1,6 @@
+Screening status,Count,Interpretation
+Include,62,Clear potential primary cross-stage record from title/abstract
+Unclear,5,Potentially relevant; retain for full-text eligibility
+Secondary evidence,5,Relevant review/chapter retained for background and snowballing
+Exclude,1,Excluded at title/abstract screening
+Primary records proceeding to full-text eligibility,67,Include + Unclear
