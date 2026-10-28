@@ -27,17 +27,17 @@ Method orientation: **JBI-style scoping review for concept/architecture heteroge
 ## Seed search strategy (DRAFT; database syntax needs local testing)
 
 **Scopus stream A** (draft):
-\`\`\`
+```
 TITLE-ABS-KEY( ("digital twin*" OR "urban digital twin*" OR "city digital twin*")
  AND ("defin*" OR "conceptual model*" OR "reference architecture*" OR "architecture*" OR "framework*" OR "ontology" OR "synchroni*" OR "interoperab*" OR "maturity") )
-\`\`\`
+```
 
 **Scopus stream B** (draft):
-\`\`\`
+```
 TITLE-ABS-KEY( ("digital twin*" OR "urban digital twin*" OR "city digital twin*")
  AND ("built environment" OR building* OR construction OR "urban stock*" OR cit*)
  AND ("material flow*" OR "material stock*" OR "material passport*" OR circular* OR reus* OR recycl* OR "urban mining" OR "life cycle assessment" OR LCA OR deconstruction) )
-\`\`\`
+```
 
 Replicate translations and record exact field tags for **Web of Science Core Collection**, **IEEE Xplore**, and potentially **Compendex**; Scopus should not be treated as a sole sufficient architecture repository. Supplement ISO/IEC, DTC, CDBB/Gemini and verified technical documentation as a **clearly marked grey-literature/standards stratum**. Capture search date, database, query ID, filters, export count, and file hash. No language restriction at search stage; document translation treatment at full-text stage. Check preprints vs published versions. Use backward/forward citation chaining with reproducible rules.
 
