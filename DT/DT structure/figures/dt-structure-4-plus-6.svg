@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1280" role="img" aria-labelledby="title desc">
+<title id="title">A two-level framework for Digital Twin structure</title>
+<desc id="desc">Four meta-level design concerns guide six interacting Digital Twin configuration dimensions. Purpose and scope, data governance, interfaces and interoperability, and assurance and evidence influence system composition, internal architecture, computational model, coupling and control, agency and intelligence, and temporal organization. Assurance and evidence is cross-cutting. This is a provisional synthesis, not a published taxonomy.</desc>
+<defs>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#66717d"/></marker>
+  <style>
+    .bg{fill:#fbfcfd}
+    .title{font:600 40px Georgia,serif;fill:#172b3a}
+    .sub{font:400 22px Georgia,serif;fill:#536170}
+    .layer{font:600 20px Georgia,serif;letter-spacing:2px;fill:#536170}
+    .box{fill:#fff;stroke:#cbd4dc;stroke-width:2}
+    .accent1{fill:#264653}.accent2{fill:#386890}.accent3{fill:#b77936}.accent4{fill:#75527f}
+    .meta-title{font:600 24px Georgia,serif;fill:#172b3a}
+    .meta-desc{font:400 17px Georgia,serif;fill:#465564}
+    .dim-title{font:600 23px Georgia,serif;fill:#172b3a}
+    .option{font:400 18px Georgia,serif;fill:#465564}
+    .edge{fill:none;stroke:#66717d;stroke-width:2.2;opacity:.28;marker-end:url(#arrow)}
+    .edge-assurance{fill:none;stroke:#75527f;stroke-width:2.4;stroke-dasharray:8 8;opacity:.55;marker-end:url(#arrow)}
+    .rule{stroke:#d9e0e5;stroke-width:1.5}
+    .pill{fill:#edf2f5}
+    .pilltext{font:500 15px Georgia,serif;fill:#465564}
+    .foot{font:400 16px Georgia,serif;fill:#536170}
+    .legendline{fill:none;stroke:#66717d;stroke-width:2.2;opacity:.55;marker-end:url(#arrow)}
+    .legendcross{fill:none;stroke:#75527f;stroke-width:2.4;stroke-dasharray:8 8;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect class="bg" width="2000" height="1280"/>
+<text class="title" x="70" y="76">Digital Twin structure: a two-level design space</text>
+<text class="sub" x="70" y="116">Meta-level concerns guide, constrain and assess configuration choices; they do not map one-to-one.</text>
+
+<text class="layer" x="70" y="170">LEVEL 1 · META-LEVEL DESIGN CONCERNS</text>
+<text class="sub" x="1930" y="170" text-anchor="end">WHY · UNDER WHAT RULES · HOW CONNECTED · HOW TRUSTWORTHY</text>
+
+<!-- guiding links: drawn beneath nodes -->
+<g aria-label="Many-to-many guiding relationships">
+  <path class="edge" d="M272 360 C272 475 195 515 195 650"/>
+  <path class="edge" d="M272 360 C310 470 520 520 520 650"/>
+  <path class="edge" d="M272 360 C360 470 845 525 845 650"/>
+  <path class="edge" d="M272 360 C400 470 1170 525 1170 650"/>
+  <path class="edge" d="M272 360 C450 470 1495 530 1495 650"/>
+  <path class="edge" d="M757 360 C710 475 520 520 520 650"/>
+  <path class="edge" d="M757 360 C745 480 845 520 845 650"/>
+  <path class="edge" d="M757 360 C790 475 1170 525 1170 650"/>
+  <path class="edge" d="M757 360 C845 475 1820 525 1820 650"/>
+  <path class="edge" d="M1242 360 C1150 470 195 525 195 650"/>
+  <path class="edge" d="M1242 360 C1170 470 520 520 520 650"/>
+  <path class="edge" d="M1242 360 C1220 470 1170 520 1170 650"/>
+  <path class="edge" d="M1242 360 C1290 470 1495 520 1495 650"/>
+  <path class="edge-assurance" d="M1727 360 C1500 470 195 520 195 650"/>
+  <path class="edge-assurance" d="M1727 360 C1550 470 520 520 520 650"/>
+  <path class="edge-assurance" d="M1727 360 C1600 470 845 520 845 650"/>
+  <path class="edge-assurance" d="M1727 360 C1650 470 1170 520 1170 650"/>
+  <path class="edge-assurance" d="M1727 360 C1690 470 1495 520 1495 650"/>
+  <path class="edge-assurance" d="M1727 360 C1740 470 1820 520 1820 650"/>
+</g>
+
+<!-- four meta-level concerns -->
+<g>
+  <rect class="box" x="55" y="195" width="435" height="165" rx="8"/><rect class="accent1" x="55" y="195" width="10" height="165" rx="5"/>
+  <text class="meta-title" x="82" y="237">Purpose, Scope &amp; Context</text>
+  <text class="meta-desc" x="82" y="273">Decision need · entity · boundary</text><text class="meta-desc" x="82" y="299">scale · operating context · use</text>
+  <rect class="box" x="540" y="195" width="435" height="165" rx="8"/><rect class="accent2" x="540" y="195" width="10" height="165" rx="5"/>
+  <text class="meta-title" x="567" y="237">Data, Semantics &amp; Governance</text>
+  <text class="meta-desc" x="567" y="273">Sources · meaning · quality · provenance</text><text class="meta-desc" x="567" y="299">ownership · access · security · retention</text>
+  <rect class="box" x="1025" y="195" width="435" height="165" rx="8"/><rect class="accent3" x="1025" y="195" width="10" height="165" rx="5"/>
+  <text class="meta-title" x="1052" y="237">Interfaces &amp; Interoperability</text>
+  <text class="meta-desc" x="1052" y="273">People · physical systems · other twins</text><text class="meta-desc" x="1052" y="299">APIs · standards · semantic mappings</text>
+  <rect class="box" x="1510" y="195" width="435" height="165" rx="8"/><rect class="accent4" x="1510" y="195" width="10" height="165" rx="5"/>
+  <text class="meta-title" x="1537" y="237">Assurance &amp; Evidence</text>
+  <text class="meta-desc" x="1537" y="273">Fidelity · uncertainty · validation</text><text class="meta-desc" x="1537" y="299">safety · consistency · performance</text>
+</g>
+
+<text class="layer" x="70" y="610">LEVEL 2 · CONFIGURATION DIMENSIONS</text>
+<text class="sub" x="1930" y="610" text-anchor="end">CANDIDATE CHOICES — COMBINATIONS REQUIRE EVIDENCE AND COMPATIBILITY CHECKS</text>
+
+<!-- six configuration dimensions -->
+<g>
+  <rect class="box" x="40" y="650" width="310" height="475" rx="8"/><rect class="accent1" x="40" y="650" width="310" height="9" rx="4"/>
+  <text class="dim-title" x="66" y="700">1 · System Composition</text><line class="rule" x1="66" y1="722" x2="324" y2="722"/>
+  <text class="option" x="66" y="764">Single Twin</text><text class="option" x="66" y="808">Aggregate</text><text class="option" x="66" y="852">Composite</text><text class="option" x="66" y="896">Network</text><text class="option" x="66" y="940">Federated</text><text class="option" x="66" y="984">Ecosystem</text>
+  <rect class="box" x="365" y="650" width="310" height="475" rx="8"/><rect class="accent2" x="365" y="650" width="310" height="9" rx="4"/>
+  <text class="dim-title" x="391" y="700">2 · Internal Architecture</text><line class="rule" x1="391" y1="722" x2="649" y2="722"/>
+  <text class="option" x="391" y="764">Layered</text><text class="option" x="391" y="808">Modular</text><text class="option" x="391" y="852">Service-oriented</text><text class="option" x="391" y="896">Knowledge-graph-based</text>
+  <rect class="box" x="690" y="650" width="310" height="475" rx="8"/><rect class="accent1" x="690" y="650" width="310" height="9" rx="4"/>
+  <text class="dim-title" x="716" y="700">3 · Computational Model</text><line class="rule" x1="716" y1="722" x2="974" y2="722"/>
+  <text class="option" x="716" y="764">Physics-based</text><text class="option" x="716" y="808">Data-driven</text><text class="option" x="716" y="852">Hybrid</text><text class="option" x="716" y="896">Multiscale</text>
+  <rect class="box" x="1015" y="650" width="310" height="475" rx="8"/><rect class="accent3" x="1015" y="650" width="310" height="9" rx="4"/>
+  <text class="dim-title" x="1041" y="700">4 · Coupling &amp; Control</text><line class="rule" x1="1041" y1="722" x2="1299" y2="722"/>
+  <text class="option" x="1041" y="764">One-way</text><text class="option" x="1041" y="808">Bidirectional</text><text class="option" x="1041" y="852">Human-mediated</text><text class="option" x="1041" y="896">Automated closed-loop</text>
+  <rect class="box" x="1340" y="650" width="310" height="475" rx="8"/><rect class="accent4" x="1340" y="650" width="310" height="9" rx="4"/>
+  <text class="dim-title" x="1366" y="700">5 · Agency &amp; Intelligence</text><line class="rule" x1="1366" y1="722" x2="1624" y2="722"/>
+  <text class="option" x="1366" y="764">Rule-based</text><text class="option" x="1366" y="808">Agent-based</text><text class="option" x="1366" y="852">Multi-agent</text><text class="option" x="1366" y="896">Agentic AI</text>
+  <rect class="box" x="1665" y="650" width="310" height="475" rx="8"/><rect class="accent2" x="1665" y="650" width="310" height="9" rx="4"/>
+  <text class="dim-title" x="1691" y="700">6 · Temporal Organization</text><line class="rule" x1="1691" y1="722" x2="1949" y2="722"/>
+  <text class="option" x="1691" y="764">Continuous</text><text class="option" x="1691" y="808">Periodic</text><text class="option" x="1691" y="852">Event-driven</text><text class="option" x="1691" y="896">Multi-rate</text>
+</g>
+<line class="rule" x1="70" y1="1170" x2="1930" y2="1170"/>
+<path class="legendline" d="M75 1205 L165 1205"/><text class="foot" x="184" y="1211">Guiding relationship synthesized from the literature</text>
+<path class="legendcross" d="M750 1205 L840 1205"/><text class="foot" x="860" y="1211">Assurance applies across all six configuration dimensions</text>
+<text class="foot" x="1930" y="1252" text-anchor="end">Provisional research synthesis · not a single paper's taxonomy · references [1–10] in papers/README.md</text>
+</svg>
