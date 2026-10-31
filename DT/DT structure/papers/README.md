@@ -13,32 +13,29 @@ This register documents the sources used to build and check the provisional stru
 3. van der Valk, H., Haße, H., Möller, F., Arbter, M., Hennerich, J., & Otto, B. (2022; online 2021). “Archetypes of Digital Twins.” *Business & Information Systems Engineering, 64*, 375–391. DOI: [10.1007/s12599-021-00727-7](https://doi.org/10.1007/s12599-021-00727-7).  
    **Used for:** data acquisition and sources, synchronization, governance, data link, interfaces, interoperability, purpose, model accuracy, conceptual elements, and creation time.
 
-4. Xiong et al. (2025), above.  
-   **Used for:** comparing a cross-domain development characterization with architecture/configuration taxonomies; not treated as a universal standard.
-
 ## Software architecture, computing, and data
 
-5. Dalibor, M., Jansen, N., Rumpe, B., Schmalzing, D., Wachtmeister, L., Wimmer, M., & Wortmann, A. (2022). “A Cross-Domain Systematic Mapping Study on Software Engineering for Digital Twins.” *Journal of Systems and Software, 193*, 111361. DOI: [10.1016/j.jss.2022.111361](https://doi.org/10.1016/j.jss.2022.111361).  
+4. Dalibor, M., Jansen, N., Rumpe, B., Schmalzing, D., Wachtmeister, L., Wimmer, M., & Wortmann, A. (2022). “A Cross-Domain Systematic Mapping Study on Software Engineering for Digital Twins.” *Journal of Systems and Software, 193*, 111361. DOI: [10.1016/j.jss.2022.111361](https://doi.org/10.1016/j.jss.2022.111361).  
    **Used for:** software engineering, deployment, operation, and evaluation facets; evidence that the field spans multiple domains and technologies.
 
-6. Gil, S., Mikkelsen, P. H., Gomes, C., & Larsen, P. G. (2024). “Survey on open-source digital twin frameworks—a case study approach.” *Software: Practice and Experience, 54*(6), 929–960. DOI: [10.1002/spe.3305](https://doi.org/10.1002/spe.3305).  
+5. Gil, S., Mikkelsen, P. H., Gomes, C., & Larsen, P. G. (2024). “Survey on open-source digital twin frameworks—a case study approach.” *Software: Practice and Experience, 54*(6), 929–960. DOI: [10.1002/spe.3305](https://doi.org/10.1002/spe.3305).  
    **Used for:** framework-level capabilities such as communication, storage, analytics, compositionality, scalability, interoperability, and standardization.
 
-7. Ouedraogo, E. B., et al. (2025). “Digital Twin Data Management: A Comprehensive Review.” *IEEE Transactions on Big Data, 11*(5), 2224–2243. DOI: [10.1109/TBDATA.2025.3533891](https://doi.org/10.1109/TBDATA.2025.3533891).  
+6. Ouedraogo, E. B., et al. (2025). “Digital Twin Data Management: A Comprehensive Review.” *IEEE Transactions on Big Data, 11*(5), 2224–2243. DOI: [10.1109/TBDATA.2025.3533891](https://doi.org/10.1109/TBDATA.2025.3533891).  
    **Used for:** data heterogeneity, quality, scalability, security, interoperability, integration, fusion, and governance considerations.
 
-8. Duran, K., et al. (2026). “Toward Digital Twin-as-a-Service (DTaaS) Platforms: A Survey on Architecture, Design Requirements, and Performance Metrics.” *IEEE Communications Surveys & Tutorials, 28*, 1845–1878. DOI: [10.1109/COMST.2025.3635582](https://doi.org/10.1109/COMST.2025.3635582).  
+7. Duran, K., et al. (2026). “Toward Digital Twin-as-a-Service (DTaaS) Platforms: A Survey on Architecture, Design Requirements, and Performance Metrics.” *IEEE Communications Surveys & Tutorials, 28*, 1845–1878. DOI: [10.1109/COMST.2025.3635582](https://doi.org/10.1109/COMST.2025.3635582).  
    **Used for:** a platform component view separating core data/model/service/communication from supporting infrastructure/orchestration/security.
 
 ## Multi-twin systems, trust, and standards
 
-9. “Systems of Digital Twins: A Systematic Literature Review and a formal framework.” (2026). *Digital Engineering, 9*, 100100. DOI: [10.1016/j.dte.2026.100100](https://doi.org/10.1016/j.dte.2026.100100).  
+8. “Systems of Digital Twins: A Systematic Literature Review and a formal framework.” (2026). *Digital Engineering, 9*, 100100. DOI: [10.1016/j.dte.2026.100100](https://doi.org/10.1016/j.dte.2026.100100).  
    **Used for:** distinguishing Digital Twin Aggregate, Network, Federated, Composite, and Ecosystem forms and for heterogeneous-DT integration.
 
-10. Somma, A., De Benedictis, A., Esposito, C., & Mazzocca, N. (2024). “The convergence of Digital Twins and Distributed Ledger Technologies: A systematic literature review and an architectural proposal.” *Journal of Network and Computer Applications, 225*, 103857. DOI: [10.1016/j.jnca.2024.103857](https://doi.org/10.1016/j.jnca.2024.103857).  
+9. Somma, A., De Benedictis, A., Esposito, C., & Mazzocca, N. (2024). “The convergence of Digital Twins and Distributed Ledger Technologies: A systematic literature review and an architectural proposal.” *Journal of Network and Computer Applications, 225*, 103857. DOI: [10.1016/j.jnca.2024.103857](https://doi.org/10.1016/j.jnca.2024.103857).  
     **Used for:** positioning blockchain/DLT as an optional mechanism for security and trustworthy data handling, with associated architectural trade-offs.
 
-11. ISO/IEC 30188:2026. *Digital twin — Reference architecture*. Official record: [ISO/IEC 30188:2026](https://www.iso.org/standard/53308.html).  
+10. ISO/IEC 30188:2026. *Digital twin — Reference architecture*. Official record: [ISO/IEC 30188:2026](https://www.iso.org/standard/53308.html).  
     **Used for:** foundational, functional, implementation, and architecture-pattern viewpoints. The standard is copyrighted; this repository includes only its public bibliographic record, not the standard text.
 
 ## Interpretation note
