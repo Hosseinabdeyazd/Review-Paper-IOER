@@ -5,6 +5,8 @@
 
 This directory is deliberately **separate from** [Digital Twin Architecture](../Digital%20Twin%20Architecture/README.md), which contains earlier *proposed / working* technical systems, parameters and computational engines. The existing directory must not be interpreted as a systematically validated architecture.
 
+The current evidence-linked two-level working model (four meta-level design concerns guiding six configuration dimensions) is documented separately in [DT structure](DT%20structure/README.md), with its [source register](DT%20structure/papers/README.md) and [figure](DT%20structure/figures/dt-structure-4-plus-6.svg). It is a provisional synthesis, not a completed systematic review or consensus taxonomy.
+
 ## Sequence and epistemic rules
 
 1. **Definition evidence** — collect verbatim bibliographic metadata and carefully paraphrased definitions; do not select one preferred definition in advance. [01_definition_evidence.md](01_definition_evidence.md).
