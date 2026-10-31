@@ -53,10 +53,17 @@ This mapping is an analytical synthesis, not a claim that each cited paper uses 
 - Software-engineering and platform surveys add implementation, deployment, orchestration, security, interoperability, and quality-assurance concerns. Blockchain is treated as an optional trust/data-management design choice where justified, not a mandatory DT component.
 - These sources differ in scope and abstraction level. Their terms have not been collapsed into a single taxonomy without traceability.
 
-## Files
+## Figures
 
-- [Figure: four meta-level concerns guiding six configuration dimensions](figures/dt-structure-4-plus-6.svg)
-- [Selected source register and evidence mapping](papers/README.md)
+The figures show two complementary views of the current proposal:
+
+1. **Six-dimension configuration network:** candidate alternatives and links between adjacent configuration dimensions. Links represent candidate design relationships; they do not prove every pairing is feasible or compatible.
+
+   ![Six-column Digital Twin configuration network showing candidate choices and connections](figures/dt-6d-configuration-network.png)
+
+2. **Meta-level to configuration view:** the four higher-level design concerns guiding choices across the six configuration dimensions. [Open the vector figure](figures/dt-structure-4-plus-6.svg).
+
+[Selected source register and evidence mapping](papers/README.md)
 
 ## Citation and reuse
 
