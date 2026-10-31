@@ -1,0 +1,29 @@
+family,descriptor,reference_keys,evidence_status,interpretation_or_gap
+System composition,Single Twin,R3,E,One asset-specific twin example; our grouping label
+System composition,Aggregate,R2;R16,L,Aggregation terminology; operational definition required
+System composition,Composite,R16,L,Terminology review; exact distinctions require full-text verification
+System composition,Network,R16,L,Terminology review; not interchangeable with a communication topology
+System composition,Federated,R8;R16,E,Independent coordinated twins in a proposed architecture
+System composition,Ecosystem,R16,L,Terminology review; boundaries and governance must be specified
+Internal architecture,Layered,R1,L,Architectural organization; may coexist with services and modules
+Internal architecture,Modular,R2;R15,L,Decomposition principle; not exclusive of service orientation
+Internal architecture,Service-oriented,R1;R15,L,Service organization; not exclusive of modularity
+Internal architecture,Knowledge graph,R15,E,Semantic representation can coexist with other architecture patterns
+Computational model,Physics-based,R1;R4,L,Model basis descriptor
+Computational model,Data-driven,R1;R10,L,Model basis descriptor; case details vary
+Computational model,Hybrid,R1;R4,L,Combination of modelling approaches; definition must be explicit
+Computational model,Multiscale,,U,Scale is orthogonal to model basis; exact evidence not established in selected set
+Coupling and control,One-way,R14,L,Physical-to-digital automatic flow is Digital Shadow in R14
+Coupling and control,Bidirectional,R14,L,Exchange direction does not establish autonomous control
+Coupling and control,Human-mediated,R6,S,Our broad label adapted from role allocation; specify analysis choice approval and execution
+Coupling and control,Automated closed-loop,R10,E,Specific control implementation; not a universal DT requirement
+Agency and intelligence,Rule-based,,U,Exact DT category not substantiated in this source set
+Agency and intelligence,Agent-based,R8,S,Specify decision agent versus agent-based simulation; label is ambiguous
+Agency and intelligence,Multi-agent,R8,E,Coordination in an adaptive architecture; not a maturity level
+Agency and intelligence,Agentic AI,,U,Emerging label needs dedicated evidence and definition
+Temporal organization,Continuous,,U,Disambiguate model time streaming synchronization and real-time deadlines
+Temporal organization,Periodic,R5,L,Periodic offline connection discussed in manufacturing context
+Temporal organization,Event-driven,,U,Define trigger and locate dedicated evidence
+Temporal organization,Multi-rate,,U,Define rates and synchronization; dedicated evidence required
+All six families,Family selection and organization,,S,Our non-exhaustive organization rather than a published six-axis taxonomy
+All connecting curves,Candidate adjacent-column pairings,,S,No empirical compatibility or frequency claim

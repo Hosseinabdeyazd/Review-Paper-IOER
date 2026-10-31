@@ -1,70 +1,52 @@
-# Digital Twin structure — evidence-linked working model
+# Digital twin design and configuration
 
-**Status:** provisional synthesis, 2026-10-31. This is a research working model, not a published or ISO-endorsed taxonomy, and not the result of a completed systematic review.
+**Current version: 2026-10-31.** This package replaces the earlier 4+6 view as the current working proposal. It separates the design brief (A), configuration choices (B), functional allocation (C), and the implemented twin on which model activities operate.
 
-## Why two levels?
+**Scientific status:** literature-informed synthesis for manuscript development. The drawing and A-B-C organization are our proposal; they are not a published universal taxonomy or an ISO-endorsed framework. Source keys are printed on the figures. Open evidence gaps remain visibly marked in Figure S2 and in the configuration audit.
 
-The proposal separates two kinds of questions:
+## Main figure
 
-1. **Meta-level design concerns (4):** why the twin is needed, what data and rules govern it, how it exchanges information, and how its claims are checked.
-2. **Configuration dimensions (6):** how the twin is composed and architected, which models and control arrangements it uses, how much agency it has, and how it behaves over time.
+![From design to evidence-informed decisions](figures/figure_1_design_to_use.png)
 
-The four concerns guide choices across the six configuration dimensions. They are not sequential lifecycle phases, and the relation is many-to-many. *Assurance & Evidence* is especially cross-cutting. The mapping in the figure is an explicit synthesis for discussion; it must be validated against a systematic evidence corpus before being presented as a definitive taxonomy.
+[Vector PDF](figures/figure_1_design_to_use.pdf) · [Editable SVG](figures/figure_1_design_to_use.svg)
 
-## Four meta-level design concerns
+**Figure 1.** Proposed relation between DT design and use. The brief defines intended use, decision scope, evidence and authority. Configuration and functional allocation jointly inform implementation. Calibration, verification and validation concern instantiated models, data and software. The criteria gate is use-specific; diagnosis can lead to changes beyond parameter fitting. The analysis/selection path is illustrative and optional: services may stop at monitoring or prediction. Decisions can yield designs, plans, recommendations or permitted commands. The arrangement is synthesized from the sources, not reproduced from one paper.
 
-| Meta-level concern | Questions it organizes |
-|---|---|
-| Purpose, Scope & Context | What decision or service is needed? What is the represented entity, system boundary, scale, context, and intended use? |
-| Data, Semantics & Governance | Which data sources and forms are used? How are meaning, quality, provenance, ownership, access, security, and retention handled? |
-| Interfaces & Interoperability | Which users, physical entities, external systems, and other twins exchange information? Through what interfaces, standards, and semantic mappings? |
-| Assurance & Evidence | What evidence supports model fidelity, data quality, synchronization, safety, performance, and validation against the represented system? |
+## Supplement A — Design brief
 
-## Six configuration dimensions
+![Design brief and decision specification](figures/figure_S1_design_brief.png)
 
-| Configuration dimension | Candidate alternatives to investigate |
-|---|---|
-| System Composition | Single Twin; Aggregate; Composite; Network; Federated; Ecosystem |
-| Internal Architecture | Layered; Modular; Service-oriented; Knowledge-graph-based |
-| Computational Model | Physics-based; Data-driven; Hybrid; Multiscale |
-| Coupling & Control | One-way; Bidirectional; Human-mediated; Automated closed-loop |
-| Agency & Intelligence | Rule-based; Agent-based; Multi-agent; Agentic AI |
-| Temporal Organization | Continuous; Periodic; Event-driven; Multi-rate |
+[Vector PDF](figures/figure_S1_design_brief.pdf) · [Editable SVG](figures/figure_S1_design_brief.svg)
 
-These alternatives are a candidate parameter space. They are not mutually exclusive across dimensions, and not every combination is feasible or supported by evidence.
+**Figure S1.** Five framing concerns and six cross-cutting decision questions proposed for this review. They distinguish the decision subject, alternatives, objectives, scope/horizon, evidence and responsibility. The five-card grouping adapts literature on requirements and cross-domain characterization; it is not Xiong et al.'s exact six-dimensional framework.
 
-## Proposed many-to-many mapping
+## Supplement B — Configuration vocabulary
 
-| Meta-level concern | Configuration dimensions it can guide |
-|---|---|
-| Purpose, Scope & Context | System Composition; Internal Architecture; Computational Model; Agency & Intelligence; Temporal Organization |
-| Data, Semantics & Governance | Internal Architecture; Computational Model; Coupling & Control; Temporal Organization |
-| Interfaces & Interoperability | System Composition; Internal Architecture; Coupling & Control; Agency & Intelligence |
-| Assurance & Evidence | Cross-cutting across all six dimensions |
+![Working configuration vocabulary](figures/figure_S2_configuration_choices.png)
 
-This mapping is an analytical synthesis, not a claim that each cited paper uses these exact four meta-level labels.
+[Vector PDF](figures/figure_S2_configuration_choices.pdf) · [Editable SVG](figures/figure_S2_configuration_choices.svg)
 
-## Evidence and interpretation boundaries
+**Figure S2.** Six working families retain the earlier network style. Options may coexist; columns are not lifecycle steps. Curves enumerate candidate pairings between neighbouring columns for exploration and do not establish compatibility. Asterisks identify terms needing refinement; dashed boxes and U identify evidence gaps in the selected set. This figure is an audited working vocabulary, not a finalized taxonomy. For an article claiming a formal taxonomy, resolve these items first.
 
-- Xiong et al.'s cross-domain framework uses six different dimensions: twinning objects, purposes, system architectures, data, modelling, and services. It is not the same six-axis configuration space shown here.
-- Jones et al. characterize a twin through thirteen properties, including physical/virtual entities and environments, state, metrology, realization, twinning rate, links, and processes. These inform scope, observability, coupling, and time-related subparameters.
-- van der Valk et al. derive a configuration taxonomy with data collection, data handling/distribution, and conceptual-scope meta-dimensions. Their dimensions include data acquisition/source/input, synchronization, governance, link, interface, interoperability, purpose, accuracy, conceptual elements, and time of creation.
-- ISO/IEC 30188:2026 describes architecture through foundational, functional, implementation, and architecture-pattern viewpoints. These are architectural views, not a competing list of system components.
-- Software-engineering and platform surveys add implementation, deployment, orchestration, security, interoperability, and quality-assurance concerns. Blockchain is treated as an optional trust/data-management design choice where justified, not a mandatory DT component.
-- These sources differ in scope and abstraction level. Their terms have not been collapsed into a single taxonomy without traceability.
+## Supplement C — Functional allocation
 
-## Figures
+![Allocation of model and operational activities](figures/figure_S3_functional_allocation.png)
 
-The figures show two complementary views of the current proposal:
+[Vector PDF](figures/figure_S3_functional_allocation.pdf) · [Editable SVG](figures/figure_S3_functional_allocation.svg)
 
-1. **Six-dimension configuration network:** candidate alternatives and links between adjacent configuration dimensions. Links represent candidate design relationships; they do not prove every pairing is feasible or compatible.
+**Figure S3.** Inputs, effects and proposed architectural implications of calibration, validation, prediction, optimization and control. C assigns work to components and roles; it is not a separate execution layer. All B families can be affected in context, but no universal influence matrix is asserted. Calibration acts on model parameters; optimization requires explicit decision variables; control additionally needs an execution interface and authority.
 
-   ![Six-column Digital Twin configuration network showing candidate choices and connections](figures/dt-6d-configuration-network.png)
+## Academic foundations and editable material
 
-2. **Meta-level to configuration view:** the four higher-level design concerns guiding choices across the six configuration dimensions. [Open the vector figure](figures/dt-structure-4-plus-6.svg).
+- [Academic foundations, sixteen source records, DOIs and evidence boundaries](papers/academic-foundations.md)
+- [Descriptor-by-descriptor configuration audit](papers/configuration-audit.csv)
+- [BibTeX reference file](papers/references.bib)
+- [Reproducible drawing source](source/build_figures.py)
 
-[Selected source register and evidence mapping](papers/README.md)
+PDFs contain embedded Times New Roman fonts. SVGs retain editable text with serif fallbacks. PNGs are rendered from the PDFs at 300 dpi. Figures use a 190 mm publication width; resizing requires a fresh legibility check. The scripts require Python, ReportLab and suitable Times font files; see the source README.
 
-## Citation and reuse
+## Previous versions
 
-The figure is an original synthesis prepared for this review project. Cite the underlying sources listed in the paper register when discussing specific concepts. Do not cite the figure as if its complete 4+6 structure appeared in a single source.
+The earlier [six-column PNG](figures/dt-6d-configuration-network.png) and [4+6 SVG](figures/dt-structure-4-plus-6.svg) are retained for history. They should not be mistaken for the current figures. The [earlier conceptual note](archive/README-4-plus-6.md) and [earlier source register](papers/README.md) remain available. The current source register above uses R1-R16, which are local to this package.
+
+No new research-data findings are claimed by these illustrations. They are design and review artifacts whose concepts, limits and proposed contributions are explicitly distinguished.
