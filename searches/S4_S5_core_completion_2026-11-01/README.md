@@ -1,5 +1,7 @@
 # S4–S5 core review completion — 2026-11-01
 
+**Screening update:** [Full-corpus automated first pass, PRISMA accounting and enriched metadata](screening/README.md) is now available. Proposed exclusions are provisional; independent eligibility screening remains pending. The retrieval counts below remain the original audited snapshot.
+
 This completes retrieval for the original review's **S4 circularity/recoverability** and **S5 embodied LCA/decision** streams, using the existing draft vocabulary frozen for this execution. **Digital Twin is not a required search term.** The separate 12-fulltext Digital Twin bridge collection remains in `DT/Digital Twin Material Flow Review/bridge_searches/fulltext_review/`.
 
 | Database | S4 base | S4 + uncertainty | S5 base | S5 + uncertainty |

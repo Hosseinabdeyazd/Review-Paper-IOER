@@ -1,0 +1,36 @@
+{
+  "input_records": 9952,
+  "additional_duplicates_removed": 34,
+  "records_assessed_by_automation": 9918,
+  "decisions": {
+    "retain_unclear": 5093,
+    "retain_scope_signal": 2442,
+    "exclude_automated": 2145,
+    "retain_secondary": 238
+  },
+  "reasons": {
+    "R03_insufficient_stage_specific_evidence": 5082,
+    "R01_explicit_material_circularity_or_embodied_impact_signal": 2442,
+    "E01_operational_energy_no_material_signal_in_metadata": 1880,
+    "R04_missing_or_short_abstract": 11,
+    "E04_structural_risk_no_material_signal_in_metadata": 248,
+    "E03_clinical_topic_no_material_signal_in_metadata": 8,
+    "R02_secondary_evidence": 238,
+    "E02_software_communications_no_material_signal_in_metadata": 9
+  },
+  "human_screened_records": 0,
+  "fulltext_assessed_records": 0,
+  "final_included_studies": null,
+  "residual_title_year_groups": 330,
+  "distinct_records_by_database": {
+    "Scopus": 8248,
+    "WoS": 5994,
+    "IEEE": 627
+  },
+  "prisma_identified_distinct_database_records": 14869,
+  "repeated_query_occurrences_before_identification": 5094,
+  "duplicate_records_removed_before_screening": 4951,
+  "assistant_abstracts_read_for_rule_audit": 39,
+  "audit_is_independent_validation": false,
+  "retained_for_subsequent_review": 7773
+}

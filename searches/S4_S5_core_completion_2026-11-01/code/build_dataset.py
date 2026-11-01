@@ -19,6 +19,7 @@ for db,nums in EXPECTED.items():
     for q,n in zip(QUERIES,nums):
         group=[]; ids=[]
         for p in sorted((ROOT/'raw'/db).glob('*'+q+'*')):
+            if p.suffix.lower() not in {'.csv','.txt','.tsv'}:continue
             with p.open(encoding='utf-8-sig',newline='') as f:
                 # WoS TSV contains literal, unescaped quotation marks. Do not use CSV quoting.
                 rr=list(csv.DictReader(f,delimiter='\t' if db=='WoS' else ',',quoting=csv.QUOTE_NONE if db=='WoS' else csv.QUOTE_MINIMAL))

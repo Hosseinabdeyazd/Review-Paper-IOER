@@ -1,0 +1,16 @@
+{
+  "built": "\\b(buildings?|built environment|building stocks?|housing|dwellings?|construction|demolition|urban mining|material cadastre)\\b",
+  "material": "\\b(materials?|concrete|steel|timber|wood|masonry|brick|cement|insulation|components?|construction waste|demolition waste|circular|reus\\w*|recycl\\w*|recoverab\\w*|deconstruct\\w*|disassembl\\w*|embodied|life.?cycle|LCA|carbon footprint|material passport\\w*|heritage retention|life extension|extending (?:building|service) life)\\b",
+  "s4_direct": "\\b(urban mining|material passports?|resource cadastre|material cadastre|recoverab\\w*|reusab\\w*|deconstruction|selective demolition|design for disassembly|construction and demolition waste|construction demolition waste|demolition waste|circular (?:construction|buildings?|built environment|economy)|building (?:reuse|recycling)|reuse of (?:buildings?|building materials?|components?))\\b",
+  "s4_stock": "\\b(material stocks?|material flows?|material inventor\\w*|building stocks?|existing buildings?|building components?)\\b",
+  "s4_recovery": "\\b(reus\\w*|recycl\\w*|recover\\w*|circular\\w*|deconstruct\\w*|disassembl\\w*|secondary materials?)\\b",
+  "s5_direct": "\\b(embodied (?:carbon|energy|emissions?|greenhouse|GHG|impact)|whole.?life carbon|material.?related emissions?)\\b",
+  "s5_lca": "\\b(life.?cycle (?:assessment|analysis|environmental)|LCA|carbon footprint|environmental impacts?|environmental assessment)\\b",
+  "s5_physical": "\\b(material stocks?|material flows?|construction materials?|building materials?|reus\\w*|recycl\\w*|deconstruct\\w*|demolition|concrete|cement|steel|timber|wood|brick|masonry)\\b",
+  "energy_only": "\\b(energy consumption|energy demand|energy performance|energy efficiency|thermal comfort|HVAC|heating demand|cooling demand|building energy|energy retrofit|energy retrofitting|energy retrofits|district heating|heat demand)\\b",
+  "software_only": "\\b(cybersecurity|access authorization|API conversions|network protocols?|wireless sensor networks?|indoor localization|indoor positioning|radio shielding|signal propagation|Wi-Fi|wireless communication)\\b",
+  "structural_only": "\\b(seismic vulnerab\\w*|seismic risk|seismic fragility|earthquake risk|seismic perform\\w*|seismic retrof\\w*|structural reliability|structural damage|structural health monitoring|earthquake damage)\\b",
+  "health_only": "\\b(patients?|clinical trials?|cancer|cardiovascular|disease diagnosis)\\b",
+  "clinical_title": "\\b(clinical|cancer|cardiovascular|anaphyl\\w*|allergen\\w*|dialysis|infection\\w*|electrocardio\\w*|ECG|cord blood|wrist rehabilitation|lung compromise|contagious pathogens|sinks in intensive care)\\b",
+  "secondary": "\\b(systematic review|scoping review|literature review|bibliometric|meta.analysis|state.of.the.art review)\\b"
+}
