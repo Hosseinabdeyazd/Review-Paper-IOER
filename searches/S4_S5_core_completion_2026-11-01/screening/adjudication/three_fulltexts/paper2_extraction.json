@@ -1,0 +1,141 @@
+{
+  "paper_number": 2,
+  "record_id": "S45-e39418701363",
+  "doi": "10.1016/j.jobe.2023.108149",
+  "title": "Earthquake-induced environmental impacts for residential Italian buildings: Consequence models and risk assessment",
+  "authors": [
+    "Karim Aljawhari",
+    "Roberto Gentile",
+    "Carmine Galasso"
+  ],
+  "publication": "Journal of Building Engineering 84 (2024), 108149; online 21 November 2023",
+  "evidence_level": "full_article_text",
+  "reading_complete": true,
+  "reading_coverage": "Printed pages 1–20: sections 1–9, all extracted tables, Appendix and references. Figure captions and accompanying interpretation read; images not visually inspected by this agent.",
+  "source_url": "https://www.researchgate.net/publication/375776508_Earthquake-induced_environmental_impacts_for_residential_Italian_buildings_Consequence_models_and_risk_assessment",
+  "source_version": "Published CC BY 4.0 article uploaded by author Karim Aljawhari on 23 January 2024",
+  "local_pdf_status": "Parent handles browser download; this agent's publisher, ResearchGate and thesis PDF HTTP requests returned403",
+  "classification": "explicit_propagation",
+  "stage": "both",
+  "cross_stage_s4_s5": "explicit repair/retention-to-environmental consequence pathway",
+  "direct_material_recovery_bridge": false,
+  "scope_reason": "Uncertain seismic damage, repair quantities and repairability map to embodied-carbon distributions. Waste recycling is fixed at90%; uncertain recovery yield, quality loss, contamination and secondary-material substitution credits are not modeled.",
+  "system_boundary": {
+    "locator": "Section2 p3; section4 pp5–6",
+    "included": [
+      "Repair material production factors A1–A3",
+      "Repair/construction activities",
+      "Demolition C1",
+      "Waste processing C3",
+      "Disposal C4",
+      "Whole-building replacement for collapse/irreparability"
+    ],
+    "excluded": [
+      "Complete building LCA",
+      "Operational energy",
+      "Construction/end-of-life transportation",
+      "Explicit module-D avoided-production credits"
+    ],
+    "recycling_assumption": "90% recycled,10% landfill; not probabilistically varied",
+    "appendix_caution": "Worked example p18 assumes100% landfill and zero construction waste, unlike main models"
+  },
+  "propagation_steps": [
+    {
+      "locator": "Section4.1.1 pp6–7; Tables1–3",
+      "input": "EPD carbon-factor variability and uniform wall dimensions",
+      "mapping": "10000 Monte Carlo samples; repair action geometry to material quantities; multiply factors; add demolition/disposal; normalize by wall area",
+      "output": "Lognormal component repair-carbon median and dispersion by DS"
+    },
+    {
+      "locator": "Section4.1.2 pp7–9; Eq5/Table5",
+      "input": "Uniform room/bathroom dimensions and bathroom area share plus sampled carbon factors",
+      "mapping": "10000 samples through weighted ideal-room services inventory",
+      "output": "Services carbon-per-area lognormal median and dispersion"
+    },
+    {
+      "locator": "Section4.2 p10; Table7",
+      "input": "Uniform beam/column/floor/span geometry and carbon-factor variation",
+      "mapping": "10000 Monte Carlo samples of DS-specific repair actions and material quantities",
+      "output": "Structural-component lognormal repair-carbon distributions"
+    },
+    {
+      "locator": "Sections3.1,5.4,6.2 pp4,11–13",
+      "input": "Hazard-consistent seismic response samples, component fragilities and carbon consequences",
+      "mapping": "FEMA P-58/PACT samples EDPs, damage states and consequences; aggregates components and repairability/replacement branches;1000 realizations per intensity",
+      "output": "Building-carbon realizations, annual exceedance curves and expected annual environmental loss"
+    },
+    {
+      "locator": "Sections3.2,7 pp5,14–16",
+      "input": "PACT carbon realizations and associated maximum interstorey drifts",
+      "mapping": "Condition on global DS via drift thresholds; normalize by replacement carbon; construct ECDF and fit Beta distribution; combine with fragility/hazard",
+      "output": "Portable DS-conditioned carbon ratio distributions, means/CoVs, vulnerability means and16th/84th fractiles"
+    }
+  ],
+  "uncertain_inputs": {
+    "carbon_factors": "EPDItaly and European references; more than60 manufacturers,230 product classes; means/SD Table1; sampling distribution family not clearly named in text",
+    "infill_geometry": "Uniform h2.50–2.75m,l4–5m; fixed window0.90×1.5m and door1.20×2.20m",
+    "services_geometry": "Room dimensions uniform3–4.5m; bathroom minimum dimension1.7–3m; bathroom area3.5–5m2; area weight0.05–0.10",
+    "structural_geometry": "Beam width0.25–0.40m/depth0.35–0.60m; column size0.30–0.60m; floor height3–4.5m; span4–6m, all uniform",
+    "seismic_hazard": "14 intensity stripes,return periods30–9975years,L'Aquila; avgSa over10 periods0.2T1–1.5T1",
+    "data_quality": "Published Eq4: sqrt(beta_calculated² + 0.25), no square on 0.25; visually verified by parent in publisher HTML. This implies beta>=0.5, inconsistent with Table3 values below0.5. Intended implementation unresolved; no correction assumed."
+  },
+  "dependence_assumptions": [
+    "Geometric correlations neglected (pp6–7,10)",
+    "Services damage correlated with infill state and uses same fragilities (pp7,12)",
+    "Component damage and resulting carbon within performance groups assumed uncorrelated (p12)",
+    "Cost/carbon correlation analysis shares demand and damage realizations; not independent empirical validation (pp16–17)"
+  ],
+  "repairability": {
+    "locator": "Section6.2 pp12–13; section7 p14",
+    "threshold": "Replacement at60% of replacement value; collapse and residual-drift repairability also considered",
+    "replacement_carbon": "Approximately385kgCO2e/m2; fixed totals374220/623700/997920kgCO2e for3/5/8storeys",
+    "beta_ratio_exclusion": "Collapse and excessive residual-drift realizations excluded from fitted DS-conditioned ratios, though included in full PACT assessment"
+  },
+  "example_outputs": {
+    "external_solid_infill": "Table3 p7 DS1/2/3 medians14.8/35.5/147.9kgCO2e/m2; beta0.337/0.277/0.296",
+    "services": "Table5 p8 DS2 median60.3,beta0.342;DS3 median156.5,beta0.280kgCO2e/m2",
+    "5Pre_Beta_ratios": "Table10 p15 DS1–4 mean8.3/32.5/60.2/80.2%;CoV0.582/0.238/0.184/0.128",
+    "5High_Beta_ratios": "Table10 p15 DS1–4 mean11.9/43.1/73.5/90.2%;CoV0.633/0.251/0.110/0.084",
+    "annual_risk": "Section6.2 p13:3-High EAL57% lower than3-Pre;8-Low16% lower than8-Pre",
+    "service_life": "50-year averages: high-code about16% and pre-code about27% of initial construction carbon in results text; conclusion says close to30% pre-code,24% low-code. Do not turn rounded/contextual values into universal constant."
+  },
+  "validation": {
+    "locator": "Section7 pp14–16; Tables10–11; Fig11",
+    "surrogate_agreement": "Illustrated mean deviations no more than5% at a few intensity stripes;16th/84th fractiles also comparable",
+    "goodness_of_fit": "Most DS2–4 Beta fits non-rejected at5%; some require2–4%. Most DS1 fail at5% and only non-rejected at much lower alpha. Lowering alpha is weaker evidence, not a correction.",
+    "independent_validation": false
+  },
+  "cost_proxy": {
+    "locator": "Section8 pp16–17",
+    "finding": "Normalized cost/carbon rho0.99 above loss ratio0.15; shared physical damage drives association",
+    "limitations": "Cost includes labor/technical/shoring items omitted from carbon; DS1 proxy discrepancy21–31%,DS2 about9%,DS3–4 under4%; overestimates annual risk dominated by frequent light damage"
+  },
+  "limitations": [
+    "Nine regular RC archetypes and single seismic setting",
+    "Detailed structural response/hazard/fragility information inherited from separate paper10.1016/j.soildyn.2023.107979",
+    "US fragilities substituted for unavailable Italian low/high-code component data",
+    "Carbon-factor probability family and correlations not clearly specified",
+    "Fixed recycling, treatment, replacement and threshold assumptions",
+    "Independence assumptions affect aggregate uncertainty",
+    "Partial lifecycle boundary and transportation omission",
+    "Weak low-damage Beta fit",
+    "No recovered-component quality, market or salvage-yield uncertainty model",
+    "No actual digital twin; retrofit optimization left for future work",
+    "Published Eq4 implies beta>=0.5 but Table3 reports lower values; parent visually confirmed HTML inconsistency; actual dispersion-adjustment implementation unresolved"
+  ],
+  "notes_path": "work/fulltext2_notes.md",
+  "reviewer_method": "Assistant complete available full-article text reading; no independent human review",
+  "equation4_verification": {
+    "status": "confirmed published equation/table inconsistency",
+    "source": "https://www.sciencedirect.com/science/article/pii/S235271022302329X#fd4",
+    "method": "Parent agent visually inspected rendered publisher HTML equation4 and Table3",
+    "published_formula": "sqrt(beta_calculated² + 0.25)",
+    "table3_counterexamples": [
+      0.337,
+      0.277,
+      0.332,
+      0.259
+    ],
+    "implication": "Formula implies beta>=0.5 but table reports lower values. Do not silently replace0.25 with0.25²; intended implementation cannot be established from article."
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "paper": 3,
+  "doi": "10.1038/s41467-025-68120-6",
+  "title": "Unveiling the environmental impact of earthquakes in Europe",
+  "authors": [
+    "Martina Caruso",
+    "Vitor Silva",
+    "Karim Aljawhari",
+    "Al Mouayed Bellah Nafeh",
+    "Carmine Galasso"
+  ],
+  "year": 2026,
+  "journal": "Nature Communications",
+  "volume": 17,
+  "article": 1366,
+  "primary_url": "https://www.nature.com/articles/s41467-025-68120-6",
+  "pdf_url": "https://www.nature.com/articles/s41467-025-68120-6.pdf",
+  "supplement_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-025-68120-6/MediaObjects/41467_2025_68120_MOESM1_ESM.pdf",
+  "reading": {
+    "main_all_pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "supplement_all_pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_checks": [
+      "main p10 Fig6",
+      "main p14 Fig8"
+    ],
+    "level": "final publisher full text plus supplementary information",
+    "independent_human_review": false
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\S4 S5 Core Review\\screening\\adjudication\\three_fulltexts\\pdfs\\Caruso_2026_Unveiling_environmental_impact_earthquakes_Europe.pdf",
+      "bytes": 3212029,
+      "sha256": "d303446550ae871c4756c20abaec4ed0e383773e18feecc8f6aebc5175933758"
+    },
+    {
+      "path": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\S4 S5 Core Review\\screening\\adjudication\\three_fulltexts\\pdfs\\Caruso_2026_Nature_Supplementary_information.pdf",
+      "bytes": 3382712,
+      "sha256": "4c8ea06d572df8d59d3a999c51d93476539b72d220639644625592644e958688"
+    }
+  ],
+  "classification": {
+    "uncertainty_propagation": "explicit",
+    "s4_s5_bridge": "qualified repair/reconstruction-consequence to embodied-carbon bridge via economic-loss proxy",
+    "s4_qualification": "Damage-dependent repair or replacement of existing buildings; no explicit optimal retain-versus-demolish decision rule. Not reclaimed-material recoverability or quality/yield modelling.",
+    "s5_qualification": "Damage-induced embodied-carbon risk; not a full whole-life LCA.",
+    "digital_twin": "not demonstrated; GIS/exposure model/OpenQuake are not claimed as a digital twin",
+    "circular_recovery_uncertainty_propagated": false
+  },
+  "mechanism_steps": [
+    {
+      "step": 1,
+      "input": "Regional probabilistic earthquake hazard, building typology and exposure",
+      "transform": "OpenQuake event-based stochastic events and ground-motion fields",
+      "output": "Shaking intensity by exposed asset",
+      "anchor": "main pp5–6; p13 Data sources and integration"
+    },
+    {
+      "step": 2,
+      "input": "Ground shaking and building vulnerability",
+      "transform": "Fragility gives conditional damage exceedance probabilities; consequence model maps damage into replacement-normalised economic loss",
+      "output": "Event losses, averaged over simulation duration then divided by replacement cost to obtain AALR",
+      "anchor": "main p6 Embodied-carbon seismic risk model"
+    },
+    {
+      "step": 3,
+      "input": "Structural/nonstructural quantities and EPD-derived ECFs",
+      "transform": "Multiply quantities by mean A1–A3 ECF; add A4/A5 including demolition/disposal; multiply per-area factors by exposed built area",
+      "output": "Structural and nonstructural replacement embodied carbon REC",
+      "anchor": "main pp11–13; Fig8 p14"
+    },
+    {
+      "step": 4,
+      "input": "AALR and REC separately for structural/nonstructural components",
+      "transform": "Set AAECR=AALR; AAEC_asset=AALR_struct*REC_struct+AALR_nonstruct*REC_nonstruct; sum assets into location/national totals",
+      "output": "Expected annual embodied emissions from damage repairs/reconstruction",
+      "anchor": "main p6; p13; Fig8 p14"
+    },
+    {
+      "step": 5,
+      "input": "ECF variability",
+      "transform": "Paper states propagation to replacement carbon; numerical procedure/distribution family/covariance not supplied in main text or supplement",
+      "output": "REC coefficient of variation approximately0.35",
+      "anchor": "main p2"
+    }
+  ],
+  "uncertainty_inventory": [
+    {
+      "quantity": "Seismic events/ground motions",
+      "status": "stochastic",
+      "details": "Event-based analysis of over3million earthquake scenarios; exact probability families, time-span value, correlation settings and epistemic logic trees not specified here; inherited GEM models referenced",
+      "anchor": "main p1; pp6–7; p13"
+    },
+    {
+      "quantity": "Damage/vulnerability",
+      "status": "probabilistic",
+      "details": "Conditional damage exceedance and loss functions; parameter distributions and damage-state definitions are delegated to GEM/source models",
+      "anchor": "main pp5–6"
+    },
+    {
+      "quantity": "ECFs",
+      "status": "quantified and stated propagated to REC",
+      "details": "CoVs0.17–0.80; major concrete/cement/hollow-clay materials below0.35; resulting REC CoV approximately0.35. No explicit joint propagation into final AAEC distribution documented",
+      "anchor": "main p2"
+    },
+    {
+      "quantity": "Component quantities",
+      "status": "fixed estimates",
+      "details": "Uncertainty explicitly not modelled; preliminary archetype gravity-load designs; seismic-design quantity increment omitted; assumed independent of geographic location",
+      "anchor": "main p9; pp11–12"
+    },
+    {
+      "quantity": "Recovery yield and quality",
+      "status": "fixed scenario, not uncertain",
+      "details": "90% recovery/10% landfill assumed for C3–C4 factor; no contamination, sorting, degradation, market availability or recovered-quality distributions",
+      "anchor": "main p12"
+    },
+    {
+      "quantity": "Loss-to-carbon proxy",
+      "status": "fixed model-form assumption",
+      "details": "AAECR=AALR, supported by illustrative component examples but not assigned a discrepancy distribution",
+      "anchor": "main p6; supplement pp1–4"
+    }
+  ],
+  "dependencies": {
+    "demonstrated": [
+      "Hazard intensity conditions damage probability; damage determines economic loss; loss ratio scales replacement carbon.",
+      "Replacement carbon depends on type, occupancy, structural/nonstructural material quantities and ECFs.",
+      "Exposure built area converts per-area carbon to asset totals."
+    ],
+    "not_reported": [
+      "Covariance among ECFs/material quantities and seismic losses",
+      "Joint sampling of REC uncertainty with AALR",
+      "Probability of recovery or reuse conditional on damage severity",
+      "Explicit uncertainty distribution for the economic-to-carbon proxy",
+      "Numerical error or confidence interval on continental annual carbon mean"
+    ]
+  },
+  "fixed_assumptions": [
+    {
+      "item": "Replacement mapping",
+      "value": "Contemporary improved building type generally in same material category; obsolete masonry mapped to reinforced masonry; not an optimised post-disaster choice",
+      "anchor": "pp2,10–11; Table3"
+    },
+    {
+      "item": "Transport A4",
+      "value": "120km plus70% empty-return allowance;0.053kgCO2/t-km",
+      "anchor": "p12"
+    },
+    {
+      "item": "Demolition C1 within A5.1",
+      "value": "25% of construction-activity emissions",
+      "anchor": "p12"
+    },
+    {
+      "item": "Waste transport C2",
+      "value": "50km plus50% empty-return allowance",
+      "anchor": "p12"
+    },
+    {
+      "item": "Waste processing/disposal C3–C4",
+      "value": "0.013kgCO2e/kg;90% recovery and10% landfill",
+      "anchor": "p12"
+    },
+    {
+      "item": "Crane construction activity",
+      "value": "fuel litres=0.000037*M*h+M/500+0.83; diesel38MJ/l and0.073kgCO2e/MJ",
+      "anchor": "p12"
+    },
+    {
+      "item": "Boundaries",
+      "value": "REC A1–A5; demolished old-building C1–C4 counted in A5.1. AAEC interpreted as recurring B3–B5 risk-driven emissions; B6–B7 excluded. ModuleD introduced conceptually but no avoided-virgin-material credit calculation demonstrated",
+      "anchor": "pp9–10,12; Fig6"
+    }
+  ],
+  "validation": {
+    "supplement_examples": "Clay-brick wall4.00m×2.75m; low-code5-storey RC frame;3-storey steel office. Supplement Tables1–2 and Figs1–2.",
+    "wall_cost_carbon_ratios": {
+      "DS1": [
+        0.16,
+        0.12
+      ],
+      "DS2": [
+        0.27,
+        0.26
+      ],
+      "DS3": [
+        1.0,
+        1.0
+      ]
+    },
+    "interpretation": "Proxy is less accurate for minor damage because labour/services contribute costs but little carbon. Steel example has more dispersion and uses economic-input-output carbon factors, reducing independence of cost/carbon comparison. These examples are not comprehensive validation across all European types.",
+    "anchor": "supplement pp1–4"
+  },
+  "results": {
+    "exposure_buildings_approx": 157000000,
+    "exposure_floor_area_m2_approx": 35000000000,
+    "replacement_carbon_tonnes_approx": 14000000000,
+    "annual_damage_carbon_tonnes_approx": 6600000,
+    "coverage_countries": 46,
+    "top_six_share_approx": 0.9,
+    "top_six": [
+      "Türkiye",
+      "Italy",
+      "Romania",
+      "Greece",
+      "Spain",
+      "Bulgaria"
+    ],
+    "production_share_REC_at_least": 0.85,
+    "anchor": "main pp3,5,7–9"
+  },
+  "limitations": [
+    "Economic-loss proxy is not a measured carbon-damage relation for every type; no uncertainty band for proxy error.",
+    "Repair-versus-reconstruction outcomes depend on normative replacement mapping; restoration/retrofitting alternatives not optimised.",
+    "Material quantities not probabilistic and broadly geographically invariant.",
+    "ECFs biased toward data-rich European countries and time-bound EPDs.",
+    "Fixed90% recovery may fail after disasters, where damage can prevent recycling/reuse.",
+    "Only carbon is assessed; other environmental indicators are future work.",
+    "AAEC is long-run expected risk, not actual emissions in a specific year or an annual output confidence interval.",
+    "No digital twin, sensor updating, reclaimed-material quality distributions or secondary-market modelling."
+  ],
+  "licence": "CC BY-NC-ND4.0 for final paper; preserve downloaded PDF unchanged and attribute; third-party figure exceptions may apply",
+  "summary": "Full-text supports probabilistic seismic damage/repair risk transformed into expected embodied carbon through a fixed economic-loss proxy and replacement-carbon model. It does not establish propagation of circular recovery yield or reclaimed-material quality uncertainty into LCA."
+}

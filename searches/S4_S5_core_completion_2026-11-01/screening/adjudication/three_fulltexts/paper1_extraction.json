@@ -1,0 +1,284 @@
+{
+  "doi": "10.1016/j.jclepro.2026.148705",
+  "title": "Integrating circularity and lifecycle assessment for building renovation: A multicycle framework",
+  "evidence_level": "fulltext_publisher_text_and_pdf_figure_verified",
+  "source_file": "work/almeida_fulltext_browser.txt",
+  "read_coverage": "All substantive sections 1–6, abstract, glossary, tables 1–5, rendered equations 1–5 and captions; figure images not visually inspected; references not individually evaluated; complete PDF pages17–18 visually inspected, Fig12 also inspected at250dpi",
+  "pdf_pages": {
+    "equation1": 4,
+    "equations2_3": 5,
+    "equation4": 7,
+    "equation5_and_section3_3": 9,
+    "section3_4": 10,
+    "case_assumptions": 11,
+    "table4": 12,
+    "table5_and_monte_carlo": 16,
+    "sensitivity_interpretation": 17,
+    "figure12": 18,
+    "limitations_and_conclusion": 19,
+    "data_availability": 20
+  },
+  "classification": "explicit probabilistic propagation in parallel circularity and CFF-LCA calculations; explicit shared reuse-input bridge; joint S4-output-to-S5 uncertainty transfer not fully documented",
+  "stage": "both",
+  "cross_stage_s4_s5": {
+    "physical_parameter_link": "explicit",
+    "mechanism": "Functionally feasible reuse share U2 constrains plausible CFF R2 under shared system boundaries and scenarios",
+    "score_to_lca": false,
+    "joint_random_variable_or_paired_draws_documented": false,
+    "input_dependence_assumption": "not reported; independence must not be inferred",
+    "anchors": [
+      "3.3 Rationale for integration",
+      "3.4/Table 3 steps 2–6",
+      "4.2.4/Fig. 12",
+      "6 Conclusion"
+    ],
+    "figure_evidence": "S2 circularity U2 plotted narrowly near0.15 while CFF R2 spans0–1; no demonstrated identical per-run variable; does not establish independence"
+  },
+  "case": {
+    "material": "Inert façade bricks",
+    "location": "1970s public building, Växjö, Sweden",
+    "functional_unit": "brick mass in 10 square metres of façade",
+    "material_mass_kg": 1800,
+    "virgin_feedstock_kg": 1800,
+    "unrecovered_waste_kg": 100,
+    "inventory_source": "Ökobaudat 2021",
+    "included_modules": [
+      "A",
+      "C",
+      "D"
+    ],
+    "excluded_module": "B/use and operation",
+    "actual_demonstrated_cycles": 2,
+    "anchors": [
+      "4.1.1 Goal and scope",
+      "4.1.2 Modelling assumptions"
+    ]
+  },
+  "equations": {
+    "eq1_2": "MCI=1-LFI*0.9/X; LFI=(V+W)/(2M); X=(L/Lav)*(U/Uav); actual values substituted for MCIactual",
+    "eq3": "MCIRENO=MCIactual+sum_i>=2[(Li/Lav)*(Ui/Uav)]",
+    "eq4": "MCIRENO_N=min(1,MCIRENO/(1+sum_i>=2[Li/Lav]))",
+    "eq5_material": "(1-R1)*Ev+R1*(A*Erecycled+(1-A)*Ev*Qsin/Qp)+(1-A)*R2*(ErecyclingEOL-Ev_substituted*Qsout/Qp)",
+    "eq5_disposal": "(1-R2-R3)*Ed",
+    "eq5_energy": "Not applied because R3=0 for inert brick",
+    "layout_caution": "PDF needed for exact typographic rendering of equation 2 and equation 5"
+  },
+  "uncertainty": {
+    "iterations": 2000,
+    "method": "Random Monte Carlo parameter sampling with recomputation of output distributions; global correlation sensitivity and percentile-range analysis; OWSA also named",
+    "software": "Google Colab",
+    "distribution_families": "not stated in text",
+    "distribution_bounds_parameters": "Not explicitly specified in text or Fig12; visible tick spans recorded separately and must not be treated as prescribed bounds",
+    "random_seed": "not stated",
+    "convergence_test": "not stated",
+    "input_covariance": "not stated",
+    "circularity_branch": {
+      "scenarios": [
+        "S2",
+        "S6"
+      ],
+      "inputs": [
+        "U2",
+        "L2",
+        "MCIactual"
+      ],
+      "output": "MCIRENO_N distribution",
+      "correlation_type_caution": "PDF distinguishes scatter r from explicitly labelled Spearman bars; prose swaps S2 U2/L2 magnitudes",
+      "prose_correlations_S2": {
+        "U2": 0.2521,
+        "L2": -0.1522,
+        "MCIactual": 0.9617
+      },
+      "prose_correlations_S6": {
+        "U2": 0.9202,
+        "L2": 0.1223,
+        "MCIactual": 0.3869
+      },
+      "figure_scatter_r_S2": {
+        "U2": 0.1522,
+        "L2": -0.2521,
+        "MCIactual": 0.9617
+      },
+      "figure_scatter_r_S6": {
+        "U2": 0.9202,
+        "L2": 0.1223,
+        "MCIactual": 0.3869
+      },
+      "figure_spearman_S2": {
+        "U2": 0.1448,
+        "L2": -0.231,
+        "MCIactual": 0.9603
+      },
+      "figure_spearman_S6": {
+        "U2": 0.9153,
+        "L2": 0.106,
+        "MCIactual": 0.3713
+      },
+      "visible_axis_tick_spans_not_distribution_bounds": {
+        "S2": {
+          "U2": [
+            0.135,
+            0.165
+          ],
+          "L2_years": [
+            23,
+            27
+          ],
+          "MCIactual": [
+            0.5,
+            0.6
+          ]
+        },
+        "S6": {
+          "U2": [
+            0.72,
+            0.88
+          ],
+          "L2_years": [
+            72,
+            88
+          ],
+          "MCIactual": [
+            0.5,
+            0.6
+          ]
+        }
+      }
+    },
+    "environmental_branch": {
+      "scenarios": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "inputs": [
+        "R1",
+        "R2",
+        "Qsin",
+        "Qsout",
+        "Ev",
+        "ErecEOL",
+        "A",
+        "Erec",
+        "Ed"
+      ],
+      "output": "GWP distributions displayed as boxplots",
+      "other_analysis": "Impact-range plot varies parameters between their 5th and 95th percentiles",
+      "numerical_output_intervals": "not tabulated in text",
+      "prose_numeric_correlations_claimed_global_spearman": {
+        "R1": -0.76,
+        "R2": -0.33,
+        "Qsin": 0.3,
+        "Qsout": -0.26,
+        "Ev": 0.19,
+        "ErecEOL": -0.05,
+        "A": 0.0,
+        "Erec": 0.0,
+        "Ed": 0.02
+      },
+      "figure_scatter_r": {
+        "R1": -0.76,
+        "R2": -0.33,
+        "Qsin": 0.3,
+        "Qsout": -0.26,
+        "Ev": 0.19,
+        "Ev_substituted_EOL_credit": -0.05,
+        "A": -0.0,
+        "Erec": -0.0,
+        "Ed": 0.02
+      },
+      "figure_global_spearman": "Separate bar chart; exact values not printed and visibly differ from scatter r; not numerically transcribed",
+      "panel_label_scope": "CFF parameter probability distributions for S2; first boxplot panel includes all7 scenarios",
+      "visible_axis_tick_spans_not_distribution_bounds": {
+        "R1": [
+          0,
+          1
+        ],
+        "R2": [
+          0,
+          1
+        ],
+        "Qsin": [
+          0,
+          1
+        ],
+        "Qsout": [
+          0,
+          1
+        ],
+        "A": [
+          0,
+          1
+        ],
+        "Ev": [
+          0.35,
+          0.7
+        ],
+        "Ev_substituted_EOL_credit": [
+          0.4,
+          0.7
+        ],
+        "Erec": [
+          0.01,
+          0.018
+        ],
+        "Ed": [
+          0.02,
+          0.04
+        ]
+      },
+      "input_label_caution": "Prose calls r=-.05 ErecEOL; PDF scatter identifies E*v (EOL Credit). Preserve discrepancy."
+    },
+    "anchor": "4.2.4 Sensitivity analysis for MCIRENO-CFF integration for GWP; Fig. 12 A/B"
+  },
+  "demonstrated_digital_twin": false,
+  "digital_extensions": {
+    "status": "proposed future work or practice recommendations",
+    "items": [
+      "material passports",
+      "BIM",
+      "RFID",
+      "IoT",
+      "condition assessments",
+      "pre-demolition audits",
+      "robotic selective demolition comparisons"
+    ],
+    "anchors": [
+      "4.3 Recommendations for practice",
+      "5.1 Implication, limitation and future work"
+    ]
+  },
+  "limitations": [
+    "U2 is a feasibility constraint for R2, not an exact equivalence or MCI-score conversion",
+    "No documented joint draw alignment or conditional distribution linking the two probabilistic branches",
+    "Distribution families, ranges, covariance, seed and convergence not specified in text",
+    "R1 fixed at zero in case baseline but varied and dominant in environmental PSA without text-level distribution justification",
+    "Successive-cycle MCI assumes negligible new inputs and losses and equivalent functional service",
+    "Empirical support concerns recovery fraction for one inert material, not an independently validated uncertainty distribution",
+    "Only two consecutive lifecycles demonstrated; future cycle-specific CFF formulations proposed",
+    "Sensitivity coefficients are input-output associations; no variance interaction decomposition reported",
+    "Data and code not openly provided in read text; data available on request"
+  ],
+  "reporting_discrepancies_for_pdf_check": [
+    "Qsin correlation printed positive 0.30 despite prose grouping it with negative correlations",
+    "Scenario selection prose says S1/S6; circularity PSA uses S2/S6",
+    "Scope says 50-year reuse phase but scenario table has varying lifetimes",
+    "S5 reuse potential 57% in Table 4 versus 50% in one results passage",
+    "S7 circularity value/naming differs between prose and Table 5; raw and normalized indicators may be conflated",
+    "Printed GWP unit CO2eq/ton/m2 needs checking",
+    "Narrated long-horizon score declines are not reproducible from additive formula without unreported changing trajectories",
+    "PDF Fig12A S2 U2 ticks0.135–0.165 versus Table4 reuse0.10",
+    "PDF Fig12A S6 L2 ticks72–88years versus Table4 40years",
+    "PDF Fig12A S2 scatter r magnitudes swapped in prose",
+    "PDF Fig12B blue label says S2 but boxplots include7scenarios",
+    "PDF Fig12B r=-.05 is E*v EOL credit, not ErecEOL",
+    "Prose global-Spearman numbers reproduce scatter r rather than distinct Spearman bar heights"
+  ],
+  "reviewer_method": "Individual fulltext reading and authored mechanism extraction; no independent human review or computational reproduction",
+  "pdf_file": "outputs/S4 S5 Core Review/screening/adjudication/three_fulltexts/pdfs/Almeida_2026_Multicycle_framework.pdf",
+  "pdf_verification_complete": true
+}
