@@ -1,0 +1,8 @@
+{
+  "search_id": "SCOPUS-DTUA-2026-11-01",
+  "query": "\"digital twin\" AND uncertainty AND (architectur* OR \"probabilistic graphical model*\" OR \"Bayesian network*\" OR \"knowledge graph*\" OR \"data assimilation\" OR \"sensor fusion\" OR \"uncertainty propagation\" OR provenance OR traceability OR \"runtime verification\")",
+  "records": 1011,
+  "native_columns": 45,
+  "file": "SCOPUS_DTUA_1011.csv",
+  "sha256": "6224bab9fff095916d887d08e07abc95608940b95122a7e0c31486b206f747b2"
+}

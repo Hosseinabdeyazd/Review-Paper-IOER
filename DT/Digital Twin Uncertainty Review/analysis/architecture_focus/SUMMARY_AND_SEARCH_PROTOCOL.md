@@ -33,17 +33,31 @@ TS=("digital twin" AND uncertainty AND (architectur* OR "probabilistic graphical
 
 **494 results**, all downloaded using Tab delimited file, Full Record and Cited References, range 1–494. Validation: 494 unique UTs, 71 native columns, 482 supplied DOIs, 12 missing DOI values, zero missing abstracts. All 494 UTs occur in the previous 2,016-record WoS corpus. This is a focused subset and must not increase the baseline count. It does not discover studies that omit the baseline uncertainty term or digital-twin phrase.
 
-Raw file: `searches/Web_of_Science/DT-UA/results/raw/WOS_DTUA_0494.tsv`; merged CSV: `data/merged/WOS_DTUA_494.csv`. Raw SHA-256 and identifier reconciliation are in `analysis/architecture_focus/audit.json`. Only Web of Science was freshly queried in this round. IEEE and Scopus results below come from local processing of their complete previously exported corpora, not fresh database searches.
+Raw file: `searches/Web_of_Science/DT-UA/results/raw/WOS_DTUA_0494.tsv`; merged CSV: `data/merged/WOS_DTUA_494.csv`. Raw SHA-256 and identifier reconciliation are in `analysis/architecture_focus/audit.json`. Initially only WoS was freshly queried; the subsequent searches below now complete direct database retrieval for IEEE and Scopus as well.
+
+## Fresh IEEE and Scopus searches completed
+
+The identical Boolean term block was executed in IEEE's main Search by All and Scopus Documents / Article title, Abstract, Keywords, with no added filters. Native complete exports were downloaded and independently validated.
+
+| Database | Fresh search/export | Native columns | Missing DOI | Relation to prior local match |
+|---|---:|---:|---:|---|
+| IEEE Xplore | 349 unique source IDs | 28 | 17 | All 278 local matches plus 71 additional search matches |
+| Scopus | 1,011 unique EIDs | 45 | 49 | Exact identity with all 1,011 local matches |
+| Web of Science | 494 unique UTs | 71 | 12 | Exact identity with all 494 local matches |
+
+Every fresh result is present in its broad baseline; source counts must not be added again. The reason for each of IEEE's 71 additional matches is not yet established: the platform's search/index processing need not reproduce a local regex over exported fields. All 71 remain included in the fresh 349-record export, with no invented match explanation or eligibility judgment. Scopus exported all information including cited references with truncation OFF; IEEE preserves all fields supplied by its native CSV (reference counts rather than full cited-reference lists).
+
+Full-metadata files: `data/merged/IEEE_DTUA_349.csv` and `data/merged/SCOPUS_DTUA_1011.csv`. Raw exports and search logs are under each database's `DT-UA` directory. `fresh_search_audit_IEEE_SCOPUS.json` and `fresh_search_vs_local_IEEE_SCOPUS.csv` record identifier-level reconciliation. Rebuild those results with `python scripts/prepare_dtua_live.py`. The earlier local-match artifacts below remain intact and distinctly labelled.
 
 ## Added analytical fields and local results
 
 The same keyword family was applied to title, abstract and available keyword fields in each source. Matching handles capitalization, singular/plural forms where specified, spaces and hyphens. It does not search reference lists or author affiliations. Each matching field and term is recorded explicitly.
 
-| Source | Complete baseline records | Keyword matches | Retrieval mode this round |
+| Source | Complete baseline records | Keyword matches | Local analysis method |
 |---|---:|---:|---|
 | IEEE Xplore | 1,228 | 278 | Local tagging of complete baseline |
 | Scopus | 3,501 | 1,011 | Local tagging of complete baseline |
-| Web of Science | 2,016 | 494 | Local tagging plus fresh database search/export |
+| Web of Science | 2,016 | 494 | Local tagging, verified by fresh database search/export |
 
 The WoS local matching and fresh search agree on **every UT**, not just the total. The initial local match missed three hyphenated expressions; handling hyphens resolved the difference. No baseline record is deleted. Source-specific focused CSVs retain every original metadata/provenance field and add `architecture_focus_terms` and `architecture_focus_fields`. The all-record tag table covers **6,745 source records**, including nonmatches. Cross-database duplicates are not removed; 6,745 is not a unique-study count.
 

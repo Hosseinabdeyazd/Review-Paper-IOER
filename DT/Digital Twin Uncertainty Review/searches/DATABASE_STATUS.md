@@ -28,4 +28,6 @@ Search fields and indexing differ between platforms, so the counts must not be t
 
 ## Final-data publication requirement
 
+Architecture-focused DT-UA follow-up is now freshly searched and fully exported in all three sources: **IEEE 349, Scopus 1,011, WoS 494**. All source IDs lie within the corresponding broad baseline. IEEE has 71 additional search matches beyond its earlier 278-record local lexical subset; Scopus and WoS fresh searches exactly match their local subsets. Native metadata is preserved (IEEE 28 columns, Scopus 45, WoS 71). Missing DOI counts are 17, 49 and 12 respectively. See the individual `DT-UA/SEARCH_LOG.md` files and the architecture-focus protocol/audits. These focused counts must not be added to baseline counts.
+
 Only complete, verified database exports should be published as final data. Diagnostic samples are not deliverables. Reconcile expected and downloaded counts and unique source identifiers. Retain every supplied metadata field, including DOI, abstract and keywords. Report missing source fields explicitly; do not invent missing DOIs. Metadata-complete retrieval does not mean final eligibility screening or full-text architectural validation is complete.

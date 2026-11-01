@@ -1,0 +1,8 @@
+{
+  "search_id": "IEEE-DTUA-2026-11-01",
+  "query": "\"digital twin\" AND uncertainty AND (architectur* OR \"probabilistic graphical model*\" OR \"Bayesian network*\" OR \"knowledge graph*\" OR \"data assimilation\" OR \"sensor fusion\" OR \"uncertainty propagation\" OR provenance OR traceability OR \"runtime verification\")",
+  "records": 349,
+  "native_columns": 28,
+  "file": "IEEE_DTUA_349.csv",
+  "sha256": "6d3d0771e2ca3271b2c33f44f1f06105a9ae346fa30b0f7087ef563a41e262b2"
+}
