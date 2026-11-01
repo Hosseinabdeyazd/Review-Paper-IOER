@@ -4,7 +4,7 @@
 
 IEEE DT-U retrieval is complete: **1,228 unique records**, with no exclusions. The corpus is the result of the executed query `"digital twin" AND uncertainty`, not a final set of eligible studies. Architecture findings are an initial analysis of exported titles, abstracts and keywords. Full texts have not yet been assessed.
 
-Scopus search returned **3,501** results and its personal session is active. The diagnostic sample has been removed from the current GitHub tree at the user's request; full export remains unresolved. Web of Science search is pending because its access-link navigation was blocked by browser security. See `searches/DATABASE_STATUS.md`; neither source is represented by a complete downloaded corpus yet.
+Scopus DT-U retrieval is complete: **3,501 unique EIDs**, retaining all 45 native metadata columns without Excel truncation. Eighteen 200-record native exports contain 3,600 rows and 99 identical repeated occurrences. There are 3,315 supplied DOIs, 186 missing DOI values and 9 source placeholders for unavailable abstracts. All records are retained. Web of Science remains pending because its access-link navigation was blocked by browser security; see `searches/DATABASE_STATUS.md`.
 
 This separate review stream follows the existing IOER repository workflow (queries, raw exports, merged data, screening/coding, analysis and reproducible scripts). It does not replace the S1–S5 evidence or their search counts.
 
@@ -18,6 +18,13 @@ This separate review stream follows the existing IOER repository workflow (queri
 - `analysis/ARCHITECTURE_FINDINGS.md`: mechanism synthesis, evidence and limits.
 - `analysis/architecture_evidence.csv`: manually interpreted abstract-level evidence.
 - `scripts/prepare_ieee.py`: standard-library Python pipeline, runnable from any working directory.
+- `searches/Scopus/DT-U/results/raw/`: all 18 native CSV batches and hash/provenance manifest.
+- `searches/Scopus/DT-U/SEARCH_LOG.md`: complete search and export reconciliation.
+- `data/merged/SCOPUS_DTU_3501_parts/`: seven complete CSV partitions (six × 500 and one × 501), retaining 45 source columns plus four provenance columns. Together they contain all 3,501 records; a manifest records counts and hashes. The single 49 MB CSV exceeded the GitHub connector request limit; `prepare_scopus.py` also rebuilds that unified file locally.
+- `analysis/SCOPUS_corpus_audit.json`: completeness, field missingness and maximum field lengths.
+- `analysis/SCOPUS_mechanism_triage_3501.csv`: lexical reading queue; all records remain not screened.
+- `analysis/SCOPUS_ARCHITECTURE_FINDINGS.md`: selected abstract-level architecture evidence and limits.
+- `scripts/prepare_scopus.py`: reproducible validation, merge and triage pipeline.
 
 The earlier 25-record pilot files are historical and superseded for corpus counts. They are not appended to the native export.
 
@@ -29,7 +36,7 @@ Keep the broad DT review domain-independent first. Later map eligible systems/in
 
 The extraction unit should be **study → DT system → component → interface → decision/outcome**. Record uncertainty source/type/representation, input and output variables, units, temporal/spatial support, dependencies, propagation method, updates, provenance, validation evidence, and decision use. Separate conceptual/proposed/implemented status from simulation/experiment/deployment validation. Use `not_assessed` when evidence has not been checked; never interpret it as uncertainty being lost.
 
-Scopus and Web of Science are subsequent sources. Do not add their counts to the IEEE total before cross-database deduplication. Preserve source-specific records, then use normalized DOI plus manual title/year verification for matching. A missing DOI does not justify dropping a record or automatically merging versions.
+IEEE and Scopus are now retrieved as separate source corpora; Web of Science is pending. Do not interpret their summed counts as unique studies before cross-database deduplication. Preserve source-specific records, then use normalized DOI plus manual title/year verification for matching. A missing DOI does not justify dropping a record or automatically merging versions.
 
 
 

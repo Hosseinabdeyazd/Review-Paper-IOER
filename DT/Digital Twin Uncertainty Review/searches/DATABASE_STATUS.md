@@ -3,14 +3,14 @@
 | Database | Executed search | Results shown | Records downloaded | Status |
 |---|---|---:|---:|---|
 | IEEE Xplore | General search: `"digital twin" AND uncertainty` | 1,228 | 1,228 | Complete metadata export; 2 exhaustive partitions |
-| Scopus | Documents; Article title, Abstract, Keywords: `"digital twin" AND uncertainty` | 3,501 | 10 | Personal session active; first-page diagnostic export verified; full export unresolved |
+| Scopus | Documents; Article title, Abstract, Keywords: `"digital twin" AND uncertainty` | 3,501 | 3,501 unique EIDs | Complete; 18 native batches, all 45 columns, truncation OFF |
 | Web of Science | Not yet executed | Not established | 0 | SLUB access page reached; browser navigation blocked |
 
 ## Scopus
 
 Institutional access was confirmed by the SLUB Dresden banner. No date, language, subject, document-type or open-access restriction was applied. The search ran on the Documents tab, not Preprints or Secondary documents. The result list separately says it displays up to 2,000 results; **3,501 is the search count, not an export count**.
 
-Update: the main `www.scopus.com` domain has an active personal session and SLUB access. The same query returned 3,501 results there. Thus personal login is no longer the blocker. Native CSV export of the current first page succeeded: 10 rows and 10 unique EIDs, citation fields plus abstracts/keywords. That diagnostic file was subsequently removed from the current GitHub tree at the user's request. This is a diagnostic sample, not a screened or representative set. Full-range and 500-record export attempts did not yield a verified local file despite a site success toast. The browser download wait expired. Full-corpus completeness is not established. No credentials were saved in project files.
+Complete retrieval is now verified on the main `www.scopus.com` domain with active personal session and SLUB access. Native current-page exports with all information selected and truncation OFF cover Date (newest) pages 1–10 and Date (oldest) pages 1–8, 200 records per page. The 3,600 raw rows contain 3,501 unique EIDs and 99 identical repeated occurrences. All 45 native fields are retained. There are 3,315 supplied DOIs and 186 blank DOI values; 9 abstracts use the source placeholder `[No abstract available]`. No source record was excluded. Full-range attempts did not yield verified files; page-wise retrieval resolved that issue. The earlier diagnostic sample is not part of this final corpus. No credentials were saved in project files. See `Scopus/DT-U/SEARCH_LOG.md` and the machine-readable audit for complete reconciliation.
 
 Earlier proxy-domain behavior: Select all → Export requested a personal Scopus account; institutional sign-in returned to ScienceDirect. The main-domain session resolved that login issue without entering a password or creating an account.
 

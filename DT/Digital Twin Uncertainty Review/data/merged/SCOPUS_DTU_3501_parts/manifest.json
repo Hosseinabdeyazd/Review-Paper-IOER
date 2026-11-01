@@ -1,0 +1,42 @@
+{
+  "total_records": 3501,
+  "native_columns": 45,
+  "provenance_columns": 4,
+  "parts": [
+    {
+      "file": "SCOPUS_DTU_3501_part_01_of_07.csv",
+      "records": 500,
+      "sha256": "6d4b6eae57276e4a57e53d1c6ada78ebbf02bf13763ee6f5a8eeb2cf829d5ad1"
+    },
+    {
+      "file": "SCOPUS_DTU_3501_part_02_of_07.csv",
+      "records": 500,
+      "sha256": "01b6693bab09d4097b34989f1ab0dbd191288efdb32a7aeb7f3b87d2e581d20e"
+    },
+    {
+      "file": "SCOPUS_DTU_3501_part_03_of_07.csv",
+      "records": 500,
+      "sha256": "e6693de46a436d7705c349e3f94641eda32c1c68eb966ee2a4b99bd5fe17c9bb"
+    },
+    {
+      "file": "SCOPUS_DTU_3501_part_04_of_07.csv",
+      "records": 500,
+      "sha256": "0f264e5f502f9f4911b9ab1cd582494194928afe97c7736dd9ee4fff1b3da7e7"
+    },
+    {
+      "file": "SCOPUS_DTU_3501_part_05_of_07.csv",
+      "records": 500,
+      "sha256": "509a57b30e0c7f97fbac4aa2cfe3b0866ad42c896115ab186c19b496a3befb14"
+    },
+    {
+      "file": "SCOPUS_DTU_3501_part_06_of_07.csv",
+      "records": 500,
+      "sha256": "c0cad116e1c1ec681c709e4c784774f43b6b1b2cd32bfaf49b207cfd631b8b85"
+    },
+    {
+      "file": "SCOPUS_DTU_3501_part_07_of_07.csv",
+      "records": 501,
+      "sha256": "2d3a74a2632a91aa71f67741e0a0777ae6605a2efcdb89de8397a5dddde6f903"
+    }
+  ]
+}

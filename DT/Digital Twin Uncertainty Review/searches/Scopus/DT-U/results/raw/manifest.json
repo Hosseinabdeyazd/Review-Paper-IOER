@@ -1,0 +1,173 @@
+{
+  "database": "Scopus",
+  "search_id": "SCOPUS-DTU-2026-11-01",
+  "expected_results": 3501,
+  "query": "\"digital twin\" AND uncertainty",
+  "fields": "Article title, Abstract, Keywords",
+  "all_information_selected": true,
+  "truncate_information": false,
+  "batches": [
+    {
+      "file": "SCOPUS_DTU_newest_page_01.csv",
+      "native_filename": "export_937a4515-5ec2-4c6e-92a7-293acce89022_2026-11-01T102224.074562673.csv",
+      "sort": "Date (newest)",
+      "page": 1,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "cb4cf6569e96dd63f22c3dee678a21229cc28a0b75ac47960e0b38a43dd46471"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_02.csv",
+      "native_filename": "export_2020f991-6612-48f5-9e7d-aff9b8ae401c_2026-11-01T102310.060568619.csv",
+      "sort": "Date (newest)",
+      "page": 2,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "e03165de2c09d299b782ce23961708fa799d2d54117b1cdbb432f37a23e5f973"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_03.csv",
+      "native_filename": "export_0332b1f1-a021-426f-969e-1d7e514d5f15_2026-11-01T102454.359300417.csv",
+      "sort": "Date (newest)",
+      "page": 3,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "3f33d15e9c0da88bdd6a001ff2c593b5efadb1524f5fcf3be532b19e7ce4d267"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_04.csv",
+      "native_filename": "export_29b78cf7-fce5-4ad3-b8c7-b22641bc37f0_2026-11-01T102535.778364936.csv",
+      "sort": "Date (newest)",
+      "page": 4,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "2f9fd447f8a86672e77f58308aba3c12b19099c592e1fe56f164dccd3e7b10bb"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_05.csv",
+      "native_filename": "export_0e3fcf6a-15c8-4195-a223-aa7b1a03b986_2026-11-01T102603.71076703.csv",
+      "sort": "Date (newest)",
+      "page": 5,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "7e3070b91d92cf52709098353caa51d48283225f2f3a48ceed8e95efa83225bf"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_06.csv",
+      "native_filename": "export_d2a2c296-8349-471e-b1a3-464d3ab5ab0f_2026-11-01T102822.61057585.csv",
+      "sort": "Date (newest)",
+      "page": 6,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "28e62d77ce4be4ef5d8c911918786c6ed139a7ea7ed60fbab34d6757ceb09e8e"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_07.csv",
+      "native_filename": "export_281ef6de-01b0-4425-9115-3411e6bbc9dd_2026-11-01T102856.56372727.csv",
+      "sort": "Date (newest)",
+      "page": 7,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "c05d5f47cb010b6506442993a5a2d77fb7a7e2456fa4a2c47dba2b4fbba6d54d"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_08.csv",
+      "native_filename": "export_2ad6c741-cdf4-409e-9d16-77555fba1e08_2026-11-01T102928.171322152.csv",
+      "sort": "Date (newest)",
+      "page": 8,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "066054534c101297ee65f6fd6e9d5d17b4ecc9b27c999e86df34490195a3b2d3"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_09.csv",
+      "native_filename": "export_9faeb8a3-7822-4cdf-9e86-ac69381c1ee6_2026-11-01T103001.034485353.csv",
+      "sort": "Date (newest)",
+      "page": 9,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "dbef587d9b4846724c6d9c24658e7b292990ccfac54dccbde321bf2eadc23551"
+    },
+    {
+      "file": "SCOPUS_DTU_newest_page_10.csv",
+      "native_filename": "export_e80e3222-cb8e-4083-9b07-63112d63689b_2026-11-01T103050.661092164.csv",
+      "sort": "Date (newest)",
+      "page": 10,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "191a6946f6e26cc9b24b0aa1be473edc90ab8aa266d18f22cbed7f1cb926ef85"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_01.csv",
+      "native_filename": "export_5c164901-6f84-4778-8459-23fca0f3c1cb_2026-11-01T103214.42865308.csv",
+      "sort": "Date (oldest)",
+      "page": 1,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "889b00c7748e3903ab2ac944a79f72ba50a639b8273e334850ba6d201627a47c"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_02.csv",
+      "native_filename": "export_2453ea4a-fe2d-43e6-8b9b-75c47939f0f2_2026-11-01T103258.042606365.csv",
+      "sort": "Date (oldest)",
+      "page": 2,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "f10abe6d1590d8a9fbc82fc6097f9e9be7fdc08f88b04b4f464f87f87aee2e47"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_03.csv",
+      "native_filename": "export_0222337c-53e5-4f80-a610-71dee83e67c6_2026-11-01T103344.160656288.csv",
+      "sort": "Date (oldest)",
+      "page": 3,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "852b2b126d5a4ce24b81e90b486bd7549f8e8036e63ddec30329114531ed2000"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_04.csv",
+      "native_filename": "export_02f90ec1-7b39-45d7-8136-bf8ccf02b998_2026-11-01T103432.042938193.csv",
+      "sort": "Date (oldest)",
+      "page": 4,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "ecdc113764e28b48f57e59d19ed2472c2352839857601f1c0ff4b6cbb323f6bc"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_05.csv",
+      "native_filename": "export_328990f9-1ae9-4748-b84f-66ffabdd00e3_2026-11-01T103529.566613397.csv",
+      "sort": "Date (oldest)",
+      "page": 5,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "926bffc5c863a67704a32f430a373e82362c088945e02d3f590f4e051f870065"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_06.csv",
+      "native_filename": "export_6da80b63-bdfd-4399-add0-465d48ae0f47_2026-11-01T103631.74146674.csv",
+      "sort": "Date (oldest)",
+      "page": 6,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "e83e510c92089f23dcae18d807b69344f1c65758a0c4f292ef4c2f76ccbaee0d"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_07.csv",
+      "native_filename": "export_c7d631bb-0648-457f-9c2d-0fe405729c93_2026-11-01T103727.706006156.csv",
+      "sort": "Date (oldest)",
+      "page": 7,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "0737158ee5c59cfec6d9c60ddf4f9d81eff5cefbf8b509912950c384cc7b639f"
+    },
+    {
+      "file": "SCOPUS_DTU_oldest_page_08.csv",
+      "native_filename": "export_4f2586ee-10da-442e-9873-db3108444b2a_2026-11-01T103821.359169428.csv",
+      "sort": "Date (oldest)",
+      "page": 8,
+      "rows": 200,
+      "columns": 45,
+      "sha256": "7ce75d358b4ab82a0c6d7edd8b7a62f311fa5d9b2d5f169051606bfd603db428"
+    }
+  ]
+}
