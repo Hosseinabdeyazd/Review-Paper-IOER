@@ -1,0 +1,142 @@
+{
+  "S45-ee0ec70869f0": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Explicitly weighs remodeling against replacement of an aging facility and its adaptability; retain to verify physical-retention criteria rather than exclude merely because environmental impacts are unstated.",
+    "evidence": "whether to remodel or replace an aging facility",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 50
+  },
+  "S45-4b98413c7068": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Hospital planning explicitly considers continued adaptation of existing assets versus complete replacement; economic motivation does not rule out an S4 retention decision.",
+    "evidence": "potential for adaptation and expansion of existing assets",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 54
+  },
+  "S45-f5548ee65e76": {
+    "decision": "retain_for_fulltext",
+    "stage_relevance": "S4",
+    "reason": "Describes conversion of an existing radwaste building instead of constructing a new one. This is explicit building reuse despite capital-cost motivation; radioactive-waste processing itself is not the inclusion basis.",
+    "evidence": "modify an existing building at Dresden rather than construct a new one",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 62
+  },
+  "S45-976a08990047": {
+    "decision": "retain_for_fulltext",
+    "stage_relevance": "S4",
+    "reason": "Describes adapting an existing radwaste building instead of constructing a new one. Building reuse, not the radioactive waste stream, supports S4 relevance.",
+    "evidence": "modify an existing building at Dresden rather than construct a new one",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 63
+  },
+  "S45-fb592f23f983": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Regulatory constraints and technical evaluation for effective use of existing stock may govern rehabilitation/retention; full text needed to establish a material or reuse connection.",
+    "evidence": "research needed to effectively use the existing building stock",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 64
+  },
+  "S45-347b55208e9c": {
+    "decision": "exclude_nonresearch_component",
+    "stage_relevance": "unclear",
+    "reason": "This is a container-level overview of nine workshop papers rather than one research contribution. Preserve the volume as a route to its constituent rehabilitation papers; do not infer their individual ineligibility.",
+    "evidence": "This workshop proceedings contains 9 papers",
+    "abstract_adequacy": "book_level",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 66
+  },
+  "S45-a02d1badf653": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Refurbishment of an existing shopping complex with lightweight additions plausibly retains structures; the short project summary does not establish the retention boundary, so full text is required.",
+    "evidence": "revitalization of Maroochydore Shopping Complex",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 67
+  },
+  "S45-bc0de7555b28": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Public/private intervention patterns specifically promote existing-stock rehabilitation; full text is needed to distinguish physical reuse/retention measures from finance-only policy discussion.",
+    "evidence": "experiences of building and urban rehabilitation",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 71
+  },
+  "S45-a2a48f465ef7": {
+    "decision": "retain_for_fulltext",
+    "stage_relevance": "S4",
+    "reason": "An existing 23-storey building is renovated for a new clothing-store use, including structural/logistical adaptations; explicit reuse is relevant even without an environmental calculation.",
+    "evidence": "being renovated inside and out--and underneath--to house a New York clothing store",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 86
+  },
+  "S45-d31dca247549": {
+    "decision": "exclude_nonresearch_component",
+    "stage_relevance": "neither",
+    "reason": "A conference-volume description enumerates eight keynotes and 110 papers, not one study. Its thematic focus is urban groundwater, and individual constituent reports are not screened by this container decision.",
+    "evidence": "A further 110 papers individually authored",
+    "abstract_adequacy": "book_level",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 93
+  },
+  "S45-6c1b0a604e6d": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Compares inserting a dialysis function within an existing facility versus constructing a separate building, with regulatory barriers to reuse; full text needed to establish a reusable retention decision framework.",
+    "evidence": "build within the physical confines of the existing SNF",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 97
+  },
+  "S45-e20224299c74": {
+    "decision": "exclude_core_keep_methods",
+    "stage_relevance": "background",
+    "reason": "National renovation activity, stock floor area and projected renovation rates provide stock-dynamics/renovation background; no direct recovery or embodied-impact result is stated.",
+    "evidence": "continuous monitoring and cross-sectional studies of renovation",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 107
+  },
+  "S45-ba74ee6fbe35": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S4",
+    "reason": "Technical inspection is explicitly linked to altered loads and uses during industrial building modernization/reconstruction; it could establish suitability for continued reuse, requiring full text.",
+    "evidence": "changes of load and conditions of operation of existing buildings",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 110
+  },
+  "S45-4f3b23643e1f": {
+    "decision": "retain_fulltext_unclear",
+    "stage_relevance": "S5",
+    "reason": "Discusses conflict between fire-safety provisions and sustainability during building upgrades; the short abstract does not clarify whether constraints concern materials or only energy systems, so retain for clarification.",
+    "evidence": "many of the recommended fire safety measures prevent buildings from meeting the criteria of being green and sustainable",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "Elicit semantic screening followed by root full-title/abstract reassessment; no independent human review",
+    "review_source": "root reassessment of Elicit",
+    "queue_index": 112
+  }
+}

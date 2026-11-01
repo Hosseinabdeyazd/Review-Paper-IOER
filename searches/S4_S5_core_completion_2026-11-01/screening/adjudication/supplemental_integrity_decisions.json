@@ -1,0 +1,15 @@
+{
+  "S45-3d33a6d48713": {
+    "decision": "exclude_retracted_source",
+    "reason": "Research-integrity exclusion, not a topic exclusion: the original is marked Retracted and the supplied retraction notice reports a mismatch between the selected dataset and methodological requirements. Do not use its estimates as evidence.",
+    "evidence": "RETRACTED: Assessment of Building Materials",
+    "stage_relevance": "S4-S5",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "assistant semantic title/complete-available-abstract reading; no independent human review",
+    "source_notice_record_id": "S45-5a98331b52d4",
+    "source_notice_doi": "10.3390/su18125831",
+    "source_notice_evidence": "a mismatch between the selected dataset and the study\u2019s methodological requirements",
+    "original_doi": "10.3390/su15118840",
+    "review_scope": "supplemental integrity review outside requested 7238 queue"
+  }
+}

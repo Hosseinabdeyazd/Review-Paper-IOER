@@ -1,5 +1,5 @@
 {
-  "status": "PARTIAL_NOT_FINAL",
+  "status": "REQUESTED_REASSESSMENT_COMPLETE",
   "input_records": 9918,
   "duplicate_groups_examined": 330,
   "duplicate_group_decisions": {
@@ -10,9 +10,21 @@
   "additional_duplicate_records_removed": 331,
   "remaining_records": 9587,
   "requested_title_abstract_records": 7238,
-  "original_records_actually_read_this_revision": 50,
-  "original_records_not_yet_read": 7188,
-  "canonical_records_with_reading_decision": 50,
+  "requested_records_read": 7238,
+  "supplemental_integrity_reviews": 1,
+  "original_records_actually_read_this_revision": 7239,
+  "original_records_not_yet_read_in_requested_queue": 0,
+  "canonical_records_with_reading_decision": 6999,
+  "canonical_outcomes": {
+    "exclude_title_abstract": 3668,
+    "retain_fulltext_unclear": 789,
+    "exclude_core_keep_methods": 1301,
+    "not_yet_reassessed": 2588,
+    "exclude_nonresearch_component": 64,
+    "retain_for_fulltext": 1037,
+    "retain_secondary": 139,
+    "exclude_retracted_source": 1
+  },
   "independent_human_reviewers": 0,
   "fulltexts_assessed_in_this_revision": 0,
   "final_included_studies": null

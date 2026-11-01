@@ -1,0 +1,38 @@
+{
+  "requested_original_ids": 7238,
+  "previously_reviewed": 50,
+  "remaining_requested": 7188,
+  "reviewed_original_ids": 7238,
+  "remaining_reviewed": 7188,
+  "pending_original_ids": 0,
+  "complete": true,
+  "independent_human_review": false,
+  "elicit_downloaded": 80,
+  "elicit_root_corrections": 14,
+  "decision_counts_original_ids": {
+    "exclude_title_abstract": 3796,
+    "retain_fulltext_unclear": 820,
+    "exclude_core_keep_methods": 1336,
+    "exclude_nonresearch_component": 64,
+    "retain_for_fulltext": 1083,
+    "retain_secondary": 139
+  },
+  "sources": {
+    "parallel_screen_root.json": {
+      "records": 1290,
+      "sha256": "6f6a8de41bbb591a4755b5e27b11f81dd2b23a1ec62c4d189e586f35fc302d34"
+    },
+    "parallel_screen_a.json": {
+      "records": 1840,
+      "sha256": "0c8743d37f110ec9c63070675954e3c5231edd8a1fba34fe6b8fab9153f84c35"
+    },
+    "parallel_screen_b.json": {
+      "records": 1840,
+      "sha256": "0a6224faed801fd14cfcab3459a4212e77a1aa203287300e9992f62db838d421"
+    },
+    "parallel_screen_c.json": {
+      "records": 2138,
+      "sha256": "13d88f31af86402f40c2719acd5fc9d72f33e6205fa4de6c3a2d98628db88da4"
+    }
+  }
+}

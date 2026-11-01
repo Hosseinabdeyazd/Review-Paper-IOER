@@ -1,0 +1,57 @@
+{
+  "S45-b200566d8af8": {
+    "canonical_record_id": "S45-b200566d8af8",
+    "decision": "retain_fulltext_unclear",
+    "reason": "The renewable retrofit-material knowledge project explicitly addresses waste and material-associated emissions, but the supplied abstract describes educational delivery rather than recoverability or environmental assessment results. Retain for full-text clarification of extractable S4/S5 evidence.",
+    "evidence": "insulation materials made from renewable resources",
+    "stage_relevance": "S4-S5",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "assistant semantic conflict adjudication after reading all member titles and complete available abstracts and original reasons; no independent human review",
+    "source_member_record_ids": "S45-4de3f11ee18a;S45-b200566d8af8",
+    "resolution_basis": "Explicit semantic adjudication; preserves source decisions; no full-text eligibility claim"
+  },
+  "S45-74d164818f00": {
+    "canonical_record_id": "S45-74d164818f00",
+    "decision": "exclude_core_keep_methods",
+    "reason": "Regional residential archetype development and input-uncertainty analysis are useful S1-S3 stock-model methods. The reported endpoint is cooling energy, with no material recovery or embodied assessment, so retain as methods background only.",
+    "evidence": "region-specific highrise residential archetype",
+    "stage_relevance": "S1-S3",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "assistant semantic conflict adjudication after reading all member titles and complete available abstracts and original reasons; no independent human review",
+    "source_member_record_ids": "S45-74d164818f00;S45-7d9ffdc98d5d",
+    "resolution_basis": "Explicit semantic adjudication; preserves source decisions; no full-text eligibility claim"
+  },
+  "S45-529fa12f254f": {
+    "canonical_record_id": "S45-529fa12f254f",
+    "decision": "exclude_core_keep_methods",
+    "reason": "The study explicitly addresses software architecture and integration of decision support with building management systems. This provides transferable interoperability background, while its operational-energy application does not establish S4/S5 core relevance.",
+    "evidence": "integrating the Decision Support System with the existing building IT infrastructure",
+    "stage_relevance": "S1-S3",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "assistant semantic conflict adjudication after reading all member titles and complete available abstracts and original reasons; no independent human review",
+    "source_member_record_ids": "S45-99974f4cf403;S45-529fa12f254f",
+    "resolution_basis": "Explicit semantic adjudication; preserves source decisions; no full-text eligibility claim"
+  },
+  "S45-5f9c5b2593e3": {
+    "canonical_record_id": "S45-5f9c5b2593e3",
+    "decision": "exclude_core_keep_methods",
+    "reason": "Municipal-data architectural classification and neighborhood characterization provide useful stock characterization methods, although the demonstrated application targets operating-energy refurbishment rather than material recovery or lifecycle impacts.",
+    "evidence": "methodology for architectural-energy classification of existing buildings",
+    "stage_relevance": "S1-S3",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "assistant semantic conflict adjudication after reading all member titles and complete available abstracts and original reasons; no independent human review",
+    "source_member_record_ids": "S45-173f9fbc806e;S45-5f9c5b2593e3",
+    "resolution_basis": "Explicit semantic adjudication; preserves source decisions; no full-text eligibility claim"
+  },
+  "S45-07eb039273fb": {
+    "canonical_record_id": "S45-07eb039273fb",
+    "decision": "retain_fulltext_unclear",
+    "reason": "Resident-prioritized renovation includes building envelopes and internal functional space, making physical adaptation plausible. The supplied abstract does not describe the interventions sufficiently to establish retention, material recovery or material environmental assessment; retain for full-text clarification.",
+    "evidence": "building envelope > internal functional space",
+    "stage_relevance": "S4-S5",
+    "abstract_adequacy": "substantive",
+    "reviewer_method": "assistant semantic conflict adjudication after reading all member titles and complete available abstracts and original reasons; no independent human review",
+    "source_member_record_ids": "S45-652a0f57dc6f;S45-07eb039273fb",
+    "resolution_basis": "Explicit semantic adjudication; preserves source decisions; no full-text eligibility claim"
+  }
+}

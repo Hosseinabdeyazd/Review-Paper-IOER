@@ -1,0 +1,35 @@
+{
+  "note": "These three records were also read in the main queue; do not count twice. For S45-529fa12f254f preserve the main methods-background decision conservatively; both exclude it from the core. Other decisions agree.",
+  "checks": {
+    "S45-529fa12f254f": {
+      "decision": "exclude_title_abstract",
+      "reason": "Energy decision-support software concerns building operating consumption and emissions; no material recovery, embodied assessment or retention branch.",
+      "evidence": "management of energy consumption in public buildings",
+      "stage_relevance": "none",
+      "abstract_adequacy": "substantive",
+      "reviewer_method": "assistant semantic title/complete-available-abstract reading; no independent human review",
+      "review_scope": "supplemental explicit duplicate-member verification; not additional requested-queue count",
+      "duplicate_group_key": "194"
+    },
+    "S45-9f3e23386380": {
+      "decision": "exclude_title_abstract",
+      "reason": "Resiliency investment motivation model concerns voluntary hazard mitigation and code compliance, without material recovery, retention or environmental lifecycle assessment.",
+      "evidence": "motivation mechanism that drives decision makers to invest in resiliency",
+      "stage_relevance": "none",
+      "abstract_adequacy": "substantive",
+      "reviewer_method": "assistant semantic title/complete-available-abstract reading; no independent human review",
+      "review_scope": "supplemental explicit duplicate-member verification; not additional requested-queue count",
+      "duplicate_group_key": "257"
+    },
+    "S45-857367386d7a": {
+      "decision": "exclude_title_abstract",
+      "reason": "Post-earthquake fire response model allocates fire engines and water-network resources to minimize losses; no building material recovery or lifecycle assessment.",
+      "evidence": "model assigns fire engines dynamically over time",
+      "stage_relevance": "none",
+      "abstract_adequacy": "substantive",
+      "reviewer_method": "assistant semantic title/complete-available-abstract reading; no independent human review",
+      "review_scope": "supplemental explicit duplicate-member verification; not additional requested-queue count",
+      "duplicate_group_key": "279"
+    }
+  }
+}
