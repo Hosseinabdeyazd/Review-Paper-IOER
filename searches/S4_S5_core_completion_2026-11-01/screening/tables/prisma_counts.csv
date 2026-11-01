@@ -1,0 +1,12 @@
+﻿node,n,status
+Records identified: Scopus (distinct EID),8248,verified
+Records identified: WoS (distinct UT),5994,verified
+Records identified: IEEE (distinct document ID),627,verified
+Repeated query memberships removed before identification accounting,5094,not additional publications
+Duplicate records removed before screening,4951,4917 original DOI/native-ID cross-source duplicates + 34 conservative author/source-supported matches
+Records assessed by automated title/abstract rules,9918,automation only; not independently validated
+Proposed automated exclusions,2145,provisional; reversible; human validation pending
+Retained for subsequent review,7773,includes unclear and secondary evidence
+Reports sought for retrieval in this S4/S5 screening stage,,not started; separate DT fulltexts not counted here
+Reports assessed for fulltext eligibility,,not started
+Studies finally included,,not established
