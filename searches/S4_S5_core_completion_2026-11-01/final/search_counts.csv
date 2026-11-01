@@ -1,0 +1,13 @@
+﻿database,query_id,displayed_count,exported_count,unique_native_ids,doi_present,abstract_present,status
+Scopus,S4-1,2538,2538,2538,2107,2538,complete
+Scopus,S4-2,415,415,415,351,415,complete
+Scopus,S5-1,6621,6621,6621,5567,6621,complete
+Scopus,S5-2,1359,1359,1359,1196,1359,complete
+WoS,S4-1,1883,1883,1883,1680,1878,complete
+WoS,S4-2,361,361,361,339,361,complete
+WoS,S5-1,4834,4834,4834,4375,4831,complete
+WoS,S5-2,1142,1142,1142,1086,1142,complete
+IEEE,S4-1,242,242,242,228,242,complete
+IEEE,S4-2,54,54,54,53,54,complete
+IEEE,S5-1,433,433,433,399,433,complete
+IEEE,S5-2,81,81,81,79,81,complete

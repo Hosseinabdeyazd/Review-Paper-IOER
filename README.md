@@ -22,7 +22,7 @@ Planning and circularity decisions
 
 The central question is not only whether uncertainty is reported at an individual modelling stage, but also whether it is preserved, reduced, amplified, transformed, masked, or lost as information moves between stages and spatial scales.
 
-> **Project status:** Active development. The Scopus queries for **S1–S3 are currently approved**. The S4 and S5 search strategies and query strings remain **draft / not fixed** and must not be used for formal retrieval until they are reviewed and frozen.
+> **Project status:** Active development. The Scopus queries for **S1–S3 are currently approved**. On **2026-11-01**, the existing S4/S5 vocabulary was reviewed and frozen as a dated execution protocol following the author's instruction, then executed in Scopus, Web of Science and IEEE Xplore. [S4/S5 retrieval, raw exports, CSVs and audit](searches/S4_S5_core_completion_2026-11-01/README.md). Original draft query files are preserved as provenance; this execution does not claim independent preregistration or external peer approval. Eligibility screening and manual duplicate adjudication remain pending. Scopus S5 cited-reference lists were not retrieved; all record counts were verified.
 
 ---
 
@@ -412,3 +412,4 @@ A license will be specified before the public release of data and reusable code.
 **Hossein Abdeyazdan**  
 Research Associate / PhD Researcher  
 TU Dresden / Leibniz Institute of Ecological Urban and Regional Development (IOER)
+

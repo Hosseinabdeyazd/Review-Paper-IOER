@@ -1,0 +1,122 @@
+[
+  {
+    "database": "Scopus",
+    "query_id": "S4-1",
+    "displayed_count": 2538,
+    "exported_count": 2538,
+    "unique_native_ids": 2538,
+    "doi_present": 2107,
+    "abstract_present": 2538,
+    "status": "complete"
+  },
+  {
+    "database": "Scopus",
+    "query_id": "S4-2",
+    "displayed_count": 415,
+    "exported_count": 415,
+    "unique_native_ids": 415,
+    "doi_present": 351,
+    "abstract_present": 415,
+    "status": "complete"
+  },
+  {
+    "database": "Scopus",
+    "query_id": "S5-1",
+    "displayed_count": 6621,
+    "exported_count": 6621,
+    "unique_native_ids": 6621,
+    "doi_present": 5567,
+    "abstract_present": 6621,
+    "status": "complete"
+  },
+  {
+    "database": "Scopus",
+    "query_id": "S5-2",
+    "displayed_count": 1359,
+    "exported_count": 1359,
+    "unique_native_ids": 1359,
+    "doi_present": 1196,
+    "abstract_present": 1359,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S4-1",
+    "displayed_count": 1883,
+    "exported_count": 1883,
+    "unique_native_ids": 1883,
+    "doi_present": 1680,
+    "abstract_present": 1878,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S4-2",
+    "displayed_count": 361,
+    "exported_count": 361,
+    "unique_native_ids": 361,
+    "doi_present": 339,
+    "abstract_present": 361,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S5-1",
+    "displayed_count": 4834,
+    "exported_count": 4834,
+    "unique_native_ids": 4834,
+    "doi_present": 4375,
+    "abstract_present": 4831,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S5-2",
+    "displayed_count": 1142,
+    "exported_count": 1142,
+    "unique_native_ids": 1142,
+    "doi_present": 1086,
+    "abstract_present": 1142,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S4-1",
+    "displayed_count": 242,
+    "exported_count": 242,
+    "unique_native_ids": 242,
+    "doi_present": 228,
+    "abstract_present": 242,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S4-2",
+    "displayed_count": 54,
+    "exported_count": 54,
+    "unique_native_ids": 54,
+    "doi_present": 53,
+    "abstract_present": 54,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S5-1",
+    "displayed_count": 433,
+    "exported_count": 433,
+    "unique_native_ids": 433,
+    "doi_present": 399,
+    "abstract_present": 433,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S5-2",
+    "displayed_count": 81,
+    "exported_count": 81,
+    "unique_native_ids": 81,
+    "doi_present": 79,
+    "abstract_present": 81,
+    "status": "complete"
+  }
+]

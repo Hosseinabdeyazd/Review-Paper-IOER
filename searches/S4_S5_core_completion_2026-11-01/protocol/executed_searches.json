@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S4-1",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\"))",
+    "displayed_count": 2538,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S4-2",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 415,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S5-1",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\"))",
+    "displayed_count": 6621,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "all available CSV fields except references for S5",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S5-2",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 1359,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "all available CSV fields except references for S5",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S4-1",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\"))",
+    "displayed_count": 1883,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S4-2",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 361,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S5-1",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\"))",
+    "displayed_count": 4834,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S5-2",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 1142,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S4-1",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"All Metadata\":\"urban mining\" OR \"All Metadata\":\"secondary material*\" OR \"All Metadata\":\"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"All Metadata\":\"reverse logistics\")",
+    "displayed_count": 242,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S4-2",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"All Metadata\":\"urban mining\" OR \"All Metadata\":\"secondary material*\" OR \"All Metadata\":\"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"All Metadata\":\"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"All Metadata\":\"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"All Metadata\":\"decision confidence\" OR \"All Metadata\":\"value of information\" OR \"All Metadata\":\"prediction interval*\" OR \"All Metadata\":\"confidence interval*\")",
+    "displayed_count": 54,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S5-1",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (\"All Metadata\":\"embodied carbon\" OR \"All Metadata\":\"embodied emission*\" OR \"All Metadata\":\"embodied greenhouse gas*\" OR \"All Metadata\":\"life cycle assessment\" OR \"All Metadata\":\"life-cycle assessment\" OR LCA OR \"All Metadata\":\"environmental impact*\" OR decision* OR ranking OR priorit* OR \"All Metadata\":\"decision support\" OR intervention* OR \"All Metadata\":\"carbon footprint\")",
+    "displayed_count": 433,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S5-2",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (\"All Metadata\":\"embodied carbon\" OR \"All Metadata\":\"embodied emission*\" OR \"All Metadata\":\"embodied greenhouse gas*\" OR \"All Metadata\":\"life cycle assessment\" OR \"All Metadata\":\"life-cycle assessment\" OR LCA OR \"All Metadata\":\"environmental impact*\" OR decision* OR ranking OR priorit* OR \"All Metadata\":\"decision support\" OR intervention* OR \"All Metadata\":\"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"All Metadata\":\"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"All Metadata\":\"decision confidence\" OR \"All Metadata\":\"value of information\" OR \"All Metadata\":\"prediction interval*\" OR \"All Metadata\":\"confidence interval*\")",
+    "displayed_count": 81,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  }
+]
