@@ -1,3 +1,9 @@
+# Latest: all 946 unclear records rechecked
+
+Use [the current recheck report](unclear946_recheck/PRISMA_RECHECK.md) and [current datasets](unclear946_recheck/) for updated decisions. All 946 reread; 0 rechecks pending. Current outcomes: 2932 retain for fulltext, 327 unclear, 351 secondary, 1623 methods/background, 4236 title/abstract exclusions, 117 nonresearch components, 1 retracted source. Of the 2932 clear fulltext candidates, 392 are uncertainty-query members and 2540 are Base-only. Query membership does not establish uncertainty propagation.
+
+The following text and original completion artifacts are historical results before the 946-record recheck; their counts are superseded by the linked report.
+
 # S4/S5 — all canonical title/abstract records screened
 
 **9,587/9,587 canonical records screened; 0 pending.** The final 2,588 are completed in this revision. This is AI-assisted title/abstract screening; full-text eligibility remains a separate next step.
