@@ -4,7 +4,7 @@
 
 IEEE DT-U retrieval is complete: **1,228 unique records**, with no exclusions. The corpus is the result of the executed query `"digital twin" AND uncertainty`, not a final set of eligible studies. Architecture findings are an initial analysis of exported titles, abstracts and keywords. Full texts have not yet been assessed.
 
-Scopus search returned **3,501** results and its personal session is active. A **10-record diagnostic export** is saved; full export remains unresolved. Web of Science search is pending because its access-link navigation was blocked by browser security. See `searches/DATABASE_STATUS.md`; neither source is represented by a complete downloaded corpus yet.
+Scopus search returned **3,501** results and its personal session is active. The diagnostic sample has been removed from the current GitHub tree at the user's request; full export remains unresolved. Web of Science search is pending because its access-link navigation was blocked by browser security. See `searches/DATABASE_STATUS.md`; neither source is represented by a complete downloaded corpus yet.
 
 This separate review stream follows the existing IOER repository workflow (queries, raw exports, merged data, screening/coding, analysis and reproducible scripts). It does not replace the S1–S5 evidence or their search counts.
 
@@ -31,3 +31,8 @@ The extraction unit should be **study → DT system → component → interface 
 
 Scopus and Web of Science are subsequent sources. Do not add their counts to the IEEE total before cross-database deduplication. Preserve source-specific records, then use normalized DOI plus manual title/year verification for matching. A missing DOI does not justify dropping a record or automatically merging versions.
 
+
+
+## Final-data publication requirement
+
+Only complete, verified database exports should be published as final data. Diagnostic samples are not deliverables. Reconcile expected and downloaded counts and unique source identifiers. Retain every supplied metadata field, including DOI, abstract and keywords. Report missing source fields explicitly; do not invent missing DOIs. Metadata-complete retrieval does not mean final eligibility screening or full-text architectural validation is complete.
