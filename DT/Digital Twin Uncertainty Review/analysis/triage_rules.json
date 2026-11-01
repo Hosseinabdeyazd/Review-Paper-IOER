@@ -1,0 +1,10 @@
+{
+  "uncertainty_representation": "uncertaint\\w*|probabilis\\w*|bayesian|confidence interval|prediction interval|evidential|conformal",
+  "state_update_calibration": "kalman|particle filter|data assimilation|bayesian updat\\w*|model updat\\w*|calibrat\\w*|state estimat\\w*",
+  "propagation_coupling": "uncertainty propagation|propagat\\w* uncertaint\\w*|monte carlo|polynomial chaos|co-simulation|cosimulation|coupled models?|multi-model",
+  "semantics_interoperability": "ontolog\\w*|knowledge graph|semantic\\w*|interoperab\\w*|asset administration shell",
+  "provenance_traceability": "provenance|lineage|traceability|traceable|dependency graph|digital thread",
+  "validation_monitoring": "validat\\w*|verification|drift|residual\\w*|anomaly detection|coverage|out-of-distribution",
+  "decision_feedback": "decision\\w*|risk-aware|risk based|risk-based|robust optim\\w*|chance-constrain\\w*|model predictive control",
+  "architecture": "architectur\\w*|framework|pipeline|middleware|interface\\w*|orchestrat\\w*"
+}

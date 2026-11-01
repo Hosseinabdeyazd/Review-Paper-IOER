@@ -1,0 +1,12 @@
+[
+  {
+    "file": "searches/IEEE_Xplore/DT-U/results/raw/IEEE_DTU_conferences_809.csv",
+    "records": 809,
+    "sha256": "59ba40dd244d167fab2e827955b6ce281e215606a3bf43969738ee59613f067f"
+  },
+  {
+    "file": "searches/IEEE_Xplore/DT-U/results/raw/IEEE_DTU_other_types_419.csv",
+    "records": 419,
+    "sha256": "8e9a1edc58fb02b32b1c88d18c111fba19205154e64c80f0d99a57522756b829"
+  }
+]
