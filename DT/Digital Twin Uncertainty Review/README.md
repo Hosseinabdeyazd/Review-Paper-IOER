@@ -4,7 +4,7 @@
 
 IEEE DT-U retrieval is complete: **1,228 unique records**, with no exclusions. The corpus is the result of the executed query `"digital twin" AND uncertainty`, not a final set of eligible studies. Architecture findings are an initial analysis of exported titles, abstracts and keywords. Full texts have not yet been assessed.
 
-Scopus search returned **3,501** results, but export awaits personal Scopus sign-in. Web of Science search is pending because its access-link navigation was blocked by browser security. See `searches/DATABASE_STATUS.md`; neither source is represented by a downloaded corpus yet.
+Scopus search returned **3,501** results and its personal session is active. A **10-record diagnostic export** is saved; full export remains unresolved. Web of Science search is pending because its access-link navigation was blocked by browser security. See `searches/DATABASE_STATUS.md`; neither source is represented by a complete downloaded corpus yet.
 
 This separate review stream follows the existing IOER repository workflow (queries, raw exports, merged data, screening/coding, analysis and reproducible scripts). It does not replace the S1–S5 evidence or their search counts.
 
@@ -30,3 +30,4 @@ Keep the broad DT review domain-independent first. Later map eligible systems/in
 The extraction unit should be **study → DT system → component → interface → decision/outcome**. Record uncertainty source/type/representation, input and output variables, units, temporal/spatial support, dependencies, propagation method, updates, provenance, validation evidence, and decision use. Separate conceptual/proposed/implemented status from simulation/experiment/deployment validation. Use `not_assessed` when evidence has not been checked; never interpret it as uncertainty being lost.
 
 Scopus and Web of Science are subsequent sources. Do not add their counts to the IEEE total before cross-database deduplication. Preserve source-specific records, then use normalized DOI plus manual title/year verification for matching. A missing DOI does not justify dropping a record or automatically merging versions.
+
