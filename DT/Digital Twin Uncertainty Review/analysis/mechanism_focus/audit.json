@@ -1,0 +1,41 @@
+{
+  "IEEE": {
+    "results": 9,
+    "unique_source_ids": 9,
+    "native_columns": 28,
+    "missing_DOI": 0,
+    "missing_abstract": 0,
+    "outside_previous_DTUA": [],
+    "raw_sha256": "117929a292145c67ff99b1d22614ef98cf3ec3d230a238097245b186e91d37a5",
+    "native_fields_roundtrip": "PASS"
+  },
+  "SCOPUS": {
+    "results": 13,
+    "unique_source_ids": 13,
+    "native_columns": 45,
+    "missing_DOI": 0,
+    "missing_abstract": 0,
+    "outside_previous_DTUA": [],
+    "raw_sha256": "1b7ca7c7aa8d927f93e63cc4a62d9c993668a582231a24bad49e871fd63185f6",
+    "native_fields_roundtrip": "PASS"
+  },
+  "WOS": {
+    "results": 3,
+    "unique_source_ids": 3,
+    "native_columns": 71,
+    "missing_DOI": 0,
+    "missing_abstract": 0,
+    "outside_previous_DTUA": [],
+    "raw_sha256": "71de6ddc15d15f1e5e19a5cc8206c5375bc08c6ae20c9479f10ca19206e2d3a7",
+    "native_fields_roundtrip": "PASS"
+  },
+  "deduplication": {
+    "source_records": 25,
+    "unique_publications": 18,
+    "duplicate_occurrences_removed": 7,
+    "missing_DOI_publications": 0,
+    "cross_doi_similar_title_pairs": [],
+    "metadata_variants": [],
+    "method": "Exact normalized DOI; missing DOI retained independently; cross-DOI title similarity >=0.85 flagged only; canonical metadata preference Scopus, WoS, IEEE; native variants all preserved."
+  }
+}

@@ -56,3 +56,8 @@ Only complete, verified database exports should be published as final data. Diag
 ## Architecture-focused follow-up (DT-UA)
 
 The evidence-derived architecture keyword block has now been directly searched and completely exported in **all three databases: IEEE 349, Scopus 1,011 and Web of Science 494**. All results already occur in their broad baselines. Local tagging had identified 278 IEEE, 1,011 Scopus and 494 WoS source records: the fresh IEEE search adds 71 candidates beyond local matching. These are retrieval candidates, not final eligible studies. See `analysis/architecture_focus/SUMMARY_AND_SEARCH_PROTOCOL.md` for queries, evidence anchors and limitations. Fresh IEEE/Scopus data are `data/merged/IEEE_DTUA_349.csv` and `data/merged/SCOPUS_DTUA_1011.csv`, with raw exports and logs under each database's `DT-UA` directory. Rebuild fresh IEEE/Scopus retrieval checks with `scripts/prepare_dtua_live.py`; retain `scripts/prepare_architecture_focus.py` for the earlier local tagging and WoS reconciliation. Baseline counts are unchanged.
+
+## Mechanism-focused search (DT-UM)
+
+Direct searches on 2026-11-01 retrieved IEEE 9, Scopus 13 and WoS 3 complete records. DOI deduplication yields **18 unique publications**, all with DOI and abstract, for detailed screening. See [report](analysis/mechanism_focus/REPORT.md), [unique publications](analysis/mechanism_focus/deduplicated_publications.csv), and [source mapping](analysis/mechanism_focus/deduplication_map.csv). Prior baselines are unchanged; this is a high-specificity subset, not completed eligibility screening.
+

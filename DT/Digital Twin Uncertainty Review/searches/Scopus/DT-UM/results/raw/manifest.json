@@ -1,0 +1,10 @@
+{
+  "results": 13,
+  "unique_source_ids": 13,
+  "native_columns": 45,
+  "missing_DOI": 0,
+  "missing_abstract": 0,
+  "outside_previous_DTUA": [],
+  "raw_sha256": "1b7ca7c7aa8d927f93e63cc4a62d9c993668a582231a24bad49e871fd63185f6",
+  "native_fields_roundtrip": "PASS"
+}
