@@ -1,0 +1,252 @@
+{
+  "S45-f991069c5e1c": {
+    "decision": "exclude_title_abstract",
+    "reason": "Platform standardizes IoT APIs, authentication and device access; the stated study evaluates interoperability, not material recovery, circular flows or embodied impacts.",
+    "evidence": "existing devices can be accessed via standardized Web API sets"
+  },
+  "S45-c5ab6245e53a": {
+    "decision": "exclude_title_abstract",
+    "reason": "FDTD study concerns lightning-induced voltages in distribution lines; building segmentation is electromagnetic geometry, not circular material segmentation.",
+    "evidence": "variations in electric field strength"
+  },
+  "S45-a2c5bbbf32d0": {
+    "decision": "exclude_title_abstract",
+    "reason": "Theoretical social opinion/action convergence model; neither physical building stock nor material/environmental lifecycle decisions are studied.",
+    "evidence": "time-varying social interaction digraph"
+  },
+  "S45-0e8dadc4b31c": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Asset-level degradation and remaining performance margin may support service-life extension and reuse suitability, but the abstract only demonstrates maintenance prioritization. Inspect whether material recovery/replacement implications are evaluated.",
+    "evidence": "remaining performance margin between a component's current condition and its functional failure boundary"
+  },
+  "S45-753cfdc56e57": {
+    "decision": "exclude_core_keep_methods",
+    "reason": "IFC/BACnet matching is tested for semantic interoperability, without S4 recovery or S5 material impact outcomes. Preserve in a separate methods/background queue for the later digital-twin integration study.",
+    "evidence": "establishing semantic correspondence between design-phase models such as IFC and operational-phase data such as BACnet"
+  },
+  "S45-0db35b9433cc": {
+    "decision": "exclude_core_keep_methods",
+    "reason": "Bayesian radargrammetry estimates urban scatterer geometry. No recovery or embodied impact outcome is stated; possible S1/S2 acquisition method, outside the current S4/S5 core.",
+    "evidence": "3D point scatterer location and the resolution cell configuration"
+  },
+  "S45-6a8a838b75db": {
+    "decision": "exclude_title_abstract",
+    "reason": "Building means developing corporate technological competence; study analyzes patent portfolios, not the built environment.",
+    "evidence": "patent portfolio of a firm"
+  },
+  "S45-4de3f11ee18a": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Renewable retrofit materials and waste avoidance are explicit, but the paper describes education and knowledge transfer. Full text is needed to establish whether recoverability or material impact evidence is extracted.",
+    "evidence": "insulation materials made from renewable resources"
+  },
+  "S45-f529bb96b074": {
+    "decision": "exclude_title_abstract",
+    "reason": "MACC is derived from demand-side energy savings and electricity prices; lifecycle terminology refers to retrofit economic evaluation, with no embodied/material impacts described.",
+    "evidence": "evaluate the energy impact of different retrofits through numerical simulation"
+  },
+  "S45-e56e8b998e52": {
+    "decision": "exclude_title_abstract",
+    "reason": "Thermal stock model generates heating/cooling electric load profiles; no material stock, circular recovery or embodied lifecycle branch is described.",
+    "evidence": "derive electric load profiles of heating and cooling systems"
+  },
+  "S45-46f895ba77ce": {
+    "decision": "exclude_title_abstract",
+    "reason": "Software development tutorial on Vue.js web applications; building is a verb and does not denote physical buildings.",
+    "evidence": "guide to exploring the core concepts of Vue.js"
+  },
+  "S45-8c2d24718341": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Lighting sustainability chapter has a book-level promotional abstract, not chapter-specific evidence. Cannot confirm that material lifecycle impacts are absent from the chapter.",
+    "evidence": "This book is a comprehensive guide"
+  },
+  "S45-39584e2d2ece": {
+    "decision": "exclude_title_abstract",
+    "reason": "Chapter title limits scope to light and color, and supplied book description concerns lighting quality and operational efficiency. No material recovery or embodied environmental assessment is identifiable; book-level abstract limitation recorded.",
+    "evidence": "3 Light and Color"
+  },
+  "S45-85710994af72": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Environmental safety and maintenance may address lamp/component disposal or hazardous material management. Shared book-level abstract cannot resolve chapter scope, so reverse automated exclusion pending full text.",
+    "evidence": "13 Lighting Maintenance and Environmental Safety"
+  },
+  "S45-44e1292fe43f": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Asset lifecycle management and preventive maintenance are mentioned, but financial/utility outcomes dominate. Inspect relevant sections for material life extension/replacement and environmental lifecycle evidence.",
+    "evidence": "asset lifecycle management, and preventive maintenance planning"
+  },
+  "S45-0a6620aca806": {
+    "decision": "exclude_title_abstract",
+    "reason": "Listed sections address building energy accounting, costs and institutional issues; no material recovery or embodied environmental assessment is described.",
+    "evidence": "Introduction: Energy Use in Buildings"
+  },
+  "S45-ae5e2010d213": {
+    "decision": "exclude_title_abstract",
+    "reason": "Lighting design techniques and operational performance are the stated scope; chapter title and supplied description identify no S4/S5 material outcome. Abstract is book-level.",
+    "evidence": "Chapter 3—Lighting Design"
+  },
+  "S45-6007b07e6dbd": {
+    "decision": "exclude_title_abstract",
+    "reason": "Introductory light chapter concerns illumination fundamentals, outside circular material flows and embodied impacts; abstract is book-level.",
+    "evidence": "Chapter 2—An Introduction to Light"
+  },
+  "S45-51e5be1b936b": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Book compares retrofit versus redesign and maintenance; inspect whether retention/replacement of equipment and environmental material impacts are assessed beyond operational savings.",
+    "evidence": "Lighting Redesign for Existing Buildings"
+  },
+  "S45-b1e9aa2f2394": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Retrofit-versus-relight choice could involve component retention/replacement; shared book abstract does not establish chapter-level material scope.",
+    "evidence": "Chapter 1—Retrofit or Relight?"
+  },
+  "S45-6690768a85ac": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Equipment evaluation may consider life, replaceability or material impacts; generic book description cannot establish which criteria are used.",
+    "evidence": "Chapter 5—Evaluating Lighting Equipment"
+  },
+  "S45-747257acc883": {
+    "decision": "exclude_nonresearch_component",
+    "reason": "Appendix of resources rather than an independent study; preserve bibliography provenance but exclude from study screening.",
+    "evidence": "Appendix: Resources"
+  },
+  "S45-52ec0444a66d": {
+    "decision": "exclude_nonresearch_component",
+    "reason": "Book index is navigational back matter, not an independent research report.",
+    "evidence": "Index"
+  },
+  "S45-1bae41af8fb5": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Maintenance could affect component service life; only a shared book abstract is supplied, so chapter content is needed.",
+    "evidence": "Chapter 6—Lighting Maintenance"
+  },
+  "S45-b6306098b667": {
+    "decision": "exclude_title_abstract",
+    "reason": "Chapter on lighting legislation/codes is described in the parent text as energy-code guidance; no circular recovery or material lifecycle outcome is identified. Book-level abstract limitation retained.",
+    "evidence": "Chapter 4—Legislation and Codes"
+  },
+  "S45-067ef2d908be": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Envelope chapter could compare material choices and embodied impacts; shared energy-efficiency book description does not resolve chapter content.",
+    "evidence": "Chapter 7 Envelope"
+  },
+  "S45-bed267126612": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Broad high-performance building guide has a generic description; material lifecycle content cannot be ruled out without contents/full text.",
+    "evidence": "High-performance Buildings: A Guide for Owners & Managers"
+  },
+  "S45-43e7b465b832": {
+    "decision": "exclude_nonresearch_component",
+    "reason": "Sources section is bibliography/back matter, not a separate study.",
+    "evidence": "Sources"
+  },
+  "S45-30763e162e15": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Equipment chapter may include service life or replacement criteria; generic book-level abstract is insufficient for exclusion.",
+    "evidence": "Chapter 9 Mechanical & Electrical Equipment"
+  },
+  "S45-d2138b1fe621": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Operations and maintenance chapter may address lifetime extension; chapter-specific evidence is unavailable.",
+    "evidence": "Chapter 10 Operations & Maintenance"
+  },
+  "S45-cfad51404738": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Inputs is too unspecific to infer material scope; generic parent-book description cannot support a definitive exclusion.",
+    "evidence": "Chapter 1 Inputs"
+  },
+  "S45-b2b5ce7441b1": {
+    "decision": "exclude_title_abstract",
+    "reason": "Building energy analysis is the explicit chapter topic within an energy-performance guide; no material or embodied assessment branch is described. Abstract is book-level.",
+    "evidence": "Chapter 4 Building Energy Analysis"
+  },
+  "S45-c4c3399a20d5": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Commissioning may include asset quality/lifetime criteria; no chapter-specific abstract is provided to resolve relevance.",
+    "evidence": "Chapter 5 Commissioning"
+  },
+  "S45-50ef77883cea": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Rating systems may include material lifecycle criteria; broad parent-book abstract cannot justify exclusion.",
+    "evidence": "Chapter 6 Standards, Codes & Rating Systems"
+  },
+  "S45-1b03217b13b9": {
+    "decision": "exclude_title_abstract",
+    "reason": "On-site distributed power chapter concerns energy provision, with no recovery or embodied-material assessment identified in title or supplied description.",
+    "evidence": "Chapter 8 On-Site Distributed Power (DEG)"
+  },
+  "S45-65e6a5e07905": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Real-estate perspective may compare retention and replacement strategies; only generic book description is available.",
+    "evidence": "Chapter 3 High Performance—A Real Estate Perspective"
+  },
+  "S45-4abf50a6f716": {
+    "decision": "exclude_nonresearch_component",
+    "reason": "Book index is not an independent research report.",
+    "evidence": "Index"
+  },
+  "S45-ed46a49d2220": {
+    "decision": "exclude_core_keep_methods",
+    "reason": "Definitions chapter supplies terminology rather than an evaluated S4/S5 material-flow method; may be retained as background.",
+    "evidence": "Chapter 2 Definitions"
+  },
+  "S45-3a2219c56ec4": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Outputs is an unspecified chapter title; generic book description does not establish whether environmental/material outputs are considered.",
+    "evidence": "Chapter 11 Outputs"
+  },
+  "S45-a71b762e011f": {
+    "decision": "exclude_title_abstract",
+    "reason": "The chapter and book focus on marketing professional services to green-building clients, rather than evaluating material recovery or embodied impact decisions.",
+    "evidence": "Chapter 16 Marketing Services for Future LEED Products"
+  },
+  "S45-a8dccacc0d1d": {
+    "decision": "exclude_title_abstract",
+    "reason": "Teaching game evaluates finance, cash flow, team management and urban project selection; no physical material-flow or environmental lifecycle outcome is specified.",
+    "evidence": "BUILDING CONSTRUCTION MANAGEMENT GAME"
+  },
+  "S45-2696cf8cd74f": {
+    "decision": "exclude_title_abstract",
+    "reason": "Hospital fire-protection organization, equipment inventories and evacuation/fire suppression measures are studied; inventory is for fire safety, not recovery or circular material flows.",
+    "evidence": "Fire protection in hospitals, etc. (Swedish)"
+  },
+  "S45-93bfb79522b3": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Existing-building asbestos identification and substitution directly constrain safe recovery and reuse, but actual end-of-life assessment is not established in the abstract; inspect full text.",
+    "evidence": "Asbestos - health hazards in perspective. Constructional uses"
+  },
+  "S45-659415523f8a": {
+    "decision": "exclude_title_abstract",
+    "reason": "Describes building energy-conservation studies and energy-code guidelines; non-renewable resources refers to energy conservation without material recovery or embodied analysis.",
+    "evidence": "ENERGY CONSERVATION STUDIES FOR NEW AND EXISTING BUILDINGS PRODUCE GUIDELINES AND STANDARDS - TOOLS FOR DECISION MAKING."
+  },
+  "S45-7970ba940723": {
+    "decision": "exclude_title_abstract",
+    "reason": "Hospital fire safety advice concerns personnel, responsibility and fire control; no material recovery or environmental lifecycle assessment is described.",
+    "evidence": "Fire prevention in hospitals"
+  },
+  "S45-883b412ad201": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "No abstract available; title suggests adapting existing hospital stock to changing need, potentially relevant to reuse. Full text required.",
+    "evidence": "Making the best use of the NHS estate: matching the existing building stock to changing need."
+  },
+  "S45-50f1d1101d6d": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "Rehabilitation/preservation decision flow charts and regulatory barriers may inform building retention, but recoverability or environmental outcomes require full-text verification.",
+    "evidence": "INFORMATION STRUCTURE OF BUILDING CODES AND STANDARDS FOR THE NEEDS OF EXISTING BUILDINGS."
+  },
+  "S45-2e9d646b7d9b": {
+    "decision": "exclude_title_abstract",
+    "reason": "Historical discussion of humanist/rationalist traditions in Finnish planning, without material recovery or environmental lifecycle assessment.",
+    "evidence": "( Tradition and conflict).; [Tradition och konflikter.]"
+  },
+  "S45-4ac52107f358": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "No abstract available. Seismic-priority title alone does not resolve whether repair/reuse/replacement or material implications are included.",
+    "evidence": "STRATEGY FOR SETTING PRIORITIES FOR THE EVALUATION OF SEISMIC RESISTANCE OF EXISTING BUILDINGS."
+  },
+  "S45-69577a4ddb49": {
+    "decision": "retain_fulltext_unclear",
+    "reason": "New construction versus enlargement of existing hospitals is a retention/replacement decision; abstract emphasizes functional/economic factors, so full text is needed for material or environmental criteria.",
+    "evidence": "Decision concerning new building of hospital instead of enlarging the existing buildings; [DECIDER LA CONSTRUCTION D'UN NOUVEL HOPITAL AU LIEU D'AGRANDIR DES ETABLISSEMENTS EXISTANTS]"
+  }
+}

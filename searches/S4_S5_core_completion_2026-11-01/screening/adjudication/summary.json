@@ -1,0 +1,20 @@
+{
+  "status": "PARTIAL_NOT_FINAL",
+  "input_records": 9918,
+  "duplicate_groups_examined": 330,
+  "duplicate_group_decisions": {
+    "merge": 304,
+    "retain_distinct_reports": 11,
+    "partial_merge": 1,
+    "retain_pending_identifier_verification": 14
+  },
+  "additional_duplicate_records_removed": 317,
+  "remaining_records": 9601,
+  "requested_title_abstract_records": 7238,
+  "original_records_actually_read_this_revision": 50,
+  "original_records_not_yet_read": 7188,
+  "canonical_records_with_reading_decision": 50,
+  "independent_human_reviewers": 0,
+  "fulltexts_assessed_in_this_revision": 0,
+  "final_included_studies": null
+}
