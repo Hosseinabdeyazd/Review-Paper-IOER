@@ -1,0 +1,12 @@
+{
+  "architecture": "\\barchitectur\\w*",
+  "probabilistic_graphical_model": "\\bprobabilistic[\\s\\-\\u2010-\\u2015]+graphical[\\s\\-\\u2010-\\u2015]+models?\\b",
+  "bayesian_network": "\\bbayesian[\\s\\-\\u2010-\\u2015]+networks?\\b",
+  "knowledge_graph": "\\bknowledge[\\s\\-\\u2010-\\u2015]+graphs?\\b",
+  "data_assimilation": "\\bdata[\\s\\-\\u2010-\\u2015]+assimilation\\b",
+  "sensor_fusion": "\\bsensor[\\s\\-\\u2010-\\u2015]+fusion\\b",
+  "uncertainty_propagation": "\\buncertainty[\\s\\-\\u2010-\\u2015]+propagation\\b",
+  "provenance": "\\bprovenance\\b",
+  "traceability": "\\btraceability\\b",
+  "runtime_verification": "\\bruntime[\\s\\-\\u2010-\\u2015]+verification\\b"
+}

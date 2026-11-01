@@ -1,0 +1,61 @@
+{
+  "IEEE": {
+    "baseline_rows": 1228,
+    "local_keyword_matches": 278,
+    "term_counts": {
+      "architecture": 220,
+      "sensor_fusion": 13,
+      "probabilistic_graphical_model": 3,
+      "bayesian_network": 8,
+      "knowledge_graph": 15,
+      "traceability": 21,
+      "runtime_verification": 1,
+      "uncertainty_propagation": 16,
+      "data_assimilation": 10,
+      "provenance": 6
+    }
+  },
+  "SCOPUS": {
+    "baseline_rows": 3501,
+    "local_keyword_matches": 1011,
+    "term_counts": {
+      "bayesian_network": 204,
+      "knowledge_graph": 41,
+      "architecture": 634,
+      "traceability": 72,
+      "data_assimilation": 97,
+      "uncertainty_propagation": 58,
+      "probabilistic_graphical_model": 8,
+      "runtime_verification": 2,
+      "sensor_fusion": 32,
+      "provenance": 24
+    }
+  },
+  "WOS": {
+    "baseline_rows": 2016,
+    "local_keyword_matches": 494,
+    "term_counts": {
+      "bayesian_network": 35,
+      "data_assimilation": 64,
+      "architecture": 339,
+      "uncertainty_propagation": 40,
+      "runtime_verification": 1,
+      "sensor_fusion": 15,
+      "traceability": 33,
+      "knowledge_graph": 16,
+      "probabilistic_graphical_model": 4,
+      "provenance": 9
+    }
+  },
+  "fresh_WOS_search": {
+    "records": 494,
+    "unique_UT": 494,
+    "native_columns": 71,
+    "missing_DOI": 12,
+    "missing_abstract": 0,
+    "new_UT_outside_baseline": 0,
+    "database_only_vs_local": [],
+    "local_only_vs_database": [],
+    "raw_sha256": "fecdeff8c9cd88fed88560aaa4f0f987d419cb99d0921f47bb370ca656a59250"
+  }
+}

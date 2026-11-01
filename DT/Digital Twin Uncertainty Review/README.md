@@ -52,3 +52,7 @@ IEEE, Scopus and Web of Science are retrieved as separate source corpora. Do not
 ## Final-data publication requirement
 
 Only complete, verified database exports should be published as final data. Diagnostic samples are not deliverables. Reconcile expected and downloaded counts and unique source identifiers. Retain every supplied metadata field, including DOI, abstract and keywords. Report missing source fields explicitly; do not invent missing DOIs. Metadata-complete retrieval does not mean final eligibility screening or full-text architectural validation is complete.
+
+## Architecture-focused follow-up (DT-UA)
+
+An evidence-derived keyword block was freshly searched in Web of Science: **494 results, fully exported**, all already present in its baseline. Local tagging of the complete baselines identifies 278 IEEE, 1,011 Scopus and 494 WoS source records. These are lexical reading candidates, not final eligible studies. Only WoS was freshly queried in this round. See `analysis/architecture_focus/SUMMARY_AND_SEARCH_PROTOCOL.md` for the exact query, evidence anchors, all-record tags, full-metadata subsets and limitations; rebuild with `scripts/prepare_architecture_focus.py`. Baseline counts are unchanged.
