@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="client.xsl" type="text/xsl"?>
+<article article-type="other">
+<front>
+<journal-meta>
+<journal-id/>
+<issn/>
+<banner>
+<href>banner.jpg</href>
+<size width="100%"/>
+</banner>
+</journal-meta>
+<article-meta>
+<title-group>
+<doi>RP-053-P264</doi>
+<article-title>Anchor Recovery with Inclined Compressed Air Tunneling for the City Tunnel Leipzig</article-title>
+</title-group>
+
+<author>Tim Babendererde<sup>a</sup> and Philipp Elsner<sup>b</sup>  </author>
+
+<aff>Babendererde Engineers, Markt 2, 23611 Bad Schwartau, Germany. </aff>
+
+<email><a href="mailto:tb@babeng.com  "><sup>a</sup>tb@babeng.com </a></email>
+
+<email><a href="mailto:pe@babeng.com  "><sup>b</sup>pe@babeng.com </a></email>
+
+</article-meta></front>
+<body>
+<abstract>
+<title>ABSTRACT</title>
+<p>In the inner city of Leipzig, Germany, the London, U.K. based AMEC group, an international infrastructure specialist, faced the problem that old cable anchors from the construction pit of a multiplex shopping center built by AMEC in 1999/2000 had to be recovered from under existing buildings and the main shopping road. They were in the path of two tunnel boring machines (TBMs) prepared to build the so-called &#8220;City TunnelLeipzig&#8221;. To simply run over the anchors with the TBMs was not an option due to the risk of uncontrollable ground movement and face collapse directly under buildings. A recovery from the TBMs was technically and financially extremely risky. A recovery from the road was impossible as well as it would have had a major impact on the surrounding commerce. By chance a large building opposite to the shopping center was demolished in that time just over the area where some anchors crossed the tunnels, opening a short time window for surface works. The anchors were finally recovered by a pile borer and a slurry wall excavator in a first stage and by pipe jacking under compressed air along the anchor axis in a second stage.  </p>
+<p><italic>Keywords: </italic> Pipe jack, Inclined, Compressed air, Anchor recovery. </p>
+</abstract>
+<fpdf>
+<href>pdflogo.jpg</href>
+<hpdf>RP-053-P264</hpdf>
+</fpdf>
+</body>
+</article>

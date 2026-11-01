@@ -1,8 +1,8 @@
 ﻿item,count,qualification
 database_unique_records_identified,14869,Partial checkpoint; not a completed PRISMA flow
 previous_duplicates_removed,4951,Partial checkpoint; not a completed PRISMA flow
-additional_duplicates_removed,317,Partial checkpoint; not a completed PRISMA flow
-records_after_current_deduplication,9601,Partial checkpoint; not a completed PRISMA flow
+additional_duplicates_removed,331,Partial checkpoint; not a completed PRISMA flow
+records_after_current_deduplication,9587,Partial checkpoint; not a completed PRISMA flow
 requested_records_actually_read,50,Partial checkpoint; not a completed PRISMA flow
 requested_records_still_unread,7188,Partial checkpoint; not a completed PRISMA flow
 fulltexts_assessed,0,Partial checkpoint; not a completed PRISMA flow

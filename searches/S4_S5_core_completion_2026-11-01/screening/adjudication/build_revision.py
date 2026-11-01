@@ -16,7 +16,7 @@ for group,v in dup.items():
  if merge_ids:
   canonical=max(merge_ids,key=lambda x:(bool(records[x]['doi']),len(records[x]['abstract'])))
   for x in merge_ids:aliases[x]=canonical
-  if v.get('canonical_doi'):canonical_dois[canonical]=v['canonical_doi']
+  if 'canonical_doi' in v:canonical_dois[canonical]=v['canonical_doi']
  audit.append({'group_id':'DUP-'+str(int(group)+1).zfill(3),**v,'canonical_id':canonical,'merged_record_ids':';'.join(merge_ids),'reviewer':'assistant bibliographic adjudication','independent_human_review':'not performed'})
 def csvout(name,rr):
  fields=list(dict.fromkeys(k for r in rr for k in r))
@@ -35,7 +35,7 @@ for canonical,ids in members.items():
   r[field]=' | '.join(dict.fromkeys(records[x][field] for x in ids if records[x][field]))
  r['abstract']=max((records[x]['abstract'] for x in ids),key=len)
  for field in r:
-  if not r[field] and field in records[canonical]:
+  if not r[field] and field in records[canonical] and not (field=='doi' and canonical in canonical_dois):
    r[field]=next((records[x][field] for x in ids if records[x].get(field)),r[field])
  rr=[(x,reviews[x]) for x in ids if x in reviews]
  r['adjudication_status']='not_yet_reassessed';r['adjudication_reason']='';r['adjudication_evidence']='';r['adjudication_reviewed_ids']='';r['adjudication_reviewer']=''

@@ -2117,11 +2117,15 @@
     "verification_url": "https://link.springer.com/chapter/10.1007/978-3-032-06810-1_107"
   },
   "309": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Crossref verifies the underscore chapter DOI and matching chapter title/pages; the hyphen variant returned 404.",
     "evidence": "S45-a2703d306aa9: Environmental Earth Sciences; vol=; issue=; pages=223–234; DOI=10.1007/978-3-540-95991-5-22 | S45-7b22dee5edbf: SURVIVAL AND SUSTAINABILITY: ENVIRONMENTAL CONCERNS IN THE 21ST CENTURY; vol=; issue=; pages=223–+; DOI=10.1007/978-3-540-95991-5_22",
     "candidate_ids": "S45-a2703d306aa9;S45-7b22dee5edbf",
-    "title": "Survival of the vernacular environments in North Cyprus through sustainable tourism implementation"
+    "title": "Survival of the vernacular environments in North Cyprus through sustainable tourism implementation",
+    "canonical_doi": "10.1007/978-3-540-95991-5_22",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1007%2F978-3-540-95991-5-22 | https://api.crossref.org/works/10.1007%2F978-3-540-95991-5_22"
   },
   "310": {
     "decision": "merge",
@@ -2142,11 +2146,15 @@
     "verification_url": "https://research.monash.edu/en/publications/a-proposed-knowledge-framework-for-experiential-decision-making-i/"
   },
   "312": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Both supplied DOIs are registered for the same title, authors, journal volume 34 issues 5–6 and report. Preserve the Elsevier-form DOI as a valid alias; prefer the IWA DOI.",
     "evidence": "S45-711f21cb4f6a: Water Science and Technology; vol=34; issue=5-6 -6 pt 3; pages=295–302; DOI=10.1016/0273-1223(96)00658-0 | S45-5c756fb65e96: WATER SCIENCE AND TECHNOLOGY; vol=34; issue=5-6; pages=295–302; DOI=10.2166/wst.1996.0563",
     "candidate_ids": "S45-711f21cb4f6a;S45-5c756fb65e96",
-    "title": "Seasonal change of microbial population and activities in a building wastewater reuse system using a membrane separation activated sludge process"
+    "title": "Seasonal change of microbial population and activities in a building wastewater reuse system using a membrane separation activated sludge process",
+    "canonical_doi": "10.2166/wst.1996.0563",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1016%2F0273-1223%2896%2900658-0 | https://api.crossref.org/works/10.2166%2Fwst.1996.0563"
   },
   "313": {
     "decision": "retain_distinct_reports",
@@ -2165,11 +2173,15 @@
     "verification_url": "https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9364%282004%29130%3A2%28249%29"
   },
   "315": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Current and legacy Crossref entries agree on French, Journal of Earthquake Engineering 10(2), page 207; the current entry gives the matching title and pages 207–236. The legacy DOI is not invalid; retain as an alias.",
     "evidence": "S45-3fe6efe3e6b5: Journal of Earthquake Engineering; vol=10; issue=2; pages=207–236; DOI=10.1080/13632460609350594 | S45-0939e19cda43: JOURNAL OF EARTHQUAKE ENGINEERING; vol=10; issue=2; pages=207–236; DOI=10.1142/s1363246906002591",
     "candidate_ids": "S45-3fe6efe3e6b5;S45-0939e19cda43",
-    "title": "Advanced technologies for earthquake risk inventories"
+    "title": "Advanced technologies for earthquake risk inventories",
+    "canonical_doi": "10.1080/13632460609350594",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1080%2F13632460609350594 | https://api.crossref.org/works/10.1142%2Fs1363246906002591"
   },
   "316": {
     "decision": "merge",
@@ -2181,25 +2193,37 @@
     "verification_url": "https://www.tandfonline.com/doi/abs/10.1080/13632460609350596"
   },
   "317": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Both Crossref requests return the same canonical DOI with issue 3 and matching title; issue 5 in the supplied alternative is not the canonical identifier.",
     "evidence": "S45-692efc8dca8c: INTERNATIONAL CONFERENCE CISBAT 2025; vol=3140; issue=; pages=–; DOI=10.1088/1742-6596/3140/3/032010 | S45-273d9c5c75fd: Journal of Physics: Conference Series; vol=3140; issue=3; pages=–; DOI=10.1088/1742-6596/3140/5/032010",
     "candidate_ids": "S45-692efc8dca8c;S45-273d9c5c75fd",
-    "title": "Assessment of urban-scale building photovoltaic potential: a case study in Matera, Italy"
+    "title": "Assessment of urban-scale building photovoltaic potential: a case study in Matera, Italy",
+    "canonical_doi": "10.1088/1742-6596/3140/3/032010",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F3%2F032010 | https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F5%2F032010"
   },
   "318": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Both Crossref requests return the same canonical DOI with issue 7 and matching title; issue 8 in the supplied alternative is not the canonical identifier.",
     "evidence": "S45-8f3bc1c6a245: INTERNATIONAL CONFERENCE CISBAT 2025; vol=3140; issue=; pages=–; DOI=10.1088/1742-6596/3140/7/072010 | S45-7408631b0358: Journal of Physics: Conference Series; vol=3140; issue=7; pages=–; DOI=10.1088/1742-6596/3140/8/072010",
     "candidate_ids": "S45-8f3bc1c6a245;S45-7408631b0358",
-    "title": "Thermophysical analyses and experimental characterisation of Villa Manganelli's building envelope"
+    "title": "Thermophysical analyses and experimental characterisation of Villa Manganelli's building envelope",
+    "canonical_doi": "10.1088/1742-6596/3140/7/072010",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F7%2F072010 | https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F8%2F072010"
   },
   "319": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Both registered DOIs resolve in Crossref resource metadata to IEEE document 1322733 and agree on title, Weng/Yashiro and pages 541–543. The VETECF container is inconsistent; this is one EcoDesign report, not two conference reports. Preserve both identifiers.",
     "evidence": "S45-3bf33a24fcae: 2003 EcoDesign 3rd International Symposium on Environmentally Conscious Design and Inverse Manufacturing; vol=; issue=; pages=541–543; DOI=10.1109/ecodim.2003.1322733 | S45-dd78f4e4fd76: 2003 3RD INTERNATIONAL SYMPOSIUM ON ENVIRONMENTALLY CONSCIOUS DESIGN AND INVERSE MANUFACTURING - ECODESIGN '03; vol=; issue=; pages=541–543; DOI=10.1109/vetecf.2003.240139",
     "candidate_ids": "S45-3bf33a24fcae;S45-dd78f4e4fd76",
-    "title": "The Japanese building stock and a management system for the re-use of building materials from the viewpoint of improved resource utilization"
+    "title": "The Japanese building stock and a management system for the re-use of building materials from the viewpoint of improved resource utilization",
+    "canonical_doi": "10.1109/ecodim.2003.1322733",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1109%2Fecodim.2003.1322733 | https://api.crossref.org/works/10.1109%2Fvetecf.2003.240139"
   },
   "320": {
     "decision": "retain_distinct_reports",
@@ -2209,18 +2233,26 @@
     "title": "New Thoughts of Urban Power Network Planning which Building the Urban Power Network Structure System"
   },
   "321": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Crossref verifies the matching Carbon Impact Air Curtains report under 5998416; the extra-leading-zero variant returned 404.",
     "evidence": "S45-87d0593e7a7e: International Conference on Management and Service Science, MASS 2011; vol=; issue=; pages=–; DOI=10.1109/icmss.2011.05998416 | S45-ac67fa6e3a5c: 2011 International Conference on Management and Service Science; vol=; issue=; pages=1–4; DOI=10.1109/icmss.2011.5998416",
     "candidate_ids": "S45-87d0593e7a7e;S45-ac67fa6e3a5c",
-    "title": "Carbon impact of supplying energy to air curtains via hot water. An assessment of options to refit services in existing buildings"
+    "title": "Carbon impact of supplying energy to air curtains via hot water. An assessment of options to refit services in existing buildings",
+    "canonical_doi": "10.1109/icmss.2011.5998416",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1109%2Ficmss.2011.05998416 | https://api.crossref.org/works/10.1109%2Ficmss.2011.5998416"
   },
   "322": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Crossref verifies the matching fuzzy-logic fire/IoT report and pages 216–221 under 00046; the supplied 000-2 variant returned 404.",
     "evidence": "S45-97a5f9cb77dc: Proceedings - 2018 IEEE International Conference on Smart Internet of Things, SmartIoT 2018; vol=; issue=; pages=216–221; DOI=10.1109/smartiot.2018.000-2 | S45-a468ce216874: 2018 IEEE International Conference on Smart Internet of Things (SmartIoT); vol=; issue=; pages=216–221; DOI=10.1109/smartiot.2018.00046",
     "candidate_ids": "S45-97a5f9cb77dc;S45-a468ce216874",
-    "title": "Fuzzy logic-based model for the prevention of structural fires on urban buildings using mobile devices and IoT technologies"
+    "title": "Fuzzy logic-based model for the prevention of structural fires on urban buildings using mobile devices and IoT technologies",
+    "canonical_doi": "10.1109/smartiot.2018.00046",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.1109%2Fsmartiot.2018.000-2 | https://api.crossref.org/works/10.1109%2Fsmartiot.2018.00046"
   },
   "323": {
     "decision": "merge",
@@ -2232,46 +2264,70 @@
     "verification_url": "https://www.cogitatiopress.com/urbanplanning/issue/viewFile/461/452"
   },
   "324": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Crossref identifies this DOI as the matching HVAC article, volume 4(1), pages 23–44. The other identifier 10.4324/9781849776349 is the parent book, not a separate version of this article.",
     "evidence": "S45-164b438197f8: Advances in Building Energy Research; vol=4; issue=1; pages=23–44; DOI=10.3763/aber.2009.0402 | S45-8e8bd01095e6: Advances in Building Energy Research; vol=4; issue=; pages=23–44; DOI=10.4324/9781849776349",
     "candidate_ids": "S45-164b438197f8;S45-8e8bd01095e6",
-    "title": "On the evaluation of heating, ventilating and air conditioning systems"
+    "title": "On the evaluation of heating, ventilating and air conditioning systems",
+    "canonical_doi": "10.3763/aber.2009.0402",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.3763%2Faber.2009.0402 | https://api.crossref.org/works/10.4324%2F9781849776349"
   },
   "325": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Publisher XML RP-053-P264 confirms the identical title, Babendererde/Elsner authors and anchor-recovery abstract. Both supplied complete DOI strings returned Crossref 404; the publisher exposes only local article identifier RP-053-P264. Merge the duplicated report on bibliographic evidence, leave canonical DOI unverified/blank and retain both supplied strings. A Crossref 404 alone does not establish global DOI invalidity.",
     "evidence": "S45-15a5a2533156: ADVANCES IN UNDERGROUND SPACE DEVELOPMENT; vol=; issue=; pages=964–974; DOI=10.3850/978-981-07-3757-3_rp-053-p264 | S45-a8f3c2ba56f8: Proceedings of the 13th World Confernece of ACUUS: Advances in Underground Space Development, ACUUS 2012; vol=; issue=; pages=964–974; DOI=10.3850/978-981-07-3757-3rp-053-p264",
     "candidate_ids": "S45-15a5a2533156;S45-a8f3c2ba56f8",
-    "title": "ANCHOR RECOVERY WITH INCLINED COMPRESSED AIR TUNNELING FOR THE CITY TUNNEL LEIPZIG"
+    "title": "ANCHOR RECOVERY WITH INCLINED COMPRESSED AIR TUNNELING FOR THE CITY TUNNEL LEIPZIG",
+    "canonical_doi": "",
+    "identifier_status": "unverified_preserved",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.3850%2F978-981-07-3757-3_rp-053-p264 | https://api.crossref.org/works/10.3850%2F978-981-07-3757-3rp-053-p264 | https://rpsonline.com.sg/proceedings/9789810737573/html/RP-053-P264.xml"
   },
   "326": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Crossref verifies the matching book chapter A Good Role Model for Ontologies, pages 225–235, as ch013; ch0013 returned 404. Do not merge with the separate 2010 journal version.",
     "evidence": "S45-ac71520197d4: Enterprise Information Systems and Advancing Business Solutions: Emerging Models; vol=; issue=; pages=225–235; DOI=10.4018/978-1-4666-1761-2.ch0013 | S45-6e0993385946: ENTERPRISE INFORMATION SYSTEMS AND ADVANCING BUSINESS SOLUTIONS: EMERGING MODELS; vol=; issue=; pages=225–235; DOI=10.4018/978-1-4666-1761-2.ch013",
     "candidate_ids": "S45-ac71520197d4;S45-6e0993385946",
-    "title": "A Good Role Model for Ontologies: Collaborations"
+    "title": "A Good Role Model for Ontologies: Collaborations",
+    "canonical_doi": "10.4018/978-1-4666-1761-2.ch013",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.4018%2F978-1-4666-1761-2.ch0013 | https://api.crossref.org/works/10.4018%2F978-1-4666-1761-2.ch013"
   },
   "327": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Publisher page confirms title, authors and pages 334–343 but displays neither supplied DOI. Retain identifier conflict until registered metadata can resolve it; no DOI inferred from URL.",
+    "decision": "merge",
+    "reason": "Crossref and publisher article 132 match the architecture title, authors and pages 334–343. The alternative 10.48619 identifier returned 404.",
     "evidence": "S45-82f3168bace1: Architecture Image Studies; vol=6; issue=1; pages=334–343; DOI=10.48619/ais.v6i1.1173 | S45-1da75880d890: Architecture Image Studies; vol=6; issue=1; pages=334–343; DOI=10.62754/ais.v6i1.132",
     "candidate_ids": "S45-82f3168bace1;S45-1da75880d890",
     "title": "Designing Green Architecture Building that Blend with the Nature",
-    "verification_url": "https://www.journals.ap2.pt/index.php/ais/article/view/132"
+    "verification_url": "https://www.journals.ap2.pt/index.php/ais/article/view/132",
+    "canonical_doi": "10.62754/ais.v6i1.132",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.48619%2Fais.v6i1.1173 | https://api.crossref.org/works/10.62754%2Fais.v6i1.132"
   },
   "328": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Both DOI spellings are registered and point to publisher article 18801 with identical title/authors/pages 56–65. Merge as one report and preserve both valid DOI aliases.",
     "evidence": "S45-83bdbee7f135: VITRUVIO-INTERNATIONAL JOURNAL OF ARCHITECTURAL TECHNOLOGY AND SUSTAINABILITY; vol=8; issue=; pages=56–65; DOI=10.4995/vitruvio-ijats.2023.18801 | S45-922cdff69826: Vitruvio; vol=8; issue=special2; pages=56–65; DOI=10.4995/vitruvioijats.2023.18801",
     "candidate_ids": "S45-83bdbee7f135;S45-922cdff69826",
-    "title": "Nested-building as an effective strategy for the reuse of reinforced concrete industrial buildings. The case of the ex-Manifattura Tabacchi factory in Verona (1930-65)"
+    "title": "Nested-building as an effective strategy for the reuse of reinforced concrete industrial buildings. The case of the ex-Manifattura Tabacchi factory in Verona (1930-65)",
+    "canonical_doi": "10.4995/vitruvio-ijats.2023.18801",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.4995%2Fvitruvio-ijats.2023.18801 | https://api.crossref.org/works/10.4995%2Fvitruvioijats.2023.18801"
   },
   "329": {
-    "decision": "retain_pending_identifier_verification",
-    "reason": "Conflicting supplied DOIs. Publication identity may match, but identifiers must be verified with publisher/registration metadata before merger; retain both original DOI values.",
+    "decision": "merge",
+    "reason": "Both DOI spellings are registered and point to publisher article 19674 with identical title/authors/pages 98–105. Merge as one report and preserve both valid DOI aliases.",
     "evidence": "S45-85183591b7de: VITRUVIO-INTERNATIONAL JOURNAL OF ARCHITECTURAL TECHNOLOGY AND SUSTAINABILITY; vol=8; issue=; pages=98–105; DOI=10.4995/vitruvio-ijats.2023.19674 | S45-ec7eead712a6: Vitruvio; vol=8; issue=special2; pages=98–105; DOI=10.4995/vitruvioijats.2023.19674",
     "candidate_ids": "S45-85183591b7de;S45-ec7eead712a6",
-    "title": "HBIM tools for knowledge, maintenance and conservation of concrete built heritage"
+    "title": "HBIM tools for knowledge, maintenance and conservation of concrete built heritage",
+    "canonical_doi": "10.4995/vitruvio-ijats.2023.19674",
+    "identifier_status": "verified",
+    "verification_date": "2026-11-01",
+    "evidence_urls": "https://api.crossref.org/works/10.4995%2Fvitruvio-ijats.2023.19674 | https://api.crossref.org/works/10.4995%2Fvitruvioijats.2023.19674"
   }
 }

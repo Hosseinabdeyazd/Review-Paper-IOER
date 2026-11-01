@@ -1,0 +1,1550 @@
+[
+  {
+    "group": "309",
+    "supplied_doi": "10.1007/978-3-540-95991-5-22",
+    "url": "https://api.crossref.org/works/10.1007%2F978-3-540-95991-5-22",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "309",
+    "supplied_doi": "10.1007/978-3-540-95991-5_22",
+    "url": "https://api.crossref.org/works/10.1007%2F978-3-540-95991-5_22",
+    "status": "found",
+    "DOI": "10.1007/978-3-540-95991-5_22",
+    "title": [
+      "Survival of the Vernacular Environments in North Cyprus Through Sustainable Tourism Implementation"
+    ],
+    "author": [
+      {
+        "given": "Özlem Ogaç",
+        "family": "Türker",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Springer Berlin Heidelberg",
+    "container-title": [
+      "Survival and Sustainability"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "223-234",
+    "article-number": null,
+    "type": "book-chapter",
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-540-95991-5_22"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "312",
+    "supplied_doi": "10.1016/0273-1223(96)00658-0",
+    "url": "https://api.crossref.org/works/10.1016%2F0273-1223%2896%2900658-0",
+    "status": "found",
+    "DOI": "10.1016/0273-1223(96)00658-0",
+    "title": [
+      "Seasonal change of microbial population and activities in a building wastewater reuse system using a membrane separation activated sludge process"
+    ],
+    "author": null,
+    "publisher": "IWA Publishing",
+    "container-title": [
+      "Water Science and Technology"
+    ],
+    "volume": "34",
+    "issue": "5-6",
+    "page": null,
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "http://wst.iwaponline.com/content/34/5-6/295"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "312",
+    "supplied_doi": "10.2166/wst.1996.0563",
+    "url": "https://api.crossref.org/works/10.2166%2Fwst.1996.0563",
+    "status": "found",
+    "DOI": "10.2166/wst.1996.0563",
+    "title": [
+      "Seasonal change of microbial population and activities in a building wastewater reuse system using a membrane separation activated sludge process"
+    ],
+    "author": [
+      {
+        "given": "Boran",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kazuo",
+        "family": "Yamamoto",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IWA Publishing",
+    "container-title": [
+      "Water Science and Technology"
+    ],
+    "volume": "34",
+    "issue": "5-6",
+    "page": "295-302",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://iwaponline.com/wst/article/34/5-6/295/6246/Seasonal-change-of-microbial-population-and"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "315",
+    "supplied_doi": "10.1080/13632460609350594",
+    "url": "https://api.crossref.org/works/10.1080%2F13632460609350594",
+    "status": "found",
+    "DOI": "10.1080/13632460609350594",
+    "title": [
+      "ADVANCED TECHNOLOGIES FOR EARTHQUAKE RISK INVENTORIES∗"
+    ],
+    "author": [
+      {
+        "given": "STEVEN P.",
+        "family": "FRENCH",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "SUBRAHMANYAM",
+        "family": "MUTHUKUMAR",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Informa UK Limited",
+    "container-title": [
+      "Journal of Earthquake Engineering"
+    ],
+    "volume": "10",
+    "issue": "2",
+    "page": "207-236",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "http://www.tandfonline.com/doi/full/10.1080/13632460609350594"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "315",
+    "supplied_doi": "10.1142/s1363246906002591",
+    "url": "https://api.crossref.org/works/10.1142%2Fs1363246906002591",
+    "status": "found",
+    "DOI": "10.1142/s1363246906002591",
+    "title": [],
+    "author": [
+      {
+        "given": "STEVEN P.",
+        "family": "FRENCH",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Informa UK Limited",
+    "container-title": [
+      "Journal of Earthquake Engineering"
+    ],
+    "volume": "10",
+    "issue": "2",
+    "page": "207",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "http://www.worldscinet.com/jee/10/1002/S1363246906002591.html"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "317",
+    "supplied_doi": "10.1088/1742-6596/3140/3/032010",
+    "url": "https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F3%2F032010",
+    "status": "found",
+    "DOI": "10.1088/1742-6596/3140/3/032010",
+    "title": [
+      "Assessment of urban-scale building photovoltaic potential: a case study in Matera, Italy"
+    ],
+    "author": [
+      {
+        "given": "M",
+        "family": "Ghellere",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "L",
+        "family": "Belussi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C",
+        "family": "Romanengo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "T",
+        "family": "Sorgente",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "D",
+        "family": "Cabiddu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "F",
+        "family": "Salamone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "M",
+        "family": "Mortara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A",
+        "family": "Bellazzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "L",
+        "family": "Danza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IOP Publishing",
+    "container-title": [
+      "Journal of Physics: Conference Series"
+    ],
+    "volume": "3140",
+    "issue": "3",
+    "page": "032010",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1742-6596/3140/3/032010"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "317",
+    "supplied_doi": "10.1088/1742-6596/3140/5/032010",
+    "url": "https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F5%2F032010",
+    "status": "found",
+    "DOI": "10.1088/1742-6596/3140/3/032010",
+    "title": [
+      "Assessment of urban-scale building photovoltaic potential: a case study in Matera, Italy"
+    ],
+    "author": [
+      {
+        "given": "M",
+        "family": "Ghellere",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "L",
+        "family": "Belussi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "C",
+        "family": "Romanengo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "T",
+        "family": "Sorgente",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "D",
+        "family": "Cabiddu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "F",
+        "family": "Salamone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "M",
+        "family": "Mortara",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A",
+        "family": "Bellazzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "L",
+        "family": "Danza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IOP Publishing",
+    "container-title": [
+      "Journal of Physics: Conference Series"
+    ],
+    "volume": "3140",
+    "issue": "3",
+    "page": "032010",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1742-6596/3140/3/032010"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "318",
+    "supplied_doi": "10.1088/1742-6596/3140/7/072010",
+    "url": "https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F7%2F072010",
+    "status": "found",
+    "DOI": "10.1088/1742-6596/3140/7/072010",
+    "title": [
+      "Thermophysical analyses and experimental characterisation of Villa Manganelli’s building envelope"
+    ],
+    "author": [
+      {
+        "given": "A",
+        "family": "Gagliano",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S",
+        "family": "Aneli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "V",
+        "family": "Sapienza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IOP Publishing",
+    "container-title": [
+      "Journal of Physics: Conference Series"
+    ],
+    "volume": "3140",
+    "issue": "7",
+    "page": "072010",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1742-6596/3140/7/072010"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "318",
+    "supplied_doi": "10.1088/1742-6596/3140/8/072010",
+    "url": "https://api.crossref.org/works/10.1088%2F1742-6596%2F3140%2F8%2F072010",
+    "status": "found",
+    "DOI": "10.1088/1742-6596/3140/7/072010",
+    "title": [
+      "Thermophysical analyses and experimental characterisation of Villa Manganelli’s building envelope"
+    ],
+    "author": [
+      {
+        "given": "A",
+        "family": "Gagliano",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S",
+        "family": "Aneli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "V",
+        "family": "Sapienza",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IOP Publishing",
+    "container-title": [
+      "Journal of Physics: Conference Series"
+    ],
+    "volume": "3140",
+    "issue": "7",
+    "page": "072010",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1088/1742-6596/3140/7/072010"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "319",
+    "supplied_doi": "10.1109/ecodim.2003.1322733",
+    "url": "https://api.crossref.org/works/10.1109%2Fecodim.2003.1322733",
+    "status": "found",
+    "DOI": "10.1109/ecodim.2003.1322733",
+    "title": [
+      "The Japanese building stock and a management system for the re-use of building materials from the viewpoint of improved resource utilization"
+    ],
+    "author": [
+      {
+        "family": "Chia-Liang Weng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "family": "Yashiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2003 EcoDesign 3rd International Symposium on Environmentally Conscious Design and Inverse Manufacturing"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "541-543",
+    "article-number": null,
+    "type": "proceedings-article",
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/1322733/"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "319",
+    "supplied_doi": "10.1109/vetecf.2003.240139",
+    "url": "https://api.crossref.org/works/10.1109%2Fvetecf.2003.240139",
+    "status": "found",
+    "DOI": "10.1109/vetecf.2003.240139",
+    "title": [
+      "The Japanese building stock and a management system for the re-use of building materials from the viewpoint of improved resource utilization"
+    ],
+    "author": [
+      {
+        "family": "Chia-Liang Weng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Yashiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2003 IEEE 58th Vehicular Technology Conference. VTC 2003-Fall (IEEE Cat. No.03CH37484)"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "541-543",
+    "article-number": null,
+    "type": "proceedings-article",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/1322733"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "321",
+    "supplied_doi": "10.1109/icmss.2011.05998416",
+    "url": "https://api.crossref.org/works/10.1109%2Ficmss.2011.05998416",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "321",
+    "supplied_doi": "10.1109/icmss.2011.5998416",
+    "url": "https://api.crossref.org/works/10.1109%2Ficmss.2011.5998416",
+    "status": "found",
+    "DOI": "10.1109/icmss.2011.5998416",
+    "title": [
+      "Carbon Impact of Supplying Energy to Air Curtains via Hot Water. An Assessment of Options to Refit Services in Existing Buildings"
+    ],
+    "author": [
+      {
+        "given": "Tomas",
+        "family": "Gil",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Castejon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Miguel A.",
+        "family": "Galvez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Virginia",
+        "family": "Gomez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2011 International Conference on Management and Service Science"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-4",
+    "article-number": null,
+    "type": "proceedings-article",
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/5998416/"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "322",
+    "supplied_doi": "10.1109/smartiot.2018.000-2",
+    "url": "https://api.crossref.org/works/10.1109%2Fsmartiot.2018.000-2",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "322",
+    "supplied_doi": "10.1109/smartiot.2018.00046",
+    "url": "https://api.crossref.org/works/10.1109%2Fsmartiot.2018.00046",
+    "status": "found",
+    "DOI": "10.1109/smartiot.2018.00046",
+    "title": [
+      "Fuzzy Logic-Based Model for the Prevention of Structural Fires on Urban Buildings Using Mobile Devices and IoT Technologies"
+    ],
+    "author": [
+      {
+        "given": "Kevin Alexandre",
+        "family": "Riano-Vargas",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jorge Ivan",
+        "family": "Alonso-Echeverri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Paulo Alonso",
+        "family": "Gaona-Garcia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Carlos Enrique",
+        "family": "Montenegro-Marin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2018 IEEE International Conference on Smart Internet of Things (SmartIoT)"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "216-221",
+    "article-number": null,
+    "type": "proceedings-article",
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8465552/"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "324",
+    "supplied_doi": "10.3763/aber.2009.0402",
+    "url": "https://api.crossref.org/works/10.3763%2Faber.2009.0402",
+    "status": "found",
+    "DOI": "10.3763/aber.2009.0402",
+    "title": [
+      "On the evaluation of heating, ventilating and air conditioning systems"
+    ],
+    "author": [
+      {
+        "given": "A.",
+        "family": "Avgelis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "A. M.",
+        "family": "Papadopoulos",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Informa UK Limited",
+    "container-title": [
+      "Advances in Building Energy Research"
+    ],
+    "volume": "4",
+    "issue": "1",
+    "page": "23-44",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "http://www.tandfonline.com/doi/abs/10.3763/aber.2009.0402"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "324",
+    "supplied_doi": "10.4324/9781849776349",
+    "url": "https://api.crossref.org/works/10.4324%2F9781849776349",
+    "status": "found",
+    "DOI": "10.4324/9781849776349",
+    "title": [
+      "Advances in Building Energy Research"
+    ],
+    "author": [
+      {
+        "given": "Mat",
+        "family": "Santamouris",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Routledge",
+    "container-title": [],
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article-number": null,
+    "type": "book",
+    "resource": {
+      "primary": {
+        "URL": "https://www.taylorfrancis.com/books/9781136532788"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "325",
+    "supplied_doi": "10.3850/978-981-07-3757-3_rp-053-p264",
+    "url": "https://api.crossref.org/works/10.3850%2F978-981-07-3757-3_rp-053-p264",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "325",
+    "supplied_doi": "10.3850/978-981-07-3757-3rp-053-p264",
+    "url": "https://api.crossref.org/works/10.3850%2F978-981-07-3757-3rp-053-p264",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "326",
+    "supplied_doi": "10.4018/978-1-4666-1761-2.ch0013",
+    "url": "https://api.crossref.org/works/10.4018%2F978-1-4666-1761-2.ch0013",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "326",
+    "supplied_doi": "10.4018/978-1-4666-1761-2.ch013",
+    "url": "https://api.crossref.org/works/10.4018%2F978-1-4666-1761-2.ch013",
+    "status": "found",
+    "DOI": "10.4018/978-1-4666-1761-2.ch013",
+    "title": [
+      "A Good Role Model for Ontologies"
+    ],
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Pradel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Technische Universität Dresden, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jakob",
+        "family": "Henriksson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universität Dresden, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Uwe",
+        "family": "Aßmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technische Universität Dresden, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "IGI Global",
+    "container-title": [
+      "Enterprise Information Systems and Advancing Business Solutions"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "225-235",
+    "article-number": null,
+    "type": "book-chapter",
+    "resource": {
+      "primary": {
+        "URL": "http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/978-1-4666-1761-2.ch013"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "327",
+    "supplied_doi": "10.48619/ais.v6i1.1173",
+    "url": "https://api.crossref.org/works/10.48619%2Fais.v6i1.1173",
+    "status": "lookup_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "group": "327",
+    "supplied_doi": "10.62754/ais.v6i1.132",
+    "url": "https://api.crossref.org/works/10.62754%2Fais.v6i1.132",
+    "status": "found",
+    "DOI": "10.62754/ais.v6i1.132",
+    "title": [
+      "Designing Green Architecture Building that Blend with the Nature"
+    ],
+    "author": [
+      {
+        "given": "M. Sunil",
+        "family": "Kumar",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gaurav",
+        "family": "Shukla",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nimesh",
+        "family": "Raj",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shikhar",
+        "family": "Gupta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Swarna Swetha",
+        "family": "Kolavent",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.C. Esther",
+        "family": "Kiruba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Trilochan",
+        "family": "Jena",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "Creative Publishing House",
+    "container-title": [
+      "Architecture  Image Studies"
+    ],
+    "volume": "6",
+    "issue": "1",
+    "page": "334-343",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://journals.ap2.pt/index.php/ais/article/view/132"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "328",
+    "supplied_doi": "10.4995/vitruvio-ijats.2023.18801",
+    "url": "https://api.crossref.org/works/10.4995%2Fvitruvio-ijats.2023.18801",
+    "status": "found",
+    "DOI": "10.4995/vitruvio-ijats.2023.18801",
+    "title": [
+      "Nested-building as an effective strategy for the reuse of reinforced concrete industrial buildings. The case of the ex-Manifattura Tabacchi factory in Verona (1930-65)"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3228-8294",
+        "authenticated-orcid": false,
+        "given": "Angelo",
+        "family": "Bertolazzi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9674-8405",
+        "authenticated-orcid": false,
+        "given": "Elisa",
+        "family": "D'Agnolo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Giorgia",
+        "family": "Fattori",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Andrea",
+        "family": "Piccinato",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4886-9015",
+        "authenticated-orcid": false,
+        "given": "Giorgio",
+        "family": "Croatto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5111-0398",
+        "authenticated-orcid": false,
+        "given": "Umberto",
+        "family": "Turrini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Universitat Politecnica de Valencia",
+    "container-title": [
+      "VITRUVIO - International Journal of Architectural Technology and Sustainability"
+    ],
+    "volume": "8",
+    "issue": null,
+    "page": "56-65",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "http://polipapers.upv.es/index.php/vitruvio/article/view/18801"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "328",
+    "supplied_doi": "10.4995/vitruvioijats.2023.18801",
+    "url": "https://api.crossref.org/works/10.4995%2Fvitruvioijats.2023.18801",
+    "status": "found",
+    "DOI": "10.4995/vitruvioijats.2023.18801",
+    "title": [
+      "Nested-building as an effective strategy for the reuse of reinforced concrete industrial buildings. The case of the ex-Manifattura Tabacchi factory in Verona (1930-65)"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3228-8294",
+        "authenticated-orcid": false,
+        "given": "Angelo",
+        "family": "Bertolazzi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9674-8405",
+        "authenticated-orcid": false,
+        "given": "Elisa",
+        "family": "D'Agnolo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Giorgia",
+        "family": "Fattori",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Andrea",
+        "family": "Piccinato",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4886-9015",
+        "authenticated-orcid": false,
+        "given": "Giorgio",
+        "family": "Croatto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5111-0398",
+        "authenticated-orcid": false,
+        "given": "Umberto",
+        "family": "Turrini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Universitat Politecnica de Valencia",
+    "container-title": [
+      "VITRUVIO - International Journal of Architectural Technology and Sustainability"
+    ],
+    "volume": "8",
+    "issue": null,
+    "page": "56-65",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://polipapers.upv.es/index.php/vitruvio/article/view/18801"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "329",
+    "supplied_doi": "10.4995/vitruvio-ijats.2023.19674",
+    "url": "https://api.crossref.org/works/10.4995%2Fvitruvio-ijats.2023.19674",
+    "status": "found",
+    "DOI": "10.4995/vitruvio-ijats.2023.19674",
+    "title": [
+      "HBIM tools for knowledge, maintenance and conservation of concrete built heritage"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7341-3840",
+        "authenticated-orcid": false,
+        "given": "Rosa",
+        "family": "Agliata",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Dafne",
+        "family": "D'Aponte",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7343-7826",
+        "authenticated-orcid": false,
+        "given": "Raffaella",
+        "family": "Lione",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1067-0142",
+        "authenticated-orcid": false,
+        "given": "Luigi",
+        "family": "Mollo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Universitat Politecnica de Valencia",
+    "container-title": [
+      "VITRUVIO - International Journal of Architectural Technology and Sustainability"
+    ],
+    "volume": "8",
+    "issue": null,
+    "page": "98-105",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "http://polipapers.upv.es/index.php/vitruvio/article/view/19674"
+      }
+    },
+    "relation": {}
+  },
+  {
+    "group": "329",
+    "supplied_doi": "10.4995/vitruvioijats.2023.19674",
+    "url": "https://api.crossref.org/works/10.4995%2Fvitruvioijats.2023.19674",
+    "status": "found",
+    "DOI": "10.4995/vitruvioijats.2023.19674",
+    "title": [
+      "HBIM tools for knowledge, maintenance and conservation of concrete built heritage"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7341-3840",
+        "authenticated-orcid": false,
+        "given": "Rosa",
+        "family": "Agliata",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Dafne",
+        "family": "D'Aponte",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7343-7826",
+        "authenticated-orcid": false,
+        "given": "Raffaella",
+        "family": "Lione",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1067-0142",
+        "authenticated-orcid": false,
+        "given": "Luigi",
+        "family": "Mollo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Universitat Politecnica de Valencia",
+    "container-title": [
+      "VITRUVIO - International Journal of Architectural Technology and Sustainability"
+    ],
+    "volume": "8",
+    "issue": null,
+    "page": "98-105",
+    "article-number": null,
+    "type": "journal-article",
+    "resource": {
+      "primary": {
+        "URL": "https://polipapers.upv.es/index.php/vitruvio/article/view/19674"
+      }
+    },
+    "relation": {}
+  }
+]

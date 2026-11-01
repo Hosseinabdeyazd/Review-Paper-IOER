@@ -3,13 +3,12 @@
   "input_records": 9918,
   "duplicate_groups_examined": 330,
   "duplicate_group_decisions": {
-    "merge": 304,
+    "merge": 318,
     "retain_distinct_reports": 11,
-    "partial_merge": 1,
-    "retain_pending_identifier_verification": 14
+    "partial_merge": 1
   },
-  "additional_duplicate_records_removed": 317,
-  "remaining_records": 9601,
+  "additional_duplicate_records_removed": 331,
+  "remaining_records": 9587,
   "requested_title_abstract_records": 7238,
   "original_records_actually_read_this_revision": 50,
   "original_records_not_yet_read": 7188,
