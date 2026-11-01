@@ -1,0 +1,14 @@
+{
+  "source_rows": 83,
+  "conservative_unique_records": 43,
+  "duplicate_source_rows": 40,
+  "unique_without_doi": 6,
+  "possible_title_duplicate_groups": 0,
+  "verified_searches": 6,
+  "planned_searches": 6,
+  "stage_unique_counts": {
+    "B12": 42,
+    "B23": 13
+  },
+  "both_bridges": 12
+}

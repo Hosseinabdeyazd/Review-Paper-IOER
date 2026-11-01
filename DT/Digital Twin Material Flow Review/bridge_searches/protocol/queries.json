@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-01",
+  "version": "v1",
+  "blocks": {
+    "dt": "(\"digital twin\" OR \"digital twins\")",
+    "context": "(building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\")",
+    "materials": "(\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\")",
+    "observation": "(BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology)",
+    "time": "(\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement)"
+  },
+  "queries": [
+    {
+      "id": "DTMF-B12-v1",
+      "connection": "S1_to_S2",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology) AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology) AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology) AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\"))"
+    },
+    {
+      "id": "DTMF-B23-v1",
+      "connection": "S2_to_S3",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement)",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement))"
+    }
+  ],
+  "filters": "No year/language/document-type/OA filter; no mandatory uncertainty or named algorithm",
+  "interpretation": "Co-occurrence retrieves candidates for interfaces; it does not prove directional transformation or uncertainty propagation."
+}

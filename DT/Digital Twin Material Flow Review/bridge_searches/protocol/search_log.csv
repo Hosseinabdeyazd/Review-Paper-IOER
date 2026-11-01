@@ -1,0 +1,7 @@
+﻿database,stage,query_id,search_date,displayed_count,exported_rows,status
+IEEE,B12,DTMF-B12-v1,2026-11-01,4,4,verified_complete
+IEEE,B23,DTMF-B23-v1,2026-11-01,0,0,verified_zero_no_export
+Scopus,B12,DTMF-B12-v1,2026-11-01,36,36,verified_complete
+Scopus,B23,DTMF-B23-v1,2026-11-01,11,11,verified_complete
+WoS,B12,DTMF-B12-v1,2026-11-01,23,23,verified_complete
+WoS,B23,DTMF-B23-v1,2026-11-01,9,9,verified_complete
