@@ -1,0 +1,43 @@
+{
+  "screened": 392,
+  "S4": 143,
+  "S5": 331,
+  "intersection": 82,
+  "S4_only": 61,
+  "S5_only": 249,
+  "categories": [
+    {
+      "category": "explicit_propagation",
+      "unique_records": 52,
+      "S4_query_members": 17,
+      "S5_query_members": 43,
+      "both_query_members": 8
+    },
+    {
+      "category": "mention_or_no_demonstrated_uq",
+      "unique_records": 144,
+      "S4_query_members": 63,
+      "S5_query_members": 112,
+      "both_query_members": 31
+    },
+    {
+      "category": "quantified_uncertainty_only",
+      "unique_records": 40,
+      "S4_query_members": 20,
+      "S5_query_members": 30,
+      "both_query_members": 10
+    },
+    {
+      "category": "sensitivity_scenarios_only",
+      "unique_records": 156,
+      "S4_query_members": 43,
+      "S5_query_members": 146,
+      "both_query_members": 33
+    }
+  ],
+  "cross_stage_claims": {
+    "not_demonstrated": 299,
+    "possible": 90,
+    "explicit": 3
+  }
+}

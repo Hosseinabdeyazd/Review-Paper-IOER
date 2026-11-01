@@ -1,0 +1,57 @@
+{
+  "all_392_mechanism_decisions.csv": {
+    "bytes": 1828587,
+    "sha256": "ea10d1e37920a28c707a8daa95fe855b95030e58af7bb44fd17598f23608bc59",
+    "git_blob_sha1": "9f9b2d8749f808a1f93622faff28b65897a4f00a"
+  },
+  "cross_stage_candidates.csv": {
+    "bytes": 16288,
+    "sha256": "48b486b55ebccb50a8fd5b050a2f6b77eedc6919a327ad674a59b79bbae2b313",
+    "git_blob_sha1": "3d703c7ba76f46fbe9c7198413e5180e6111addc"
+  },
+  "individual_decisions.json": {
+    "bytes": 250720,
+    "sha256": "5bb915a4fc8c67f90dc6c61de10dacf8d116bc39dca9106164c878bdd1fa5f4e",
+    "git_blob_sha1": "59417938fb47737dea7d181c51c18e34a1f30220"
+  },
+  "integrate_uq392.py": {
+    "bytes": 7982,
+    "sha256": "ce85204ce8505c3fc8e238c05d1f25dc6ea12b3afe1c2f6572819e5385143b91",
+    "git_blob_sha1": "5b0f60df2bf095d2e6e6b7fe5d348278173c4977"
+  },
+  "mechanism_counts.csv": {
+    "bytes": 242,
+    "sha256": "23ebe7064b521b75f737adad19796677ff2c636617f3896de965716758c3c488",
+    "git_blob_sha1": "0c7ca3112f91e8506e31a9f8b0342f6c23fc5246"
+  },
+  "propagation_candidates.csv": {
+    "bytes": 236993,
+    "sha256": "4d197db687e8748a3bee57b4ae337326cc2e156cd2a312f398359827391a833f",
+    "git_blob_sha1": "c99f5a95ec998970db98f24ddb48cfd5fa40720f"
+  },
+  "README.md": {
+    "bytes": 200,
+    "sha256": "e4886d010653c8c750a01e35f612f17042a33718da89bc5b354c73d043af0ac3",
+    "git_blob_sha1": "3a50e0a807bd0ac1ae47203b055b5dca0f4b59aa"
+  },
+  "REPORT.md": {
+    "bytes": 4849,
+    "sha256": "61fcafecbcca4efe128bbef0a4d210ab685d60708290b20bf65b68f440c407c3",
+    "git_blob_sha1": "95587e3e6396378f44077f950a7bef2382e72cd3"
+  },
+  "reproducibility.zip": {
+    "bytes": 556585,
+    "sha256": "955a98a423913e5c4336dda9c96fa90f8120c01284083f025b5bb29ef6e337d8",
+    "git_blob_sha1": "f5fa4d303e466d0afd61856c8c874c311b151eaf"
+  },
+  "summary.json": {
+    "bytes": 987,
+    "sha256": "ddb9ea14910340ba80b8e0797c29a4e342a7a64d06e7a185b1ecded15f834575",
+    "git_blob_sha1": "8e95901ebec2c1755fd598247d51607cba8a640c"
+  },
+  "targeted_source_checks.csv": {
+    "bytes": 2839,
+    "sha256": "ec7999fed0be0345d45bdb5019299442f7988fe6e9b78456def885a14d32720d",
+    "git_blob_sha1": "ee8861f761dd32de102689a4ce27f50152a18169"
+  }
+}

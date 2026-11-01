@@ -1,0 +1,5 @@
+﻿category,unique_records,S4_query_members,S5_query_members,both_query_members
+explicit_propagation,52,17,43,8
+mention_or_no_demonstrated_uq,144,63,112,31
+quantified_uncertainty_only,40,20,30,10
+sensitivity_scenarios_only,156,43,146,33
