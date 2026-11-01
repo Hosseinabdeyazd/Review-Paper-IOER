@@ -1,0 +1,25 @@
+# Preliminary architecture signals from exported abstracts
+
+**Evidence level: abstract only.** These are purposively selected leads for full-text reading, not an exhaustive synthesis or a claim that the corpus has been screened. Search-stage membership and analytical interface coverage are different: an article found only in S4 can describe mechanisms useful to S2 or S3.
+
+| Article / DOI | Architecture explicitly described in its abstract | Why it matters to this project | Uncertainty question still requiring full text |
+|---|---|---|---|
+| [Linking Design, Deconstruction and Characterization](https://doi.org/10.1002/best.70129) | Concrete-element DTs with knowledge graphs, in-situ characterization, process information, discrete-event simulation and supply–demand matching | Connects element properties, temporal availability, refurbishment and sustainability functions; strong lead for S3→S4→S5 | Are measurement/property uncertainties and correlated availability times propagated through matching and indicators? |
+| [Integrating Digital Twins and Material Passports for Circular Built Environment Management](https://doi.org/10.1007/978-3-032-18712-3_19) | Conceptual combined DT–material-passport platform: dynamic asset representation plus composition, provenance and reuse information | A direct candidate for persistent identity and inventory-to-recovery links | Does provenance include uncertainty representations and version-dependent transformations, or only descriptive history? |
+| [Creating a universal semantic material bank](https://doi.org/10.1016/B978-0-443-33333-0.00003-X) | Decentralized material-bank network with semantic-web interoperability and spatial/temporal resource information | Suggests architecture for exchanging material and component information across organizational boundaries | Are uncertainty semantics exchanged with quantities and availability, and are dependencies preserved across banks? |
+| [Enhancing Circularity in the Building Industry](https://doi.org/10.1061/JCEMD4.COENG-16899) | Review proposing dynamic material passports continuously updated through DT integration; identifies integration/scalability gaps | Useful secondary source for the transition from static inventories to lifecycle updates | Which cited implementations actually track and propagate uncertainty? A review proposal is not implementation evidence. |
+| [A workflow for LLM-assisted IFC data enrichment](https://doi.org/10.1016/j.jobe.2026.115397) | IFC metadata-gap identification, contextual tables, LLM reasoning, expert oversight, circularity algorithm and Grasshopper visualization | Makes the inference step between incomplete component data and reuse assessment explicit | Are inferred attributes distinguished from measurements and accompanied by calibrated confidence, evidence and downstream sensitivity? |
+| [Method Development for the Quantification of Urban Mining Potentials at District Level](https://doi.org/10.1007/978-981-96-6657-7_7) | CityGML and multiple databases connect quantities/composition to renovation or demolition assumptions, recovery and grey emissions | A concrete data-transformation chain spanning inventory, timing and impacts | Does it implement DT synchronization? Does it propagate uncertain quantities/times, or use deterministic assumptions? |
+| [Developing a methodological framework for adopting digitalization for deconstruction planning](https://doi.org/10.1063/5.0071722) | Proposed digital framework for estimating and categorizing C&D waste in existing facilities; case-study validation stated as future work | Relevant conceptual deconstruction architecture; clearly distinguish from a validated twin | What uncertainty-handling mechanism is specified, and what remains future work? |
+
+## What can and cannot be inferred now
+
+A useful **working synthesis**, not an established common architecture across all retrieved studies, is:
+
+`Observation → identified building/component model → material inventory/passport → dated material events/flows → recovery/matching → impact/decision services`.
+
+Semantic interoperability, element identity, temporal availability and state updating are promising interfaces to investigate. Their presence can make uncertainty lineage technically possible, but does not show that uncertainty is represented or propagated. Our proposed uncertainty payload and transformation log are defined in `ARCHITECTURE_EXTRACTION_PROTOCOL.md` and must not be attributed to these papers without explicit evidence.
+
+The next reading should prioritize the concrete-element ecosystem, semantic material bank, DT–passport frameworks and IFC enrichment workflow, then trace their cited primary implementations. Assess each interface using input/output variables and evidence locators. No overall frequency, validation ranking or claim of an uncertainty-continuity gap is justified from these selected abstracts alone.
+
+Source provenance: locate each DOI in `analysis/deduplicated_records.csv`; use `analysis/stage_source_membership.csv` to recover the original database, stage, file and record number. Full native metadata remains in `raw/`.

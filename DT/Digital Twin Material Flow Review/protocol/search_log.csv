@@ -1,0 +1,16 @@
+﻿database,stage,query_id,search_date,displayed_count,exported_rows,status
+IEEE,S1,DTMF-S1-v1,2026-11-01,389,389,verified_complete
+IEEE,S2,DTMF-S2-v1,2026-11-01,9,9,verified_complete
+IEEE,S3,DTMF-S3-v1,2026-11-01,64,64,verified_complete
+IEEE,S4,DTMF-S4-v1,2026-11-01,160,160,verified_complete
+IEEE,S5,DTMF-S5-v1,2026-11-01,102,102,verified_complete
+Scopus,S1,DTMF-S1-v1,2026-11-01,1043,1043,verified_complete
+Scopus,S2,DTMF-S2-v1,2026-11-01,65,65,verified_complete
+Scopus,S3,DTMF-S3-v1,2026-11-01,115,115,verified_complete
+Scopus,S4,DTMF-S4-v1,2026-11-01,547,547,verified_complete
+Scopus,S5,DTMF-S5-v1,2026-11-01,346,346,verified_complete
+WoS,S1,DTMF-S1-v1,2026-11-01,652,652,verified_complete
+WoS,S2,DTMF-S2-v1,2026-11-01,38,38,verified_complete
+WoS,S3,DTMF-S3-v1,2026-11-01,61,61,verified_complete
+WoS,S4,DTMF-S4-v1,2026-11-01,331,331,verified_complete
+WoS,S5,DTMF-S5-v1,2026-11-01,202,202,verified_complete

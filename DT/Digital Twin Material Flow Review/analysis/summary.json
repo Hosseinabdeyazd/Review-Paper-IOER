@@ -1,0 +1,16 @@
+{
+  "source_rows": 4124,
+  "conservative_unique_records": 2447,
+  "duplicate_source_rows": 1677,
+  "unique_without_doi": 264,
+  "possible_title_duplicate_groups": 42,
+  "verified_searches": 15,
+  "planned_searches": 15,
+  "stage_unique_counts": {
+    "S1": 1408,
+    "S2": 77,
+    "S3": 177,
+    "S4": 702,
+    "S5": 451
+  }
+}
