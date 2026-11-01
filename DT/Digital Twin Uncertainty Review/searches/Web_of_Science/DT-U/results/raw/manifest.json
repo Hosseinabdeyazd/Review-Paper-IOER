@@ -1,0 +1,45 @@
+{
+  "database": "Web of Science Core Collection",
+  "query": "TS=(\"digital twin\" AND uncertainty)",
+  "editions": "All available",
+  "date_restriction": "None added",
+  "sort": "Relevance",
+  "record_content": "Full Record and Cited References",
+  "batches": [
+    {
+      "file": "WOS_DTU_0001_0500.tsv",
+      "start_record": 1,
+      "end_record": 500,
+      "rows": 500,
+      "sha256": "f240ba1fc276471eebc912f65bee02892314ab02633533637589de11f0d7610d"
+    },
+    {
+      "file": "WOS_DTU_0501_1000.tsv",
+      "start_record": 501,
+      "end_record": 1000,
+      "rows": 500,
+      "sha256": "0dccbc38a829a90e4f791b133805670ff7c8d7cc2cfea8f42f473c2a754adaa5"
+    },
+    {
+      "file": "WOS_DTU_1001_1500.tsv",
+      "start_record": 1001,
+      "end_record": 1500,
+      "rows": 500,
+      "sha256": "29c073d85ad32b222085712f94d4d8bd1838a3750eff60c3226762942272ab87"
+    },
+    {
+      "file": "WOS_DTU_1501_2000.tsv",
+      "start_record": 1501,
+      "end_record": 2000,
+      "rows": 500,
+      "sha256": "a486eff95a0aa791f4817e343f608b44d6701af81ce258bd9aa10c8255c6a8b4"
+    },
+    {
+      "file": "WOS_DTU_2001_2016.tsv",
+      "start_record": 2001,
+      "end_record": 2016,
+      "rows": 16,
+      "sha256": "4a5fa42a4cf684df66a95c3383f14b93b3f430b8d41a7241c0b4a79e2a358ae6"
+    }
+  ]
+}

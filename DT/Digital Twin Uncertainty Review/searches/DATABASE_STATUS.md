@@ -4,7 +4,7 @@
 |---|---|---:|---:|---|
 | IEEE Xplore | General search: `"digital twin" AND uncertainty` | 1,228 | 1,228 | Complete metadata export; 2 exhaustive partitions |
 | Scopus | Documents; Article title, Abstract, Keywords: `"digital twin" AND uncertainty` | 3,501 | 3,501 unique EIDs | Complete; 18 native batches, all 45 columns, truncation OFF |
-| Web of Science | Not yet executed | Not established | 0 | SLUB access page reached; browser navigation blocked |
+| Web of Science Core Collection | Topic: `TS=("digital twin" AND uncertainty)` | 2,016 | 2,016 unique UTs | Complete; 5 native batches, all 71 columns, Full Record and Cited References |
 
 ## Scopus
 
@@ -18,9 +18,9 @@ Access source: [SLUB DBIS Scopus](https://dbis.ur.de/SLUB/resources/3636).
 
 ## Web of Science
 
-The [SLUB DBIS entry](https://dbis.ur.de/SLUB/resources/3366) identifies its licensed Core Collection and access route. The browser security policy rejected navigation using the page's “Zur Datenbank” link, reporting an invalid URL. No alternate route was used to circumvent the rejection. User assistance opening the database is pending.
+The user completed access through the [SLUB DBIS route](https://dbis.ur.de/SLUB/resources/3366), resolving the earlier browser navigation block. Core Collection and the personal session were verified on the institutional proxy. No credentials were stored in project files.
 
-Planned comparable search: Core Collection, Topic `"digital twin" AND uncertainty` (advanced form `TS=("digital twin" AND uncertainty)`). Record the actual collection, available indexes, timespan and query when executed. This is **planned, not executed**.
+Executed search: Core Collection, Topic `TS=("digital twin" AND uncertainty)`, All available editions, no added date/filter restrictions. All 2,016 results were exported as Full Record and Cited References in five contiguous ranges (1–500, 501–1000, 1001–1500, 1501–2000, 2001–2016). Validation confirms 2,016 unique UTs, no duplicate UTs and identical 71-column schemas. There are 1,944 DOI values, 72 blank DOIs, three blank abstracts and three blank reference fields. All source rows and fields are retained. Edition coverage, hashes and reproducible processing are documented in `Web_of_Science/DT-U/SEARCH_LOG.md` and the audit.
 
 Search fields and indexing differ between platforms, so the counts must not be treated as directly equivalent. Cross-database deduplication has not been performed.
 
