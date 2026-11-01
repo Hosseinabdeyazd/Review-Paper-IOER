@@ -1,0 +1,11 @@
+{
+  "exact_946_coverage": true,
+  "pending": 0,
+  "other_8641_decisions_unchanged": true,
+  "original_bibliographic_fields_preserved": true,
+  "literal_evidence_validated": 946,
+  "duplicate_decisions_unchanged": true,
+  "counts_reconcile": true,
+  "source_sha256": "fd1958250da59de27e7ee7ba86c6b1565311e76c432be6f01b6fc197fe126f75",
+  "scientific_correctness_not_guaranteed_by_automated_validation": true
+}

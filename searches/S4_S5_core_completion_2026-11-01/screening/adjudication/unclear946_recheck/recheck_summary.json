@@ -1,0 +1,65 @@
+{
+  "rechecked": 946,
+  "pending_recheck": 0,
+  "recheck_outcomes": {
+    "exclude_core_keep_methods": 146,
+    "retain_for_fulltext": 264,
+    "retain_fulltext_unclear": 327,
+    "exclude_title_abstract": 179,
+    "exclude_nonresearch_component": 2,
+    "retain_secondary": 28
+  },
+  "canonical_records": 9587,
+  "all_current_outcomes": {
+    "exclude_title_abstract": 4236,
+    "exclude_core_keep_methods": 1623,
+    "retain_for_fulltext": 2932,
+    "retain_fulltext_unclear": 327,
+    "exclude_nonresearch_component": 117,
+    "retain_secondary": 351,
+    "exclude_retracted_source": 1
+  },
+  "layer_breakdown": [
+    {
+      "status": "exclude_core_keep_methods",
+      "base_only": 1170,
+      "uncertainty_query_member": 453
+    },
+    {
+      "status": "exclude_nonresearch_component",
+      "base_only": 102,
+      "uncertainty_query_member": 15
+    },
+    {
+      "status": "exclude_retracted_source",
+      "base_only": 1,
+      "uncertainty_query_member": 0
+    },
+    {
+      "status": "exclude_title_abstract",
+      "base_only": 3247,
+      "uncertainty_query_member": 989
+    },
+    {
+      "status": "retain_for_fulltext",
+      "base_only": 2540,
+      "uncertainty_query_member": 392
+    },
+    {
+      "status": "retain_fulltext_unclear",
+      "base_only": 294,
+      "uncertainty_query_member": 33
+    },
+    {
+      "status": "retain_secondary",
+      "base_only": 300,
+      "uncertainty_query_member": 51
+    }
+  ],
+  "baseline_retained": 2668,
+  "baseline_retained_uncertainty_query_members": 345,
+  "baseline_retained_base_only": 2323,
+  "independent_human_reviewers": 0,
+  "full_text_eligibility_completed": false,
+  "query_membership_is_not_uncertainty_propagation_evidence": true
+}

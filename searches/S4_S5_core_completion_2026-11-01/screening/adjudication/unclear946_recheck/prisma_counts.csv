@@ -1,0 +1,17 @@
+﻿stage,count
+exported_query_memberships,19963
+within_database_overlap_removed,5094
+database_distinct_identified,14869
+previous_cross_database_duplicates_removed,4951
+additional_adjudicated_duplicates_removed,331
+canonical_records_screened,9587
+records_unreviewed,0
+unclear_records_rechecked,946
+recheck_pending,0
+exclude_core_keep_methods,1623
+exclude_nonresearch_component,117
+exclude_retracted_source,1
+exclude_title_abstract,4236
+retain_for_fulltext,2932
+retain_fulltext_unclear,327
+retain_secondary,351

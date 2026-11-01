@@ -1,0 +1,8 @@
+﻿status,base_only,uncertainty_query_member
+exclude_core_keep_methods,1170,453
+exclude_nonresearch_component,102,15
+exclude_retracted_source,1,0
+exclude_title_abstract,3247,989
+retain_for_fulltext,2540,392
+retain_fulltext_unclear,294,33
+retain_secondary,300,51
