@@ -2,7 +2,7 @@
 
 ## Status, 1 November 2026
 
-IEEE DT-U retrieval is complete: **1,228 unique records**, with no exclusions. The corpus is the result of the executed query `"digital twin" AND uncertainty`, not a final set of eligible studies. Architecture findings are an initial analysis of exported titles, abstracts and keywords. Full texts have not yet been assessed.
+IEEE DT-U retrieval is complete: **1,228 unique records**, with no exclusions. The corpus is the result of the executed query `"digital twin" AND uncertainty`, not a final set of eligible studies. Architecture findings are an initial analysis of exported titles, abstracts and keywords. The broad-corpus findings remain abstract-level. A subsequent full-text review covers 13 of the 18 DT-UM records; see the full-text section below.
 
 Scopus DT-U retrieval is complete: **3,501 unique EIDs**, retaining all 45 native metadata columns without Excel truncation. Eighteen 200-record native exports contain 3,600 rows and 99 identical repeated occurrences. There are 3,315 supplied DOIs, 186 missing DOI values and 9 source placeholders for unavailable abstracts. All records are retained. Web of Science retrieval is also complete: **2,016 unique UTs**, all 71 native fields, including cited references; 1,944 DOI values, 72 blank DOIs and three blank abstracts. The user resolved the earlier access block. See `searches/DATABASE_STATUS.md`.
 
@@ -60,4 +60,16 @@ The evidence-derived architecture keyword block has now been directly searched a
 ## Mechanism-focused search (DT-UM)
 
 Direct searches on 2026-11-01 retrieved IEEE 9, Scopus 13 and WoS 3 complete records. DOI deduplication yields **18 unique publications**, all with DOI and abstract, for detailed screening. See [report](analysis/mechanism_focus/REPORT.md), [unique publications](analysis/mechanism_focus/deduplicated_publications.csv), and [source mapping](analysis/mechanism_focus/deduplication_map.csv). Prior baselines are unchanged; this is a high-specificity subset, not completed eligibility screening.
+
+
+
+## Full-text review, 1 November 2026
+
+13 verified PDFs have been read (12 publisher versions and one arXiv v2 preprint). Five of the 18 DT-UM records remain unavailable locally. A later request refers to 15 papers; the additional two identities are unresolved. No 15-paper completion claim is made.
+
+- [Architecture, mechanisms, validation and relevance report](fulltext/FULLTEXT_REVIEW.md)
+- [Full-text extraction and status for all 18 records](fulltext/fulltext_extraction.csv)
+- [Version, file-hash and count audit](fulltext/review_audit.json)
+
+The report separates implemented mechanisms, study claims, limitations and reviewer interpretation. The original search/deduplication records remain unchanged. Subscription PDFs are held locally and are not included in this repository publication. Earlier download inventories are historical and superseded by review_audit.json for current availability.
 
