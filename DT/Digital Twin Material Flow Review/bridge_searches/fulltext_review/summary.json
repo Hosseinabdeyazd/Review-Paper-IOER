@@ -1,0 +1,11 @@
+{
+  "input_records": 43,
+  "core_retained": 8,
+  "complement_retained": 6,
+  "background": 18,
+  "excluded": 11,
+  "selected_for_fulltext": 14,
+  "pdf_downloaded": 5,
+  "html_body_saved": 7,
+  "fulltext_pending": 2
+}

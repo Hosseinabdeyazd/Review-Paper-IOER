@@ -1,0 +1,389 @@
+{
+  "DTMFB-a7a418dfad9a": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Proceedings-volume record, not an individual study; mine individual papers separately.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-e49024d6463c": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Proceedings-volume record, not an individual study.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-c669b9472b4e": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-2394c459ec04": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Explicit GIS geometry to nested assemblies/elements/material quantities. Temporal flows are a supported use, not an executed probabilistic turnover model.",
+    "assessed_bridge": "B12;B23 enabling only",
+    "fulltext_status": "local_pdf",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-fed94baa3fab": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-133f54b7721d": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-f99e8d0c846b": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract",
+    "reason": "Conceptual DT-material-passport integration directly addresses inventory continuity; retain separately from empirical implementations.",
+    "assessed_bridge": "B12/B23 conceptual",
+    "fulltext_status": "not_retrieved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-cf97704d8d4f": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Business incubator and business-model focus; no operational stage transformation in abstract.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-7b8729bf813b": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "CityGML to material composition/quantity and renovation/demolition timing: highest-priority direct B12/B23 candidate.",
+    "assessed_bridge": "B12;B23 candidate",
+    "fulltext_status": "local_pdf",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-f0c800a2060a": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-40499f73a5ad": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-bcea98fa0cb4": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-786eef4ce139": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Existing residential building surveys to structured BIM inventory and reusable components.",
+    "assessed_bridge": "B12",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-f427e33fec30": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Bibliometric/text-mining study, not an asset-data transformation.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-2c878ddf4181": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Scan-to-BIM material intensity to GIS stocks; observed demolition change detection is an additional temporal connection.",
+    "assessed_bridge": "B12;B23 retrospective event link",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-b4b30934b9c7": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-8f8e99555025": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-c10031066329": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Railway circular-economy review outside building-stock bridge scope.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-709fe5ad194f": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-6a5ede377778": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-ecc9d2df06e3": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-896958b37737": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-ee7e0fbd7f3d": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-d47259f057da": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Heritage scan-to-BIM documentation without material-inventory conversion demonstrated in abstract.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-3482018df11d": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "AI circular-business tools rather than asset inventory/flow transformation.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-ba08181cf4ef": {
+    "screening_decision": "retain_complement",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Complementary material sensing/classification method; no complete building stock bridge established.",
+    "assessed_bridge": "B12 sensing complement",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-7e66a7e89bf0": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Adoption roadmap rather than implemented observation-to-inventory or inventory-to-flow method.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-b1868ec07fce": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract",
+    "reason": "Condition observations to structured material inventory for selective reuse; digital twin is future development.",
+    "assessed_bridge": "B12 condition inventory",
+    "fulltext_status": "not_retrieved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-54569aed309b": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Embankment-dam review outside building-stock scope.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-856d2825c306": {
+    "screening_decision": "retain_complement",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Complementary document-to-quantity/cost pipeline; downstream target is cost rather than material outflow.",
+    "assessed_bridge": "B12 quantity complement",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-9df8a42b155f": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Downstream reuse decision/business model; no target bridge demonstrated.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-f82bf5f38bf3": {
+    "screening_decision": "retain_complement",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Implemented inventory and logistics data fusion; timed construction deliveries are distinct from building-stock turnover.",
+    "assessed_bridge": "B12;construction-logistics B23 analogue",
+    "fulltext_status": "local_pdf",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-4a2db38d6a3f": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-d0986a5c7847": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-0e906b271b76": {
+    "screening_decision": "retain_complement",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Explicit probabilistic quantity/productivity-to-duration method and provenance controls; construction scheduling, not demolition turnover.",
+    "assessed_bridge": "construction-duration B23 analogue",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-78aa72dab521": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-f1a803053705": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "BIM/BoQ to component/material bank visualization and disassembly attributes; no demonstrated probabilistic timing.",
+    "assessed_bridge": "B12 inventory representation",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-fce2adfa82fc": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-63b88ca6f73d": {
+    "screening_decision": "exclude_from_bridge_synthesis",
+    "decision_basis": "title_abstract",
+    "reason": "Railway-bridge maintenance outside building material-stock/turnover scope.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-3638be4ee41a": {
+    "screening_decision": "background_only",
+    "decision_basis": "title_abstract",
+    "reason": "Review/conceptual/adoption context; no specific executed target-stage transformation established in abstract. Retain for background, not direct mechanism evidence.",
+    "assessed_bridge": "not established",
+    "fulltext_status": "not_sought_after_screening",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-8ac6d6a19330": {
+    "screening_decision": "retain_core",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "BIM quantities feed structural/energy/material substitution scenarios; includes fixed replacement assumptions, not a stock-turnover uncertainty model.",
+    "assessed_bridge": "B12;fixed replacement scenarios",
+    "fulltext_status": "full_article_body_saved",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-14cd06b4ebfd": {
+    "screening_decision": "retain_complement",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "Point clouds to counted/location-tagged precast pipes; infrastructure-site analogue for observation-to-inventory.",
+    "assessed_bridge": "B12 infrastructure analogue",
+    "fulltext_status": "local_pdf",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  },
+  "DTMFB-e67012835c1e": {
+    "screening_decision": "retain_complement",
+    "decision_basis": "title_abstract; targeted full-text methods/limitations check",
+    "reason": "CityGML production/quality architecture; no executed material mass/flow conversion.",
+    "assessed_bridge": "S1 quality complement",
+    "fulltext_status": "local_pdf",
+    "reviewer": "AI-assisted single screener",
+    "screening_date": "2026-11-01"
+  }
+}
