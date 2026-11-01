@@ -10,7 +10,7 @@
 
 Institutional access was confirmed by the SLUB Dresden banner. No date, language, subject, document-type or open-access restriction was applied. The search ran on the Documents tab, not Preprints or Secondary documents. The result list separately says it displays up to 2,000 results; **3,501 is the search count, not an export count**.
 
-Update: the main `www.scopus.com` domain has an active personal session and SLUB access. The same query returned 3,501 results there. Thus personal login is no longer the blocker. Native CSV export of the current first page succeeded: `Scopus/DT-U/results/pilot/SCOPUS_DTU_first_page_10.csv`, 10 rows and 10 unique EIDs, citation fields plus abstracts/keywords. This is a diagnostic sample, not a screened or representative set. Full-range and 500-record export attempts did not yield a verified local file despite a site success toast. The browser download wait expired. Full-corpus completeness is not established. No credentials were saved in project files.
+Update: the main `www.scopus.com` domain has an active personal session and SLUB access. The same query returned 3,501 results there. Thus personal login is no longer the blocker. Native CSV export of the current first page succeeded: 10 rows and 10 unique EIDs, citation fields plus abstracts/keywords. That diagnostic file was subsequently removed from the current GitHub tree at the user's request. This is a diagnostic sample, not a screened or representative set. Full-range and 500-record export attempts did not yield a verified local file despite a site success toast. The browser download wait expired. Full-corpus completeness is not established. No credentials were saved in project files.
 
 Earlier proxy-domain behavior: Select all → Export requested a personal Scopus account; institutional sign-in returned to ScienceDirect. The main-domain session resolved that login issue without entering a password or creating an account.
 
@@ -24,3 +24,8 @@ Planned comparable search: Core Collection, Topic `"digital twin" AND uncertaint
 
 Search fields and indexing differ between platforms, so the counts must not be treated as directly equivalent. Cross-database deduplication has not been performed.
 
+
+
+## Final-data publication requirement
+
+Only complete, verified database exports should be published as final data. Diagnostic samples are not deliverables. Reconcile expected and downloaded counts and unique source identifiers. Retain every supplied metadata field, including DOI, abstract and keywords. Report missing source fields explicitly; do not invent missing DOIs. Metadata-complete retrieval does not mean final eligibility screening or full-text architectural validation is complete.
