@@ -1,0 +1,52 @@
+{
+  "status": "ALL_CANONICAL_TITLE_ABSTRACT_SCREENING_COMPLETE",
+  "exported_query_memberships": 19963,
+  "within_database_query_overlaps": 5094,
+  "database_distinct_records_identified": 14869,
+  "previous_duplicate_removals": 4951,
+  "input_to_bibliographic_adjudication": 9918,
+  "candidate_duplicate_groups_resolved": 330,
+  "duplicate_group_outcomes": {
+    "merge": 318,
+    "retain_distinct_reports": 11,
+    "partial_merge": 1
+  },
+  "additional_duplicate_removals": 331,
+  "canonical_records": 9587,
+  "previously_semantically_screened_canonical_records": 6999,
+  "new_canonical_records_screened": 2588,
+  "canonical_records_screened": 9587,
+  "canonical_records_pending": 0,
+  "canonical_outcomes": {
+    "exclude_core_keep_methods": 1477,
+    "exclude_nonresearch_component": 115,
+    "exclude_retracted_source": 1,
+    "exclude_title_abstract": 4057,
+    "retain_for_fulltext": 2668,
+    "retain_fulltext_unclear": 946,
+    "retain_secondary": 323
+  },
+  "new_2588_outcomes": {
+    "exclude_core_keep_methods": 176,
+    "exclude_nonresearch_component": 51,
+    "exclude_title_abstract": 389,
+    "retain_for_fulltext": 1631,
+    "retain_fulltext_unclear": 157,
+    "retain_secondary": 184
+  },
+  "records_retained_for_fulltext_or_secondary_assessment": 3937,
+  "records_removed_from_core_at_title_abstract": 5650,
+  "original_ids_directly_read_across_revisions": 9827,
+  "duplicate_alias_original_ids_not_separately_read": 91,
+  "new_review_assignment_counts": {
+    "remaining_decisions_a": 760,
+    "remaining_decisions_b": 600,
+    "remaining_decisions_c": 700,
+    "remaining_decisions_root": 528
+  },
+  "independent_human_reviewers": 0,
+  "fulltexts_assessed_in_this_screening_revision": 0,
+  "reports_sought_for_fulltext": null,
+  "reports_retrieved_for_fulltext": null,
+  "final_included_studies": null
+}

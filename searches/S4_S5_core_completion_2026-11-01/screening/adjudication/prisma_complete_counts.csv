@@ -1,0 +1,17 @@
+﻿item,count,unit
+query_memberships,19963,records; not final included studies
+within_database_overlap_removed,5094,records; not final included studies
+database_distinct_records,14869,records; not final included studies
+prior_duplicates_removed,4951,records; not final included studies
+additional_duplicates_removed,331,records; not final included studies
+records_screened,9587,records; not final included studies
+records_pending_title_abstract,0,records; not final included studies
+records_excluded_from_core,5650,records; not final included studies
+records_retained_for_next_assessment,3937,records; not final included studies
+exclude_core_keep_methods,1477,records; not final included studies
+exclude_nonresearch_component,115,records; not final included studies
+exclude_retracted_source,1,records; not final included studies
+exclude_title_abstract,4057,records; not final included studies
+retain_for_fulltext,2668,records; not final included studies
+retain_fulltext_unclear,946,records; not final included studies
+retain_secondary,323,records; not final included studies

@@ -1,0 +1,15 @@
+{
+  "queue_ids_exactly_covered": true,
+  "all_9587_canonical_records_have_decisions": true,
+  "overlapping_new_review_ids": 0,
+  "new_literal_evidence_matches_source": 2588,
+  "all_nonadjudication_input_fields_preserved": true,
+  "prior_6999_decisions_unchanged": true,
+  "duplicate_adjudication_unchanged": true,
+  "merged_metadata_provenance_preserved": true,
+  "all_new_reasons_nonempty_individually_authored": true,
+  "automated_checks_validate_traceability_not_scientific_accuracy": true,
+  "unverified_doi_not_invented": true,
+  "prior_input_sha256": "1fe17363e14741f186759af3b8848829d2aef7b5e3aa79d761e8ceb78bf9a3bb",
+  "immutable_queue_sha256": "cf9d998c6c804ad898cc940282022b78cdcf21e9ec32da4133d486ae9636c45e"
+}
