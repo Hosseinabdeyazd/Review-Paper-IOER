@@ -62,3 +62,7 @@ flowchart TD
 The S–U working collection separately contains 21 records / 20 archived appraisals. Combined with 14 S–DT and 18 DT–U records, the registry has 53 memberships, 52 distinct records and 44 distinct archived full-text appraisals. Final inclusion and independent study-family counts remain unestablished.
 
 PRISMA reporting reference: Page et al. (2021), https://doi.org/10.1136/bmj.n71; official templates: https://www.prisma-statement.org/prisma-2020-flow-diagram. These diagrams adapt the reporting logic but are progress snapshots, not completed PRISMA templates.
+
+
+## Graphic outputs
+Six PRISMA-style progress figures are provided in `figures/` as PNG, SVG and PDF, with `PRISMA_progress_atlas.pdf` combining all six. They are adapted progress views, not final inclusion diagrams. `methods_before_readability_revision.tex` preserves prior screening provenance. Search dates and actual screening arrangements were removed from the current prose at the author's request, not changed in the audit history; final reporting still needs complete methodological disclosure.

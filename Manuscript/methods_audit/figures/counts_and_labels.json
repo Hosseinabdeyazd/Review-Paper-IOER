@@ -1,0 +1,110 @@
+[
+  [
+    "01_base_u_s45",
+    "Base / Base + U: S4-S5 combined",
+    [
+      "Database-distinct records\nn = 14,869\nFrom 19,963 query occurrences",
+      "Records screened\nn = 9,587",
+      "Reports sought for retrieval\nNot yet reconciled\n3,610 candidates retained",
+      "Reports assessed for eligibility\nNot yet reconciled",
+      "Studies / reports included\nNot yet established"
+    ],
+    [
+      "Duplicates removed\nn = 5,282\n5,094 query overlaps removed earlier",
+      "Outside candidate set: n = 5,977\nMethods background 1,623\nNonresearch 117; retracted 1\nTitle/abstract exclusions 4,236",
+      "Reports not retrieved\nNot yet reconciled",
+      "Reports excluded after full text\nNot yet reconciled"
+    ],
+    "Retained candidates: 2,932 clear + 327 unclear + 351 secondary. Candidate selection is not a retrieval attempt. S1-S3 legacy flow remains unreconciled."
+  ],
+  [
+    "02_base_u_subset",
+    "Base + U: S4-S5 candidate subset",
+    [
+      "Identification denominator\nInherited from combined search\nSeparate full flow not reconciled",
+      "Clear candidates reviewed for\nuncertainty mechanisms\nn = 392",
+      "Focused full-text set\nn = 3\nCross-stage claims prioritised",
+      "Archived full-text appraisals\nn = 3",
+      "Final review inclusions\nNot yet established"
+    ],
+    [
+      "Duplicate removals\nNot independently allocated",
+      "Other title/abstract classifications\nPossible cross-stage link: 90\nNot demonstrated: 299\nNot full-text exclusions",
+      "Retrieval for the remaining\n389 records not reconciled",
+      "Full-text exclusions\nFinal decisions not reconciled"
+    ],
+    "A focused subset, not a separate exhaustive search. The 392 records belong to the 2,932 clear candidates in panel 1. No claim that the other 389 are ineligible."
+  ],
+  [
+    "03_base_dt",
+    "Base + DT: S1-S5 broad retrieval",
+    [
+      "Exported query occurrences\nn = 4,124",
+      "Conservative unique records\nn = 2,447\nScreening not complete",
+      "Reports sought for retrieval\nNot yet reconciled",
+      "Reports assessed for eligibility\nNot yet reconciled",
+      "Studies / reports included\nNot yet established"
+    ],
+    [
+      "Repeated occurrences collapsed\nn = 1,677\n42 title groups unresolved",
+      "Records excluded\nNot yet reconciled",
+      "Reports not retrieved\nNot yet reconciled",
+      "Reports excluded after full text\nNot yet reconciled"
+    ],
+    "Occurrence-based identification includes query and database overlap. Broad retrieval is distinct from the focused DT bridge search. Unresolved duplicates may change denominators."
+  ],
+  [
+    "04_base_dt_u",
+    "Base + DT + U: S1-S5 broad retrieval",
+    [
+      "Exported query occurrences\nn = 903",
+      "Conservative unique records\nn = 534\nScreening not complete",
+      "Reports sought for retrieval\nNot yet reconciled",
+      "Reports assessed for eligibility\nNot yet reconciled",
+      "Studies / reports included\nNot yet established"
+    ],
+    [
+      "Repeated occurrences collapsed\nn = 369\n7 title groups unresolved",
+      "Records excluded\nNot yet reconciled",
+      "Reports not retrieved\nNot yet reconciled",
+      "Reports excluded after full text\nNot yet reconciled"
+    ],
+    "All 15 database-stage exports were verified. Retrieval completeness does not establish screening or full-text completeness. This is not the general DT + U corpus."
+  ],
+  [
+    "05_dt_bridge",
+    "Focused DT bridge: S1-S2 / S2-S3",
+    [
+      "Records identified\nn = 83",
+      "Records screened\nn = 43",
+      "Reports selected for retrieval\nn = 14\n8 core + 6 complementary",
+      "Archived full-text assessments\nn = 12",
+      "Studies / reports included\nFinal eligibility not established"
+    ],
+    [
+      "Duplicate occurrences removed\nn = 40",
+      "Outside selected set: n = 29\nBackground: 18\nExcluded: 11",
+      "Full texts pending\nn = 2",
+      "Final full-text exclusions\nNot yet reconciled"
+    ],
+    "The 12 available full texts comprise 5 PDFs and 7 saved HTML bodies. This focused search must not be substituted for the broad Base + DT screening flow."
+  ],
+  [
+    "06_dt_u_focused",
+    "Focused DT + U mechanism search",
+    [
+      "Records identified\nn = 25\nIEEE 9; Scopus 13; WoS 3",
+      "Records screened / assessed\nSearch set: n = 18",
+      "Reports sought for retrieval\nn = 18",
+      "Archived full-text appraisals\nn = 13\n12 publisher PDFs + 1 preprint",
+      "Studies / reports included\nFinal eligibility not established"
+    ],
+    [
+      "Duplicate occurrences removed\nn = 7",
+      "Separate title/abstract\nexclusion count not documented",
+      "Full texts unavailable in archive\nn = 5",
+      "Final full-text exclusions\nNot yet reconciled"
+    ],
+    "Focused mechanism retrieval, not the broad general DT + U search. An appraisal is not a final inclusion decision; preprint and publisher versions are distinguished."
+  ]
+]
