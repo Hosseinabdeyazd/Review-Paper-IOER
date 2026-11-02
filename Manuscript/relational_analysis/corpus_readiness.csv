@@ -1,0 +1,4 @@
+﻿stream,source_file,source_sha256,records,archived_fulltext_based_assessments,pending_or_abstract_only,scope,relational_recoding
+S_U,seleted papers S1-S5 + U/transition_extraction.csv,cb115b3424a0022ba4561ee9f6980353b945fbe7fe2a4a399866da9a03fa5122,21,20,1,"selected working evidence, not all indexed retrievals",pending
+S_DT,Digital Twin Material Flow Review/bridge_searches/fulltext_review/extraction_14.csv,b315c4e20522ad8e75a6ecf29aedc9ada3b6c5e6d6f2c8942e41477d75afef19,14,12,2,"selected working evidence, not all indexed retrievals",pending
+DT_U,Digital Twin Uncertainty Review/fulltext/fulltext_extraction.csv,ff873f2f2b36f3d5e2dfa87350b0033d5ff40e5b17fbbd7e8a8bcdd3d612101c,18,13,5,"selected working evidence, not all indexed retrievals",pending

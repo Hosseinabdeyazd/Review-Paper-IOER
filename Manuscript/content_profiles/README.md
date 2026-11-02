@@ -59,3 +59,7 @@ The table below defines the **proposed content dimensions** for subsequent codin
 Spatial scale, temporal resolution/update mode and stakeholder information needs should be **cross-cutting coded attributes**, where reported. Do not create a separate case-specific stakeholder list in place of architectural functions. Do not infer that a generic DT method is implemented in material-flow stages without a domain bridge.
 
 For each eventual component diagram, preserve the distinction between (a) explicitly described or implemented in a source, (b) synthesized across sources, and (c) proposed to address a documented gap. The component frequencies alone cannot validate the synthesized architecture.
+
+## Broader relational analysis
+
+The subsequent [three-relation protocol](../relational_analysis/README.md) develops S–U, S–DT and DT–U together after examining Abdelrahman et al. (2025). It includes a reconciled evidence registry, a reference-method audit, analysis specifications, an extraction schema and four boundary-specific synthesis paths. The three figures in this folder remain the scoped S–U content view; they are not the entirety of that broader analysis.

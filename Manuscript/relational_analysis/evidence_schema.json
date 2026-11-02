@@ -1,0 +1,37 @@
+{
+  "version": "2026-11-02",
+  "purpose": "Operational extraction specification for three linked relations; not a populated results dataset",
+  "units": ["canonical_publication_version", "study_family_when_established", "located_evidence_claim", "implemented_directed_interface"],
+  "claim_required_fields": ["claim_id", "canonical_id", "source_id", "version_examined", "page_or_section", "analytical_paraphrase", "relation", "stage_or_boundary", "component_code", "reported_action", "evidence_tier", "support_origin", "reviewer", "review_date"],
+  "relation": ["S_U", "S_DT", "DT_U", "S_DT_U_synthesis"],
+  "evidence_tier": ["definition_or_general_mention", "conceptual_proposal", "method_specified", "implemented", "validation_reported", "independent_replication_reported", "not_assessed"],
+  "support_origin": ["direct_in_source", "cross_study_synthesis", "proposed_gap_response"],
+  "missingness": ["not_reported_after_assessment", "not_assessed", "fulltext_unavailable", "not_applicable"],
+  "initial_component_scaffold": {
+    "data": ["observation_and_asset_identity", "semantic_material_inventory", "state_and_event_history"],
+    "models_and_services": ["inventory_inference", "stock_turnover_model", "recovery_routing_model", "environmental_assessment", "decision_service"],
+    "infrastructure": ["sensing", "storage", "computation_and_scheduling"],
+    "interfaces": ["model_coupling", "data_exchange", "visualization_and_decision_interface"],
+    "governance": ["provenance_and_versioning", "validation", "access_and_responsibility"]
+  },
+  "scaffold_status": "Initial review coding categories, informed by the reference taxonomy and our question; not a validated required architecture",
+  "uncertainty_fields": {
+    "source": ["observation", "classification_or_inference", "material_parameters", "timing", "model_form", "scenario", "recovery_quality", "impact_factors", "other_with_definition"],
+    "nature": ["explicit_epistemic", "explicit_aleatory", "explicit_mixed", "not_classified_in_source"],
+    "representation": ["point_only", "range", "scenario_set", "probability_distribution", "samples", "covariance_or_joint_model", "qualitative", "not_assessed"],
+    "mechanism": ["representation", "estimation", "propagation", "transformation", "consistency_or_change_monitoring", "model_or_parameter_update", "calibration", "source_attribution", "decision_communication"],
+    "nature_rule": "Reviewer interpretation, if added, must be a separate field with rationale; do not infer nature solely from a method name"
+  },
+  "interface_fields": ["from_module", "to_module", "input_variable", "output_variable", "units_in", "units_out", "transformation", "uncertainty_payload", "new_uncertainty_introduced", "dependence_preserved", "realization_or_version_identity", "information_removed_or_approximated", "update_trigger", "validation_evidence"],
+  "context_fields": ["application_domain", "source_scale", "target_scale", "aggregation_operator", "event_time_resolution", "update_frequency", "prediction_horizon", "decision_time_requirement", "information_producer_role", "model_owner_role", "validator_role", "decision_recipient_role"],
+  "counting_rules": [
+    "One publication contributes at most once to a given binary component/context count",
+    "Keep overlapping stream and stage memberships; never sum them as unique publications",
+    "Keep method reviews and primary applications separable",
+    "Keep study-family dependence and examined versions explicit",
+    "Count relation-specific evidence, not all tags of a paper at every stage",
+    "Neither missing text nor unassessed content is a confirmed zero",
+    "Co-occurrence does not establish a directed interface",
+    "A generic DT-U mechanism is not direct material-flow DT-U evidence without a supported domain bridge"
+  ]
+}

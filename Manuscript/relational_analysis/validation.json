@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "stream_memberships": 53,
+  "distinct_records_after_exact_doi_merge": 52,
+  "distinct_records_with_doi": 51,
+  "distinct_records_with_archived_fulltext_based_assessment": 44,
+  "multiple_stream_records": [
+    "P-2c878ddf4181"
+  ],
+  "publication_unit_caution": "Reviews and related studies are not independent primary experiments. DOI matching does not resolve study families.",
+  "semantic_relational_analysis_completed": false,
+  "reference_paper_added_as_selected_study": false
+}

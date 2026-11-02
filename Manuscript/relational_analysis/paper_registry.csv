@@ -1,0 +1,53 @@
+﻿canonical_id,doi,title,streams,source_ids,has_archived_fulltext_based_assessment,merge_rule
+P-82cf01af747f,10.1016/j.jenvman.2020.111879,Modelling of mineral construction and demolition waste dynamics through a combination of geospatial and image analysis,S_U,S_U:U01,1,exact normalized DOI across streams
+P-de9c89794ff6,10.5194/isprs-annals-x-4-w2-2022-225-2022,Dataset for Urban Scale Building Stock Modelling: Identification and Review of Potential Data Collection Approaches,S_U,S_U:U02,1,exact normalized DOI across streams
+P-f9a0ba6522ea,10.1111/jiec.13174,Semisupervised machine learning classification framework for material intensity parameters of residential buildings,S_U,S_U:U03,1,exact normalized DOI across streams
+P-ca45d6e9a6ec,10.1111/jiec.13332,What matters most to the material intensity coefficient of buildings? Random forest-based evidence from China,S_U,S_U:U04,1,exact normalized DOI across streams
+P-d83ab70cd3fb,10.1111/jiec.13348,Building feature-based machine learning regression to quantify urban material stocks: A Hong Kong study,S_U,S_U:U05,1,exact normalized DOI across streams
+P-fc49f4e9a762,10.1021/acs.est.5c03058,"A Satellite-Driven Model for Monitoring Urban Material Metabolism, Embodied Emissions, and Carbonation",S_U,S_U:U06,1,exact normalized DOI across streams
+P-57538278bdb5,10.1016/j.resconrec.2025.108392,Geometry-informed material intensity reveals considerable intra-archetype material variability of UK housing,S_U,S_U:U07,1,exact normalized DOI across streams
+P-2c878ddf4181,10.1016/j.jobe.2025.113391,Integrated BIM-GIS framework for holistic building stock assessment using 5D geo-modeling and digital twin concepts,S_DT;S_U,S_DT:DTMFB-2c878ddf4181;S_U:U08,1,exact normalized DOI across streams
+P-fa954aa87ace,10.1007/s44498-026-00138-5,Assessing the sensitivity of material-intensity-based building stock estimates to design parameters,S_U,S_U:U09,1,exact normalized DOI across streams
+P-1950f841b967,10.1177/0734242x07079183,Exploration of urban deposits: Long-term prospects for resource and waste management,S_U,S_U:U10,0,exact normalized DOI across streams
+P-f3679c6773ec,10.1016/j.resconrec.2017.01.015,How important are realistic building lifespan assumptions for material stock and demolition waste accounts?,S_U,S_U:U11,1,exact normalized DOI across streams
+P-fe14f7e98fbf,10.1111/jiec.12579,A Probabilistic Dynamic Material Flow Analysis Model for Chinese Urban Housing Stock,S_U,S_U:U12,1,exact normalized DOI across streams
+P-dec10f46d5a3,10.1111/jiec.12739,Tracking Construction Material over Space and Time: Prospective and Geo-referenced Modeling of Building Stocks and Construction Material Flows,S_U,S_U:U13,1,exact normalized DOI across streams
+P-179765dde977,10.1016/j.rser.2024.115262,Dynamic life cycle assessment of buildings and building stocks – A review,S_U,S_U:U14,1,exact normalized DOI across streams
+P-8fd10594a205,10.1021/acs.est.4c08994,Greenhouse Gas Emissions and Decarbonization Potential of Global Fired Clay Brick Production,S_U,S_U:U15,1,exact normalized DOI across streams
+P-c84c6dd0f794,10.1016/j.resconrec.2025.108228,Material intensity and embodied carbon of Korea's residential buildings over four decades,S_U,S_U:U16,1,exact normalized DOI across streams
+P-c82bd3cb2db8,10.1016/j.resconrec.2024.107971,Pathways to a net zero building sector in Colombia: Insights from a circular economy perspective,S_U,S_U:U17,1,exact normalized DOI across streams
+P-d6de9be4c296,10.1007/s44498-026-00164-3,A layered dynamic material flow framework for modeling building renovations,S_U,S_U:U18,1,exact normalized DOI across streams
+P-64c0b86f6b10,10.1016/j.jclepro.2026.148705,Integrating circularity and lifecycle assessment for building renovation: A multicycle framework,S_U,S_U:U19,1,exact normalized DOI across streams
+P-e39418701363,10.1016/j.jobe.2023.108149,Earthquake-induced environmental impacts for residential Italian buildings: Consequence models and risk assessment,S_U,S_U:U20,1,exact normalized DOI across streams
+P-309484cccb62,10.1038/s41467-025-68120-6,Unveiling the environmental impact of earthquakes in Europe,S_U,S_U:U21,1,exact normalized DOI across streams
+P-e0ff2ce7dc48,,A parametric approach to defining archetypes for an integrated material stocks and flows analysis and life cycle assessment of built stocks,S_DT,S_DT:DTMFB-2394c459ec04,1,source identity retained; no guessed DOI or fuzzy title merge
+P-f99e8d0c846b,10.1007/978-3-032-18712-3_19,Integrating Digital Twins and Material Passports for Circular Built Environment Management,S_DT,S_DT:DTMFB-f99e8d0c846b,0,exact normalized DOI across streams
+P-7b8729bf813b,10.1007/978-981-96-6657-7_7,Method Development for the Quantification of Urban Mining Potentials at District Level,S_DT,S_DT:DTMFB-7b8729bf813b,1,exact normalized DOI across streams
+P-786eef4ce139,10.1016/j.istruc.2025.109180,The digital twin on a residential housing in the Czech Republic on the BIM platform and its importance for the circular economy,S_DT,S_DT:DTMFB-786eef4ce139,1,exact normalized DOI across streams
+P-ba08181cf4ef,10.1109/lcn65610.2025.11146328,AI-Aided Non-Visual Object Sensing and Replicating for Digital Transformations,S_DT,S_DT:DTMFB-ba08181cf4ef,1,exact normalized DOI across streams
+P-b1868ec07fce,10.1201/9781003677895-269,Towards a structural condition assessment framework for selective reuse,S_DT,S_DT:DTMFB-b1868ec07fce,0,exact normalized DOI across streams
+P-856d2825c306,10.26599/jic.2026.9180125,An Integrated BIM-AI Framework for Intelligent Cost Management,S_DT,S_DT:DTMFB-856d2825c306,1,exact normalized DOI across streams
+P-f82bf5f38bf3,10.3389/fbuil.2023.1145250,Data fusion approach for a digital construction logistics twin,S_DT,S_DT:DTMFB-f82bf5f38bf3,1,exact normalized DOI across streams
+P-0e906b271b76,10.3390/buildings16153012,Bridging BIM and Stochastic Simulation: A Conceptual Framework and Illustrative Application,S_DT,S_DT:DTMFB-0e906b271b76,1,exact normalized DOI across streams
+P-f1a803053705,10.3390/en14134065,Circular economy and virtual reality in advanced BIM‐based prefabricated construction,S_DT,S_DT:DTMFB-f1a803053705,1,exact normalized DOI across streams
+P-8ac6d6a19330,10.3390/su18104825,Integrated Embodied-Operational Carbon Reduction for Sustainable Egyptian Housing Through Wall-System Substitution,S_DT,S_DT:DTMFB-8ac6d6a19330,1,exact normalized DOI across streams
+P-14cd06b4ebfd,10.5194/isprs-annals-x-4-2024-263-2024,Acquiring Semantic Information of Precast Concrete Pipe Using Geometric Feature Extraction from Mobile Laser Scanning Point Cloud,S_DT,S_DT:DTMFB-14cd06b4ebfd,1,exact normalized DOI across streams
+P-e67012835c1e,10.5194/isprs-archives-l-4-w2-2026-155-2026,Why Has LOD3 Not Scaled? From Reconstruction Algorithms to the Generation of 3D City Models,S_DT,S_DT:DTMFB-e67012835c1e,1,exact normalized DOI across streams
+P-5de394747fe0,10.1007/s11831-026-10754-w,"Physics-Informed Digital Twins in Computational Engineering: a PRISMA-ScR Review of Physics-Informed Learning, Neural Operators, Uncertainty Quantification, Real-Time Updating, and Deployment Readiness",DT_U,DT_U:DTUM-001,1,exact normalized DOI across streams
+P-a182321f73e0,10.1016/j.apenergy.2026.128822,Physics-driven and data-driven hybrid digital twin framework for methanol fuel supply system based on dynamic Bayesian network,DT_U,DT_U:DTUM-002,1,exact normalized DOI across streams
+P-c7d116e66870,10.1016/j.cej.2026.177046,A digital twin framework for predictive modeling of liver-on-a-chip system dynamics using limited experimental data,DT_U,DT_U:DTUM-003,0,exact normalized DOI across streams
+P-f6e55e04d0cd,10.1016/j.jcp.2026.115057,Sequential Bayesian parameter–state estimation in dynamical systems with noisy and incomplete observations via a variational framework,DT_U,DT_U:DTUM-004,1,exact normalized DOI across streams
+P-d0b9e3e4f313,10.1016/j.jmapro.2026.09.081,Toward quality-assured intelligent welding processes for aerospace structures: From process monitoring to digital closed-loop manufacturing,DT_U,DT_U:DTUM-005,0,exact normalized DOI across streams
+P-0b3ae01bd12c,10.1016/j.mechrescom.2026.104638,On the synthesis of the measurements and structural models using statistical finite element method,DT_U,DT_U:DTUM-006,0,exact normalized DOI across streams
+P-3213516c3256,10.1016/j.rcim.2026.103318,Remaining useful life aware physics-informed Bayesian digital twin for safety-constrained control in robot-integrated battery manufacturing,DT_U,DT_U:DTUM-007,0,exact normalized DOI across streams
+P-6a0da83c157f,10.1109/acsos-c52956.2021.00075,A Self-Learning Architecture for Digital Twins with Self-Protection,DT_U,DT_U:DTUM-008,1,exact normalized DOI across streams
+P-cce10afd7671,10.1109/ai4im69129.2026.11558210,"AI-Driven Soft Sensors: Applications, Validation, and Metrological Challenges",DT_U,DT_U:DTUM-009,1,exact normalized DOI across streams
+P-4d6572137f0b,10.1109/i-smac65734.2025.11597612,"Water-Quality Digital Twins: A Review of Architectures, State-Space Assimilation, and Alerting",DT_U,DT_U:DTUM-010,1,exact normalized DOI across streams
+P-55299f392a0b,10.1109/ichi69079.2026.00214,Bio360: A Multimodal Framework for Health Digital Twin Modeling and Early Physiological Drift Detection,DT_U,DT_U:DTUM-011,1,exact normalized DOI across streams
+P-bc01bc5fc3ed,10.1109/icsedis68157.2026.11518496,Robust Field-Focused Digital Twin for Real-Time Water-Quality Estimation and Alerting,DT_U,DT_U:DTUM-012,1,exact normalized DOI across streams
+P-72ef66b276cd,10.1109/isctis70043.2026.11571854,Dynamic Hierarchical Posterior Evolution for Bayesian Neural Network-Based Industrial Digital Twins under Non-Stationary Conditions,DT_U,DT_U:DTUM-013,1,exact normalized DOI across streams
+P-5729a5eb824c,10.1109/ispds67367.2025.11391182,Adaptive Weighted Physical Prior Bayesian Neural Network for Industrial Digital Twins,DT_U,DT_U:DTUM-014,1,exact normalized DOI across streams
+P-4661788a2339,10.1109/ojcoms.2026.3698326,Explainable and Conflict-Aware Cell Sleep Control in O-RAN via Monotonic Neural Additive Models,DT_U,DT_U:DTUM-015,1,exact normalized DOI across streams
+P-1b0b721abd6e,10.1109/tcst.2024.3437163,Learning-Based NMPC Adaptation for Autonomous Driving Using Parallelized Digital Twin,DT_U,DT_U:DTUM-016,1,exact normalized DOI across streams
+P-28a5af3c717c,10.13182/npichmit25-46885,A Risk-informed Approach to Trustworthiness Assessment in Digital Twins-based Autonomous Control,DT_U,DT_U:DTUM-017,0,exact normalized DOI across streams
+P-8187d0823e33,10.3390/machines14030335,Tool-Health Digital Twin for CNC Predictive Maintenance via Innovation-Adaptive Sensor Fusion and Uncertainty-Aware Prognostics,DT_U,DT_U:DTUM-018,1,exact normalized DOI across streams
