@@ -1,0 +1,34 @@
+{
+  "assessed_su_papers": 20,
+  "su_contexts": 23,
+  "continuity_counts": {
+    "N": 5,
+    "P": 7,
+    "Q": 2,
+    "R": 1,
+    "S": 4,
+    "E": 4
+  },
+  "sdt_domain_records": 9,
+  "sdt_positive_stage_function_edges": 16,
+  "dtu_method_records": 10,
+  "dtu_exact_configurations": 9,
+  "largest_exact_configuration_n": 2,
+  "su_positive_source_method_edges": 46,
+  "figures": [
+    "D01_boundary_continuity_alluvial",
+    "D02_stage_function_network",
+    "D03_exact_uncertainty_configurations",
+    "D04_uncertainty_source_method_associations"
+  ],
+  "plotted_architecture_proposals": false,
+  "new_semantic_coding": false,
+  "basis": "Aggregation of existing semantic extraction codes",
+  "source_sha256": {
+    "S_DT_complete_coding.csv": "79d6ecc0ade6ec7650c10b2c2307103be0e20ef9df6a8428a58ea3b7506b8b66",
+    "DT_U_complete_coding.csv": "34aa7151026acdfa47a0eb2d2964027edba8ad1c7516b932ff00c1ddad166051",
+    "inputs/su_context_assessments.csv": "85533f2b6d6eaa2889e36df437ba17b9f72da970c4e1f65317bdccb50f90cf22",
+    "inputs/su_positive_theme_assignments.csv": "8db0976222fe60db8dea093dc4717bf764aee17ab9432a29be171dc582213a6b",
+    "inputs/su_codebook.csv": "718fb8ad92e532fd937fe8f6e6bce8a811b60dcffec0fce8dc7168dc83f96a25"
+  }
+}

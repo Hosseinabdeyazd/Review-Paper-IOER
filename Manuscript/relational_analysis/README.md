@@ -4,7 +4,11 @@ Date: 2026-11-02. This extends the earlier `content_profiles/` work from uncerta
 
 Read [the analysis protocol in Persian](ANALYSIS_PROTOCOL_FA.md), [the reference-method audit](REFERENCE_METHOD_AUDIT.md), [the data schema](evidence_schema.json) and [the initial synthesis paths](synthesis_paths.csv).
 
-**Visual results are now available:** [six-page PDF atlas](results/Results_Atlas.pdf), [figures and methods](results/README.md), [Persian interpretation](results/REPORT_FA.md), [LaTeX figure blocks](results/figures.tex). The update adds semantic coding of the archived S–DT/DT–U appraisals, three relation maps, exploratory co-occurrence/clustering and two evidence-linked architecture diagrams. Code, complete decision matrices, supporting IDs and verification results are in `results/`.
+**Data-derived diagrams:** [four-page atlas and reproducible calculations](data_diagrams/README.md). It contains a boundary/status alluvial, a weighted stage/function network, exact uncertainty-mechanism intersections and a source/method association map. Every edge and configuration has supporting record IDs and DOIs.
+
+The [earlier descriptive matrices](results/README.md) remain available in a revised four-page atlas. The former architecture Figures 05–06 are now separated into [conceptual synthesis](conceptual_synthesis/README.md) and are excluded from both data-result atlases. They are proposals, not data-discovered interfaces.
+
+Conceptual logic of the review (not an empirical network):
 
 ```mermaid
 flowchart TD

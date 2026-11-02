@@ -1,4 +1,4 @@
-"""Build six evidence-linked figures, tables and a six-page PDF atlas.
+"""Build four data-result figures and separately store two conceptual diagrams.
 
 Requires numpy, matplotlib and pypdf. Semantic decisions live in coding.py.
 No keyword classifier or generated data. Run from any working directory.
@@ -19,6 +19,7 @@ from coding import SDT, SDT_FEATURES, STAGES, DTU, DTU_FEATURES, NEGATIVE_NOTES
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT.parents[2]
 FIG=ROOT/'figures'; INP=ROOT/'inputs'
+CONCEPT=ROOT.parent/'conceptual_synthesis'/'figures';CONCEPT.mkdir(parents=True,exist_ok=True)
 FIG.mkdir(exist_ok=True);INP.mkdir(exist_ok=True)
 
 def locate(rel):
@@ -105,8 +106,10 @@ plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top
                      'svg.fonttype':'none','pdf.fonttype':42,'axes.titleweight':'bold','savefig.facecolor':'white'})
 NAMES=[]
 def save(fig,name):
-    NAMES.append(name)
-    for ext in ['png','svg','pdf']:fig.savefig(FIG/f'{name}.{ext}',dpi=165,bbox_inches='tight',pad_inches=.23)
+    conceptual=name.startswith(('05_','06_'))
+    destination=CONCEPT if conceptual else FIG
+    if not conceptual:NAMES.append(name)
+    for ext in ['png','svg','pdf']:fig.savefig(destination/f'{name}.{ext}',dpi=165,bbox_inches='tight',pad_inches=.23)
     plt.close(fig)
 def heading(fig,title,subtitle):
     fig.text(.035,.963,title,fontsize=21,fontweight='bold',color=NAVY,va='top')
@@ -326,13 +329,13 @@ save(fig,'06_synthesized_architecture')
 writer=PdfWriter()
 for name in NAMES:writer.append(str(FIG/f'{name}.pdf'))
 with (ROOT/'Results_Atlas.pdf').open('wb') as f:writer.write(f)
-assert len(PdfReader(ROOT/'Results_Atlas.pdf').pages)==6
+assert len(PdfReader(ROOT/'Results_Atlas.pdf').pages)==4
 
 summary={'S_U_counted_papers':20,'S_U_context_assessments':23,'S_DT_counted_papers':12,'S_DT_pending':2,
          'S_DT_stage_described_denominators':dict(zip(STAGES,stage_den)),'DT_U_counted_papers':13,'DT_U_pending':5,
          'DT_U_method_level_records_for_cooccurrence':10,'DT_U_R_counts':dict(zip(features,map(int,(dmat==2).sum(axis=0)))),
          'DT_U_C_counts':dict(zip(features,map(int,(dmat==1).sum(axis=0)))),
-         'figures':NAMES,'pdf_atlas_pages':6,'new_fulltext_reading':False,'new_semantic_coding_of_archived_extraction':True,
+         'figures':NAMES,'pdf_atlas_pages':4,'new_fulltext_reading':False,'new_semantic_coding_of_archived_extraction':True,
          'independent_human_validation':False,'inferential_significance_test':False,
          'input_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in INP.iterdir() if p.is_file()}}
 assert len(sdsrc)==14 and len(dusrc)==18 and len(SDT)==12 and len(DTU)==13
@@ -342,5 +345,5 @@ assert np.allclose(J,J.T) and np.allclose(np.diag(J),1)
 (ROOT/'validation.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
 
 cards=''.join(f'<section><h2>{html.escape(name.replace("_"," "))}</h2><a href="figures/{name}.pdf"><img src="figures/{name}.png" alt="{name}"></a><p><a href="figures/{name}.pdf">PDF</a> · <a href="figures/{name}.svg">SVG</a> · <a href="figures/{name}.png">PNG</a></p></section>' for name in NAMES)
-(ROOT/'gallery.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>Stages, DT and uncertainty — Results atlas</title><style>body{margin:40px auto;max-width:1500px;background:#f2f5f7;color:#18384b;font:17px system-ui}header,section{background:white;padding:25px;margin:24px;border-radius:10px}img{width:100%;height:auto}a{color:#276a94}h1{font-size:32px}h2{font-size:20px}</style><header><h1>Stages, Digital Twin and uncertainty</h1><p>Six evidence-linked figures. Semantic coding of archived working-set extractions; no new full-text review or inferential significance claim.</p><a href="Results_Atlas.pdf">Open the six-page PDF atlas</a> · <a href="README.md">Scope and methods</a></header>'+cards+'</html>',encoding='utf-8')
+(ROOT/'gallery.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><title>Stages, DT and uncertainty — Results atlas</title><style>body{margin:40px auto;max-width:1500px;background:#f2f5f7;color:#18384b;font:17px system-ui}header,section{background:white;padding:25px;margin:24px;border-radius:10px}img{width:100%;height:auto}a{color:#276a94}h1{font-size:32px}h2{font-size:20px}</style><header><h1>Stages, Digital Twin and uncertainty</h1><p>Four data-result figures. Conceptual diagrams are stored separately. Semantic coding of archived working-set extractions; no new full-text review or inferential significance claim.</p><a href="Results_Atlas.pdf">Open the four-page data-results atlas</a> · <a href="README.md">Scope and methods</a></header>'+cards+'</html>',encoding='utf-8')
 print(json.dumps(summary,indent=2))

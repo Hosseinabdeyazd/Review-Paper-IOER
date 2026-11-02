@@ -36,11 +36,9 @@
     "01_stages_uncertainty",
     "02_stages_dt_functions",
     "03_dt_uncertainty_mechanisms",
-    "04_method_cooccurrence",
-    "05_evidence_to_architecture",
-    "06_synthesized_architecture"
+    "04_method_cooccurrence"
   ],
-  "pdf_atlas_pages": 6,
+  "pdf_atlas_pages": 4,
   "new_fulltext_reading": false,
   "new_semantic_coding_of_archived_extraction": true,
   "independent_human_validation": false,

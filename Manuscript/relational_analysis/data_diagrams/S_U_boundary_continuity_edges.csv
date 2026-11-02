@@ -1,0 +1,31 @@
+﻿context,context_label,continuity,continuity_label,assessments,paper_ids,dois,unit,source
+B12,S1 → S2,Q,Discussion / review,1,U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,paper-context assessment,results/inputs/su_context_assessments.csv
+B12,S1 → S2,N,Downstream transfer not demonstrated,4,U01;U04;U05;U08,10.1016/j.jenvman.2020.111879;10.1111/jiec.13332;10.1111/jiec.13348;10.1016/j.jobe.2025.113391,paper-context assessment,results/inputs/su_context_assessments.csv
+B12,S1 → S2,R,Inputs prepared for propagation,1,U03,10.1111/jiec.13174,paper-context assessment,results/inputs/su_context_assessments.csv
+B12,S1 → S2,S,Sensitivity / representation comparison,2,U07;U09,10.1016/j.resconrec.2025.108392;10.1007/s44498-026-00138-5,paper-context assessment,results/inputs/su_context_assessments.csv
+B12,S1 → S2,P,Partial / incompletely documented transfer,1,U06,10.1021/acs.est.5c03058,paper-context assessment,results/inputs/su_context_assessments.csv
+B12,S1 → S2,E,Quantified outputs for selected uncertain inputs,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B23,S2 → S3,Q,Discussion / review,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B23,S2 → S3,N,Downstream transfer not demonstrated,1,U06,10.1021/acs.est.5c03058,paper-context assessment,results/inputs/su_context_assessments.csv
+B23,S2 → S3,R,Inputs prepared for propagation,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B23,S2 → S3,S,Sensitivity / representation comparison,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B23,S2 → S3,P,Partial / incompletely documented transfer,3,U01;U13;U18,10.1016/j.jenvman.2020.111879;10.1111/jiec.12739;10.1007/s44498-026-00164-3,paper-context assessment,results/inputs/su_context_assessments.csv
+B23,S2 → S3,E,Quantified outputs for selected uncertain inputs,2,U11;U12,10.1016/j.resconrec.2017.01.015;10.1111/jiec.12579,paper-context assessment,results/inputs/su_context_assessments.csv
+B34,S3 → S4,Q,Discussion / review,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B34,S3 → S4,N,Downstream transfer not demonstrated,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B34,S3 → S4,R,Inputs prepared for propagation,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B34,S3 → S4,S,Sensitivity / representation comparison,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B34,S3 → S4,P,Partial / incompletely documented transfer,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B34,S3 → S4,E,Quantified outputs for selected uncertain inputs,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B45,S4 → S5,Q,Discussion / review,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B45,S4 → S5,N,Downstream transfer not demonstrated,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B45,S4 → S5,R,Inputs prepared for propagation,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B45,S4 → S5,S,Sensitivity / representation comparison,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+B45,S4 → S5,P,Partial / incompletely documented transfer,1,U19,10.1016/j.jclepro.2026.148705,paper-context assessment,results/inputs/su_context_assessments.csv
+B45,S4 → S5,E,Quantified outputs for selected uncertain inputs,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+O5,Other inputs → S5,Q,Discussion / review,1,U14,10.1016/j.rser.2024.115262,paper-context assessment,results/inputs/su_context_assessments.csv
+O5,Other inputs → S5,N,Downstream transfer not demonstrated,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+O5,Other inputs → S5,R,Inputs prepared for propagation,0,,,paper-context assessment,results/inputs/su_context_assessments.csv
+O5,Other inputs → S5,S,Sensitivity / representation comparison,2,U15;U17,10.1021/acs.est.4c08994;10.1016/j.resconrec.2024.107971,paper-context assessment,results/inputs/su_context_assessments.csv
+O5,Other inputs → S5,P,Partial / incompletely documented transfer,2,U06;U21,10.1021/acs.est.5c03058;10.1038/s41467-025-68120-6,paper-context assessment,results/inputs/su_context_assessments.csv
+O5,Other inputs → S5,E,Quantified outputs for selected uncertain inputs,2,U16;U20,10.1016/j.resconrec.2025.108228;10.1016/j.jobe.2023.108149,paper-context assessment,results/inputs/su_context_assessments.csv

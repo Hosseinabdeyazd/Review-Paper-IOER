@@ -1,0 +1,11 @@
+﻿paper_id,configuration,prob,bayes,joint,detect,adapt,cover,decision
+DTUM-013,C01,1,1,0,1,1,1,1
+DTUM-018,C01,1,1,0,1,1,1,1
+DTUM-016,C02,1,1,1,1,1,0,1
+DTUM-002,C03,1,1,0,1,1,0,1
+DTUM-012,C04,1,1,0,1,0,1,1
+DTUM-004,C05,1,1,1,0,1,0,0
+DTUM-015,C06,1,0,0,1,1,0,1
+DTUM-014,C07,1,1,0,0,0,0,0
+DTUM-008,C08,0,0,0,1,1,0,0
+DTUM-011,C09,0,0,0,1,0,0,1

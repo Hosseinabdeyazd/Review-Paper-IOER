@@ -74,11 +74,11 @@ for name in validation['figures']:
         assert (ROOT/'figures'/f'{name}.{ext}').stat().st_size>1000
     pdf=PdfReader(ROOT/'figures'/f'{name}.pdf')
     assert len(pdf.pages)==1 and len(pdf.pages[0].extract_text())>300
-assert len(PdfReader(ROOT/'Results_Atlas.pdf').pages)==6
+assert len(PdfReader(ROOT/'Results_Atlas.pdf').pages)==4
 
 result={'status':'passed','decision_cells_checked':len(sd)+len(du),'cooccurrence_cells_checked':49,
         'source_records_checked':32,'su_context_assessments_checked':23,'input_hashes_checked':len(validation['input_sha256']),
-        'single_page_figures_checked':6,'atlas_pages_checked':6,
+        'single_page_figures_checked':4,'atlas_pages_checked':4,
         'scope':'Arithmetic, provenance, coverage and file integrity; not independent semantic or full-text validation'}
 (ROOT/'verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
 print(json.dumps(result,indent=2))

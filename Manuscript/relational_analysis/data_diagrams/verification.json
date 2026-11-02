@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "boundary_status_cells": 30,
+  "stage_function_cells": 45,
+  "exact_configurations": 9,
+  "configuration_records": 10,
+  "source_method_cells": 100,
+  "source_hashes": 5,
+  "pdf_pages": 4,
+  "interpretation": "Arithmetic and same-record joins verified; semantic coding is inherited, not independently revalidated."
+}

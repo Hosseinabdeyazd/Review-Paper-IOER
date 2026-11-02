@@ -1,0 +1,10 @@
+﻿configuration,paper_count,mechanism_count,mechanisms,paper_ids,dois,definition
+C01,2,6,prob;bayes;detect;adapt;cover;decision,DTUM-013;DTUM-018,10.1109/isctis70043.2026.11571854;10.3390/machines14030335,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C02,1,6,prob;bayes;joint;detect;adapt;decision,DTUM-016,10.1109/tcst.2024.3437163,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C03,1,5,prob;bayes;detect;adapt;decision,DTUM-002,10.1016/j.apenergy.2026.128822,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C04,1,5,prob;bayes;detect;cover;decision,DTUM-012,10.1109/icsedis68157.2026.11518496,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C05,1,4,prob;bayes;joint;adapt,DTUM-004,10.1016/j.jcp.2026.115057,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C06,1,4,prob;detect;adapt;decision,DTUM-015,10.1109/ojcoms.2026.3698326,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C07,1,2,prob;bayes,DTUM-014,10.1109/ispds67367.2025.11391182,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C08,1,2,detect;adapt,DTUM-008,10.1109/acsos-c52956.2021.00075,exact set of R-coded mechanisms; C and NR do not enter the positive set
+C09,1,2,detect;decision,DTUM-011,10.1109/ichi69079.2026.00214,exact set of R-coded mechanisms; C and NR do not enter the positive set

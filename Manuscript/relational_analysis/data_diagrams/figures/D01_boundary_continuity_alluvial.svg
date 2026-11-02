@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1130.4pt" height="711.36pt" viewBox="0 0 1130.4 711.36" version="1.1">
+ <ns0:metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-11-02T14:48:34.563372</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </ns0:metadata>
+ <ns0:defs>
+  <ns0:style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</ns0:style>
+ </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="patch_1">
+   <ns0:path d="M 0 711.36  L 1130.4 711.36  L 1130.4 0  L 0 0  z " style="fill: #ffffff" />
+  </ns0:g>
+  <ns0:g id="axes_1">
+   <ns0:g id="boundary_B12_Q">
+    <ns0:title>S1 → S2 | Discussion / review | n=1 | U02</ns0:title><ns0:path d="M 280.656 157.964651  C 466.704 157.964651 554.256 157.964651 740.304 157.964651  L 740.304 171.898726  C 554.256 171.898726 466.704 171.898726 280.656 171.898726  z " clip-path="url(#pc1f1ebec5c)" style="fill: #90a0ad; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B12_N">
+    <ns0:title>S1 → S2 | Downstream transfer not demonstrated | n=4 | U01;U04;U05;U08</ns0:title><ns0:path d="M 280.656 171.898726  C 466.704 171.898726 554.256 199.646754 740.304 199.646754  L 740.304 255.383054  C 554.256 255.383054 466.704 227.635025 280.656 227.635025  z " clip-path="url(#pc1f1ebec5c)" style="fill: #c86c65; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B12_R">
+    <ns0:title>S1 → S2 | Inputs prepared for propagation | n=1 | U03</ns0:title><ns0:path d="M 280.656 227.635025  C 466.704 227.635025 554.256 283.131082 740.304 283.131082  L 740.304 297.065157  C 554.256 297.065157 466.704 241.5691 280.656 241.5691  z " clip-path="url(#pc1f1ebec5c)" style="fill: #d8aa4a; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B12_S">
+    <ns0:title>S1 → S2 | Sensitivity / representation comparison | n=2 | U07;U09</ns0:title><ns0:path d="M 280.656 241.5691  C 466.704 241.5691 554.256 310.87911 740.304 310.87911  L 740.304 338.74726  C 554.256 338.74726 466.704 269.43725 280.656 269.43725  z " clip-path="url(#pc1f1ebec5c)" style="fill: #7d9cc4; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B12_P">
+    <ns0:title>S1 → S2 | Partial / incompletely documented transfer | n=1 | U06</ns0:title><ns0:path d="M 280.656 269.43725  C 466.704 269.43725 554.256 380.429363 740.304 380.429363  L 740.304 394.363438  C 554.256 394.363438 466.704 283.371325 280.656 283.371325  z " clip-path="url(#pc1f1ebec5c)" style="fill: #53a79d; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B23_N">
+    <ns0:title>S2 → S3 | Downstream transfer not demonstrated | n=1 | U06</ns0:title><ns0:path d="M 280.656 305.47365  C 466.704 305.47365 554.256 255.383054 740.304 255.383054  L 740.304 269.317128  C 554.256 269.317128 466.704 319.407725 280.656 319.407725  z " clip-path="url(#pc1f1ebec5c)" style="fill: #c86c65; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B23_P">
+    <ns0:title>S2 → S3 | Partial / incompletely documented transfer | n=3 | U01;U13;U18</ns0:title><ns0:path d="M 280.656 319.407725  C 466.704 319.407725 554.256 394.363438 740.304 394.363438  L 740.304 436.165662  C 554.256 436.165662 466.704 361.209949 280.656 361.209949  z " clip-path="url(#pc1f1ebec5c)" style="fill: #53a79d; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B23_E">
+    <ns0:title>S2 → S3 | Quantified outputs for selected uncertain inputs | n=2 | U11;U12</ns0:title><ns0:path d="M 280.656 361.209949  C 466.704 361.209949 554.256 491.78184 740.304 491.78184  L 740.304 519.64999  C 554.256 519.64999 466.704 389.078099 280.656 389.078099  z " clip-path="url(#pc1f1ebec5c)" style="fill: #28745e; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_B45_P">
+    <ns0:title>S4 → S5 | Partial / incompletely documented transfer | n=1 | U19</ns0:title><ns0:path d="M 280.656 411.180425  C 466.704 411.180425 554.256 436.165662 740.304 436.165662  L 740.304 450.099737  C 554.256 450.099737 466.704 425.114499 280.656 425.114499  z " clip-path="url(#pc1f1ebec5c)" style="fill: #53a79d; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_O5_Q">
+    <ns0:title>Other inputs → S5 | Discussion / review | n=1 | U14</ns0:title><ns0:path d="M 280.656 447.216825  C 466.704 447.216825 554.256 171.898726 740.304 171.898726  L 740.304 185.832801  C 554.256 185.832801 466.704 461.1509 280.656 461.1509  z " clip-path="url(#pc1f1ebec5c)" style="fill: #90a0ad; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_O5_S">
+    <ns0:title>Other inputs → S5 | Sensitivity / representation comparison | n=2 | U15;U17</ns0:title><ns0:path d="M 280.656 461.1509  C 466.704 461.1509 554.256 338.74726 740.304 338.74726  L 740.304 366.61541  C 554.256 366.61541 466.704 489.01905 280.656 489.01905  z " clip-path="url(#pc1f1ebec5c)" style="fill: #7d9cc4; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_O5_P">
+    <ns0:title>Other inputs → S5 | Partial / incompletely documented transfer | n=2 | U06;U21</ns0:title><ns0:path d="M 280.656 489.01905  C 466.704 489.01905 554.256 450.099737 740.304 450.099737  L 740.304 477.967887  C 554.256 477.967887 466.704 516.887199 280.656 516.887199  z " clip-path="url(#pc1f1ebec5c)" style="fill: #53a79d; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="boundary_O5_E">
+    <ns0:title>Other inputs → S5 | Quantified outputs for selected uncertain inputs | n=2 | U16;U20</ns0:title><ns0:path d="M 280.656 516.887199  C 466.704 516.887199 554.256 519.64999 740.304 519.64999  L 740.304 547.51814  C 554.256 547.51814 466.704 544.755349 280.656 544.755349  z " clip-path="url(#pc1f1ebec5c)" style="fill: #28745e; opacity: 0.65; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_2">
+    <ns0:path d="M 267.5232 283.371325  L 280.656 283.371325  L 280.656 157.964651  L 267.5232 157.964651  z " clip-path="url(#pc1f1ebec5c)" style="fill: #337fa8; stroke: #337fa8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_3">
+    <ns0:path d="M 267.5232 389.078099  L 280.656 389.078099  L 280.656 305.47365  L 267.5232 305.47365  z " clip-path="url(#pc1f1ebec5c)" style="fill: #337fa8; stroke: #337fa8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_4">
+    <ns0:path d="M 267.5232 425.114499  L 280.656 425.114499  L 280.656 411.180425  L 267.5232 411.180425  z " clip-path="url(#pc1f1ebec5c)" style="fill: #337fa8; stroke: #337fa8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_5">
+    <ns0:path d="M 267.5232 544.755349  L 280.656 544.755349  L 280.656 447.216825  L 267.5232 447.216825  z " clip-path="url(#pc1f1ebec5c)" style="fill: #337fa8; stroke: #337fa8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_6">
+    <ns0:path d="M 740.304 185.832801  L 753.4368 185.832801  L 753.4368 157.964651  L 740.304 157.964651  z " clip-path="url(#pc1f1ebec5c)" style="fill: #90a0ad; stroke: #90a0ad; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_7">
+    <ns0:path d="M 740.304 269.317128  L 753.4368 269.317128  L 753.4368 199.646754  L 740.304 199.646754  z " clip-path="url(#pc1f1ebec5c)" style="fill: #c86c65; stroke: #c86c65; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_8">
+    <ns0:path d="M 740.304 297.065157  L 753.4368 297.065157  L 753.4368 283.131082  L 740.304 283.131082  z " clip-path="url(#pc1f1ebec5c)" style="fill: #d8aa4a; stroke: #d8aa4a; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_9">
+    <ns0:path d="M 740.304 366.61541  L 753.4368 366.61541  L 753.4368 310.87911  L 740.304 310.87911  z " clip-path="url(#pc1f1ebec5c)" style="fill: #7d9cc4; stroke: #7d9cc4; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_10">
+    <ns0:path d="M 740.304 477.967887  L 753.4368 477.967887  L 753.4368 380.429363  L 740.304 380.429363  z " clip-path="url(#pc1f1ebec5c)" style="fill: #53a79d; stroke: #53a79d; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_11">
+    <ns0:path d="M 740.304 547.51814  L 753.4368 547.51814  L 753.4368 491.78184  L 740.304 491.78184  z " clip-path="url(#pc1f1ebec5c)" style="fill: #28745e; stroke: #28745e; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="text_1">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="167.269579" transform="rotate(-0 300.3552 167.269579)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_2">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="202.104766" transform="rotate(-0 300.3552 202.104766)">4</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_3">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="236.939953" transform="rotate(-0 300.3552 236.939953)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_4">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="257.841066" transform="rotate(-0 300.3552 257.841066)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_5">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="278.742178" transform="rotate(-0 300.3552 278.742178)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_6">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="314.778578" transform="rotate(-0 300.3552 314.778578)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_7">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="342.646728" transform="rotate(-0 300.3552 342.646728)">3</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_8">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="377.481915" transform="rotate(-0 300.3552 377.481915)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_9">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="420.485353" transform="rotate(-0 300.3552 420.485353)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_10">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="456.521753" transform="rotate(-0 300.3552 456.521753)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_11">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="477.422865" transform="rotate(-0 300.3552 477.422865)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_12">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="505.291015" transform="rotate(-0 300.3552 505.291015)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_13">
+    <ns0:text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="300.3552" y="533.159165" transform="rotate(-0 300.3552 533.159165)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_14">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(204.012225 216.584003)">S1 → S2</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(219.278475 230.986347)">n = 9</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_15">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(204.012225 343.19189)">S2 → S3</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(219.278475 357.594234)">n = 6</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_16">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(204.012225 414.063478)">S4 → S5</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(219.278475 428.465821)">n = 1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_17">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(144.2616 491.902571)">Other inputs → S5</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(219.278475 506.304915)">n = 7</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_18">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="769.8528" y="174.626675" transform="rotate(-0 769.8528 174.626675)">Discussion / review  (n=2)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_19">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 230.908455)">Downstream transfer not</ns0:text>
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 243.511326)">demonstrated  (n=5)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_20">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="769.8528" y="292.826069" transform="rotate(-0 769.8528 292.826069)">Inputs prepared for propagation  (n=1)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_21">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 335.173774)">Sensitivity / representation</ns0:text>
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 347.776645)">comparison  (n=4)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_22">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 425.625139)">Partial / incompletely documented</ns0:text>
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 438.22801)">transfer  (n=7)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_23">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 516.076504)">Quantified outputs for selected</ns0:text>
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #17364a" transform="translate(769.8528 528.679375)">uncertain inputs  (n=4)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_24">
+    <ns0:text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17364a" x="280.656" y="119.285581" transform="rotate(-0 280.656 119.285581)">ASSESSED BOUNDARY</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_25">
+    <ns0:text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17364a" x="740.304" y="119.285581" transform="rotate(-0 740.304 119.285581)">RECORDED CONTINUITY STATUS</ns0:text>
+   </ns0:g>
+  </ns0:g>
+  <ns0:g id="text_26">
+   <ns0:text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17364a" x="29.52" y="33.956719" transform="rotate(-0 29.52 33.956719)">D01  Where is uncertainty continuity documented?</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_27">
+   <ns0:text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526676" x="29.52" y="64.518281" transform="rotate(-0 29.52 64.518281)">Computed distribution of 23 paper–context assessments from 20 publications. Ribbon width = assessment count.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_28">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526676" x="29.52" y="633.477773" transform="rotate(-0 29.52 633.477773)">S3 → S4: no assessed article in this selected set; it has no ribbon. This is not proof of absence in the wider literature.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_29">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526676" x="29.52" y="662.277773" transform="rotate(-0 29.52 662.277773)">Each assessment has exactly one status. Multiple contexts from one publication remain dependent observations.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_30">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526676" x="29.52" y="691.077773" transform="rotate(-0 29.52 691.077773)">Ribbons classify evidence records; they do not show physical material flow or measured transfer of uncertainty.</ns0:text>
+  </ns0:g>
+ </ns0:g>
+ <ns0:defs>
+  <ns0:clipPath id="pc1f1ebec5c">
+   <ns0:rect x="18" y="113.76" width="1094.4" height="475.2" />
+  </ns0:clipPath>
+ </ns0:defs>
+</ns0:svg>
