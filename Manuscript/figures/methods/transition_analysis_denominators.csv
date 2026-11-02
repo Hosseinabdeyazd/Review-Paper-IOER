@@ -1,0 +1,6 @@
+boundary,transition,contexts,unique_publications,paper_ids
+B12,S1 -> S2,9,9,U01;U02;U03;U04;U05;U06;U07;U08;U09
+B23,S2 -> S3,6,6,U01;U06;U11;U12;U13;U18
+B34,S3 -> S4,0,0,
+B45,S4 -> S5,1,1,U19
+O5,Other inputs -> S5,7,7,U06;U14;U15;U16;U17;U20;U21

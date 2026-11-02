@@ -139,7 +139,8 @@ def tex(text):
    if not table:out.append(r'\begin{center}\small\begin{tabularx}{\linewidth}{'+'X'*len(cells)+r'}\toprule');table=True
    out.append(' & '.join(esc(c) for c in cells)+r'\\\addlinespace');continue
   if table:out.append(r'\bottomrule\end{tabularx}\end{center}');table=False
-  if l.startswith('## '):out.append(r'\subsection{'+re.sub(r'^\d+\.\d+\. ','',l[3:])+'}')
+  if re.match(r'^## \d+\.\d+\.\d+\. ',l):out.append(r'\subsubsection{'+re.sub(r'^\d+\.\d+\.\d+\. ','',l[3:])+'}')
+  elif l.startswith('## '):out.append(r'\subsection{'+re.sub(r'^\d+\.\d+\. ','',l[3:])+'}')
   elif l.startswith('# '):out.append(r'\section{'+re.sub(r'^\d+\. ','',l[2:])+'}')
   else:out.append(esc(l))
  return '\n'.join(out)

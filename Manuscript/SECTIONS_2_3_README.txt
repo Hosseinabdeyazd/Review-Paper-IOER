@@ -28,8 +28,12 @@ supplementary_material/S1_S3_recovered_queries.txt
 The explanatory block table is not a replacement for archived executed strings. Historical missing execution details remain an audit issue; no new search was performed for the conceptual query display.
 
 Reproduction:
+python Manuscript/technical_methods_revision.py
 python Manuscript/build_sections_2_3.py
+python Manuscript/build_prisma_transition_layout.py
 node Manuscript/render_sections_2_3.cjs
 The rendering script uses the local bundled Playwright and Chrome paths; adapt those two paths on another machine. HTML and SVG remain browser-readable without this script. No authenticated browser profile is used by rendering. Figure count inputs and source hashes are in figures/methods/figure_counts.csv and validation.json.
 
 New coding dimensions in section 3 specify the integrated synthesis protocol. They have not been retrospectively filled for every historical record. Final submission requires completion of pending eligibility and the shared extraction ledger, reconciliation of all search-family flows, and updating the explicit reporting-status note.
+
+Technical update: sections 3.6.1–3.6.6 specify D01–D04 units, equations, denominators, evidence joins and limits. transition_analysis_denominators.csv identifies all four adjacent boundaries plus O5. TECHNICAL_RECHECK.txt documents arithmetic verification, which is not independent full-text recoding.

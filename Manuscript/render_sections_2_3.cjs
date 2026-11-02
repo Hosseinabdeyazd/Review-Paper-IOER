@@ -16,7 +16,8 @@ const {chromium} = require('C:/Users/technokade/.cache/codex-runtimes/codex-prim
   await page.screenshot({path:path.join(base,`figures/methods/qa/text_${lang}.png`)});
   for(const fig of ['workflow','evidence_join','prisma_broad_dtu_status','focused_selection_status']){
    const svg=fs.readFileSync(path.join(base,`figures/methods/${fig}_${lang}.svg`),'utf8');
-   await page.setContent('<html><head><style>@page{size:1000px 850px;margin:0}html,body{margin:0;width:1000px;height:850px}</style></head><body>'+svg+'</body></html>');
+   const dim=svg.match(/viewBox="0 0 (\d+) (\d+)"/);const ww=dim?dim[1]:1000,hh=dim?dim[2]:850;
+   await page.setContent(`<html><head><style>@page{size:${ww}px ${hh}px;margin:0}html,body{margin:0;width:${ww}px;height:${hh}px}</style></head><body>`+svg+'</body></html>');
    await page.evaluate(()=>document.fonts.ready);
    await page.pdf({path:path.join(base,`figures/methods/${fig}_${lang}.pdf`),printBackground:true,preferCSSPageSize:true});
    await page.locator('svg').screenshot({path:path.join(base,`figures/methods/${fig}_${lang}.png`)});

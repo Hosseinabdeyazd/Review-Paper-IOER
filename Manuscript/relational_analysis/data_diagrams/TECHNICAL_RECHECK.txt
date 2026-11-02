@@ -1,0 +1,24 @@
+TECHNICAL RECHECK: D01-D04
+
+The verify_data_diagrams.py audit was rerun against the original coding inputs.
+All arithmetic, source hashes and same-record joins passed. No source article was newly reread or recoded in this revision.
+
+D01: 23 unique publication-context assessments from 20 publications. Boundaries B12=9, B23=6, B34=0, B45=1, O5=7. Continuity states Q=2, N=5, R=1, S=4, P=7, E=4. These are not independent studies or measured uncertainty fluxes. O5 must not be moved to B45. Zero B34 is only the coverage of this selected extraction.
+
+D02: 16 positive edges among 45 stage-function cells; 9 records have S1-S5 functions, with 3 adjacent-only records outside the network. It is a bipartite incidence network, not a transition graph. The caption 'node area reflects distinct supporting papers' must not be interpreted as direct proportionality: the actual code is 220+55n for stages and 170+45n for functions. The revised Methods documents this affine encoding precisely. Edge width is proportional to n.
+
+D03: 10 non-review records, 7 binary positive-code mechanisms and 9 mutually exclusive exact configurations. Top bars sum to 10. C and NR are both zero in the positive-code projection but remain different source states. These are exact patterns, not clusters or architecture maturity levels.
+
+D04: 100 cells; 46 positive associations. Join key is paper_id + context. Denominator is source-carrying contexts, not all papers or all code assignments. Multilabel percentages are not additive. A Cartesian source/method co-occurrence within the same context is not evidence that a particular method treats a particular source.
+
+Remaining validation:
+Semantic decisions inherit archived extraction. Some evidence_anchor fields explicitly state that page anchors were not recorded. Completing these primary-source locators and reconciling the analytical subsets against the current eligibility ledger is necessary before final submission. Successful arithmetic verification does not certify full-text accuracy or selection closure.
+
+Rebuild manuscript after revision:
+python Manuscript/technical_methods_revision.py
+python Manuscript/build_sections_2_3.py
+python Manuscript/build_prisma_transition_layout.py
+node Manuscript/render_sections_2_3.cjs
+python Manuscript/relational_analysis/data_diagrams/code/verify_data_diagrams.py
+
+PRISMA layout now follows the supplied two-column template, with yellow identification header and blue stage bars. It explicitly retains the unresolved branch; no unassessed report is relabelled excluded. The transition allocation table is separate from publication selection counts.
