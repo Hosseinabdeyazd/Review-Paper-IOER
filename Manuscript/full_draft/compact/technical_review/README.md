@@ -1,4 +1,4 @@
-Conclusion added as Section 6; Table 2 maps nine architectural responsibilities to information requirements, interfaces, scale, and evidence. Current main text: 27 pages, 8,959 words; references excluded.
+Conclusion added as Section 6; Table 2 maps nine architectural responsibilities to information requirements, interfaces, scale, and evidence. Current main text: 27 pages, 8,971 words; references excluded.
 
 ## Current 20-publication update
 

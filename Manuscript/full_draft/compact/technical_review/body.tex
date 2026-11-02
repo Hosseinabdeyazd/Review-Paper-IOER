@@ -127,22 +127,22 @@ For each observed binary pattern v, its exact-intersection frequency is h(v)=sum
 
 
 \subsubsection{Source–method associations within the same transition context (D04)}
-Source and method labels are joined on the compound key (publication\_id, context), never on publication alone. Let A(q) be the set of counted pairs carrying source q and A(m) those carrying method m. The cell count is 
+Source and method labels are joined by publication and assessed context. Let A(q) denote contexts recording uncertainty source q and A(m) those recording method m. The number recording both is:
 
 \[
 n(q,m)=|A(q)\cap A(m)|
 \]
- and the row denominator is 
+The denominator counts all contexts recording source q:
 
 \[
 N(q)=|A(q)|
 \]
-. Colour encodes 
+In Figure 8, bubble colour represents the percentage of those contexts that also record method m:
 
 \[
 P(m\mid q)=100\,n(q,m)/N(q)
 \]
-, while bubble area is 150 n(q,m) points squared. Empty source rows have an undefined percentage, not zero. Rows and columns are ordered by their assessment frequencies, with codebook order resolving ties.
+Bubble area represents the count n(q,m), scaled by 150 points squared per assessment. Colour therefore shows a within-source percentage, not uncertainty magnitude. Empty source rows have undefined percentages. Rows and columns follow assessment frequency, with codebook order resolving ties.
 
 Because labels are multilabel, percentages within a row need not sum to 100\%. The join establishes co-occurrence within one assessed context, not that the method was specifically applied to that source. For example, a context containing two sources and two methods yields four co-occurrence cells; a source-specific treatment claim requires an additional explicit evidence relation. Source labels are not automatically mapped to epistemic or aleatory uncertainty. Prediction-error diagnostics and scenario comparison are not automatically probabilistic propagation.
 
