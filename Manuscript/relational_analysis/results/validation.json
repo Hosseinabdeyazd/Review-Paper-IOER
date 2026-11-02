@@ -1,0 +1,58 @@
+{
+  "S_U_counted_papers": 20,
+  "S_U_context_assessments": 23,
+  "S_DT_counted_papers": 12,
+  "S_DT_pending": 2,
+  "S_DT_stage_described_denominators": {
+    "S1": 7,
+    "S2": 7,
+    "S3": 2,
+    "S4": 2,
+    "S5": 1,
+    "X": 3
+  },
+  "DT_U_counted_papers": 13,
+  "DT_U_pending": 5,
+  "DT_U_method_level_records_for_cooccurrence": 10,
+  "DT_U_R_counts": {
+    "prob": 8,
+    "bayes": 7,
+    "joint": 2,
+    "detect": 8,
+    "adapt": 7,
+    "cover": 3,
+    "decision": 7
+  },
+  "DT_U_C_counts": {
+    "prob": 4,
+    "bayes": 3,
+    "joint": 2,
+    "detect": 4,
+    "adapt": 4,
+    "cover": 1,
+    "decision": 4
+  },
+  "figures": [
+    "01_stages_uncertainty",
+    "02_stages_dt_functions",
+    "03_dt_uncertainty_mechanisms",
+    "04_method_cooccurrence",
+    "05_evidence_to_architecture",
+    "06_synthesized_architecture"
+  ],
+  "pdf_atlas_pages": 6,
+  "new_fulltext_reading": false,
+  "new_semantic_coding_of_archived_extraction": true,
+  "independent_human_validation": false,
+  "inferential_significance_test": false,
+  "input_sha256": {
+    "dtu_extraction.csv": "ff873f2f2b36f3d5e2dfa87350b0033d5ff40e5b17fbbd7e8a8bcdd3d612101c",
+    "sdt_extraction.csv": "b315c4e20522ad8e75a6ecf29aedc9ada3b6c5e6d6f2c8942e41477d75afef19",
+    "su_codebook.csv": "718fb8ad92e532fd937fe8f6e6bce8a811b60dcffec0fce8dc7168dc83f96a25",
+    "su_context_assessments.csv": "85533f2b6d6eaa2889e36df437ba17b9f72da970c4e1f65317bdccb50f90cf22",
+    "su_extraction.csv": "cb115b3424a0022ba4561ee9f6980353b945fbe7fe2a4a399866da9a03fa5122",
+    "su_positive_theme_assignments.csv": "8db0976222fe60db8dea093dc4717bf764aee17ab9432a29be171dc582213a6b",
+    "su_theme_counts.csv": "a015deea9514b61f81cc33975ca36b72aee6fde7f10fa76f1523a60e59a5c573",
+    "synthesis_paths.csv": "08763dade681ac8577d40d4c8dc98f7ddf4a1e24acd8f43383e31ae418aa509a"
+  }
+}

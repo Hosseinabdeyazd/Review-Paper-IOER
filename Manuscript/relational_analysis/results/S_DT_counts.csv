@@ -1,0 +1,55 @@
+﻿stage,feature,label,R_count,C_count,R_aliases,C_aliases,stage_R_denominator
+S1,obs,Observation / attribute inference,7,0,B01;B03;B04;B05;B06;B13;B14,,7
+S1,sem,Semantic objects / material information,4,0,B01;B03;B13;B14,,7
+S1,qty,Quantity / inventory model,0,0,,,7
+S1,time,Time / event / service-life model,0,0,,,7
+S1,reuse,Recovery / reuse information,0,0,,,7
+S1,impact,Environmental consequence model,0,0,,,7
+S1,link,Cross-model / data exchange,0,0,,,7
+S1,trace,Identity / version / provenance,2,0,B13;B14,,7
+S1,view,Visualization / decision interface,0,0,,,7
+S2,obs,Observation / attribute inference,0,0,,,7
+S2,sem,Semantic objects / material information,6,0,B01;B03;B04;B05;B11;B12,,7
+S2,qty,Quantity / inventory model,7,0,B01;B03;B04;B05;B11;B12;B13,,7
+S2,time,Time / event / service-life model,0,0,,,7
+S2,reuse,Recovery / reuse information,0,0,,,7
+S2,impact,Environmental consequence model,0,0,,,7
+S2,link,Cross-model / data exchange,4,0,B01;B03;B05;B12,,7
+S2,trace,Identity / version / provenance,5,0,B01;B03;B04;B05;B11,,7
+S2,view,Visualization / decision interface,0,0,,,7
+S3,obs,Observation / attribute inference,0,0,,,2
+S3,sem,Semantic objects / material information,0,0,,,2
+S3,qty,Quantity / inventory model,0,0,,,2
+S3,time,Time / event / service-life model,2,2,B03;B05,B01;B04,2
+S3,reuse,Recovery / reuse information,0,0,,,2
+S3,impact,Environmental consequence model,0,0,,,2
+S3,link,Cross-model / data exchange,1,0,B03,,2
+S3,trace,Identity / version / provenance,1,0,B03,,2
+S3,view,Visualization / decision interface,0,0,,,2
+S4,obs,Observation / attribute inference,0,0,,,2
+S4,sem,Semantic objects / material information,1,0,B04,,2
+S4,qty,Quantity / inventory model,0,0,,,2
+S4,time,Time / event / service-life model,0,0,,,2
+S4,reuse,Recovery / reuse information,2,1,B04;B11,B03,2
+S4,impact,Environmental consequence model,0,0,,,2
+S4,link,Cross-model / data exchange,0,0,,,2
+S4,trace,Identity / version / provenance,0,0,,,2
+S4,view,Visualization / decision interface,1,0,B11,,2
+S5,obs,Observation / attribute inference,0,0,,,1
+S5,sem,Semantic objects / material information,0,0,,,1
+S5,qty,Quantity / inventory model,0,0,,,1
+S5,time,Time / event / service-life model,1,0,B12,,1
+S5,reuse,Recovery / reuse information,0,0,,,1
+S5,impact,Environmental consequence model,1,0,B12,,1
+S5,link,Cross-model / data exchange,1,0,B12,,1
+S5,trace,Identity / version / provenance,0,0,,,1
+S5,view,Visualization / decision interface,0,0,,,1
+X,obs,Observation / attribute inference,2,0,B08;B09,,3
+X,sem,Semantic objects / material information,2,0,B08;B09,,3
+X,qty,Quantity / inventory model,2,0,B09;B10,,3
+X,time,Time / event / service-life model,2,0,B09;B10,,3
+X,reuse,Recovery / reuse information,0,0,,,3
+X,impact,Environmental consequence model,0,0,,,3
+X,link,Cross-model / data exchange,3,0,B08;B09;B10,,3
+X,trace,Identity / version / provenance,2,0,B09;B10,,3
+X,view,Visualization / decision interface,2,0,B09;B10,,3

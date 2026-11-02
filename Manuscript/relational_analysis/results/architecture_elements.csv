@@ -1,0 +1,17 @@
+﻿element_id,element_type,label,support_origin,anchors,qualification
+S1,stage function,Observe/infer attributes,evidence_informed_synthesis,U03;U06;B05;B13,Selected studies support attribute inference; the combined inventory interface is not directly validated.
+S2,stage function,Build material inventory,evidence_informed_synthesis,U05;U07;B01;B03,Quantities and composition are evidence-supported; universal probabilistic handoff is not established.
+S3,stage function,Model stock change,evidence_informed_synthesis,U11;U12;U18;B03,Lifetime/stock dynamics and dated outflows support the function; generic online estimation is a separate candidate.
+S4,stage function,Assess recovery,evidence_informed_synthesis,U19;B04;B11,Evidence supports recovery-related assessment and reuse information; probabilistic quality-state transfer is proposed.
+S5,stage function,Assess consequences,evidence_informed_synthesis,U16;U19;B12,Impact calculation supported by studies; the assembled shared-state interface is not demonstrated.
+P12,directed interface,S1 to S2,proposed_interface,R12 in inputs/synthesis_paths.csv,Carry material alternatives and dependencies through attribute-to-quantity mapping.
+P23,directed interface,S2 to S3,proposed_interface,R23 in inputs/synthesis_paths.csv,Couple inventory realizations to conditioned lifetimes; update from event evidence.
+P34,directed interface,S3 to S4,proposed_gap_response,R34 in inputs/synthesis_paths.csv,Define quantity/time/condition-to-recovery-quality and routing transformation; direct domain validation missing.
+P45,directed interface,S4 to S5,proposed_gap_response,R45 in inputs/synthesis_paths.csv,Maintain common realization and dependency information through recovery-to-impact mappings.
+UR,shared payload,Shared uncertainty record,proposed_interface,R12;R23;R34;R45;DTUM-004;DTUM-016,Integrated payload schema is our proposal. Generic dependence mechanisms do not validate the entire schema.
+UP,cross-stage module,Propagation and dependence,cross_study_synthesis,DTUM-004;DTUM-016,Conditional distributions or covariance for represented variables; compatibility with material classes must be checked.
+UM,cross-stage module,Consistency and updating,cross_study_synthesis,DTUM-012;DTUM-013;DTUM-018,Mechanisms combined across studies; 012 adaptation is prospective and 018 covariance handoff is limited.
+UD,cross-stage module,Decision and communication,cross_study_synthesis,DTUM-002;DTUM-012;DTUM-015;DTUM-018,Confidence/U-linked actions support the candidate role; calibrated universal risk decisions are not established.
+SPACE,cross-cutting requirement,Source/target scale and aggregation,proposed_requirement,Boundary compatibility fields in inputs/synthesis_paths.csv,Explicit scale interface proposed; no universal scalability claim.
+TIME,cross-cutting requirement,Event resolution/update/horizon/decision timing,proposed_requirement,R23;S-DT time codes;DT-U adaptation codes,"These four timing attributes are proposed schema distinctions, not all implemented together in one source."
+ROLES,cross-cutting requirement,Data/model/validation/decision roles,proposed_requirement,Review design requirement,"Role positions are proposed architecture requirements, not empirical role-frequency findings."

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "decision_cells_checked": 739,
+  "cooccurrence_cells_checked": 49,
+  "source_records_checked": 32,
+  "su_context_assessments_checked": 23,
+  "input_hashes_checked": 8,
+  "single_page_figures_checked": 6,
+  "atlas_pages_checked": 6,
+  "scope": "Arithmetic, provenance, coverage and file integrity; not independent semantic or full-text validation"
+}

@@ -4,6 +4,8 @@ Date: 2026-11-02. This extends the earlier `content_profiles/` work from uncerta
 
 Read [the analysis protocol in Persian](ANALYSIS_PROTOCOL_FA.md), [the reference-method audit](REFERENCE_METHOD_AUDIT.md), [the data schema](evidence_schema.json) and [the initial synthesis paths](synthesis_paths.csv).
 
+**Visual results are now available:** [six-page PDF atlas](results/Results_Atlas.pdf), [figures and methods](results/README.md), [Persian interpretation](results/REPORT_FA.md), [LaTeX figure blocks](results/figures.tex). The update adds semantic coding of the archived S–DT/DT–U appraisals, three relation maps, exploratory co-occurrence/clustering and two evidence-linked architecture diagrams. Code, complete decision matrices, supporting IDs and verification results are in `results/`.
+
 ```mermaid
 flowchart TD
  A["S × U: uncertain variables, transformations and continuity gaps"] --> D["Boundary-specific requirements"]
@@ -36,7 +38,7 @@ The shared DOI 10.1016/j.jobe.2025.113391 remains in S–U and S–DT but has on
 
 ## What is not claimed
 
-The register is complete for these three source tables. **Harmonized relational coding, new statistical tests and all three completed thematic matrices are not yet claimed.** Raw retrieval counts and the earlier 20-paper uncertainty figures cannot provide the missing component-level annotations. A new full-text review, access recovery, study-family audit or expert survey was not conducted in this update.
+The register is complete for these three source tables. **Three scoped descriptive matrices and an exploratory DT–U co-occurrence analysis are now completed in `results/`.** They use semantic coding of archived appraisals, not raw retrieval counts. Broader full-text interface extraction, component-level temporal analysis, formal inference and architecture validation remain uncompleted. A new full-text review, access recovery, study-family audit or expert survey was not conducted in this update. Pending records remain excluded from the content counts.
 
 The script rebuilds the registry and readiness audit from the original extraction tables and checks coverage, uniqueness and source hashes:
 

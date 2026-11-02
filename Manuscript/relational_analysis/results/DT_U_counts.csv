@@ -1,0 +1,8 @@
+﻿feature,label,R_count,C_count,R_paper_ids,C_paper_ids,assessed_papers
+prob,Probabilistic U representation,8,4,DTUM-002;DTUM-004;DTUM-012;DTUM-013;DTUM-014;DTUM-015;DTUM-016;DTUM-018,DTUM-001;DTUM-009;DTUM-010;DTUM-011,13
+bayes,Bayesian state / parameter inference,7,3,DTUM-002;DTUM-004;DTUM-012;DTUM-013;DTUM-014;DTUM-016;DTUM-018,DTUM-001;DTUM-010;DTUM-011,13
+joint,Explicit joint / dependence transport,2,2,DTUM-004;DTUM-016,DTUM-001;DTUM-010,13
+detect,Residual / shift diagnostics,8,4,DTUM-002;DTUM-008;DTUM-011;DTUM-012;DTUM-013;DTUM-015;DTUM-016;DTUM-018,DTUM-001;DTUM-009;DTUM-010;DTUM-014,13
+adapt,Online model / parameter adaptation,7,4,DTUM-002;DTUM-004;DTUM-008;DTUM-013;DTUM-015;DTUM-016;DTUM-018,DTUM-001;DTUM-009;DTUM-012;DTUM-014,13
+cover,Empirical interval coverage assessment,3,1,DTUM-012;DTUM-013;DTUM-018,DTUM-001,13
+decision,Confidence / U linked alerts or actions,7,4,DTUM-002;DTUM-011;DTUM-012;DTUM-013;DTUM-015;DTUM-016;DTUM-018,DTUM-001;DTUM-009;DTUM-010;DTUM-014,13

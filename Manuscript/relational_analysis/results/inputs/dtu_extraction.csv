@@ -1,0 +1,121 @@
+﻿publication_id,DOI,Title,Year,Authors,databases,review_date,full_text_status,version_note,pdf_pages,local_filename,sha256,evidence_and_reviewer_appraisal,report_anchor
+DTUM-001,10.1007/s11831-026-10754-w,"Physics-Informed Digital Twins in Computational Engineering: a PRISMA-ScR Review of Physics-Informed Learning, Neural Operators, Uncertainty Quantification, Real-Time Updating, and Deployment Readiness",2026,Fridkin S.,SCOPUS | WOS,2026-11-01,read_publisher_pdf,,48,DTUM-001.pdf,8613f3db111bfc3a4ee0623647397c433f5c2f2ee9a051ddf2fae466b3731af3,"Physics-informed digital twins: PRISMA-ScR review
+
+DOI: https://doi.org/10.1007/s11831-026-10754-w
+
+**Architecture and mechanism.** The asset–model–data–update–uncertainty–decision framework links physics-informed learning, operators, calibration, assimilation and deployment (pp. 9–10). It distinguishes parameter, discrepancy, measurement and numerical/reduction uncertainty (pp. 23–27). Joint parameter/discrepancy posteriors and cross-covariances matter; the reduced-order representation also contains reconstruction error. Innovation consistency, bias, autocorrelation and observability diagnose whether updates remain credible (pp. 31–33). Coverage, interval width and scoring rules should be assessed together and by operating regime. Deployment gates require evidence beyond model accuracy (pp. 38–44).
+
+**Evidence and limits.** Secondary synthesis of 79 reports, not 79 additional independent records in our 18-paper corpus. Single-author screening and capped ranked retrieval limit completeness. No new operational DT is experimentally validated here.
+
+**Relevance and continuity judgment.** High conceptual relevance. Useful for defining what must cross each S1–S5 interface and for separating calibration, updating and decision evidence. It supplies assessment principles rather than an implemented continuity service.",FULLTEXT_REVIEW.md#dtum-001
+DTUM-002,10.1016/j.apenergy.2026.128822,Physics-driven and data-driven hybrid digital twin framework for methanol fuel supply system based on dynamic Bayesian network,2027,Liu S.; Hu J.; Xin D.; Liu H.; Huang W.; Zhao K.,SCOPUS | WOS,2026-11-01,read_publisher_pdf,,34,DTUM-002.pdf,d5784841cec88ec4c584066ad662cce2a88eecbb0a5603753b45dced6077d217,"Hybrid methanol fuel-supply DT
+
+DOI: https://doi.org/10.1016/j.apenergy.2026.128822
+
+**Architecture.** Synchronized 1-Hz measurements feed parallel conservation-law and fixed TCN models. Each branch has a dynamic Bayesian network with particle-filter updates of hidden parameters. Pump-specific adaptive fusion combines posterior outputs, followed by health indicators and screening thresholds (pp. 3–13; Figs. 1, 3). The physical branch's parameters describe hydraulic/thermal behavior; the TCN branch's parameters are empirical output corrections and must not be interpreted as direct physical damage.
+
+**Detection and monitoring.** Predicted–observed deviation triggers adaptive updates (p. 14). Particle posteriors track parameter changes. Current posterior residuals determine fusion weights; these residuals already use assimilated current measurements, so the reported tracking performance is not an independent future-prediction test. Posterior health-indicator means and ±2σ bands summarize monitoring; 0.8/0.4 thresholds are screening rules, not certified safety limits (pp. 10–13, 26–30).
+
+**What the architecture reveals.** Under first-pump bypass leakage, the data branch also lowers the second pump's health indicator because it can confuse downstream coupling with local degradation. Physical interpretation plus fusion separates the affected pump more effectively in this experiment (pp. 28–31). This is a particularly relevant example of why source attribution needs model structure rather than uncertainty bands alone.
+
+**Validation.** A water-based laboratory rig, changing flow and one persistent leakage scenario. The leak starts before the fault recording, so this does not validate general fault-onset detection delay. Normal-operation fused RMSEs are 0.104/0.110 Hz, 0.022/0.031 bar and 0.017/0.015 °C (Table 13, p. 24). The complete serial online calculation is 93.32 ms/step, excluding training, initialization and I/O (p. 23). EKF/EnKF are faster and sometimes more accurate than PF; PF is retained for posterior-based health propagation. Data-PF worsens some pressure errors (pp. 19, 23).
+
+**Continuity judgment.** Explicit within-branch posterior propagation and transformation to health indicators. Cross-branch dependence and calibrated fused-interval coverage are not demonstrated. Shared measurements make independence unsafe to assume. Narrower posteriors do not independently prove that uncertainty has been legitimately reduced. Methanol, shipboard operation, sensor drift and multi-component faults remain future validation (p. 31).
+
+**Relevance.** High: heterogeneous model fusion, source attribution and monitoring. Transfer to S1–S5 would require explicit joint dependence and interface contracts rather than copying residual weights directly.",FULLTEXT_REVIEW.md#dtum-002
+DTUM-003,10.1016/j.cej.2026.177046,A digital twin framework for predictive modeling of liver-on-a-chip system dynamics using limited experimental data,2026,Cabral T.O.; Ebrahimi A.; Bagheri A.; Khorsandi D.; Dokmeci M.R.; Jucaud V.; Pourkargar D.B.,SCOPUS,2026-11-01,not_available_locally,,,,,Full-text assessment pending. No abstract-only substitute.,FULLTEXT_REVIEW.md#dtum-003
+DTUM-004,10.1016/j.jcp.2026.115057,Sequential Bayesian parameter–state estimation in dynamical systems with noisy and incomplete observations via a variational framework,2026,Wang L.; Gorodetsky A.A.,SCOPUS,2026-11-01,read_arxiv_v2,arXiv:2512.25056v2; journal version not checked,39,DTUM-004_preprint.pdf,993bf502ccd2c8b3d0d4d5012b0f378087fba591c4eb691253dc6a7b7ab52f80,"Sequential Bayesian parameter–state estimation
+
+Journal DOI in corpus: https://doi.org/10.1016/j.jcp.2026.115057. Version actually examined: https://arxiv.org/abs/2512.25056v2 (39 pages).
+
+**Architecture.** FBOVI approximates the joint posterior as q(X,θ)=ν(θ)ρ(X|θ). Stage 1 updates the parameter marginal by variational inference; Stage 2 updates the state conditional on parameters using KF, UKF or EnKF. Neural networks represent conditional means and covariance factors to keep the representation size fixed over time (pp. 6–14, Fig. 8). EnKF particles are regenerated each step; the parameter distribution and conditional functions, rather than the same particles, pass to the next step.
+
+**Uncertainty mechanism.** Conditioning retains parameter–state dependence instead of imposing independent marginal distributions. Even with Gaussian conditionals, integration over parameters can produce non-Gaussian joint and state distributions (pp. 22–24, Fig. 16). Theorems bound cumulative approximation error under stated assumptions (pp. 7, 11; Appendices B–C). They are not a universal tight operational confidence certificate. Neural approximation, Gaussian filtering and variational-family restrictions introduce separate errors (pp. 34–35).
+
+**Validation.** Numerical pendulum experiments, 10-state Lorenz ’96 and a 51-state convection–diffusion example with partial observations (pp. 17–30). One pendulum comparison uses 50 independent data realizations. Early posterior uncertainty is overestimated in one case (p. 18). Model mismatch tests use altered discretization and increased process noise; they do not establish automatic identification of arbitrary model-form error (pp. 22–23). Large online training budgets and network sizes are disclosed in Appendices G–H; constant per-step structure does not mean low latency.
+
+**Relevance and continuity judgment.** High mathematical relevance for dependence-preserving transfer and sequential approximation-error accounting. This is an inference component, not a demonstrated deployed DT architecture with anomaly alarms, maintenance decisions or an S1–S5 interface system. Journal-version differences remain unchecked.",FULLTEXT_REVIEW.md#dtum-004
+DTUM-005,10.1016/j.jmapro.2026.09.081,Toward quality-assured intelligent welding processes for aerospace structures: From process monitoring to digital closed-loop manufacturing,2026,Peng X.; Peng S.; Wang Z.; Ma G.,SCOPUS,2026-11-01,not_available_locally,,,,,Full-text assessment pending. No abstract-only substitute.,FULLTEXT_REVIEW.md#dtum-005
+DTUM-006,10.1016/j.mechrescom.2026.104638,On the synthesis of the measurements and structural models using statistical finite element method,2026,Yuksel A.O.,SCOPUS,2026-11-01,not_available_locally,,,,,Full-text assessment pending. No abstract-only substitute.,FULLTEXT_REVIEW.md#dtum-006
+DTUM-007,10.1016/j.rcim.2026.103318,Remaining useful life aware physics-informed Bayesian digital twin for safety-constrained control in robot-integrated battery manufacturing,2026,A. F.; Rizwan U.; Hussainy S.T.; Almakayeel N.; Asif F.B.,SCOPUS,2026-11-01,not_available_locally,,,,,Full-text assessment pending. No abstract-only substitute.,FULLTEXT_REVIEW.md#dtum-007
+DTUM-008,10.1109/acsos-c52956.2021.00075,A Self-Learning Architecture for Digital Twins with Self-Protection,2021,C. Anderson; T. G. Walmsley; P. Patros,IEEE,2026-11-01,read_publisher_pdf,,2,DTUM-008.pdf,c7a6efa1e45e6a08b2e9487cede2cc486a4d1c33bcc191ec8bd50c0f435cb42f,"Self-learning architecture for self-protection
+
+DOI: https://doi.org/10.1109/acsos-c52956.2021.00075
+
+Monitoring, Modelling, Verification, Imagining, Falsification and Reconsidering form a feedback architecture. Prediction-accuracy deterioration triggers DMDc re-identification (p. 1). A simulated boiler evaluates the approach (p. 2). The protection experiment temporarily uses a fast-forward simulation to obtain accurate future information, which limits claims about the learned predictor's operational protection ability.
+
+There is useful residual-driven model maintenance, but no explicit posterior, coverage calibration or cross-model uncertainty representation. Relevance is supporting architectural feedback, not a core demonstration of probabilistic continuity.",FULLTEXT_REVIEW.md#dtum-008
+DTUM-009,10.1109/ai4im69129.2026.11558210,"AI-Driven Soft Sensors: Applications, Validation, and Metrological Challenges",2026,P. S. Nzakuna; M. Eyunkoel Lasaba; V. Basemenane; E. Mutelezi; V. Paciello; A. K. Lusala,IEEE,2026-11-01,read_publisher_pdf,,6,DTUM-009.pdf,bfd1cd4e227e5c46de09dda7a53fedba95c7b564d39f7e61997c6223564b8df6,"AI soft sensors
+
+DOI: https://doi.org/10.1109/ai4im69129.2026.11558210
+
+The review links synchronized/quality-controlled measurements, soft sensing, monitoring, drift assessment and governed model updates to DT/control applications (Fig. 1; pp. 3–5). It discusses sensor noise, model uncertainty and distribution shift, including input/latent-space drift and hybrid residual checks when ground truth is unavailable. Traceability, versioning, reference measurements and fallback behavior support interpretation of model confidence.
+
+This is a conceptual/metrological synthesis, not a newly validated online detector. Conformal, quantile and ensemble approaches are options, not jointly implemented components. Reported literature percentages lack sufficiently clear denominators for use as prevalence estimates. Relevance is high for measurement provenance and interface specifications, with implementation and continuity evidence still unassessed.",FULLTEXT_REVIEW.md#dtum-009
+DTUM-010,10.1109/i-smac65734.2025.11597612,"Water-Quality Digital Twins: A Review of Architectures, State-Space Assimilation, and Alerting",2025,Hariharan R.; Subash N.,IEEE | SCOPUS,2026-11-01,read_publisher_pdf,,9,DTUM-010.pdf,afb8271a55364034cabe3b18446153e607958626e5060a1d95f17c0cbc41c803,"Water-quality DT review
+
+DOI: https://doi.org/10.1109/i-smac65734.2025.11597612
+
+An edge–fog–cloud reference architecture connects quality checks, state/bias estimation and probabilistic alerts. Kalman innovations, robust outlier screening and change-point methods distinguish noise, drift and sustained events (pp. 5–7). Posterior covariance informs exceedance probabilities; hysteresis and time-over-threshold reduce transient alarms. Proposed payloads explicitly include estimates, covariances, residuals, sensor/time information and communication health, with model/threshold version traceability (pp. 7–8).
+
+This is one of the clearest interface proposals in the corpus. Multivariate dependence must be retained or handled conservatively. However, the paper is a review/reference architecture, not an end-to-end experimental validation. Its relationship with DTUM-012 should be considered when avoiding double-counting independent evidence. High conceptual relevance for uncertainty-carrying interfaces.",FULLTEXT_REVIEW.md#dtum-010
+DTUM-011,10.1109/ichi69079.2026.00214,Bio360: A Multimodal Framework for Health Digital Twin Modeling and Early Physiological Drift Detection,2026,Karnati S.; Mukherjee S.; Dasiga S.,IEEE | SCOPUS,2026-11-01,read_publisher_pdf,,6,DTUM-011.pdf,b2d2be3a732e38cced20da695c88d9049751529c5dec76f223dedc60a4cbe81b,"Bio360
+
+DOI: https://doi.org/10.1109/ichi69079.2026.00214
+
+Wearable/activity, nutrition and clinical information are harmonized into personal baselines and contextual event evaluation. Standardized deviations and a reliability/persistence-weighted event confidence score support alerts (pp. 2–5). The weighted score is not shown to be a calibrated event probability. Bayesian integration is described, but its full likelihood, posterior calibration and clinical validation are not established.
+
+Useful for heterogeneous-data harmonization and contextual interpretation. Low direct relevance to demonstrated uncertainty continuity; transfer across its data streams remains unassessed. Do not interpret a normalized score as a posterior without evidence.",FULLTEXT_REVIEW.md#dtum-011
+DTUM-012,10.1109/icsedis68157.2026.11518496,Robust Field-Focused Digital Twin for Real-Time Water-Quality Estimation and Alerting,2026,Hariharan R.; Subash N.,IEEE | SCOPUS,2026-11-01,read_publisher_pdf,,6,DTUM-012.pdf,851c00fdb54e725598084de05862edfc5c006317313771c73317ef35f93164b7,"Robust field-focused water DT
+
+DOI: https://doi.org/10.1109/icsedis68157.2026.11518496
+
+Probe/emulation, edge, fog and cloud tiers combine QA, buffering, Kalman state/bias estimation, robust innovations, smoothing, registries and alert policies (pp. 2–4). The state includes pH, TDS and slow bias; residual/change-point checks feed probabilistic threshold exceedance with hysteresis and persistence. The paper reports nominal-95% coverage of 94.8%, 95.2% and 93.9% across synthetic, semi-synthetic and real holdout categories (p. 5), plus lower false alarms and delay.
+
+The specific real dataset, sample counts and implementation detail are insufficiently clear for an independent replication. Adaptive calibration is future work. Architecture relevance is high, while evidence strength is qualified. A complete serialized covariance contract across tiers is not demonstrated, even though lineage/API concepts are discussed.",FULLTEXT_REVIEW.md#dtum-012
+DTUM-013,10.1109/isctis70043.2026.11571854,Dynamic Hierarchical Posterior Evolution for Bayesian Neural Network-Based Industrial Digital Twins under Non-Stationary Conditions,2026,Li C.; Wang L.; Xu L.; Liu Y.; Kong Y.; Song X.,IEEE | SCOPUS,2026-11-01,read_publisher_pdf,,9,DTUM-013.pdf,e6e70c0afb92f87eb3a65476dbb9d89b6f03562a673782e465ff8db2ef4539bb,"DHPE
+
+DOI: https://doi.org/10.1109/isctis70043.2026.11571854
+
+Hierarchical Gaussian/inverse-gamma uncertainty, quasi-Monte Carlo projection and Gaussian-mixture representation feed geometric distribution evolution. Wasserstein/transport distances from an anchor define stable/warning/alarm modes and adaptation of history/physics/likelihood contributions; finer transport deformation adjusts uncertainty scale (pp. 3–5). This is explicit monitoring of distribution evolution rather than point residuals alone.
+
+Titanium-furnace historical and enhanced scenarios include operating changes, degradation and bias. Table I reports RMSE 0.86 and PICP 95.1% (p. 6). However, Table V's no-closed-loop peak value is 4.25, whereas the full-model peak reported in Table IV is 10.2; the accompanying claim that removing the loop amplifies that peak needs clarification (pp. 7–8; table visually checked). Treat the ablation narrative cautiously.
+
+High mechanism relevance, qualified evidence. The distribution is compressed to a Gaussian for macro monitoring, which can hide mixture structure; the amount of information lost is not audited. Temporal continuity within this learner is not yet evidence of continuity across heterogeneous DT models.",FULLTEXT_REVIEW.md#dtum-013
+DTUM-014,10.1109/ispds67367.2025.11391182,Adaptive Weighted Physical Prior Bayesian Neural Network for Industrial Digital Twins,2025,C. Li; Y. Kong; Y. Liu; X. Song; Y. Ma; Q. Yue,IEEE,2026-11-01,read_publisher_pdf,,9,DTUM-014.pdf,851dde15eacef819a1e24c59d7bdab2c1e971239c66c163af5d84aefff315858,"Adaptive weighted physical prior for Bayesian learning
+
+DOI: https://doi.org/10.1109/ispds67367.2025.11391182
+
+Physics-based pretraining and supervised Bayesian learning are coupled by Wasserstein alignment. Adaptive weighting uses curvature, training progress and rollback; posterior sampling provides prediction bands (pp. 3–6). These diagnostics primarily govern training, not a validated runtime change detector.
+
+The paper reports prediction-error improvements, including RMSE 1.21955, but does not establish empirical interval coverage merely by plotting a nominal band (pp. 7–8). Out-of-band or wide-band triggers are suggested; online concept-drift feedback remains future work (pp. 8–9). Moderate relevance as a UQ component. Shared authors/topic with DTUM-013 do not constitute independent end-to-end confirmation.",FULLTEXT_REVIEW.md#dtum-014
+DTUM-015,10.1109/ojcoms.2026.3698326,Explainable and Conflict-Aware Cell Sleep Control in O-RAN via Monotonic Neural Additive Models,2026,A. A. Al-Hameed; A. S. Alhazmi; S. H. Younus; A. J. Showail; M. A. Ahmed,IEEE,2026-11-01,read_publisher_pdf,,20,DTUM-015.pdf,84315e4410f5cc3cca80c1c715e5804da9055196fd70cace3c1fb8a9dfb5de8a,"Explainable conflict-aware O-RAN
+
+DOI: https://doi.org/10.1109/ojcoms.2026.3698326
+
+Non-real-time training/monitoring and near-real-time control exchange models/statistics. Group-attribution distribution shifts support selective retraining. Dirichlet evidence produces uncertainty that modifies action thresholds, with switching costs and conflict resolution (pp. 4–8). This is an adjacent control architecture, rather than a primary DT deployment.
+
+Simulation and external ColORAN evaluation show shift sensitivity; increasing uncertainty under shift does not establish calibrated coverage. Selective retraining improves accuracy in one result while increasing QoS violations (p. 15). A full multi-xApp operational loop remains future work (p. 18). Monotonic individual additive functions do not establish monotonicity of the whole network when cross-group interactions are unconstrained. Action-label/direction descriptions around pp. 7–8 need replication clarification.
+
+Supporting relevance for uncertainty-aware action and model-version feedback. Cross-component covariance continuity is unassessed; avoid treating explainability or monotonic components as a general safety proof.",FULLTEXT_REVIEW.md#dtum-015
+DTUM-016,10.1109/tcst.2024.3437163,Learning-Based NMPC Adaptation for Autonomous Driving Using Parallelized Digital Twin,2025,J. P. Allamaa; P. Patrinos; H. Van der Auweraer; T. D. Son,IEEE,2026-11-01,read_publisher_pdf,,16,DTUM-016.pdf,8202ba9651fd6e166167eb88e9d1c954d345646170cf0292421a35a795c671be,"Parallel DTs for nonlinear predictive control
+
+DOI: https://doi.org/10.1109/tcst.2024.3437163
+
+Parallel executable twins evaluate controller parameter variations. UKF sigma points propagate parameter covariance into performance mean/covariance and cross-covariance; real-vehicle performance then updates parameters, combined with SPSA (pp. 3–10, Algorithm 1). Simulation–reality discrepancy adjusts exploration/noise settings. It compensates for uncertainty effects without necessarily identifying their physical source.
+
+A real SimRod experiment runs the controller at 20 Hz; tuning evaluates 85-second windows. Reported path RMSE improves from 1.365 to 0.295 m (results section). Nominal-twin bounds and non-increasing-cost checks constrain candidate updates, but depend on assumptions about the underlying controller and do not guarantee the fused learning algorithm universally (pp. 10, 15).
+
+High relevance for explicit covariance transport between executable models, measured feedback and decisions. The represented covariance describes the tuning/inference problem, not every source of physical discrepancy. Neither generic change-point detection nor full uncertainty-source attribution is demonstrated.",FULLTEXT_REVIEW.md#dtum-016
+DTUM-017,10.13182/npichmit25-46885,A Risk-informed Approach to Trustworthiness Assessment in Digital Twins-based Autonomous Control,2025,Cittadino N.; Athe P.; Lin L.; Dinh N.,SCOPUS,2026-11-01,not_available_locally,,,,,Full-text assessment pending. No abstract-only substitute.,FULLTEXT_REVIEW.md#dtum-017
+DTUM-018,10.3390/machines14030335,Tool-Health Digital Twin for CNC Predictive Maintenance via Innovation-Adaptive Sensor Fusion and Uncertainty-Aware Prognostics,2026,Cao Z.; Chen L.; Li C.; Zhu L.; Deng Z.,SCOPUS | WOS,2026-11-01,read_publisher_pdf,,25,DTUM-018.pdf,5a24269e4ce57de7800617213337ae68610cf921ecbf0b19548bf190fa78857a,"CNC tool-health DT
+
+DOI: https://doi.org/10.3390/machines14030335
+
+Physical, connectivity, DT-core and application layers combine multirate sensing, time synchronization, Kalman state estimation, deep prediction and uncertainty-aware maintenance (pp. 6–13). Innovation covariance and normalized innovation squared monitor consistency; Q/R adaptation follows. MC dropout supplies classification entropy and RUL prediction intervals; high uncertainty supports deferral (pp. 11–13, 19).
+
+Reported 90% interval coverage is 90.9±2.1%, with width 7.3; entropy-based deferral covers 6.1% and lowers false alarms by 18% in the stated test (p. 19). These are paper-reported, not independently reproduced. The proposed KF-to-neural interface passes posterior means, with optional tags; an explicit transfer of the KF covariance into the neural predictor is not demonstrated. Two UQ components therefore do not establish a continuous uncertainty chain.
+
+The R-adaptation description does not clearly separate state-prediction uncertainty from innovation covariance. Some training hyperparameters in Appendix A remain symbolic, data are available on request, and general reproducibility is limited. The blanket sub-100-ms statement is qualified by an external Transformer result of 108±7 ms (p. 18). Alert-rule descriptions require reconciliation with Appendix A. Architecture figure and relevant table were visually checked.
+
+High direct mechanism relevance. Especially useful as an example where explicit uncertainty exists at several stages but the connecting interface still needs auditing.",FULLTEXT_REVIEW.md#dtum-018

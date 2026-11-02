@@ -1,0 +1,21 @@
+﻿dimension,code,label,definition
+source,data_quality,"Data accuracy, completeness & currency",Data quality discussed as uncertain input; not a quantitative UQ claim.
+source,geometry,"Geometry, morphology & design","Building geometry, design or morphology variability/error."
+source,prediction,Classification & prediction error,"Prediction, classification or inferred-event accuracy/error explicitly recorded."
+source,material,Material intensity & stock parameters,"Variation/ranges in material intensity, composition or material-stock parameters."
+source,timing,"Lifetime, turnover & event timing","Service lives, turnover, event dates or analysis horizons; distinct from elapsed computing time."
+source,model,Model form & upscaling assumptions,"Model-family, representation or upscaling choice; not automatically an epistemic classification."
+source,scenario,Future scenarios & policy assumptions,Alternative futures or policy assumptions; scenarios are not assigned probabilities here.
+source,recovery,"Recovery share, reuse & quality","Recoverability, reuse feasibility or material quality in circular routing."
+source,environment,Environmental factors & processes,"Emission factors, environmental parameters or carbonation process parameters."
+source,damage,Hazard & damage states,"Seismic hazard, damage or loss in complementary consequence studies."
+method,qualitative,Qualitative quality / uncertainty assessment,Qualitative input-quality or uncertainty assessment.
+method,validation,Prediction-error / validation diagnostics,"Model accuracy, residual/error scores or predictive validation; not propagated UQ by default."
+method,ranges,Ranges / probability-distribution representation,Explicit range or distribution representation; does not by itself establish transfer.
+method,sampling,Monte Carlo / probabilistic sampling,Monte Carlo or parameter sampling recorded; no implication that all inputs are jointly propagated.
+method,bootstrap,Bootstrap for uncertainty outputs,Resampling linked to output uncertainty; ML training-data augmentation is excluded.
+method,sensitivity,Sensitivity / representation comparison,"Input, model-family, geometry or importance comparisons; not necessarily probabilistic."
+method,scenarios,Scenario comparison,Alternative-future or policy scenario evaluation.
+method,conditional,Conditional consequence distributions,Conditional mapping from damage to interventions/consequences.
+method,proxy,Proxy conversion & aggregation,Expected-loss proxy transformed to expected environmental consequences.
+method,review,Review synthesis,Secondary methodological synthesis; no primary propagation experiment.
