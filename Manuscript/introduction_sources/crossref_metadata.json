@@ -3479,5 +3479,362 @@
       ]
     },
     "article-number": "111741"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2016.07.003",
+    "page": "54-66",
+    "title": [
+      "Geospatial characterization of building material stocks for the life cycle assessment of end-of-life scenarios at the urban scale"
+    ],
+    "volume": "123",
+    "author": [
+      {
+        "given": "Alessio",
+        "family": "Mastrucci",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antonino",
+        "family": "Marvuglia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emil",
+        "family": "Popovici",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ulrich",
+        "family": "Leopold",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Enrico",
+        "family": "Benetto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2016.07.003",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2020.105026",
+    "page": "105026",
+    "title": [
+      "Spatiotemporal model to quantify stocks of building structural products for a prospective circular economy"
+    ],
+    "volume": "162",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6930-6081",
+        "authenticated-orcid": false,
+        "given": "Atta",
+        "family": "Ajayebi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Hopkinson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1109-9320",
+        "authenticated-orcid": false,
+        "given": "Kan",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dennis",
+        "family": "Lam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Han-Mei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2020.105026",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11
+        ]
+      ]
+    },
+    "article-number": "105026"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jclepro.2025.146074",
+    "page": "146074",
+    "title": [
+      "Wood-for-construction supply chain digital twin to drive circular economy and actor-based LCA information"
+    ],
+    "volume": "520",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3257-2594",
+        "authenticated-orcid": false,
+        "given": "Luca",
+        "family": "Morganti",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2285-3947",
+        "authenticated-orcid": false,
+        "given": "Andreas",
+        "family": "Rudenå",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2066-6371",
+        "authenticated-orcid": false,
+        "given": "Birgit",
+        "family": "Brunklaus",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5329-8654",
+        "authenticated-orcid": false,
+        "given": "Peter",
+        "family": "Bomark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1947-1633",
+        "authenticated-orcid": false,
+        "given": "Alberto",
+        "family": "Armijo Prieto",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-4498-2325",
+        "authenticated-orcid": false,
+        "given": "Johan",
+        "family": "Skog",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9693-809X",
+        "authenticated-orcid": false,
+        "given": "Theo",
+        "family": "Zaffagnini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0877-1283",
+        "authenticated-orcid": false,
+        "given": "Alessandro",
+        "family": "Pracucci",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9063-184X",
+        "authenticated-orcid": false,
+        "given": "Julen",
+        "family": "Astudillo Larraz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Cleaner Production"
+    ],
+    "URL": "https://doi.org/10.1016/j.jclepro.2025.146074",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "article-number": "146074"
   }
 ]

@@ -4,7 +4,7 @@ Version 0.2, 2026-11-02. English draft for the systematic-review project on circ
 
 Approved title: **From GeoAI to environmental impact assessment: A systematic review of uncertainty continuity and digital twin architecture for the circular built environment**.
 
-The introduction has been rewritten with 35 references (30 Elsevier and five Nature Portfolio; 34 published in 2020 or later). It contains 1,039 words excluding citations, or 1,160 including author–year citations. Read `Introduction.md` for the introduction and its complete bibliography; edit `sections/01_introduction.tex` for the LaTeX manuscript. Background references are not automatically members of the systematic-review corpus. Other sections remain preliminary.
+The introduction has been rewritten with 38 references (33 Elsevier and five Nature Portfolio; 36 published in 2020 or later). It contains 1,100 words excluding citations, or 1,240 including author–year citations. Read `Introduction.md` for the introduction and its complete bibliography; edit `sections/01_introduction.tex` for the LaTeX manuscript. Background references are not automatically members of the systematic-review corpus. Other sections remain preliminary.
 
 ## Open and build
 
@@ -37,3 +37,5 @@ PDFs, institutional credentials and signed download links are not included. Sour
 ## Verification
 
 Static validation results are recorded in `validation.json`. A LaTeX compiler was not available in the current environment; PDF compilation and visual layout verification remain pending. No compiled PDF is claimed.
+
+Revision: integrated workflows now motivate the research boundary; a universal five-stage sequence is not assumed in the introduction. Introduction_FA.txt supplies the Persian translation. The available anchor papers differ in coverage and do not jointly establish that each independently covers every proposed stage.

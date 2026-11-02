@@ -1,7 +1,9 @@
 INTRODUCTION REFERENCES
-35 references; alphabetical order; author-year style
+38 references; alphabetical order; author-year style
 
 Abdelrahman, M., Macatulad, E., Lei, B., Quintana, M., Miller, C., Biljecki, F., 2025. What is a Digital Twin anyway? Deriving the definition for the built environment from over 15,000 scientific publications. Building and Environment 274, 112748. https://doi.org/10.1016/j.buildenv.2025.112748.
+
+Ajayebi, A., Hopkinson, P., Zhou, K., Lam, D., Chen, H.M., Wang, Y., 2020. Spatiotemporal model to quantify stocks of building structural products for a prospective circular economy. Resources, Conservation and Recycling 162, 105026. https://doi.org/10.1016/j.resconrec.2020.105026.
 
 Akhimien, N.G., Latif, E., Hou, S.S., 2021. Application of circular economy principles in buildings: A systematic review. Journal of Building Engineering 38, 102041. https://doi.org/10.1016/j.jobe.2020.102041.
 
@@ -41,6 +43,8 @@ Lin, L., Bao, H., Dinh, N., 2021. Uncertainty quantification and software risk a
 
 Mai, G., Xie, Y., Jia, X., Lao, N., Rao, J., Zhu, Q., Liu, Z., Chiang, Y.Y., Jiao, J., 2025. Towards the next generation of Geospatial Artificial Intelligence. International Journal of Applied Earth Observation and Geoinformation 136, 104368. https://doi.org/10.1016/j.jag.2025.104368.
 
+Mastrucci, A., Marvuglia, A., Popovici, E., Leopold, U., Benetto, E., 2017. Geospatial characterization of building material stocks for the life cycle assessment of end-of-life scenarios at the urban scale. Resources, Conservation and Recycling 123, 54-66. https://doi.org/10.1016/j.resconrec.2016.07.003.
+
 Mhatre, P., Gedam, V., Unnikrishnan, S., Verma, S., 2021. Circular economy in built environment – Literature review and theory development. Journal of Building Engineering 35, 101995. https://doi.org/10.1016/j.jobe.2020.101995.
 
 Miatto, A., Schandl, H., Tanikawa, H., 2017. How important are realistic building lifespan assumptions for material stock and demolition waste accounts?. Resources, Conservation and Recycling 122, 143-154. https://doi.org/10.1016/j.resconrec.2017.01.015.
@@ -48,6 +52,8 @@ Miatto, A., Schandl, H., Tanikawa, H., 2017. How important are realistic buildin
 Miatto, A., Fasanella, Y., Mainardi, M., Borin, P., 2023. Correlation between building size and material intensity in residential buildings. Resources, Conservation and Recycling 197, 107093. https://doi.org/10.1016/j.resconrec.2023.107093.
 
 Michiels, F., Geeraerd, A., 2020. How to decide and visualize whether uncertainty or variability is dominating in life cycle assessment results: A systematic review. Environmental Modelling & Software 133, 104841. https://doi.org/10.1016/j.envsoft.2020.104841.
+
+Morganti, L., Rudenå, A., Brunklaus, B., Bomark, P., Armijo Prieto, A., Skog, J., Zaffagnini, T., Pracucci, A., Astudillo Larraz, J., 2025. Wood-for-construction supply chain digital twin to drive circular economy and actor-based LCA information. Journal of Cleaner Production 520, 146074. https://doi.org/10.1016/j.jclepro.2025.146074.
 
 Opoku, D.G.J., Perera, S., Osei-Kyei, R., Rashidi, M., 2021. Digital twin application in the construction industry: A literature review. Journal of Building Engineering 40, 102726. https://doi.org/10.1016/j.jobe.2021.102726.
 
