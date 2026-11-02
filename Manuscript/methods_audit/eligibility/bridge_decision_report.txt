@@ -1,0 +1,10 @@
+FOCUSED BRIDGE ELIGIBILITY REASSESSMENT
+
+This closes the eligibility decisions for the 12 already extracted reports in the focused 43-record bridge search. It is not a new independent full-text read and not completion of the 2,447-record broad DT search.
+
+Ten reports qualify for the combined domain/complementary evidence stream: four direct domain interfaces and six transferable methods. Two reports are outside the focused interface scope (cost prediction; design carbon substitution), although they may be useful in other analyses. Two reports have no archived full text and remain outside eligibility assessment. Recovery of their full texts requires revisiting the counts.
+
+Report counts: 83 occurrences - 40 repeats = 43 screened; 29 outside focused candidate set; 14 sought; 2 unavailable in the current archive; 12 appraised; 2 excluded; 10 included reports. Independent-study counts are not inferred.
+
+Decision basis and page/section locators are retained in bridge_14_decisions.csv. Original extraction tables remain unchanged. These eligibility rules are made explicit retrospectively and must not be described as prospectively registered.
+

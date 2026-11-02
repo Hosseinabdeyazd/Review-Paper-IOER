@@ -1,0 +1,18 @@
+{
+  "scope": "Focused bridge search only; not the broad Base+DT corpus",
+  "identified_occurrences": 83,
+  "duplicates_removed": 40,
+  "screened": 43,
+  "outside_focused_candidate_set": 29,
+  "reports_sought": 14,
+  "not_retrieved_in_current_archive": 2,
+  "assessed_from_archived_fulltext_extractions": 12,
+  "excluded_after_extraction_reassessment": 2,
+  "included_reports": 10,
+  "direct_domain_interface": 4,
+  "complementary_transferable_methods": 6,
+  "independent_study_count": "not established",
+  "exclusion_reason_counts": {
+    "outside_focused_interface": 2
+  }
+}
