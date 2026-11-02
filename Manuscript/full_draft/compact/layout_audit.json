@@ -1,0 +1,23 @@
+{
+  "en": {
+    "words_excluding_references_and_title": 8436,
+    "references": 58,
+    "main_figures": 9,
+    "supplement_figures": 9,
+    "main_pages": 24,
+    "reference_pages": 4,
+    "total_pages": 28
+  },
+  "fa": {
+    "words_excluding_references_and_title": 8847,
+    "references": 58,
+    "main_figures": 9,
+    "supplement_figures": 9,
+    "main_pages": 24,
+    "reference_pages": 4,
+    "total_pages": 28
+  },
+  "latex_compilation_verified": false,
+  "pdf_renderer": "Chromium; editable English source uses elsarticle and requires XeLaTeX. PDF page audit applies to supplied PDFs, not an uncompiled TeX build.",
+  "scope": "Layout and main/supplement split. No new eligibility decisions or added references."
+}
