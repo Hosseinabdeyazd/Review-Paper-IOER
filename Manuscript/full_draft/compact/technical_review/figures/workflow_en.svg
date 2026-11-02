@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
 <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#4c78a8"/></marker></defs>
 <rect width="1000" height="850" fill="white"/>
-<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">1. Connected review workflow</text>
+<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">Connected review workflow</text>
 <path d="M500,159 L500,187" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
 <path d="M500,271 L500,299" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
 <path d="M500,383 L500,411" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>

@@ -71,24 +71,24 @@
     <ns0:title>S5 | Cross-model / data exchange | n=1 | B12</ns0:title><ns0:path d="M 269.7696 527.686531  C 478.6848 527.686531 521.5392 353.71102 725.0976 353.71102  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #b8b8b8; stroke-linejoin: miter" />
    </ns0:g>
    <ns0:g id="text_1">
-    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(155.5113 175.651995)">S1  Attributes</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(155.5113 175.651995)">S1</ns0:text>
     <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 190.054338)">7 papers</ns0:text>
    </ns0:g>
    <ns0:g id="text_2">
-    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(157.429425 262.639281)">S2  Inventory</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(157.429425 262.639281)">S2</ns0:text>
     <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 277.041625)">7 papers</ns0:text>
    </ns0:g>
    <ns0:g id="text_3">
-    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(142.7463 349.627505)">S3  Time / flows</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(142.7463 349.627505)">S3</ns0:text>
     <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 364.029849)">2 papers</ns0:text>
    </ns0:g>
    <ns0:g id="text_4">
-    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(159.101925 436.614791)">S4  Recovery</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(159.101925 436.614791)">S4</ns0:text>
     <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 451.017135)">2 papers</ns0:text>
    </ns0:g>
    <ns0:g id="text_5">
-    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(166.9938 523.602546)">S5  Impacts</ns0:text>
-    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 538.00489)">1 papers</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(166.9938 523.602546)">S5</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 538.00489)">1 paper</ns0:text>
    </ns0:g>
    <ns0:g id="text_6">
     <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="158.953255" transform="rotate(-0 757.2384 158.953255)">Observation / attribute inference  (n=7)</ns0:text>
@@ -232,7 +232,7 @@
    <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="647.877773" transform="rotate(-0 18 647.877773)">Node area reflects distinct supporting papers. Edge width = papers with that exact stage–function code; all positive edges are shown.</ns0:text>
   </ns0:g>
   <ns0:g id="text_18">
-   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="673.077773" transform="rotate(-0 18 673.077773)">Nodes and edges overlap in membership and must not be summed as unique papers. SVG hover labels and the CSV identify each supporting record.</ns0:text>
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="673.077773" transform="rotate(-0 18 673.077773)">Nodes and edges overlap in membership and must not be summed as unique papers. Supplementary evidence tables and the CSV identify each supporting record.</ns0:text>
   </ns0:g>
   <ns0:g id="text_19">
    <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="698.277773" transform="rotate(-0 18 698.277773)">A connection means the function is coded at that stage. It is not evidence of uncertainty propagation or a working interface between stages.</ns0:text>

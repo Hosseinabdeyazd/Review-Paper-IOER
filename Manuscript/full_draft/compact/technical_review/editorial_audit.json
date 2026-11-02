@@ -1,0 +1,17 @@
+{
+  "changed_figures": [
+    "figure_1_design_to_use.svg",
+    "figure_S1_design_brief.svg",
+    "figure_S2_configuration_choices (1).svg",
+    "figure_S3_functional_allocation.svg",
+    "focused_selection_status_en.svg",
+    "workflow_en.svg",
+    "evidence_join_en.svg",
+    "D02_stage_function_network.svg"
+  ],
+  "publication_count": 20,
+  "frequency_tables_rechecked": 3,
+  "frequency_arithmetic": "passed",
+  "new_semantic_coding": false,
+  "new_empirical_DT_test": false
+}

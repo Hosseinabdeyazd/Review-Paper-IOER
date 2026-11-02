@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="674.0" viewBox="0 0 1000 674.0">
 <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#4c78a8" /></marker></defs>
 <rect width="1000" height="674.0" fill="white" y="0.0" />
-<text x="500" y="36.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">4. Focused-set full-text adjudication</text>
+<text x="500" y="36.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">Focused-set full-text adjudication</text>
 <path d="M330,195.0 L330,223.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
 <path d="M595,147.0 L650,147.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
 <path d="M330,318.0 L330,346.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />

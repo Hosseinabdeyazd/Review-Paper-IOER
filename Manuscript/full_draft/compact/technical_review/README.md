@@ -1,8 +1,12 @@
+## Editorial revision
+
+See `EDITORIAL_CHANGES.txt` and `editorial_audit.json` for corrections and verification scope. Current manuscript: 28 main pages plus 4 reference pages.
+
 ## Base and uncertainty-layer revision
 
 Figure 2c now reports matched Base/U memberships for S1–S5 and keeps selected-report eligibility separate. Figure 2d distinguishes title/abstract uncertainty treatment from full-text cross-stage evidence. Recomputed memberships, percentages, screening decisions and the companion report are in `base_u_comparison/`.
 
-Current PDF: 28 main pages plus 4 reference pages; 8,810 body words plus a 190-word abstract. Authors: Hossein Abdeyazdan, Georg Schiller, Martin Behnisch. S1 U provenance remains partly reconstructed; S3 has one U-only record; broad content eligibility is not closed. Population-wide uncertainty-analysis prevalence is not established.
+Current PDF: 28 main pages plus 4 reference pages; 8,771 body words plus a 190-word abstract. Authors: Hossein Abdeyazdan, Georg Schiller, Martin Behnisch. S1 U provenance remains partly reconstructed; S3 has one U-only record; broad content eligibility is not closed. Population-wide uncertainty-analysis prevalence is not established.
 
 ## Earlier revision notes
 

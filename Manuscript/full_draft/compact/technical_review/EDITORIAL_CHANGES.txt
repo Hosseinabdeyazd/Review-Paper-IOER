@@ -1,0 +1,11 @@
+Editorial corrections and verification inventory
+
+1. Page 6: interface extraction table numbered Table 1; architectural responsibility table remains Table 2. Figure and table cross-references reconciled.
+2. Page 9: distinguished identifier/arithmetic checks, architectural evidence appraisal, and untested empirical deployment performance. Removed internal production instructions and future-tense reporting promises.
+3. Pages 20-22: aligned Figures 9-11 and captions; implementation labelled prospective. Figure 11 separates software organisation, knowledge representation, model basis, scale, data coupling, control authority, agent roles and timing.
+4. Supplement: reconciled figure headings and table caption; completed R16 author list. Citation keys remain in the source register rather than diagram boxes.
+5. Twenty-publication frequency tables: supporting IDs, counts, denominators and percentages rechecked. Relational audit passed for 30 boundary/status cells, 45 stage/function cells, 100 source/method cells and nine configurations among ten DT+U publications.
+6. PDF: 28 main pages and 4 reference pages; 8,771 body words and 190 abstract words; 68 references. No broken figure images. LaTeX source provided; its compilation has not been verified.
+
+Scope of verification
+These checks establish traceable membership and arithmetic consistency. They are not a new independent semantic recoding of all studies. The architecture remains an evidence-linked review synthesis, not an empirically deployed end-to-end digital twin. Broad DT+U eligibility remains 91 assessed and 217 pending; those pending reports are not counted as included. Selected S1-S5+U eligibility remains 21 sought, one not retrieved, 20 assessed and 20 included. No scientific counts were changed to close an incomplete selection route.

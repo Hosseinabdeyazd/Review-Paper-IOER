@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="676.0" viewBox="0 0 1000 676.0">
 <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#4c78a8" /></marker></defs>
 <rect width="1000" height="676.0" fill="white" y="0.0" />
-<text x="500" y="36.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">2. One extraction model, three connected analyses</text>
+<text x="500" y="36.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">Shared interface record and evidence joins</text>
 <path d="M142,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
 <path d="M387,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
 <path d="M632,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
