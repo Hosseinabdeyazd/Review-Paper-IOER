@@ -1,0 +1,285 @@
+{"record_id": "DTMFU-71ffa1354aea7003", "doi": "10.1002/best.70155", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-0f462da959ec4454", "doi": "10.1002/eqe.70050", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-4192cfad00f09af0", "doi": "10.1002/sd.3379", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3e3a6deb24512c1d", "doi": "10.1002/tal.2127", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-23ba26ea19f3c287", "doi": "10.1007/978-3-030-93236-7_49", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0679d95c4e7954ef", "doi": "10.1007/978-3-031-25082-8_13", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e4e23b8982a44770", "doi": "10.1007/978-3-031-37114-1_16", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-fc3205a50a459862", "doi": "10.1007/978-3-032-07255-9_10", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-a28cbc4b64a0ff18", "doi": "10.1007/978-3-032-09040-9_10", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-750a871e04372a3c", "doi": "10.1007/978-3-032-13469-1_121", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-eabc0c27245a29ac", "doi": "10.1007/978-3-032-13469-1_193", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-097432fee7b2687d", "doi": "10.1007/978-3-032-16767-5_37", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-94250d2ea39a842c", "doi": "10.1007/978-981-19-1894-0_4", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-12a06511aaf0bc1d", "doi": "10.1007/978-981-19-8637-6_45", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-390f96649ff83620", "doi": "10.1007/978-981-95-1645-2_1", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e9e7bc918772f6c1", "doi": "10.1007/978-981-97-6176-0_11", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-56f5dedcb8ef5212", "doi": "10.1007/s11831-026-10576-w", "attempts": [{"url": "https://link.springer.com/content/pdf/10.1007/s11831-026-10576-w.pdf", "result": "not_pdf_or_too_large"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-2ad9f42b929168dc", "doi": "10.1007/s12273-024-1112-y", "attempts": [{"url": "https://link.springer.com/content/pdf/10.1007/s12273-024-1112-y.pdf", "result": "not_pdf_or_too_large"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-383ac6bb395321bb", "doi": "10.1007/s12524-026-02457-3", "attempts": [{"url": "https://link.springer.com/content/pdf/10.1007/s12524-026-02457-3.pdf", "result": "not_pdf_or_too_large"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e8b4c0853d96c142", "doi": "10.1007/s40030-026-00984-3", "attempts": [{"url": "https://link.springer.com/content/pdf/10.1007/s40030-026-00984-3.pdf", "result": "not_pdf_or_too_large"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b5a872b90cee4a9a", "doi": "10.1007/s41324-026-00712-w", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-b5a872b90cee4a9a.pdf", "sha256": "c1e4e5ea2ffda23d3608c6c369601c8feed4175e5ca2f11e8636e28dceaad427", "url": "https://link.springer.com/content/pdf/10.1007/s41324-026-00712-w.pdf"}
+{"record_id": "DTMFU-529fdc7f65b78a61", "doi": "10.1007/s44163-025-00245-5", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-529fdc7f65b78a61.pdf", "sha256": "6c56dd7a3b953b0657f84485c556962182ae39c278ece2a403265464127516e2", "url": "https://link.springer.com/content/pdf/10.1007/s44163-025-00245-5.pdf"}
+{"record_id": "DTMFU-6103ad99c9ecc46d", "doi": "10.1016/b978-0-443-33333-0.00003-x", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-d48a96d74d249ea1", "doi": "10.1016/j.aei.2024.102648", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-07ba36c16ac34a82", "doi": "10.1016/j.aei.2025.103382", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-9eaddd27c763e718", "doi": "10.1016/j.aei.2025.103971", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e75552d37ff2b682", "doi": "10.1016/j.aei.2025.104088", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ad75d84d60920a82", "doi": "10.1016/j.aei.2026.104398", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f0fe42094968638d", "doi": "10.1016/j.aei.2026.104410", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f2019de4501395dc", "doi": "10.1016/j.aei.2026.104814", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f5182e0769aadb85", "doi": "10.1016/j.aei.2026.105040", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f07bbca195eff065", "doi": "10.1016/j.aei.2026.105061", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ed08991ddb7a7fc0", "doi": "10.1016/j.apenergy.2026.127632", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e21e51f8668bebb2", "doi": "10.1016/j.autcon.2019.102915", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-2e42bfb1c2feb85a", "doi": "10.1016/j.autcon.2020.103517", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6c27ea383bcacb2f", "doi": "10.1016/j.autcon.2022.104430", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3bc924e7b1a3bd22", "doi": "10.1016/j.autcon.2022.104533", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b996926c3cd2d88d", "doi": "10.1016/j.autcon.2023.105210", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f13d9c2a6b319767", "doi": "10.1016/j.autcon.2024.105376", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0f12b709568b4932", "doi": "10.1016/j.autcon.2024.105640", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8b24cf890ba6b17a", "doi": "10.1016/j.autcon.2024.105822", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e222d09355577e20", "doi": "10.1016/j.autcon.2024.105947", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-762cb526ac0ece90", "doi": "10.1016/j.autcon.2025.106551", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-74a16e4bde798ccb", "doi": "10.1016/j.autcon.2025.106580", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-488e1098799236a8", "doi": "10.1016/j.autcon.2026.107003", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-87ac852ddaf11c8d", "doi": "10.1016/j.autcon.2026.107025", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-99966ad5c6710e52", "doi": "10.1016/j.autcon.2026.107045", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-af223bac6eb771c5", "doi": "10.1016/j.autcon.2026.107134", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6ba8fb2d0f8c4717", "doi": "10.1016/j.autcon.2026.107159", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-bff9cc6210f5e779", "doi": "10.1016/j.buildenv.2025.113801", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f8fe20838cdd45dd", "doi": "10.1016/j.buildenv.2025.114045", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-80ebc55cb46d1bcd", "doi": "10.1016/j.cemconcomp.2026.106858", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-4903bf6ed207bcef", "doi": "10.1016/j.comcom.2026.108632", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-071aff8ae2a57d42", "doi": "10.1016/j.conbuildmat.2026.147109", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-70045ff17d789312", "doi": "10.1016/j.crm.2021.100387", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b83e791833b3d560", "doi": "10.1016/j.culher.2024.12.006", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3beffeb52d8f01db", "doi": "10.1016/j.dche.2023.100086", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0cd72c1b25f571be", "doi": "10.1016/j.enbuild.2023.112992", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-86ce27a763689c77", "doi": "10.1016/j.enbuild.2025.115781", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0aa75c44ceb84863", "doi": "10.1016/j.enbuild.2025.115955", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-a6dde91990300fa3", "doi": "10.1016/j.enbuild.2025.116474", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-aa8790862db5bf59", "doi": "10.1016/j.enbuild.2026.117751", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-30925800fb542d22", "doi": "10.1016/j.enbuild.2026.118345", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-d0da30e35f5d324d", "doi": "10.1016/j.engappai.2025.112915", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-d7c56df43666c557", "doi": "10.1016/j.esr.2026.102148", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-5aa150c8a5301554", "doi": "10.1016/j.gmod.2024.101234", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-90cd8c3b8eb9d84a", "doi": "10.1016/j.isprsjprs.2024.12.003", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c2acb072457f5905", "doi": "10.1016/j.isprsjprs.2025.07.014", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-fe5ba61fe4a71b16", "doi": "10.1016/j.isprsjprs.2025.09.026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ca4175a069935248", "doi": "10.1016/j.isprsjprs.2025.12.013", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6f87c4aaba1ea15e", "doi": "10.1016/j.isprsjprs.2025.12.024", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-eb07b2eb9d331eda", "doi": "10.1016/j.isprsjprs.2026.01.003", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-d03b97bbd6074685", "doi": "10.1016/j.isprsjprs.2026.06.004", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-9cc63ad90014afdb", "doi": "10.1016/j.isprsjprs.2026.07.011", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8238824eecd141f2", "doi": "10.1016/j.jag.2025.104630", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-109f365b404a1536", "doi": "10.1016/j.jag.2026.105243", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-8462236da5095c64", "doi": "10.1016/j.jag.2026.105583", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f427e33fec30e4e6", "doi": "10.1016/j.jenvman.2024.122293", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3bcb64a973738990", "doi": "10.1016/j.jobe.2023.107520", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-bb74dc00b8afd61d", "doi": "10.1016/j.jobe.2024.110311", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-91f919907d33fd3c", "doi": "10.1016/j.jobe.2025.112808", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-2c878ddf4181add2", "doi": "10.1016/j.jobe.2025.113391", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f6e5f38ec95ac1aa", "doi": "10.1016/j.jobe.2026.117474", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-48e204019bd2bd5d", "doi": "10.1016/j.mtsust.2025.101220", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3fb84ca886cdb0ec", "doi": "10.1016/j.nxmate.2026.103809", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0626dccbc4f02dcb", "doi": "10.1016/j.ophoto.2025.100108", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-fde39614cd2201b8", "doi": "10.1016/j.pce.2026.104843", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7820123f21c31d46", "doi": "10.1016/j.rsase.2026.101918", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-5924ba0726b04a28", "doi": "10.1016/j.rser.2026.117415", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e7b4e676a370f769", "doi": "10.1016/j.strusafe.2026.102713", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ebd71e6267063060", "doi": "10.1016/j.tust.2025.106711", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-506f6d64df53cfee", "doi": "10.1021/acsomega.5c10292", "attempts": [{"url": "https://pubs.acs.org/doi/pdf/10.1021/acsomega.5c10292", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-a928eed80aa8da46", "doi": "10.1021/acssuschemeng.5c10525", "attempts": [{"url": "https://pubs.acs.org/doi/pdf/10.1021/acssuschemeng.5c10525", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f2edc7ff441e8b04", "doi": "10.1038/s40494-026-02649-7", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-f2edc7ff441e8b04.pdf", "sha256": "b55c7766a762b409ae6008edaa954a984be4f9e13b3808001072c11b5356f567", "url": "https://www.nature.com/articles/s40494-026-02649-7.pdf"}
+{"record_id": "DTMFU-44793dd305eb954a", "doi": "10.1038/s41598-025-33338-3", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-2d8914f6b1506b6b", "doi": "10.1038/s41598-026-57744-3", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-2d8914f6b1506b6b.pdf", "sha256": "8248963d98340e45d4eda1cf4863f606a90fbc1f3d7085e8ca431fbb1eeb365f", "url": "https://www.nature.com/articles/s41598-026-57744-3.pdf"}
+{"record_id": "DTMFU-7a170ef06c19216e", "doi": "10.1061/(asce)cp.1943-5487.0001050", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-9037a0590729c557", "doi": "10.1061/9780784483893.069", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-519575ee48197ccf", "doi": "10.1061/9780784486115.082", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8532e36c523f878b", "doi": "10.1061/9780784487105.038", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8d265ff48f40a46c", "doi": "10.1061/ajrua6.rueng-1085", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-659a1818594c8fcf", "doi": "10.1061/jccee5.cpeng-6253", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7d0b26c714f4f8e8", "doi": "10.1061/jsdccc.sceng-2205", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-256a20f148bedbd9", "doi": "10.1080/10095020.2025.2596195", "attempts": [{"url": "https://www.tandfonline.com/doi/pdf/10.1080/10095020.2025.2596195", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f8a46971e6336678", "doi": "10.1080/10095020.2026.2622788", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-db24a6660f2008bc", "doi": "10.1080/13467581.2026.2725985", "attempts": [{"url": "https://www.tandfonline.com/doi/pdf/10.1080/13467581.2026.2725985", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-4d8b371bb25c66dc", "doi": "10.1080/15732479.2026.2656943", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-9244afa7a5e025ed", "doi": "10.1080/17538947.2025.2506496", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-af1961d5dfed6602", "doi": "10.1080/17538947.2026.2741454", "attempts": [{"url": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2026.2741454", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0dfb74997b101439", "doi": "10.1080/23311916.2026.2677996", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6f0fd54f41c848e2", "doi": "10.1088/1742-6596/3140/4/042004", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-6f0fd54f41c848e2.pdf", "sha256": "871c13f32c0a35bb7ba10cee912919d88669516f695648d28f466cb083bdd8b0", "url": "https://iopscience.iop.org/article/10.1088/1742-6596/3140/4/042004/pdf"}
+{"record_id": "DTMFU-6801368521fc3ac0", "doi": "10.1088/1755-1315/1554/1/012009", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-6801368521fc3ac0.pdf", "sha256": "7c0191eb1879256c20558e274aae9e42d8e1924a21c75c13e3219e0b03890d97", "url": "https://iopscience.iop.org/article/10.1088/1755-1315/1554/1/012009/pdf"}
+{"record_id": "DTMFU-ebbd982e47bec440", "doi": "10.1108/ci-09-2022-0232", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-dbb09ee165c37254", "doi": "10.1108/ecam-01-2025-0131", "attempts": [{"url": "https://www.emerald.com/ecam/article-pdf/doi/10.1108/ECAM-01-2025-0131/10694103/ecam-01-2025-0131en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f1f53f1101351fbb", "doi": "10.1108/ecam-08-2024-1024", "attempts": [{"url": "https://www.emerald.com/ecam/article-pdf/33/2/1506/11240111/ecam-08-2024-1024en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0403bb648e59e91a", "doi": "10.1108/ijbpa-08-2025-0219", "attempts": [{"url": "https://www.emerald.com/ijbpa/article-pdf/44/7/1828/11078775/ijbpa-08-2025-0219en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-896958b37737023c", "doi": "10.1108/jedt-04-2026-0235", "attempts": [{"url": "https://www.emerald.com/jedt/article-pdf/doi/10.1108/JEDT-04-2026-0235/11881010/jedt-04-2026-0235en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-a1507e999b1a138d", "doi": "10.1108/sasbe-04-2025-0169", "attempts": [{"url": "https://www.emerald.com/sasbe/article-pdf/doi/10.1108/SASBE-04-2025-0169/10835726/sasbe-04-2025-0169en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-47d6126e66bcf173", "doi": "10.1108/sasbe-09-2025-0585", "attempts": [{"url": "https://www.emerald.com/sasbe/article-pdf/doi/10.1108/SASBE-09-2025-0585/11453268/sasbe-09-2025-0585en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-71d5631005e3887d", "doi": "10.1108/sr-10-2025-0822", "attempts": [{"url": "https://www.emerald.com/sr/article-pdf/doi/10.1108/SR-10-2025-0822/11200700/sr-10-2025-0822en.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-43ac56b989527ea6", "doi": "10.1109/access.2025.3570809", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-95e7fb32606b19af", "doi": "10.1109/access.2025.3639809", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e38af1c6fbe0b50c", "doi": "10.1109/access.2026.3682205", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-5e041d3be6f4bebe", "doi": "10.1109/access.2026.3713177", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c853e0adc618fd91", "doi": "10.1109/access.2026.3717418", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e6ac99fed13feeb8", "doi": "10.1109/access.2026.3721347", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0706eaabc8edd77d", "doi": "10.1109/aiea70743.2026.11632350", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-4c313a8095ed30e8", "doi": "10.1109/cait68620.2025.11424832", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-5cf2fece1126506b", "doi": "10.1109/ccdc69976.2026.11560246", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-cdd667d67514c8a8", "doi": "10.1109/ccnis69465.2025.00014", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-98269cfa558eae7e", "doi": "10.1109/eespe68405.2026.11649259", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-17f9fab0973c2080", "doi": "10.1109/icca66035.2025.11430988", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-054cb7c675742fd2", "doi": "10.1109/ice/itmc61926.2024.10794253", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8ee21710032ead33", "doi": "10.1109/icetsis68266.2026.11548812", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-44a4d4b5250a489c", "doi": "10.1109/icetsis68266.2026.11548894", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-1e5d330b45737791", "doi": "10.1109/icgmrs70230.2026.11542289", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c3cfbdc7aab5b28d", "doi": "10.1109/icicos62600.2024.10636898", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-edba187954024f2e", "doi": "10.1109/icimcis68501.2025.11326938", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-87d6905bb7c00245", "doi": "10.1109/icir68135.2025.11361604", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-72b5caa9f261219b", "doi": "10.1109/iciss71466.2026.11715022", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-d772dee055160fa1", "doi": "10.1109/iecon58223.2025.11221907", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ca87a4906ae1c150", "doi": "10.1109/ieec69628.2026.11584150", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8564066930d79930", "doi": "10.1109/igarss55030.2025.11242741", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f978d58e5e2335f4", "doi": "10.1109/igarss60577.2026.11731299", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-38620948b67be5c3", "doi": "10.1109/iisa66859.2025.11311297", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f6de6f5308ed223b", "doi": "10.1109/inista68122.2025.11249640", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3491bc30fdf45247", "doi": "10.1109/isctis70043.2026.11572184", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ca97d9a6c38accd5", "doi": "10.1109/isoirs70157.2026.11545216", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-a9d3df6a3264af16", "doi": "10.1109/jiot.2024.3434684", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-bef94234f93afdf4", "doi": "10.1109/jstars.2025.3647095", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6d887a04fa55677d", "doi": "10.1109/jstars.2026.3654241", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-228c6cde7ecf5a08", "doi": "10.1109/jstars.2026.3715686", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-a8fa4ec8235e42bd", "doi": "10.1109/jstars.2026.3735784", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b4a5cf6cb04e6700", "doi": "10.1109/jsteap.2025.3607855", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-13f51d56212107d7", "doi": "10.1109/metrolivenv56897.2023.10163998", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-969776fa3857b7ac", "doi": "10.1109/metrolivenv70468.2026.11659927", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-41f1239f0bdd5aa8", "doi": "10.1109/mgrs.2025.3618468", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-2449eb4a359e505c", "doi": "10.1109/migars72065.2026.11688875", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-776df8c682479082", "doi": "10.1109/peeec67807.2025.00027", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7389dd635f559bc1", "doi": "10.1109/smart66937.2025.11389701", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-badc1307de3c0c2f", "doi": "10.1109/southeastcon63549.2026.11475962", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-6fa07bacbc7ad923", "doi": "10.1109/tcyb.2021.3063285", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-cd34ddc2874ac057", "doi": "10.1109/tgrs.2025.3530934", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-6c4c09cb4b1fc7c1", "doi": "10.1109/tgrs.2026.3653117", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-bd307caf3afe096f", "doi": "10.1109/tgrs.2026.3665399", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-74b6fa668941581d", "doi": "10.1109/tgrs.2026.3670027", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-480ddbb94fc5b6bb", "doi": "10.1109/tgrs.2026.3716258", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-9eb2d166352c2f58", "doi": "10.1109/tii.2022.3190366", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-7d7980b93b020537", "doi": "10.1109/vtc2025-spring65109.2025.11174934", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-95e58705eb32b476", "doi": "10.1109/wacv61041.2025.00743", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7580c3e1a7b9e356", "doi": "10.1111/mice.12699", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-41657ff558af820e", "doi": "10.1111/phor.70047", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-681b0e4e858e6ea6", "doi": "10.1111/tgis.70144", "attempts": [{"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/tgis.70144", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-913c15f47b771a1b", "doi": "10.1115/1.4072155", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-a49ccb2c0dd08c3a", "doi": "10.1117/12.3031727", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-98fd76087600dd70", "doi": "10.1139/cjce-2025-0283", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e0b4e0754ee041a1", "doi": "10.1155/2020/8824135", "attempts": [{"url": "http://downloads.hindawi.com/journals/ace/2020/8824135.pdf", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e1154011067fad0f", "doi": "10.1155/stc/5526499", "attempts": [{"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/stc/5526499", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ddd2febc3fcaef86", "doi": "10.1155/vib/4950659", "attempts": [{"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/vib/4950659", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8938555e7ba4bcc1", "doi": "10.1177/01436244231163084", "attempts": [{"url": "https://journals.sagepub.com/doi/pdf/10.1177/01436244231163084", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-706a3ad577cf131e", "doi": "10.1177/14759217241297248", "attempts": [{"url": "https://journals.sagepub.com/doi/pdf/10.1177/14759217241297248", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-dfdcd4e4792cde4b", "doi": "10.1177/14780771251352964", "attempts": [{"url": "https://journals.sagepub.com/doi/pdf/10.1177/14780771251352964", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-2c9213b68ec5ae9b", "doi": "10.1177/87552930231195370", "attempts": [{"url": "https://onlinelibrary.wiley.com/doi/pdf/10.1177/87552930231195370", "result": "HTTP Error 403: Forbidden"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-18a44323443a8f5b", "doi": "10.11834/jig.210564", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-53439ce9e1044cec", "doi": "10.11908/j.issn.0253-374x.23130", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-f180466a39bf186c", "doi": "10.1201/9781003323020-403", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6f6b952136875b16", "doi": "10.1201/9781003678694", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-70aa25c225599635", "doi": "10.1201/9781003778677-160", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-dcf9b6ae460c422f", "doi": "10.1201/9781003778677-73", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c0fc4494dddb93da", "doi": "10.12082/dqxxkx.2024.230503", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-7809e774ad05d067", "doi": "10.12082/dqxxkx.2026.250594", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-caa827d5459cad67", "doi": "10.12396/znsd.231721", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-0aba88424c713806", "doi": "10.12989/sss.2026.37.5.407", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-47c261d8386b3ba3", "doi": "10.13198/j.issn.1001-6929.2025.09.16", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-edc3db0190354093", "doi": "10.13203/j.whugis20260147", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-58e61e7bbc6d9dc8", "doi": "10.13374/j.issn2095-9389.2026.01.09.003", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-1f6502dfb3db8ba9", "doi": "10.14445/23488352/ijce-v13i8p129", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-400c393db52539aa", "doi": "10.14569/ijacsa.2023.0141075", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-30b1926bc73c3672", "doi": "10.14627/gis.science.2026.2.1", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-995ae45e3b8e39da", "doi": "10.17868/strath.00093291", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-d738f8ffc7ae4917", "doi": "10.20365/disegnarecon.32.2024.11", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-13eed263582c8bd4", "doi": "10.20900/jsr20260058", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7c6813f8520836e8", "doi": "10.21014/tc26-2025.016", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-5c38c8d9266d2dc8", "doi": "10.21872/2026iise_16860", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-e2819e94006293b0", "doi": "10.22260/isarc2026/0184", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-26dd0c246f22a973", "doi": "10.22260/isarc2026/0205", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-ec723e2898ef241a", "doi": "10.22260/isarc2026/0295", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-8b84c00016a4583b", "doi": "10.2312/gch.20221215", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-d8a1e2d120f35c15", "doi": "10.23919/pdpcps00030.2026.00045", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-18d60bd29a0dc9d4", "doi": "10.23919/pdpcps00030.2026.00047", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-db205ddc679fb131", "doi": "10.23919/pdpcps00030.2026.00048", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b01fb1f09fbdfa63", "doi": "10.23919/splitech70133.2026.11685548", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-654a7e07d5930a7a", "doi": "10.30564/jbms.v8i1.12686", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-654a7e07d5930a7a.pdf", "sha256": "d336bd344baa54b972a8e8ec968043c935a930c2eaefda044b7f05953a5848f1", "url": "https://journals.bilpubgroup.com/index.php/jbms/article/download/12686/7617"}
+{"record_id": "DTMFU-d52dc48a0eac5845", "doi": "10.31387/oscm0640505", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-76a43f61e60c93ec", "doi": "10.3233/atde251173", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-cbb3bf03d2ffe2a3", "doi": "10.3233/atde260975", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b2a049a8e999204a", "doi": "10.3389/fbuil.2022.887593", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0ac84b8e096219e3", "doi": "10.3389/frsc.2026.1796408", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c3a6f9bbdfe5fb97", "doi": "10.3390/app15041999", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-971013b4e677fa48", "doi": "10.3390/app152011032", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8f292964ac507b1c", "doi": "10.3390/app152312599", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-d5def84657e92739", "doi": "10.3390/app162010244", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-31a3c371b5d7e040", "doi": "10.3390/buildings14010175", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-da9ab6b2352ffc66", "doi": "10.3390/buildings15142456", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-901e5ecce025fcd6", "doi": "10.3390/buildings15234237", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7d8596c07add339e", "doi": "10.3390/buildings16010065", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-49ef1f304f0d8902", "doi": "10.3390/buildings16071295", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-0e906b271b762f29", "doi": "10.3390/buildings16153012", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3212b925dfeaaad9", "doi": "10.3390/buildings16183645", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c61d2173d2f5eb01", "doi": "10.3390/cleantechnol8030070", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 429: Too Many Requests"}
+{"record_id": "DTMFU-8ffe778dd86ac7db", "doi": "10.3390/computation14040076", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-12fcbe24356b33ea", "doi": "10.3390/electronics14224399", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-fce2adfa82fc2665", "doi": "10.3390/en18051164", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f5f4e8119b39b3bb", "doi": "10.3390/environments13090491", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7b358c665f59c5b0", "doi": "10.3390/geomatics5040079", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c17c8d68a668c391", "doi": "10.3390/heritage7070164", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c76645f42a49ae15", "doi": "10.3390/info17020126", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-f1bd206009b31d11", "doi": "10.3390/land15060920", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-37e5396a7b117650", "doi": "10.3390/ma19173612", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-64d2921b22a13fd0", "doi": "10.3390/rs15071913", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-32a1163bf50b2cb3", "doi": "10.3390/rs16111939", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-abb21e12a0ef3452", "doi": "10.3390/rs17223730", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-719132080f4738bf", "doi": "10.3390/rs18071091", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-38017dd71695dd32", "doi": "10.3390/s23094382", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-2e274e90a48af8db", "doi": "10.3390/s25010059", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-559726832538fb48", "doi": "10.3390/s25165134", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-e9349e8055ae2d0e", "doi": "10.3390/s26154992", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3f304db3a759a408", "doi": "10.3390/s26175498", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-086f287c26504dcc", "doi": "10.3390/smartcities8010029", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ec3049814fb52d06", "doi": "10.3390/su131911088", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-8ac6d6a19330c4c4", "doi": "10.3390/su18104825", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-2e1ce384defdb807", "doi": "10.3390/su18136908", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-19d508a9794248d6", "doi": "10.3390/su18147133", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-9f5390360f825d25", "doi": "10.3390/su18157599", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-2a80be0f0a31a6f7", "doi": "10.3390/su18179008", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-821184ee1529812f", "doi": "10.3390/su18199800", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ad5b8b62f444ae21", "doi": "10.3390/urbansci10020091", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-bddf96dff1e142db", "doi": "10.36680/j.itcon.2025.024", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-9f974515b101c65e", "doi": "10.4995/var.2022.15313", "attempts": [{"url": "https://polipapers.upv.es/index.php/var/article/viewFile/15313/14169", "result": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"}], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-bf67ac0395a04665", "doi": "10.5194/isprs-annals-x-4-2024-287-2024", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-c76ff996c55f31e3", "doi": "10.5194/isprs-annals-x-4-w5-2024-229-2024", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-49195555c1d89de0", "doi": "10.5194/isprs-annals-x-4-w6-2025-249-2025", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-cfa64cfa543a39e6", "doi": "10.5194/isprs-annals-x-4-w6-2025-81-2025", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-70e20daac41062f4", "doi": "10.5194/isprs-annals-x-g-2025-397-2025", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-94c7a030cad8eab3", "doi": "10.5194/isprs-annals-xii-4-w1-2026-293-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-3688c747dada2b2c", "doi": "10.5194/isprs-annals-xii-4-w2-2026-17-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-4cb98e250e4f1563", "doi": "10.5194/isprs-annals-xii-4-w2-2026-57-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ec411c48a340e73d", "doi": "10.5194/isprs-archives-xliii-b1-2022-347-2022", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-853ad63c2dc40a00", "doi": "10.5194/isprs-archives-xlix-b1-2026-553-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-95e141b002c64985", "doi": "10.5194/isprs-archives-xlix-b2-2026-539-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-83697167927754f6", "doi": "10.5194/isprs-archives-xlix-b2-2026-585-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6e992f8b0aa15d58", "doi": "10.5194/isprs-archives-xlviii-1-w6-2025-83-2025", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-6876f880ea3d3556", "doi": "10.5194/isprs-archives-xlviii-2-w12-2026-159-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-b093c9df167d1d77", "doi": "10.5194/isprs-archives-xlviii-3-w2-2022-43-2022", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-075e4a664ea30f6a", "doi": "10.5194/isprs-archives-xlviii-4-w19-2025-101-2026", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ebe39b3fdae3f414", "doi": "10.5194/isprs-archives-xlviii-m-9-2025-1435-2025", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-314904004bd90e0e", "doi": "10.52842/conf.ecaade.2026.1.331", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-17db3985419394f8", "doi": "10.52842/conf.ecaade.2026.1.619", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-7e9a44fc2a7f5304", "doi": "10.52842/conf.ecaade.2026.3.387", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-4f65e1ff6c3bbb19", "doi": "10.53093/mephoj.1540159", "attempts": [], "status": "no_pdf_retrieved"}
+{"record_id": "DTMFU-ff8217c159d5d08d", "doi": "10.5566/ias.3932", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-ff8217c159d5d08d.pdf", "sha256": "2c06d5a50b0e7be0c502d57116b77e670c1279a5cb7fe2bd01e18d33602c197e", "url": "https://www.ias-iss.org/ojs/IAS/article/download/3932/1269"}
+{"record_id": "DTMFU-772a9f29dcf769fd", "doi": "10.57599/gisoj.2026.6.2.141", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-e225e074057356f2", "doi": "10.6106/kjcem.2026.27.2.042", "attempts": [], "status": "no_pdf_retrieved", "metadata_error": "HTTP Error 404: Not Found"}
+{"record_id": "DTMFU-da20038e89240b32", "doi": "10.7494/geom.2026.20.4.123", "attempts": [], "status": "pdf_downloaded_unverified_identity", "path": "outputs\\Manuscript\\methods_audit\\eligibility\\broad_retrieval\\pdfs\\DTMFU-da20038e89240b32.pdf", "sha256": "3dc3954e33e721085065c8cde2446e672268276cb9096fd1d957160b8049da1b", "url": "https://www.gaee.agh.edu.pl/gaee/article/download/1099/243"}
+{"record_id": "DTMFU-324c397a24e3f340", "doi": "10.7712/120125.12850.25961", "attempts": [], "status": "no_pdf_retrieved"}

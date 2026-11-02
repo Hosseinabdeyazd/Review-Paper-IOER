@@ -1,0 +1,14 @@
+# Cross-batch digital-twin eligibility boundary
+
+## One operational rule
+A DT paper must describe an asset-specific digital representation plus a functional information interface linking observation to interpretation, updating, simulation or decision use. An explicit conceptual architecture can satisfy this criterion; live bidirectional synchronization is an extraction variable, not a mandatory inclusion condition. A generic reconstruction algorithm merely advertised as useful for future DTs does not satisfy it. An asset viewer alone is insufficient unless the paper additionally specifies information roles, provenance, state or decision interfaces. Likewise, an isolated accuracy statistic is not probabilistic uncertainty quantification.
+
+## Borderline comparison checked against actual PDFs
+- **DTMFU-f2edc7ff441e8b04**, heritage 3DGS: retain enabling-architecture inclusion, not direct material-chain evidence. Actual PDF pp5–6 specifies cloud-to-local asset ingestion, a separately preserved empirical baseline and reversible rendering; p12/Table4 links empirical versus inferred representations to provenance/confidence UI, and specifies temporal-centroid comparison/alert concept. These are information-architecture interfaces beyond the image algorithm. Temporal monitoring remains conceptual and its 2cm threshold is not validated by the reported relative geometric error. It must not be labelled a deployed continuously synchronized twin or calibrated probabilistic UQ.
+- **DTMFU-ff8217c159d5d08d**, UAV feature enhancement: retain strict-DT exclusion and S1-error complementary role. Actual conclusion p16 (printed138) describes descriptor enhancement/SfM adaptation, dataset evaluation and a future infrastructure-digitization application. No comparable twin asset/provenance/state/decision interface is supplied. Good reconstruction error alone does not create a DT architecture.
+- **DTMFU-95e7fb32606b19af**, Scan-to-QC: retains explicit input/analysis/geometric-twin analytics architecture (p2) and covariance-to-reliability interface (pp11–12). Primary enabling S1 evidence, not full circular material-chain implementation.
+- **DTMFU-43ac56b989527ea6**, heritage blockchain: passes conceptual architecture boundary (pp5,8) but fails substantive uncertainty/error analysis; security and data integrity are not UQ.
+- **DTMFU-5e041d3be6f4bebe** and **DTMFU-e38af1c6fbe0b50c**: reconstruction/benchmark error analyses remain complementary because no twin-specific architecture is developed.
+
+## Counting implication
+Primary empirical/technical publication is not synonymous with direct material-flow evidence. Preserve a separate role for enabling S1 architecture, direct material-chain mechanisms, and out-of-domain transferable analogues. In particular, heritage visualization and Scan-to-QC should not be described as studies implementing a complete S1–S5 circular flow. No previous CSV decision was silently overwritten by this audit.

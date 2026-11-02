@@ -1,0 +1,11 @@
+{
+  "assessed_unique_publications": 71,
+  "counts": {
+    "domain_included": 18,
+    "excluded_from_triple_intersection": 49,
+    "complementary_included": 4
+  },
+  "unassessed_downloaded_pdf_ids": [],
+  "reason_locator_hash_validation": "passed",
+  "scope": "All currently archived broad DTU fulltexts; not closure of all search scenarios"
+}
