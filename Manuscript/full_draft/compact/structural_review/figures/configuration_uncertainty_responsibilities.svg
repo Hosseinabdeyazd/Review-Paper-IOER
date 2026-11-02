@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1260" viewBox="0 0 1400 1260"><rect width="100%" height="100%" fill="white"/>
+<text x="35" y="42" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="28" font-weight="700">Responsibilities within the original DT configuration structure</text>
+<text x="35" y="82" fill="#4C78A8" font-family="Arial,sans-serif" font-size="21" font-weight="700">A: specify the decision, quantity, scale, horizon and required evidence.</text>
+<text x="35" y="114" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="20" font-weight="400">B: choose how the responsibilities below are implemented. The six families coexist.</text>
+<text x="35" y="161" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="700">Configuration family</text>
+<text x="280" y="161" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="700">Uncertainty responsibility</text>
+<text x="610" y="161" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="700">GeoAI → circular material workflow</text>
+<text x="1035" y="161" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="700">Required traceable output</text>
+<rect x="25" y="181" width="1350" height="135" rx="5" fill="#ECECEC" stroke="#D9D9D9"/>
+<text x="35" y="212" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">System composition</text>
+<text x="280" y="212" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Retain dependencies when</text>
+<text x="280" y="238" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">entities are combined</text>
+<text x="610" y="212" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Building / component → stock: shared</text>
+<text x="610" y="238" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">archetypes and coefficients must</text>
+<text x="610" y="264" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">remain linked</text>
+<text x="1035" y="212" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Joint samples or covariance;</text>
+<text x="1035" y="238" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">aggregation lineage</text>
+<rect x="25" y="325" width="1350" height="135" rx="5" fill="#FFFFFF" stroke="#D9D9D9"/>
+<text x="35" y="356" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">Internal</text>
+<text x="35" y="382" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">architecture</text>
+<text x="280" y="356" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Make uncertainty-bearing</text>
+<text x="280" y="382" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">information traceable</text>
+<text x="610" y="356" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Connect GeoAI attributes, inventory,</text>
+<text x="610" y="382" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">release, recovery and LCA by stable</text>
+<text x="610" y="408" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">identities and interface contracts</text>
+<text x="1035" y="356" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Entity ID, units,</text>
+<text x="1035" y="382" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">provenance, model version</text>
+<text x="1035" y="408" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">and dependency links</text>
+<rect x="25" y="469" width="1350" height="135" rx="5" fill="#ECECEC" stroke="#D9D9D9"/>
+<text x="35" y="500" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">Computational model</text>
+<text x="280" y="500" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Estimate and propagate</text>
+<text x="280" y="526" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">uncertainty</text>
+<text x="610" y="500" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Infer attributes; compute material</text>
+<text x="610" y="526" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">mass; forecast release; model</text>
+<text x="610" y="552" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">recovery; propagate to impacts</text>
+<text x="1035" y="500" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Distribution, interval or</text>
+<text x="1035" y="526" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">scenario outputs; stated</text>
+<text x="1035" y="552" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">assumptions</text>
+<rect x="25" y="613" width="1350" height="135" rx="5" fill="#FFFFFF" stroke="#D9D9D9"/>
+<text x="35" y="644" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">Coupling &amp; control</text>
+<text x="280" y="644" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Test mismatch and route</text>
+<text x="280" y="670" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">feedback</text>
+<text x="610" y="644" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Compare model output with new survey /</text>
+<text x="610" y="670" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">inspection evidence; trigger justified</text>
+<text x="610" y="696" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">downstream revisions</text>
+<text x="1035" y="644" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Residual / discrepancy;</text>
+<text x="1035" y="670" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">revision trigger; action</text>
+<text x="1035" y="696" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">permissions</text>
+<rect x="25" y="757" width="1350" height="135" rx="5" fill="#ECECEC" stroke="#D9D9D9"/>
+<text x="35" y="788" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">Agency &amp;</text>
+<text x="35" y="814" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">intelligence</text>
+<text x="280" y="788" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Assign coordination and</text>
+<text x="280" y="814" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">accountability</text>
+<text x="610" y="788" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Request data, invoke estimators,</text>
+<text x="610" y="814" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">inspect failed checks and approve</text>
+<text x="610" y="840" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">recovery decisions</text>
+<text x="1035" y="788" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Task owner, escalation rule,</text>
+<text x="1035" y="814" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">decision and audit trail</text>
+<rect x="25" y="901" width="1350" height="135" rx="5" fill="#FFFFFF" stroke="#D9D9D9"/>
+<text x="35" y="932" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">Temporal</text>
+<text x="35" y="958" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">organization</text>
+<text x="280" y="932" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Maintain validity over time</text>
+<text x="610" y="932" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Distinguish observation date, model</text>
+<text x="610" y="958" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">update and forecast horizon; reassess</text>
+<text x="610" y="984" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">after relevant events</text>
+<text x="1035" y="932" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">Timestamp, validity interval</text>
+<text x="1035" y="958" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="19" font-weight="400">and affected-output list</text>
+<text x="35" y="1091" fill="#4C78A8" font-family="Arial,sans-serif" font-size="21" font-weight="700">C: assign each check to an executable model/service and an accountable human or automated role.</text>
+<text x="35" y="1133" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="21" font-weight="400">Assess: observe → diagnose → calibrate where justified → validate → propagate → communicate.</text>
+<text x="35" y="1175" fill="#2F2F2F" font-family="Arial,sans-serif" font-size="18" font-weight="400">A residual flags disagreement; diagnosis establishes plausible causes. Agency coordinates; models compute.</text>
+<text x="35" y="1215" fill="#7F7F7F" font-family="Arial,sans-serif" font-size="17" font-weight="400">The allocation is our synthesis. Concept references and evidence limits are retained in configuration_responsibilities.csv.</text>
+</svg>
