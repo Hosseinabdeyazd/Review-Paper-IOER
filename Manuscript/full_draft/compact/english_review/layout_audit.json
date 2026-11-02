@@ -1,0 +1,23 @@
+{
+  "manuscript_en": {
+    "words": 8454,
+    "references": 58,
+    "figures": 9,
+    "changes": [],
+    "brokenImages": [],
+    "paragraphAlignment": "justify",
+    "main_pages": 24,
+    "reference_pages": 4,
+    "total_pages": 28
+  },
+  "supplement_figures_en": {
+    "words": 1440,
+    "references": 0,
+    "figures": 9,
+    "changes": [],
+    "brokenImages": [],
+    "paragraphAlignment": "justify"
+  },
+  "scientific_status": "Working review copy; broad eligibility incomplete. Updated DT+U selection 91 assessed, 217 pending; not a final closed PRISMA.",
+  "latex_compilation_verified": false
+}
