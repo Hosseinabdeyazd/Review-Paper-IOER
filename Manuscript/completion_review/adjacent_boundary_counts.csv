@@ -1,0 +1,25 @@
+boundary,context,status,count,paper_ids
+S1 → S2,B12,N,4,U01;U04;U05;U08
+S1 → S2,B12,R,1,U03
+S1 → S2,B12,S,2,U07;U09
+S1 → S2,B12,P,1,U06
+S1 → S2,B12,E,0,
+S1 → S2,B12,Q,1,U02
+S2 → S3,B23,N,1,U06
+S2 → S3,B23,R,0,
+S2 → S3,B23,S,0,
+S2 → S3,B23,P,3,U01;U13;U18
+S2 → S3,B23,E,2,U11;U12
+S2 → S3,B23,Q,0,
+S3 → S4,B34,N,0,
+S3 → S4,B34,R,0,
+S3 → S4,B34,S,0,
+S3 → S4,B34,P,0,
+S3 → S4,B34,E,0,
+S3 → S4,B34,Q,0,
+S4 → S5,B45,N,0,
+S4 → S5,B45,R,0,
+S4 → S5,B45,S,0,
+S4 → S5,B45,P,1,U19
+S4 → S5,B45,E,0,
+S4 → S5,B45,Q,0,

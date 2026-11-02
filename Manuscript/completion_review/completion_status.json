@@ -1,0 +1,57 @@
+{
+  "broad_dtu_retrieval_rows": 308,
+  "retrieval_audit_status": {
+    "no_document_url_attempt_in_jsonl": 94,
+    "retrieval_attempted_not_assessed": 125,
+    "assessed_in_existing_ledger": 89
+  },
+  "existing_fulltext_validation": {
+    "assessed_unique_publications": 89,
+    "archived_file_checks": 91,
+    "counts": {
+      "domain_included": 21,
+      "excluded_from_triple_intersection": 64,
+      "complementary_included": 4,
+      "not_assessed_retrieval_defect": 2
+    },
+    "unassessed_downloaded_pdf_ids": [],
+    "retrieval_defect_ids": [
+      "DTMFU-6f6b952136875b16",
+      "DTMFU-d52dc48a0eac5845"
+    ],
+    "reason_locator_hash_validation": "passed",
+    "scope": "All currently archived broad DTU files checked; defective/partial files do not count as full-text eligibility assessment. Not closure of all search scenarios"
+  },
+  "base_dt": {
+    "canonical_records_before_late_aliases": 2410,
+    "late_alias_records_removed": 10,
+    "unique_publication_records_after_late_aliases": 2400,
+    "screened_unique_records": 2400,
+    "counts": {
+      "retain_secondary": 762,
+      "exclude_domain": 724,
+      "unclear": 24,
+      "retain_fulltext": 890
+    },
+    "status": "Title/abstract only; full-text eligibility not inferred. Original records and source variants preserved."
+  },
+  "rules": [
+    "Metadata lookup failure is not proof that report retrieval was attempted.",
+    "Not-retrieved reports are distinct from full-text exclusions.",
+    "Do not transfer uncertainty-based exclusions to DT-only eligibility.",
+    "Old numerical verification does not establish new full-text semantic verification."
+  ],
+  "updated_fulltext_validation": {
+    "assessed_unique_publications": 91,
+    "counts": {
+      "complementary_included": 4,
+      "domain_included": 21,
+      "excluded_from_triple_intersection": 66
+    },
+    "candidates": 308,
+    "unassessed": 217,
+    "new_decisions": 2,
+    "source_ledger_sha256": "21022c8586a5aa6227511f6bf390729997d60a481d91a53225bd67bb731c914d",
+    "scope": "Current versioned reconciliation; no inference that all candidates have been assessed or are irretrievable."
+  }
+}
