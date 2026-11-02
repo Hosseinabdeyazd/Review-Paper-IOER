@@ -1,17 +1,17 @@
 {
   "manuscript_en": {
-    "words": 8386,
-    "references": 59,
-    "figures": 12,
+    "words": 8572,
+    "references": 68,
+    "figures": 14,
     "changes": [],
     "brokenImages": [],
     "paragraphAlignment": "justify",
-    "main_pages": 25,
+    "main_pages": 27,
     "reference_pages": 4,
-    "total_pages": 29
+    "total_pages": 31
   },
   "supplement_figures_en": {
-    "words": 1440,
+    "words": 1593,
     "references": 0,
     "figures": 9,
     "changes": [],

@@ -174,6 +174,16 @@ See Supplementary Figure S1.
 \end{figure}
 
 \begin{figure}[htbp]\centering
+\includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/prisma_base_dt_en.pdf}}
+\caption{Figure 2b. B+DT selection audit: broad screening and focused bridge eligibility are displayed separately. B denotes the domain/stage search; DT denotes digital twin. The focused endpoint cannot substitute for unfinished broad eligibility.}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/prisma_base_u_en.pdf}}
+\caption{Figure 2c. B+U selection audit. U denotes uncertainty. The shared Base/Base+U search, mechanism subset and selected full-text set have different denominators; connecting rows organize the audit rather than assert an exhaustive flow between these sets.}
+\end{figure}
+
+\begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/focused_selection_status_en.pdf}}
 \caption{Focused-set adjudication; overlapping subsets, not an additional independent database flow.}
 \end{figure}
@@ -261,21 +271,21 @@ Figure 9 synthesizes the design, credibility-assessment and decision logic used 
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/figure_1_design_to_use.pdf}}
-\caption{The synthesized design-to-use structure retained as the organizing architecture. A specifies intended use; B selects configuration; C allocates responsibilities. Calibration, validation and diagnosis operate on implemented models and data. R1–R16 are source keys, not review counts: for example, R1 = Xiong et al. (2025), R2 = Human et al. (2023), and R12 = Bitencourt et al. (2025). The supplementary register resolves every key and its reading status.}
+\caption{The synthesized design-to-use structure retained as the organizing architecture. A specifies intended use; B selects configuration; C allocates responsibilities. Calibration, validation and diagnosis operate on implemented models and data.  Concept sources: Xiong et al. (2025), Human et al. (2023), Kapteyn et al. (2021), Shao and Helu (2020), Agrawal et al. (2023), Walton et al. (2024), Ogunsakin et al. (2023), Kerin et al. (2023), Chen et al. (2026), Lugaresi et al. (2026), Bitencourt et al. (2025), and van Beek et al. (2023). The arrangement and links are our synthesis.}
 \end{figure}
 A specifies what uncertainty matters. The twinning object is a building, component or linked stock, with explicit spatial support and time horizon. The purpose determines the quantity of interest: material mass, release time, usable recovery or environmental consequence. Data requirements distinguish observed, inferred and assumed attributes, and separate fitting evidence from evaluation evidence. Service requirements identify who needs an uncertainty statement and when. Thus a district-scale stock estimate and a component-reuse decision may require different evidence even when they share source observations. These use-specific requirements follow (Shao and Helu, 2020; Agrawal et al., 2023).
 
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/figure_S1_design_brief.pdf}}
-\caption{The design brief fixes object, purpose, architectural intent, data requirements and services before configuration selection. In this review, these fields define the scope, evidence and authority under which uncertainty is assessed. The five-card arrangement is a synthesis, not a published universal taxonomy.}
+\caption{The design brief fixes object, purpose, architectural intent, data requirements and services before configuration selection. In this review, these fields define the scope, evidence and authority under which uncertainty is assessed. The five-card arrangement is a synthesis, not a published universal taxonomy. Concept sources: Xiong et al. (2025), Human et al. (2023), Shao and Helu (2020), Agrawal et al. (2023), and van Beek et al. (2023); the five-card arrangement is our synthesis.}
 \end{figure}
 B determines the means of maintaining uncertainty information. Figure 11 retains all six configuration families. They are coexisting design dimensions, not successive material-flow stages. Their contribution is assessed by the operation they enable, not by assuming that a descriptor such as hybrid, federated or agent-based automatically supplies uncertainty quantification. Figure 12 expands the third card of Figure 10, the system architecture brief, into proposed services with explicit inputs, operations and checkable outputs. The six configuration families determine how these services are implemented.
 
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/figure_S2_configuration_choices (1).pdf}}
-\caption{Configuration vocabulary used in the architectural synthesis. Connecting curves indicate candidate pairings only. Dashed entries retain their unresolved evidence status. Agent-based simulation, autonomous software agency and agentic AI must not be treated as interchangeable.}
+\caption{Configuration vocabulary used in the architectural synthesis. Connecting curves indicate candidate pairings only. Dashed entries retain their unresolved evidence status. Agent-based simulation, autonomous software agency and agentic AI must not be treated as interchangeable. Concept sources: Xiong et al. (2025), Human et al. (2023), Kapteyn et al. (2021), Ferrari and Willcox (2024), Shao and Helu (2020), Agrawal et al. (2023), Ogunsakin et al. (2023), Chen et al. (2026), Kritzinger et al. (2018), Kosse et al. (2025), and Gervasi et al. (2026). Sources support descriptors, not every connecting curve.}
 \end{figure}
 The computational model performs inference and propagation. GeoAI may provide geometry, attribute probabilities or prediction errors; inventory models translate these into material quantities; lifetime models produce release trajectories; recovery models apply condition and yield; environmental models evaluate consequences. An uncertainty-bearing input must be carried through these transformations rather than replaced silently by its mean. Physics-based, data-driven and hybrid models can each support this operation when their uncertain inputs, parameters, discrepancy and dependencies are specified. A probabilistic graphical formulation provides one demonstrated basis for coupled state estimation and updating, but its transfer to the full material chain remains a synthesis proposition (Kapteyn et al., 2021).
 
@@ -291,7 +301,7 @@ Coupling and temporal organization determine whether estimates remain current. N
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/configuration_uncertainty_responsibilities.pdf}}
-\caption{Technical expansion of the system architecture brief (Figure 10, third card). Numerical inference and propagation are separated from interface checks, diagnostic evaluation and orchestration. The uncertainty-bearing record crosses all four material interfaces. Service allocation and record schema are our proposed synthesis; concept-level sources do not validate the integrated implementation.}
+\caption{Technical expansion of the system architecture brief (Figure 10, third card). Numerical inference and propagation are separated from interface checks, diagnostic evaluation and orchestration. The uncertainty-bearing record crosses all four material interfaces. Service allocation and record schema are our proposed synthesis; concept-level sources do not validate the integrated implementation. Sources: Kapteyn et al. (2021), Kosse et al. (2025), and Agrawal et al. (2023).}
 \end{figure}
 C assigns executable responsibilities and evidence gates. Detection compares an observation with its model prediction; a residual flags disagreement but does not uniquely identify its cause. Diagnosis examines data quality, parameter change, model form and operating context. Calibration updates selected parameters; validation checks performance against evidence appropriate to the intended use. Propagation carries a distribution, interval or scenario together with its dependencies into the next model. Tracking links each revision to affected downstream outputs. Decision support communicates the resulting consequence and whether available evidence satisfies A. These functions may be distributed across components; they are not additional S stages.
 
@@ -484,4 +494,22 @@ Zhang, Ruirui; Guo, Jing; Yang, Dong; Shirakawa, Hiroaki; Shi, Feng; Tanikawa, H
 Zhang, Xiyuan; Zheng, Jiehao; Li, Peixian; Yang, Yue; Ye, Yu; Causone, Francesco; Shi, Xing. 2025. A review of building digital twins: Framework and enabling technologies. Journal of Building Engineering. https://doi.org/10.1016/j.jobe.2025.113117
 
 Çimen, Ömer. 2021. Construction and built environment in circular economy: A comprehensive literature review. Journal of Cleaner Production. https://doi.org/10.1016/j.jclepro.2021.127180
+
+Ferrari, A., and Willcox, K. (2024). Digital twins in mechanical and aerospace engineering. Nature Computational Science, 4, 178-183. DOI: 10.1038/s43588-024-00613-8.
+
+Walton, R. B., Ciarallo, F. W., and Champagne, L. E. (2024). A unified digital twin approach incorporating virtual, physical, and prescriptive analytical components to support adaptive real-time decision-making. Computers \& Industrial Engineering, 193, 110241. DOI: 10.1016/j.cie.2024.110241.
+
+Ogunsakin, R., Mehandjiev, N., and Marin, C. A. (2023). Towards adaptive digital twins architecture. Computers in Industry, 149, 103920. DOI: 10.1016/j.compind.2023.103920.
+
+Kerin, M., Hartono, N., and Pham, D. T. (2023). Optimising remanufacturing decision-making using the bees algorithm in product digital twins. Scientific Reports, 13, 701. DOI: 10.1038/s41598-023-27631-2.
+
+Chen, Y.-P., Suarez, D., Tsai, Y.-K., Karkaria, V., Hu, G., Chen, Z., Guo, P., Cao, J., and Chen, W. (2026). Adaptive digital twin of sheet metal forming via proper orthogonal decomposition-based Koopman operator with model predictive control. Journal of Manufacturing Systems, 86, 762-773. DOI: 10.1016/j.jmsy.2026.04.004.
+
+Lugaresi, G., Dhore, A. S., and Matta, A. (2026). Joint online validation and parameter calibration within a digital twin framework: an approach based on bootstrap particle filtering. Procedia CIRP, 146, 786-791. DOI: 10.1016/j.procir.2026.03.284.
+
+Bitencourt, J., Wooley, A., and Harris, G. (2025; online 2024). Verification and validation of digital twins: a systematic literature review for manufacturing applications. International Journal of Production Research, 63(1), 342-370. DOI: 10.1080/00207543.2024.2357741.
+
+van Beek, A., Karkaria, V. N., and Chen, W. (2023). Digital twins for the designs of systems: a perspective. Structural and Multidisciplinary Optimization, 66, 49. DOI: 10.1007/s00158-023-03488-x.
+
+Gervasi, M., Bove, L., Corallo, A., Miglietta, M., Negro, L., Pellegrino, G., Ria, F., and Visaggio, C. A. (2026). Systems of Digital Twins: A Systematic Literature Review and a formal framework. Digital Engineering, 9, 100100. DOI: https://doi.org/10.1016/j.dte.2026.100100.
 

@@ -8,24 +8,24 @@
 <text x="46" y="253" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">scenario + dependency links + validity status + upstream record IDs. Proposed schema.</text>
 <text x="30" y="329" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">MATERIAL TRANSFORMATIONS — retain the record, update the represented quantity</text>
 <rect x="30" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
-<text x="46" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S1</text>
-<text x="46" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">GeoAI attributes</text>
+<text x="46" y="412" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S1</text>
+
 <path d="M295,403 L320,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <rect x="324" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
-<text x="340" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S2</text>
-<text x="340" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Material stock</text>
+<text x="340" y="412" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S2</text>
+
 <path d="M589,403 L614,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <rect x="618" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
-<text x="634" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S3</text>
-<text x="634" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Dated outflows</text>
+<text x="634" y="412" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S3</text>
+
 <path d="M883,403 L908,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <rect x="912" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
-<text x="928" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S4</text>
-<text x="928" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Usable recovery</text>
+<text x="928" y="412" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S4</text>
+
 <path d="M1177,403 L1202,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <rect x="1206" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
-<text x="1222" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S5</text>
-<text x="1222" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Impact / decision</text>
+<text x="1222" y="412" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S5</text>
+
 <rect x="30" y="492" width="700" height="162" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
 <text x="46" y="525" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">1  Data and identity service</text>
 <text x="46" y="558" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Checks units, entity matches, missing values, age and</text>
@@ -36,7 +36,7 @@
 <text x="786" y="525" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">2  Inference and calibration service</text>
 <text x="786" y="558" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Observations + prior/model → state or parameter estimates</text>
 <text x="786" y="587" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">with uncertainty. Preserve fitting/evaluation separation.</text>
-<text x="786" y="616" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Probabilistic formulation: Kapteyn et al. (2021).</text>
+<text x="786" y="616" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400"></text>
 <path d="M731,571 L765,571" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <rect x="30" y="698" width="700" height="185" rx="7" fill="#FFFFFF" stroke="#72B7B2" stroke-width="2.5"/>
 <text x="46" y="731" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">3  Interface propagation service</text>
@@ -65,7 +65,7 @@
 <text x="786" y="993" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Expose impact ranges/scenarios, validity flags and</text>
 <text x="786" y="1022" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">sensitivity to recovery assumptions. Compare evidence with</text>
 <text x="786" y="1051" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">A; refer unresolved decisions to the assigned role. Role</text>
-<text x="786" y="1080" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">allocation: Agrawal et al. (2023).</text>
+<text x="786" y="1080" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">allocation: </text>
 <path d="M380,884 L380,920" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <path d="M731,1005 L765,1005" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
 <rect x="30" y="1136" width="1440" height="146" rx="7" fill="#FFFFFF" stroke="#7F7F7F" stroke-width="2.5"/>

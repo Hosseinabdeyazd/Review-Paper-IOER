@@ -1,0 +1,7 @@
+{
+  "B_DT": "methods_audit/eligibility/broad_dt_unique_screening_counts.json",
+  "B_DT_focused": "methods_audit/eligibility/bridge_counts.json",
+  "B_U_selected": "methods_audit/eligibility/verified_fulltext_counts.json",
+  "B_U_shared": "methods_audit/figures/counts_and_labels.json",
+  "new_eligibility_decisions": false
+}
