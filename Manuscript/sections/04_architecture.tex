@@ -1,0 +1,26 @@
+\section{Architecture synthesis: analytical specification}
+\subsection{Synthesis principle}
+The architecture will be derived from documented requirements, rather than by adding independently desirable capabilities to a generic layer diagram. Each component and connection must identify the gap it addresses, its mechanism of operation, its evidence provenance and its limits. The specification below defines the synthesis task; it is not a validated final architecture.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Architectural dimensions to be populated from evidence. These are synthesis categories, not established findings.}
+\begin{tabularx}{\textwidth}{@{}p{0.25\textwidth}X@{}}
+\toprule
+Dimension & Structural question \\
+\midrule
+Entities and relations & Which buildings, components, materials, events and flows are represented, and how are their identities related? \\
+Evidence and state & How are observations, inferred properties and scenario choices distinguished and updated? \\
+Transformation interfaces & Which model maps each input to an output, with what uncertainty and dependency assumptions? \\
+Space and time & How are aggregation, spatial support, temporal validity and event changes represented? \\
+Decision interface & How are information requirements and objectives connected to interpretable outputs? \\
+Evidence traceability & Which source supports each capability and connection, and where does the review introduce a new proposal? \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Uncertainty continuity as an interface property}
+For an interface with uncertain input $X$, additional parameters $\theta$ and output $Y=g(X,\theta)$, continuity requires an explicit account of how information about $X$ and its dependencies enters the calculation of $Y$. This does not require one universal numerical technique. Joint sampling, analytical propagation, interval methods and scenario branching support different information types. A method must not create a probability distribution where only qualitative or scenario evidence exists.
+
+\subsection{Proposed evaluation conditions}
+The synthesized architecture should be evaluated against explicit interface tests: preservation of material identity and units; consistency of aggregation and mass balance; handling of shared uncertain causes; traceability of the outputs affected by a state update; and visibility of unresolved uncertainty. These are proposed evaluation conditions. Their empirical implementation and the selection of a demonstrative case remain future work for this manuscript.
