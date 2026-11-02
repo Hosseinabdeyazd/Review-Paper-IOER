@@ -1,0 +1,54 @@
+{
+  "arithmetic_checks": "passed",
+  "source_count_reconciliation": "passed for S4-S5 and DT export rows",
+  "missing_years": [],
+  "sources": [
+    {
+      "path": "outputs/Manuscript/temporal_trends/inputs/S1b.csv",
+      "sha256": "5ea3424ab542e66663e7a1c5e3feb50ed5e0c1431d8bb2b44ebe21eb010c7bac"
+    },
+    {
+      "path": "outputs/Manuscript/temporal_trends/inputs/S1u.csv",
+      "sha256": "708372b139be2fe63f07a11674ef743937cb09d8e303e7509f4487a8dc641991"
+    },
+    {
+      "path": "outputs/Manuscript/temporal_trends/inputs/S2b.csv",
+      "sha256": "fb7bf024f44e145689d2c6dffd3870e0b92d2ea7ce991b3644adf5ec167c2cd8"
+    },
+    {
+      "path": "outputs/Manuscript/temporal_trends/inputs/S2u.csv",
+      "sha256": "f6f42dfe47673154df63e0ec199c035e906cbe3afbbc809bf47e05cf320ffdae"
+    },
+    {
+      "path": "outputs/Manuscript/temporal_trends/inputs/S3b.csv",
+      "sha256": "b57f8749e0f3fc634a77ef789adc2ba84dd56b8b22e99618a4a8b29e223aa131"
+    },
+    {
+      "path": "outputs/Manuscript/temporal_trends/inputs/S3u.csv",
+      "sha256": "2407909582a7c2dfa35b3dad5f31ae8cbb4e8424f63b100389d73618d8de9dd3"
+    },
+    {
+      "path": "outputs/S4 S5 Core Review/final/source_records.csv",
+      "sha256": "4f22445b5dbea4fac6ea234110b38f4576714bf1160ae389c8145d1dd2aa28d5"
+    },
+    {
+      "path": "outputs/S4 S5 Core Review/final/search_counts.csv",
+      "sha256": "3d042464c43e215608f901deab2e773b143133a5798f546796343994b7c59d49"
+    },
+    {
+      "path": "outputs/Digital Twin Material Flow Review/analysis/source_records.csv",
+      "sha256": "04cfa4c50ea3cbd22c9c7fa15f59823fbf2f6abbb707d213fa065d377c8011e3"
+    },
+    {
+      "path": "outputs/Digital Twin Material Flow Review/uncertainty_stage_searches_2026-11-02/analysis/source_records.csv",
+      "sha256": "c4575ef229e75cc8e453b2d1494f4e2103ea5f04c8e4f047d37c35d3e2400492"
+    },
+    {
+      "path": "outputs/Manuscript/temporal_trends/general_dt_dtu_by_database_year.csv",
+      "sha256": "2b787136a8064a4bf3a5957a5af302fe56c781b67cbdaf903e1e52e427e55c93"
+    }
+  ],
+  "cross_database_deduplication": false,
+  "S1_S3_basis": "one appearance per recorded database provenance; merged-table year retained",
+  "general_window": "2016-2025 displayed; no IEEE pre-2016 zero imputation"
+}

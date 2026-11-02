@@ -1,5 +1,10 @@
 # Temporal trends: three-database query audit
 
+## Summed view requested on 2 November 2026
+
+The complete eight-figure arithmetic-sum package is in [summed_three_databases](summed_three_databases/README.md). It combines IEEE + Scopus + Web of Science counts, retaining cross-database duplicates as explicitly requested. The previous source-separated diagnostics remain below for provenance.
+
+
 Status: NOT a final harmonized bibliometric figure. Counts use actual existing corpus records, not simulations or samples. Sources are IEEE Xplore, Scopus and Web of Science.
 
 The requested final design is five S1–S5 panels with Base, Base+U, Base+DT and Base+U+DT, plus a general DT/DT+U panel. It is not yet defensible to overlay all four as nested cohorts: the original Base queries and DT-adapted stage queries differ. S1 Base contains 878 records while its differently scoped DT retrieval contains 1408. The audit figure therefore separates query families into columns.
