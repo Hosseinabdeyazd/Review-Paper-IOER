@@ -1,0 +1,25 @@
+{
+  "scope": "Previously selected focused sets only; not closure of the broad search families",
+  "memberships": 53,
+  "unique_publications": 52,
+  "decisions": {
+    "include": 42,
+    "not_retrieved": 8,
+    "exclude": 2
+  },
+  "by_family": {
+    "DT_U_focused": {
+      "include": 13,
+      "not_retrieved": 5
+    },
+    "DT_bridge_focused": {
+      "include": 10,
+      "not_retrieved": 2,
+      "exclude": 2
+    },
+    "S_U_selected": {
+      "include": 20,
+      "not_retrieved": 1
+    }
+  }
+}

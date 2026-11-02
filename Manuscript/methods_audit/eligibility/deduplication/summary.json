@@ -1,0 +1,16 @@
+[
+  {
+    "family": "Base_DT",
+    "before": 2447,
+    "after": 2410,
+    "additional_duplicates": 37,
+    "groups_resolved": 42
+  },
+  {
+    "family": "Base_DT_U",
+    "before": 534,
+    "after": 528,
+    "additional_duplicates": 6,
+    "groups_resolved": 7
+  }
+]
