@@ -1,6 +1,6 @@
 {
   "manuscript_en": {
-    "words": 8938,
+    "words": 8810,
     "references": 68,
     "figures": 14,
     "changes": [],
@@ -8,7 +8,9 @@
     "paragraphAlignment": "justify",
     "main_pages": 27,
     "reference_pages": 4,
-    "total_pages": 31
+    "total_pages": 31,
+    "abstract_words": 190,
+    "words_including_abstract": 9000
   },
   "supplement_figures_en": {
     "words": 1587,
