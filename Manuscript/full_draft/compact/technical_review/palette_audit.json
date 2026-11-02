@@ -1,0 +1,125 @@
+{
+  "palette_source": "figure/code/PALETTE.md",
+  "palette": [
+    "#4c78a8",
+    "#72b7b2",
+    "#9d755d",
+    "#7f7f7f",
+    "#b8b8b8",
+    "#d9d9d9",
+    "#ececec",
+    "#2f2f2f",
+    "#ffffff"
+  ],
+  "continuous_association_scale": "very-light gray to uncertainty teal to manuscript blue",
+  "figures": [
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\figures\\methods\\workflow_en.svg",
+      "output": "workflow_en.svg",
+      "source_sha256": "dcbc904cce12a6b0a0aff9380399deaf4d4e251d1715095e3a6f9365fd208751",
+      "output_sha256": "e8052ac8e20b845914c61a8fbe278e2c474063511acaf0ef9ffe5555117727c4"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\figures\\methods\\prisma_broad_dtu_status_en.svg",
+      "output": "prisma_broad_dtu_status_en.svg",
+      "source_sha256": "bdf820b846cd37a1da2260b4878088b75b819797db04444dc7244a6adb674e1a",
+      "output_sha256": "6dc77452ff203d6575006f3f8de1e93aa22acab0f74834185e802e87f97c3895"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\figures\\methods\\focused_selection_status_en.svg",
+      "output": "focused_selection_status_en.svg",
+      "source_sha256": "3b42683641854b1e44f7d030d8804cb13333e2d9a8f8af2e094055940679d747",
+      "output_sha256": "ebf74a02efe1f8c643cf632c4019453006142d63538b528f54e165a6632bbe27"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\figures\\F01_sources.svg",
+      "output": "F01_sources.svg",
+      "source_sha256": "61f58a5c445b42482a1b028c75284f517804189bf55a4a316f95cf6db99546cb",
+      "output_sha256": "3e0d4a9866d4ecf2add98cc86d2a7cf0d8ecd2b4c8cb996765d485125861fc1b"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\relational_analysis\\data_diagrams\\figures\\D01_boundary_continuity_alluvial.svg",
+      "output": "D01_boundary_continuity_alluvial.svg",
+      "source_sha256": "58a59799df2eded4b915da4e03e791b722723f4ff42a8c4a73a3144df30eaf07",
+      "output_sha256": "88a56b1e5602fd6bbf749cae7d157daf09575e3df841d4e531eb875fad9d933e"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\relational_analysis\\data_diagrams\\figures\\D02_stage_function_network.svg",
+      "output": "D02_stage_function_network.svg",
+      "source_sha256": "fe9fbd50c30a6a5420c4957ab39ad89f37366def82ea16b36f988972c5fc9a6b",
+      "output_sha256": "1c07abf1d3036313ba34ba6346d36adb2253e15030a856d15f366290d6336681"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\relational_analysis\\data_diagrams\\figures\\D03_exact_uncertainty_configurations.svg",
+      "output": "D03_exact_uncertainty_configurations.svg",
+      "source_sha256": "5696cc2192f5664a7ac84cf8c96cd4fc6247aa112636f540a202621de2588dbb",
+      "output_sha256": "f264c40ca82fb640f1284b8e50669f350f4cfdf871ca9469e91b77188f24b2c2"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\relational_analysis\\data_diagrams\\figures\\D04_uncertainty_source_method_associations.svg",
+      "output": "D04_uncertainty_source_method_associations.svg",
+      "source_sha256": "b56d0db7fbbca3cfeb984ea1159f87be51a755fd7dd0a47792ca6dd1287823ee",
+      "output_sha256": "4580fe17aa213c4fac4dbb0c78d47b25ec37f6a2a2b7e84e4aa22a2b2003cade"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\completion_review\\dt_uncertainty_architecture.svg",
+      "output": "dt_uncertainty_architecture.svg",
+      "source_sha256": "74efdb6139e21aa73442f042958679303c01d19a1ba22185ac6a384dc4e22045",
+      "output_sha256": "ebd92a566ac09776bef85557e933017be3377b3f0520f78bf12ba0b3020d4599"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\figures\\methods\\evidence_join_en.svg",
+      "output": "evidence_join_en.svg",
+      "source_sha256": "029bbdd8838528d715c36d124a03becd29674b2e5265c73ff3c71631fda49f1a",
+      "output_sha256": "c935c632c8ba850145d1f54df276a598424e6d84843281162bf5318789b5908d"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\figures\\F02_methods.svg",
+      "output": "F02_methods.svg",
+      "source_sha256": "73a7079b001566e67e9b5c964990ebcec510851e4e1ef5f1fb85ff7ca4573848",
+      "output_sha256": "42fccfae9e59a9c05115c5ee8ba3db95e2797dc7079753eaf01ad46d9d388d2f"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\figures\\F03_outcomes.svg",
+      "output": "F03_outcomes.svg",
+      "source_sha256": "2e42532ffd1a91bb39aa15ca4f8deff0674011711309319f0aceabb7594ecdbc",
+      "output_sha256": "1fb8803f4afc7164ccca349fce26d60565b9c145c68114a0894cd164fad4e06e"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\figures\\F06_outcome_vocabulary.svg",
+      "output": "F06_outcome_vocabulary.svg",
+      "source_sha256": "799a9d2b112b49a0be94f4ada09d4113df89571c2cbdb872eb101a8095276b52",
+      "output_sha256": "f8a3dd169bf71111f8bf88065dd01f0ef7aef0c17a786aefa6b54b6646c0c32a"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\figures\\F04_boundary_percentages.svg",
+      "output": "F04_boundary_percentages.svg",
+      "source_sha256": "54c0a35b0a5d3a6b65b67731350ea571df4398ca5dcf937d421f30d6fa6d8a99",
+      "output_sha256": "2185c6a22bd6e9b9bac1f8e855e13a3acc5e4fe173585f2e492f29f10611c98a"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\figures\\F05_dt_mechanisms.svg",
+      "output": "F05_dt_mechanisms.svg",
+      "source_sha256": "9b14d18daf6bec774baeed3d2f08b689c6e9bb6533d6243ca8f7cf0727f0da3b",
+      "output_sha256": "ca6f1ee9576c58d0c2150d668f4de91764573e09f2ec9af2f960f886b1fcc92e"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\inputs\\figure_1_design_to_use.svg",
+      "output": "figure_1_design_to_use.svg",
+      "source_sha256": "ad889b128b670f4cd25c01ba418f65c02b8fc032ad1e428089ffd9e0cb43ec39",
+      "output_sha256": "8eb001e825607ac987c3f1ad8c8a74b69fd50e77476e2df5701f8feea041060e"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\inputs\\figure_S2_configuration_choices (1).svg",
+      "output": "figure_S2_configuration_choices (1).svg",
+      "source_sha256": "d896ce4bebd82c7e7837fae94db4169394470f5111eec093106c348e10c4556c",
+      "output_sha256": "1710f744b4b9309cff392b491c4520b395e48e5388f2ffbdb17ed371527a0f97"
+    },
+    {
+      "source": "C:\\Users\\technokade\\Documents\\Codex\\2026-11-01\\uncertainty-ieee-web-of-science-scopus-2\\outputs\\Manuscript\\full_draft\\inputs\\figure_S3_functional_allocation.svg",
+      "output": "figure_S3_functional_allocation.svg",
+      "source_sha256": "6e39fab438fd194a4233391fb1e0af3cfdfe699a7f35a4d84cc1e395a66301d1",
+      "output_sha256": "a2817c07b25ff3073319667d339236aa1262769b54314609c87b903fc8a9975d"
+    }
+  ]
+}

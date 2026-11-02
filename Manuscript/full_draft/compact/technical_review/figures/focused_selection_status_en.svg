@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#4c78a8"/></marker></defs>
+<rect width="1000" height="850" fill="white"/>
+<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">4. Focused-set full-text adjudication</text>
+<path d="M330,195 L330,300" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M595,147 L650,147" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M330,395 L330,500" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M595,347 L650,347" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="65" y="100" width="530" height="95" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<text x="330.0" y="140.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Previously selected focused sets</text>
+<text x="330.0" y="166.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">53 memberships / 52 unique publications</text>
+<rect x="650" y="100" width="300" height="95" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<text x="800.0" y="153.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Not retrieved: 7</text>
+<rect x="65" y="300" width="530" height="95" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<text x="330.0" y="353.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Full texts assessed: 45</text>
+<rect x="650" y="300" width="300" height="95" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<text x="800.0" y="353.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Full-text exclusions: 2</text>
+<rect x="65" y="500" width="870" height="110" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<text x="500.0" y="548.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Included unique publications: 43</text>
+<text x="500.0" y="574.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">S+U: 20 | domain DT bridge: 10 | focused DT+U: 14</text>
+<rect x="100" y="660" width="800" height="75" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<text x="500.0" y="690.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">One publication overlaps two included groups</text>
+<text x="500.0" y="716.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">20 + 10 + 14 - 1 = 43</text>
+<text x="500" y="795" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#2f2f2f">Subset adjudication only: not the database identification flow; overlaps broad searches.</text>
+<style>text,tspan{font-family:"Times New Roman",serif !important}</style></svg>

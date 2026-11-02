@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1107.36pt" height="718.56pt" viewBox="0 0 1107.36 718.56" version="1.1">
+ <ns0:metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-11-02T14:48:35.193376</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </ns0:metadata>
+ <ns0:defs>
+  <ns0:style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</ns0:style>
+ </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="patch_1">
+   <ns0:path d="M 0 718.56  L 1107.36 718.56  L 1107.36 0  L 0 0  z " style="fill: #ffffff" />
+  </ns0:g>
+  <ns0:g id="axes_1">
+   <ns0:g id="stage_function_S1_obs">
+    <ns0:title>S1 | Observation / attribute inference | n=7 | B01;B03;B04;B05;B06;B13;B14</ns0:title><ns0:path d="M 269.7696 179.73551  C 478.6848 179.73551 521.5392 156.225306 725.0976 156.225306  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #4c78a8; stroke-width: 7; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S2_qty">
+    <ns0:title>S2 | Quantity / inventory model | n=7 | B01;B03;B04;B05;B11;B12;B13</ns0:title><ns0:path d="M 269.7696 266.723265  C 478.6848 266.723265 521.5392 304.339592 725.0976 304.339592  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #72b7b2; stroke-width: 7; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S2_sem">
+    <ns0:title>S2 | Semantic objects / material information | n=6 | B01;B03;B04;B05;B11;B12</ns0:title><ns0:path d="M 269.7696 266.723265  C 478.6848 266.723265 521.5392 205.596735 725.0976 205.596735  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #72b7b2; stroke-width: 6; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S2_trace">
+    <ns0:title>S2 | Identity / version / provenance | n=5 | B01;B03;B04;B05;B11</ns0:title><ns0:path d="M 269.7696 266.723265  C 478.6848 266.723265 521.5392 254.968163 725.0976 254.968163  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #72b7b2; stroke-width: 5; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S1_sem">
+    <ns0:title>S1 | Semantic objects / material information | n=4 | B01;B03;B13;B14</ns0:title><ns0:path d="M 269.7696 179.73551  C 478.6848 179.73551 521.5392 205.596735 725.0976 205.596735  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #4c78a8; stroke-width: 4; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S2_link">
+    <ns0:title>S2 | Cross-model / data exchange | n=4 | B01;B03;B05;B12</ns0:title><ns0:path d="M 269.7696 266.723265  C 478.6848 266.723265 521.5392 353.71102 725.0976 353.71102  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #72b7b2; stroke-width: 4; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S1_trace">
+    <ns0:title>S1 | Identity / version / provenance | n=2 | B13;B14</ns0:title><ns0:path d="M 269.7696 179.73551  C 478.6848 179.73551 521.5392 254.968163 725.0976 254.968163  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #4c78a8; stroke-width: 2; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S3_time">
+    <ns0:title>S3 | Time / event / service-life model | n=2 | B03;B05</ns0:title><ns0:path d="M 269.7696 353.71102  C 478.6848 353.71102 521.5392 403.082449 725.0976 403.082449  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #9d755d; stroke-width: 2; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S4_reuse">
+    <ns0:title>S4 | Recovery / reuse information | n=2 | B04;B11</ns0:title><ns0:path d="M 269.7696 440.698776  C 478.6848 440.698776 521.5392 452.453878 725.0976 452.453878  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #7f7f7f; stroke-width: 2; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S3_link">
+    <ns0:title>S3 | Cross-model / data exchange | n=1 | B03</ns0:title><ns0:path d="M 269.7696 353.71102  C 478.6848 353.71102 521.5392 353.71102 725.0976 353.71102  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #9d755d; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S3_trace">
+    <ns0:title>S3 | Identity / version / provenance | n=1 | B03</ns0:title><ns0:path d="M 269.7696 353.71102  C 478.6848 353.71102 521.5392 254.968163 725.0976 254.968163  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #9d755d; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S4_sem">
+    <ns0:title>S4 | Semantic objects / material information | n=1 | B04</ns0:title><ns0:path d="M 269.7696 440.698776  C 478.6848 440.698776 521.5392 205.596735 725.0976 205.596735  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #7f7f7f; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S4_view">
+    <ns0:title>S4 | Visualization / decision interface | n=1 | B11</ns0:title><ns0:path d="M 269.7696 440.698776  C 478.6848 440.698776 521.5392 501.825306 725.0976 501.825306  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #7f7f7f; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S5_time">
+    <ns0:title>S5 | Time / event / service-life model | n=1 | B12</ns0:title><ns0:path d="M 269.7696 527.686531  C 478.6848 527.686531 521.5392 403.082449 725.0976 403.082449  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #b8b8b8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S5_impact">
+    <ns0:title>S5 | Environmental consequence model | n=1 | B12</ns0:title><ns0:path d="M 269.7696 527.686531  C 478.6848 527.686531 521.5392 551.196735 725.0976 551.196735  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #b8b8b8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="stage_function_S5_link">
+    <ns0:title>S5 | Cross-model / data exchange | n=1 | B12</ns0:title><ns0:path d="M 269.7696 527.686531  C 478.6848 527.686531 521.5392 353.71102 725.0976 353.71102  " clip-path="url(#p830f944b4c)" style="fill: none; opacity: 0.6; stroke: #b8b8b8; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="text_1">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(155.5113 175.651995)">S1  Attributes</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 190.054338)">7 papers</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_2">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(157.429425 262.639281)">S2  Inventory</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 277.041625)">7 papers</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_3">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(142.7463 349.627505)">S3  Time / flows</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 364.029849)">2 papers</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_4">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(159.101925 436.614791)">S4  Recovery</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 451.017135)">2 papers</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_5">
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(166.9938 523.602546)">S5  Impacts</ns0:text>
+    <ns0:text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(185.021925 538.00489)">1 papers</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_6">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="158.953255" transform="rotate(-0 757.2384 158.953255)">Observation / attribute inference  (n=7)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_7">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(757.2384 202.023248)">Semantic objects / material</ns0:text>
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #2f2f2f" transform="translate(757.2384 214.626119)">information  (n=8)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_8">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="257.696112" transform="rotate(-0 757.2384 257.696112)">Identity / version / provenance  (n=7)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_9">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="307.067541" transform="rotate(-0 757.2384 307.067541)">Quantity / inventory model  (n=7)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_10">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="356.43897" transform="rotate(-0 757.2384 356.43897)">Cross-model / data exchange  (n=4)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_11">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="405.810398" transform="rotate(-0 757.2384 405.810398)">Time / event / service-life model  (n=3)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_12">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="455.181827" transform="rotate(-0 757.2384 455.181827)">Recovery / reuse information  (n=2)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_13">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="504.553255" transform="rotate(-0 757.2384 504.553255)">Visualization / decision interface  (n=1)</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_14">
+    <ns0:text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="757.2384" y="553.924684" transform="rotate(-0 757.2384 553.924684)">Environmental consequence model  (n=1)</ns0:text>
+   </ns0:g>
+   <ns0:g id="PathCollection_1">
+    <ns0:defs>
+     <ns0:path id="m8030505f16" d="M 0 12.298374  C 3.261567 12.298374 6.389988 11.00254 8.696264 8.696264  C 11.00254 6.389988 12.298374 3.261567 12.298374 0  C 12.298374 -3.261567 11.00254 -6.389988 8.696264 -8.696264  C 6.389988 -11.00254 3.261567 -12.298374 0 -12.298374  C -3.261567 -12.298374 -6.389988 -11.00254 -8.696264 -8.696264  C -11.00254 -6.389988 -12.298374 -3.261567 -12.298374 0  C -12.298374 3.261567 -11.00254 6.389988 -8.696264 8.696264  C -6.389988 11.00254 -3.261567 12.298374 0 12.298374  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m8030505f16" x="269.7696" y="179.73551" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_2">
+    <ns0:defs>
+     <ns0:path id="ma70f301201" d="M 0 12.298374  C 3.261567 12.298374 6.389988 11.00254 8.696264 8.696264  C 11.00254 6.389988 12.298374 3.261567 12.298374 0  C 12.298374 -3.261567 11.00254 -6.389988 8.696264 -8.696264  C 6.389988 -11.00254 3.261567 -12.298374 0 -12.298374  C -3.261567 -12.298374 -6.389988 -11.00254 -8.696264 -8.696264  C -11.00254 -6.389988 -12.298374 -3.261567 -12.298374 0  C -12.298374 3.261567 -11.00254 6.389988 -8.696264 8.696264  C -6.389988 11.00254 -3.261567 12.298374 0 12.298374  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#ma70f301201" x="269.7696" y="266.723265" style="fill: #72b7b2; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_3">
+    <ns0:defs>
+     <ns0:path id="mcdfdfff404" d="M 0 9.082951  C 2.408827 9.082951 4.719319 8.125914 6.422616 6.422616  C 8.125914 4.719319 9.082951 2.408827 9.082951 0  C 9.082951 -2.408827 8.125914 -4.719319 6.422616 -6.422616  C 4.719319 -8.125914 2.408827 -9.082951 0 -9.082951  C -2.408827 -9.082951 -4.719319 -8.125914 -6.422616 -6.422616  C -8.125914 -4.719319 -9.082951 -2.408827 -9.082951 0  C -9.082951 2.408827 -8.125914 4.719319 -6.422616 6.422616  C -4.719319 8.125914 -2.408827 9.082951 0 9.082951  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#mcdfdfff404" x="269.7696" y="353.71102" style="fill: #9d755d; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_4">
+    <ns0:defs>
+     <ns0:path id="m42ebf4b2d8" d="M 0 9.082951  C 2.408827 9.082951 4.719319 8.125914 6.422616 6.422616  C 8.125914 4.719319 9.082951 2.408827 9.082951 0  C 9.082951 -2.408827 8.125914 -4.719319 6.422616 -6.422616  C 4.719319 -8.125914 2.408827 -9.082951 0 -9.082951  C -2.408827 -9.082951 -4.719319 -8.125914 -6.422616 -6.422616  C -8.125914 -4.719319 -9.082951 -2.408827 -9.082951 0  C -9.082951 2.408827 -8.125914 4.719319 -6.422616 6.422616  C -4.719319 8.125914 -2.408827 9.082951 0 9.082951  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m42ebf4b2d8" x="269.7696" y="440.698776" style="fill: #7f7f7f; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_5">
+    <ns0:defs>
+     <ns0:path id="m2f53209e8c" d="M 0 8.291562  C 2.198948 8.291562 4.308129 7.417911 5.86302 5.86302  C 7.417911 4.308129 8.291562 2.198948 8.291562 0  C 8.291562 -2.198948 7.417911 -4.308129 5.86302 -5.86302  C 4.308129 -7.417911 2.198948 -8.291562 0 -8.291562  C -2.198948 -8.291562 -4.308129 -7.417911 -5.86302 -5.86302  C -7.417911 -4.308129 -8.291562 -2.198948 -8.291562 0  C -8.291562 2.198948 -7.417911 4.308129 -5.86302 5.86302  C -4.308129 7.417911 -2.198948 8.291562 0 8.291562  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m2f53209e8c" x="269.7696" y="527.686531" style="fill: #b8b8b8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_6">
+    <ns0:defs>
+     <ns0:path id="mcdc48ec432" d="M 0 11.011358  C 2.920246 11.011358 5.72128 9.851132 7.786206 7.786206  C 9.851132 5.72128 11.011358 2.920246 11.011358 0  C 11.011358 -2.920246 9.851132 -5.72128 7.786206 -7.786206  C 5.72128 -9.851132 2.920246 -11.011358 0 -11.011358  C -2.920246 -11.011358 -5.72128 -9.851132 -7.786206 -7.786206  C -9.851132 -5.72128 -11.011358 -2.920246 -11.011358 0  C -11.011358 2.920246 -9.851132 5.72128 -7.786206 7.786206  C -5.72128 9.851132 -2.920246 11.011358 0 11.011358  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#mcdc48ec432" x="725.0976" y="156.225306" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_7">
+    <ns0:defs>
+     <ns0:path id="m96295bfb8e" d="M 0 11.510864  C 3.052717 11.510864 5.980813 10.298007 8.13941 8.13941  C 10.298007 5.980813 11.510864 3.052717 11.510864 0  C 11.510864 -3.052717 10.298007 -5.980813 8.13941 -8.13941  C 5.980813 -10.298007 3.052717 -11.510864 0 -11.510864  C -3.052717 -11.510864 -5.980813 -10.298007 -8.13941 -8.13941  C -10.298007 -5.980813 -11.510864 -3.052717 -11.510864 0  C -11.510864 3.052717 -10.298007 5.980813 -8.13941 8.13941  C -5.980813 10.298007 -3.052717 11.510864 0 11.510864  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m96295bfb8e" x="725.0976" y="205.596735" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_8">
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#mcdc48ec432" x="725.0976" y="254.968163" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_9">
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#mcdc48ec432" x="725.0976" y="304.339592" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_10">
+    <ns0:defs>
+     <ns0:path id="mce1e4b438b" d="M 0 9.354143  C 2.480748 9.354143 4.860225 8.368532 6.614378 6.614378  C 8.368532 4.860225 9.354143 2.480748 9.354143 0  C 9.354143 -2.480748 8.368532 -4.860225 6.614378 -6.614378  C 4.860225 -8.368532 2.480748 -9.354143 0 -9.354143  C -2.480748 -9.354143 -4.860225 -8.368532 -6.614378 -6.614378  C -8.368532 -4.860225 -9.354143 -2.480748 -9.354143 0  C -9.354143 2.480748 -8.368532 4.860225 -6.614378 6.614378  C -4.860225 8.368532 -2.480748 9.354143 0 9.354143  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#mce1e4b438b" x="725.0976" y="353.71102" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_11">
+    <ns0:defs>
+     <ns0:path id="m6920665bb7" d="M 0 8.732125  C 2.315787 8.732125 4.537036 7.812053 6.174545 6.174545  C 7.812053 4.537036 8.732125 2.315787 8.732125 0  C 8.732125 -2.315787 7.812053 -4.537036 6.174545 -6.174545  C 4.537036 -7.812053 2.315787 -8.732125 0 -8.732125  C -2.315787 -8.732125 -4.537036 -7.812053 -6.174545 -6.174545  C -7.812053 -4.537036 -8.732125 -2.315787 -8.732125 0  C -8.732125 2.315787 -7.812053 4.537036 -6.174545 6.174545  C -4.537036 7.812053 -2.315787 8.732125 0 8.732125  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m6920665bb7" x="725.0976" y="403.082449" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_12">
+    <ns0:defs>
+     <ns0:path id="m0471256c40" d="M 0 8.062258  C 2.138136 8.062258 4.188987 7.212767 5.700877 5.700877  C 7.212767 4.188987 8.062258 2.138136 8.062258 0  C 8.062258 -2.138136 7.212767 -4.188987 5.700877 -5.700877  C 4.188987 -7.212767 2.138136 -8.062258 0 -8.062258  C -2.138136 -8.062258 -4.188987 -7.212767 -5.700877 -5.700877  C -7.212767 -4.188987 -8.062258 -2.138136 -8.062258 0  C -8.062258 2.138136 -7.212767 4.188987 -5.700877 5.700877  C -4.188987 7.212767 -2.138136 8.062258 0 8.062258  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m0471256c40" x="725.0976" y="452.453878" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_13">
+    <ns0:defs>
+     <ns0:path id="m139bf205f2" d="M 0 7.331439  C 1.94432 7.331439 3.809268 6.558952 5.18411 5.18411  C 6.558952 3.809268 7.331439 1.94432 7.331439 0  C 7.331439 -1.94432 6.558952 -3.809268 5.18411 -5.18411  C 3.809268 -6.558952 1.94432 -7.331439 0 -7.331439  C -1.94432 -7.331439 -3.809268 -6.558952 -5.18411 -5.18411  C -6.558952 -3.809268 -7.331439 -1.94432 -7.331439 0  C -7.331439 1.94432 -6.558952 3.809268 -5.18411 5.18411  C -3.809268 6.558952 -1.94432 7.331439 0 7.331439  z " style="stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m139bf205f2" x="725.0976" y="501.825306" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_14">
+    <ns0:g clip-path="url(#p830f944b4c)">
+     <ns0:use ns4:href="#m139bf205f2" x="725.0976" y="551.196735" style="fill: #4c78a8; stroke: #ffffff; stroke-width: 1.5" />
+    </ns0:g>
+   </ns0:g>
+  </ns0:g>
+  <ns0:g id="text_15">
+   <ns0:text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="18" y="33.956719" transform="rotate(-0 18 33.956719)">D02  Which DT/enabling functions occur at each stage?</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_16">
+   <ns0:text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="64.518281" transform="rotate(-0 18 64.518281)">Weighted network from R-coded stage–function cells: 9 records with S1–S5 functions; 3 adjacent-only records are kept outside this graph.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_17">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="647.877773" transform="rotate(-0 18 647.877773)">Node area reflects distinct supporting papers. Edge width = papers with that exact stage–function code; all positive edges are shown.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_18">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="673.077773" transform="rotate(-0 18 673.077773)">Nodes and edges overlap in membership and must not be summed as unique papers. SVG hover labels and the CSV identify each supporting record.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_19">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="698.277773" transform="rotate(-0 18 698.277773)">A connection means the function is coded at that stage. It is not evidence of uncertainty propagation or a working interface between stages.</ns0:text>
+  </ns0:g>
+  <ns0:g id="legend_1">
+   <ns0:g id="line2d_1">
+    <ns0:path d="M 407.218125 613.657656  L 417.218125 613.657656  L 427.218125 613.657656  " style="fill: none; stroke: #7f7f7f; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="text_20">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="435.218125" y="617.157656" transform="rotate(-0 435.218125 617.157656)">1 shared paper</ns0:text>
+   </ns0:g>
+   <ns0:g id="line2d_2">
+    <ns0:path d="M 531.093125 613.657656  L 541.093125 613.657656  L 551.093125 613.657656  " style="fill: none; stroke: #7f7f7f; stroke-width: 3; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="text_21">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="559.093125" y="617.157656" transform="rotate(-0 559.093125 617.157656)">3 shared papers</ns0:text>
+   </ns0:g>
+   <ns0:g id="line2d_3">
+    <ns0:path d="M 660.1775 613.657656  L 670.1775 613.657656  L 680.1775 613.657656  " style="fill: none; stroke: #7f7f7f; stroke-width: 7; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="text_22">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="688.1775" y="617.157656" transform="rotate(-0 688.1775 617.157656)">7 shared papers</ns0:text>
+   </ns0:g>
+  </ns0:g>
+ </ns0:g>
+ <ns0:defs>
+  <ns0:clipPath id="p830f944b4c">
+   <ns0:rect x="18" y="120.96" width="1071.36" height="460.8" />
+  </ns0:clipPath>
+ </ns0:defs>
+<style>text,tspan{font-family:"Times New Roman",serif !important}</style></ns0:svg>

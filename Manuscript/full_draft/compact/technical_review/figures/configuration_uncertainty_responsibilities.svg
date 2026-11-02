@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1470" viewBox="0 0 1500 1470"><rect width="100%" height="100%" fill="white"/><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#4C78A8"/></marker></defs>
+<text x="30" y="42" font-family="Times New Roman" font-size="34" fill="#2F2F2F" font-weight="700">Expanding A3: the system architecture brief</text>
+<text x="30" y="82" font-family="Times New Roman" font-size="23" fill="#2F2F2F" font-weight="400">A defines intended use and acceptance criteria; B configures the implementation; C assigns each service and</text>
+<text x="30" y="111" font-family="Times New Roman" font-size="23" fill="#2F2F2F" font-weight="400">decision to an accountable role.</text>
+<rect x="30" y="158" width="1440" height="130" rx="7" fill="#FFFFFF" stroke="#72B7B2" stroke-width="2.5"/>
+<text x="46" y="191" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">Shared uncertainty-bearing record at every interface</text>
+<text x="46" y="224" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Entity + variable + unit + spatial support + timestamp + model/version + evidence locator; distribution / interval /</text>
+<text x="46" y="253" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">scenario + dependency links + validity status + upstream record IDs. Proposed schema.</text>
+<text x="30" y="329" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">MATERIAL TRANSFORMATIONS — retain the record, update the represented quantity</text>
+<rect x="30" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="46" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S1</text>
+<text x="46" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">GeoAI attributes</text>
+<path d="M295,403 L320,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="324" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="340" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S2</text>
+<text x="340" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Material stock</text>
+<path d="M589,403 L614,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="618" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="634" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S3</text>
+<text x="634" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Dated outflows</text>
+<path d="M883,403 L908,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="912" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="928" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S4</text>
+<text x="928" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Usable recovery</text>
+<path d="M1177,403 L1202,403" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="1206" y="353" width="264" height="99" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="1222" y="386" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">S5</text>
+<text x="1222" y="419" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Impact / decision</text>
+<rect x="30" y="492" width="700" height="162" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="46" y="525" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">1  Data and identity service</text>
+<text x="46" y="558" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Checks units, entity matches, missing values, age and</text>
+<text x="46" y="587" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">lineage. Output: qualified inputs and flags; invalid</text>
+<text x="46" y="616" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">records are held for review. Semantic linkage: Kosse et</text>
+<text x="46" y="645" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">al. (2025).</text>
+<rect x="770" y="492" width="700" height="162" rx="7" fill="#FFFFFF" stroke="#4C78A8" stroke-width="2.5"/>
+<text x="786" y="525" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">2  Inference and calibration service</text>
+<text x="786" y="558" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Observations + prior/model → state or parameter estimates</text>
+<text x="786" y="587" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">with uncertainty. Preserve fitting/evaluation separation.</text>
+<text x="786" y="616" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Probabilistic formulation: Kapteyn et al. (2021).</text>
+<path d="M731,571 L765,571" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="30" y="698" width="700" height="185" rx="7" fill="#FFFFFF" stroke="#72B7B2" stroke-width="2.5"/>
+<text x="46" y="731" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">3  Interface propagation service</text>
+<text x="46" y="764" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">For each Sᵢ → Sᵢ₊₁: apply its transformation to joint</text>
+<text x="46" y="793" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">samples, intervals or explicit scenarios. Output:</text>
+<text x="46" y="822" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">downstream uncertainty plus dependency/lineage links.</text>
+<text x="46" y="851" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Check units, support, assumptions and lost fields.</text>
+<text x="46" y="880" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Proposed integration.</text>
+<rect x="770" y="698" width="700" height="185" rx="7" fill="#FFFFFF" stroke="#72B7B2" stroke-width="2.5"/>
+<text x="786" y="731" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">4  Diagnostic and validation service</text>
+<text x="786" y="764" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Compare observations and predictions; evaluate residuals</text>
+<text x="786" y="793" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">and, where applicable, interval coverage. Flag mismatch;</text>
+<text x="786" y="822" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">investigate data, parameters or model form before</text>
+<text x="786" y="851" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">revision. A flag does not identify its cause. Kapteyn et</text>
+<text x="786" y="880" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">al. (2021).</text>
+<path d="M1120,655 L1120,690" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M765,788 L735,788" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="30" y="927" width="700" height="163" rx="7" fill="#FFFFFF" stroke="#9D755D" stroke-width="2.5"/>
+<text x="46" y="960" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">5  Dependency and revision ledger</text>
+<text x="46" y="993" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Version every estimate and link its upstream evidence. A</text>
+<text x="46" y="1022" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">revised input invalidates affected descendants;</text>
+<text x="46" y="1051" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">recalculate only after checks. Output: auditable S1–S5</text>
+<text x="46" y="1080" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">change history. Proposed tracking service.</text>
+<rect x="770" y="927" width="700" height="163" rx="7" fill="#FFFFFF" stroke="#9D755D" stroke-width="2.5"/>
+<text x="786" y="960" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">6  Decision and evidence interface</text>
+<text x="786" y="993" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Expose impact ranges/scenarios, validity flags and</text>
+<text x="786" y="1022" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">sensitivity to recovery assumptions. Compare evidence with</text>
+<text x="786" y="1051" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">A; refer unresolved decisions to the assigned role. Role</text>
+<text x="786" y="1080" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">allocation: Agrawal et al. (2023).</text>
+<path d="M380,884 L380,920" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<path d="M731,1005 L765,1005" stroke="#4C78A8" stroke-width="3" fill="none" marker-end="url(#a)"/>
+<rect x="30" y="1136" width="1440" height="146" rx="7" fill="#FFFFFF" stroke="#7F7F7F" stroke-width="2.5"/>
+<text x="46" y="1169" font-family="Times New Roman" font-size="25" fill="#2F2F2F" font-weight="700">Orchestration, timing and authority — not a substitute for uncertainty computation</text>
+<text x="46" y="1202" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Human or software actors schedule checks, request missing evidence, invoke services and record approvals. Multi-agent</text>
+<text x="46" y="1231" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">coordination distributes these tasks; agent-based simulation is a model choice. Agentic AI is an unverified optional</text>
+<text x="46" y="1260" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">proposal here. Updates may be periodic or event-triggered, according to intended use.</text>
+<text x="30" y="1325" font-family="Times New Roman" font-size="23" fill="#2F2F2F" font-weight="700">Responsibility test: every interface must name its input, transformation, uncertainty output and checking service.</text>
+<text x="30" y="1370" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">Solid links show proposed information dependencies, not an empirically validated deployed architecture. Concept</text>
+<text x="30" y="1399" font-family="Times New Roman" font-size="22" fill="#2F2F2F" font-weight="400">sources support individual functions; the complete S1–S5 integration is the review’s synthesis.</text>
+</svg>

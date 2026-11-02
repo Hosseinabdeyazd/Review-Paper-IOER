@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1101.6pt" height="696.96pt" viewBox="0 0 1101.6 696.96" version="1.1">
+ <ns0:metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-11-02T14:48:35.962862</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </ns0:metadata>
+ <ns0:defs>
+  <ns0:style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</ns0:style>
+ </ns0:defs>
+ <ns0:g id="figure_1">
+  <ns0:g id="patch_1">
+   <ns0:path d="M 0 696.96  L 1101.6 696.96  L 1101.6 0  L 0 0  z " style="fill: #ffffff" />
+  </ns0:g>
+  <ns0:g id="axes_1">
+   <ns0:g id="patch_2">
+    <ns0:path d="M 346.32 560.16  L 500.886038 560.16  L 500.886038 296.220197  L 346.32 296.220197  z " style="fill: #ffffff" />
+   </ns0:g>
+   <ns0:g id="patch_3">
+    <ns0:path d="M 346.32 303.761334  L 469.97283 303.761334  L 469.97283 326.384746  L 346.32 326.384746  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="patch_4">
+    <ns0:path d="M 346.32 341.46702  L 454.516226 341.46702  L 454.516226 364.090432  L 346.32 364.090432  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="patch_5">
+    <ns0:path d="M 346.32 379.172706  L 377.233208 379.172706  L 377.233208 401.796118  L 346.32 401.796118  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="patch_6">
+    <ns0:path d="M 346.32 416.878393  L 469.97283 416.878393  L 469.97283 439.501804  L 346.32 439.501804  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="patch_7">
+    <ns0:path d="M 346.32 454.584079  L 454.516226 454.584079  L 454.516226 477.20749  L 346.32 477.20749  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="patch_8">
+    <ns0:path d="M 346.32 492.289765  L 392.689811 492.289765  L 392.689811 514.913177  L 346.32 514.913177  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="patch_9">
+    <ns0:path d="M 346.32 529.995451  L 454.516226 529.995451  L 454.516226 552.618863  L 346.32 552.618863  z " clip-path="url(#pe731c03a59)" style="fill: #4c78a8" />
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_1">
+    <ns0:g id="xtick_1">
+     <ns0:g id="line2d_1">
+      <ns0:defs>
+       <ns0:path id="me7f85a080f" d="M 0 0  L 0 3.5  " style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:defs>
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="346.32" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_1">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="346.32" y="574.757656" transform="rotate(-0 346.32 574.757656)">0</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_2">
+     <ns0:g id="line2d_2">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="423.603019" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_2">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="423.603019" y="574.757656" transform="rotate(-0 423.603019 574.757656)">5</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_3">
+     <ns0:g id="line2d_3">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="500.886038" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_3">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="500.886038" y="574.757656" transform="rotate(-0 500.886038 574.757656)">10</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="text_4">
+     <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="423.603019" y="587.998594" transform="rotate(-0 423.603019 587.998594)">Papers with mechanism</ns0:text>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_2">
+    <ns0:g id="ytick_1">
+     <ns0:g id="line2d_4">
+      <ns0:defs>
+       <ns0:path id="mcc9c0ecbaa" d="M 0 0  L -3.5 0  " style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:defs>
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="315.07304" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_5">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="339.32" y="318.872259" transform="rotate(-0 339.32 318.872259)">Probabilistic U representation</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_2">
+     <ns0:g id="line2d_5">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="352.778726" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_6">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(202.777812 351.077066)">Bayesian state / parameter</ns0:text>
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(292.498125 363.0798)">inference</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_3">
+     <ns0:g id="line2d_6">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="390.484412" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_7">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(206.31375 388.783143)">Explicit joint / dependence</ns0:text>
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(293.115312 400.785096)">transport</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_4">
+     <ns0:g id="line2d_7">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="428.190098" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_8">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="339.32" y="431.989317" transform="rotate(-0 339.32 431.989317)">Residual / shift diagnostics</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_5">
+     <ns0:g id="line2d_8">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="465.895785" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_9">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(210.227812 464.194124)">Online model / parameter</ns0:text>
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(285.16375 476.196859)">adaptation</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_6">
+     <ns0:g id="line2d_9">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="503.601471" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_10">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(201.929375 501.900201)">Empirical interval coverage</ns0:text>
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(280.049688 513.902154)">assessment</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_7">
+     <ns0:g id="line2d_10">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="346.32" y="541.307157" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_11">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(201.562187 539.605497)">Confidence / U linked alerts</ns0:text>
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(289.921562 551.608231)">or actions</ns0:text>
+     </ns0:g>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="patch_10">
+    <ns0:path d="M 346.32 560.16  L 346.32 296.220197  " style="fill: none; stroke: #2f2f2f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="patch_11">
+    <ns0:path d="M 346.32 560.16  L 500.886038 560.16  " style="fill: none; stroke: #2f2f2f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="text_12">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="472.291321" y="317.670696" transform="rotate(-0 472.291321 317.670696)">8</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_13">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="456.834717" y="355.376382" transform="rotate(-0 456.834717 355.376382)">7</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_14">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="379.551698" y="393.082068" transform="rotate(-0 379.551698 393.082068)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_15">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="472.291321" y="430.787755" transform="rotate(-0 472.291321 430.787755)">8</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_16">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="456.834717" y="468.493441" transform="rotate(-0 456.834717 468.493441)">7</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_17">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="395.008302" y="506.199127" transform="rotate(-0 395.008302 506.199127)">3</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_18">
+    <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="456.834717" y="543.904813" transform="rotate(-0 456.834717 543.904813)">7</ns0:text>
+   </ns0:g>
+  </ns0:g>
+  <ns0:g id="axes_2">
+   <ns0:g id="patch_12">
+    <ns0:path d="M 542.618868 560.16  L 1083.6 560.16  L 1083.6 296.220197  L 542.618868 296.220197  z " style="fill: #ffffff" />
+   </ns0:g>
+   <ns0:g id="patch_13">
+    <ns0:path d="M 551.439212 560.16  L 604.36128 560.16  L 604.36128 296.220197  L 551.439212 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ececec; stroke: #ececec; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_14">
+    <ns0:path d="M 610.241509 560.16  L 663.163577 560.16  L 663.163577 296.220197  L 610.241509 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_15">
+    <ns0:path d="M 669.043806 560.16  L 721.965874 560.16  L 721.965874 296.220197  L 669.043806 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ececec; stroke: #ececec; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_16">
+    <ns0:path d="M 727.846103 560.16  L 780.768171 560.16  L 780.768171 296.220197  L 727.846103 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_17">
+    <ns0:path d="M 786.6484 560.16  L 839.570468 560.16  L 839.570468 296.220197  L 786.6484 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ececec; stroke: #ececec; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_18">
+    <ns0:path d="M 845.450697 560.16  L 898.372765 560.16  L 898.372765 296.220197  L 845.450697 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_19">
+    <ns0:path d="M 904.252994 560.16  L 957.175062 560.16  L 957.175062 296.220197  L 904.252994 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ececec; stroke: #ececec; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_20">
+    <ns0:path d="M 963.055291 560.16  L 1015.977358 560.16  L 1015.977358 296.220197  L 963.055291 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="patch_21">
+    <ns0:path d="M 1021.857588 560.16  L 1074.779655 560.16  L 1074.779655 296.220197  L 1021.857588 296.220197  z " clip-path="url(#p8dd20fd295)" style="fill: #ececec; stroke: #ececec; stroke-linejoin: miter" />
+   </ns0:g>
+   <ns0:g id="PathCollection_1">
+    <ns0:defs>
+     <ns0:path id="m4b9dff49c9" d="M 0 2.44949  C 0.649612 2.44949 1.272706 2.191396 1.732051 1.732051  C 2.191396 1.272706 2.44949 0.649612 2.44949 0  C 2.44949 -0.649612 2.191396 -1.272706 1.732051 -1.732051  C 1.272706 -2.191396 0.649612 -2.44949 0 -2.44949  C -0.649612 -2.44949 -1.272706 -2.191396 -1.732051 -1.732051  C -2.191396 -1.272706 -2.44949 -0.649612 -2.44949 0  C -2.44949 0.649612 -2.191396 1.272706 -1.732051 1.732051  C -1.272706 2.191396 -0.649612 2.44949 0 2.44949  z " style="stroke: #d9d9d9" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="577.900246" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_2">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="636.702543" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_3">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="695.50484" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_4">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="754.307137" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_5">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="813.109434" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_6">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="871.911731" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_7">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="930.714028" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_8">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="989.516325" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_9">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="315.07304" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="352.778726" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="390.484412" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="428.190098" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="465.895785" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="503.601471" style="fill: #d9d9d9; stroke: #d9d9d9" />
+     <ns0:use ns4:href="#m4b9dff49c9" x="1048.318622" y="541.307157" style="fill: #d9d9d9; stroke: #d9d9d9" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_3">
+    <ns0:g id="xtick_4">
+     <ns0:g id="line2d_11">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="577.900246" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_19">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="577.900246" y="574.757656" transform="rotate(-0 577.900246 574.757656)">C01</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_5">
+     <ns0:g id="line2d_12">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="636.702543" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_20">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="636.702543" y="574.757656" transform="rotate(-0 636.702543 574.757656)">C02</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_6">
+     <ns0:g id="line2d_13">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="695.50484" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_21">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="695.50484" y="574.757656" transform="rotate(-0 695.50484 574.757656)">C03</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_7">
+     <ns0:g id="line2d_14">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="754.307137" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_22">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="754.307137" y="574.757656" transform="rotate(-0 754.307137 574.757656)">C04</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_8">
+     <ns0:g id="line2d_15">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="813.109434" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_23">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="813.109434" y="574.757656" transform="rotate(-0 813.109434 574.757656)">C05</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_9">
+     <ns0:g id="line2d_16">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="871.911731" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_24">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="871.911731" y="574.757656" transform="rotate(-0 871.911731 574.757656)">C06</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_10">
+     <ns0:g id="line2d_17">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="930.714028" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_25">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="930.714028" y="574.757656" transform="rotate(-0 930.714028 574.757656)">C07</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_11">
+     <ns0:g id="line2d_18">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="989.516325" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_26">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="989.516325" y="574.757656" transform="rotate(-0 989.516325 574.757656)">C08</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="xtick_12">
+     <ns0:g id="line2d_19">
+      <ns0:g>
+       <ns0:use ns4:href="#me7f85a080f" x="1048.318622" y="560.16" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_27">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="1048.318622" y="574.757656" transform="rotate(-0 1048.318622 574.757656)">C09</ns0:text>
+     </ns0:g>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_4" />
+   <ns0:g id="line2d_20">
+    <ns0:path d="M 577.900246 315.07304  L 577.900246 541.307157  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_21">
+    <ns0:path d="M 636.702543 315.07304  L 636.702543 541.307157  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_22">
+    <ns0:path d="M 695.50484 315.07304  L 695.50484 541.307157  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_23">
+    <ns0:path d="M 754.307137 315.07304  L 754.307137 541.307157  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_24">
+    <ns0:path d="M 813.109434 315.07304  L 813.109434 465.895785  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_25">
+    <ns0:path d="M 871.911731 315.07304  L 871.911731 541.307157  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_26">
+    <ns0:path d="M 930.714028 315.07304  L 930.714028 352.778726  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_27">
+    <ns0:path d="M 989.516325 428.190098  L 989.516325 465.895785  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="line2d_28">
+    <ns0:path d="M 1048.318622 428.190098  L 1048.318622 541.307157  " clip-path="url(#p8dd20fd295)" style="fill: none; stroke: #72b7b2; stroke-width: 2.2; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="patch_22">
+    <ns0:path d="M 542.618868 560.16  L 1083.6 560.16  " style="fill: none; stroke: #2f2f2f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="PathCollection_10">
+    <ns0:defs>
+     <ns0:path id="m7296b79843" d="M 0 4.472136  C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278  C 4.000923 2.323632 4.472136 1.186024 4.472136 0  C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278  C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136  C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278  C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0  C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278  C -2.323632 4.000923 -1.186024 4.472136 0 4.472136  z " style="stroke: #72b7b2" />
+    </ns0:defs>
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="577.900246" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="577.900246" y="352.778726" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="577.900246" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="577.900246" y="465.895785" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="577.900246" y="503.601471" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="577.900246" y="541.307157" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_11">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="636.702543" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="636.702543" y="352.778726" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="636.702543" y="390.484412" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="636.702543" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="636.702543" y="465.895785" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="636.702543" y="541.307157" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_12">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="695.50484" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="695.50484" y="352.778726" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="695.50484" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="695.50484" y="465.895785" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="695.50484" y="541.307157" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_13">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="754.307137" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="754.307137" y="352.778726" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="754.307137" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="754.307137" y="503.601471" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="754.307137" y="541.307157" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_14">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="813.109434" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="813.109434" y="352.778726" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="813.109434" y="390.484412" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="813.109434" y="465.895785" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_15">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="871.911731" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="871.911731" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="871.911731" y="465.895785" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="871.911731" y="541.307157" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_16">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="930.714028" y="315.07304" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="930.714028" y="352.778726" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_17">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="989.516325" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="989.516325" y="465.895785" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="PathCollection_18">
+    <ns0:g clip-path="url(#p8dd20fd295)">
+     <ns0:use ns4:href="#m7296b79843" x="1048.318622" y="428.190098" style="fill: #72b7b2; stroke: #72b7b2" />
+     <ns0:use ns4:href="#m7296b79843" x="1048.318622" y="541.307157" style="fill: #72b7b2; stroke: #72b7b2" />
+    </ns0:g>
+   </ns0:g>
+  </ns0:g>
+  <ns0:g id="axes_3">
+   <ns0:g id="patch_23">
+    <ns0:path d="M 542.618868 271.172309  L 1083.6 271.172309  L 1083.6 149.76  L 542.618868 149.76  z " style="fill: #ffffff" />
+   </ns0:g>
+   <ns0:g id="patch_24">
+    <ns0:path d="M 560.259557 271.172309  L 595.540935 271.172309  L 595.540935 195.289616  L 560.259557 195.289616  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_25">
+    <ns0:path d="M 619.061854 271.172309  L 654.343232 271.172309  L 654.343232 233.230963  L 619.061854 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_26">
+    <ns0:path d="M 677.864151 271.172309  L 713.145529 271.172309  L 713.145529 233.230963  L 677.864151 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_27">
+    <ns0:path d="M 736.666448 271.172309  L 771.947826 271.172309  L 771.947826 233.230963  L 736.666448 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_28">
+    <ns0:path d="M 795.468745 271.172309  L 830.750123 271.172309  L 830.750123 233.230963  L 795.468745 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_29">
+    <ns0:path d="M 854.271042 271.172309  L 889.55242 271.172309  L 889.55242 233.230963  L 854.271042 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_30">
+    <ns0:path d="M 913.073339 271.172309  L 948.354717 271.172309  L 948.354717 233.230963  L 913.073339 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_31">
+    <ns0:path d="M 971.875636 271.172309  L 1007.157014 271.172309  L 1007.157014 233.230963  L 971.875636 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="patch_32">
+    <ns0:path d="M 1030.677933 271.172309  L 1065.959311 271.172309  L 1065.959311 233.230963  L 1030.677933 233.230963  z " clip-path="url(#pb475d35b98)" style="fill: #72b7b2" />
+   </ns0:g>
+   <ns0:g id="matplotlib.axis_5" />
+   <ns0:g id="matplotlib.axis_6">
+    <ns0:g id="ytick_8">
+     <ns0:g id="line2d_29">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="542.618868" y="271.172309" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_28">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="535.618868" y="274.971138" transform="rotate(-0 535.618868 274.971138)">0</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_9">
+     <ns0:g id="line2d_30">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="542.618868" y="233.230963" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_29">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="535.618868" y="237.029791" transform="rotate(-0 535.618868 237.029791)">1</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_10">
+     <ns0:g id="line2d_31">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="542.618868" y="195.289616" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_30">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="535.618868" y="199.088444" transform="rotate(-0 535.618868 199.088444)">2</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="ytick_11">
+     <ns0:g id="line2d_32">
+      <ns0:g>
+       <ns0:use ns4:href="#mcc9c0ecbaa" x="542.618868" y="157.348269" style="stroke: #2f2f2f; stroke-width: 0.8" />
+      </ns0:g>
+     </ns0:g>
+     <ns0:g id="text_31">
+      <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="535.618868" y="161.147097" transform="rotate(-0 535.618868 161.147097)">3</ns0:text>
+     </ns0:g>
+    </ns0:g>
+    <ns0:g id="text_32">
+     <ns0:text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="522.854024" y="210.466155" transform="rotate(-90 522.854024 210.466155)">Papers in exact set</ns0:text>
+    </ns0:g>
+   </ns0:g>
+   <ns0:g id="patch_33">
+    <ns0:path d="M 542.618868 271.172309  L 542.618868 149.76  " style="fill: none; stroke: #2f2f2f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="patch_34">
+    <ns0:path d="M 542.618868 271.172309  L 1083.6 271.172309  " style="fill: none; stroke: #2f2f2f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </ns0:g>
+   <ns0:g id="text_33">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="577.900246" y="190.736654" transform="rotate(-0 577.900246 190.736654)">2</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_34">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #7f7f7f" transform="translate(569.310871 168.552493)">013</ns0:text>
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #7f7f7f" transform="translate(569.310871 179.35425)">018</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_35">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="636.702543" y="228.678001" transform="rotate(-0 636.702543 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_36">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="636.702543" y="217.295597" transform="rotate(-0 636.702543 217.295597)">016</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_37">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="695.50484" y="228.678001" transform="rotate(-0 695.50484 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_38">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="695.50484" y="217.295597" transform="rotate(-0 695.50484 217.295597)">002</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_39">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="754.307137" y="228.678001" transform="rotate(-0 754.307137 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_40">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="754.307137" y="217.295597" transform="rotate(-0 754.307137 217.295597)">012</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_41">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="813.109434" y="228.678001" transform="rotate(-0 813.109434 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_42">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="813.109434" y="217.295597" transform="rotate(-0 813.109434 217.295597)">004</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_43">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="871.911731" y="228.678001" transform="rotate(-0 871.911731 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_44">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="871.911731" y="217.295597" transform="rotate(-0 871.911731 217.295597)">015</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_45">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="930.714028" y="228.678001" transform="rotate(-0 930.714028 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_46">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="930.714028" y="217.295597" transform="rotate(-0 930.714028 217.295597)">014</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_47">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="989.516325" y="228.678001" transform="rotate(-0 989.516325 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_48">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="989.516325" y="217.295597" transform="rotate(-0 989.516325 217.295597)">008</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_49">
+    <ns0:text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #2f2f2f" x="1048.318622" y="228.678001" transform="rotate(-0 1048.318622 228.678001)">1</ns0:text>
+   </ns0:g>
+   <ns0:g id="text_50">
+    <ns0:text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #7f7f7f" x="1048.318622" y="217.295597" transform="rotate(-0 1048.318622 217.295597)">011</ns0:text>
+   </ns0:g>
+  </ns0:g>
+  <ns0:g id="text_51">
+   <ns0:text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f2f2f" x="18" y="33.956719" transform="rotate(-0 18 33.956719)">D03  Which uncertainty configurations are actually recorded?</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_52">
+   <ns0:text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="64.518281" transform="rotate(-0 18 64.518281)">Exact intersection analysis of 10 non-review records and 7 mechanisms; 9 distinct positive-code configurations.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_53">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="619.077773" transform="rotate(-0 18 619.077773)">Each column is an observed exact set, not an architecture proposed by the reviewer. Each paper enters exactly one column.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_54">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="647.877773" transform="rotate(-0 18 647.877773)">Filled circles indicate R-coded methods. Grey circles mean no positive R code; conceptual support and unrecorded features remain distinct in the source CSV.</ns0:text>
+  </ns0:g>
+  <ns0:g id="text_55">
+   <ns0:text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #7f7f7f" x="18" y="676.677773" transform="rotate(-0 18 676.677773)">Top bars sum to ten records. Three-digit labels identify sources (DTUM prefix omitted). Similar code sets do not establish identical implementations.</ns0:text>
+  </ns0:g>
+ </ns0:g>
+ <ns0:defs>
+  <ns0:clipPath id="pe731c03a59">
+   <ns0:rect x="346.32" y="296.220197" width="154.566038" height="263.939803" />
+  </ns0:clipPath>
+  <ns0:clipPath id="p8dd20fd295">
+   <ns0:rect x="542.618868" y="296.220197" width="540.981132" height="263.939803" />
+  </ns0:clipPath>
+  <ns0:clipPath id="pb475d35b98">
+   <ns0:rect x="542.618868" y="149.76" width="540.981132" height="121.412309" />
+  </ns0:clipPath>
+ </ns0:defs>
+<style>text,tspan{font-family:"Times New Roman",serif !important}</style></ns0:svg>

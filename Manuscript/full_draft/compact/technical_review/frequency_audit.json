@@ -1,0 +1,23 @@
+[
+  {
+    "file": "F01_sources.csv",
+    "rows": 13,
+    "arithmetic_and_unique_id_counts": "pass",
+    "semantic_fulltext_reassessment": "not performed in this revision",
+    "unit": "multi-label publication frequency; not uncertainty magnitude"
+  },
+  {
+    "file": "F02_methods.csv",
+    "rows": 11,
+    "arithmetic_and_unique_id_counts": "pass",
+    "semantic_fulltext_reassessment": "not performed in this revision",
+    "unit": "multi-label publication frequency; not uncertainty magnitude"
+  },
+  {
+    "file": "F03_outcomes.csv",
+    "rows": 6,
+    "arithmetic_and_unique_id_counts": "pass",
+    "semantic_fulltext_reassessment": "not performed in this revision",
+    "unit": "multi-label publication frequency; not uncertainty magnitude"
+  }
+]

@@ -1,0 +1,1 @@
+Technical and typographic revision. Figure 12 expands A3; sources and synthesis are distinguished. Figure fonts: Times New Roman. Equations displayed separately. No new full-text eligibility decisions or semantic recoding claimed. Archived 17-paper percentages remain multi-label coding frequencies. LaTeX is editable but not compilation-verified.
