@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#526579"/></marker></defs>
+<rect width="1000" height="850" fill="white"/>
+<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#17384c">3. Base+DT+U | PRISMA-style audit status</text>
+<path d="M265,152 L265,182" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,264 L265,294" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,376 L265,406" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,488 L265,518" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,600 L265,630" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,111 L565,111" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,223 L565,223" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,335 L565,335" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,447 L565,447" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,559 L565,559" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="55" y="70" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="117.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Query occurrences: 903</text>
+<rect x="55" y="182" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="229.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Records screened: 528</text>
+<rect x="55" y="294" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="341.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Unique publications: 526</text>
+<rect x="55" y="406" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="453.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Retrieval candidates: 308</text>
+<rect x="55" y="518" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="565.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Full texts assessed: 89</text>
+<rect x="55" y="630" width="420" height="82" rx="8" fill="#e8f4ec" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="664.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Domain included: 21</text>
+<text x="265.0" y="690.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Complementary included: 4</text>
+<rect x="565" y="70" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="117.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Duplicates removed: 375</text>
+<rect x="565" y="182" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="229.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Late aliases removed: 2</text>
+<rect x="565" y="294" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="341.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Title/abstract exclusions: 218</text>
+<rect x="565" y="406" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="440.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Not fully assessed: 219</text>
+<text x="760.0" y="466.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Includes 2 defective retrieved files</text>
+<rect x="565" y="518" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="552.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">Excluded from strict intersection:</text>
+<text x="760.0" y="578.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c">64</text>
+<text x="500" y="795" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#17384c">Audit snapshot, NOT final PRISMA. Pending is not an exclusion reason.</text>
+<text x="500" y="819" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#17384c">The 25 assessed inclusions do not close eligibility for all 308 candidates.</text>
+</svg>

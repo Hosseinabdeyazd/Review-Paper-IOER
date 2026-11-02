@@ -1,0 +1,75 @@
+# 3. Materials and methods
+
+## 3.1. Review design: a shared interface as the unit of synthesis
+
+The review connects evidence on material-assessment workflows, uncertainty and digital-twin capabilities through a shared analytical unit: a documented interface between activities. Search families provide complementary routes to this evidence, rather than separate reviews with unrelated conclusions. The design addresses four linked questions: which transformations connect S1–S5; what happens to uncertainty at those transformations; which DT capabilities are relevant under the reported conditions; and how the findings support an evidence-traceable architecture. PRISMA 2020 guides reporting of study selection and PRISMA-S guides documentation of searches [M01,M02]. These reporting guidelines do not replace the extraction and synthesis procedures specified below.
+
+For publication p and interface i→j, the extraction record is E(p,i,j) = {entity, input, transformation, output, uncertainty-in, uncertainty-out, dependencies, DT-function, context, evidence}. Entity identifies the building, component or material represented; context includes spatial support, temporal validity and information-user requirements; evidence contains the publication identifier and page, section, equation or figure locator. DT-function is recorded as not applicable or not reported where appropriate. Thus a non-DT material-flow study and a DT mechanism study can be compared through an explicit information requirement without claiming that they implement the same system. Figure 1 shows this connected workflow; Figure 2 specifies the analytical joins.
+
+## 3.2. Information sources and search families
+
+The database searches cover Scopus, Web of Science Core Collection and IEEE Xplore. Base, also denoted S, refers to stage-specific building/material-flow searches. U denotes uncertainty and DT denotes digital twin. The domain families are Base, Base+U, Base+DT and Base+DT+U. General DT and DT+U searches provide definition and transferable-mechanism evidence, with their non-domain origin retained. Supplementary searches for integrated workflows are not restricted by publication year or publisher. Exact filters are documented per search execution rather than assumed identical across historical runs.
+
+Scopus searches use TITLE-ABS-KEY; Web of Science searches use Topic, which also includes Keywords Plus. IEEE field selections and split-query variants are retained in the execution records. The logical search structure is Q(i,k) = B(i,k) AND S(i) AND optional(U) AND optional(DT), where k identifies the query version. The version index matters because some historical DT searches use a broader domain block than earlier Base searches. The logical diagram is therefore not evidence that every historical query forms a strict subset of one identical Base query.
+
+Table 1 lists the concepts used to organize retrieval. The complete archived strings, including exclusions and database adaptations, remain in Supplement S1 and the recovered S1–S3 query files. Missing historical execution details are flagged in the audit rather than reconstructed as executed searches. New explanatory examples in this section are not presented as additional database searches.
+
+| Block | Search concepts and examples |
+|---|---|
+| Domain B | building stock*, existing building*, built environment, material cadastre*, resource cadastre* |
+| S1 | GeoAI, remote sensing, computer vision, LiDAR, point cloud*, building geometry, building classification |
+| S2 | material stock*, material inventor*, material intensit*, material composition, building archetype*, quantity takeoff |
+| S3 | material flow*, dynamic stock*, stock turnover, service life, building lifetime*, demolition timing, material outflow* |
+| S4 | reuse, recycl*, recover*, deconstruction, urban mining, disassembl*, secondary material*, reverse logistics |
+| S5 | life cycle assessment, embodied carbon, environmental impact*, carbon footprint, decision support |
+| DT | "digital twin" OR "digital twins" |
+| U | uncertaint*, probabil*, stochastic*, Bayesian, "Monte Carlo", sensitiv*, variabil*, calibrat*, robust*, prediction/confidence intervals |
+
+For clarity, the four domain combinations are B AND S(i); B AND S(i) AND U; B AND S(i) AND DT; and B AND S(i) AND DT AND U. General DT+U omits the building-stage restriction. Broad U terms improve retrieval but do not establish uncertainty analysis: sensitivity, calibration or robustness must be interpreted from the methods. Membership is recorded at publication level after deduplication. Actual overlaps are calculated from identifiers, not inferred from query labels or summed database counts [M02].
+
+## 3.3. Eligibility, deduplication and selection
+
+Each publication is screened against its intended evidential role. Domain studies must describe a relevant activity or transformation in building-material assessment. U evidence must identify an affected quantity, assumption or decision and explain its treatment; a generic uncertainty statement is insufficient for a mechanism claim. DT evidence must describe representations, data connections, updating or analytical functions. Architecture papers can provide conceptual evidence without being relabelled operational implementations. External-domain mechanisms and secondary reviews are retained separately as complementary evidence. A paper need not address all five stages or demonstrate successful uncertainty continuity to be relevant.
+
+Original database exports are preserved. DOI values are normalized; records without DOI are checked using native identifiers and bibliographic information. Similar titles, conflicting DOIs and related conference/journal versions require adjudication. Duplicate publications are distinguished from multiple reports of one study. Multiple search memberships are retained without multiplying the unique-publication denominator.
+
+Selection proceeds through identification, deduplication, title/abstract screening, full-text retrieval, full-text eligibility and inclusion. Full text is checked for identity, completeness and methodological detail. Abstract-only material and incomplete previews do not support full-text mechanism extraction. Reports that cannot be obtained or adequately assessed do not enter the final synthesis. Their records remain in the selection audit: non-retrieval is distinguished from exclusion after assessment, and available but unread reports remain pending rather than being assigned a scientific exclusion reason. No target number of included publications is imposed.
+
+Full-text exclusions have a primary reason, with secondary notes where needed: outside the material-flow domain; no relevant DT function for a DT-specific synthesis; no substantive U treatment for a U-specific synthesis; or insufficient methodological evidence for the intended analytical role. A report can be ineligible for the strict triple intersection while remaining relevant to a complementary stream. Reasons and evidence locators are preserved. PRISMA reporting follows these distinctions [M01].
+
+## 3.4. Interface extraction and uncertainty coding
+
+Stage assignment is based on the operation actually performed. An edge S(i)→S(j) requires a documented use of an upstream output in a downstream activity; mentioning two stages does not establish an edge. Non-adjacent links and feedback are retained. Table 2 defines the common questions applied across the four adjacent interfaces. These are extraction prompts, not findings that every study implements the listed transformations.
+
+| Interface | Transformation to inspect | Uncertainty information to trace | Candidate DT function to investigate |
+|---|---|---|---|
+| S1→S2 | Observations/attributes to material quantities | Classification uncertainty, geometry, material intensities and their dependencies | Identity, semantic mapping, provenance and data-quality representation |
+| S2→S3 | Inventory to time-dependent release | Inventory uncertainty, lifetimes, survival and scenario dependencies | State/time representation, linked dynamic models and versioning |
+| S3→S4 | Released material to recoverable supply | Timing, condition, separation yield, quality and route eligibility | Condition updates, component tracking and recovery-service linkage |
+| S4→S5 | Recovery routes to impacts/decision | Yield, substitution, allocation, impact factors and joint assumptions | Assessment-service coupling, scenario provenance and decision communication |
+
+The extraction distinguishes uncertainty source, nature, representation and operation. Parameter, model and scenario uncertainty are recorded separately from spatial/temporal variability where the study permits this distinction [I25]. Representations include distributions, samples, intervals, scenarios and qualitative quality statements. Dependencies include reported covariance, correlation, shared parameters and explicit independence assumptions. Missing dependence information is not coded as independence.
+
+The interface state uses non-exclusive operation codes: transferred, transformed, updated, newly introduced, or demonstrably discarded. A separate reporting status identifies insufficient description. Reduced uncertainty requires a stated comparison and metric; improved prediction accuracy alone does not establish reduction. Source statements are distinguished from reviewer interpretation. Each mechanism claim requires a locator and a short evidence note. Scale, temporal resolution, update trigger, validity period and stakeholder information roles are extracted as conditions of the interface, not as disconnected descriptive categories.
+
+## 3.5. Linking interface requirements to DT capabilities
+
+DT coding records the authors' definition, physical referent, digital representation, data connection, update direction/frequency, analytical service and demonstrated maturity [I27,I26,I31]. Real-time operation and bidirectional control are not imposed as universal requirements. Nor is a BIM/GIS model automatically treated as an operational DT. The distinction between probabilistic modelling and demonstrated asset–twin updating is informed by uncertainty-aware DT research [I33,I32].
+
+For each interface, an evidence chain links: observed limitation → information requirement → reported DT capability → compatibility conditions → supported architectural connection. Compatibility is checked against the entity, variable meaning, unit, spatial support, temporal horizon and dependency representation. For example, a general-domain Bayesian updating mechanism is not assigned to S3–S4 merely because both involve uncertainty; the proposed connection must explain what recovery-related state would be updated, by which observation and under which assumptions. If that connection is inferred across studies, it is explicitly coded as synthesis rather than a demonstrated domain implementation.
+
+## 3.6. Relational analysis and architectural synthesis
+
+The same interface records generate three connected matrices: interface × uncertainty operation; interface × DT capability; and DT capability × uncertainty operation. Every populated cell resolves to supporting publication and evidence identifiers. A fourth join table links all three dimensions and records whether the connection occurs within one study or is synthesized across studies. No complete S1–S5 chain is inferred simply by concatenating unrelated papers. Figure 2 shows the shared record that prevents the three matrices from becoming independent analyses.
+
+For a given eligible corpus C, the cell count is n(i,u,d) = the number of distinct publications in C supporting interface i, uncertainty operation u and DT capability d together. Direct within-publication counts and cross-study synthesis are reported separately; inferred links do not inflate empirical frequencies. Coverage of a coded property is its distinct supporting-publication count divided by the number of eligible, assessed publications for that analysis. The denominator and unreported cases accompany each figure. Multilabel coding means marginal totals can exceed the unique-publication total. This treatment follows the need to distinguish study counts from category participation, illustrated in Falsafi et al. (2025) [M03].
+
+Descriptive outputs include evidence heatmaps, overlap plots and interface networks. A line represents a coded connection, not causality; thickness represents a specified count, not effectiveness. Temporal counts summed across databases are labelled database occurrences unless record-level deduplication supports unique-publication counts. Statistical tests are not assumed valid for overlapping categories, and visual differences are not labelled significant without an appropriate test design. Heterogeneous outcomes are not pooled in an effectiveness meta-analysis.
+
+Architectural elements are classified as directly supported, synthesized from compatible studies, or proposed in response to a documented gap. The architecture thus links each module and connection to its evidential basis and to the interface requirement it addresses. A reported limitation, missing reporting and an absence in the retrieved corpus remain distinct. The resulting structure is a review-based conceptual synthesis; operational effectiveness and cross-scale generalization require subsequent validation.
+
+## 3.7. Evidence appraisal, traceability and reporting status
+
+Appraisal considers data provenance, explicit assumptions, dependency treatment, validation, scenario conditions and reproducibility. Synthetic demonstrations, empirical tests and conceptual proposals are distinguished. A universal numerical quality score is not imposed on heterogeneous designs. The decision ledger retains source, role, eligibility reason and evidence locator, while code and count inputs accompany figures. The review does not claim an independent two-human-reviewer process where none is documented.
+
+Figure 3 is an audit-status PRISMA-style diagram for the broad Base+DT+U search, not a completed all-scenario selection flow. Its counts are read from the archived decision ledgers. Figure 4 reports adjudication within the previously selected focused sets; these are subsets with overlapping membership, not additional independent searches. The broader Base, Base+U, Base+DT and general-DT workflows cannot yet be labelled complete through Included. Pending reports are excluded from current substantive synthesis but remain visible as pending in the audit. Completion of those decisions is required before replacing these status diagrams with final submission-ready PRISMA flows. This status statement is editorial and must be updated when the review is closed, rather than removed while the work remains incomplete.

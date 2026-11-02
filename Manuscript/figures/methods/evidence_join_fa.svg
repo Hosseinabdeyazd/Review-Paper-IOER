@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#526579"/></marker></defs>
+<rect width="1000" height="850" fill="white"/>
+<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#17384c" direction="rtl" unicode-bidi="plaintext">۲. یک مدل استخراج، سه تحلیل متصل</text>
+<path d="M142,180 L500,275" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M387,180 L500,275" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M632,180 L500,275" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M877,180 L500,275" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M500,410 L180,500" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M500,410 L500,500" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M500,410 L820,500" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M180,585 L500,670" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M500,585 L500,670" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M820,585 L500,670" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="30" y="90" width="225" height="90" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="142.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">S: جریان کار و</text>
+<text x="142.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">متغیرها</text>
+<rect x="275" y="90" width="225" height="90" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="387.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">S+U: عملیات عدم</text>
+<text x="387.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">قطعیت</text>
+<rect x="520" y="90" width="225" height="90" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="632.5" y="141.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">S+DT: معماری حوزه</text>
+<rect x="765" y="90" width="225" height="90" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="877.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">S+DT+U: شاهد مشترک</text>
+<text x="877.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">مستقیم</text>
+<rect x="150" y="275" width="700" height="135" rx="8" fill="#e8f4ec" stroke="#567180" stroke-width="1.3"/>
+<text x="500.0" y="322.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">رکورد مشترک رابط E(p,i,j)</text>
+<text x="500.0" y="348.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">موجودیت؛ ورودی؛ تبدیل؛ خروجی</text>
+<text x="500.0" y="374.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">عدم قطعیت؛ وابستگی؛ زمینه؛ محل شاهد</text>
+<rect x="55" y="500" width="250" height="85" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="180.0" y="548.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">رابط × عدم قطعیت</text>
+<rect x="375" y="500" width="250" height="85" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="500.0" y="548.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">رابط × قابلیت DT</text>
+<rect x="695" y="500" width="250" height="85" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="820.0" y="548.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">DT × عدم قطعیت</text>
+<rect x="90" y="670" width="820" height="80" rx="8" fill="#e8f4ec" stroke="#567180" stroke-width="1.3"/>
+<text x="500.0" y="703.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">شاهد متصل: رابط × عدم قطعیت × DT</text>
+<text x="500.0" y="729.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">پشتوانهٔ درون مقاله از تلفیق میان مقاله‌ها جداست</text>
+<text x="500" y="795" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#17384c" direction="rtl" unicode-bidi="plaintext">این شکل طراحی تحلیل است؛ جعبه‌ها و پیکان‌ها فراوانی تجربی نیستند.</text>
+</svg>

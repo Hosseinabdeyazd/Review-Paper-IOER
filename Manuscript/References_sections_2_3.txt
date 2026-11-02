@@ -1,0 +1,41 @@
+Abdelrahman, Mahmoud; Macatulad, Edgardo; Lei, Binyu; Quintana, Matias; Miller, Clayton; Biljecki, Filip. 2025. What is a Digital Twin anyway? Deriving the definition for the built environment from over 15,000 scientific publications. Building and Environment. https://doi.org/10.1016/j.buildenv.2025.112748
+
+Ajayebi, Atta; Hopkinson, Peter; Zhou, Kan; Lam, Dennis; Chen, Han-Mei; Wang, Yong. 2020. Spatiotemporal model to quantify stocks of building structural products for a prospective circular economy. Resources, Conservation and Recycling. https://doi.org/10.1016/j.resconrec.2020.105026
+
+Bogoviku, Lorenc; Waldmann, Danièle. 2021. Modelling of mineral construction and demolition waste dynamics through a combination of geospatial and image analysis. Journal of Environmental Management. https://doi.org/10.1016/j.jenvman.2020.111879
+
+Boje, Calin; Guerriero, Annie; Kubicki, Sylvain; Rezgui, Yacine. 2020. Towards a semantic Construction Digital Twin: Directions for future research. Automation in Construction. https://doi.org/10.1016/j.autcon.2020.103179
+
+De Wolf, Catherine; Hoxha, Endrit; Fivet, Corentin. 2020. Comparison of environmental assessment methods when reusing building components: A case study. Sustainable Cities and Society. https://doi.org/10.1016/j.scs.2020.102322
+
+Falsafi, Amirmehrab; Togiani, Amir; Colley, Ashley; Varis, Juha; Horttanainen, Mika. 2025. Life cycle assessment in circular design process: A systematic literature review. Journal of Cleaner Production. https://doi.org/10.1016/j.jclepro.2025.146188
+
+Honic, Meliha; Kovacic, Iva; Aschenbrenner, Philipp; Ragossnig, Arne. 2021. Material Passports for the end-of-life stage of buildings: Challenges and potentials. Journal of Cleaner Production. https://doi.org/10.1016/j.jclepro.2021.128702
+
+Jones, David; Snider, Chris; Nassehi, Aydin; Yon, Jason; Hicks, Ben. 2020. Characterising the Digital Twin: A systematic literature review. CIRP Journal of Manufacturing Science and Technology. https://doi.org/10.1016/j.cirpj.2020.02.002
+
+Kapteyn, Michael G.; Pretorius, Jacob V. R.; Willcox, Karen E.. 2021. A probabilistic graphical model foundation for enabling predictive digital twins at scale. Nature Computational Science. https://doi.org/10.1038/s43588-021-00069-0
+
+Lin, Linyu; Bao, Han; Dinh, Nam. 2021. Uncertainty quantification and software risk analysis for digital twins in the nearly autonomous management and control systems: A review. Annals of Nuclear Energy. https://doi.org/10.1016/j.anucene.2021.108362
+
+Mastrucci, Alessio; Marvuglia, Antonino; Popovici, Emil; Leopold, Ulrich; Benetto, Enrico. 2017. Geospatial characterization of building material stocks for the life cycle assessment of end-of-life scenarios at the urban scale. Resources, Conservation and Recycling. https://doi.org/10.1016/j.resconrec.2016.07.003
+
+Miatto, Alessio; Schandl, Heinz; Tanikawa, Hiroki. 2017. How important are realistic building lifespan assumptions for material stock and demolition waste accounts?. Resources, Conservation and Recycling. https://doi.org/10.1016/j.resconrec.2017.01.015
+
+Miatto, Alessio; Fasanella, Ygor; Mainardi, Marta; Borin, Paolo. 2023. Correlation between building size and material intensity in residential buildings. Resources, Conservation and Recycling. https://doi.org/10.1016/j.resconrec.2023.107093
+
+Michiels, Freya; Geeraerd, Annemie. 2020. How to decide and visualize whether uncertainty or variability is dominating in life cycle assessment results: A systematic review. Environmental Modelling \& Software. https://doi.org/10.1016/j.envsoft.2020.104841
+
+Opoku, De-Graft Joe; Perera, Srinath; Osei-Kyei, Robert; Rashidi, Maria. 2021. Digital twin application in the construction industry: A literature review. Journal of Building Engineering. https://doi.org/10.1016/j.jobe.2021.102726
+
+Page, Matthew J.; McKenzie, Joanne E.; Bossuyt, Patrick M.; others. 2021. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. https://doi.org/10.1136/bmj.n71
+
+Pei, Wanyu; Biljecki, Filip; Stouffs, Rudi. 2024. Techniques and tools for integrating building material stock analysis and life cycle assessment at the urban scale: A systematic literature review. Building and Environment. https://doi.org/10.1016/j.buildenv.2024.111741
+
+Rakhshan, Kambiz; Morel, Jean-Claude; Daneshkhah, Alireza. 2021. Predicting the technical reusability of load-bearing building components: A probabilistic approach towards developing a Circular Economy framework. Journal of Building Engineering. https://doi.org/10.1016/j.jobe.2021.102791
+
+Rethlefsen, Melissa L.; Kirtley, Shona; Waffenschmidt, Siw; others. 2021. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews. Systematic Reviews. https://doi.org/10.1186/s13643-020-01542-z
+
+Tuhaise, Valerian Vanessa; Tah, Joseph Handibry Mbatu; Abanda, Fonbeyin Henry. 2023. Technologies for digital twin applications in construction. Automation in Construction. https://doi.org/10.1016/j.autcon.2023.104931
+
+Wang, Siqin; Huang, Xiao; Liu, Pengyuan; Zhang, Mengxi; Biljecki, Filip; Hu, Tao; Fu, Xiaokang; Liu, Lingbo; Liu, Xintao; Wang, Ruomei; Huang, Yuanyuan; Yan, Jingjing; Jiang, Jinghan; Chukwu, Michaelmary; Reza Naghedi, Seyed; Hemmati, Moein; Shao, Yaxiong; Jia, Nan; Xiao, Zhiyang; Tian, Tian; Hu, Yaxin; Yu, Lixiaona; Yap, Winston; Macatulad, Edgardo; Chen, Zhuo; Cui, Yunhe; Ito, Koichi; Ye, Mengbi; Fan, Zicheng; Lei, Binyu; Bao, Shuming. 2024. Mapping the landscape and roadmap of geospatial artificial intelligence (GeoAI) in quantitative human geography: An extensive systematic review. International Journal of Applied Earth Observation and Geoinformation. https://doi.org/10.1016/j.jag.2024.103734

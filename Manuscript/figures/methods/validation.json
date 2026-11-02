@@ -1,0 +1,12 @@
+{
+  "references_resolved": 21,
+  "related_work_has_no_subheadings": true,
+  "count_balance": "passed",
+  "new_fulltext_decisions": 0,
+  "final_all_scenario_PRISMA": false,
+  "count_sources": {
+    "broad_dtu_adjudicated_counts.json": "37bae1a7f66552f885d8c185a56af5e8ba08368b9571cbd2166be7b60ed413ed",
+    "broad_dtu_fulltext_validation.json": "a423abf674145952599e6af2f04c703b59e0efaefe4f67cff80cf52f51c6f13d",
+    "verified_fulltext_counts.json": "0cba7fdd960718dabac5129fdadc53d7855f035389fde5dda9f237bac80440a1"
+  }
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#526579"/></marker></defs>
+<rect width="1000" height="850" fill="white"/>
+<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#17384c" direction="rtl" unicode-bidi="plaintext">۳. وضعیت ممیزی Base+DT+U به سبک PRISMA</text>
+<path d="M265,152 L265,182" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,264 L265,294" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,376 L265,406" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,488 L265,518" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M265,600 L265,630" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,111 L565,111" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,223 L565,223" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,335 L565,335" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,447 L565,447" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M475,559 L565,559" stroke="#526579" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="55" y="70" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="117.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">رخدادهای جست‌وجو: ۹۰۳</text>
+<rect x="55" y="182" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="229.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">رکورد غربال‌شده: ۵۲۸</text>
+<rect x="55" y="294" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="341.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">انتشار یکتا: ۵۲۶</text>
+<rect x="55" y="406" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="453.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">نامزد دریافت و بررسی: ۳۰۸</text>
+<rect x="55" y="518" width="420" height="82" rx="8" fill="#eaf3f8" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="565.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">متن کامل ارزیابی‌شده: ۸۹</text>
+<rect x="55" y="630" width="420" height="82" rx="8" fill="#e8f4ec" stroke="#567180" stroke-width="1.3"/>
+<text x="265.0" y="664.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">ورود مجموعهٔ حوزه: ۲۱</text>
+<text x="265.0" y="690.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">ورود مجموعهٔ مکمل: ۴</text>
+<rect x="565" y="70" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="117.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">تکراری پیش از غربالگری: ۳۷۵</text>
+<rect x="565" y="182" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="229.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">تکراری شناسایی‌شدهٔ بعدی: ۲</text>
+<rect x="565" y="294" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="341.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">خروج عنوان و چکیده: ۲۱۸</text>
+<rect x="565" y="406" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="440.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">ارزیابی کامل‌نشده: ۲۱۹</text>
+<text x="760.0" y="466.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">شامل دو فایل دریافت‌شدهٔ معیوب</text>
+<rect x="565" y="518" width="390" height="82" rx="8" fill="#fff2db" stroke="#567180" stroke-width="1.3"/>
+<text x="760.0" y="565.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#17384c" direction="rtl" unicode-bidi="plaintext">خروج از تقاطع سخت‌گیرانه: ۶۴</text>
+<text x="500" y="795" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#17384c" direction="rtl" unicode-bidi="plaintext">تصویر وضعیت ممیزی، نه PRISMA نهایی؛ در انتظار بررسی به معنی خروج نیست.</text>
+<text x="500" y="819" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#17384c" direction="rtl" unicode-bidi="plaintext">ورود ۲۵ مورد ارزیابی‌شده، صلاحیت همهٔ ۳۰۸ نامزد را نهایی نمی‌کند.</text>
+</svg>
