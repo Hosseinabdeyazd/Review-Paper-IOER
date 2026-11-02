@@ -1,0 +1,320 @@
+[
+  {
+    "stage": "S1",
+    "cohort": "Base",
+    "records": 878,
+    "missing_year": 0,
+    "source": "outputs\\Manuscript\\temporal_trends\\inputs\\S1b.csv",
+    "sha256": "5ea3424ab542e66663e7a1c5e3feb50ed5e0c1431d8bb2b44ebe21eb010c7bac",
+    "database_values": [
+      "IEEE Xplore",
+      "Scopus",
+      "Scopus; IEEE Xplore",
+      "Scopus; IEEE Xplore; Web of Science",
+      "Scopus; Web of Science",
+      "Web of Science"
+    ]
+  },
+  {
+    "stage": "S1",
+    "cohort": "Base + U",
+    "records": 256,
+    "missing_year": 0,
+    "source": "outputs\\Manuscript\\temporal_trends\\inputs\\S1u.csv",
+    "sha256": "708372b139be2fe63f07a11674ef743937cb09d8e303e7509f4487a8dc641991",
+    "database_values": [
+      "IEEE Xplore",
+      "Scopus",
+      "Scopus; IEEE Xplore",
+      "Scopus; IEEE Xplore; Web of Science",
+      "Scopus; Web of Science",
+      "Web of Science"
+    ]
+  },
+  {
+    "stage": "S2",
+    "cohort": "Base",
+    "records": 246,
+    "missing_year": 0,
+    "source": "outputs\\Manuscript\\temporal_trends\\inputs\\S2b.csv",
+    "sha256": "fb7bf024f44e145689d2c6dffd3870e0b92d2ea7ce991b3644adf5ec167c2cd8",
+    "database_values": [
+      "IEEE Xplore",
+      "Scopus",
+      "Scopus; IEEE Xplore",
+      "Scopus; Web of Science",
+      "Web of Science"
+    ]
+  },
+  {
+    "stage": "S2",
+    "cohort": "Base + U",
+    "records": 44,
+    "missing_year": 0,
+    "source": "outputs\\Manuscript\\temporal_trends\\inputs\\S2u.csv",
+    "sha256": "f6f42dfe47673154df63e0ec199c035e906cbe3afbbc809bf47e05cf320ffdae",
+    "database_values": [
+      "IEEE Xplore",
+      "Scopus",
+      "Scopus; Web of Science",
+      "Web of Science"
+    ]
+  },
+  {
+    "stage": "S3",
+    "cohort": "Base",
+    "records": 165,
+    "missing_year": 0,
+    "source": "outputs\\Manuscript\\temporal_trends\\inputs\\S3b.csv",
+    "sha256": "b57f8749e0f3fc634a77ef789adc2ba84dd56b8b22e99618a4a8b29e223aa131",
+    "database_values": [
+      "IEEE Xplore",
+      "Scopus",
+      "Scopus; IEEE Xplore",
+      "Scopus; Web of Science",
+      "Web of Science"
+    ]
+  },
+  {
+    "stage": "S3",
+    "cohort": "Base + U",
+    "records": 49,
+    "missing_year": 0,
+    "source": "outputs\\Manuscript\\temporal_trends\\inputs\\S3u.csv",
+    "sha256": "2407909582a7c2dfa35b3dad5f31ae8cbb4e8424f63b100389d73618d8de9dd3",
+    "database_values": [
+      "IEEE Xplore",
+      "Scopus",
+      "Scopus; Web of Science",
+      "Web of Science"
+    ]
+  },
+  {
+    "stage": "S4",
+    "cohort": "Base",
+    "records": 3221,
+    "missing_year": 0,
+    "source": "outputs\\S4 S5 Core Review\\final\\deduplicated_records.csv",
+    "sha256": "52e1030805c6ed57f3a04084c4667bc040ddb8d1b4ffbea186a876e6e79e251a",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S4",
+    "cohort": "Base + U",
+    "records": 557,
+    "missing_year": 0,
+    "source": "outputs\\S4 S5 Core Review\\final\\deduplicated_records.csv",
+    "sha256": "52e1030805c6ed57f3a04084c4667bc040ddb8d1b4ffbea186a876e6e79e251a",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S5",
+    "cohort": "Base",
+    "records": 7864,
+    "missing_year": 0,
+    "source": "outputs\\S4 S5 Core Review\\final\\deduplicated_records.csv",
+    "sha256": "52e1030805c6ed57f3a04084c4667bc040ddb8d1b4ffbea186a876e6e79e251a",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S5",
+    "cohort": "Base + U",
+    "records": 1616,
+    "missing_year": 0,
+    "source": "outputs\\S4 S5 Core Review\\final\\deduplicated_records.csv",
+    "sha256": "52e1030805c6ed57f3a04084c4667bc040ddb8d1b4ffbea186a876e6e79e251a",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S1",
+    "cohort": "Base + DT",
+    "records": 1408,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\analysis\\deduplicated_records.csv",
+    "sha256": "90c5a620abff7d8d2c6fdbb130c7b4856bd51e834ecab1e11aede5ce39c82482",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S2",
+    "cohort": "Base + DT",
+    "records": 77,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\analysis\\deduplicated_records.csv",
+    "sha256": "90c5a620abff7d8d2c6fdbb130c7b4856bd51e834ecab1e11aede5ce39c82482",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S3",
+    "cohort": "Base + DT",
+    "records": 177,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\analysis\\deduplicated_records.csv",
+    "sha256": "90c5a620abff7d8d2c6fdbb130c7b4856bd51e834ecab1e11aede5ce39c82482",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S4",
+    "cohort": "Base + DT",
+    "records": 702,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\analysis\\deduplicated_records.csv",
+    "sha256": "90c5a620abff7d8d2c6fdbb130c7b4856bd51e834ecab1e11aede5ce39c82482",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S5",
+    "cohort": "Base + DT",
+    "records": 451,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\analysis\\deduplicated_records.csv",
+    "sha256": "90c5a620abff7d8d2c6fdbb130c7b4856bd51e834ecab1e11aede5ce39c82482",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S1",
+    "cohort": "Base + U + DT",
+    "records": 306,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\uncertainty_stage_searches_2026-11-02\\analysis\\deduplicated_records.csv",
+    "sha256": "c47e5fee6fab3e0c2d9a9a9824ce8fa872cdcf1cba1d57617faeb9a0659fb30f",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "IEEE;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S2",
+    "cohort": "Base + U + DT",
+    "records": 12,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\uncertainty_stage_searches_2026-11-02\\analysis\\deduplicated_records.csv",
+    "sha256": "c47e5fee6fab3e0c2d9a9a9824ce8fa872cdcf1cba1d57617faeb9a0659fb30f",
+    "database_values": [
+      "IEEE",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S3",
+    "cohort": "Base + U + DT",
+    "records": 47,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\uncertainty_stage_searches_2026-11-02\\analysis\\deduplicated_records.csv",
+    "sha256": "c47e5fee6fab3e0c2d9a9a9824ce8fa872cdcf1cba1d57617faeb9a0659fb30f",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S4",
+    "cohort": "Base + U + DT",
+    "records": 161,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\uncertainty_stage_searches_2026-11-02\\analysis\\deduplicated_records.csv",
+    "sha256": "c47e5fee6fab3e0c2d9a9a9824ce8fa872cdcf1cba1d57617faeb9a0659fb30f",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  },
+  {
+    "stage": "S5",
+    "cohort": "Base + U + DT",
+    "records": 92,
+    "missing_year": 0,
+    "source": "outputs\\Digital Twin Material Flow Review\\uncertainty_stage_searches_2026-11-02\\analysis\\deduplicated_records.csv",
+    "sha256": "c47e5fee6fab3e0c2d9a9a9824ce8fa872cdcf1cba1d57617faeb9a0659fb30f",
+    "database_values": [
+      "IEEE",
+      "IEEE;Scopus",
+      "IEEE;Scopus;WoS",
+      "Scopus",
+      "Scopus;WoS",
+      "WoS"
+    ]
+  }
+]
