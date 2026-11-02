@@ -1,51 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1100" viewBox="0 0 1100 1100"><rect width="1100" height="1100" fill="white"/><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0L8,4L0,8"/></marker></defs>
-<rect x="35" y="20" width="1030" height="60" fill="#9D755D"/>
-<text x="55" y="58" font-family="Times New Roman" font-size="25" fill="#2F2F2F">B + U: shared retrieval context and selected-set eligibility</text>
-<rect x="80" y="110" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="95" y="140" font-family="Times New Roman" font-size="22" fill="#2F2F2F">S4–S5 shared Base / Base+U</text>
-<text x="95" y="167" font-family="Times New Roman" font-size="22" fill="#2F2F2F">19,963 query occurrences</text>
-<text x="95" y="194" font-family="Times New Roman" font-size="22" fill="#2F2F2F">14,869 database-distinct records</text>
-<rect x="610" y="110" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="625" y="140" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Within-source overlaps: 5,094</text>
-<text x="625" y="167" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Cross-source duplicates: 5,282</text>
-<path d="M295,242 L295,275" stroke="#2F2F2F" marker-end="url(#a)"/>
-<path d="M510,176 L610,176" stroke="#2F2F2F" marker-end="url(#a)"/>
-<rect x="80" y="275" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="95" y="305" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Shared unique records: 9,587</text>
-<text x="95" y="332" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Not a separate B+U denominator</text>
-<rect x="610" y="275" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="625" y="305" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Outside retained set: 5,977</text>
-<text x="625" y="332" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Retained candidates: 3,610</text>
-<text x="625" y="359" font-family="Times New Roman" font-size="22" fill="#2F2F2F">2,932 clear; 327 unclear; 351 secondary</text>
-
-<path d="M510,341 L610,341" stroke="#2F2F2F" marker-end="url(#a)"/>
-<rect x="80" y="440" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="95" y="470" font-family="Times New Roman" font-size="22" fill="#2F2F2F">S4–S5 U-focused candidates: 392</text>
-<text x="95" y="497" font-family="Times New Roman" font-size="22" fill="#2F2F2F">3 prioritized for full-text appraisal</text>
-<text x="95" y="524" font-family="Times New Roman" font-size="22" fill="#2F2F2F">389 not thereby excluded</text>
-<rect x="610" y="440" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="625" y="470" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Other mechanism classifications</text>
-<text x="625" y="497" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Possible cross-stage: 90</text>
-<text x="625" y="524" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Not demonstrated: 299</text>
-
-<path d="M510,506 L610,506" stroke="#2F2F2F" marker-end="url(#a)"/>
-<rect x="80" y="605" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="95" y="635" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Selected S1–S5 + U reports: 21</text>
-<text x="95" y="662" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Full texts assessed: 20</text>
-<rect x="610" y="605" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="625" y="635" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Selected reports not retrieved: 1</text>
-<text x="625" y="662" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Earlier S1–S3 + S4–S5 selection</text>
-<text x="625" y="689" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Full search-to-selection join open</text>
-<path d="M295,737 L295,770" stroke="#2F2F2F" marker-end="url(#a)"/>
-<path d="M510,671 L610,671" stroke="#2F2F2F" marker-end="url(#a)"/>
-<rect x="80" y="770" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="95" y="800" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Selected-set included reports: 20</text>
-<text x="95" y="827" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Not the total broad B+U yield</text>
-<rect x="610" y="770" width="430" height="132" fill="#ECECEC" stroke="#7F7F7F"/>
-<text x="625" y="800" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Selected full-text exclusions: 0</text>
-<text x="625" y="827" font-family="Times New Roman" font-size="22" fill="#2F2F2F">20 assessed = 20 included</text>
-<text x="625" y="854" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Independent-study count not established</text>
-<path d="M510,836 L610,836" stroke="#2F2F2F" marker-end="url(#a)"/>
-<text x="35" y="985" font-family="Times New Roman" font-size="20" fill="#2F2F2F">These are nested/selected audit routes, not a reconstructed exhaustive B+U flow. Shared retrieval cannot supply</text>
-<text x="35" y="1012" font-family="Times New Roman" font-size="20" fill="#2F2F2F">an independent B+U identification count. Selected eligibility is verified separately.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1120" viewBox="0 0 1100 1120"><rect width="1100" height="1120" fill="white"/><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0L8,4L0,8" fill="#2F2F2F"/></marker></defs>
+<rect x="115" y="25" width="940" height="60" fill="#9D755D"/>
+<text x="585" y="63" text-anchor="middle" font-family="Times New Roman" font-size="25" fill="#2F2F2F">Base + U: selected S1–S5 report eligibility</text>
+<rect x="115" y="110" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="325" y="159" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Previously selected reports</text>
+<text x="325" y="187" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">S1–S3 and S4–S5 sets (n = 21)</text>
+<path d="M325,236V274" fill="none" stroke="#2F2F2F" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="115" y="274" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="325" y="323" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Selected reports forwarded</text>
+<text x="325" y="351" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">for retrieval (n = 21)</text>
+<path d="M325,400V438" fill="none" stroke="#2F2F2F" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="115" y="438" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="325" y="501" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Reports sought for retrieval (n = 21)</text>
+<rect x="635" y="438" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="845" y="501" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Reports not retrieved (n = 1)</text>
+<path d="M325,564V602" fill="none" stroke="#2F2F2F" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M535,501H635" stroke="#2F2F2F" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="115" y="602" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="325" y="651" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Reports assessed for eligibility</text>
+<text x="325" y="679" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">(n = 20)</text>
+<rect x="635" y="602" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="845" y="651" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Full-text reports excluded (n = 0)</text>
+<text x="845" y="679" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">All 20 assessed reports retained</text>
+<path d="M325,728V766" fill="none" stroke="#2F2F2F" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M535,665H635" stroke="#2F2F2F" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="115" y="766" width="420" height="126" fill="white" stroke="#2F2F2F" stroke-width="1.4"/>
+<text x="325" y="801" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Reports included (n = 20)</text>
+<text x="325" y="829" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">Same 20-paper denominator in</text>
+<text x="325" y="857" text-anchor="middle" font-family="Times New Roman" font-size="22" fill="#2F2F2F">source, method and outcome profiles</text>
+<rect x="30" y="110" width="65" height="290" fill="#B8B8B8" stroke="#7F7F7F"/><text x="62" y="255.0" transform="rotate(-90 62 255.0)" text-anchor="middle" font-family="Times New Roman" font-size="23">Selected reports</text>
+<rect x="30" y="438" width="65" height="290" fill="#B8B8B8" stroke="#7F7F7F"/><text x="62" y="583.0" transform="rotate(-90 62 583.0)" text-anchor="middle" font-family="Times New Roman" font-size="23">Retrieval / eligibility</text>
+<rect x="30" y="766" width="65" height="126" fill="#B8B8B8" stroke="#7F7F7F"/><text x="62" y="829.0" transform="rotate(-90 62 829.0)" text-anchor="middle" font-family="Times New Roman" font-size="23">Included</text>
+<text x="30" y="970" text-anchor="start" font-family="Times New Roman" font-size="20" fill="#2F2F2F">Selected-set eligibility flow, not a reconstructed database-wide PRISMA. Shared S4–S5 Base/Base+U retrieval:</text>
+<text x="30" y="996" text-anchor="start" font-family="Times New Roman" font-size="20" fill="#2F2F2F">19,963 occurrences; 9,587 unique records; 3,610 retained candidates, including 392 U-focused candidates. Those</text>
+<text x="30" y="1022" text-anchor="start" font-family="Times New Roman" font-size="20" fill="#2F2F2F">shared counts are not an independent B+U identification denominator and are not connected to the 21-report flow.</text>
 </svg>

@@ -1,14 +1,14 @@
 code,label,n,N,percent,paper_ids,basis
-U01,Observation / measurement,2,17,11.764705882352942,2;8,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U02,Classification / prediction,3,17,17.647058823529413,3;5;6,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U03,Hidden / missing building information,3,17,17.647058823529413,2;13;18,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U04,Material intensity / composition,11,17,64.70588235294117,3;4;5;6;7;8;9;12;13;16;18,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U05,Model-form / structural,5,17,29.41176470588235,4;7;9;11;18,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U06,Temporal / event,6,17,35.294117647058826,1;11;12;13;17;18,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U07,Recovery / technical feasibility,1,17,5.882352941176471,1,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U08,Spatial / logistics,0,17,0.0,,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U09,Demand / market matching,0,17,0.0,,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U10,LCA inventory / factor,5,17,29.41176470588235,6;14;15;16;17,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U11,Boundary / allocation / accounting,1,17,5.882352941176471,14,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U12,Scenario / future context,7,17,41.1764705882353,1;6;12;13;14;15;17,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
-U13,Transferability / domain shift,2,17,11.764705882352942,2;8,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+U01,Observation / measurement,2,20,10,U02;U08,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U02,Classification / prediction,4,20,20,U03;U05;U06;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U03,Hidden / missing building information,3,20,15,U02;U13;U18,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U04,Material intensity / composition,14,20,70,U03;U04;U05;U06;U07;U08;U09;U12;U13;U16;U18;U19;U20;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U05,Model-form / structural,7,20,35,U04;U07;U09;U11;U18;U20;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U06,Temporal / event,8,20,40,U01;U11;U12;U13;U17;U18;U19;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U07,Recovery / technical feasibility,2,20,10,U01;U19,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U08,Spatial / logistics,1,20,5,U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U09,Demand / market matching,0,20,0,,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U10,LCA inventory / factor,8,20,40,U06;U14;U15;U16;U17;U19;U20;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U11,Boundary / allocation / accounting,2,20,10,U14;U19,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U12,Scenario / future context,9,20,45,U01;U06;U12;U13;U14;U15;U17;U19;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+U13,Transferability / domain shift,4,20,20,U02;U08;U20;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label

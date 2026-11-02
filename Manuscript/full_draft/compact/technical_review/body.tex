@@ -175,12 +175,12 @@ See Supplementary Figure S1.
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/prisma_base_dt_en.pdf}}
-\caption{Figure 2b. B+DT selection audit: broad screening and focused bridge eligibility are displayed separately. B denotes the domain/stage search; DT denotes digital twin. The focused endpoint cannot substitute for unfinished broad eligibility.}
+\caption{Figure 2b. PRISMA-style selection for the independent focused Base+DT bridge search. The separate broad retrieval is reported below the diagram, without implying that focused inclusion closes broad eligibility.}
 \end{figure}
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/prisma_base_u_en.pdf}}
-\caption{Figure 2c. B+U selection audit. U denotes uncertainty. The shared Base/Base+U search, mechanism subset and selected full-text set have different denominators; connecting rows organize the audit rather than assert an exhaustive flow between these sets.}
+\caption{Figure 2c. PRISMA-style retrieval and eligibility for the selected S1–S5+U reports. Twenty assessed reports were included; one was not retrieved. This selected-set flow does not reconstruct earlier database-wide screening.}
 \end{figure}
 
 \begin{figure}[htbp]\centering
@@ -191,28 +191,28 @@ See Supplementary Figure S1.
 \section{Results}
 
 \subsection{Evidence sets and the meaning of the reported percentages}
-The available analyses reveal an uneven connection between building information, material accounting and uncertainty-aware decisions. This finding emerges from several linked analytical subsets, rather than one interchangeable denominator. The archived S1–S3 analysis contains 17 publications with full-text or supporting-information-based coding. The current S+U relational analysis contains 20 publications contributing 23 assessed contexts. The domain DT function analysis contains nine publications with S1–S5 function codes; three adjacent-domain records are outside that graph. The general DT+U configuration analysis contains ten non-review publications. These sets support different questions and overlap in membership; their sizes must not be added to produce a review total.
+The linked analyses use 20 included S1–S5+U publications for source, method and outcome frequencies. These same publications contribute 23 publication–context assessments of continuity. The DT stage–function network uses nine publications with S1–S5 function codes, and the general DT+U configuration analysis uses ten non-review publications. Those denominators answer different questions and are not added as independent review totals.
 
-All source and method percentages below were recalculated from article-level codes. Every one of the 17 legacy publications maps to an included publication in the current S+U eligibility ledger. This identity check establishes membership consistency, but does not independently validate every older interpretive code. The broader search remains incompletely adjudicated, as shown in the Methods selection diagrams. Accordingly, the reported distributions describe the named analytical subsets, not the prevalence of methods throughout the entire literature.
+The source, method and outcome dataset combines the 17 previously coded publications with three newly coded full texts, joined by DOI to the 20 included reports in the selected-set eligibility ledger. Sources include explicitly acknowledged as well as quantified uncertainties; the new decision table distinguishes these states. Each paper contributes at most once to each category. This update reconciles membership and arithmetic, while retaining the provenance of earlier interpretive codes.
 
-The percentages are frequencies of recorded evidence. For example, 64.7\% means that eleven of seventeen publications carry a particular source code. It does not mean that this source contributes 64.7\% of output variance. Similarly, the proportion of papers reporting Monte Carlo is not a measure of model accuracy, uncertainty magnitude or the effectiveness of uncertainty reduction.
+The percentages are frequencies of recorded evidence. For example, 70.0\% means that fourteen of twenty publications carry a particular source code. It does not mean that this source contributes 70.0\% of output variance. Similarly, the proportion of papers reporting Monte Carlo is not a measure of model accuracy, uncertainty magnitude or the effectiveness of uncertainty reduction.
 
 
 \subsection{Sources, representations and downstream outcomes}
-Material intensity/composition is the most frequent source in the legacy subset: 11/17 publications (64.7\%). Scenario/future context follows at 7/17 (41.2\%), temporal/event uncertainty at 6/17 (35.3\%), and model-form/structural uncertainty and LCA inventory/factor uncertainty each at 5/17 (29.4\%). Classification/prediction and hidden/missing building information each occur in 3/17 (17.6\%). Observation/measurement and transferability/domain shift each occur in 2/17 (11.8\%). Recovery/technical feasibility and boundary/allocation/accounting each occur in 1/17 (5.9\%). No positive spatial/logistics or demand/market-matching code is recorded in this subset. Those zeros delimit the extraction rather than establish that the wider research field ignores these problems.
+Material intensity/composition occurs in 14/20 (70.0\%), followed by scenario/future context in 9/20 (45.0\%). Temporal/event and LCA inventory/factor sources each occur in 8/20 (40.0\%); model-form uncertainty occurs in 7/20 (35.0\%). Recovery/technical feasibility is recorded in 2/20 (10.0\%). These frequencies describe documented sources, including acknowledged limitations; they are not the proportion of studies that successfully propagate each source. For example, Caruso et al. (2026) explicitly acknowledge but do not model component-quantity uncertainty.
 
 The pattern places material representation and future assumptions at the centre of the observed uncertainty discussion. It also shows why a single label such as “data uncertainty” is insufficient: uncertain building attributes, material coefficients, lifetimes and environmental factors enter different transformations. Source categories do not automatically determine whether uncertainty is epistemic, aleatory or a mixture; that distinction depends on the model, observational support and decision context (Michiels and Geeraerd, 2020; Vilaysouk et al., 2021; Miatto et al., 2017; Cao et al., 2017).
 
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/F01_sources.pdf}}
-\caption{Recalculated source frequencies, archived 17-paper coding. Multi-label, paper denominator.}
+\caption{Source frequencies across the 20 included S1–S5+U publications. Multi-label; assessed and acknowledged sources are distinguished in the coding table.}
 \end{figure}
-The legacy method codes record local/one-way sensitivity in 6/17 publications (35.3\%); scenario ensembles and bootstrap each in 4/17 (23.5\%); ranges/intervals and Monte Carlo each in 3/17 (17.6\%); and probabilistic ML/parameter modelling in 2/17 (11.8\%). Three publications (17.6\%) carry the legacy deterministic/no-formal-UQ category. No positive Bayesian, global-sensitivity, fuzzy/possibility or analytical-error-propagation code is recorded. These are broad inherited categories: bootstrap used for training-data augmentation is not equivalent to bootstrap used to estimate an output interval, and a probability distribution assigned to an input is not proof that it was propagated. The more specific context coding used in D04 retains these functional distinctions.
+Local/one-way sensitivity occurs in 7/20 (35.0\%); scenario comparison in 5/20 (25.0\%); Monte Carlo in 5/20 (25.0\%); and interval/range representation in 5/20 (25.0\%). Almeida et al. (2026) add explicit global sensitivity, while Aljawhari et al. (2024) propagate sampled damage and repair consequences. Caruso et al. (2026) use event-based probabilistic risk; their reported ECF propagation is separately coded because its algorithm is not specified in the reviewed text. Bootstrap remains a broad inherited category and does not always imply output-interval estimation.
 
 See Supplementary Figure S2.
 
-The six legacy downstream-outcome labels are also reproducible: unassessed in 9/17 publications (52.9\%); transformed in 7/17 (41.2\%); preserved and masked/lost each in 3/17 (17.6\%); and amplified and legitimately reduced each in 1/17 (5.9\%). Labels overlap because a publication may examine several boundaries or operations. In particular, a paper can analyse downstream parameter variability while leaving uncertainty from upstream inference unassessed. The outcome percentages therefore do not sum to 100\%.
+Transformed outcomes are recorded in 10/20 (50.0\%), and unassessed components or interfaces in 11/20 (55.0\%). Preserved and masked/lost each occur in 3/20 (15.0\%); amplified and legitimately reduced each occur in 1/20 (5.0\%). Outcomes overlap at paper level because different variables or interfaces can receive different classifications. The three additions provide transformation evidence, but none establishes amplification or justified reduction of uncertainty merely through a change in mean carbon impact. Supplementary Figure S3 reports all six categories.
 
 The frequency labels should be interpreted at the strength of their underlying evidence. The single amplified/reduced case concerns sensitivity to lifetime assumptions and spatial aggregation (Miatto et al., 2017); it does not establish that a DT reduced real uncertainty. Likewise, “transformed” can denote a change in the representation or consequences of variability, not necessarily an estimated upstream and downstream probability density. The conceptual distribution sketches make the distinctions legible, but no curve in those sketches is fitted to the reviewed studies.
 
@@ -235,7 +235,7 @@ No S3→S4 context is assessed in this particular harmonised coding set. A perce
 \end{figure}
 See Supplementary Figure S5.
 
-The distribution across all 23 contexts is seven partial-transfer assessments (30.4\%), five without demonstrated downstream transfer (21.7\%), four sensitivity/comparison assessments and four quantified-selected-input assessments (17.4\% each), two review/discussion assessments (8.7\%), and one propagation-ready assessment (4.3\%). These categories are mutually exclusive within a context, but the contexts are not independent studies. The classification differs deliberately from the legacy six-outcome labels: it grades what the extraction demonstrates about an interface, rather than inferring the physical fate of every uncertainty component.
+The distribution across all 23 contexts is seven partial-transfer assessments (30.4\%), five without demonstrated downstream transfer (21.7\%), four sensitivity/comparison assessments and four quantified-selected-input assessments (17.4\% each), two review/discussion assessments (8.7\%), and one propagation-ready assessment (4.3\%). These categories are mutually exclusive within a context, but the contexts are not independent studies. The classification differs deliberately from the six outcome labels: it grades what the extraction demonstrates about an interface, rather than inferring the physical fate of every uncertainty component.
 
 
 \subsection{Which DT functions and uncertainty mechanisms are recorded?}
@@ -367,7 +367,7 @@ Agency becomes useful when it makes this process operational: scheduling a check
 
 
 \subsection{Limits and research priorities}
-The strongest quantitative statements in this draft are reproducible frequencies within named coding sets. The archival 17-paper analysis and current 20-paper context analysis use different coding schemes and must not be combined as repeated samples. The former includes secondary and supporting-information-based evidence; the current eligibility ledger contains later targeted full-text checks, but does not retroactively establish every legacy outcome label. The general-DT subset is small and cross-domain. None of these distributions supports a population prevalence estimate or a ranking of uncertainty methods by effectiveness.
+The quantitative distributions describe the 20-publication selected set, not population prevalence. Seventeen publications retain their archived coding and three have newly documented source-level decisions. The 23-context continuity analysis uses a separate evidence-status taxonomy on the same publication set. The small general-DT sample remains cross-domain. These distributions cannot rank method effectiveness or establish complete propagation through every S1–S5 boundary.
 
 No pooled percentage reduction in uncertainty is reported. Such a synthesis would require extracting the quantity of interest, units, probabilistic assumptions, sample or scenario basis, uncertainty metric, upstream/downstream comparison and validation conditions from each eligible primary study. RMSE, coefficient of variation, confidence intervals, prediction intervals and scenario ranges cannot be pooled merely because all describe some form of spread or error. The existing extraction does not provide a harmonised basis for that operation.
 

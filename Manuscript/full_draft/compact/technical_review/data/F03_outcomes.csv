@@ -1,7 +1,7 @@
-label,n,N,percent,paper_ids,basis
-Preserved,3,17,17.647058823529413,6;12;16,Legacy wording-matched outcome labels; not a new quantitative propagation judgement
-Legitimately reduced,1,17,5.882352941176471,11,Legacy wording-matched outcome labels; not a new quantitative propagation judgement
-Amplified,1,17,5.882352941176471,11,Legacy wording-matched outcome labels; not a new quantitative propagation judgement
-Transformed,7,17,41.1764705882353,1;6;7;11;13;16;18,Legacy wording-matched outcome labels; not a new quantitative propagation judgement
-Masked / lost,3,17,17.647058823529413,1;5;6,Legacy wording-matched outcome labels; not a new quantitative propagation judgement
-Unassessed,9,17,52.94117647058823,1;2;3;4;8;9;14;15;17,Legacy wording-matched outcome labels; not a new quantitative propagation judgement
+code,label,n,N,percent,paper_ids,basis
+Preserved,Preserved,3,20,15,U06;U12;U16,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+Legitimately reduced,Legitimately reduced,1,20,5,U11,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+Amplified,Amplified,1,20,5,U11,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+Transformed,Transformed,10,20,50,U01;U06;U07;U11;U13;U16;U18;U19;U20;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+Masked / lost,Masked / lost,3,20,15,U01;U05;U06,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label
+Unassessed,Unassessed,11,20,55,U01;U02;U03;U04;U08;U09;U14;U15;U17;U19;U21,20 included publications; retained 17 plus 3 new full-text-coded papers; multi-label

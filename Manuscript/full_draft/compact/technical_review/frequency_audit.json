@@ -1,23 +1,53 @@
-[
-  {
-    "file": "F01_sources.csv",
-    "rows": 13,
-    "arithmetic_and_unique_id_counts": "pass",
-    "semantic_fulltext_reassessment": "not performed in this revision",
-    "unit": "multi-label publication frequency; not uncertainty magnitude"
+{
+  "included_publications": 20,
+  "unique_dois": 20,
+  "retained_archived_codings": 17,
+  "new_fulltext_codings": 3,
+  "selected_reports_sought": 21,
+  "not_retrieved": 1,
+  "assessed": 20,
+  "excluded": 0,
+  "included": 20,
+  "context_assessments": 23,
+  "dt_function_publications": 9,
+  "general_dtu_publications": 10,
+  "source_counts": {
+    "U01": 2,
+    "U02": 4,
+    "U03": 3,
+    "U04": 14,
+    "U05": 7,
+    "U06": 8,
+    "U07": 2,
+    "U08": 1,
+    "U09": 0,
+    "U10": 8,
+    "U11": 2,
+    "U12": 9,
+    "U13": 4
   },
-  {
-    "file": "F02_methods.csv",
-    "rows": 11,
-    "arithmetic_and_unique_id_counts": "pass",
-    "semantic_fulltext_reassessment": "not performed in this revision",
-    "unit": "multi-label publication frequency; not uncertainty magnitude"
+  "method_counts": {
+    "UM00": 3,
+    "UM01": 7,
+    "UM02": 1,
+    "UM03": 5,
+    "UM04": 5,
+    "UM05": 5,
+    "UM06": 0,
+    "UM07": 4,
+    "UM08": 3,
+    "UM09": 0,
+    "UM10": 0,
+    "UM11": 1,
+    "UM12": 1
   },
-  {
-    "file": "F03_outcomes.csv",
-    "rows": 6,
-    "arithmetic_and_unique_id_counts": "pass",
-    "semantic_fulltext_reassessment": "not performed in this revision",
-    "unit": "multi-label publication frequency; not uncertainty magnitude"
-  }
-]
+  "outcome_counts": {
+    "Preserved": 3,
+    "Legitimately reduced": 1,
+    "Amplified": 1,
+    "Transformed": 10,
+    "Masked / lost": 3,
+    "Unassessed": 11
+  },
+  "broad_search_eligibility_closed": false
+}
