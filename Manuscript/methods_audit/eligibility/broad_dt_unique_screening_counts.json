@@ -1,0 +1,13 @@
+{
+  "canonical_records_before_late_aliases": 2410,
+  "late_alias_records_removed": 10,
+  "unique_publication_records_after_late_aliases": 2400,
+  "screened_unique_records": 2400,
+  "counts": {
+    "retain_secondary": 762,
+    "exclude_domain": 724,
+    "unclear": 24,
+    "retain_fulltext": 890
+  },
+  "status": "Title/abstract only; full-text eligibility not inferred. Original records and source variants preserved."
+}

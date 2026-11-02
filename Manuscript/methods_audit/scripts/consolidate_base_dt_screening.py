@@ -40,6 +40,9 @@ for x in read(p/'broad_dt_transferred_ta.csv'):
 remaining=[x for x in canonical if x['record_id'] not in seen]
 write(p/'broad_dt_title_abstract_decisions.csv',out)
 write(p/'broad_dt_pending_title_abstract.csv',remaining)
+if not remaining:
+    with (p/'broad_dt_pending_title_abstract.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        csv.DictWriter(f,fieldnames=list(canonical[0])).writeheader()
 write(p/'broad_dt_quote_validation_issues.csv',errors)
 groups=collections.defaultdict(list)
 for x in out:groups[re.sub(r'\W','',x['title'].casefold())].append(x)

@@ -8,13 +8,13 @@ This update records substantive reading and decisions, not closure of every sear
 
 All308 carried-forward records have a recorded retrieval route. Crossref publisher links, institutional/repository retrieval and authenticated SLUB IEEE access were used. A failed PDF route is not proof that no full text exists.
 
-**88 full texts have completed eligibility decisions: 21 domain inclusions, 4 complementary inclusions and 63 exclusions from the triple-intersection set.** Every decision has a source-file hash and page/section evidence. All downloaded files have been checked, but two are retrieval defects: one unrelated PDF and one partial book preview. These two do not count as full-text assessments or exclusions. Domain inclusions contain primary and secondary evidence and enabling or conceptual architectures; they are not all implemented twins or demonstrations of continuous uncertainty propagation.
+**89 full texts have completed eligibility decisions: 21 domain inclusions, 4 complementary inclusions and 64 exclusions from the triple-intersection set.** Every decision has page/section evidence. PDF assessments retain file hashes; HTML assessments label the hash as assessment-notes-only, not a hash of the publisher full text. All downloaded files have been checked, but two are retrieval defects: one unrelated PDF and one partial book preview. These two do not count as full-text assessments or exclusions. Domain inclusions contain primary and secondary evidence and enabling or conceptual architectures; they are not all implemented twins or demonstrations of continuous uncertainty propagation.
 
-220 candidates lack completed full-text eligibility assessment. One has a visible IEEE HTML body awaiting capture/assessment; others still need an adequate text. These are not eligibility exclusions, and the broad search is not declared final.
+219 candidates lack completed full-text eligibility assessment. These candidates still need an adequate complete text; wrong-file and partial-preview retrievals remain pending. These are not eligibility exclusions, and the broad search is not declared final.
 
 ## Previously selected focused sets
 
-The separate S–U, focused bridge and focused DT–U sets comprise53 memberships/52 unique publications.44 available full texts were verified:42 retained and2 focused-scope exclusions;8 not retrieved. These overlap the broad search and must not be added as independent populations. Their decisions answer different inclusion scopes.
+The separate S–U, focused bridge and focused DT–U sets comprise53 memberships/52 unique publications.45 full texts were assessed:43 retained and2 focused-scope exclusions;7 not retrieved. One assessment uses the complete publisher HTML; its PDF remains unarchived. These overlap the broad search and must not be added as independent populations. Their decisions answer different inclusion scopes.
 
 ## Eligibility and evidence interpretation
 

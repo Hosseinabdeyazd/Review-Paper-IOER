@@ -1,0 +1,16 @@
+{
+  "canonical_records_before_residual_adjudication": 2410,
+  "screened_records": 2410,
+  "individually_read_new_records": 1882,
+  "same_publication_transfers": 528,
+  "remaining_title_abstract_records": 0,
+  "decision_counts": {
+    "retain_secondary": 762,
+    "exclude_domain": 727,
+    "unclear": 24,
+    "retain_fulltext": 897
+  },
+  "quote_validation_issues": 0,
+  "residual_exact_title_groups": 15,
+  "status": "Title/abstract decisions only. Retained records are not full-text Included studies."
+}

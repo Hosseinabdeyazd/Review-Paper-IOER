@@ -1,9 +1,9 @@
 {
-  "assessed_unique_publications": 88,
-  "archived_file_checks": 90,
+  "assessed_unique_publications": 89,
+  "archived_file_checks": 91,
   "counts": {
     "domain_included": 21,
-    "excluded_from_triple_intersection": 63,
+    "excluded_from_triple_intersection": 64,
     "complementary_included": 4,
     "not_assessed_retrieval_defect": 2
   },

@@ -3,14 +3,14 @@
   "memberships": 53,
   "unique_publications": 52,
   "decisions": {
-    "include": 42,
-    "not_retrieved": 8,
+    "include": 43,
+    "not_retrieved": 7,
     "exclude": 2
   },
   "by_family": {
     "DT_U_focused": {
-      "include": 13,
-      "not_retrieved": 5
+      "include": 14,
+      "not_retrieved": 4
     },
     "DT_bridge_focused": {
       "include": 10,

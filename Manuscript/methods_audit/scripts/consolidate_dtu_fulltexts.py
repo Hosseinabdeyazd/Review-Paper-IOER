@@ -13,6 +13,8 @@ by={x['record_id']:x for x in rr}
 for o in read(p/'broad_dtu_final_overrides.csv'):
  x=by[o['record_id']];x['decision']=o['final_decision'];x['evidence_role']=o['evidence_role'];x['reason']=o['reason'];x['evidence_locator']=o['locators'];x['decision_source']+=';broad_dtu_final_overrides.csv'
 for x in rr:
+ x['source_type']='publisher_fulltext_HTML' if 'HTML' in x['assessment_scope'] else 'local_PDF'
+ x['hash_scope']='assessment_notes_only' if 'notes only' in x['assessment_scope'] else 'reviewed_local_file'
  x['counting_stream']=('not_assessed_retrieval_defect' if x['decision'].startswith('not_') else ('domain_included' if x['decision'].startswith('include') and x['decision']!='include_complementary' else ('complementary_included' if x['decision']=='include_complementary' else 'excluded_from_triple_intersection')))
  assert x['reason'] and x['evidence_locator'] and x['sha256'],x
  f=Path(x['source_path']);assert f.exists(),str(f)
