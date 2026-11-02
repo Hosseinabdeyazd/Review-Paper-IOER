@@ -1,3 +1,5 @@
+Current full-text working draft without abstract: [English PDF](full_draft/pdf/manuscript_no_abstract_en.pdf), [Persian PDF](full_draft/pdf/manuscript_no_abstract_fa.pdf), [scope and reproduction](full_draft/README.txt). Includes 18 figures per language; incomplete broad eligibility is disclosed.
+
 # Manuscript — working LaTeX draft
 
 Version 0.2, 2026-11-02. English draft for the systematic-review project on circular building material flows, uncertainty and evidence-traceable DT architecture.

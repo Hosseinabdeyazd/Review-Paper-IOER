@@ -1,0 +1,12 @@
+code,label,n,N,percent,paper_ids,basis
+UM00,Deterministic / no formal UQ,3,17,17.647058823529413,2;8;14,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM01,One-way / local sensitivity,6,17,35.294117647058826,7;9;11;15;17;18,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM02,Global sensitivity,0,17,0.0,,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM03,Scenario ensemble,4,17,23.529411764705884,1;13;15;17,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM04,Intervals / ranges,3,17,17.647058823529413,1;6;16,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM05,Monte Carlo,3,17,17.647058823529413,6;11;12,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM06,Bayesian,0,17,0.0,,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM07,Bootstrap,4,17,23.529411764705884,4;5;12;16,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM08,Probabilistic ML / probabilistic parameter modelling,2,17,11.764705882352942,3;13,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM09,Fuzzy / possibility,0,17,0.0,,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"
+UM10,Analytical error propagation,0,17,0.0,,"Archived multi-label coding; arithmetic checked, not newly full-text recoded"

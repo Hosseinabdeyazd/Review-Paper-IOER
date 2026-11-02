@@ -1,0 +1,37 @@
+language,figure,key,file,caption
+en,1,M1,../figures/methods/workflow_en.svg,Connected review workflow. Conceptual methodological design.
+en,2,M2,../figures/methods/evidence_join_en.svg,Shared interface record and evidence joins.
+en,3,M3,../figures/methods/prisma_broad_dtu_status_en.svg,Broad Base+DT+U selection audit. Pending eligibility is not relabelled as exclusion.
+en,4,M4,../figures/methods/focused_selection_status_en.svg,"Focused-set adjudication; overlapping subsets, not an additional independent database flow."
+en,5,F01,figures/F01_sources.svg,"Recalculated source frequencies, archived 17-paper coding. Multi-label, paper denominator."
+en,6,F02,figures/F02_methods.svg,Recalculated method frequencies in the same 17 papers; broad legacy codes retain their original scope.
+en,7,F03,figures/F03_outcomes.svg,Legacy outcome labels reconstructed with supporting IDs. These are not measured variance changes.
+en,8,F06,figures/F06_outcome_vocabulary.svg,Conceptual outcome vocabulary. Synthetic normalized curves; not data from the reviewed models.
+en,9,D01,../relational_analysis/data_diagrams/figures/D01_boundary_continuity_alluvial.svg,Current boundary–continuity coding: 23 contexts from 20 publications.
+en,10,F04,figures/F04_boundary_percentages.svg,"Within-boundary percentages and counts. B34 denominator is zero, so its percentage is undefined."
+en,11,D02,../relational_analysis/data_diagrams/figures/D02_stage_function_network.svg,"Stage–function co-coding; edge width is distinct supporting publications, not uncertainty flow."
+en,12,F05,figures/F05_dt_mechanisms.svg,Positive mechanism frequency in ten non-review general-DT records.
+en,13,D03,../relational_analysis/data_diagrams/figures/D03_exact_uncertainty_configurations.svg,Exact positive-code intersections. Each publication occupies one configuration.
+en,14,D04,../relational_analysis/data_diagrams/figures/D04_uncertainty_source_method_associations.svg,Source–method co-occurrence restricted to the same paper and context.
+en,15,A01,inputs/figure_1_design_to_use.svg,Previously developed design-to-use synthesis. R keys are resolved in the accompanying foundations register; arrows are conceptual.
+en,16,A02,inputs/figure_S2_configuration_choices (1).svg,"Configuration vocabulary, not empirical pair frequencies. Unresolved terms remain marked in the original figure."
+en,17,A03,inputs/figure_S3_functional_allocation.svg,Functional allocation. Activities are not equivalent to material-flow stages.
+en,18,F07,figures/F07_tracking_architecture.svg,Proposed uncertainty-tracking overlay. Capability concepts have literature support; complete interface allocation is synthesis.
+fa,1,M1,../figures/methods/workflow_fa.svg,روند متصل مرور؛ طراحی مفهومی روش.
+fa,2,M2,../figures/methods/evidence_join_fa.svg,رکورد مشترک رابط و اتصال شواهد.
+fa,3,M3,../figures/methods/prisma_broad_dtu_status_fa.svg,ممیزی انتخاب گسترده؛ صلاحیت ناتمام به خروج تبدیل نشده است.
+fa,4,M4,../figures/methods/focused_selection_status_fa.svg,تصمیم مجموعه‌های متمرکز؛ زیرمجموعه‌های هم‌پوشان و نه جست‌وجوی مستقل اضافی.
+fa,5,F01,figures/F01_sources.svg,فراوانی بازشماری‌شدهٔ منابع در کدگذاری ۱۷ مقاله؛ چندبرچسبی با مخرج مقاله.
+fa,6,F02,figures/F02_methods.svg,فراوانی بازشماری‌شدهٔ روش‌ها در همان ۱۷ مقاله؛ طبقات گستردهٔ قدیمی حفظ شده‌اند.
+fa,7,F03,figures/F03_outcomes.svg,بازسازی برچسب‌های پیامد قدیمی با شناسهٔ پشتیبان؛ این‌ها تغییر واریانس اندازه‌گیری‌شده نیستند.
+fa,8,F06,figures/F06_outcome_vocabulary.svg,واژگان مفهومی پیامد؛ منحنی‌های مصنوعی نرمال‌شده و نه دادهٔ مدل‌های مرورشده.
+fa,9,D01,../relational_analysis/data_diagrams/figures/D01_boundary_continuity_alluvial.svg,کدگذاری فعلی مرز–پیوستگی: ۲۳ زمینه از ۲۰ مقاله.
+fa,10,F04,figures/F04_boundary_percentages.svg,درصد و تعداد درون هر مرز؛ مخرج B34 صفر و درصد آن تعریف‌نشده است.
+fa,11,D02,../relational_analysis/data_diagrams/figures/D02_stage_function_network.svg,کدگذاری مرحله–کارکرد؛ پهنای یال تعداد مقالات است، نه جریان عدم قطعیت.
+fa,12,F05,figures/F05_dt_mechanisms.svg,فراوانی سازوکار مثبت در ده رکورد غیرمروری DT عمومی.
+fa,13,D03,../relational_analysis/data_diagrams/figures/D03_exact_uncertainty_configurations.svg,تقاطع دقیق کدهای مثبت؛ هر مقاله در یک ترکیب قرار دارد.
+fa,14,D04,../relational_analysis/data_diagrams/figures/D04_uncertainty_source_method_associations.svg,هم‌وقوعی منبع–روش، محدود به همان مقاله و زمینه.
+fa,15,A01,inputs/figure_1_design_to_use.svg,سنتز پیشین از طراحی تا استفاده؛ کلیدهای R در فهرست مبانی مشخص شده‌اند و پیکان‌ها مفهومی‌اند.
+fa,16,A02,inputs/figure_S2_configuration_choices (1).svg,واژگان پیکربندی، نه فراوانی تجربی اتصال‌ها؛ اصطلاحات فاقد پشتوانه در شکل اصلی علامت دارند.
+fa,17,A03,inputs/figure_S3_functional_allocation.svg,تخصیص کارکرد؛ فعالیت‌ها معادل مراحل جریان مصالح نیستند.
+fa,18,F07,figures/F07_tracking_architecture.svg,لایهٔ پیشنهادی ردیابی عدم قطعیت؛ مفاهیم قابلیت پشتوانه دارند و تخصیص کامل به رابط‌ها سنتز است.

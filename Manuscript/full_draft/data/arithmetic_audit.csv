@@ -1,0 +1,4 @@
+dataset,rows_verified,result
+uncertainty_source_stats_17_verified.csv,13,passed
+uncertainty_method_stats_17_verified.csv,11,passed
+propagation_outcome_stats_17_verified.csv,6,passed; explicit legacy wording mapping retained

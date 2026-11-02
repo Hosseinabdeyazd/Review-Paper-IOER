@@ -1,0 +1,93 @@
+# 4. Results
+
+## 4.1. Evidence sets and the meaning of the reported percentages
+
+The available analyses reveal an uneven connection between building information, material accounting and uncertainty-aware decisions. This finding emerges from several linked analytical subsets, rather than one interchangeable denominator. The archived S1–S3 analysis contains 17 publications with full-text or supporting-information-based coding. The current S+U relational analysis contains 20 publications contributing 23 assessed contexts. The domain DT function analysis contains nine publications with S1–S5 function codes; three adjacent-domain records are outside that graph. The general DT+U configuration analysis contains ten non-review publications. These sets support different questions and overlap in membership; their sizes must not be added to produce a review total.
+
+All source and method percentages below were recalculated from article-level codes. Every one of the 17 legacy publications maps to an included publication in the current S+U eligibility ledger. This identity check establishes membership consistency, but does not independently validate every older interpretive code. The broader search remains incompletely adjudicated, as shown in the Methods selection diagrams. Accordingly, the reported distributions describe the named analytical subsets, not the prevalence of methods throughout the entire literature.
+
+The percentages are frequencies of recorded evidence. For example, 64.7% means that eleven of seventeen publications carry a particular source code. It does not mean that this source contributes 64.7% of output variance. Similarly, the proportion of papers reporting Monte Carlo is not a measure of model accuracy, uncertainty magnitude or the effectiveness of uncertainty reduction.
+
+## 4.2. Sources, representations and downstream outcomes
+
+Material intensity/composition is the most frequent source in the legacy subset: 11/17 publications (64.7%). Scenario/future context follows at 7/17 (41.2%), temporal/event uncertainty at 6/17 (35.3%), and model-form/structural uncertainty and LCA inventory/factor uncertainty each at 5/17 (29.4%). Classification/prediction and hidden/missing building information each occur in 3/17 (17.6%). Observation/measurement and transferability/domain shift each occur in 2/17 (11.8%). Recovery/technical feasibility and boundary/allocation/accounting each occur in 1/17 (5.9%). No positive spatial/logistics or demand/market-matching code is recorded in this subset. Those zeros delimit the extraction rather than establish that the wider research field ignores these problems.
+
+The pattern places material representation and future assumptions at the centre of the observed uncertainty discussion. It also shows why a single label such as “data uncertainty” is insufficient: uncertain building attributes, material coefficients, lifetimes and environmental factors enter different transformations. Source categories do not automatically determine whether uncertainty is epistemic, aleatory or a mixture; that distinction depends on the model, observational support and decision context [I25,U03,U11,U12].
+
+[[F01]]
+
+The legacy method codes record local/one-way sensitivity in 6/17 publications (35.3%); scenario ensembles and bootstrap each in 4/17 (23.5%); ranges/intervals and Monte Carlo each in 3/17 (17.6%); and probabilistic ML/parameter modelling in 2/17 (11.8%). Three publications (17.6%) carry the legacy deterministic/no-formal-UQ category. No positive Bayesian, global-sensitivity, fuzzy/possibility or analytical-error-propagation code is recorded. These are broad inherited categories: bootstrap used for training-data augmentation is not equivalent to bootstrap used to estimate an output interval, and a probability distribution assigned to an input is not proof that it was propagated. The more specific context coding used in D04 retains these functional distinctions.
+
+[[F02]]
+
+The six legacy downstream-outcome labels are also reproducible: unassessed in 9/17 publications (52.9%); transformed in 7/17 (41.2%); preserved and masked/lost each in 3/17 (17.6%); and amplified and legitimately reduced each in 1/17 (5.9%). Labels overlap because a publication may examine several boundaries or operations. In particular, a paper can analyse downstream parameter variability while leaving uncertainty from upstream inference unassessed. The outcome percentages therefore do not sum to 100%.
+
+The frequency labels should be interpreted at the strength of their underlying evidence. The single amplified/reduced case concerns sensitivity to lifetime assumptions and spatial aggregation [U11]; it does not establish that a DT reduced real uncertainty. Likewise, “transformed” can denote a change in the representation or consequences of variability, not necessarily an estimated upstream and downstream probability density. The conceptual distribution sketches make the distinctions legible, but no curve in those sketches is fitted to the reviewed studies.
+
+[[F03]]
+
+[[F06]]
+
+## 4.3. Where continuity is documented across the four boundaries
+
+The current boundary coding separates evidence of an uncertain input from evidence of its downstream treatment. At S1→S2, nine contexts are assessed. Four (44.4%) do not demonstrate downstream transfer; two (22.2%) provide sensitivity/representation comparisons; one each (11.1%) provides review/discussion, prepares inputs for propagation, or documents partial transfer. None is coded as quantified output uncertainty for selected inputs in this boundary-specific classification. Material-intensity distributions and prediction-error measures can therefore improve the input description without establishing a complete uncertain stock estimate [U03,U04,U05].
+
+At S2→S3, six contexts are assessed: three (50.0%) document partial transfer, two (33.3%) quantify outputs for selected uncertain inputs, and one (16.7%) does not demonstrate transfer. The stronger evidence here is consistent with the explicit use of lifetime distributions, probabilistic parameters and dynamic material-flow models [U11,U12,U13,U18]. However, an uncertain lifetime model can coexist with deterministic upstream quantities. The evidence does not justify interpreting the entire chain as probabilistic simply because the stock-dynamics calculation uses sampling.
+
+No S3→S4 context is assessed in this particular harmonised coding set. A percentage is therefore undefined, rather than zero percent successful propagation. The sole S4→S5 context is coded as partial transfer: 1/1, or 100% of one observation. This is a case description, not a stable estimate of methodological prevalence [U19]. Seven additional contexts concern other inputs to S5. They remain separate because environmental-factor, damage or emissions analyses do not necessarily consume material-recovery outputs. Reassigning them to S4→S5 would create continuity that the extraction has not established [U15,U16,U20,U21].
+
+[[D01]]
+
+[[F04]]
+
+The distribution across all 23 contexts is seven partial-transfer assessments (30.4%), five without demonstrated downstream transfer (21.7%), four sensitivity/comparison assessments and four quantified-selected-input assessments (17.4% each), two review/discussion assessments (8.7%), and one propagation-ready assessment (4.3%). These categories are mutually exclusive within a context, but the contexts are not independent studies. The classification differs deliberately from the legacy six-outcome labels: it grades what the extraction demonstrates about an interface, rather than inferring the physical fate of every uncertainty component.
+
+## 4.4. Which DT functions and uncertainty mechanisms are recorded?
+
+Within the nine domain-function records, seven publications have a positive S1 function code and seven have a positive S2 code (77.8% each). S3 and S4 each have two (22.2%), and S5 has one (11.1%). A publication may contribute to several stages. The weighted network contains sixteen positive stage–function combinations. Observation/inference, semantic material information, identity/provenance and inventory modelling dominate the recorded architecture. Presence at two stages does not establish an operational connection between them; the graph is a functional coverage map, not a measured uncertainty-transfer network.
+
+[[D02]]
+
+The ten non-review general DT+U records show a different emphasis. Probabilistic uncertainty representation and residual/shift diagnostics each appear in eight records (80%). Bayesian state/parameter inference, online adaptation and uncertainty-linked alerts/actions each appear in seven (70%). Empirical interval-coverage assessment appears in three (30%), and explicit joint/dependence transport in two (20%). These percentages refer to recorded positive method descriptions. They neither establish successful deployment in circular construction nor prove that an unrecorded feature was absent from the implementation.
+
+Nine exact positive-code configurations occur across the ten records. One configuration is shared by two papers; the remaining eight occur once each. This heterogeneity supports a vocabulary of composable capabilities, rather than one empirically dominant DT architecture. Especially relevant to continuity is the difference between frequently recorded prediction/update capabilities and less frequently recorded joint-dependence transport. A system can update a model and issue an alert while still losing upstream correlation information at the next model interface.
+
+[[F05]]
+
+[[D03]]
+
+The source–method matrix provides a bridge between these observations. It contains 46 positive cells among 100 possible source–method cells. For geometry-related contexts, sensitivity/comparison and prediction diagnostics each occur in 3/8 contexts (37.5%). For lifetime/timing contexts, sensitivity and range/distribution representation each occur in 4/8 (50.0%). Scenario comparison accompanies future-scenario sources in 4/5 contexts (80.0%). The recovery source has only one assessed context, associated with sampling and scenario comparison. These are same-publication, same-context associations; they do not establish that every paired method was specifically applied to every paired source.
+
+[[D04]]
+
+## 4.5. From configuration descriptors to an uncertainty-traceable architecture
+
+The supplied DT design framework contributes three complementary questions. The design brief specifies what the representation is for. Configuration describes how models, services, information and interactions are arranged. Functional allocation identifies where calibration, evaluation, prediction and decision activities are performed. The literature supports several underlying concepts, but the A–B–C organisation and the complete arrangement are a synthesis, not a taxonomy statistically recovered from the selected papers [R1,R2,R5,R6].
+
+[[A01]]
+
+Configuration descriptors are not uncertainty parameters. For example, a hybrid model combines modelling bases, but does not by itself quantify model discrepancy. A knowledge graph can preserve identity and relationships, but does not automatically propagate a joint distribution. A federated architecture can connect services, but requires an explicit interface contract to preserve units, time references and dependency information. Likewise, bidirectional data exchange is distinct from autonomous authority. The configuration diagram is therefore used to identify implementation choices that could support required functions; its curves are not counted as observed connections [R14,R15].
+
+[[A02]]
+
+The transition-centred synthesis adds a shared record to these design choices. For each transferred material variable, it records identity, value and unit, uncertainty representation, dependencies, transformation, spatial support, valid time, model version, supporting evidence and decision use. This record is the proposed means of keeping continuity inspectable across heterogeneous models. The following parameters define its operational meaning; they are synthesis requirements rather than measured results of a deployed system.
+
+| Parameter | Operational definition | Relevance to uncertainty tracking |
+|---|---|---|
+| Entity and variable identifier | Stable reference to building, component, material batch and quantity | Prevents mismatching observations, stocks and recovery outputs |
+| Value, unit and spatial support | Quantity plus its physical unit and represented spatial extent | Makes conversions and aggregation explicit |
+| Valid time and version | Time represented by the datum; model/data version; update time | Distinguishes real change from asynchronous or stale information |
+| Uncertainty representation | Distribution, samples, interval, scenarios or qualitative statement | Prevents replacement by an unexplained point value |
+| Dependency information | Joint samples, covariance or conditional relations, where supported | Preserves correlated inputs and avoids unjustified independence |
+| Transformation identifier | Mapping f, parameters, assumptions, output variable and unit | Identifies where uncertainty changes meaning or scale |
+| Observation and residual | Independent observation and difference from prediction, with noise model | Detects disagreement; does not uniquely identify its cause |
+| Coverage and sharpness | Empirical interval coverage and interval width in a stated evaluation set | Tests reliability of uncertainty estimates, rather than accuracy alone |
+| Update rule and trigger | What information changes which state/parameter and when | Makes uncertainty revision traceable |
+| Decision threshold and authority | Action criterion, tolerance and authorised role | Connects uncertainty to decisions without assuming automatic control |
+| Evidence and support class | Paper, page/table, and direct, synthesised or proposed status | Makes the architectural claim auditable |
+
+[[A03]]
+
+This synthesis identifies places where uncertainty can become observable to the user of the twin: input-quality checks, state inference, cross-model propagation, predictive diagnostics and decision evaluation. The architecture does not discover every unknown source automatically. It can expose failures of specified assumptions and information contracts, while unmodelled mechanisms require further investigation. The proposed deployment of these functions at all four material-flow boundaries remains an architectural response to the reviewed evidence, not a demonstrated end-to-end implementation.
+
+[[F07]]

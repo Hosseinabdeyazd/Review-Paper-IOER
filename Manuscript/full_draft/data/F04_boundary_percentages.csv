@@ -1,0 +1,31 @@
+boundary,status,label,n,N,percent,paper_ids
+B12,Q,Review/discussion,1,9,11.11111111111111,U02
+B12,N,Transfer not demonstrated,4,9,44.44444444444444,U01;U04;U05;U08
+B12,R,Inputs prepared,1,9,11.11111111111111,U03
+B12,S,Sensitivity/comparison,2,9,22.22222222222222,U07;U09
+B12,P,Partial transfer,1,9,11.11111111111111,U06
+B12,E,Quantified selected inputs,0,9,0.0,
+B23,Q,Review/discussion,0,6,0.0,
+B23,N,Transfer not demonstrated,1,6,16.666666666666668,U06
+B23,R,Inputs prepared,0,6,0.0,
+B23,S,Sensitivity/comparison,0,6,0.0,
+B23,P,Partial transfer,3,6,50.0,U01;U13;U18
+B23,E,Quantified selected inputs,2,6,33.333333333333336,U11;U12
+B34,Q,Review/discussion,0,0,,
+B34,N,Transfer not demonstrated,0,0,,
+B34,R,Inputs prepared,0,0,,
+B34,S,Sensitivity/comparison,0,0,,
+B34,P,Partial transfer,0,0,,
+B34,E,Quantified selected inputs,0,0,,
+B45,Q,Review/discussion,0,1,0.0,
+B45,N,Transfer not demonstrated,0,1,0.0,
+B45,R,Inputs prepared,0,1,0.0,
+B45,S,Sensitivity/comparison,0,1,0.0,
+B45,P,Partial transfer,1,1,100.0,U19
+B45,E,Quantified selected inputs,0,1,0.0,
+O5,Q,Review/discussion,1,7,14.285714285714286,U14
+O5,N,Transfer not demonstrated,0,7,0.0,
+O5,R,Inputs prepared,0,7,0.0,
+O5,S,Sensitivity/comparison,2,7,28.571428571428573,U15;U17
+O5,P,Partial transfer,2,7,28.571428571428573,U06;U21
+O5,E,Quantified selected inputs,2,7,28.571428571428573,U16;U20
