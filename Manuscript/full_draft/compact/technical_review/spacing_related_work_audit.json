@@ -1,0 +1,60 @@
+{
+  "section_2_words_before": 1255,
+  "section_2_words_after": 705,
+  "figure_gaps": {
+    "focused_selection_status_en.svg": [
+      [
+        195,
+        300,
+        28
+      ],
+      [
+        395,
+        500,
+        28
+      ],
+      [
+        610,
+        660,
+        28
+      ]
+    ],
+    "evidence_join_en.svg": [
+      [
+        180,
+        275,
+        32
+      ],
+      [
+        410,
+        500,
+        32
+      ],
+      [
+        585,
+        670,
+        32
+      ]
+    ],
+    "prisma_broad_dtu_status_en.svg": [
+      [
+        280,
+        330,
+        28
+      ],
+      [
+        485,
+        530,
+        28
+      ],
+      [
+        900,
+        945,
+        28
+      ]
+    ]
+  },
+  "added_reference": "Schiller et al. (2019), 10.1111/jiec.12817",
+  "reference_verification": "Publisher abstract and citation metadata; https://onlinelibrary.wiley.com/doi/10.1111/jiec.12817",
+  "eligibility_counts_changed": false
+}

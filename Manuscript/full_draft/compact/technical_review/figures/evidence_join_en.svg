@@ -1,41 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
-<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#4c78a8"/></marker></defs>
-<rect width="1000" height="850" fill="white"/>
-<text x="500" y="36" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">2. One extraction model, three connected analyses</text>
-<path d="M142,180 L500,275" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M387,180 L500,275" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M632,180 L500,275" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M877,180 L500,275" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M500,410 L180,500" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M500,410 L500,500" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M500,410 L820,500" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M180,585 L500,670" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M500,585 L500,670" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<path d="M820,585 L500,670" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)"/>
-<rect x="30" y="90" width="225" height="90" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="676.0" viewBox="0 0 1000 676.0">
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#4c78a8" /></marker></defs>
+<rect width="1000" height="676.0" fill="white" y="0.0" />
+<text x="500" y="36.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="25" fill="#2f2f2f">2. One extraction model, three connected analyses</text>
+<path d="M142,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M387,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M632,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M877,180.0 L500,212.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M500,347.0 L180,379.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M500,347.0 L500,379.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M500,347.0 L820,379.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M180,464.0 L500,496.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M500,464.0 L500,496.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<path d="M820,464.0 L500,496.0" stroke="#4c78a8" stroke-width="2" fill="none" marker-end="url(#a)" />
+<rect x="30" y="90.0" width="225" height="90.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
 <text x="142.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">S → workflow and</text>
 <text x="142.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">variables</text>
-<rect x="275" y="90" width="225" height="90" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<rect x="275" y="90.0" width="225" height="90.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
 <text x="387.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">S+U → uncertainty</text>
 <text x="387.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">operation</text>
-<rect x="520" y="90" width="225" height="90" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<rect x="520" y="90.0" width="225" height="90.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
 <text x="632.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">S+DT → domain</text>
 <text x="632.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">architecture</text>
-<rect x="765" y="90" width="225" height="90" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
+<rect x="765" y="90.0" width="225" height="90.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
 <text x="877.5" y="128.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">S+DT+U → direct</text>
 <text x="877.5" y="154.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">joint evidence</text>
-<rect x="150" y="275" width="700" height="135" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
-<text x="500.0" y="322.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Shared interface record E(p,i,j)</text>
-<text x="500.0" y="348.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Entity | input | transformation | output</text>
-<text x="500.0" y="374.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">U-in / U-out | dependencies | context | evidence</text>
-<rect x="55" y="500" width="250" height="85" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
-<text x="180.0" y="548.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Interface × U</text>
-<rect x="375" y="500" width="250" height="85" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
-<text x="500.0" y="548.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Interface × DT</text>
-<rect x="695" y="500" width="250" height="85" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
-<text x="820.0" y="548.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">DT × U</text>
-<rect x="90" y="670" width="820" height="80" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3"/>
-<text x="500.0" y="703.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Joined evidence: interface × U × DT</text>
-<text x="500.0" y="729.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Same-paper support is counted separately from cross-study synthesis</text>
-<text x="500" y="795" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#2f2f2f">Conceptual analysis design; boxes and arrows are not empirical frequencies.</text>
+<rect x="150" y="212.0" width="700" height="135.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
+<text x="500.0" y="259.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Shared interface record E(p,i,j)</text>
+<text x="500.0" y="285.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Entity | input | transformation | output</text>
+<text x="500.0" y="311.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">U-in / U-out | dependencies | context | evidence</text>
+<rect x="55" y="379.0" width="250" height="85.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
+<text x="180.0" y="427.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Interface × U</text>
+<rect x="375" y="379.0" width="250" height="85.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
+<text x="500.0" y="427.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Interface × DT</text>
+<rect x="695" y="379.0" width="250" height="85.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
+<text x="820.0" y="427.5" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">DT × U</text>
+<rect x="90" y="496.0" width="820" height="80.0" rx="8" fill="#ececec" stroke="#4c78a8" stroke-width="1.3" />
+<text x="500.0" y="529.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Joined evidence: interface × U × DT</text>
+<text x="500.0" y="555.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="19" fill="#2f2f2f">Same-paper support is counted separately from cross-study synthesis</text>
+<text x="500" y="621.0" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="16" fill="#2f2f2f">Conceptual analysis design; boxes and arrows are not empirical frequencies.</text>
 <style>text,tspan{font-family:"Times New Roman",serif !important}</style></svg>
