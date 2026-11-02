@@ -1,6 +1,10 @@
 # Manuscript — working LaTeX draft
 
-Version 0.1, 2026-11-02. English draft for the systematic-review project on circular building material flows, uncertainty and evidence-traceable DT architecture.
+Version 0.2, 2026-11-02. English draft for the systematic-review project on circular building material flows, uncertainty and evidence-traceable DT architecture.
+
+Approved title: **From GeoAI to environmental impact assessment: A systematic review of uncertainty continuity and digital twin architecture for the circular built environment**.
+
+The introduction has been rewritten with 35 references (30 Elsevier and five Nature Portfolio; 34 published in 2020 or later). It contains 1,039 words excluding citations, or 1,160 including author–year citations. Read `Introduction.md` for the introduction and its complete bibliography; edit `sections/01_introduction.tex` for the LaTeX manuscript. Background references are not automatically members of the systematic-review corpus. Other sections remain preliminary.
 
 ## Open and build
 
@@ -13,7 +17,7 @@ pdflatex main
 pdflatex main
 ```
 
-The portable `article` class is used for drafting. This is not represented as an official Journal of Cleaner Production template. Journal-specific formatting will be applied after the manuscript structure stabilizes. Author order and affiliations are deliberately unassigned.
+The portable `article` class is used for drafting. This is not represented as an official Journal of Cleaner Production template. Citations use natbib author–year and Elsevier's `elsarticle-harv.bst`, included from the elsarticle distribution on CTAN (https://mirrors.ctan.org/macros/latex/contrib/elsarticle/elsarticle-harv.bst). Author order and affiliations are deliberately unassigned.
 
 ## Written in this version
 

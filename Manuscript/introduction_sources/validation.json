@@ -1,0 +1,11 @@
+{
+  "body_word_count_excluding_citations": 1039,
+  "body_word_count_including_author_year_citations": 1160,
+  "distinct_references": 35,
+  "references_2020_onward": 34,
+  "elsevier_references": 30,
+  "nature_portfolio_references": 5,
+  "missing_citations": [],
+  "latex_compilation": "Not run: no LaTeX compiler available",
+  "research_status": "Introduction draft; no new final screening counts or validation claims"
+}

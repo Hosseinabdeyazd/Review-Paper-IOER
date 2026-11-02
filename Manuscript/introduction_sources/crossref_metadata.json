@@ -1,0 +1,3483 @@
+[
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "3",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41561-021-00690-8",
+    "page": "151-155",
+    "title": [
+      "Increased carbon footprint of materials production driven by rise in investments"
+    ],
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4934-3421",
+        "authenticated-orcid": false,
+        "given": "Edgar G.",
+        "family": "Hertwich",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          15
+        ]
+      ]
+    },
+    "container-title": [
+      "Nature Geoscience"
+    ],
+    "URL": "https://doi.org/10.1038/s41561-021-00690-8",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Material production accounts for a quarter of global greenhouse gas (GHG) emissions. Resource-efficiency and circular-economy strategies, both industry and demand-focused, promise emission reductions through reducing material use, but detailed assessments of their GHG reduction potential are lacking. We present a global-scale analysis of material efficiency for passenger vehicles and residential buildings. We estimate future changes in material flows and energy use due to increased yields, light design, material substitution, extended service life, and increased service efficiency, reuse, and recycling. Together, these strategies can reduce cumulative global GHG emissions until 2050 by 20–52 Gt CO\n                    <jats:sub>2</jats:sub>\n                    -eq (residential buildings) and 13–26 Gt CO\n                    <jats:sub>2</jats:sub>\n                    e-eq (passenger vehicles), depending on policy assumptions. Next to energy efficiency and low-carbon energy supply, material efficiency is the third pillar of deep decarbonization for these sectors. For residential buildings, wood construction and reduced floorspace show the highest potential. For passenger vehicles, it is ride sharing and car sharing.\n                  </jats:p>",
+    "DOI": "10.1038/s41467-021-25300-4",
+    "title": [
+      "Global scenarios of resource and emission savings from material efficiency in residential buildings and cars"
+    ],
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6869-1405",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Pauliuk",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4967-6557",
+        "authenticated-orcid": false,
+        "given": "Niko",
+        "family": "Heeren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Berrill",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4405-2382",
+        "authenticated-orcid": false,
+        "given": "Tomer",
+        "family": "Fishman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrea",
+        "family": "Nistad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingshi",
+        "family": "Tu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8470-427X",
+        "authenticated-orcid": false,
+        "given": "Paul",
+        "family": "Wolfram",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4934-3421",
+        "authenticated-orcid": false,
+        "given": "Edgar G.",
+        "family": "Hertwich",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          24
+        ]
+      ]
+    },
+    "container-title": [
+      "Nature Communications"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-021-25300-4",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          24
+        ]
+      ]
+    },
+    "article-number": "5097"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "DOI": "10.1038/s41893-019-0462-4",
+    "page": "269-276",
+    "title": [
+      "Buildings as a global carbon sink"
+    ],
+    "volume": "3",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5895-7425",
+        "authenticated-orcid": false,
+        "given": "Galina",
+        "family": "Churkina",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Organschi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1067-1492",
+        "authenticated-orcid": false,
+        "given": "Christopher P. O.",
+        "family": "Reyer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Ruff",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kira",
+        "family": "Vinke",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8968-7050",
+        "authenticated-orcid": false,
+        "given": "Zhu",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1594-4245",
+        "authenticated-orcid": false,
+        "given": "Barbara K.",
+        "family": "Reck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4007-3189",
+        "authenticated-orcid": false,
+        "given": "T. E.",
+        "family": "Graedel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hans Joachim",
+        "family": "Schellnhuber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          27
+        ]
+      ]
+    },
+    "container-title": [
+      "Nature Sustainability"
+    ],
+    "URL": "https://doi.org/10.1038/s41893-019-0462-4",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jclepro.2020.124215",
+    "page": "124215",
+    "title": [
+      "Circular economy practices in the built environment"
+    ],
+    "volume": "276",
+    "author": [
+      {
+        "given": "Tuomo",
+        "family": "Joensuu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harry",
+        "family": "Edelman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arto",
+        "family": "Saari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Cleaner Production"
+    ],
+    "URL": "https://doi.org/10.1016/j.jclepro.2020.124215",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          12
+        ]
+      ]
+    },
+    "article-number": "124215"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jclepro.2021.127180",
+    "page": "127180",
+    "title": [
+      "Construction and built environment in circular economy: A comprehensive literature review"
+    ],
+    "volume": "305",
+    "author": [
+      {
+        "given": "Ömer",
+        "family": "Çimen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Cleaner Production"
+    ],
+    "URL": "https://doi.org/10.1016/j.jclepro.2021.127180",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7
+        ]
+      ]
+    },
+    "article-number": "127180"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jobe.2020.101995",
+    "page": "101995",
+    "title": [
+      "Circular economy in built environment – Literature review and theory development"
+    ],
+    "volume": "35",
+    "author": [
+      {
+        "given": "Purva",
+        "family": "Mhatre",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vidyadhar",
+        "family": "Gedam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seema",
+        "family": "Unnikrishnan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sanjeev",
+        "family": "Verma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Building Engineering"
+    ],
+    "URL": "https://doi.org/10.1016/j.jobe.2020.101995",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "article-number": "101995"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jobe.2020.102041",
+    "page": "102041",
+    "title": [
+      "Application of circular economy principles in buildings: A systematic review"
+    ],
+    "volume": "38",
+    "author": [
+      {
+        "given": "Noah Gethsemane",
+        "family": "Akhimien",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eshrar",
+        "family": "Latif",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shan Shan",
+        "family": "Hou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Building Engineering"
+    ],
+    "URL": "https://doi.org/10.1016/j.jobe.2020.102041",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "article-number": "102041"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jag.2024.103734",
+    "page": "103734",
+    "title": [
+      "Mapping the landscape and roadmap of geospatial artificial intelligence (GeoAI) in quantitative human geography: An extensive systematic review"
+    ],
+    "volume": "128",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1809-7088",
+        "authenticated-orcid": false,
+        "given": "Siqin",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pengyuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengxi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Filip",
+        "family": "Biljecki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tao",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaokang",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lingbo",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xintao",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruomei",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuanyuan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jingjing",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinghan",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michaelmary",
+        "family": "Chukwu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seyed",
+        "family": "Reza Naghedi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Moein",
+        "family": "Hemmati",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yaxiong",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nan",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhiyang",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tian",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yaxin",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lixiaona",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Winston",
+        "family": "Yap",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edgardo",
+        "family": "Macatulad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhuo",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yunhe",
+        "family": "Cui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Koichi",
+        "family": "Ito",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengbi",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zicheng",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Binyu",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuming",
+        "family": "Bao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "International Journal of Applied Earth Observation and Geoinformation"
+    ],
+    "URL": "https://doi.org/10.1016/j.jag.2024.103734",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "article-number": "103734"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jag.2025.104368",
+    "page": "104368",
+    "title": [
+      "Towards the next generation of Geospatial Artificial Intelligence"
+    ],
+    "volume": "136",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7818-7309",
+        "authenticated-orcid": false,
+        "given": "Gengchen",
+        "family": "Mai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6439-1333",
+        "authenticated-orcid": false,
+        "given": "Yiqun",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8544-5233",
+        "authenticated-orcid": false,
+        "given": "Xiaowei",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4034-7784",
+        "authenticated-orcid": false,
+        "given": "Ni",
+        "family": "Lao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2370-5129",
+        "authenticated-orcid": false,
+        "given": "Jinmeng",
+        "family": "Rao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2441-944X",
+        "authenticated-orcid": false,
+        "given": "Qing",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2898-0023",
+        "authenticated-orcid": false,
+        "given": "Zeping",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8923-0130",
+        "authenticated-orcid": false,
+        "given": "Yao-Yi",
+        "family": "Chiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7272-8805",
+        "authenticated-orcid": false,
+        "given": "Junfeng",
+        "family": "Jiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "International Journal of Applied Earth Observation and Geoinformation"
+    ],
+    "URL": "https://doi.org/10.1016/j.jag.2025.104368",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "article-number": "104368"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Built structures increasingly dominate the Earth’s landscapes; their surging mass is currently overtaking global biomass. We here assess built structures in the conterminous US by quantifying the mass of 14 stock-building materials in eight building types and nine types of mobility infrastructures. Our high-resolution maps reveal that built structures have become 2.6 times heavier than all plant biomass across the country and that most inhabited areas are mass-dominated by buildings or infrastructure. We analyze determinants of the material intensity and show that densely built settlements have substantially lower per-capita material stocks, while highest intensities are found in sparsely populated regions due to ubiquitous infrastructures. Out-migration aggravates already high intensities in rural areas as people leave while built structures remain – highlighting that quantifying the distribution of built-up mass at high resolution is an essential contribution to understanding the biophysical basis of societies, and to inform strategies to design more resource-efficient settlements and a sustainable circular economy.</jats:p>",
+    "DOI": "10.1038/s41467-023-43755-5",
+    "title": [
+      "Unveiling patterns in human dominated landscapes through mapping the mass of US built structures"
+    ],
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9292-3931",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Frantz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1534-5610",
+        "authenticated-orcid": false,
+        "given": "Franz",
+        "family": "Schug",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7418-3477",
+        "authenticated-orcid": false,
+        "given": "Dominik",
+        "family": "Wiedenhofer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8256-5958",
+        "authenticated-orcid": false,
+        "given": "André",
+        "family": "Baumgart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8300-8590",
+        "authenticated-orcid": false,
+        "given": "Doris",
+        "family": "Virág",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sam",
+        "family": "Cooper",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9924-8684",
+        "authenticated-orcid": false,
+        "given": "Camila",
+        "family": "Gómez-Medina",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0520-0792",
+        "authenticated-orcid": false,
+        "given": "Fabian",
+        "family": "Lehmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Udelhoven",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6576-8377",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "van der Linden",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5730-5484",
+        "authenticated-orcid": false,
+        "given": "Patrick",
+        "family": "Hostert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2104-5446",
+        "authenticated-orcid": false,
+        "given": "Helmut",
+        "family": "Haberl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          4
+        ]
+      ]
+    },
+    "container-title": [
+      "Nature Communications"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-023-43755-5",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          4
+        ]
+      ]
+    },
+    "article-number": "8014"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jenvman.2020.111879",
+    "page": "111879",
+    "title": [
+      "Modelling of mineral construction and demolition waste dynamics through a combination of geospatial and image analysis"
+    ],
+    "volume": "282",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0169-6543",
+        "authenticated-orcid": false,
+        "given": "Lorenc",
+        "family": "Bogoviku",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8345-0474",
+        "authenticated-orcid": false,
+        "given": "Danièle",
+        "family": "Waldmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Environmental Management"
+    ],
+    "URL": "https://doi.org/10.1016/j.jenvman.2020.111879",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          3
+        ]
+      ]
+    },
+    "article-number": "111879"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2025.108392",
+    "page": "108392",
+    "title": [
+      "Geometry-informed material intensity reveals considerable intra-archetype material variability of UK housing"
+    ],
+    "volume": "221",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1139-6325",
+        "authenticated-orcid": false,
+        "given": "Menglin",
+        "family": "Dai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5706-7909",
+        "authenticated-orcid": false,
+        "given": "Charles",
+        "family": "Gillott",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jakub",
+        "family": "Jurczyk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kun",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1395-5266",
+        "authenticated-orcid": false,
+        "given": "Xiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7613-1985",
+        "authenticated-orcid": false,
+        "given": "Gang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2477-7629",
+        "authenticated-orcid": false,
+        "given": "Danielle",
+        "family": "Densley Tingley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2025.108392",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "article-number": "108392"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2023.107093",
+    "page": "107093",
+    "title": [
+      "Correlation between building size and material intensity in residential buildings"
+    ],
+    "volume": "197",
+    "author": [
+      {
+        "given": "Alessio",
+        "family": "Miatto",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ygor",
+        "family": "Fasanella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marta",
+        "family": "Mainardi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paolo",
+        "family": "Borin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2023.107093",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "article-number": "107093"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jobe.2025.113391",
+    "page": "113391",
+    "title": [
+      "Integrated BIM-GIS framework for holistic building stock assessment using 5D geo-modeling and digital twin concepts"
+    ],
+    "volume": "111",
+    "author": [
+      {
+        "given": "Nehal",
+        "family": "Elshaboury",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wael M.",
+        "family": "AlMetwaly",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0506-4049",
+        "authenticated-orcid": false,
+        "given": "Amr",
+        "family": "Hesham",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdelrahman",
+        "family": "Abbas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Building Engineering"
+    ],
+    "URL": "https://doi.org/10.1016/j.jobe.2025.113391",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "article-number": "113391"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2017.01.015",
+    "page": "143-154",
+    "title": [
+      "How important are realistic building lifespan assumptions for material stock and demolition waste accounts?"
+    ],
+    "volume": "122",
+    "author": [
+      {
+        "given": "Alessio",
+        "family": "Miatto",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Heinz",
+        "family": "Schandl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hiroki",
+        "family": "Tanikawa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2017.01.015",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.buildenv.2021.107773",
+    "page": "107773",
+    "title": [
+      "Influence of material choice, renovation rate, and electricity grid to achieve a Paris Agreement-compatible building stock: A Portuguese case study"
+    ],
+    "volume": "195",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9206-7450",
+        "authenticated-orcid": false,
+        "given": "Verena",
+        "family": "Göswein",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3330-2000",
+        "authenticated-orcid": false,
+        "given": "José Dinis",
+        "family": "Silvestre",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3676-542X",
+        "authenticated-orcid": false,
+        "given": "Cláudia",
+        "family": "Sousa Monteiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3533-7896",
+        "authenticated-orcid": false,
+        "given": "Guillaume",
+        "family": "Habert",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7269-5372",
+        "authenticated-orcid": false,
+        "given": "Fausto",
+        "family": "Freire",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7217-6019",
+        "authenticated-orcid": false,
+        "given": "Francesco",
+        "family": "Pittau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Building and Environment"
+    ],
+    "URL": "https://doi.org/10.1016/j.buildenv.2021.107773",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "article-number": "107773"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2020.105298",
+    "page": "105298",
+    "title": [
+      "System dynamics modeling for construction material flows of urban residential building: A case study of Beijing, China"
+    ],
+    "volume": "168",
+    "author": [
+      {
+        "given": "Shoujuan",
+        "family": "Tang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lixiao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Hao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9790-4529",
+        "authenticated-orcid": false,
+        "given": "Yuan",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3488-9536",
+        "authenticated-orcid": false,
+        "given": "Gengyuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiance",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinqing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2020.105298",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "article-number": "105298"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2022.106583",
+    "page": "106583",
+    "title": [
+      "Structural material demand and associated embodied carbon emissions of the United States building stock: 2020–2100"
+    ],
+    "volume": "186",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9434-1783",
+        "authenticated-orcid": false,
+        "given": "Jay H.",
+        "family": "Arehart",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3132-2523",
+        "authenticated-orcid": false,
+        "given": "Francesco",
+        "family": "Pomponi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bernardino",
+        "family": "D'Amico",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "suffix": "III",
+        "given": "Wil V.",
+        "family": "Srubar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2022.106583",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "article-number": "106583"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.rser.2024.115262",
+    "page": "115262",
+    "title": [
+      "Dynamic life cycle assessment of buildings and building stocks – A review"
+    ],
+    "volume": "212",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5563-1016",
+        "authenticated-orcid": false,
+        "given": "Katarina",
+        "family": "Slavkovic",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9538-3830",
+        "authenticated-orcid": false,
+        "given": "André",
+        "family": "Stephan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Renewable and Sustainable Energy Reviews"
+    ],
+    "URL": "https://doi.org/10.1016/j.rser.2024.115262",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "article-number": "115262"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jclepro.2021.128702",
+    "page": "128702",
+    "title": [
+      "Material Passports for the end-of-life stage of buildings: Challenges and potentials"
+    ],
+    "volume": "319",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8466-7122",
+        "authenticated-orcid": false,
+        "given": "Meliha",
+        "family": "Honic",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Iva",
+        "family": "Kovacic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philipp",
+        "family": "Aschenbrenner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arne",
+        "family": "Ragossnig",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Cleaner Production"
+    ],
+    "URL": "https://doi.org/10.1016/j.jclepro.2021.128702",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "article-number": "128702"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jobe.2021.102791",
+    "page": "102791",
+    "title": [
+      "Predicting the technical reusability of load-bearing building components: A probabilistic approach towards developing a Circular Economy framework"
+    ],
+    "volume": "42",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9582-1693",
+        "authenticated-orcid": false,
+        "given": "Kambiz",
+        "family": "Rakhshan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jean-Claude",
+        "family": "Morel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alireza",
+        "family": "Daneshkhah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Building Engineering"
+    ],
+    "URL": "https://doi.org/10.1016/j.jobe.2021.102791",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "article-number": "102791"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.scs.2020.102322",
+    "page": "102322",
+    "title": [
+      "Comparison of environmental assessment methods when reusing building components: A case study"
+    ],
+    "volume": "61",
+    "author": [
+      {
+        "given": "Catherine",
+        "family": "De Wolf",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Endrit",
+        "family": "Hoxha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Corentin",
+        "family": "Fivet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Sustainable Cities and Society"
+    ],
+    "URL": "https://doi.org/10.1016/j.scs.2020.102322",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10
+        ]
+      ]
+    },
+    "article-number": "102322"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.resconrec.2022.106642",
+    "page": "106642",
+    "title": [
+      "Whole life cycle environmental impact assessment of buildings: Developing software tool and database support for the EU framework Level(s)"
+    ],
+    "volume": "188",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2130-0590",
+        "authenticated-orcid": false,
+        "given": "Catherine",
+        "family": "De Wolf",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9121-1134",
+        "authenticated-orcid": false,
+        "given": "Mauro",
+        "family": "Cordella",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Dodd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8622-8529",
+        "authenticated-orcid": false,
+        "given": "Brandon",
+        "family": "Byers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shane",
+        "family": "Donatello",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Resources, Conservation and Recycling"
+    ],
+    "URL": "https://doi.org/10.1016/j.resconrec.2022.106642",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "article-number": "106642"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.buildenv.2020.107274",
+    "page": "107274",
+    "title": [
+      "Life cycle assessment in the building design process – A systematic literature review"
+    ],
+    "volume": "185",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0668-8494",
+        "authenticated-orcid": false,
+        "given": "Matthew",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen",
+        "family": "Allen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Coley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Building and Environment"
+    ],
+    "URL": "https://doi.org/10.1016/j.buildenv.2020.107274",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11
+        ]
+      ]
+    },
+    "article-number": "107274"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.envsoft.2020.104841",
+    "page": "104841",
+    "title": [
+      "How to decide and visualize whether uncertainty or variability is dominating in life cycle assessment results: A systematic review"
+    ],
+    "volume": "133",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6125-8855",
+        "authenticated-orcid": false,
+        "given": "Freya",
+        "family": "Michiels",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8473-4092",
+        "authenticated-orcid": false,
+        "given": "Annemie",
+        "family": "Geeraerd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Environmental Modelling &amp; Software"
+    ],
+    "URL": "https://doi.org/10.1016/j.envsoft.2020.104841",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11
+        ]
+      ]
+    },
+    "article-number": "104841"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.autcon.2020.103179",
+    "page": "103179",
+    "title": [
+      "Towards a semantic Construction Digital Twin: Directions for future research"
+    ],
+    "volume": "114",
+    "author": [
+      {
+        "given": "Calin",
+        "family": "Boje",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Annie",
+        "family": "Guerriero",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sylvain",
+        "family": "Kubicki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yacine",
+        "family": "Rezgui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Automation in Construction"
+    ],
+    "URL": "https://doi.org/10.1016/j.autcon.2020.103179",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "article-number": "103179"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cirpj.2020.02.002",
+    "page": "36-52",
+    "title": [
+      "Characterising the Digital Twin: A systematic literature review"
+    ],
+    "volume": "29",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6209-2698",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Jones",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris",
+        "family": "Snider",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aydin",
+        "family": "Nassehi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Yon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Hicks",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "CIRP Journal of Manufacturing Science and Technology"
+    ],
+    "URL": "https://doi.org/10.1016/j.cirpj.2020.02.002",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jobe.2021.102726",
+    "page": "102726",
+    "title": [
+      "Digital twin application in the construction industry: A literature review"
+    ],
+    "volume": "40",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2557-5268",
+        "authenticated-orcid": false,
+        "given": "De-Graft Joe",
+        "family": "Opoku",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9218-9282",
+        "authenticated-orcid": false,
+        "given": "Srinath",
+        "family": "Perera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Osei-Kyei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria",
+        "family": "Rashidi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Building Engineering"
+    ],
+    "URL": "https://doi.org/10.1016/j.jobe.2021.102726",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          8
+        ]
+      ]
+    },
+    "article-number": "102726"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.autcon.2023.104931",
+    "page": "104931",
+    "title": [
+      "Technologies for digital twin applications in construction"
+    ],
+    "volume": "152",
+    "author": [
+      {
+        "given": "Valerian Vanessa",
+        "family": "Tuhaise",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph Handibry Mbatu",
+        "family": "Tah",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fonbeyin Henry",
+        "family": "Abanda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Automation in Construction"
+    ],
+    "URL": "https://doi.org/10.1016/j.autcon.2023.104931",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "article-number": "104931"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jii.2022.100383",
+    "page": "100383",
+    "title": [
+      "Digital Twins: State of the art theory and practice, challenges, and open research questions"
+    ],
+    "volume": "30",
+    "author": [
+      {
+        "given": "Angira",
+        "family": "Sharma",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edward",
+        "family": "Kosasih",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexandra",
+        "family": "Brintrup",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2082-734X",
+        "authenticated-orcid": false,
+        "given": "Anisoara",
+        "family": "Calinescu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Industrial Information Integration"
+    ],
+    "URL": "https://doi.org/10.1016/j.jii.2022.100383",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "article-number": "100383"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.buildenv.2025.112748",
+    "page": "112748",
+    "title": [
+      "What is a Digital Twin anyway? Deriving the definition for the built environment from over 15,000 scientific publications"
+    ],
+    "volume": "274",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8027-6936",
+        "authenticated-orcid": false,
+        "given": "Mahmoud",
+        "family": "Abdelrahman",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7977-2932",
+        "authenticated-orcid": false,
+        "given": "Edgardo",
+        "family": "Macatulad",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8501-3104",
+        "authenticated-orcid": false,
+        "given": "Binyu",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0486-221X",
+        "authenticated-orcid": false,
+        "given": "Matias",
+        "family": "Quintana",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1186-4299",
+        "authenticated-orcid": false,
+        "given": "Clayton",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6229-7749",
+        "authenticated-orcid": false,
+        "given": "Filip",
+        "family": "Biljecki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Building and Environment"
+    ],
+    "URL": "https://doi.org/10.1016/j.buildenv.2025.112748",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "article-number": "112748"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.anucene.2021.108362",
+    "page": "108362",
+    "title": [
+      "Uncertainty quantification and software risk analysis for digital twins in the nearly autonomous management and control systems: A review"
+    ],
+    "volume": "160",
+    "author": [
+      {
+        "given": "Linyu",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Han",
+        "family": "Bao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nam",
+        "family": "Dinh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Annals of Nuclear Energy"
+    ],
+    "URL": "https://doi.org/10.1016/j.anucene.2021.108362",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "article-number": "108362"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "5",
+    "DOI": "10.1038/s43588-021-00069-0",
+    "page": "337-347",
+    "title": [
+      "A probabilistic graphical model foundation for enabling predictive digital twins at scale"
+    ],
+    "volume": "1",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3594-682X",
+        "authenticated-orcid": false,
+        "given": "Michael G.",
+        "family": "Kapteyn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacob V. R.",
+        "family": "Pretorius",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2156-9338",
+        "authenticated-orcid": false,
+        "given": "Karen E.",
+        "family": "Willcox",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          20
+        ]
+      ]
+    },
+    "container-title": [
+      "Nature Computational Science"
+    ],
+    "URL": "https://doi.org/10.1038/s43588-021-00069-0",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          5,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jobe.2025.113117",
+    "page": "113117",
+    "title": [
+      "A review of building digital twins: Framework and enabling technologies"
+    ],
+    "volume": "111",
+    "author": [
+      {
+        "given": "Xiyuan",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiehao",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peixian",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yue",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francesco",
+        "family": "Causone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xing",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Building Engineering"
+    ],
+    "URL": "https://doi.org/10.1016/j.jobe.2025.113117",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "article-number": "113117"
+  },
+  {
+    "publisher": "Elsevier BV",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.buildenv.2024.111741",
+    "page": "111741",
+    "title": [
+      "Techniques and tools for integrating building material stock analysis and life cycle assessment at the urban scale: A systematic literature review"
+    ],
+    "volume": "262",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2822-6418",
+        "authenticated-orcid": false,
+        "given": "Wanyu",
+        "family": "Pei",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Filip",
+        "family": "Biljecki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4200-5833",
+        "authenticated-orcid": false,
+        "given": "Rudi",
+        "family": "Stouffs",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Building and Environment"
+    ],
+    "URL": "https://doi.org/10.1016/j.buildenv.2024.111741",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "article-number": "111741"
+  }
+]
