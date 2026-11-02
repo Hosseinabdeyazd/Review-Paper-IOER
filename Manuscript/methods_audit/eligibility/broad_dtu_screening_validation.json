@@ -1,0 +1,15 @@
+{
+  "source_records": 528,
+  "decisions": 528,
+  "unique_ids": 528,
+  "missing_ids": [],
+  "duplicate_decision_ids": [],
+  "verbatim_quote_validation": "passed",
+  "counts": {
+    "exclude_domain": 220,
+    "unclear": 41,
+    "retain_fulltext": 203,
+    "retain_secondary": 64
+  },
+  "scope": "Title/abstract screening only; retained includes secondary and unresolved candidates; not final inclusion"
+}

@@ -1,0 +1,15 @@
+{
+  "identified_query_occurrences": 903,
+  "duplicates_before_screening": 375,
+  "records_screened": 528,
+  "additional_duplicate_records_identified_during_screening": 2,
+  "unique_publications_after_screening": 526,
+  "unique_publication_decisions": {
+    "exclude_domain": 218,
+    "unclear": 5,
+    "retain_fulltext": 196,
+    "retain_secondary": 107
+  },
+  "retained_not_included": true,
+  "remaining_unclear_carried_forward_for_retrieval": 5
+}
