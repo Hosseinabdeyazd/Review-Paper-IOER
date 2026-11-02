@@ -73,7 +73,7 @@ Supplementary Table S1 lists the concepts used to organize retrieval. The comple
 
 The search-block table, counting equations and reproducibility checks are provided in the supplement. Continuity distributions count assessed paper–boundary contexts, with one status per context. Stage–function edges count distinct publications carrying the exact paired code; memberships overlap and are not summed as unique papers.
 
-For clarity, the four domain combinations are B AND S(i); B AND S(i) AND U; B AND S(i) AND DT; and B AND S(i) AND DT AND U. General DT+U omits the building-stage restriction. Broad U terms improve retrieval but do not establish uncertainty analysis: sensitivity, calibration or robustness must be interpreted from the methods. Membership is recorded at publication level after deduplication. Actual overlaps are calculated from identifiers, not inferred from query labels or summed database counts (Rethlefsen et al., 2021).
+For each stage, B(i) and U(i) are sets of publication identities. The matched uncertainty-layer share is 100 |B(i) ∩ U(i)| / |B(i)|; U-only records are retained separately. Search membership, title/abstract uncertainty treatment and full-text transfer evidence are reported separately, with their own denominators (Figure 2c). Base-only records are not classified as having no uncertainty analysis. The S1 U layer partly reconstructs Scopus membership and remains provisional.
 
 
 \subsection{Eligibility, deduplication and selection}
@@ -180,7 +180,12 @@ See Supplementary Figure S1.
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/prisma_base_u_en.pdf}}
-\caption{Figure 2c. PRISMA-style retrieval and eligibility for the selected S1–S5+U reports. Twenty assessed reports were included; one was not retrieved. This selected-set flow does not reconstruct earlier database-wide screening.}
+\caption{Figure 2c. Base-to-U membership by stage and the separate selected-report PRISMA pathway. Percentages use the Base intersection; S1 is provisional. Search non-membership does not establish absence of uncertainty analysis.}
+\end{figure}
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\linewidth,height=.78\textheight,keepaspectratio]{\detokenize{figures/base_u_treatment_en.pdf}}
+\caption{Figure 2d. Content-based treatment within assessed S4–S5 U candidates. Stage memberships overlap; cross-stage screening claims are distinguished from full-text boundary findings.}
 \end{figure}
 
 \begin{figure}[htbp]\centering
@@ -193,9 +198,9 @@ See Supplementary Figure S1.
 \subsection{Evidence sets and the meaning of the reported percentages}
 The linked analyses use 20 included S1–S5+U publications for source, method and outcome frequencies. These same publications contribute 23 publication–context assessments of continuity. The DT stage–function network uses nine publications with S1–S5 function codes, and the general DT+U configuration analysis uses ten non-review publications. Those denominators answer different questions and are not added as independent review totals.
 
-The source, method and outcome dataset combines the 17 previously coded publications with three newly coded full texts, joined by DOI to the 20 included reports in the selected-set eligibility ledger. Sources include explicitly acknowledged as well as quantified uncertainties; the new decision table distinguishes these states. Each paper contributes at most once to each category. This update reconciles membership and arithmetic, while retaining the provenance of earlier interpretive codes.
+Matched U membership is 256/878 (29.2\%) for S1, 44/246 (17.9\%) for S2, 48/165 (29.1\%) for S3, 543/3,098 (17.5\%) for S4 and 1,584/7,593 (20.9\%) for S5. These archived retrieval shares are not content-based prevalence estimates. S3 also has one U-only record. In the assessed U candidates, explicit propagation is reported in 17/143 S4 and 43/331 S5 title/abstract records; this need not cross a stage boundary. Three S4–S5 screening claims reduce at full-text appraisal to one partial S4→S5 case and two other-input→S5 cases. The companion audit provides memberships, percentages and reasons.
 
-The percentages are frequencies of recorded evidence. For example, 70.0\% means that fourteen of twenty publications carry a particular source code. It does not mean that this source contributes 70.0\% of output variance. Similarly, the proportion of papers reporting Monte Carlo is not a measure of model accuracy, uncertainty magnitude or the effectiveness of uncertainty reduction.
+Source, method and outcome frequencies use all 20 included publications, combining 17 archived codings and three subsequent full-text codings. These percentages describe recorded evidence, not shares of output variance or model performance.
 
 
 \subsection{Sources, representations and downstream outcomes}
@@ -535,5 +540,4 @@ Bitencourt, J., Wooley, A., and Harris, G. (2025; online 2024). Verification and
 van Beek, A., Karkaria, V. N., and Chen, W. (2023). Digital twins for the designs of systems: a perspective. Structural and Multidisciplinary Optimization, 66, 49. DOI: 10.1007/s00158-023-03488-x.
 
 Gervasi, M., Bove, L., Corallo, A., Miglietta, M., Negro, L., Pellegrino, G., Ria, F., and Visaggio, C. A. (2026). Systems of Digital Twins: A Systematic Literature Review and a formal framework. Digital Engineering, 9, 100100. DOI: https://doi.org/10.1016/j.dte.2026.100100.
-
 

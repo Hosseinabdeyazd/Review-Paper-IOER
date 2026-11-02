@@ -1,3 +1,11 @@
+## Base and uncertainty-layer revision
+
+Figure 2c now reports matched Base/U memberships for S1–S5 and keeps selected-report eligibility separate. Figure 2d distinguishes title/abstract uncertainty treatment from full-text cross-stage evidence. Recomputed memberships, percentages, screening decisions and the companion report are in `base_u_comparison/`.
+
+Current PDF: 28 main pages plus 4 reference pages; 8,810 body words plus a 190-word abstract. Authors: Hossein Abdeyazdan, Georg Schiller, Martin Behnisch. S1 U provenance remains partly reconstructed; S3 has one U-only record; broad content eligibility is not closed. Population-wide uncertainty-analysis prevalence is not established.
+
+## Earlier revision notes
+
 Conclusion added as Section 6; Table 2 maps nine architectural responsibilities to information requirements, interfaces, scale, and evidence. Current main text: 27 pages, 8,938 words; references excluded.
 
 ## Current 20-publication update

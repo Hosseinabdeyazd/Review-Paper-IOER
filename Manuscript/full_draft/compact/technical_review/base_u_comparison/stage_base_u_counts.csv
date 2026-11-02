@@ -1,0 +1,6 @@
+﻿stage,base_n,u_layer_n,intersection_n,base_only_n,u_only_n,u_share_of_base_pct,base_only_pct,source,qualification
+S1,878,256,256,622,0,29.157175398633257,70.84282460136674,archived merged pre-screening corpora,Scopus U contribution reconstructed from Base; not an independently verified U search
+S2,246,44,44,202,0,17.88617886178862,82.11382113821138,archived merged pre-screening corpora,Conservative DOI / exact-title-year identities; unresolved title aliases not merged
+S3,165,49,48,117,1,29.09090909090909,70.9090909090909,archived merged pre-screening corpora,Conservative DOI / exact-title-year identities; unresolved title aliases not merged
+S4,3098,543,543,2555,0,17.52743705616527,82.47256294383473,adjudicated canonical search memberships,Query labels parsed across semicolon and pipe separators; not semantic stage assignment
+S5,7593,1584,1584,6009,0,20.86131963650731,79.1386803634927,adjudicated canonical search memberships,Query labels parsed across semicolon and pipe separators; not semantic stage assignment

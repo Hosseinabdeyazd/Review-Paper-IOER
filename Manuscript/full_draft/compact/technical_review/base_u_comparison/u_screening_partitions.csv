@@ -1,0 +1,13 @@
+﻿stage,status,records,denominator,percent
+S4,exclude_core_keep_methods,140,543,25.78268876611418
+S4,exclude_nonresearch_component,12,543,2.2099447513812156
+S4,exclude_title_abstract,227,543,41.804788213627994
+S4,retain_for_fulltext,143,543,26.335174953959484
+S4,retain_fulltext_unclear,2,543,0.3683241252302026
+S4,retain_secondary,19,543,3.4990791896869244
+S5,exclude_core_keep_methods,345,1584,21.78030303030303
+S5,exclude_nonresearch_component,8,1584,0.5050505050505051
+S5,exclude_title_abstract,827,1584,52.20959595959596
+S5,retain_for_fulltext,331,1584,20.896464646464647
+S5,retain_fulltext_unclear,32,1584,2.0202020202020203
+S5,retain_secondary,41,1584,2.5883838383838382

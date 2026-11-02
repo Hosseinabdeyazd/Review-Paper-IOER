@@ -1,0 +1,7 @@
+Dataset,Stage,Layer,Records,Source path,Blob SHA,Status,Caveat
+S1b,S1,Broad,878,analysis_ready/final/S1b.csv,29dc0a4ab9dccd39c721a27f1dd889b681abfcb2,Current merged analysis input,Pre-screening merged corpus; residual normalized-title duplicates and scope noise require diagnostic review.
+S1u,S1,Uncertainty,256,analysis_ready/final/S1u.csv,db1e8ca8872825b91fc0bd5d5357be04796462c5,Current merged analysis input,Pre-screening uncertainty layer; Scopus contribution is reconstructed from S1b and requires formal uncertainty-query re-check before freeze.
+S2b,S2,Broad,246,analysis_ready/final/S2b.csv,ba550e677a484dce369f17fc9ed5a8608c6fcfcc,Current merged analysis input,Pre-screening merged corpus; precision pilot and formal screening are still required.
+S2u,S2,Uncertainty,44,analysis_ready/final/S2u.csv,9a54035626bac69ae2c22d3719e215c272ee4ff9,Current merged analysis input,Pre-screening merged corpus; precision pilot and formal screening are still required.
+S3b,S3,Broad,165,analysis_ready/final/S3b.csv,8e4dbba048cd728ebaa8b9359bcb9f00edf88b25,Current merged analysis input,Pre-screening merged corpus; residual normalized-title duplicates require reconciliation.
+S3u,S3,Uncertainty,49,analysis_ready/final/S3u.csv,50a1a4c5b47f15d25ab79242b995a6ced96838e9,Current merged analysis input,Pre-screening uncertainty layer; one record is absent from S3b and must be reconciled before freeze.

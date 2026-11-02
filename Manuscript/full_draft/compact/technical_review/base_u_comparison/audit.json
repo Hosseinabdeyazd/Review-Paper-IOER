@@ -1,0 +1,109 @@
+{
+  "inputs": [
+    {
+      "path": "outputs\\Manuscript\\temporal_trends\\inputs\\S1b.csv",
+      "sha256": "5ea3424ab542e66663e7a1c5e3feb50ed5e0c1431d8bb2b44ebe21eb010c7bac"
+    },
+    {
+      "path": "outputs\\Manuscript\\temporal_trends\\inputs\\S1u.csv",
+      "sha256": "708372b139be2fe63f07a11674ef743937cb09d8e303e7509f4487a8dc641991"
+    },
+    {
+      "path": "outputs\\Manuscript\\temporal_trends\\inputs\\S2b.csv",
+      "sha256": "fb7bf024f44e145689d2c6dffd3870e0b92d2ea7ce991b3644adf5ec167c2cd8"
+    },
+    {
+      "path": "outputs\\Manuscript\\temporal_trends\\inputs\\S2u.csv",
+      "sha256": "f6f42dfe47673154df63e0ec199c035e906cbe3afbbc809bf47e05cf320ffdae"
+    },
+    {
+      "path": "outputs\\Manuscript\\temporal_trends\\inputs\\S3b.csv",
+      "sha256": "b57f8749e0f3fc634a77ef789adc2ba84dd56b8b22e99618a4a8b29e223aa131"
+    },
+    {
+      "path": "outputs\\Manuscript\\temporal_trends\\inputs\\S3u.csv",
+      "sha256": "2407909582a7c2dfa35b3dad5f31ae8cbb4e8424f63b100389d73618d8de9dd3"
+    },
+    {
+      "path": "outputs\\S4 S5 Core Review\\screening\\adjudication\\unclear946_recheck\\current_canonical_records.zip",
+      "sha256": "fa67615d9f4d6a5ca593a46a82754ae404c4fd86b7038958a33353d35cca1431"
+    },
+    {
+      "path": "outputs\\S4 S5 Core Review\\screening\\adjudication\\uncertainty392_mechanisms\\all_392_mechanism_decisions.csv",
+      "sha256": "ea10d1e37920a28c707a8daa95fe855b95030e58af7bb44fd17598f23608bc59"
+    },
+    {
+      "path": "outputs\\Manuscript\\relational_analysis\\results\\inputs\\su_context_assessments.csv",
+      "sha256": "85533f2b6d6eaa2889e36df437ba17b9f72da970c4e1f65317bdccb50f90cf22"
+    }
+  ],
+  "stage_counts": [
+    {
+      "stage": "S1",
+      "base_n": 878,
+      "u_layer_n": 256,
+      "intersection_n": 256,
+      "base_only_n": 622,
+      "u_only_n": 0,
+      "u_share_of_base_pct": 29.157175398633257,
+      "base_only_pct": 70.84282460136674,
+      "source": "archived merged pre-screening corpora",
+      "qualification": "Scopus U contribution reconstructed from Base; not an independently verified U search"
+    },
+    {
+      "stage": "S2",
+      "base_n": 246,
+      "u_layer_n": 44,
+      "intersection_n": 44,
+      "base_only_n": 202,
+      "u_only_n": 0,
+      "u_share_of_base_pct": 17.88617886178862,
+      "base_only_pct": 82.11382113821138,
+      "source": "archived merged pre-screening corpora",
+      "qualification": "Conservative DOI / exact-title-year identities; unresolved title aliases not merged"
+    },
+    {
+      "stage": "S3",
+      "base_n": 165,
+      "u_layer_n": 49,
+      "intersection_n": 48,
+      "base_only_n": 117,
+      "u_only_n": 1,
+      "u_share_of_base_pct": 29.09090909090909,
+      "base_only_pct": 70.9090909090909,
+      "source": "archived merged pre-screening corpora",
+      "qualification": "Conservative DOI / exact-title-year identities; unresolved title aliases not merged"
+    },
+    {
+      "stage": "S4",
+      "base_n": 3098,
+      "u_layer_n": 543,
+      "intersection_n": 543,
+      "base_only_n": 2555,
+      "u_only_n": 0,
+      "u_share_of_base_pct": 17.52743705616527,
+      "base_only_pct": 82.47256294383473,
+      "source": "adjudicated canonical search memberships",
+      "qualification": "Query labels parsed across semicolon and pipe separators; not semantic stage assignment"
+    },
+    {
+      "stage": "S5",
+      "base_n": 7593,
+      "u_layer_n": 1584,
+      "intersection_n": 1584,
+      "base_only_n": 6009,
+      "u_only_n": 0,
+      "u_share_of_base_pct": 20.86131963650731,
+      "base_only_pct": 79.1386803634927,
+      "source": "adjudicated canonical search memberships",
+      "qualification": "Query labels parsed across semicolon and pipe separators; not semantic stage assignment"
+    }
+  ],
+  "canonical_s45": 9587,
+  "u_union_s45": 1934,
+  "mechanism_union": 392,
+  "fulltext_publications": 20,
+  "fulltext_contexts": 23,
+  "new_screening_decisions": false,
+  "checks": "All partitions and assessed memberships reconciled; S1 reconstructed and S3 U-only record explicitly retained"
+}
