@@ -18,3 +18,13 @@ The requested final design is five S1–S5 panels with Base, Base+U, Base+DT and
 4. Render the final six-panel figure only after these gates pass. No placeholder DT counts or inferred zeroes have been created.
 
 The live IEEE DT-only search on 2026-11-02 returned 25085 records for `"digital twin" OR "digital twins"`, all results, no date filter. This is a source-specific result count only; its 1000-record export limit means it is not a completed export or a deduplicated three-database total.
+
+## Live three-database update, 2 November 2026
+
+General DT source-specific search totals are IEEE 25,085, Scopus 61,675 and WoS 37,609. Do not sum them. Annual Scopus facets were downloaded as native CSV; WoS year facets were captured from the visible page; IEEE years 2016–2027 were individually queried and sum to 25,080, leaving five pre-2016 results not disaggregated. This is a complete 2016–2025 annual trend window, not a complete record-level DT export.
+
+`general_dt_dtu_source_profiles.pdf/svg/png` presents three source-specific panels for 2016–2025. Orange curves use the full previously exported legacy DT+U searches. Their literal U block is `uncertainty`, not the broad stage U vocabulary; DT-only uses singular/plural OR whereas legacy U uses the singular phrase. These are documented historical profiles, not a final harmonized prevalence comparison. Missing IEEE years before 2016 are not plotted or filled with zero.
+
+WoS default Publication Years facets sum exactly to 37,609; Final Publication Year facets sum to 36,563. The difference of 1,046 equals the Early Access count. Thus no numerical double counting was found in the default facet total; changing to final-year-only instead omits Early Access records. Both snapshots are retained and final-year sensitivity counts are in the CSV.
+
+All record-level general DT exports, cross-database union deduplication, and query harmonization remain outstanding. Annual source counts alone cannot produce a deduplicated union. The earlier query-audit chart is unchanged and remains diagnostic.

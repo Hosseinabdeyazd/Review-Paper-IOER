@@ -1,0 +1,224 @@
+- main:
+  - heading "WOS Top Header" [level=1]
+  - button "Clarivate":
+  - button "Skip navigation menu skipToNav":
+    - img: expand_more
+    - text: Skip navigation menu
+    - generic: skipToNav
+  - button "Language dropdown. English selected":
+    - generic: English
+  - button "Web of Science products dropdown":
+    - img: apps
+    - generic: Products
+  - link "Web of Science header logo. Click to return to home page":
+    - /url: /wos/
+    - text: Web of Science
+    - superscript: ™
+  - navigation "Navigation Bar":
+    - navigation "Main Nav tab landmark":
+      - link "Smart Search":
+        - /url: /wos/woscc/smart-search
+        - generic: Smart Search
+      - link "Advanced Search":
+        - /url: /wos/woscc/basic-search
+        - generic: Advanced Search
+      - text: Research Assistant
+    - button "Sign In":
+      - generic: Sign In
+    - button "Register":
+      - generic: Register
+  - navigation "Flyout side navigation menu":
+    - button "MENU":
+      - generic: MENU
+    - button "Marked List":
+    - button "View your search history":
+    - button "Researcher Profile":
+    - button "Saved Searches and Alerts":
+  - list:
+    - link "Results for TS=(\"digital twin\" OR \"digital twins\")":
+      - /url: /wos/woscc/summary/53b51a97-7b62-4c9c-97c1-82f21c1aca77-01d1d7e18a/relevance/1
+      - generic: Results for TS=("digital twin" OR "digital twins")
+    - generic: Results for TS=("digital twin" OR "digital twins")
+  - heading "37,609 results from Web of Science Core Collection for:" [level=1]
+  - group "Current search":
+    - 'button "Edit Search: TS=(\"digital twin\" OR \"digital twins\")"':
+      - strong: TS=("digital twin" OR "digital twins")
+    - button "Search" [disabled]:
+  - button "Copy query link to clipboard":
+    - img: link
+    - text: Copy query link
+    - generic: to clipboard
+  - heading "Keywords:" [level=2]
+  - button "Scroll left" [disabled]:
+    - img: keyboard_arrow_left
+  - group "Keywords:":
+    - button "Add Keyword digital twin, keyword 1 of 10":
+      - img: add
+      - generic: digital twin
+    - button "Add Keyword digital twins, keyword 2 of 10":
+      - img: add
+      - generic: digital twins
+    - button "Add Keyword digital twin dt, keyword 3 of 10":
+      - img: add
+      - generic: digital twin dt
+    - button "Add Keyword digital twin technology, keyword 4 of 10":
+      - img: add
+      - generic: digital twin technology
+    - button "Add Keyword asset administration shell, keyword 5 of 10":
+      - img: add
+      - generic: asset administration shell
+    - button "Add Keyword industry 4 0, keyword 6 of 10":
+      - img: add
+      - generic: industry 4 0
+    - button "Add Keyword digital-twin, keyword 7 of 10":
+      - img: add
+      - generic: digital-twin
+    - button "Add Keyword human digital twin, keyword 8 of 10":
+      - img: add
+      - generic: human digital twin
+    - button "Add Keyword urban digital twin, keyword 9 of 10":
+      - img: add
+      - generic: urban digital twin
+    - button "Add Keyword digital twins dts, keyword 10 of 10":
+      - img: add
+      - generic: digital twins dts
+  - button "Scroll right":
+    - img: keyboard_arrow_right
+  - tablist "basic-search":
+    - tab "37,609 Documents" [selected]:
+      - generic: 37,609
+      - generic: Documents
+    - tab "You may also like...":
+      - generic: You may also like...
+  - tabpanel "37,609 Documents"
+  - button "Analyze Results":
+    - generic: Analyze Results
+  - button "Citation Report":
+    - generic: Citation Report
+  - button "Create Alert":
+    - generic: Create Alert
+  - button "Back to all filters" [active]:
+    - img: keyboard_arrow_left
+    - generic: Back to all filters
+  - button "Export to Excel":
+    - generic: Export to Excel
+  - paragraph: Refine by Final Publication Year
+  - textbox "Search for Final Publication Year"
+  - img: search
+  - checkbox "Select all"
+  - generic: Select all
+  - generic "Sort by":
+    - radiogroup "Sort results by":
+      - radio "Results count":
+        - generic: Results count
+      - radio "Date" [checked]:
+        - generic: Date
+  - group "refineOptions":
+    - list:
+      - checkbox "2027, 269"
+      - generic: "2027"
+      - generic: "269"
+      - checkbox "2026, 9,463"
+      - generic: "2026"
+      - generic: 9,463
+      - checkbox "2025, 8,725"
+      - generic: "2025"
+      - generic: 8,725
+      - checkbox "2024, 6,376"
+      - generic: "2024"
+      - generic: 6,376
+      - checkbox "2023, 4,275"
+      - generic: "2023"
+      - generic: 4,275
+      - checkbox "2022, 3,299"
+      - generic: "2022"
+      - generic: 3,299
+      - checkbox "2021, 1,996"
+      - generic: "2021"
+      - generic: 1,996
+      - checkbox "2020, 1,165"
+      - generic: "2020"
+      - generic: 1,165
+      - checkbox "2019, 634"
+      - generic: "2019"
+      - generic: "634"
+      - checkbox "2018, 258"
+      - generic: "2018"
+      - generic: "258"
+      - checkbox "2017, 73"
+      - generic: "2017"
+      - generic: "73"
+      - checkbox "2016, 17"
+      - generic: "2016"
+      - generic: "17"
+      - checkbox "2015, 5"
+      - generic: "2015"
+      - generic: "5"
+      - checkbox "2014, 2"
+      - generic: "2014"
+      - generic: "2"
+      - checkbox "2013, 1"
+      - generic: "2013"
+      - generic: "1"
+      - checkbox "2010, 1"
+      - generic: "2010"
+      - generic: "1"
+      - checkbox "2004, 1"
+      - generic: "2004"
+      - generic: "1"
+      - checkbox "1994, 1"
+      - generic: "1994"
+      - generic: "1"
+      - checkbox "1993, 1"
+      - generic: "1993"
+      - generic: "1"
+      - checkbox "1973, 1"
+      - generic: "1973"
+      - generic: "1"
+  - button "Cancel":
+    - generic: Cancel
+  - button "Exclude":
+    - generic: Exclude
+  - button "Refine":
+    - generic: Refine
+  - region "Home page widget"
+  - generic: © 2026 Clarivate. All rights reserved.
+  - list:
+    - link "Legal Center":
+      - /url: https://clarivate-com.wwwdb.dbod.de/legal-center/
+    - link "Privacy Statement":
+      - /url: https://clarivate-com.wwwdb.dbod.de/privacy-center/notices-policies/privacy-policy/
+    - link "Copyright Notice":
+      - /url: https://clarivate-com.wwwdb.dbod.de/legal-center/notices-policies/
+  - list:
+    - link "Training Portal":
+      - /url: https://webofscience.zendesk.com/hc/en-us/categories/23290193729041-Training
+    - link "Product Support":
+      - /url: https://supportcenter-clarivate-com.wwwdb.dbod.de/s/product/webofscience
+    - link "Newsletter":
+      - /url: https://discover-clarivate-com.wwwdb.dbod.de/preferencecenter_en
+  - list:
+    - link "Cookie Policy":
+      - /url: https://clarivate-com.wwwdb.dbod.de/privacy-center/notices-policies/cookie-notice/
+    - link "Manage cookie preferences":
+      - /url: javascript:void(0);
+    - link "Data Correction":
+      - /url: javascript:void(0)
+  - list:
+    - link "Accessibility":
+      - /url: "https://support.proquest.com/s/article/Web-of-Science-Accessibility-Statement?language=en_US "
+    - link "Help":
+      - /url: https://webofscience.zendesk.com/hc/en-us
+    - link "Terms of Use":
+      - /url: https://clarivate-com.wwwdb.dbod.de/legal-center/terms-of-business/
+  - list:
+  - separator
+  - list:
+    - listitem: Follow Us
+    - link "Click to visit Web of Science on Twitter.":
+      - /url: https://x.com/ClarivateAG
+    - link "Click to visit Web of Science on Facebook.":
+      - /url: https://www.facebook.com/clarivateag
+- generic: Search results page loaded.
+- button "Open Resource Center, 38 new notifications":
+  - generic: "38"

@@ -1,0 +1,113 @@
+database,cohort,year,count,year_basis,status
+IEEE,DT,2016,16,publication_year_filter,complete_year
+IEEE,DT,2017,54,publication_year_filter,complete_year
+IEEE,DT,2018,170,publication_year_filter,complete_year
+IEEE,DT,2019,360,publication_year_filter,complete_year
+IEEE,DT,2020,642,publication_year_filter,complete_year
+IEEE,DT,2021,1235,publication_year_filter,complete_year
+IEEE,DT,2022,2325,publication_year_filter,complete_year
+IEEE,DT,2023,3251,publication_year_filter,complete_year
+IEEE,DT,2024,4518,publication_year_filter,complete_year
+IEEE,DT,2025,6687,publication_year_filter,complete_year
+IEEE,DT,2026,5807,publication_year_filter,incomplete
+IEEE,DT,2027,15,publication_year_filter,future_indexed
+Scopus,DT,1973,1,source_year_facet,complete_year
+Scopus,DT,1993,1,source_year_facet,complete_year
+Scopus,DT,1994,1,source_year_facet,complete_year
+Scopus,DT,2004,2,source_year_facet,complete_year
+Scopus,DT,2005,4,source_year_facet,complete_year
+Scopus,DT,2009,1,source_year_facet,complete_year
+Scopus,DT,2010,2,source_year_facet,complete_year
+Scopus,DT,2011,2,source_year_facet,complete_year
+Scopus,DT,2012,10,source_year_facet,complete_year
+Scopus,DT,2013,7,source_year_facet,complete_year
+Scopus,DT,2014,2,source_year_facet,complete_year
+Scopus,DT,2015,7,source_year_facet,complete_year
+Scopus,DT,2016,30,source_year_facet,complete_year
+Scopus,DT,2017,128,source_year_facet,complete_year
+Scopus,DT,2018,370,source_year_facet,complete_year
+Scopus,DT,2019,1055,source_year_facet,complete_year
+Scopus,DT,2020,1842,source_year_facet,complete_year
+Scopus,DT,2021,3206,source_year_facet,complete_year
+Scopus,DT,2022,5272,source_year_facet,complete_year
+Scopus,DT,2023,7533,source_year_facet,complete_year
+Scopus,DT,2024,10169,source_year_facet,complete_year
+Scopus,DT,2025,14489,source_year_facet,complete_year
+Scopus,DT,2026,17033,source_year_facet,incomplete
+Scopus,DT,2027,508,source_year_facet,future_indexed
+WoS,DT,1973,1,default_publication_year_facet,complete_year
+WoS,DT,1993,1,default_publication_year_facet,complete_year
+WoS,DT,1994,1,default_publication_year_facet,complete_year
+WoS,DT,2004,1,default_publication_year_facet,complete_year
+WoS,DT,2010,1,default_publication_year_facet,complete_year
+WoS,DT,2013,1,default_publication_year_facet,complete_year
+WoS,DT,2014,2,default_publication_year_facet,complete_year
+WoS,DT,2015,5,default_publication_year_facet,complete_year
+WoS,DT,2016,17,default_publication_year_facet,complete_year
+WoS,DT,2017,73,default_publication_year_facet,complete_year
+WoS,DT,2018,258,default_publication_year_facet,complete_year
+WoS,DT,2019,650,default_publication_year_facet,complete_year
+WoS,DT,2020,1217,default_publication_year_facet,complete_year
+WoS,DT,2021,2126,default_publication_year_facet,complete_year
+WoS,DT,2022,3449,default_publication_year_facet,complete_year
+WoS,DT,2023,4390,default_publication_year_facet,complete_year
+WoS,DT,2024,6552,default_publication_year_facet,complete_year
+WoS,DT,2025,9191,default_publication_year_facet,complete_year
+WoS,DT,2026,9610,default_publication_year_facet,incomplete
+WoS,DT,2027,63,default_publication_year_facet,future_indexed
+WoS,DT_final_year_sensitivity,1973,1,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,1993,1,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,1994,1,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2004,1,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2010,1,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2013,1,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2014,2,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2015,5,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2016,17,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2017,73,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2018,258,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2019,634,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2020,1165,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2021,1996,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2022,3299,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2023,4275,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2024,6376,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2025,8725,final_year_only_excludes_1046_early_access,complete_year
+WoS,DT_final_year_sensitivity,2026,9463,final_year_only_excludes_1046_early_access,incomplete
+WoS,DT_final_year_sensitivity,2027,269,final_year_only_excludes_1046_early_access,future_indexed
+IEEE,DT + uncertainty (legacy query),2016,1,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2017,1,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2018,4,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2019,11,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2020,27,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2021,36,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2022,86,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2023,118,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2024,169,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2025,334,exported_publication_year,complete_year
+IEEE,DT + uncertainty (legacy query),2026,440,exported_publication_year,incomplete
+IEEE,DT + uncertainty (legacy query),2027,1,exported_publication_year,future_indexed
+Scopus,DT + uncertainty (legacy query),2012,5,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2016,2,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2017,7,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2018,11,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2019,53,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2020,97,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2021,137,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2022,224,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2023,316,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2024,407,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2025,643,exported_publication_year,complete_year
+Scopus,DT + uncertainty (legacy query),2026,1539,exported_publication_year,incomplete
+Scopus,DT + uncertainty (legacy query),2027,60,exported_publication_year,future_indexed
+WoS,DT + uncertainty (legacy query),2017,2,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2018,7,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2019,24,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2020,60,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2021,88,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2022,136,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2023,186,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2024,253,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2025,359,exported_publication_year,complete_year
+WoS,DT + uncertainty (legacy query),2026,866,exported_publication_year,incomplete
+WoS,DT + uncertainty (legacy query),2027,35,exported_publication_year,future_indexed

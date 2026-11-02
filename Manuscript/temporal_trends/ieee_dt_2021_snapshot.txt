@@ -1,0 +1,198 @@
+- button "Skip to main content"
+- button "Cookie Preferences":
+- button "Skip to Main Content"
+- banner:
+  - list:
+    - link "IEEE.org":
+      - /url: https://www.ieee.org/
+    - link "IEEE Xplore":
+      - /url: /Xplore/home.jsp
+      - text: IEEE
+      - emphasis: Xplore
+    - link "IEEE SA":
+      - /url: https://standards-ieee-org.wwwdb.dbod.de/
+    - link "IEEE Spectrum":
+      - /url: https://spectrum-ieee-org.wwwdb.dbod.de/
+    - link "More Sites":
+      - /url: https://www.ieee.org/sitemap.html
+  - list:
+    - link "Donate":
+      - /url: https://www.ieee.org/give
+    - link "Cart":
+      - /url: https://www.ieee.org/cart/public/myCart/page.html?refSite=https://ieeexplore-ieee-org.wwwdb.dbod.de&refSiteName=IEEE%20Xplore
+    - text:  
+    - link "Create Account":
+      - /url: javascript:void()
+    - link "Personal Sign In":
+      - /url: javascript:void()
+  - text: 
+  - link "IEEE Xplore logo - Link to home":
+    - /url: /Xplore/home.jsp
+    - img "IEEE Xplore logo - Link to home"
+  - navigation:
+    - list:
+      - button "Browse":
+        - text: Browse
+        - generic: 
+      - button "My Settings":
+        - text: My Settings
+        - generic: 
+      - button "Help":
+        - text: Help
+        - generic: 
+  - img "SLUB Dresden logo"
+  - text: "Access provided by:"
+  - generic "SLUB Dresden"
+  - link "Contact Administrator":
+    - /url: javascript:void()
+  - link "Sign Out":
+    - /url: /servlet/Login?logout=/Xplore/guesthome.jsp
+  - button "Attention Authors":
+    - text: Attention Authors
+    - generic: 
+  - img "IEEE logo - Link to IEEE main site homepage"
+  - text: 
+  - search:
+    - generic: Search by Content Type
+    - combobox "Search by Content Type":
+      - option "Search by All" [selected]: All
+      - option "Search by Books": Books
+      - option "Search by Conferences": Conferences
+      - option "Search by Courses": Courses
+      - option "Search by Journals & Magazines": Journals & Magazines
+      - option "Search by Standards": Standards
+      - option "Search by Authors": Authors
+      - option "Search by Citations": Citations
+      - option "Search by Images (Beta)": Images (Beta)
+    - text: 
+    - searchbox "main"
+    - button "Search": 
+  - link "ADVANCED SEARCH":
+    - /url: /search/advanced
+    - text: ADVANCED SEARCH 
+  - text:   
+- main:
+  - search:
+    - searchbox "search within results"
+    - button "Search Within": 
+  - list:
+    - button "Download PDFs"
+    - button "Items Per Page"
+    - button "Export"
+    - text: 
+    - button "Set Search Alerts"
+    - link "Search History":
+      - /url: /search-history
+  - heading "Showing 1-25 of 1,235 resultsfor \"digital twin\" OR \"digital twins\" Remove \"digital twin\" OR \"digital twins\" filter" [level=1]:
+    - generic: Showing 1-25 of 1,235 results
+    - text: for
+    - strong:
+      - generic: "\"digital twin\" OR \"digital twins\""
+      - button "Remove \"digital twin\" OR \"digital twins\" filter": 
+  - generic: 
+  - text: "Filters Applied:"
+  - generic: "2021"
+  - button "Remove 2021 date range filter": 
+  - checkbox "Conferences (980)"
+  - text: Conferences (980)
+  - checkbox "Journals (166)"
+  - text: Journals (166)
+  - checkbox "Magazines (45)"
+  - text: Magazines (45)
+  - checkbox "Books (40)"
+  - text: Books (40)
+  - checkbox "Courses (3)"
+  - text: Courses (3)
+  - checkbox "Standards (1)"
+  - text: Standards (1)
+  - generic:  |
+  - heading "Search" [level=2]
+  - radiogroup "Search by documents and images":
+    - radio "Documents" [checked]
+    - radio "Images (Beta)"
+  - heading "Show" [level=2]
+  - radio "All Results" [checked]
+  - generic: All Results
+  - radio "Subscribed Content"
+  - generic: Subscribed Content
+  - link "Also includes Open Access content":
+    - /url: javascript:void()
+    - generic: 
+  - radio "Open Access Only"
+  - generic: Open Access Only
+  - list:
+    - heading "Year " [level=2]:
+      - button "Year " [expanded]:
+        - generic: Year
+        - generic: 
+    - radio "Range" [checked]
+    - generic: Range
+    - radio "Single Year"
+    - generic: Single Year
+    - textbox "Enter start year of range": "2021"
+    - textbox "Enter end year of range": "2021"
+    - button "Clear"
+    - button "Apply" [disabled]
+    - heading "Author " [level=2]:
+      - button "Author ":
+        - generic: Author
+        - generic: 
+    - heading "Affiliation " [level=2]:
+      - button "Affiliation ":
+        - generic: Affiliation
+        - generic: 
+    - heading "Publication Title " [level=2]:
+      - button "Publication Title ":
+        - generic: Publication Title
+        - generic: 
+    - heading "Publisher " [level=2]:
+      - button "Publisher ":
+        - generic: Publisher
+        - generic: 
+    - heading "Supplemental Items " [level=2]:
+      - button "Supplemental Items ":
+        - generic: Supplemental Items
+        - generic: 
+    - heading "Conference Location " [level=2]:
+      - button "Conference Location ":
+        - generic: Conference Location
+        - generic: 
+    - heading "Publication Topics " [level=2]:
+      - button "Publication Topics ":
+        - generic: Publication Topics
+        - generic: 
+    - heading "Standard Status " [level=2]:
+      - button "Standard Status ":
+        - generic: Standard Status
+        - generic: 
+    - heading "Standard Type " [level=2]:
+      - button "Standard Type ":
+        - generic: Standard Type
+        - generic: 
+  - text: Sign In to Save Your Search
+  - link "Learn more about saved searches":
+    - /url: /Xplorehelp/personalization-settings/saved-searches
+    - generic: 
+  - button "Close modal":
+    - generic: 
+  - paragraph: Get notified when new research is published matching your search criteria.
+  - textbox "Enter email address for personal sign in"
+  - generic: "*Email Address"
+  - textbox "Enter password for personal sign in"
+  - generic: "*Password"
+  - button "Sign In":
+    - generic: Sign In
+  - link "Forgot Password?":
+    - /url: https://www.ieee.org/profile/public/forgotpassword/forgotUsernamePassword.html?sourceCode=xplore&signinurl=https%3A%2F%2Fieeexplore-ieee-org.wwwdb.dbod.de%2FXplore%2Flogin.jsp%3Furl%3D%2FXplore%2Fhome.jsp%26reason%3Dauthenticate&url=https%3A%2F%2Fieeexplore-ieee-org.wwwdb.dbod.de%2FXplore%2Flogin.jsp%3Furl%3D%2Fsearch%2Fsearchresult.jsp%3FqueryText%3D%2522digital%2520twin%2522%2520OR%2520%2522digital%2520twins%2522%26highlight%3Dtrue%26returnType%3DSEARCH%26matchPubs%3Dtrue%26returnFacets%3DALL%26ranges%3D2021_2021_Year
+  - text: "|"
+  - link "Create Account":
+    - /url: https://www.ieee.org/profile/public/createwebaccount/showCreateAccount.html?ShowMGAMarkeatbilityOptIn=true&sourceCode=xplore&car=IEEE-Xplore&autoSignin=Y&signinurl=https%3A%2F%2Fieeexplore-ieee-org.wwwdb.dbod.de%2FXplore%2Flogin.jsp%3Furl%3D%2FXplore%2Fhome.jsp%26reason%3Dauthenticate&url=https://ieeexplore-ieee-org.wwwdb.dbod.de/search/searchresult.jsp?queryText%3D%2522digital%2520twin%2522%2520OR%2520%2522digital%2520twins%2522%26highlight%3Dtrue%26returnType%3DSEARCH%26matchPubs%3Dtrue%26returnFacets%3DALL%26ranges%3D2021_2021_Year
+  - checkbox "Select All on Page"
+  - text: Select All on Page
+  - generic: Sort By
+  - button "Relevance":
+    - generic: Relevance
+  - heading "Results" [level=2]
+  - checkbox "Select search result"
+  - 'heading "Building Industrial Digital Twins: Design, develop, and deploy digital twin solutions for real-world industries using Azure Digital Twins" [level=3]':
+    - 'link "Building Indu
