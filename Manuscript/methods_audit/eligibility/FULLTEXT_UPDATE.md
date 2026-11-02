@@ -4,17 +4,17 @@ This update records substantive reading and decisions, not closure of every sear
 
 ## Broad S1–S5 + DT + U
 
-903 exported query occurrences yielded 528 records after 375 repeats were removed. All 528 supplied titles/abstracts were read. Two additional aliases were resolved during screening, leaving 526 publication records. Second-pass adjudication gives 196 direct-domain full-text candidates,107 secondary/complementary candidates,5 unresolved-metadata candidates carried forward and 218 domain exclusions. Secondary/complementary candidates remain a separate evidence stream.
+903 exported query occurrences yielded528 records after375 repeats were removed. All528 supplied titles/abstracts were read. Two additional aliases were resolved during screening, leaving526 publication records. Second-pass adjudication gives196 direct-domain full-text candidates,107 secondary/complementary candidates,5 unresolved-metadata candidates carried forward and218 domain exclusions. Secondary/complementary candidates remain a separate evidence stream.
 
-All 308 carried-forward records have a recorded retrieval route. Crossref publisher links, institutional/repository retrieval and authenticated SLUB IEEE access were used. A failed PDF route is not proof that no full text exists.
+All308 carried-forward records have a recorded retrieval route. Crossref publisher links, institutional/repository retrieval and authenticated SLUB IEEE access were used. A failed PDF route is not proof that no full text exists.
 
-**71 archived full texts have completed eligibility decisions:18 domain inclusions,4 complementary inclusions and 49 exclusions from the triple-intersection set.** Every decision has a source-file hash and page/section evidence. No downloaded PDF remains unassessed in this snapshot. The 18 domain inclusions contain primary and secondary evidence and enabling or conceptual architectures; they are not 18 implemented twins or 18 demonstrations of continuous uncertainty propagation.
+**88 full texts have completed eligibility decisions: 21 domain inclusions, 4 complementary inclusions and 63 exclusions from the triple-intersection set.** Every decision has a source-file hash and page/section evidence. All downloaded files have been checked, but two are retrieval defects: one unrelated PDF and one partial book preview. These two do not count as full-text assessments or exclusions. Domain inclusions contain primary and secondary evidence and enabling or conceptual architectures; they are not all implemented twins or demonstrations of continuous uncertainty propagation.
 
-237 candidate publications lack a completed archived full-text assessment. One has a visible IEEE HTML body awaiting capture/assessment;236 lack an archived body through the recorded routes. Therefore these 237 are not eligibility exclusions, and the broad search is not declared final.
+220 candidates lack completed full-text eligibility assessment. One has a visible IEEE HTML body awaiting capture/assessment; others still need an adequate text. These are not eligibility exclusions, and the broad search is not declared final.
 
 ## Previously selected focused sets
 
-The separate S–U, focused bridge and focused DT–U sets comprise 53 memberships/52 unique publications.44 available full texts were verified:42 retained and 2 focused-scope exclusions;8 not retrieved. These overlap the broad search and must not be added as independent populations. Their decisions answer different inclusion scopes.
+The separate S–U, focused bridge and focused DT–U sets comprise53 memberships/52 unique publications.44 available full texts were verified:42 retained and2 focused-scope exclusions;8 not retrieved. These overlap the broad search and must not be added as independent populations. Their decisions answer different inclusion scopes.
 
 ## Eligibility and evidence interpretation
 

@@ -1,11 +1,17 @@
 {
-  "assessed_unique_publications": 71,
+  "assessed_unique_publications": 88,
+  "archived_file_checks": 90,
   "counts": {
-    "domain_included": 18,
-    "excluded_from_triple_intersection": 49,
-    "complementary_included": 4
+    "domain_included": 21,
+    "excluded_from_triple_intersection": 63,
+    "complementary_included": 4,
+    "not_assessed_retrieval_defect": 2
   },
   "unassessed_downloaded_pdf_ids": [],
+  "retrieval_defect_ids": [
+    "DTMFU-6f6b952136875b16",
+    "DTMFU-d52dc48a0eac5845"
+  ],
   "reason_locator_hash_validation": "passed",
-  "scope": "All currently archived broad DTU fulltexts; not closure of all search scenarios"
+  "scope": "All currently archived broad DTU files checked; defective/partial files do not count as full-text eligibility assessment. Not closure of all search scenarios"
 }
