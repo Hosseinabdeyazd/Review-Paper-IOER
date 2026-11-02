@@ -1,0 +1,29 @@
+{
+  "created": "2026-11-02",
+  "source_records": 21,
+  "unique_dois": 21,
+  "counted_papers": 20,
+  "excluded_from_figures": [
+    "U10"
+  ],
+  "counted_article_contexts": 23,
+  "context_denominators": {
+    "B12": 9,
+    "B23": 6,
+    "B34": 0,
+    "B45": 1,
+    "O5": 7
+  },
+  "positive_counted_theme_assignments": 84,
+  "duplicate_paper_contexts": 0,
+  "all_counts_within_denominator": true,
+  "continuity_categories_sum_to_context_denominators": true,
+  "new_fulltext_rereading": false,
+  "independent_human_validation": false,
+  "input_sha256": {
+    "legacy_19_coding.csv": "75b313804af74347b6e5f20d1370cd99f2094ab30bcf2808e295803a499bfd82",
+    "three_fulltext_extraction.csv": "b19f0540e202dc205d63f7a4ddd9f09a09ff52e67ff2ed2faefe5be744b6d785",
+    "transition_extraction.csv": "cb115b3424a0022ba4561ee9f6980353b945fbe7fe2a4a399866da9a03fa5122",
+    "U06_review.md": "19bb4974435a41cb09dc2e12b8aabe2036120aa8e7343dd97fb41f9cbac3ff7d"
+  }
+}

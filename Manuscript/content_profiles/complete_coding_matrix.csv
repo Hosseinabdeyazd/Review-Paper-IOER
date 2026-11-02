@@ -1,0 +1,481 @@
+﻿paper_id,doi,context,dimension,theme_code,theme_label,coding_status,counted,included_in_counts
+U01,10.1016/j.jenvman.2020.111879,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,material,Material intensity & stock parameters,recorded,1,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,scenario,Future scenarios & policy assumptions,recorded,1,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,scenarios,Scenario comparison,recorded,1,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U01,10.1016/j.jenvman.2020.111879,B23,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,data_quality,"Data accuracy, completeness & currency",recorded,1,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,qualitative,Qualitative quality / uncertainty assessment,recorded,1,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,material,Material intensity & stock parameters,recorded,1,1
+U03,10.1111/jiec.13174,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U03,10.1111/jiec.13174,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U03,10.1111/jiec.13174,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U04,10.1111/jiec.13332,B12,source,prediction,Classification & prediction error,recorded,1,1
+U04,10.1111/jiec.13332,B12,source,material,Material intensity & stock parameters,recorded,1,1
+U04,10.1111/jiec.13332,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,validation,Prediction-error / validation diagnostics,recorded,1,1
+U04,10.1111/jiec.13332,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U04,10.1111/jiec.13332,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U04,10.1111/jiec.13332,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U05,10.1111/jiec.13348,B12,source,prediction,Classification & prediction error,recorded,1,1
+U05,10.1111/jiec.13348,B12,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,validation,Prediction-error / validation diagnostics,recorded,1,1
+U05,10.1111/jiec.13348,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U05,10.1111/jiec.13348,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U06,10.1021/acs.est.5c03058,B12,source,prediction,Classification & prediction error,recorded,1,1
+U06,10.1021/acs.est.5c03058,B12,source,material,Material intensity & stock parameters,recorded,1,1
+U06,10.1021/acs.est.5c03058,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,validation,Prediction-error / validation diagnostics,recorded,1,1
+U06,10.1021/acs.est.5c03058,B12,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U06,10.1021/acs.est.5c03058,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,prediction,Classification & prediction error,recorded,1,1
+U06,10.1021/acs.est.5c03058,B23,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U06,10.1021/acs.est.5c03058,B23,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,validation,Prediction-error / validation diagnostics,recorded,1,1
+U06,10.1021/acs.est.5c03058,B23,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,B23,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,source,environment,Environmental factors & processes,recorded,1,1
+U06,10.1021/acs.est.5c03058,O5,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U06,10.1021/acs.est.5c03058,O5,method,sampling,Monte Carlo / probabilistic sampling,recorded,1,1
+U06,10.1021/acs.est.5c03058,O5,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U06,10.1021/acs.est.5c03058,O5,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,material,Material intensity & stock parameters,recorded,1,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U07,10.1016/j.resconrec.2025.108392,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U08,10.1016/j.jobe.2025.113391,B12,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,material,Material intensity & stock parameters,recorded,1,1
+U08,10.1016/j.jobe.2025.113391,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,model,Model form & upscaling assumptions,recorded,1,1
+U08,10.1016/j.jobe.2025.113391,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,qualitative,Qualitative quality / uncertainty assessment,recorded,1,1
+U08,10.1016/j.jobe.2025.113391,B12,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U08,10.1016/j.jobe.2025.113391,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,geometry,"Geometry, morphology & design",recorded,1,1
+U09,10.1007/s44498-026-00138-5,B12,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U09,10.1007/s44498-026-00138-5,B12,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U09,10.1007/s44498-026-00138-5,B12,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U10,10.1177/0734242X07079183,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,material,Material intensity & stock parameters,recorded,0,0
+U10,10.1177/0734242X07079183,B23,source,timing,"Lifetime, turnover & event timing",recorded,0,0
+U10,10.1177/0734242X07079183,B23,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,0
+U10,10.1177/0734242X07079183,B23,method,review,Review synthesis,not_recorded_in_extraction,0,0
+U11,10.1016/j.resconrec.2017.01.015,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,model,Model form & upscaling assumptions,recorded,1,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,sampling,Monte Carlo / probabilistic sampling,recorded,1,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U11,10.1016/j.resconrec.2017.01.015,B23,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,material,Material intensity & stock parameters,recorded,1,1
+U12,10.1111/jiec.12579,B23,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U12,10.1111/jiec.12579,B23,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,sampling,Monte Carlo / probabilistic sampling,recorded,1,1
+U12,10.1111/jiec.12579,B23,method,bootstrap,Bootstrap for uncertainty outputs,recorded,1,1
+U12,10.1111/jiec.12579,B23,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U12,10.1111/jiec.12579,B23,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U12,10.1111/jiec.12579,B23,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,material,Material intensity & stock parameters,recorded,1,1
+U13,10.1111/jiec.12739,B23,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U13,10.1111/jiec.12739,B23,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,scenario,Future scenarios & policy assumptions,recorded,1,1
+U13,10.1111/jiec.12739,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U13,10.1111/jiec.12739,B23,method,sampling,Monte Carlo / probabilistic sampling,recorded,1,1
+U13,10.1111/jiec.12739,B23,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,scenarios,Scenario comparison,recorded,1,1
+U13,10.1111/jiec.12739,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U13,10.1111/jiec.12739,B23,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U14,10.1016/j.rser.2024.115262,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,scenario,Future scenarios & policy assumptions,recorded,1,1
+U14,10.1016/j.rser.2024.115262,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,source,environment,Environmental factors & processes,recorded,1,1
+U14,10.1016/j.rser.2024.115262,O5,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U14,10.1016/j.rser.2024.115262,O5,method,review,Review synthesis,recorded,1,1
+U15,10.1021/acs.est.4c08994,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,scenario,Future scenarios & policy assumptions,recorded,1,1
+U15,10.1021/acs.est.4c08994,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,source,environment,Environmental factors & processes,recorded,1,1
+U15,10.1021/acs.est.4c08994,O5,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U15,10.1021/acs.est.4c08994,O5,method,scenarios,Scenario comparison,recorded,1,1
+U15,10.1021/acs.est.4c08994,O5,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U15,10.1021/acs.est.4c08994,O5,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,environment,Environmental factors & processes,recorded,1,1
+U16,10.1016/j.resconrec.2025.108228,O5,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,bootstrap,Bootstrap for uncertainty outputs,recorded,1,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U16,10.1016/j.resconrec.2025.108228,O5,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,scenario,Future scenarios & policy assumptions,recorded,1,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,environment,Environmental factors & processes,recorded,1,1
+U17,10.1016/j.resconrec.2024.107971,O5,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,scenarios,Scenario comparison,recorded,1,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U17,10.1016/j.resconrec.2024.107971,O5,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,timing,"Lifetime, turnover & event timing",recorded,1,1
+U18,10.1007/s44498-026-00164-3,B23,source,model,Model form & upscaling assumptions,recorded,1,1
+U18,10.1007/s44498-026-00164-3,B23,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,ranges,Ranges / probability-distribution representation,recorded,1,1
+U18,10.1007/s44498-026-00164-3,B23,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,sensitivity,Sensitivity / representation comparison,recorded,1,1
+U18,10.1007/s44498-026-00164-3,B23,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U18,10.1007/s44498-026-00164-3,B23,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,recovery,"Recovery share, reuse & quality",recorded,1,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,environment,Environmental factors & processes,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,source,damage,Hazard & damage states,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,sampling,Monte Carlo / probabilistic sampling,recorded,1,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,scenarios,Scenario comparison,recorded,1,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U19,10.1016/j.jclepro.2026.148705,B45,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,geometry,"Geometry, morphology & design",recorded,1,1
+U20,10.1016/j.jobe.2023.108149,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,source,environment,Environmental factors & processes,recorded,1,1
+U20,10.1016/j.jobe.2023.108149,O5,source,damage,Hazard & damage states,recorded,1,1
+U20,10.1016/j.jobe.2023.108149,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,sampling,Monte Carlo / probabilistic sampling,recorded,1,1
+U20,10.1016/j.jobe.2023.108149,O5,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,conditional,Conditional consequence distributions,recorded,1,1
+U20,10.1016/j.jobe.2023.108149,O5,method,proxy,Proxy conversion & aggregation,not_recorded_in_extraction,0,1
+U20,10.1016/j.jobe.2023.108149,O5,method,review,Review synthesis,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,data_quality,"Data accuracy, completeness & currency",not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,geometry,"Geometry, morphology & design",not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,prediction,Classification & prediction error,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,material,Material intensity & stock parameters,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,timing,"Lifetime, turnover & event timing",not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,model,Model form & upscaling assumptions,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,scenario,Future scenarios & policy assumptions,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,recovery,"Recovery share, reuse & quality",not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,source,environment,Environmental factors & processes,recorded,1,1
+U21,10.1038/s41467-025-68120-6,O5,source,damage,Hazard & damage states,recorded,1,1
+U21,10.1038/s41467-025-68120-6,O5,method,qualitative,Qualitative quality / uncertainty assessment,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,validation,Prediction-error / validation diagnostics,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,ranges,Ranges / probability-distribution representation,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,sampling,Monte Carlo / probabilistic sampling,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,bootstrap,Bootstrap for uncertainty outputs,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,sensitivity,Sensitivity / representation comparison,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,scenarios,Scenario comparison,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,conditional,Conditional consequence distributions,not_recorded_in_extraction,0,1
+U21,10.1038/s41467-025-68120-6,O5,method,proxy,Proxy conversion & aggregation,recorded,1,1
+U21,10.1038/s41467-025-68120-6,O5,method,review,Review synthesis,not_recorded_in_extraction,0,1

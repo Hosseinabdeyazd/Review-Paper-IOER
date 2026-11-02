@@ -1,0 +1,101 @@
+﻿dimension,theme_code,theme_label,context,paper_count,context_denominator,percent_of_context,paper_ids,interpretation
+source,data_quality,"Data accuracy, completeness & currency",B12,1,9,11.11,U02,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,data_quality,"Data accuracy, completeness & currency",B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,data_quality,"Data accuracy, completeness & currency",B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,data_quality,"Data accuracy, completeness & currency",B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,data_quality,"Data accuracy, completeness & currency",O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,geometry,"Geometry, morphology & design",B12,7,9,77.78,U01;U04;U05;U06;U07;U08;U09,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,geometry,"Geometry, morphology & design",B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,geometry,"Geometry, morphology & design",B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,geometry,"Geometry, morphology & design",B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,geometry,"Geometry, morphology & design",O5,1,7,14.29,U20,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,prediction,Classification & prediction error,B12,3,9,33.33,U04;U05;U06,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,prediction,Classification & prediction error,B23,1,6,16.67,U06,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,prediction,Classification & prediction error,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,prediction,Classification & prediction error,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,prediction,Classification & prediction error,O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,material,Material intensity & stock parameters,B12,6,9,66.67,U01;U03;U04;U06;U07;U08,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,material,Material intensity & stock parameters,B23,2,6,33.33,U12;U13,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,material,Material intensity & stock parameters,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,material,Material intensity & stock parameters,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,material,Material intensity & stock parameters,O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,timing,"Lifetime, turnover & event timing",B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,timing,"Lifetime, turnover & event timing",B23,6,6,100.0,U01;U06;U11;U12;U13;U18,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,timing,"Lifetime, turnover & event timing",B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,timing,"Lifetime, turnover & event timing",B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,timing,"Lifetime, turnover & event timing",O5,2,7,28.57,U14;U17,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,model,Model form & upscaling assumptions,B12,1,9,11.11,U08,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,model,Model form & upscaling assumptions,B23,2,6,33.33,U11;U18,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,model,Model form & upscaling assumptions,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,model,Model form & upscaling assumptions,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,model,Model form & upscaling assumptions,O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,scenario,Future scenarios & policy assumptions,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,scenario,Future scenarios & policy assumptions,B23,2,6,33.33,U01;U13,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,scenario,Future scenarios & policy assumptions,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,scenario,Future scenarios & policy assumptions,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,scenario,Future scenarios & policy assumptions,O5,3,7,42.86,U14;U15;U17,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,recovery,"Recovery share, reuse & quality",B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,recovery,"Recovery share, reuse & quality",B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,recovery,"Recovery share, reuse & quality",B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,recovery,"Recovery share, reuse & quality",B45,1,1,100.0,U19,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,recovery,"Recovery share, reuse & quality",O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,environment,Environmental factors & processes,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,environment,Environmental factors & processes,B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,environment,Environmental factors & processes,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,environment,Environmental factors & processes,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,environment,Environmental factors & processes,O5,7,7,100.0,U06;U14;U15;U16;U17;U20;U21,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,damage,Hazard & damage states,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,damage,Hazard & damage states,B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,damage,Hazard & damage states,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,damage,Hazard & damage states,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+source,damage,Hazard & damage states,O5,2,7,28.57,U20;U21,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,qualitative,Qualitative quality / uncertainty assessment,B12,2,9,22.22,U02;U08,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,qualitative,Qualitative quality / uncertainty assessment,B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,qualitative,Qualitative quality / uncertainty assessment,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,qualitative,Qualitative quality / uncertainty assessment,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,qualitative,Qualitative quality / uncertainty assessment,O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,validation,Prediction-error / validation diagnostics,B12,3,9,33.33,U04;U05;U06,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,validation,Prediction-error / validation diagnostics,B23,1,6,16.67,U06,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,validation,Prediction-error / validation diagnostics,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,validation,Prediction-error / validation diagnostics,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,validation,Prediction-error / validation diagnostics,O5,0,7,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,ranges,Ranges / probability-distribution representation,B12,2,9,22.22,U03;U06,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,ranges,Ranges / probability-distribution representation,B23,4,6,66.67,U01;U11;U13;U18,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,ranges,Ranges / probability-distribution representation,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,ranges,Ranges / probability-distribution representation,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,ranges,Ranges / probability-distribution representation,O5,1,7,14.29,U06,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sampling,Monte Carlo / probabilistic sampling,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sampling,Monte Carlo / probabilistic sampling,B23,3,6,50.0,U11;U12;U13,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sampling,Monte Carlo / probabilistic sampling,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sampling,Monte Carlo / probabilistic sampling,B45,1,1,100.0,U19,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sampling,Monte Carlo / probabilistic sampling,O5,2,7,28.57,U06;U20,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,bootstrap,Bootstrap for uncertainty outputs,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,bootstrap,Bootstrap for uncertainty outputs,B23,1,6,16.67,U12,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,bootstrap,Bootstrap for uncertainty outputs,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,bootstrap,Bootstrap for uncertainty outputs,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,bootstrap,Bootstrap for uncertainty outputs,O5,1,7,14.29,U16,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sensitivity,Sensitivity / representation comparison,B12,3,9,33.33,U04;U07;U09,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sensitivity,Sensitivity / representation comparison,B23,3,6,50.0,U11;U12;U18,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sensitivity,Sensitivity / representation comparison,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sensitivity,Sensitivity / representation comparison,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,sensitivity,Sensitivity / representation comparison,O5,2,7,28.57,U15;U17,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,scenarios,Scenario comparison,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,scenarios,Scenario comparison,B23,2,6,33.33,U01;U13,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,scenarios,Scenario comparison,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,scenarios,Scenario comparison,B45,1,1,100.0,U19,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,scenarios,Scenario comparison,O5,2,7,28.57,U15;U17,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,conditional,Conditional consequence distributions,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,conditional,Conditional consequence distributions,B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,conditional,Conditional consequence distributions,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,conditional,Conditional consequence distributions,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,conditional,Conditional consequence distributions,O5,1,7,14.29,U20,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,proxy,Proxy conversion & aggregation,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,proxy,Proxy conversion & aggregation,B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,proxy,Proxy conversion & aggregation,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,proxy,Proxy conversion & aggregation,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,proxy,Proxy conversion & aggregation,O5,1,7,14.29,U21,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,review,Review synthesis,B12,0,9,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,review,Review synthesis,B23,0,6,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,review,Review synthesis,B34,0,0,,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,review,Review synthesis,B45,0,1,0.0,,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence
+method,review,Review synthesis,O5,1,7,14.29,U14,recorded theme in extraction; not proof of transfer or an estimate of literature prevalence

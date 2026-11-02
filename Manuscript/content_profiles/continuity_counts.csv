@@ -1,0 +1,31 @@
+﻿context,continuity_code,label,paper_count,paper_ids
+B12,Q,Discussion / review,1,U02
+B23,Q,Discussion / review,0,
+B34,Q,Discussion / review,0,
+B45,Q,Discussion / review,0,
+O5,Q,Discussion / review,1,U14
+B12,N,Downstream transfer not demonstrated,4,U01;U04;U05;U08
+B23,N,Downstream transfer not demonstrated,1,U06
+B34,N,Downstream transfer not demonstrated,0,
+B45,N,Downstream transfer not demonstrated,0,
+O5,N,Downstream transfer not demonstrated,0,
+B12,R,Inputs prepared for propagation,1,U03
+B23,R,Inputs prepared for propagation,0,
+B34,R,Inputs prepared for propagation,0,
+B45,R,Inputs prepared for propagation,0,
+O5,R,Inputs prepared for propagation,0,
+B12,S,Sensitivity / representation comparison,2,U07;U09
+B23,S,Sensitivity / representation comparison,0,
+B34,S,Sensitivity / representation comparison,0,
+B45,S,Sensitivity / representation comparison,0,
+O5,S,Sensitivity / representation comparison,2,U15;U17
+B12,P,Partial or incompletely documented transfer,1,U06
+B23,P,Partial or incompletely documented transfer,3,U01;U13;U18
+B34,P,Partial or incompletely documented transfer,0,
+B45,P,Partial or incompletely documented transfer,1,U19
+O5,P,Partial or incompletely documented transfer,2,U06;U21
+B12,E,Quantified outputs for selected uncertain inputs,0,
+B23,E,Quantified outputs for selected uncertain inputs,2,U11;U12
+B34,E,Quantified outputs for selected uncertain inputs,0,
+B45,E,Quantified outputs for selected uncertain inputs,0,
+O5,E,Quantified outputs for selected uncertain inputs,2,U16;U20
