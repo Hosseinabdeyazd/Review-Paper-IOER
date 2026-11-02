@@ -1,0 +1,28 @@
+{
+  "source_rows": 903,
+  "conservative_unique_records": 534,
+  "duplicate_source_rows": 369,
+  "unique_without_doi": 52,
+  "possible_title_duplicate_groups": 7,
+  "planned_searches": 15,
+  "present_exports": 15,
+  "parsed_exports": 15,
+  "verified_searches": 15,
+  "all_searches_verified_complete": true,
+  "status_counts": {
+    "verified_complete": 15
+  },
+  "stage_unique_counts": {
+    "S1": 306,
+    "S2": 12,
+    "S3": 47,
+    "S4": 161,
+    "S5": 92
+  },
+  "database_unique_counts": {
+    "IEEE": 140,
+    "Scopus": 395,
+    "WoS": 247
+  },
+  "evidence_scope": "Retrieved metadata only; query membership is not semantic relevance or fulltext evidence"
+}
