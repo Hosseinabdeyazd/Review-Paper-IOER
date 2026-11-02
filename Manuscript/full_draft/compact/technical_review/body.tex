@@ -307,6 +307,25 @@ C assigns executable responsibilities and evidence gates. Detection compares an 
 
 Applied to the four material interfaces, this allocation asks whether GeoAI uncertainty reaches material quantities (S1→S2), whether stock and lifetime dependencies reach release forecasts (S2→S3), whether condition and separation uncertainty reach recoverable yields (S3→S4), and whether recovery and substitution assumptions reach impact estimates (S4→S5). The DT contribution is the maintained relationship between these calculations, their evidence and their revision history. The selected material-flow evidence does not yet demonstrate this complete chain. The proposed architecture specifies what would have to be implemented and assessed to close that gap.
 
+Table 2 translates the configuration vocabulary into responsibilities that can be inspected at an interface. Computational parameters describe uncertain states and transformations; metadata preserve identity, timing and scale; control parameters determine who checks, updates and acts. Their combination supports tracking. No single architecture label, including multi-agent or hybrid, establishes uncertainty continuity.
+
+Table 2. Architectural responsibilities for uncertainty continuity. A, B and C refer to Figures 9–12. Parameters are proposed information requirements, not universally calibrated numerical settings. Sources support the named concepts or mechanisms; their allocation across S1–S5 is our synthesis. Proposal denotes an addition requiring evaluation.
+
+\begin{longtable}{p{0.225\linewidth}p{0.225\linewidth}p{0.225\linewidth}p{0.225\linewidth}}
+\toprule
+Architectural concept & Parameters / information to retain & Responsibility across stages and scales & Evidence basis and synthesis boundary\\
+\midrule
+Scope and decision specification (A) & Quantity of interest; spatial support; time horizon; decision tolerance. & Defines what uncertainty must be evaluated. At S4→S5, specify functional equivalence before comparing recovery routes. & Concept: Shao and Helu (2020); boundary specification: synthesis.\\
+Identity and semantic architecture (B) & Persistent object/material ID; units; classification; source and model version. & Keeps each estimate attached to its evidence from S1 through S5; flags missing fields or incompatible definitions, not uncertainty magnitude. & Concept: Kosse et al. (2025); cross-stage contract: synthesis.\\
+Computational model (B) & State/parameter distributions or scenarios; observation error; model discrepancy; dependence. & Estimates and propagates uncertainty. S1→S2 requires attribute–intensity dependence; S2→S3 adds event-time assumptions. & Mechanism: Kapteyn et al. (2021); material-flow allocation: synthesis.\\
+Coupling and interface service (B/C) & Transformation ID; joint-sample/scenario IDs; input–output units; unresolved inputs. & Carries uncertainty through a documented mapping; detects replacement of an uncertain input by a point value. At S4→S5 retain quality and allocation assumptions. & Domain link: Almeida et al. (2026); interface checks: proposal.\\
+Temporal organisation and updating (B/C) & Observation time; validity interval; update trigger; model-state version. & Separates physical change from revised knowledge; identifies stale inputs and reruns affected downstream estimates after surveys or recovery inspections. & Concept: Shao and Helu (2020); updating: Kapteyn et al. (2021); allocation: synthesis.\\
+Composition and spatial aggregation (B) & Object-to-building/stock membership; aggregation operator; shared-error groups. & Maintains scale and dependence when pooling estimates. Correlated errors must not disappear when moving from components to districts. & Composition: Human et al. (2023); uncertainty-preserving aggregation: proposal.\\
+Diagnostics and validation service (C) & Residuals; interval coverage; calibration error; held-out observations; validity domain. & Tests predictive adequacy at each boundary; distinguishes a mismatch signal from evidence identifying its cause. Thresholds depend on use and data. & Validation concept: Bitencourt et al. (2025); boundary-specific tests: synthesis.\\
+Agency and functional allocation (B/C) & Service owner; permissions; check trigger; escalation rule; execution log. & Multi-agent coordination distributes checks. Agentic AI could request evidence or call estimators; it does not itself establish calibrated uncertainty. & Multi-agent concept: Ogunsakin et al. (2023); roles: Agrawal et al. (2023); agentic use: proposal.\\
+Decision and explanation interface (C) & Alternative-specific outputs; probability/range where justified; sensitivity; unresolved assumptions. & Communicates which inputs drive S5 conclusions and whether uncertainty changes the preferred option; preserves human approval responsibilities. & Role concept: Agrawal et al. (2023); uncertainty-to-decision presentation: synthesis.\\
+\bottomrule
+\end{longtable}
 
 \section{Discussion}
 
@@ -359,11 +378,9 @@ The uncertainty representation should remain plural. Sampling or Bayesian infere
 
 
 \subsection{Why computation, integration and agency have different roles}
-The architecture in Figures 9–12 makes a specific distinction: uncertainty estimation is a model operation, whereas continuity is also an integration and governance requirement. A sophisticated predictor may quantify its own error while exporting only a point estimate. A semantic platform may preserve provenance while carrying no uncertainty distribution. An automated agent may rerun both without checking whether their units, dependencies and evidence remain compatible. Consequently, no configuration family alone establishes an uncertainty-aware circular workflow.
+Table 2 separates estimation from continuity. A computational model estimates uncertainty; semantic and coupling services retain its meaning across transformations; diagnostics test predictions against observations; agency schedules these activities and assigns accountability. A multi-agent system coordinates distinct services, whereas an agent-based simulation represents interacting entities within a model. Neither term guarantees uncertainty quantification. Agentic AI is a proposed orchestration option here, not a capability validated by this review.
 
-For GeoAI-to-inventory transfer, computational choices determine the representation of attribute error; internal architecture preserves its association with the building and material estimate. For inventory-to-release transfer, model composition and timing determine whether shared coefficients, lifetime assumptions and renovation events remain connected. For release-to-recovery transfer, inspection and quality evidence must update the recoverable quantity rather than merely annotate a visualization. For recovery-to-impact transfer, the contract must expose substitution, processing and system-boundary assumptions. These allocations are hypotheses for implementation and evaluation derived from the review, not empirical demonstrations of an end-to-end twin.
-
-Agency becomes useful when it makes this process operational: scheduling a check, requesting missing evidence, invoking the appropriate estimator and escalating a decision outside the assessed scope. It cannot replace uncertainty modelling or independent validation. Spatial scalability likewise requires explicit aggregation, dependency treatment and resolution checks; a federated or multiscale label does not demonstrate validity at every scale. The design brief therefore sets the evidence requirements, while functional allocation identifies who or what must satisfy them.
+Similarly, spatial scalability requires explicit aggregation and shared-error treatment. Updating a building-level estimate must identify which district inventory, flow forecast and impact result depend on it. This dependency tracking is the proposed connection between the general DT architecture and circular material-flow analysis; its end-to-end performance remains to be tested.
 
 
 \subsection{Limits and research priorities}
@@ -373,7 +390,13 @@ No pooled percentage reduction in uncertainty is reported. Such a synthesis woul
 
 The next empirical test should focus on one fully documented boundary before attempting the entire chain. It should compare deterministic transfer with a dependency-preserving alternative, retain identical input evidence, evaluate held-out observations where available, and test how changes affect the decision rather than interval width alone. Particular priority belongs to S3→S4 and to the connection between recovery quality and environmental substitution. Completing pending eligibility and page-specific evidence reconciliation remains necessary before this working manuscript can be submitted as a closed systematic review.
 
-Taken together, the analyses suggest a precise role for digital twins: maintaining an inspectable relationship between uncertain observations, model transformations and decision consequences over time. The review supports this as an architectural direction, while leaving its end-to-end performance to future validation.
+
+\section{Conclusion}
+This review connects material-flow analysis, uncertainty assessment and digital twin concepts to examine what survives the interfaces between S1 and S5. Its central finding is that uncertainty analysis within several stages does not establish continuity between them. The selected 20-publication uncertainty set contributes 23 interface/context assessments, with stronger documented connections at S2→S3 and no assessed S3→S4 context in this extraction. These observations locate gaps in the selected evidence; they do not demonstrate absence across the wider literature.
+
+The architectural synthesis assigns complementary responsibilities to computational models, semantic interfaces, temporal updating, diagnostics and decision roles. Models estimate and propagate uncertainty. Identity, provenance and dependence information make its passage traceable. Validation tests whether predictions remain adequate for their intended use, while governance determines who can revise assumptions or act. The proposed interface requirements connect these functions to GeoAI-derived attributes, inventories, outflows, recovery and environmental consequences without claiming an implemented or universally validated twin.
+
+The practical research priority is to test a documented boundary where uncertain inputs, transformations and downstream decisions can be compared under consistent conditions, especially release-to-recovery and recovery-to-impact links. The contribution is an evidence-linked organisation of requirements and gaps, rather than a new uncertainty algorithm or a measured reduction in uncertainty. Its present conclusions remain bounded by the selected, assessed corpus and the incomplete eligibility of broader retrieval sets.
 
 
 \section*{References}
