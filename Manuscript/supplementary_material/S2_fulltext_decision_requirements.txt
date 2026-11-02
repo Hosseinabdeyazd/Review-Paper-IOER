@@ -1,0 +1,6 @@
+FULL-TEXT ELIGIBILITY AND EXTRACTION
+
+Required per publication: canonical ID; DOI; title; family and stage memberships; full-text version and source; retrieval status; eligibility decision; specific reason; page/section/table evidence; input variables; transformation; output variables; uncertainty representation; propagation or loss at interfaces; DT definition versus implemented capability; validation; limitations; distinction between author findings and reviewer synthesis.
+
+A download, keyword match, or previous selected label is not a final inclusion decision. Missing text remains not retrieved/pending, not an invented full-text exclusion. Review shared study families before reporting studies separately from publications. Preserve the actual review provenance. Reconcile each flow against record-level decisions before generating final Included counts.
+

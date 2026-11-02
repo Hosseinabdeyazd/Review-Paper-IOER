@@ -1,0 +1,4000 @@
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-1_base/S1-1A.txt
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building inventor*" OR
+    "All Metadata":"building material stock*" OR
+    "All Metadata":"material cadastre*" OR
+    "All Metadata":"resource cadastre*"
+  )
+  AND
+  (
+    "All Metadata":GeoAI OR
+    "All Metadata":"geospatial artificial intelligence" OR
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"neural network*" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"computer vision" OR
+    "All Metadata":"remote sensing" OR
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":LiDAR OR
+    "All Metadata":UAV OR
+    "All Metadata":"vision-language" OR
+    "All Metadata":multimodal OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+)
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-1_base/S1-1B.txt
+(
+  (
+    "All Metadata":"building age" OR
+    "All Metadata":"building height" OR
+    "All Metadata":"building function" OR
+    "All Metadata":"building use" OR
+    "All Metadata":"building footprint*" OR
+    "All Metadata":"building geometry" OR
+    "All Metadata":"building condition" OR
+    "All Metadata":"facade material*" OR
+    "All Metadata":"façade material*" OR
+    "All Metadata":"roof material*" OR
+    "All Metadata":"structural system*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":GeoAI OR
+    "All Metadata":"computer vision" OR
+    "All Metadata":"remote sensing" OR
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":LiDAR OR
+    "All Metadata":UAV OR
+    "All Metadata":satellite OR
+    "All Metadata":aerial OR
+    "All Metadata":GIS OR
+    "All Metadata":geospatial OR
+    "All Metadata":"vision-language" OR
+    "All Metadata":"semantic segmentation" OR
+    "All Metadata":"object detection" OR
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning"
+  )
+  AND
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"urban stock*" OR
+    "All Metadata":"material inventor*" OR
+    "All Metadata":archetype OR
+    "All Metadata":archetypes OR
+    "All Metadata":circular OR
+    "All Metadata":circularity OR
+    "All Metadata":"urban mining" OR
+    "All Metadata":"embodied carbon" OR
+    "All Metadata":"life cycle assessment" OR
+    "All Metadata":LCA
+  )
+)
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-1_base/S1-1C.txt
+(
+  (
+    "All Metadata":"building typolog*" OR
+    "All Metadata":"building type*" OR
+    "All Metadata":"structural system*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+  AND
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building stock*" OR
+    "All Metadata":archetype OR
+    "All Metadata":archetypes OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":circular OR
+    "All Metadata":circularity OR
+    "All Metadata":"embodied carbon" OR
+    "All Metadata":LCA
+  )
+)
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-1_base/S1-1D.txt
+(
+  (
+    "All Metadata":"building age" OR
+    "All Metadata":"built year" OR
+    "All Metadata":"building structure*" OR
+    "All Metadata":"structural type*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"neural network*" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+  AND
+  (
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":GIS OR
+    "All Metadata":geospatial OR
+    "All Metadata":urban OR
+    "All Metadata":city
+  )
+)
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-1_base/S2-1A.txt
+(
+  "All Metadata":"building material stock*" OR
+  "All Metadata":"urban building material stock*" OR
+  "All Metadata":"material stock of building*" OR
+  "All Metadata":"materials in building stock*" OR
+  "All Metadata":"building material intensit*" OR
+  "All Metadata":"material intensity of building*"
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-1_base/S2-1B.txt
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material inventor*"
+  )
+  AND
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"existing building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"non-residential building stock*" OR
+    "All Metadata":"building archetype*" OR
+    "All Metadata":"building typolog*"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-1_base/S2-1C.txt
+(
+  (
+    "All Metadata":"building archetype*" OR
+    "All Metadata":"building typolog*" OR
+    "All Metadata":"construction type*" OR
+    "All Metadata":"structural system*"
+  )
+  AND
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":stock OR
+    "All Metadata":urban OR
+    "All Metadata":city OR
+    "All Metadata":neighbourhood* OR
+    "All Metadata":neighborhood* OR
+    "All Metadata":district*
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-1_base/S2-1D.txt
+(
+  (
+    "All Metadata":"material passport*" OR
+    "All Metadata":BIM OR
+    "All Metadata":"building information model*" OR
+    "All Metadata":"building information modelling" OR
+    "All Metadata":"building information modeling"
+  )
+  AND
+  (
+    "All Metadata":"existing building*" OR
+    "All Metadata":"building stock*" OR
+    "All Metadata":demolition OR
+    "All Metadata":deconstruction OR
+    "All Metadata":reuse OR
+    "All Metadata":recycling OR
+    "All Metadata":circular*
+  )
+  AND
+  (
+    "All Metadata":"material inventor*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material quant*" OR
+    "All Metadata":"component inventor*"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-1_base/S2-1E.txt
+(
+  (
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":"residential building*" OR
+    "All Metadata":"non-residential building*" OR
+    "All Metadata":"commercial building*" OR
+    "All Metadata":"office building*" OR
+    "All Metadata":"individual building*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":classification OR
+    "All Metadata":"semi-supervised" OR
+    "All Metadata":"supervised learning" OR
+    "All Metadata":"statistical model*"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S3/queries/S3-1_base/IEEE_S3-1_queries.md
+# IEEE Xplore S3-1 — Base query variants
+
+### S3-1A — 2 result(s)
+```text
+(
+  "All Metadata":"dynamic building stock model*" OR
+  "All Metadata":"dynamic building stock modelling" OR
+  "All Metadata":"building stock dynamic model*" OR
+  "All Metadata":"building stock turnover dynamic*" OR
+  "All Metadata":"stock turnover dynamic*" OR
+  "All Metadata":"building stock mortality" OR
+  "All Metadata":"building stock survival"
+)
+```
+
+### S3-1B-part1 — 1 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"building lifetime*" OR
+    "All Metadata":"building lifespan*" OR
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*" OR
+    "All Metadata":"demolition rate*" OR
+    "All Metadata":"demolition probabilit*"
+  )
+)
+```
+
+### S3-1B-part2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition timing" OR
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data"
+  )
+)
+```
+
+### S3-1C — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+  AND
+  (
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data" OR
+    "All Metadata":"demolition big data"
+  )
+)
+```
+
+### S3-1D — 0 result(s)
+```text
+(
+  "All Metadata":"building lifespan assumption*" OR
+  "All Metadata":"building lifetime assumption*"
+)
+```
+
+### S3-1E — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building material stock*"
+  )
+  AND
+  (
+    "All Metadata":"building lifespan*" OR
+    "All Metadata":"building lifetime*"
+  )
+  AND
+  (
+    "All Metadata":"demolition waste" OR
+    "All Metadata":outflow* OR
+    "All Metadata":"material flow*"
+  )
+)
+```
+
+### S3-1F — 1 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building stocks"
+  )
+  AND
+  (
+    "All Metadata":"construction material flow*" OR
+    "All Metadata":"material flow*" OR
+    "All Metadata":"material outflow*" OR
+    "All Metadata":"stock outflow*"
+  )
+  AND
+  (
+    "All Metadata":temporal OR
+    "All Metadata":dynamic* OR
+    "All Metadata":prospective OR
+    "All Metadata":"over time" OR
+    "All Metadata":"space and time"
+  )
+)
+```
+
+### S3-1G — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"stock turnover dynamics" OR
+    "All Metadata":"building stock turnover"
+  )
+)
+```
+
+
+SOURCE: searches/Scopus/S1/queries/S1-1_base/S1-1.txt
+TITLE-ABS-KEY(
+  (
+    (
+      "building stock*" OR
+      "building inventor*" OR
+      "building material stock*" OR
+      "material cadastre*" OR
+      "resource cadastre*"
+    )
+    AND
+    (
+      GeoAI OR
+      "geospatial artificial intelligence" OR
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      "vision-language" OR
+      multimodal OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "building height" OR
+      "building function" OR
+      "building use" OR
+      "building footprint*" OR
+      "building geometry" OR
+      "building condition" OR
+      "facade material*" OR
+      "façade material*" OR
+      "roof material*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      GeoAI OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      satellite OR
+      aerial OR
+      GIS OR
+      geospatial OR
+      "vision-language" OR
+      "semantic segmentation" OR
+      "object detection" OR
+      "machine learning" OR
+      "deep learning"
+    )
+    AND
+    (
+      "building stock*" OR
+      "material stock*" OR
+      "urban stock*" OR
+      "material inventor*" OR
+      archetype* OR
+      circular* OR
+      "urban mining" OR
+      "embodied carbon" OR
+      "life cycle assessment" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building typolog*" OR
+      "building type*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "material stock*" OR
+      "building stock*" OR
+      archetype* OR
+      "material intensit*" OR
+      circular* OR
+      "embodied carbon" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "built year" OR
+      "building structure*" OR
+      "structural type*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "street view" OR
+      "street-view" OR
+      GIS OR
+      geospatial OR
+      urban OR
+      city
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "thermal comfort" OR
+  "urban heat" OR
+  "urban heat island" OR
+  photovoltaic OR
+  "PV system*" OR
+  HVAC OR
+  "solar energy" OR
+  "heat demand"
+)
+
+SOURCE: searches/Scopus/S2/queries/S2-1_base/S2-1.txt
+TITLE-ABS-KEY(
+  (
+    "building material stock*" OR
+    "urban building material stock*" OR
+    "material stock of building*" OR
+    "materials in building stock*" OR
+    "building material intensit*" OR
+    "material intensity of building*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material inventor*"
+    )
+    AND
+    (
+      "building stock*" OR
+      "existing building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "non-residential building stock*" OR
+      "building archetype*" OR
+      "building typolog*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building archetype*" OR
+      "building typolog*" OR
+      "construction type*" OR
+      "structural system*"
+    )
+    AND
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      stock OR
+      urban OR
+      city OR
+      neighbourhood* OR
+      neighborhood* OR
+      district*
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material passport*" OR
+      BIM OR
+      "building information model*" OR
+      "building information modelling" OR
+      "building information modeling"
+    )
+    AND
+    (
+      "existing building*" OR
+      "building stock*" OR
+      demolition OR
+      deconstruction OR
+      reuse OR
+      recycling OR
+      circular*
+    )
+    AND
+    (
+      "material inventor*" OR
+      "material stock*" OR
+      "material quant*" OR
+      "component inventor*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      "residential building*" OR
+      "non-residential building*" OR
+      "commercial building*" OR
+      "office building*" OR
+      "individual building*"
+    )
+    AND
+    (
+      "machine learning" OR
+      classification OR
+      "semi-supervised" OR
+      "supervised learning" OR
+      "statistical model*"
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  pavement* OR
+  road* OR
+  bridge* OR
+  turbine* OR
+  "wind turbine*" OR
+  "smart window*" OR
+  "3D print*" OR
+  "additive manufacturing" OR
+  battery OR
+  photovoltaic OR
+  "solar cell*" OR
+  "thermal management" OR
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation*" OR
+  "energy simulation*" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "heating energy" OR
+  "cooling energy" OR
+  HVAC OR
+  "thermal comfort" OR
+  "indoor thermal comfort" OR
+  "thermal performance" OR
+  "indoor temperature" OR
+  "urban heat" OR
+  "urban heat island"
+)
+
+SOURCE: searches/Scopus/S3/queries/S3-1_base/S3-1.txt
+TITLE-ABS-KEY(
+  (
+    "dynamic building stock model*" OR
+    "dynamic building stock modelling" OR
+    "building stock dynamic model*" OR
+    "building stock turnover dynamic*" OR
+    "stock turnover dynamic*" OR
+    "building stock mortality" OR
+    "building stock survival"
+  )
+
+  OR
+
+  (
+    (
+      "building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "urban residential building*"
+    )
+    AND
+    (
+      "building lifetime*" OR
+      "building lifespan*" OR
+      "service life distribution*" OR
+      "lifetime distribution*" OR
+      "demolition rate*" OR
+      "demolition probabilit*" OR
+      "demolition timing" OR
+      "demolition record*" OR
+      "demolition data"
+    )
+  )
+
+  OR
+
+  (
+    building*
+    AND
+    (
+      "service life distribution*" OR
+      "lifetime distribution*"
+    )
+    AND
+    (
+      "demolition record*" OR
+      "demolition data" OR
+      "demolition big data"
+    )
+  )
+
+  OR
+
+  (
+    "building lifespan assumption*" OR
+    "building lifetime assumption*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "building material stock*"
+    )
+    AND
+    (
+      "building lifespan*" OR
+      "building lifetime*"
+    )
+    AND
+    (
+      "demolition waste" OR
+      outflow* OR
+      "material flow*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building stock*" OR
+      "building stocks"
+    )
+    AND
+    (
+      "construction material flow*" OR
+      "material flow*" OR
+      "material outflow*" OR
+      "stock outflow*"
+    )
+    AND
+    (
+      temporal OR
+      dynamic* OR
+      prospective OR
+      "over time" OR
+      "space and time"
+    )
+  )
+
+  OR
+
+  (
+    building*
+    AND
+    (
+      "stock turnover dynamics" OR
+      "building stock turnover"
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  biomedical OR
+  clinical OR
+  patient* OR
+  cancer OR
+  "cox regression" OR
+  "survival analysis techniques" OR
+
+  astronaut* OR
+  spacecraft OR
+  satellite OR
+  "space capability" OR
+
+  earthquake* OR
+  seismic* OR
+  "structural reliability" OR
+  "structural health monitoring" OR
+
+  pavement* OR
+  road* OR
+  bridge* OR
+
+  fire OR
+  flashover OR
+  combustion OR
+
+  "residential mobility" OR
+  "population mobility" OR
+  gentrification OR
+  "housing policy" OR
+  "labour market" OR
+  "labor market"
+)
+
+SOURCE: searches/Web_of_Science/S1/queries/S1-1_base/S1-1_Scopus_source.txt
+TITLE-ABS-KEY(
+  (
+    (
+      "building stock*" OR
+      "building inventor*" OR
+      "building material stock*" OR
+      "material cadastre*" OR
+      "resource cadastre*"
+    )
+    AND
+    (
+      GeoAI OR
+      "geospatial artificial intelligence" OR
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      "vision-language" OR
+      multimodal OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "building height" OR
+      "building function" OR
+      "building use" OR
+      "building footprint*" OR
+      "building geometry" OR
+      "building condition" OR
+      "facade material*" OR
+      "façade material*" OR
+      "roof material*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      GeoAI OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      satellite OR
+      aerial OR
+      GIS OR
+      geospatial OR
+      "vision-language" OR
+      "semantic segmentation" OR
+      "object detection" OR
+      "machine learning" OR
+      "deep learning"
+    )
+    AND
+    (
+      "building stock*" OR
+      "material stock*" OR
+      "urban stock*" OR
+      "material inventor*" OR
+      archetype* OR
+      circular* OR
+      "urban mining" OR
+      "embodied carbon" OR
+      "life cycle assessment" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building typolog*" OR
+      "building type*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "material stock*" OR
+      "building stock*" OR
+      archetype* OR
+      "material intensit*" OR
+      circular* OR
+      "embodied carbon" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "built year" OR
+      "building structure*" OR
+      "structural type*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "street view" OR
+      "street-view" OR
+      GIS OR
+      geospatial OR
+      urban OR
+      city
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "thermal comfort" OR
+  "urban heat" OR
+  "urban heat island" OR
+  photovoltaic OR
+  "PV system*" OR
+  HVAC OR
+  "solar energy" OR
+  "heat demand"
+)
+
+
+SOURCE: searches/Web_of_Science/S1/queries/S1-1_base/S1-1_WoS_executed.txt
+(( ( (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR (TI=("building inventor*") OR AB=("building inventor*") OR AK=("building inventor*")) OR (TI=("building material stock*") OR AB=("building material stock*") OR AK=("building material stock*")) OR (TI=("material cadastre*") OR AB=("material cadastre*") OR AK=("material cadastre*")) OR (TI=("resource cadastre*") OR AB=("resource cadastre*") OR AK=("resource cadastre*")) ) AND ( (TI=(GeoAI) OR AB=(GeoAI) OR AK=(GeoAI)) OR (TI=("geospatial artificial intelligence") OR AB=("geospatial artificial intelligence") OR AK=("geospatial artificial intelligence")) OR (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) OR (TI=("neural network*") OR AB=("neural network*") OR AK=("neural network*")) OR (TI=("graph neural network*") OR AB=("graph neural network*") OR AK=("graph neural network*")) OR (TI=("computer vision") OR AB=("computer vision") OR AK=("computer vision")) OR (TI=("remote sensing") OR AB=("remote sensing") OR AK=("remote sensing")) OR (TI=("street view") OR AB=("street view") OR AK=("street view")) OR (TI=("street-view") OR AB=("street-view") OR AK=("street-view")) OR (TI=(LiDAR) OR AB=(LiDAR) OR AK=(LiDAR)) OR (TI=(UAV) OR AB=(UAV) OR AK=(UAV)) OR (TI=("vision-language") OR AB=("vision-language") OR AK=("vision-language")) OR (TI=(multimodal) OR AB=(multimodal) OR AK=(multimodal)) OR (TI=("random forest*") OR AB=("random forest*") OR AK=("random forest*")) OR (TI=("support vector machine*") OR AB=("support vector machine*") OR AK=("support vector machine*")) OR (TI=("logistic regression") OR AB=("logistic regression") OR AK=("logistic regression")) ) ) OR ( ( (TI=("building age") OR AB=("building age") OR AK=("building age")) OR (TI=("building height") OR AB=("building height") OR AK=("building height")) OR (TI=("building function") OR AB=("building function") OR AK=("building function")) OR (TI=("building use") OR AB=("building use") OR AK=("building use")) OR (TI=("building footprint*") OR AB=("building footprint*") OR AK=("building footprint*")) OR (TI=("building geometry") OR AB=("building geometry") OR AK=("building geometry")) OR (TI=("building condition") OR AB=("building condition") OR AK=("building condition")) OR (TI=("facade material*") OR AB=("facade material*") OR AK=("facade material*")) OR (TI=("façade material*") OR AB=("façade material*") OR AK=("façade material*")) OR (TI=("roof material*") OR AB=("roof material*") OR AK=("roof material*")) OR (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*")) OR (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) ) AND ( (TI=(GeoAI) OR AB=(GeoAI) OR AK=(GeoAI)) OR (TI=("computer vision") OR AB=("computer vision") OR AK=("computer vision")) OR (TI=("remote sensing") OR AB=("remote sensing") OR AK=("remote sensing")) OR (TI=("street view") OR AB=("street view") OR AK=("street view")) OR (TI=("street-view") OR AB=("street-view") OR AK=("street-view")) OR (TI=(LiDAR) OR AB=(LiDAR) OR AK=(LiDAR)) OR (TI=(UAV) OR AB=(UAV) OR AK=(UAV)) OR (TI=(satellite) OR AB=(satellite) OR AK=(satellite)) OR (TI=(aerial) OR AB=(aerial) OR AK=(aerial)) OR (TI=(GIS) OR AB=(GIS) OR AK=(GIS)) OR (TI=(geospatial) OR AB=(geospatial) OR AK=(geospatial)) OR (TI=("vision-language") OR AB=("vision-language") OR AK=("vision-language")) OR (TI=("semantic segmentation") OR AB=("semantic segmentation") OR AK=("semantic segmentation")) OR (TI=("object detection") OR AB=("object detection") OR AK=("object detection")) OR (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) ) AND ( (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR (TI=("urban stock*") OR AB=("urban stock*") OR AK=("urban stock*")) OR (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*")) OR (TI=(archetype*) OR AB=(archetype*) OR AK=(archetype*)) OR (TI=(circular*) OR AB=(circular*) OR AK=(circular*)) OR (TI=("urban mining") OR AB=("urban mining") OR AK=("urban mining")) OR (TI=("embodied carbon") OR AB=("embodied carbon") OR AK=("embodied carbon")) OR (TI=("life cycle assessment") OR AB=("life cycle assessment") OR AK=("life cycle assessment")) OR (TI=(LCA) OR AB=(LCA) OR AK=(LCA)) ) ) OR ( ( (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*")) OR (TI=("building type*") OR AB=("building type*") OR AK=("building type*")) OR (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*")) OR (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) ) AND ( (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) OR (TI=("graph neural network*") OR AB=("graph neural network*") OR AK=("graph neural network*")) OR (TI=("random forest*") OR AB=("random forest*") OR AK=("random forest*")) OR (TI=("support vector machine*") OR AB=("support vector machine*") OR AK=("support vector machine*")) OR (TI=("logistic regression") OR AB=("logistic regression") OR AK=("logistic regression")) ) AND ( (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR (TI=(archetype*) OR AB=(archetype*) OR AK=(archetype*)) OR (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR (TI=(circular*) OR AB=(circular*) OR AK=(circular*)) OR (TI=("embodied carbon") OR AB=("embodied carbon") OR AK=("embodied carbon")) OR (TI=(LCA) OR AB=(LCA) OR AK=(LCA)) ) ) OR ( ( (TI=("building age") OR AB=("building age") OR AK=("building age")) OR (TI=("built year") OR AB=("built year") OR AK=("built year")) OR (TI=("building structure*") OR AB=("building structure*") OR AK=("building structure*")) OR (TI=("structural type*") OR AB=("structural type*") OR AK=("structural type*")) OR (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) ) AND ( (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) OR (TI=("neural network*") OR AB=("neural network*") OR AK=("neural network*")) OR (TI=("graph neural network*") OR AB=("graph neural network*") OR AK=("graph neural network*")) OR (TI=("random forest*") OR AB=("random forest*") OR AK=("random forest*")) OR (TI=("support vector machine*") OR AB=("support vector machine*") OR AK=("support vector machine*")) OR (TI=("logistic regression") OR AB=("logistic regression") OR AK=("logistic regression")) ) AND ( (TI=("street view") OR AB=("street view") OR AK=("street view")) OR (TI=("street-view") OR AB=("street-view") OR AK=("street-view")) OR (TI=(GIS) OR AB=(GIS) OR AK=(GIS)) OR (TI=(geospatial) OR AB=(geospatial) OR AK=(geospatial)) OR (TI=(urban) OR AB=(urban) OR AK=(urban)) OR (TI=(city) OR AB=(city) OR AK=(city)) ) ))
+
+NOT ((TI=("operational energy") OR AB=("operational energy") OR AK=("operational energy")) OR (TI=("building energy model*") OR AB=("building energy model*") OR AK=("building energy model*")) OR (TI=("building energy simulation") OR AB=("building energy simulation") OR AK=("building energy simulation")) OR (TI=("energy performance") OR AB=("energy performance") OR AK=("energy performance")) OR (TI=("energy consumption") OR AB=("energy consumption") OR AK=("energy consumption")) OR (TI=("energy demand") OR AB=("energy demand") OR AK=("energy demand")) OR (TI=("heating demand") OR AB=("heating demand") OR AK=("heating demand")) OR (TI=("cooling demand") OR AB=("cooling demand") OR AK=("cooling demand")) OR (TI=("thermal comfort") OR AB=("thermal comfort") OR AK=("thermal comfort")) OR (TI=("urban heat") OR AB=("urban heat") OR AK=("urban heat")) OR (TI=("urban heat island") OR AB=("urban heat island") OR AK=("urban heat island")) OR (TI=(photovoltaic) OR AB=(photovoltaic) OR AK=(photovoltaic)) OR (TI=("PV system*") OR AB=("PV system*") OR AK=("PV system*")) OR (TI=(HVAC) OR AB=(HVAC) OR AK=(HVAC)) OR (TI=("solar energy") OR AB=("solar energy") OR AK=("solar energy")) OR (TI=("heat demand") OR AB=("heat demand") OR AK=("heat demand")))
+
+
+SOURCE: searches/Web_of_Science/S2/queries/S2-1_base/S2-1_Scopus_source.txt
+TITLE-ABS-KEY(
+  (
+    "building material stock*" OR
+    "urban building material stock*" OR
+    "material stock of building*" OR
+    "materials in building stock*" OR
+    "building material intensit*" OR
+    "material intensity of building*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material inventor*"
+    )
+    AND
+    (
+      "building stock*" OR
+      "existing building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "non-residential building stock*" OR
+      "building archetype*" OR
+      "building typolog*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building archetype*" OR
+      "building typolog*" OR
+      "construction type*" OR
+      "structural system*"
+    )
+    AND
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      stock OR
+      urban OR
+      city OR
+      neighbourhood* OR
+      neighborhood* OR
+      district*
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material passport*" OR
+      BIM OR
+      "building information model*" OR
+      "building information modelling" OR
+      "building information modeling"
+    )
+    AND
+    (
+      "existing building*" OR
+      "building stock*" OR
+      demolition OR
+      deconstruction OR
+      reuse OR
+      recycling OR
+      circular*
+    )
+    AND
+    (
+      "material inventor*" OR
+      "material stock*" OR
+      "material quant*" OR
+      "component inventor*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      "residential building*" OR
+      "non-residential building*" OR
+      "commercial building*" OR
+      "office building*" OR
+      "individual building*"
+    )
+    AND
+    (
+      "machine learning" OR
+      classification OR
+      "semi-supervised" OR
+      "supervised learning" OR
+      "statistical model*"
+    )
+  )
+)
+
+AND NOT TITLE-ABS-KEY(
+  pavement* OR
+  road* OR
+  bridge* OR
+  turbine* OR
+  "wind turbine*" OR
+  "smart window*" OR
+  "3D print*" OR
+  "additive manufacturing" OR
+  battery OR
+  photovoltaic OR
+  "solar cell*" OR
+  "thermal management" OR
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation*" OR
+  "energy simulation*" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "heating energy" OR
+  "cooling energy" OR
+  HVAC OR
+  "thermal comfort" OR
+  "indoor thermal comfort" OR
+  "thermal performance" OR
+  "indoor temperature" OR
+  "urban heat" OR
+  "urban heat island"
+)
+
+SOURCE: searches/Web_of_Science/S2/queries/S2-1_base/S2-1_WoS_executed.txt
+(
+  (
+    (TI=("building material stock*") OR AB=("building material stock*") OR AK=("building material stock*")) OR
+    (TI=("urban building material stock*") OR AB=("urban building material stock*") OR AK=("urban building material stock*")) OR
+    (TI=("material stock of building*") OR AB=("material stock of building*") OR AK=("material stock of building*")) OR
+    (TI=("materials in building stock*") OR AB=("materials in building stock*") OR AK=("materials in building stock*")) OR
+    (TI=("building material intensit*") OR AB=("building material intensit*") OR AK=("building material intensit*")) OR
+    (TI=("material intensity of building*") OR AB=("material intensity of building*") OR AK=("material intensity of building*"))
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*"))
+    )
+    AND
+    (
+      (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR
+      (TI=("existing building stock*") OR AB=("existing building stock*") OR AK=("existing building stock*")) OR
+      (TI=("urban building stock*") OR AB=("urban building stock*") OR AK=("urban building stock*")) OR
+      (TI=("residential building stock*") OR AB=("residential building stock*") OR AK=("residential building stock*")) OR
+      (TI=("non-residential building stock*") OR AB=("non-residential building stock*") OR AK=("non-residential building stock*")) OR
+      (TI=("building archetype*") OR AB=("building archetype*") OR AK=("building archetype*")) OR
+      (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*"))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("building archetype*") OR AB=("building archetype*") OR AK=("building archetype*")) OR
+      (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*")) OR
+      (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) OR
+      (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*"))
+    )
+    AND
+    (
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*"))
+    )
+    AND
+    (
+      (TI=(stock) OR AB=(stock) OR AK=(stock)) OR
+      (TI=(urban) OR AB=(urban) OR AK=(urban)) OR
+      (TI=(city) OR AB=(city) OR AK=(city)) OR
+      (TI=(neighbourhood*) OR AB=(neighbourhood*) OR AK=(neighbourhood*)) OR
+      (TI=(neighborhood*) OR AB=(neighborhood*) OR AK=(neighborhood*)) OR
+      (TI=(district*) OR AB=(district*) OR AK=(district*))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material passport*") OR AB=("material passport*") OR AK=("material passport*")) OR
+      (TI=(BIM) OR AB=(BIM) OR AK=(BIM)) OR
+      (TI=("building information model*") OR AB=("building information model*") OR AK=("building information model*")) OR
+      (TI=("building information modelling") OR AB=("building information modelling") OR AK=("building information modelling")) OR
+      (TI=("building information modeling") OR AB=("building information modeling") OR AK=("building information modeling"))
+    )
+    AND
+    (
+      (TI=("existing building*") OR AB=("existing building*") OR AK=("existing building*")) OR
+      (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR
+      (TI=(demolition) OR AB=(demolition) OR AK=(demolition)) OR
+      (TI=(deconstruction) OR AB=(deconstruction) OR AK=(deconstruction)) OR
+      (TI=(reuse) OR AB=(reuse) OR AK=(reuse)) OR
+      (TI=(recycling) OR AB=(recycling) OR AK=(recycling)) OR
+      (TI=(circular*) OR AB=(circular*) OR AK=(circular*))
+    )
+    AND
+    (
+      (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*")) OR
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*")) OR
+      (TI=("component inventor*") OR AB=("component inventor*") OR AK=("component inventor*"))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*"))
+    )
+    AND
+    (
+      (TI=("residential building*") OR AB=("residential building*") OR AK=("residential building*")) OR
+      (TI=("non-residential building*") OR AB=("non-residential building*") OR AK=("non-residential building*")) OR
+      (TI=("commercial building*") OR AB=("commercial building*") OR AK=("commercial building*")) OR
+      (TI=("office building*") OR AB=("office building*") OR AK=("office building*")) OR
+      (TI=("individual building*") OR AB=("individual building*") OR AK=("individual building*"))
+    )
+    AND
+    (
+      (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR
+      (TI=(classification) OR AB=(classification) OR AK=(classification)) OR
+      (TI=("semi-supervised") OR AB=("semi-supervised") OR AK=("semi-supervised")) OR
+      (TI=("supervised learning") OR AB=("supervised learning") OR AK=("supervised learning")) OR
+      (TI=("statistical model*") OR AB=("statistical model*") OR AK=("statistical model*"))
+    )
+  )
+)
+
+NOT (
+  (TI=(pavement*) OR AB=(pavement*) OR AK=(pavement*)) OR
+  (TI=(road*) OR AB=(road*) OR AK=(road*)) OR
+  (TI=(bridge*) OR AB=(bridge*) OR AK=(bridge*)) OR
+  (TI=(turbine*) OR AB=(turbine*) OR AK=(turbine*)) OR
+  (TI=("wind turbine*") OR AB=("wind turbine*") OR AK=("wind turbine*")) OR
+  (TI=("smart window*") OR AB=("smart window*") OR AK=("smart window*")) OR
+  (TI=("3D print*") OR AB=("3D print*") OR AK=("3D print*")) OR
+  (TI=("additive manufacturing") OR AB=("additive manufacturing") OR AK=("additive manufacturing")) OR
+  (TI=(battery) OR AB=(battery) OR AK=(battery)) OR
+  (TI=(photovoltaic) OR AB=(photovoltaic) OR AK=(photovoltaic)) OR
+  (TI=("solar cell*") OR AB=("solar cell*") OR AK=("solar cell*")) OR
+  (TI=("thermal management") OR AB=("thermal management") OR AK=("thermal management")) OR
+  (TI=("operational energy") OR AB=("operational energy") OR AK=("operational energy")) OR
+  (TI=("building energy model*") OR AB=("building energy model*") OR AK=("building energy model*")) OR
+  (TI=("building energy simulation*") OR AB=("building energy simulation*") OR AK=("building energy simulation*")) OR
+  (TI=("energy simulation*") OR AB=("energy simulation*") OR AK=("energy simulation*")) OR
+  (TI=("energy performance") OR AB=("energy performance") OR AK=("energy performance")) OR
+  (TI=("energy consumption") OR AB=("energy consumption") OR AK=("energy consumption")) OR
+  (TI=("energy demand") OR AB=("energy demand") OR AK=("energy demand")) OR
+  (TI=("heating demand") OR AB=("heating demand") OR AK=("heating demand")) OR
+  (TI=("cooling demand") OR AB=("cooling demand") OR AK=("cooling demand")) OR
+  (TI=("heating energy") OR AB=("heating energy") OR AK=("heating energy")) OR
+  (TI=("cooling energy") OR AB=("cooling energy") OR AK=("cooling energy")) OR
+  (TI=(HVAC) OR AB=(HVAC) OR AK=(HVAC)) OR
+  (TI=("thermal comfort") OR AB=("thermal comfort") OR AK=("thermal comfort")) OR
+  (TI=("indoor thermal comfort") OR AB=("indoor thermal comfort") OR AK=("indoor thermal comfort")) OR
+  (TI=("thermal performance") OR AB=("thermal performance") OR AK=("thermal performance")) OR
+  (TI=("indoor temperature") OR AB=("indoor temperature") OR AK=("indoor temperature")) OR
+  (TI=("urban heat") OR AB=("urban heat") OR AK=("urban heat")) OR
+  (TI=("urban heat island") OR AB=("urban heat island") OR AK=("urban heat island"))
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-2_uncertainty/S1-2A.txt
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building inventor*" OR
+    "All Metadata":"building material stock*" OR
+    "All Metadata":"material cadastre*" OR
+    "All Metadata":"resource cadastre*"
+  )
+  AND
+  (
+    "All Metadata":GeoAI OR
+    "All Metadata":"geospatial artificial intelligence" OR
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"neural network*" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"computer vision" OR
+    "All Metadata":"remote sensing" OR
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":LiDAR OR
+    "All Metadata":UAV OR
+    "All Metadata":"vision-language" OR
+    "All Metadata":multimodal OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+)
+
+AND
+(
+  "All Metadata":uncertainty OR
+  "All Metadata":uncertainties OR
+  "All Metadata":uncertain OR
+  "All Metadata":probability OR
+  "All Metadata":probabilistic OR
+  "All Metadata":stochastic OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitivity OR
+  "All Metadata":sensitivities OR
+  "All Metadata":variability OR
+  "All Metadata":variabilities OR
+  "All Metadata":calibration OR
+  "All Metadata":calibrated OR
+  "All Metadata":robust OR
+  "All Metadata":robustness OR
+  "All Metadata":"decision confidence" OR
+  "All Metadata":"value of information" OR
+  "All Metadata":"prediction interval" OR
+  "All Metadata":"prediction intervals" OR
+  "All Metadata":"confidence interval" OR
+  "All Metadata":"confidence intervals" OR
+  "All Metadata":"credible interval" OR
+  "All Metadata":"credible intervals" OR
+  "All Metadata":bootstrap OR
+  "All Metadata":bootstrapping OR
+  "All Metadata":ensemble OR
+  "All Metadata":ensembles
+)
+
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-2_uncertainty/S1-2B.txt
+(
+  (
+    "All Metadata":"building age" OR
+    "All Metadata":"building height" OR
+    "All Metadata":"building function" OR
+    "All Metadata":"building use" OR
+    "All Metadata":"building footprint*" OR
+    "All Metadata":"building geometry" OR
+    "All Metadata":"building condition" OR
+    "All Metadata":"facade material*" OR
+    "All Metadata":"façade material*" OR
+    "All Metadata":"roof material*" OR
+    "All Metadata":"structural system*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":GeoAI OR
+    "All Metadata":"computer vision" OR
+    "All Metadata":"remote sensing" OR
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":LiDAR OR
+    "All Metadata":UAV OR
+    "All Metadata":satellite OR
+    "All Metadata":aerial OR
+    "All Metadata":GIS OR
+    "All Metadata":geospatial OR
+    "All Metadata":"vision-language" OR
+    "All Metadata":"semantic segmentation" OR
+    "All Metadata":"object detection" OR
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning"
+  )
+  AND
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"urban stock*" OR
+    "All Metadata":"material inventor*" OR
+    "All Metadata":archetype OR
+    "All Metadata":archetypes OR
+    "All Metadata":circular OR
+    "All Metadata":circularity OR
+    "All Metadata":"urban mining" OR
+    "All Metadata":"embodied carbon" OR
+    "All Metadata":"life cycle assessment" OR
+    "All Metadata":LCA
+  )
+)
+
+AND
+(
+  "All Metadata":uncertainty OR
+  "All Metadata":uncertainties OR
+  "All Metadata":uncertain OR
+  "All Metadata":probability OR
+  "All Metadata":probabilistic OR
+  "All Metadata":stochastic OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitivity OR
+  "All Metadata":sensitivities OR
+  "All Metadata":variability OR
+  "All Metadata":variabilities OR
+  "All Metadata":calibration OR
+  "All Metadata":calibrated OR
+  "All Metadata":robust OR
+  "All Metadata":robustness OR
+  "All Metadata":"decision confidence" OR
+  "All Metadata":"value of information" OR
+  "All Metadata":"prediction interval" OR
+  "All Metadata":"prediction intervals" OR
+  "All Metadata":"confidence interval" OR
+  "All Metadata":"confidence intervals" OR
+  "All Metadata":"credible interval" OR
+  "All Metadata":"credible intervals" OR
+  "All Metadata":bootstrap OR
+  "All Metadata":bootstrapping OR
+  "All Metadata":ensemble OR
+  "All Metadata":ensembles
+)
+
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-2_uncertainty/S1-2C.txt
+(
+  (
+    "All Metadata":"building typolog*" OR
+    "All Metadata":"building type*" OR
+    "All Metadata":"structural system*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+  AND
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building stock*" OR
+    "All Metadata":archetype OR
+    "All Metadata":archetypes OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":circular OR
+    "All Metadata":circularity OR
+    "All Metadata":"embodied carbon" OR
+    "All Metadata":LCA
+  )
+)
+
+AND
+(
+  "All Metadata":uncertainty OR
+  "All Metadata":uncertainties OR
+  "All Metadata":uncertain OR
+  "All Metadata":probability OR
+  "All Metadata":probabilistic OR
+  "All Metadata":stochastic OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitivity OR
+  "All Metadata":sensitivities OR
+  "All Metadata":variability OR
+  "All Metadata":variabilities OR
+  "All Metadata":calibration OR
+  "All Metadata":calibrated OR
+  "All Metadata":robust OR
+  "All Metadata":robustness OR
+  "All Metadata":"decision confidence" OR
+  "All Metadata":"value of information" OR
+  "All Metadata":"prediction interval" OR
+  "All Metadata":"prediction intervals" OR
+  "All Metadata":"confidence interval" OR
+  "All Metadata":"confidence intervals" OR
+  "All Metadata":"credible interval" OR
+  "All Metadata":"credible intervals" OR
+  "All Metadata":bootstrap OR
+  "All Metadata":bootstrapping OR
+  "All Metadata":ensemble OR
+  "All Metadata":ensembles
+)
+
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S1/queries/S1-2_uncertainty/S1-2D.txt
+(
+  (
+    "All Metadata":"building age" OR
+    "All Metadata":"built year" OR
+    "All Metadata":"building structure*" OR
+    "All Metadata":"structural type*" OR
+    "All Metadata":"construction type*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":"deep learning" OR
+    "All Metadata":"neural network*" OR
+    "All Metadata":"graph neural network*" OR
+    "All Metadata":"random forest*" OR
+    "All Metadata":"support vector machine*" OR
+    "All Metadata":"logistic regression"
+  )
+  AND
+  (
+    "All Metadata":"street view" OR
+    "All Metadata":"street-view" OR
+    "All Metadata":GIS OR
+    "All Metadata":geospatial OR
+    "All Metadata":urban OR
+    "All Metadata":city
+  )
+)
+
+AND
+(
+  "All Metadata":uncertainty OR
+  "All Metadata":uncertainties OR
+  "All Metadata":uncertain OR
+  "All Metadata":probability OR
+  "All Metadata":probabilistic OR
+  "All Metadata":stochastic OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitivity OR
+  "All Metadata":sensitivities OR
+  "All Metadata":variability OR
+  "All Metadata":variabilities OR
+  "All Metadata":calibration OR
+  "All Metadata":calibrated OR
+  "All Metadata":robust OR
+  "All Metadata":robustness OR
+  "All Metadata":"decision confidence" OR
+  "All Metadata":"value of information" OR
+  "All Metadata":"prediction interval" OR
+  "All Metadata":"prediction intervals" OR
+  "All Metadata":"confidence interval" OR
+  "All Metadata":"confidence intervals" OR
+  "All Metadata":"credible interval" OR
+  "All Metadata":"credible intervals" OR
+  "All Metadata":bootstrap OR
+  "All Metadata":bootstrapping OR
+  "All Metadata":ensemble OR
+  "All Metadata":ensembles
+)
+
+NOT
+(
+  "All Metadata":"operational energy" OR
+  "All Metadata":"building energy model" OR
+  "All Metadata":"building energy models" OR
+  "All Metadata":"building energy simulation" OR
+  "All Metadata":"energy performance" OR
+  "All Metadata":"energy consumption" OR
+  "All Metadata":"energy demand" OR
+  "All Metadata":"heating demand" OR
+  "All Metadata":"cooling demand" OR
+  "All Metadata":"thermal comfort" OR
+  "All Metadata":"urban heat" OR
+  "All Metadata":"urban heat island" OR
+  "All Metadata":photovoltaic OR
+  "All Metadata":"PV system" OR
+  "All Metadata":"PV systems" OR
+  "All Metadata":HVAC OR
+  "All Metadata":"solar energy" OR
+  "All Metadata":"heat demand"
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-2_uncertainty/S2-2A.txt
+(
+  "All Metadata":"building material stock*" OR
+  "All Metadata":"urban building material stock*" OR
+  "All Metadata":"material stock of building*" OR
+  "All Metadata":"materials in building stock*" OR
+  "All Metadata":"building material intensit*" OR
+  "All Metadata":"material intensity of building*"
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-2_uncertainty/S2-2B.txt
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material inventor*"
+  )
+  AND
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"existing building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"non-residential building stock*" OR
+    "All Metadata":"building archetype*" OR
+    "All Metadata":"building typolog*"
+  )
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-2_uncertainty/S2-2C.txt
+(
+  (
+    "All Metadata":"building archetype*" OR
+    "All Metadata":"building typolog*" OR
+    "All Metadata":"construction type*" OR
+    "All Metadata":"structural system*"
+  )
+  AND
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":stock OR
+    "All Metadata":urban OR
+    "All Metadata":city OR
+    "All Metadata":neighbourhood* OR
+    "All Metadata":neighborhood* OR
+    "All Metadata":district*
+  )
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-2_uncertainty/S2-2D.txt
+(
+  (
+    "All Metadata":"material passport*" OR
+    "All Metadata":BIM OR
+    "All Metadata":"building information model*" OR
+    "All Metadata":"building information modelling" OR
+    "All Metadata":"building information modeling"
+  )
+  AND
+  (
+    "All Metadata":"existing building*" OR
+    "All Metadata":"building stock*" OR
+    "All Metadata":demolition OR
+    "All Metadata":deconstruction OR
+    "All Metadata":reuse OR
+    "All Metadata":recycling OR
+    "All Metadata":circular*
+  )
+  AND
+  (
+    "All Metadata":"material inventor*" OR
+    "All Metadata":"material stock*" OR
+    "All Metadata":"material quant*" OR
+    "All Metadata":"component inventor*"
+  )
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S2/queries/S2-2_uncertainty/S2-2E.txt
+(
+  (
+    "All Metadata":"material intensit*" OR
+    "All Metadata":"material composition" OR
+    "All Metadata":"material quant*"
+  )
+  AND
+  (
+    "All Metadata":"residential building*" OR
+    "All Metadata":"non-residential building*" OR
+    "All Metadata":"commercial building*" OR
+    "All Metadata":"office building*" OR
+    "All Metadata":"individual building*"
+  )
+  AND
+  (
+    "All Metadata":"machine learning" OR
+    "All Metadata":classification OR
+    "All Metadata":"semi-supervised" OR
+    "All Metadata":"supervised learning" OR
+    "All Metadata":"statistical model*"
+  )
+)
+
+AND
+(
+  (
+    "All Metadata":uncertainty OR
+    "All Metadata":uncertainties OR
+    "All Metadata":uncertain OR
+    "All Metadata":probability OR
+    "All Metadata":probabilistic OR
+    "All Metadata":stochastic OR
+    "All Metadata":Bayesian OR
+    "All Metadata":"Monte Carlo" OR
+    "All Metadata":sensitivity OR
+    "All Metadata":sensitivities OR
+    "All Metadata":variability OR
+    "All Metadata":variabilities OR
+    "All Metadata":calibration OR
+    "All Metadata":calibrated
+  )
+  OR
+  (
+    "All Metadata":robust OR
+    "All Metadata":robustness OR
+    "All Metadata":"prediction interval" OR
+    "All Metadata":"prediction intervals" OR
+    "All Metadata":"confidence interval" OR
+    "All Metadata":"confidence intervals" OR
+    "All Metadata":"credible interval" OR
+    "All Metadata":"credible intervals" OR
+    "All Metadata":bootstrap OR
+    "All Metadata":bootstrapping OR
+    "All Metadata":ensemble OR
+    "All Metadata":ensembles OR
+    "All Metadata":"value of information"
+  )
+)
+
+SOURCE: searches/IEEE_Xplore/S3/queries/S3-2_uncertainty/IEEE_S3-2_queries.md
+# IEEE Xplore S3-2 — Uncertainty query variants
+
+### S3-2A-U1 — 2 result(s)
+```text
+(
+  "All Metadata":"dynamic building stock model*" OR
+  "All Metadata":"dynamic building stock modelling" OR
+  "All Metadata":"building stock dynamic model*" OR
+  "All Metadata":"building stock turnover dynamic*" OR
+  "All Metadata":"stock turnover dynamic*" OR
+  "All Metadata":"building stock mortality" OR
+  "All Metadata":"building stock survival"
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil*
+)
+```
+
+### S3-2A-U2 — 1 result(s)
+```text
+(
+  "All Metadata":"dynamic building stock model*" OR
+  "All Metadata":"dynamic building stock modelling" OR
+  "All Metadata":"building stock dynamic model*" OR
+  "All Metadata":"building stock turnover dynamic*" OR
+  "All Metadata":"stock turnover dynamic*" OR
+  "All Metadata":"building stock mortality" OR
+  "All Metadata":"building stock survival"
+)
+AND
+(
+  "All Metadata":robust* OR
+  "All Metadata":calibrat* OR
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2A-U3 — 0 result(s)
+```text
+(
+  "All Metadata":"dynamic building stock model*" OR
+  "All Metadata":"dynamic building stock modelling" OR
+  "All Metadata":"building stock dynamic model*" OR
+  "All Metadata":"building stock turnover dynamic*" OR
+  "All Metadata":"stock turnover dynamic*" OR
+  "All Metadata":"building stock mortality" OR
+  "All Metadata":"building stock survival"
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2B-L1-U1 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"building lifetime*" OR
+    "All Metadata":"building lifespan*"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo"
+)
+```
+
+### S3-2B-L1-U2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"building lifetime*" OR
+    "All Metadata":"building lifespan*"
+  )
+)
+AND
+(
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust* OR
+  "All Metadata":calibrat*
+)
+```
+
+### S3-2B-L1-U3 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"building lifetime*" OR
+    "All Metadata":"building lifespan*"
+  )
+)
+AND
+(
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2B-L1-U4 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"building lifetime*" OR
+    "All Metadata":"building lifespan*"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2B-L2-U1 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo"
+)
+```
+
+### S3-2B-L2-U2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+)
+AND
+(
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust* OR
+  "All Metadata":calibrat*
+)
+```
+
+### S3-2B-L2-U3 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+)
+AND
+(
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2B-L2-U4 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2B-L3-U1 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition rate*" OR
+    "All Metadata":"demolition probabilit*"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo"
+)
+```
+
+### S3-2B-L3-U2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition rate*" OR
+    "All Metadata":"demolition probabilit*"
+  )
+)
+AND
+(
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust* OR
+  "All Metadata":calibrat*
+)
+```
+
+### S3-2B-L3-U3 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition rate*" OR
+    "All Metadata":"demolition probabilit*"
+  )
+)
+AND
+(
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2B-L3-U4 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition rate*" OR
+    "All Metadata":"demolition probabilit*"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2B-L4-U1 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition timing" OR
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo"
+)
+```
+
+### S3-2B-L4-U2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition timing" OR
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data"
+  )
+)
+AND
+(
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust* OR
+  "All Metadata":calibrat*
+)
+```
+
+### S3-2B-L4-U3 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition timing" OR
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data"
+  )
+)
+AND
+(
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2B-L4-U4 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"urban building stock*" OR
+    "All Metadata":"residential building stock*" OR
+    "All Metadata":"urban residential building*"
+  )
+  AND
+  (
+    "All Metadata":"demolition timing" OR
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2C-U1 — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+  AND
+  (
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data" OR
+    "All Metadata":"demolition big data"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil*
+)
+```
+
+### S3-2C-U2 — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+  AND
+  (
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data" OR
+    "All Metadata":"demolition big data"
+  )
+)
+AND
+(
+  "All Metadata":robust* OR
+  "All Metadata":calibrat* OR
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2C-U3 — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"service life distribution*" OR
+    "All Metadata":"lifetime distribution*"
+  )
+  AND
+  (
+    "All Metadata":"demolition record*" OR
+    "All Metadata":"demolition data" OR
+    "All Metadata":"demolition big data"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2D-U1 — 0 result(s)
+```text
+(
+  "All Metadata":"building lifespan assumption*" OR
+  "All Metadata":"building lifetime assumption*"
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust*
+)
+```
+
+### S3-2D-U2 — 0 result(s)
+```text
+(
+  "All Metadata":"building lifespan assumption*" OR
+  "All Metadata":"building lifetime assumption*"
+)
+AND
+(
+  "All Metadata":calibrat* OR
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap* OR
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2E-U1 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building material stock*"
+  )
+  AND
+  (
+    "All Metadata":"building lifespan*" OR
+    "All Metadata":"building lifetime*"
+  )
+  AND
+  (
+    "All Metadata":"demolition waste" OR
+    "All Metadata":outflow* OR
+    "All Metadata":"material flow*"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo"
+)
+```
+
+### S3-2E-U2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building material stock*"
+  )
+  AND
+  (
+    "All Metadata":"building lifespan*" OR
+    "All Metadata":"building lifetime*"
+  )
+  AND
+  (
+    "All Metadata":"demolition waste" OR
+    "All Metadata":outflow* OR
+    "All Metadata":"material flow*"
+  )
+)
+AND
+(
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust* OR
+  "All Metadata":calibrat*
+)
+```
+
+### S3-2E-U3 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building material stock*"
+  )
+  AND
+  (
+    "All Metadata":"building lifespan*" OR
+    "All Metadata":"building lifetime*"
+  )
+  AND
+  (
+    "All Metadata":"demolition waste" OR
+    "All Metadata":outflow* OR
+    "All Metadata":"material flow*"
+  )
+)
+AND
+(
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2E-U4 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"material stock*" OR
+    "All Metadata":"building material stock*"
+  )
+  AND
+  (
+    "All Metadata":"building lifespan*" OR
+    "All Metadata":"building lifetime*"
+  )
+  AND
+  (
+    "All Metadata":"demolition waste" OR
+    "All Metadata":outflow* OR
+    "All Metadata":"material flow*"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2F-U1 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building stocks"
+  )
+  AND
+  (
+    "All Metadata":"construction material flow*" OR
+    "All Metadata":"material flow*" OR
+    "All Metadata":"material outflow*" OR
+    "All Metadata":"stock outflow*"
+  )
+  AND
+  (
+    "All Metadata":temporal OR
+    "All Metadata":dynamic* OR
+    "All Metadata":prospective OR
+    "All Metadata":"over time" OR
+    "All Metadata":"space and time"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo"
+)
+```
+
+### S3-2F-U2 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building stocks"
+  )
+  AND
+  (
+    "All Metadata":"construction material flow*" OR
+    "All Metadata":"material flow*" OR
+    "All Metadata":"material outflow*" OR
+    "All Metadata":"stock outflow*"
+  )
+  AND
+  (
+    "All Metadata":temporal OR
+    "All Metadata":dynamic* OR
+    "All Metadata":prospective OR
+    "All Metadata":"over time" OR
+    "All Metadata":"space and time"
+  )
+)
+AND
+(
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust* OR
+  "All Metadata":calibrat*
+)
+```
+
+### S3-2F-U3 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building stocks"
+  )
+  AND
+  (
+    "All Metadata":"construction material flow*" OR
+    "All Metadata":"material flow*" OR
+    "All Metadata":"material outflow*" OR
+    "All Metadata":"stock outflow*"
+  )
+  AND
+  (
+    "All Metadata":temporal OR
+    "All Metadata":dynamic* OR
+    "All Metadata":prospective OR
+    "All Metadata":"over time" OR
+    "All Metadata":"space and time"
+  )
+)
+AND
+(
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap*
+)
+```
+
+### S3-2F-U4 — 0 result(s)
+```text
+(
+  (
+    "All Metadata":"building stock*" OR
+    "All Metadata":"building stocks"
+  )
+  AND
+  (
+    "All Metadata":"construction material flow*" OR
+    "All Metadata":"material flow*" OR
+    "All Metadata":"material outflow*" OR
+    "All Metadata":"stock outflow*"
+  )
+  AND
+  (
+    "All Metadata":temporal OR
+    "All Metadata":dynamic* OR
+    "All Metadata":prospective OR
+    "All Metadata":"over time" OR
+    "All Metadata":"space and time"
+  )
+)
+AND
+(
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+### S3-2G-U1 — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"stock turnover dynamics" OR
+    "All Metadata":"building stock turnover"
+  )
+)
+AND
+(
+  "All Metadata":uncertaint* OR
+  "All Metadata":uncertain* OR
+  "All Metadata":probabil* OR
+  "All Metadata":stochastic* OR
+  "All Metadata":Bayesian OR
+  "All Metadata":"Monte Carlo" OR
+  "All Metadata":sensitiv* OR
+  "All Metadata":variabil* OR
+  "All Metadata":robust*
+)
+```
+
+### S3-2G-U2 — 0 result(s)
+```text
+(
+  "All Metadata":building*
+  AND
+  (
+    "All Metadata":"stock turnover dynamics" OR
+    "All Metadata":"building stock turnover"
+  )
+)
+AND
+(
+  "All Metadata":calibrat* OR
+  "All Metadata":"prediction interval*" OR
+  "All Metadata":"confidence interval*" OR
+  "All Metadata":"credible interval*" OR
+  "All Metadata":bootstrap* OR
+  "All Metadata":ensemble* OR
+  "All Metadata":"scenario uncertainty" OR
+  "All Metadata":"parameter uncertainty" OR
+  "All Metadata":"model uncertainty" OR
+  "All Metadata":"value of information"
+)
+```
+
+
+SOURCE: searches/Scopus/S1/queries/S1-2_uncertainty/S1-2.txt
+TITLE-ABS-KEY(
+  (
+    (
+      "building stock*" OR
+      "building inventor*" OR
+      "building material stock*" OR
+      "material cadastre*" OR
+      "resource cadastre*"
+    )
+    AND
+    (
+      GeoAI OR
+      "geospatial artificial intelligence" OR
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      "vision-language" OR
+      multimodal OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "building height" OR
+      "building function" OR
+      "building use" OR
+      "building footprint*" OR
+      "building geometry" OR
+      "building condition" OR
+      "facade material*" OR
+      "façade material*" OR
+      "roof material*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      GeoAI OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      satellite OR
+      aerial OR
+      GIS OR
+      geospatial OR
+      "vision-language" OR
+      "semantic segmentation" OR
+      "object detection" OR
+      "machine learning" OR
+      "deep learning"
+    )
+    AND
+    (
+      "building stock*" OR
+      "material stock*" OR
+      "urban stock*" OR
+      "material inventor*" OR
+      archetype* OR
+      circular* OR
+      "urban mining" OR
+      "embodied carbon" OR
+      "life cycle assessment" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building typolog*" OR
+      "building type*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "material stock*" OR
+      "building stock*" OR
+      archetype* OR
+      "material intensit*" OR
+      circular* OR
+      "embodied carbon" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "built year" OR
+      "building structure*" OR
+      "structural type*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "street view" OR
+      "street-view" OR
+      GIS OR
+      geospatial OR
+      urban OR
+      city
+    )
+  )
+)
+
+AND TITLE-ABS-KEY(
+  uncertaint* OR
+  uncertain* OR
+  probabil* OR
+  stochastic* OR
+  Bayesian OR
+  "Monte Carlo" OR
+  sensitiv* OR
+  variabil* OR
+  calibrat* OR
+  robust* OR
+  "decision confidence" OR
+  "value of information" OR
+  "prediction interval*" OR
+  "confidence interval*" OR
+  "credible interval*" OR
+  bootstrap* OR
+  ensemble*
+)
+
+AND NOT TITLE-ABS-KEY(
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "thermal comfort" OR
+  "urban heat" OR
+  "urban heat island" OR
+  photovoltaic OR
+  "PV system*" OR
+  HVAC OR
+  "solar energy" OR
+  "heat demand"
+)
+
+SOURCE: searches/Scopus/S2/queries/S2-2_uncertainty/S2-2.txt
+TITLE-ABS-KEY(
+  (
+    "building material stock*" OR
+    "urban building material stock*" OR
+    "material stock of building*" OR
+    "materials in building stock*" OR
+    "building material intensit*" OR
+    "material intensity of building*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material inventor*"
+    )
+    AND
+    (
+      "building stock*" OR
+      "existing building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "non-residential building stock*" OR
+      "building archetype*" OR
+      "building typolog*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building archetype*" OR
+      "building typolog*" OR
+      "construction type*" OR
+      "structural system*"
+    )
+    AND
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      stock OR
+      urban OR
+      city OR
+      neighbourhood* OR
+      neighborhood* OR
+      district*
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material passport*" OR
+      BIM OR
+      "building information model*" OR
+      "building information modelling" OR
+      "building information modeling"
+    )
+    AND
+    (
+      "existing building*" OR
+      "building stock*" OR
+      demolition OR
+      deconstruction OR
+      reuse OR
+      recycling OR
+      circular*
+    )
+    AND
+    (
+      "material inventor*" OR
+      "material stock*" OR
+      "material quant*" OR
+      "component inventor*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      "residential building*" OR
+      "non-residential building*" OR
+      "commercial building*" OR
+      "office building*" OR
+      "individual building*"
+    )
+    AND
+    (
+      "machine learning" OR
+      classification OR
+      "semi-supervised" OR
+      "supervised learning" OR
+      "statistical model*"
+    )
+  )
+)
+
+AND TITLE-ABS-KEY(
+  uncertaint* OR
+  uncertain* OR
+  probabil* OR
+  stochastic* OR
+  Bayesian OR
+  "Monte Carlo" OR
+  sensitiv* OR
+  variabil* OR
+  calibrat* OR
+  robust* OR
+  "prediction interval*" OR
+  "confidence interval*" OR
+  "credible interval*" OR
+  bootstrap* OR
+  ensemble* OR
+  "value of information"
+)
+
+AND NOT TITLE-ABS-KEY(
+  pavement* OR
+  road* OR
+  bridge* OR
+  turbine* OR
+  "wind turbine*" OR
+  "smart window*" OR
+  "3D print*" OR
+  "additive manufacturing" OR
+  battery OR
+  photovoltaic OR
+  "solar cell*" OR
+  "thermal management" OR
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation*" OR
+  "energy simulation*" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "heating energy" OR
+  "cooling energy" OR
+  HVAC OR
+  "thermal comfort" OR
+  "indoor thermal comfort" OR
+  "thermal performance" OR
+  "indoor temperature" OR
+  "urban heat" OR
+  "urban heat island"
+)
+
+SOURCE: searches/Scopus/S3/queries/S3-2_uncertainty/S3-2.txt
+TITLE-ABS-KEY(
+  (
+    "dynamic building stock model*" OR
+    "dynamic building stock modelling" OR
+    "building stock dynamic model*" OR
+    "building stock turnover dynamic*" OR
+    "stock turnover dynamic*" OR
+    "building stock mortality" OR
+    "building stock survival"
+  )
+
+  OR
+
+  (
+    (
+      "building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "urban residential building*"
+    )
+    AND
+    (
+      "building lifetime*" OR
+      "building lifespan*" OR
+      "service life distribution*" OR
+      "lifetime distribution*" OR
+      "demolition rate*" OR
+      "demolition probabilit*" OR
+      "demolition timing" OR
+      "demolition record*" OR
+      "demolition data"
+    )
+  )
+
+  OR
+
+  (
+    building*
+    AND
+    (
+      "service life distribution*" OR
+      "lifetime distribution*"
+    )
+    AND
+    (
+      "demolition record*" OR
+      "demolition data" OR
+      "demolition big data"
+    )
+  )
+
+  OR
+
+  (
+    "building lifespan assumption*" OR
+    "building lifetime assumption*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "building material stock*"
+    )
+    AND
+    (
+      "building lifespan*" OR
+      "building lifetime*"
+    )
+    AND
+    (
+      "demolition waste" OR
+      outflow* OR
+      "material flow*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building stock*" OR
+      "building stocks"
+    )
+    AND
+    (
+      "construction material flow*" OR
+      "material flow*" OR
+      "material outflow*" OR
+      "stock outflow*"
+    )
+    AND
+    (
+      temporal OR
+      dynamic* OR
+      prospective OR
+      "over time" OR
+      "space and time"
+    )
+  )
+
+  OR
+
+  (
+    building*
+    AND
+    (
+      "stock turnover dynamics" OR
+      "building stock turnover"
+    )
+  )
+)
+
+AND TITLE-ABS-KEY(
+  uncertaint* OR
+  uncertain* OR
+  probabil* OR
+  stochastic* OR
+  Bayesian OR
+  "Monte Carlo" OR
+  sensitiv* OR
+  variabil* OR
+  robust* OR
+  calibrat* OR
+  "prediction interval*" OR
+  "confidence interval*" OR
+  "credible interval*" OR
+  bootstrap* OR
+  ensemble* OR
+  "scenario uncertainty" OR
+  "parameter uncertainty" OR
+  "model uncertainty" OR
+  "value of information"
+)
+
+AND NOT TITLE-ABS-KEY(
+  biomedical OR
+  clinical OR
+  patient* OR
+  cancer OR
+  "cox regression" OR
+  "survival analysis techniques" OR
+
+  astronaut* OR
+  spacecraft OR
+  satellite OR
+  "space capability" OR
+
+  earthquake* OR
+  seismic* OR
+  "structural reliability" OR
+  "structural health monitoring" OR
+
+  pavement* OR
+  road* OR
+  bridge* OR
+
+  flashover OR
+  combustion OR
+  "fire safety" OR
+  "fire behaviour" OR
+  "fire behavior" OR
+  "fire resistance" OR
+
+  "residential mobility" OR
+  "population mobility" OR
+  "late-life mobility" OR
+  "late life mobility" OR
+  gentrification OR
+
+  "housing policy" OR
+  "labour market" OR
+  "labor market" OR
+  mortgage OR
+  "housing equity"
+)
+
+SOURCE: searches/Web_of_Science/S1/queries/S1-2_uncertainty/S1-2_Scopus_source.txt
+TITLE-ABS-KEY(
+  (
+    (
+      "building stock*" OR
+      "building inventor*" OR
+      "building material stock*" OR
+      "material cadastre*" OR
+      "resource cadastre*"
+    )
+    AND
+    (
+      GeoAI OR
+      "geospatial artificial intelligence" OR
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      "vision-language" OR
+      multimodal OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "building height" OR
+      "building function" OR
+      "building use" OR
+      "building footprint*" OR
+      "building geometry" OR
+      "building condition" OR
+      "facade material*" OR
+      "façade material*" OR
+      "roof material*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      GeoAI OR
+      "computer vision" OR
+      "remote sensing" OR
+      "street view" OR
+      "street-view" OR
+      LiDAR OR
+      UAV OR
+      satellite OR
+      aerial OR
+      GIS OR
+      geospatial OR
+      "vision-language" OR
+      "semantic segmentation" OR
+      "object detection" OR
+      "machine learning" OR
+      "deep learning"
+    )
+    AND
+    (
+      "building stock*" OR
+      "material stock*" OR
+      "urban stock*" OR
+      "material inventor*" OR
+      archetype* OR
+      circular* OR
+      "urban mining" OR
+      "embodied carbon" OR
+      "life cycle assessment" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building typolog*" OR
+      "building type*" OR
+      "structural system*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "material stock*" OR
+      "building stock*" OR
+      archetype* OR
+      "material intensit*" OR
+      circular* OR
+      "embodied carbon" OR
+      LCA
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building age" OR
+      "built year" OR
+      "building structure*" OR
+      "structural type*" OR
+      "construction type*"
+    )
+    AND
+    (
+      "machine learning" OR
+      "deep learning" OR
+      "neural network*" OR
+      "graph neural network*" OR
+      "random forest*" OR
+      "support vector machine*" OR
+      "logistic regression"
+    )
+    AND
+    (
+      "street view" OR
+      "street-view" OR
+      GIS OR
+      geospatial OR
+      urban OR
+      city
+    )
+  )
+)
+
+AND TITLE-ABS-KEY(
+  uncertaint* OR
+  uncertain* OR
+  probabil* OR
+  stochastic* OR
+  Bayesian OR
+  "Monte Carlo" OR
+  sensitiv* OR
+  variabil* OR
+  calibrat* OR
+  robust* OR
+  "decision confidence" OR
+  "value of information" OR
+  "prediction interval*" OR
+  "confidence interval*" OR
+  "credible interval*" OR
+  bootstrap* OR
+  ensemble*
+)
+
+AND NOT TITLE-ABS-KEY(
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "thermal comfort" OR
+  "urban heat" OR
+  "urban heat island" OR
+  photovoltaic OR
+  "PV system*" OR
+  HVAC OR
+  "solar energy" OR
+  "heat demand"
+)
+
+
+SOURCE: searches/Web_of_Science/S1/queries/S1-2_uncertainty/S1-2_WoS_executed.txt
+(( ( (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR (TI=("building inventor*") OR AB=("building inventor*") OR AK=("building inventor*")) OR (TI=("building material stock*") OR AB=("building material stock*") OR AK=("building material stock*")) OR (TI=("material cadastre*") OR AB=("material cadastre*") OR AK=("material cadastre*")) OR (TI=("resource cadastre*") OR AB=("resource cadastre*") OR AK=("resource cadastre*")) ) AND ( (TI=(GeoAI) OR AB=(GeoAI) OR AK=(GeoAI)) OR (TI=("geospatial artificial intelligence") OR AB=("geospatial artificial intelligence") OR AK=("geospatial artificial intelligence")) OR (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) OR (TI=("neural network*") OR AB=("neural network*") OR AK=("neural network*")) OR (TI=("graph neural network*") OR AB=("graph neural network*") OR AK=("graph neural network*")) OR (TI=("computer vision") OR AB=("computer vision") OR AK=("computer vision")) OR (TI=("remote sensing") OR AB=("remote sensing") OR AK=("remote sensing")) OR (TI=("street view") OR AB=("street view") OR AK=("street view")) OR (TI=("street-view") OR AB=("street-view") OR AK=("street-view")) OR (TI=(LiDAR) OR AB=(LiDAR) OR AK=(LiDAR)) OR (TI=(UAV) OR AB=(UAV) OR AK=(UAV)) OR (TI=("vision-language") OR AB=("vision-language") OR AK=("vision-language")) OR (TI=(multimodal) OR AB=(multimodal) OR AK=(multimodal)) OR (TI=("random forest*") OR AB=("random forest*") OR AK=("random forest*")) OR (TI=("support vector machine*") OR AB=("support vector machine*") OR AK=("support vector machine*")) OR (TI=("logistic regression") OR AB=("logistic regression") OR AK=("logistic regression")) ) ) OR ( ( (TI=("building age") OR AB=("building age") OR AK=("building age")) OR (TI=("building height") OR AB=("building height") OR AK=("building height")) OR (TI=("building function") OR AB=("building function") OR AK=("building function")) OR (TI=("building use") OR AB=("building use") OR AK=("building use")) OR (TI=("building footprint*") OR AB=("building footprint*") OR AK=("building footprint*")) OR (TI=("building geometry") OR AB=("building geometry") OR AK=("building geometry")) OR (TI=("building condition") OR AB=("building condition") OR AK=("building condition")) OR (TI=("facade material*") OR AB=("facade material*") OR AK=("facade material*")) OR (TI=("façade material*") OR AB=("façade material*") OR AK=("façade material*")) OR (TI=("roof material*") OR AB=("roof material*") OR AK=("roof material*")) OR (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*")) OR (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) ) AND ( (TI=(GeoAI) OR AB=(GeoAI) OR AK=(GeoAI)) OR (TI=("computer vision") OR AB=("computer vision") OR AK=("computer vision")) OR (TI=("remote sensing") OR AB=("remote sensing") OR AK=("remote sensing")) OR (TI=("street view") OR AB=("street view") OR AK=("street view")) OR (TI=("street-view") OR AB=("street-view") OR AK=("street-view")) OR (TI=(LiDAR) OR AB=(LiDAR) OR AK=(LiDAR)) OR (TI=(UAV) OR AB=(UAV) OR AK=(UAV)) OR (TI=(satellite) OR AB=(satellite) OR AK=(satellite)) OR (TI=(aerial) OR AB=(aerial) OR AK=(aerial)) OR (TI=(GIS) OR AB=(GIS) OR AK=(GIS)) OR (TI=(geospatial) OR AB=(geospatial) OR AK=(geospatial)) OR (TI=("vision-language") OR AB=("vision-language") OR AK=("vision-language")) OR (TI=("semantic segmentation") OR AB=("semantic segmentation") OR AK=("semantic segmentation")) OR (TI=("object detection") OR AB=("object detection") OR AK=("object detection")) OR (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) ) AND ( (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR (TI=("urban stock*") OR AB=("urban stock*") OR AK=("urban stock*")) OR (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*")) OR (TI=(archetype*) OR AB=(archetype*) OR AK=(archetype*)) OR (TI=(circular*) OR AB=(circular*) OR AK=(circular*)) OR (TI=("urban mining") OR AB=("urban mining") OR AK=("urban mining")) OR (TI=("embodied carbon") OR AB=("embodied carbon") OR AK=("embodied carbon")) OR (TI=("life cycle assessment") OR AB=("life cycle assessment") OR AK=("life cycle assessment")) OR (TI=(LCA) OR AB=(LCA) OR AK=(LCA)) ) ) OR ( ( (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*")) OR (TI=("building type*") OR AB=("building type*") OR AK=("building type*")) OR (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*")) OR (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) ) AND ( (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) OR (TI=("graph neural network*") OR AB=("graph neural network*") OR AK=("graph neural network*")) OR (TI=("random forest*") OR AB=("random forest*") OR AK=("random forest*")) OR (TI=("support vector machine*") OR AB=("support vector machine*") OR AK=("support vector machine*")) OR (TI=("logistic regression") OR AB=("logistic regression") OR AK=("logistic regression")) ) AND ( (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR (TI=(archetype*) OR AB=(archetype*) OR AK=(archetype*)) OR (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR (TI=(circular*) OR AB=(circular*) OR AK=(circular*)) OR (TI=("embodied carbon") OR AB=("embodied carbon") OR AK=("embodied carbon")) OR (TI=(LCA) OR AB=(LCA) OR AK=(LCA)) ) ) OR ( ( (TI=("building age") OR AB=("building age") OR AK=("building age")) OR (TI=("built year") OR AB=("built year") OR AK=("built year")) OR (TI=("building structure*") OR AB=("building structure*") OR AK=("building structure*")) OR (TI=("structural type*") OR AB=("structural type*") OR AK=("structural type*")) OR (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) ) AND ( (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR (TI=("deep learning") OR AB=("deep learning") OR AK=("deep learning")) OR (TI=("neural network*") OR AB=("neural network*") OR AK=("neural network*")) OR (TI=("graph neural network*") OR AB=("graph neural network*") OR AK=("graph neural network*")) OR (TI=("random forest*") OR AB=("random forest*") OR AK=("random forest*")) OR (TI=("support vector machine*") OR AB=("support vector machine*") OR AK=("support vector machine*")) OR (TI=("logistic regression") OR AB=("logistic regression") OR AK=("logistic regression")) ) AND ( (TI=("street view") OR AB=("street view") OR AK=("street view")) OR (TI=("street-view") OR AB=("street-view") OR AK=("street-view")) OR (TI=(GIS) OR AB=(GIS) OR AK=(GIS)) OR (TI=(geospatial) OR AB=(geospatial) OR AK=(geospatial)) OR (TI=(urban) OR AB=(urban) OR AK=(urban)) OR (TI=(city) OR AB=(city) OR AK=(city)) ) ))
+
+AND ((TI=(uncertaint*) OR AB=(uncertaint*) OR AK=(uncertaint*)) OR (TI=(uncertain*) OR AB=(uncertain*) OR AK=(uncertain*)) OR (TI=(probabil*) OR AB=(probabil*) OR AK=(probabil*)) OR (TI=(stochastic*) OR AB=(stochastic*) OR AK=(stochastic*)) OR (TI=(Bayesian) OR AB=(Bayesian) OR AK=(Bayesian)) OR (TI=("Monte Carlo") OR AB=("Monte Carlo") OR AK=("Monte Carlo")) OR (TI=(sensitiv*) OR AB=(sensitiv*) OR AK=(sensitiv*)) OR (TI=(variabil*) OR AB=(variabil*) OR AK=(variabil*)) OR (TI=(calibrat*) OR AB=(calibrat*) OR AK=(calibrat*)) OR (TI=(robust*) OR AB=(robust*) OR AK=(robust*)) OR (TI=("decision confidence") OR AB=("decision confidence") OR AK=("decision confidence")) OR (TI=("value of information") OR AB=("value of information") OR AK=("value of information")) OR (TI=("prediction interval*") OR AB=("prediction interval*") OR AK=("prediction interval*")) OR (TI=("confidence interval*") OR AB=("confidence interval*") OR AK=("confidence interval*")) OR (TI=("credible interval*") OR AB=("credible interval*") OR AK=("credible interval*")) OR (TI=(bootstrap*) OR AB=(bootstrap*) OR AK=(bootstrap*)) OR (TI=(ensemble*) OR AB=(ensemble*) OR AK=(ensemble*)))
+
+NOT ((TI=("operational energy") OR AB=("operational energy") OR AK=("operational energy")) OR (TI=("building energy model*") OR AB=("building energy model*") OR AK=("building energy model*")) OR (TI=("building energy simulation") OR AB=("building energy simulation") OR AK=("building energy simulation")) OR (TI=("energy performance") OR AB=("energy performance") OR AK=("energy performance")) OR (TI=("energy consumption") OR AB=("energy consumption") OR AK=("energy consumption")) OR (TI=("energy demand") OR AB=("energy demand") OR AK=("energy demand")) OR (TI=("heating demand") OR AB=("heating demand") OR AK=("heating demand")) OR (TI=("cooling demand") OR AB=("cooling demand") OR AK=("cooling demand")) OR (TI=("thermal comfort") OR AB=("thermal comfort") OR AK=("thermal comfort")) OR (TI=("urban heat") OR AB=("urban heat") OR AK=("urban heat")) OR (TI=("urban heat island") OR AB=("urban heat island") OR AK=("urban heat island")) OR (TI=(photovoltaic) OR AB=(photovoltaic) OR AK=(photovoltaic)) OR (TI=("PV system*") OR AB=("PV system*") OR AK=("PV system*")) OR (TI=(HVAC) OR AB=(HVAC) OR AK=(HVAC)) OR (TI=("solar energy") OR AB=("solar energy") OR AK=("solar energy")) OR (TI=("heat demand") OR AB=("heat demand") OR AK=("heat demand")))
+
+
+SOURCE: searches/Web_of_Science/S2/queries/S2-2_uncertainty/S2-2_Scopus_source.txt
+TITLE-ABS-KEY(
+  (
+    "building material stock*" OR
+    "urban building material stock*" OR
+    "material stock of building*" OR
+    "materials in building stock*" OR
+    "building material intensit*" OR
+    "material intensity of building*"
+  )
+
+  OR
+
+  (
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material inventor*"
+    )
+    AND
+    (
+      "building stock*" OR
+      "existing building stock*" OR
+      "urban building stock*" OR
+      "residential building stock*" OR
+      "non-residential building stock*" OR
+      "building archetype*" OR
+      "building typolog*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "building archetype*" OR
+      "building typolog*" OR
+      "construction type*" OR
+      "structural system*"
+    )
+    AND
+    (
+      "material stock*" OR
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      stock OR
+      urban OR
+      city OR
+      neighbourhood* OR
+      neighborhood* OR
+      district*
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material passport*" OR
+      BIM OR
+      "building information model*" OR
+      "building information modelling" OR
+      "building information modeling"
+    )
+    AND
+    (
+      "existing building*" OR
+      "building stock*" OR
+      demolition OR
+      deconstruction OR
+      reuse OR
+      recycling OR
+      circular*
+    )
+    AND
+    (
+      "material inventor*" OR
+      "material stock*" OR
+      "material quant*" OR
+      "component inventor*"
+    )
+  )
+
+  OR
+
+  (
+    (
+      "material intensit*" OR
+      "material composition" OR
+      "material quant*"
+    )
+    AND
+    (
+      "residential building*" OR
+      "non-residential building*" OR
+      "commercial building*" OR
+      "office building*" OR
+      "individual building*"
+    )
+    AND
+    (
+      "machine learning" OR
+      classification OR
+      "semi-supervised" OR
+      "supervised learning" OR
+      "statistical model*"
+    )
+  )
+)
+
+AND TITLE-ABS-KEY(
+  uncertaint* OR
+  uncertain* OR
+  probabil* OR
+  stochastic* OR
+  Bayesian OR
+  "Monte Carlo" OR
+  sensitiv* OR
+  variabil* OR
+  calibrat* OR
+  robust* OR
+  "prediction interval*" OR
+  "confidence interval*" OR
+  "credible interval*" OR
+  bootstrap* OR
+  ensemble* OR
+  "value of information"
+)
+
+AND NOT TITLE-ABS-KEY(
+  pavement* OR
+  road* OR
+  bridge* OR
+  turbine* OR
+  "wind turbine*" OR
+  "smart window*" OR
+  "3D print*" OR
+  "additive manufacturing" OR
+  battery OR
+  photovoltaic OR
+  "solar cell*" OR
+  "thermal management" OR
+  "operational energy" OR
+  "building energy model*" OR
+  "building energy simulation*" OR
+  "energy simulation*" OR
+  "energy performance" OR
+  "energy consumption" OR
+  "energy demand" OR
+  "heating demand" OR
+  "cooling demand" OR
+  "heating energy" OR
+  "cooling energy" OR
+  HVAC OR
+  "thermal comfort" OR
+  "indoor thermal comfort" OR
+  "thermal performance" OR
+  "indoor temperature" OR
+  "urban heat" OR
+  "urban heat island"
+)
+
+SOURCE: searches/Web_of_Science/S2/queries/S2-2_uncertainty/S2-2_WoS_executed.txt
+(
+  (
+    (TI=("building material stock*") OR AB=("building material stock*") OR AK=("building material stock*")) OR
+    (TI=("urban building material stock*") OR AB=("urban building material stock*") OR AK=("urban building material stock*")) OR
+    (TI=("material stock of building*") OR AB=("material stock of building*") OR AK=("material stock of building*")) OR
+    (TI=("materials in building stock*") OR AB=("materials in building stock*") OR AK=("materials in building stock*")) OR
+    (TI=("building material intensit*") OR AB=("building material intensit*") OR AK=("building material intensit*")) OR
+    (TI=("material intensity of building*") OR AB=("material intensity of building*") OR AK=("material intensity of building*"))
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*"))
+    )
+    AND
+    (
+      (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR
+      (TI=("existing building stock*") OR AB=("existing building stock*") OR AK=("existing building stock*")) OR
+      (TI=("urban building stock*") OR AB=("urban building stock*") OR AK=("urban building stock*")) OR
+      (TI=("residential building stock*") OR AB=("residential building stock*") OR AK=("residential building stock*")) OR
+      (TI=("non-residential building stock*") OR AB=("non-residential building stock*") OR AK=("non-residential building stock*")) OR
+      (TI=("building archetype*") OR AB=("building archetype*") OR AK=("building archetype*")) OR
+      (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*"))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("building archetype*") OR AB=("building archetype*") OR AK=("building archetype*")) OR
+      (TI=("building typolog*") OR AB=("building typolog*") OR AK=("building typolog*")) OR
+      (TI=("construction type*") OR AB=("construction type*") OR AK=("construction type*")) OR
+      (TI=("structural system*") OR AB=("structural system*") OR AK=("structural system*"))
+    )
+    AND
+    (
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*"))
+    )
+    AND
+    (
+      (TI=(stock) OR AB=(stock) OR AK=(stock)) OR
+      (TI=(urban) OR AB=(urban) OR AK=(urban)) OR
+      (TI=(city) OR AB=(city) OR AK=(city)) OR
+      (TI=(neighbourhood*) OR AB=(neighbourhood*) OR AK=(neighbourhood*)) OR
+      (TI=(neighborhood*) OR AB=(neighborhood*) OR AK=(neighborhood*)) OR
+      (TI=(district*) OR AB=(district*) OR AK=(district*))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material passport*") OR AB=("material passport*") OR AK=("material passport*")) OR
+      (TI=(BIM) OR AB=(BIM) OR AK=(BIM)) OR
+      (TI=("building information model*") OR AB=("building information model*") OR AK=("building information model*")) OR
+      (TI=("building information modelling") OR AB=("building information modelling") OR AK=("building information modelling")) OR
+      (TI=("building information modeling") OR AB=("building information modeling") OR AK=("building information modeling"))
+    )
+    AND
+    (
+      (TI=("existing building*") OR AB=("existing building*") OR AK=("existing building*")) OR
+      (TI=("building stock*") OR AB=("building stock*") OR AK=("building stock*")) OR
+      (TI=(demolition) OR AB=(demolition) OR AK=(demolition)) OR
+      (TI=(deconstruction) OR AB=(deconstruction) OR AK=(deconstruction)) OR
+      (TI=(reuse) OR AB=(reuse) OR AK=(reuse)) OR
+      (TI=(recycling) OR AB=(recycling) OR AK=(recycling)) OR
+      (TI=(circular*) OR AB=(circular*) OR AK=(circular*))
+    )
+    AND
+    (
+      (TI=("material inventor*") OR AB=("material inventor*") OR AK=("material inventor*")) OR
+      (TI=("material stock*") OR AB=("material stock*") OR AK=("material stock*")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*")) OR
+      (TI=("component inventor*") OR AB=("component inventor*") OR AK=("component inventor*"))
+    )
+  )
+
+  OR
+
+  (
+    (
+      (TI=("material intensit*") OR AB=("material intensit*") OR AK=("material intensit*")) OR
+      (TI=("material composition") OR AB=("material composition") OR AK=("material composition")) OR
+      (TI=("material quant*") OR AB=("material quant*") OR AK=("material quant*"))
+    )
+    AND
+    (
+      (TI=("residential building*") OR AB=("residential building*") OR AK=("residential building*")) OR
+      (TI=("non-residential building*") OR AB=("non-residential building*") OR AK=("non-residential building*")) OR
+      (TI=("commercial building*") OR AB=("commercial building*") OR AK=("commercial building*")) OR
+      (TI=("office building*") OR AB=("office building*") OR AK=("office building*")) OR
+      (TI=("individual building*") OR AB=("individual building*") OR AK=("individual building*"))
+    )
+    AND
+    (
+      (TI=("machine learning") OR AB=("machine learning") OR AK=("machine learning")) OR
+      (TI=(classification) OR AB=(classification) OR AK=(classification)) OR
+      (TI=("semi-supervised") OR AB=("semi-supervised") OR AK=("semi-supervised")) OR
+      (TI=("supervised learning") OR AB=("supervised learning") OR AK=("supervised learning")) OR
+      (TI=("statistical model*") OR AB=("statistical model*") OR AK=("statistical model*"))
+    )
+  )
+)
+
+AND (
+  (TI=(uncertaint*) OR AB=(uncertaint*) OR AK=(uncertaint*)) OR
+  (TI=(uncertain*) OR AB=(uncertain*) OR AK=(uncertain*)) OR
+  (TI=(probabil*) OR AB=(probabil*) OR AK=(probabil*)) OR
+  (TI=(stochastic*) OR AB=(stochastic*) OR AK=(stochastic*)) OR
+  (TI=(Bayesian) OR AB=(Bayesian) OR AK=(Bayesian)) OR
+  (TI=("Monte Carlo") OR AB=("Monte Carlo") OR AK=("Monte Carlo")) OR
+  (TI=(sensitiv*) OR AB=(sensitiv*) OR AK=(sensitiv*)) OR
+  (TI=(variabil*) OR AB=(variabil*) OR AK=(variabil*)) OR
+  (TI=(calibrat*) OR AB=(calibrat*) OR AK=(calibrat*)) OR
+  (TI=(robust*) OR AB=(robust*) OR AK=(robust*)) OR
+  (TI=("prediction interval*") OR AB=("prediction interval*") OR AK=("prediction interval*")) OR
+  (TI=("confidence interval*") OR AB=("confidence interval*") OR AK=("confidence interval*")) OR
+  (TI=("credible interval*") OR AB=("credible interval*") OR AK=("credible interval*")) OR
+  (TI=(bootstrap*) OR AB=(bootstrap*) OR AK=(bootstrap*)) OR
+  (TI=(ensemble*) OR AB=(ensemble*) OR AK=(ensemble*)) OR
+  (TI=("value of information") OR AB=("value of information") OR AK=("value of information"))
+)
+
+NOT (
+  (TI=(pavement*) OR AB=(pavement*) OR AK=(pavement*)) OR
+  (TI=(road*) OR AB=(road*) OR AK=(road*)) OR
+  (TI=(bridge*) OR AB=(bridge*) OR AK=(bridge*)) OR
+  (TI=(turbine*) OR AB=(turbine*) OR AK=(turbine*)) OR
+  (TI=("wind turbine*") OR AB=("wind turbine*") OR AK=("wind turbine*")) OR
+  (TI=("smart window*") OR AB=("smart window*") OR AK=("smart window*")) OR
+  (TI=("3D print*") OR AB=("3D print*") OR AK=("3D print*")) OR
+  (TI=("additive manufacturing") OR AB=("additive manufacturing") OR AK=("additive manufacturing")) OR
+  (TI=(battery) OR AB=(battery) OR AK=(battery)) OR
+  (TI=(photovoltaic) OR AB=(photovoltaic) OR AK=(photovoltaic)) OR
+  (TI=("solar cell*") OR AB=("solar cell*") OR AK=("solar cell*")) OR
+  (TI=("thermal management") OR AB=("thermal management") OR AK=("thermal management")) OR
+  (TI=("operational energy") OR AB=("operational energy") OR AK=("operational energy")) OR
+  (TI=("building energy model*") OR AB=("building energy model*") OR AK=("building energy model*")) OR
+  (TI=("building energy simulation*") OR AB=("building energy simulation*") OR AK=("building energy simulation*")) OR
+  (TI=("energy simulation*") OR AB=("energy simulation*") OR AK=("energy simulation*")) OR
+  (TI=("energy performance") OR AB=("energy performance") OR AK=("energy performance")) OR
+  (TI=("energy consumption") OR AB=("energy consumption") OR AK=("energy consumption")) OR
+  (TI=("energy demand") OR AB=("energy demand") OR AK=("energy demand")) OR
+  (TI=("heating demand") OR AB=("heating demand") OR AK=("heating demand")) OR
+  (TI=("cooling demand") OR AB=("cooling demand") OR AK=("cooling demand")) OR
+  (TI=("heating energy") OR AB=("heating energy") OR AK=("heating energy")) OR
+  (TI=("cooling energy") OR AB=("cooling energy") OR AK=("cooling energy")) OR
+  (TI=(HVAC) OR AB=(HVAC) OR AK=(HVAC)) OR
+  (TI=("thermal comfort") OR AB=("thermal comfort") OR AK=("thermal comfort")) OR
+  (TI=("indoor thermal comfort") OR AB=("indoor thermal comfort") OR AK=("indoor thermal comfort")) OR
+  (TI=("thermal performance") OR AB=("thermal performance") OR AK=("thermal performance")) OR
+  (TI=("indoor temperature") OR AB=("indoor temperature") OR AK=("indoor temperature")) OR
+  (TI=("urban heat") OR AB=("urban heat") OR AK=("urban heat")) OR
+  (TI=("urban heat island") OR AB=("urban heat island") OR AK=("urban heat island"))
+)
+

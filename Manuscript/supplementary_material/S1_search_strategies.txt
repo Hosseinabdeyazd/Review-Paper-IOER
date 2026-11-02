@@ -1,0 +1,554 @@
+SUPPLEMENT S1 — SEARCH STRATEGIES AND TRACEABILITY
+
+This is a transcription of archived protocols, not evidence that every listed string was executed unchanged. Execution logs are appended separately. Missing historical strings are not reconstructed retrospectively.
+
+Order: Base; Base + U; Base + DT; Base + DT + U; general DT; general DT + U; focused supplementary searches.
+U = uncertainty; DT = digital twin. Base = the building/material-flow stage concepts. Search families overlap and do not form a disjoint partition.
+
+
+Base
+Source: S4 S5 Core Review/protocol/queries.json
+S1–S3: exact archived expressions have now been recovered from GitHub; see S1_S3_recovered_queries.txt. WoS S3 execution-string reconciliation remains open.
+
+S4-1 [archived Scopus syntax]
+TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND (reuse OR recycl* OR recover* OR deconstruction OR "urban mining" OR "secondary material*" OR "material passport*" OR matching OR logistics OR separab* OR disassembl* OR circular* OR "reverse logistics"))
+
+S5-1 [archived Scopus syntax]
+TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND ("embodied carbon" OR "embodied emission*" OR "embodied greenhouse gas*" OR "life cycle assessment" OR "life-cycle assessment" OR LCA OR "environmental impact*" OR decision* OR ranking OR priorit* OR "decision support" OR intervention* OR "carbon footprint"))
+
+
+Base + U
+Source: S4 S5 Core Review/protocol/queries.json
+S1–S3: exact archived expressions have now been recovered from GitHub; see S1_S3_recovered_queries.txt. WoS S3 execution-string reconciliation remains open.
+
+S4-2 [archived Scopus syntax]
+TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND (reuse OR recycl* OR recover* OR deconstruction OR "urban mining" OR "secondary material*" OR "material passport*" OR matching OR logistics OR separab* OR disassembl* OR circular* OR "reverse logistics") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR "Monte Carlo" OR sensitiv* OR variabil* OR calibrat* OR robust* OR "decision confidence" OR "value of information" OR "prediction interval*" OR "confidence interval*"))
+
+S5-2 [archived Scopus syntax]
+TITLE-ABS-KEY(("building stock*" OR "building material stock*" OR "urban material stock*" OR "built environment stock*" OR "building inventor*" OR "building archetype*" OR "material cadastre*" OR "resource cadastre*" OR "existing building*" OR "building portfolio*" OR "urban building*" OR "built stock*") AND ("embodied carbon" OR "embodied emission*" OR "embodied greenhouse gas*" OR "life cycle assessment" OR "life-cycle assessment" OR LCA OR "environmental impact*" OR decision* OR ranking OR priorit* OR "decision support" OR intervention* OR "carbon footprint") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR "Monte Carlo" OR sensitiv* OR variabil* OR calibrat* OR robust* OR "decision confidence" OR "value of information" OR "prediction interval*" OR "confidence interval*"))
+
+
+Base + DT
+Source: Digital Twin Material Flow Review/protocol/queries.json
+{
+  "date": "2026-11-01",
+  "version": "v1",
+  "queries": [
+    {
+      "stage": "S1",
+      "id": "DTMF-S1-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\"))",
+      "status": "executed_all_three_databases",
+      "scope": "building-material chain; not all industrial material flows"
+    },
+    {
+      "stage": "S2",
+      "id": "DTMF-S2-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\"))",
+      "status": "executed_all_three_databases",
+      "scope": "building-material chain; not all industrial material flows"
+    },
+    {
+      "stage": "S3",
+      "id": "DTMF-S3-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\"))",
+      "status": "executed_all_three_databases",
+      "scope": "building-material chain; not all industrial material flows"
+    },
+    {
+      "stage": "S4",
+      "id": "DTMF-S4-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\"))",
+      "status": "executed_all_three_databases",
+      "scope": "building-material chain; not all industrial material flows"
+    },
+    {
+      "stage": "S5",
+      "id": "DTMF-S5-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*)))",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*))))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*))))",
+      "status": "executed_all_three_databases",
+      "scope": "building-material chain; not all industrial material flows"
+    }
+  ],
+  "derivation": "Stage-aligned adaptation of existing Scopus base queries; broader building context; no inherited NOT exclusions, uncertainty or algorithm gate. S4/S5 new-stream versions frozen under user authorization; original drafts unchanged.",
+  "sources": {
+    "searches/Scopus/S1/queries/S1-1_base/S1-1.txt": "TITLE-ABS-KEY(\n  (\n    (\n      \"building stock*\" OR\n      \"building inventor*\" OR\n      \"building material stock*\" OR\n      \"material cadastre*\" OR\n      \"resource cadastre*\"\n    )\n    AND\n    (\n      GeoAI OR\n      \"geospatial artificial intelligence\" OR\n      \"machine learning\" OR\n      \"deep learning\" OR\n      \"neural network*\" OR\n      \"graph neural network*\" OR\n      \"computer vision\" OR\n      \"remote sensing\" OR\n      \"street view\" OR\n      \"street-view\" OR\n      LiDAR OR\n      UAV OR\n      \"vision-language\" OR\n      multimodal OR\n      \"random forest*\" OR\n      \"support vector machine*\" OR\n      \"logistic regression\"\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"building age\" OR\n      \"building height\" OR\n      \"building function\" OR\n      \"building use\" OR\n      \"building footprint*\" OR\n      \"building geometry\" OR\n      \"building condition\" OR\n      \"facade material*\" OR\n      \"façade material*\" OR\n      \"roof material*\" OR\n      \"structural system*\" OR\n      \"construction type*\"\n    )\n    AND\n    (\n      GeoAI OR\n      \"computer vision\" OR\n      \"remote sensing\" OR\n      \"street view\" OR\n      \"street-view\" OR\n      LiDAR OR\n      UAV OR\n      satellite OR\n      aerial OR\n      GIS OR\n      geospatial OR\n      \"vision-language\" OR\n      \"semantic segmentation\" OR\n      \"object detection\" OR\n      \"machine learning\" OR\n      \"deep learning\"\n    )\n    AND\n    (\n      \"building stock*\" OR\n      \"material stock*\" OR\n      \"urban stock*\" OR\n      \"material inventor*\" OR\n      archetype* OR\n      circular* OR\n      \"urban mining\" OR\n      \"embodied carbon\" OR\n      \"life cycle assessment\" OR\n      LCA\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"building typolog*\" OR\n      \"building type*\" OR\n      \"structural system*\" OR\n      \"construction type*\"\n    )\n    AND\n    (\n      \"machine learning\" OR\n      \"deep learning\" OR\n      \"graph neural network*\" OR\n      \"random forest*\" OR\n      \"support vector machine*\" OR\n      \"logistic regression\"\n    )\n    AND\n    (\n      \"material stock*\" OR\n      \"building stock*\" OR\n      archetype* OR\n      \"material intensit*\" OR\n      circular* OR\n      \"embodied carbon\" OR\n      LCA\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"building age\" OR\n      \"built year\" OR\n      \"building structure*\" OR\n      \"structural type*\" OR\n      \"construction type*\"\n    )\n    AND\n    (\n      \"machine learning\" OR\n      \"deep learning\" OR\n      \"neural network*\" OR\n      \"graph neural network*\" OR\n      \"random forest*\" OR\n      \"support vector machine*\" OR\n      \"logistic regression\"\n    )\n    AND\n    (\n      \"street view\" OR\n      \"street-view\" OR\n      GIS OR\n      geospatial OR\n      urban OR\n      city\n    )\n  )\n)\n\nAND NOT TITLE-ABS-KEY(\n  \"operational energy\" OR\n  \"building energy model*\" OR\n  \"building energy simulation\" OR\n  \"energy performance\" OR\n  \"energy consumption\" OR\n  \"energy demand\" OR\n  \"heating demand\" OR\n  \"cooling demand\" OR\n  \"thermal comfort\" OR\n  \"urban heat\" OR\n  \"urban heat island\" OR\n  photovoltaic OR\n  \"PV system*\" OR\n  HVAC OR\n  \"solar energy\" OR\n  \"heat demand\"\n)",
+    "searches/Scopus/S2/queries/S2-1_base/S2-1.txt": "TITLE-ABS-KEY(\n  (\n    \"building material stock*\" OR\n    \"urban building material stock*\" OR\n    \"material stock of building*\" OR\n    \"materials in building stock*\" OR\n    \"building material intensit*\" OR\n    \"material intensity of building*\"\n  )\n\n  OR\n\n  (\n    (\n      \"material stock*\" OR\n      \"material intensit*\" OR\n      \"material composition\" OR\n      \"material inventor*\"\n    )\n    AND\n    (\n      \"building stock*\" OR\n      \"existing building stock*\" OR\n      \"urban building stock*\" OR\n      \"residential building stock*\" OR\n      \"non-residential building stock*\" OR\n      \"building archetype*\" OR\n      \"building typolog*\"\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"building archetype*\" OR\n      \"building typolog*\" OR\n      \"construction type*\" OR\n      \"structural system*\"\n    )\n    AND\n    (\n      \"material stock*\" OR\n      \"material intensit*\" OR\n      \"material composition\" OR\n      \"material quant*\"\n    )\n    AND\n    (\n      stock OR\n      urban OR\n      city OR\n      neighbourhood* OR\n      neighborhood* OR\n      district*\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"material passport*\" OR\n      BIM OR\n      \"building information model*\" OR\n      \"building information modelling\" OR\n      \"building information modeling\"\n    )\n    AND\n    (\n      \"existing building*\" OR\n      \"building stock*\" OR\n      demolition OR\n      deconstruction OR\n      reuse OR\n      recycling OR\n      circular*\n    )\n    AND\n    (\n      \"material inventor*\" OR\n      \"material stock*\" OR\n      \"material quant*\" OR\n      \"component inventor*\"\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"material intensit*\" OR\n      \"material composition\" OR\n      \"material quant*\"\n    )\n    AND\n    (\n      \"residential building*\" OR\n      \"non-residential building*\" OR\n      \"commercial building*\" OR\n      \"office building*\" OR\n      \"individual building*\"\n    )\n    AND\n    (\n      \"machine learning\" OR\n      classification OR\n      \"semi-supervised\" OR\n      \"supervised learning\" OR\n      \"statistical model*\"\n    )\n  )\n)\n\nAND NOT TITLE-ABS-KEY(\n  pavement* OR\n  road* OR\n  bridge* OR\n  turbine* OR\n  \"wind turbine*\" OR\n  \"smart window*\" OR\n  \"3D print*\" OR\n  \"additive manufacturing\" OR\n  battery OR\n  photovoltaic OR\n  \"solar cell*\" OR\n  \"thermal management\" OR\n  \"operational energy\" OR\n  \"building energy model*\" OR\n  \"building energy simulation*\" OR\n  \"energy simulation*\" OR\n  \"energy performance\" OR\n  \"energy consumption\" OR\n  \"energy demand\" OR\n  \"heating demand\" OR\n  \"cooling demand\" OR\n  \"heating energy\" OR\n  \"cooling energy\" OR\n  HVAC OR\n  \"thermal comfort\" OR\n  \"indoor thermal comfort\" OR\n  \"thermal performance\" OR\n  \"indoor temperature\" OR\n  \"urban heat\" OR\n  \"urban heat island\"\n)",
+    "searches/Scopus/S3/queries/S3-1_base/S3-1.txt": "TITLE-ABS-KEY(\n  (\n    \"dynamic building stock model*\" OR\n    \"dynamic building stock modelling\" OR\n    \"building stock dynamic model*\" OR\n    \"building stock turnover dynamic*\" OR\n    \"stock turnover dynamic*\" OR\n    \"building stock mortality\" OR\n    \"building stock survival\"\n  )\n\n  OR\n\n  (\n    (\n      \"building stock*\" OR\n      \"urban building stock*\" OR\n      \"residential building stock*\" OR\n      \"urban residential building*\"\n    )\n    AND\n    (\n      \"building lifetime*\" OR\n      \"building lifespan*\" OR\n      \"service life distribution*\" OR\n      \"lifetime distribution*\" OR\n      \"demolition rate*\" OR\n      \"demolition probabilit*\" OR\n      \"demolition timing\" OR\n      \"demolition record*\" OR\n      \"demolition data\"\n    )\n  )\n\n  OR\n\n  (\n    building*\n    AND\n    (\n      \"service life distribution*\" OR\n      \"lifetime distribution*\"\n    )\n    AND\n    (\n      \"demolition record*\" OR\n      \"demolition data\" OR\n      \"demolition big data\"\n    )\n  )\n\n  OR\n\n  (\n    \"building lifespan assumption*\" OR\n    \"building lifetime assumption*\"\n  )\n\n  OR\n\n  (\n    (\n      \"material stock*\" OR\n      \"building material stock*\"\n    )\n    AND\n    (\n      \"building lifespan*\" OR\n      \"building lifetime*\"\n    )\n    AND\n    (\n      \"demolition waste\" OR\n      outflow* OR\n      \"material flow*\"\n    )\n  )\n\n  OR\n\n  (\n    (\n      \"building stock*\" OR\n      \"building stocks\"\n    )\n    AND\n    (\n      \"construction material flow*\" OR\n      \"material flow*\" OR\n      \"material outflow*\" OR\n      \"stock outflow*\"\n    )\n    AND\n    (\n      temporal OR\n      dynamic* OR\n      prospective OR\n      \"over time\" OR\n      \"space and time\"\n    )\n  )\n\n  OR\n\n  (\n    building*\n    AND\n    (\n      \"stock turnover dynamics\" OR\n      \"building stock turnover\"\n    )\n  )\n)\n\nAND NOT TITLE-ABS-KEY(\n  biomedical OR\n  clinical OR\n  patient* OR\n  cancer OR\n  \"cox regression\" OR\n  \"survival analysis techniques\" OR\n\n  astronaut* OR\n  spacecraft OR\n  satellite OR\n  \"space capability\" OR\n\n  earthquake* OR\n  seismic* OR\n  \"structural reliability\" OR\n  \"structural health monitoring\" OR\n\n  pavement* OR\n  road* OR\n  bridge* OR\n\n  fire OR\n  flashover OR\n  combustion OR\n\n  \"residential mobility\" OR\n  \"population mobility\" OR\n  gentrification OR\n  \"housing policy\" OR\n  \"labour market\" OR\n  \"labor market\"\n)",
+    "searches/Scopus/S4/queries/SCOPUS_S4_queries.md": "# Scopus queries — S4: Circularity / Recoverability\n\n**Status:** DRAFT — NOT FIXED\n\n> **Warning:** These queries are provisional and must not be used for formal retrieval until reviewed and frozen.\n\n## S4-1 — Base\n\n```text\nTITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\"))\n```\n\n## S4-2 — Base + uncertainty\n\n```text\nTITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))\n```\n",
+    "searches/Scopus/S5/queries/SCOPUS_S5_queries.md": "# Scopus queries — S5: LCA / Decision\n\n**Status:** DRAFT — NOT FIXED\n\n> **Warning:** These queries are provisional and must not be used for formal retrieval until reviewed and frozen.\n\n## S5-1 — Base\n\n```text\nTITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\"))\n```\n\n## S5-2 — Base + uncertainty\n\n```text\nTITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))\n```\n"
+  }
+}
+
+
+Base + DT + U
+Source: Digital Twin Material Flow Review/uncertainty_stage_searches_2026-11-02/protocol/queries.json
+{
+  "date": "2026-11-02",
+  "version": "v1",
+  "derivation": "Existing DTMF stage-aligned base queries AND the prior S4/S5 uncertainty block. No date/language/document filters. Metadata retrieval, not full-text evidence.",
+  "uncertainty_block": "(uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+  "queries": [
+    {
+      "stage": "S1",
+      "id": "DTMFU-S1-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "ieee": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (GeoAI OR \"geospatial artificial intelligence\" OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"street view\" OR \"street-view\" OR photogrammetr* OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building reconstruction\" OR \"building geometry\" OR \"building classification\" OR \"building age\" OR \"building footprint*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "status": "executed_all_three_databases_exports_verified"
+    },
+    {
+      "stage": "S2",
+      "id": "DTMFU-S2-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "ieee": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material stock*\" OR \"material inventor*\" OR \"material intensit*\" OR \"material composition\" OR \"material quant*\" OR \"component inventor*\" OR \"material passport*\" OR \"building archetype*\" OR \"building typolog*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "status": "executed_all_three_databases_exports_verified"
+    },
+    {
+      "stage": "S3",
+      "id": "DTMFU-S3-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "ieee": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"material flow*\" OR \"stock dynamic*\" OR \"dynamic stock*\" OR \"stock turnover\" OR \"service life\" OR \"remaining useful life\" OR \"building lifetime*\" OR \"building lifespan*\" OR \"demolition timing\" OR \"demolition prediction\" OR \"demolition probabilit*\" OR \"replacement cycle*\" OR \"renovation scenario*\" OR \"material outflow*\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "status": "executed_all_three_databases_exports_verified"
+    },
+    {
+      "stage": "S4",
+      "id": "DTMFU-S4-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "ieee": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR disassembl* OR circular* OR \"reverse logistics\" OR \"material matching\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "status": "executed_all_three_databases_exports_verified"
+    },
+    {
+      "stage": "S5",
+      "id": "DTMFU-S5-v1",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+      "ieee": "(\"digital twin\" OR \"digital twins\") AND (building* OR \"built environment\" OR \"urban stock\" OR \"urban stocks\" OR \"material cadastre\" OR \"material cadastres\" OR \"resource cadastre\" OR \"resource cadastres\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR \"carbon footprint\" OR ((\"material flow*\" OR \"material stock*\" OR circular* OR \"secondary material*\") AND (\"decision support\" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\")",
+      "status": "executed_all_three_databases_exports_verified"
+    }
+  ]
+}
+
+GENERAL DT / DT + U
+Conceptual blocks only, not a recovered database-specific execution log:
+DT: ("digital twin" OR "digital twins")
+DT + U: DT AND uncertainty concepts. The exact historical U block and field restrictions must be verified from each execution log; stage-specific U terms must not be silently substituted.
+
+
+FOCUSED SUPPLEMENTARY SEARCH
+Source: Digital Twin Material Flow Review/bridge_searches/protocol/queries.json
+{
+  "date": "2026-11-01",
+  "version": "v1",
+  "blocks": {
+    "dt": "(\"digital twin\" OR \"digital twins\")",
+    "context": "(building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\")",
+    "materials": "(\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\")",
+    "observation": "(BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology)",
+    "time": "(\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement)"
+  },
+  "queries": [
+    {
+      "id": "DTMF-B12-v1",
+      "connection": "S1_to_S2",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology) AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\")",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology) AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\"))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (BIM OR \"building information model\" OR \"building information modeling\" OR \"building information modelling\" OR GIS OR CityGML OR IFC OR \"remote sensing\" OR \"computer vision\" OR LiDAR OR \"point cloud*\" OR \"scan-to-BIM\" OR \"building geometry\" OR \"building age\" OR archetype OR typology) AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\"))"
+    },
+    {
+      "id": "DTMF-B23-v1",
+      "connection": "S2_to_S3",
+      "boolean": "(\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement)",
+      "scopus": "TITLE-ABS-KEY((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement))",
+      "wos": "TS=((\"digital twin\" OR \"digital twins\") AND (building OR buildings OR \"built environment\" OR \"building stock\" OR \"building components\" OR \"construction materials\") AND (\"material stock*\" OR \"material inventor*\" OR \"material composition\" OR \"material quantit*\" OR \"material intensit*\" OR \"material passport*\" OR \"component inventor*\" OR \"quantity takeoff\" OR \"quantity take-off\") AND (\"material flow*\" OR \"material outflow*\" OR \"stock dynamics\" OR \"dynamic stock\" OR \"service life\" OR \"remaining useful life\" OR lifetime OR lifespan OR demolition OR renovation OR replacement))"
+    }
+  ],
+  "filters": "No year/language/document-type/OA filter; no mandatory uncertainty or named algorithm",
+  "interpretation": "Co-occurrence retrieves candidates for interfaces; it does not prove directional transformation or uncertainty propagation."
+}
+
+
+FOCUSED SUPPLEMENTARY SEARCH
+Source: Digital Twin Uncertainty Review/analysis/mechanism_focus/query.json
+{
+  "search_id": "DT-UM",
+  "date": "2026-11-01",
+  "architecture_baseline": "\"digital twin\" AND uncertainty AND (architectur* OR \"probabilistic graphical model*\" OR \"Bayesian network*\" OR \"knowledge graph*\" OR \"data assimilation\" OR \"sensor fusion\" OR \"uncertainty propagation\" OR provenance OR traceability OR \"runtime verification\")",
+  "detection_terms": [
+    "prediction residual",
+    "prediction residuals",
+    "measurement residual",
+    "measurement residuals",
+    "posterior residual",
+    "posterior residuals",
+    "residual-based",
+    "innovation-based",
+    "innovation-guided",
+    "innovation-adaptive",
+    "innovation statistics",
+    "model discrepancy",
+    "model discrepancies",
+    "model mismatch",
+    "model mismatches",
+    "out-of-distribution",
+    "distribution shift",
+    "concept drift",
+    "drift detection",
+    "drift monitoring",
+    "change-point detection",
+    "change-point detectors",
+    "adaptive noise estimation"
+  ],
+  "inference_terms": [
+    "Bayesian",
+    "Kalman",
+    "particle filter",
+    "particle filters",
+    "particle filtering",
+    "data assimilation",
+    "state estimation",
+    "parameter estimation",
+    "model updating",
+    "online calibration",
+    "Gaussian process",
+    "Gaussian processes",
+    "ensemble",
+    "ensembles",
+    "conformal",
+    "evidential"
+  ],
+  "boolean_query": "\"digital twin\" AND uncertainty AND (architectur* OR \"probabilistic graphical model*\" OR \"Bayesian network*\" OR \"knowledge graph*\" OR \"data assimilation\" OR \"sensor fusion\" OR \"uncertainty propagation\" OR provenance OR traceability OR \"runtime verification\") AND (\"prediction residual\" OR \"prediction residuals\" OR \"measurement residual\" OR \"measurement residuals\" OR \"posterior residual\" OR \"posterior residuals\" OR \"residual-based\" OR \"innovation-based\" OR \"innovation-guided\" OR \"innovation-adaptive\" OR \"innovation statistics\" OR \"model discrepancy\" OR \"model discrepancies\" OR \"model mismatch\" OR \"model mismatches\" OR \"out-of-distribution\" OR \"distribution shift\" OR \"concept drift\" OR \"drift detection\" OR \"drift monitoring\" OR \"change-point detection\" OR \"change-point detectors\" OR \"adaptive noise estimation\") AND (Bayesian OR Kalman OR \"particle filter\" OR \"particle filters\" OR \"particle filtering\" OR \"data assimilation\" OR \"state estimation\" OR \"parameter estimation\" OR \"model updating\" OR \"online calibration\" OR \"Gaussian process\" OR \"Gaussian processes\" OR ensemble OR ensembles OR conformal OR evidential)",
+  "note": "IEEE rejected the initial wildcard-heavy expression before execution (maximum 10 wildcards). Explicit word forms above were then used successfully in all three platforms. These finite forms operationalize, but are not identical to, the exploratory local regex."
+}
+
+
+EXECUTION EVIDENCE
+Source: S4 S5 Core Review/protocol/executed_searches.json
+[
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S4-1",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\"))",
+    "displayed_count": 2538,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S4-2",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 415,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S5-1",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\"))",
+    "displayed_count": 6621,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "all available CSV fields except references for S5",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "Scopus",
+    "query_id": "S5-2",
+    "query": "TITLE-ABS-KEY((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 1359,
+    "fields": "TITLE-ABS-KEY",
+    "filters": "none",
+    "export": "all available CSV fields except references for S5",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S4-1",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\"))",
+    "displayed_count": 1883,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S4-2",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"urban mining\" OR \"secondary material*\" OR \"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 361,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S5-1",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\"))",
+    "displayed_count": 4834,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "WoS",
+    "query_id": "S5-2",
+    "query": "TS=((\"building stock*\" OR \"building material stock*\" OR \"urban material stock*\" OR \"built environment stock*\" OR \"building inventor*\" OR \"building archetype*\" OR \"material cadastre*\" OR \"resource cadastre*\" OR \"existing building*\" OR \"building portfolio*\" OR \"urban building*\" OR \"built stock*\") AND (\"embodied carbon\" OR \"embodied emission*\" OR \"embodied greenhouse gas*\" OR \"life cycle assessment\" OR \"life-cycle assessment\" OR LCA OR \"environmental impact*\" OR decision* OR ranking OR priorit* OR \"decision support\" OR intervention* OR \"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"decision confidence\" OR \"value of information\" OR \"prediction interval*\" OR \"confidence interval*\"))",
+    "displayed_count": 1142,
+    "fields": "TS, including Keywords Plus",
+    "filters": "none",
+    "export": "Full Record and Cited References",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S4-1",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"All Metadata\":\"urban mining\" OR \"All Metadata\":\"secondary material*\" OR \"All Metadata\":\"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"All Metadata\":\"reverse logistics\")",
+    "displayed_count": 242,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S4-2",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (reuse OR recycl* OR recover* OR deconstruction OR \"All Metadata\":\"urban mining\" OR \"All Metadata\":\"secondary material*\" OR \"All Metadata\":\"material passport*\" OR matching OR logistics OR separab* OR disassembl* OR circular* OR \"All Metadata\":\"reverse logistics\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"All Metadata\":\"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"All Metadata\":\"decision confidence\" OR \"All Metadata\":\"value of information\" OR \"All Metadata\":\"prediction interval*\" OR \"All Metadata\":\"confidence interval*\")",
+    "displayed_count": 54,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S5-1",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (\"All Metadata\":\"embodied carbon\" OR \"All Metadata\":\"embodied emission*\" OR \"All Metadata\":\"embodied greenhouse gas*\" OR \"All Metadata\":\"life cycle assessment\" OR \"All Metadata\":\"life-cycle assessment\" OR LCA OR \"All Metadata\":\"environmental impact*\" OR decision* OR ranking OR priorit* OR \"All Metadata\":\"decision support\" OR intervention* OR \"All Metadata\":\"carbon footprint\")",
+    "displayed_count": 433,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  },
+  {
+    "date": "2026-11-01",
+    "database": "IEEE",
+    "query_id": "S5-2",
+    "query": "(\"All Metadata\":\"building stock*\" OR \"All Metadata\":\"building material stock*\" OR \"All Metadata\":\"urban material stock*\" OR \"All Metadata\":\"built environment stock*\" OR \"All Metadata\":\"building inventor*\" OR \"All Metadata\":\"building archetype*\" OR \"All Metadata\":\"material cadastre*\" OR \"All Metadata\":\"resource cadastre*\" OR \"All Metadata\":\"existing building*\" OR \"All Metadata\":\"building portfolio*\" OR \"All Metadata\":\"urban building*\" OR \"All Metadata\":\"built stock*\") AND (\"All Metadata\":\"embodied carbon\" OR \"All Metadata\":\"embodied emission*\" OR \"All Metadata\":\"embodied greenhouse gas*\" OR \"All Metadata\":\"life cycle assessment\" OR \"All Metadata\":\"life-cycle assessment\" OR LCA OR \"All Metadata\":\"environmental impact*\" OR decision* OR ranking OR priorit* OR \"All Metadata\":\"decision support\" OR intervention* OR \"All Metadata\":\"carbon footprint\") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR \"All Metadata\":\"Monte Carlo\" OR sensitiv* OR variabil* OR calibrat* OR robust* OR \"All Metadata\":\"decision confidence\" OR \"All Metadata\":\"value of information\" OR \"All Metadata\":\"prediction interval*\" OR \"All Metadata\":\"confidence interval*\")",
+    "displayed_count": 81,
+    "fields": "All Metadata (phrases explicitly qualified, unquoted terms in default metadata search)",
+    "filters": "none",
+    "export": "native CSV all available fields",
+    "status": "all records exported; field coverage limitations documented"
+  }
+]
+
+EXECUTION EVIDENCE
+Source: S4 S5 Core Review/protocol/completed_searches.json
+[
+  {
+    "database": "Scopus",
+    "query_id": "S4-1",
+    "displayed_count": 2538,
+    "exported_count": 2538,
+    "unique_native_ids": 2538,
+    "doi_present": 2107,
+    "abstract_present": 2538,
+    "status": "complete"
+  },
+  {
+    "database": "Scopus",
+    "query_id": "S4-2",
+    "displayed_count": 415,
+    "exported_count": 415,
+    "unique_native_ids": 415,
+    "doi_present": 351,
+    "abstract_present": 415,
+    "status": "complete"
+  },
+  {
+    "database": "Scopus",
+    "query_id": "S5-1",
+    "displayed_count": 6621,
+    "exported_count": 6621,
+    "unique_native_ids": 6621,
+    "doi_present": 5567,
+    "abstract_present": 6621,
+    "status": "complete"
+  },
+  {
+    "database": "Scopus",
+    "query_id": "S5-2",
+    "displayed_count": 1359,
+    "exported_count": 1359,
+    "unique_native_ids": 1359,
+    "doi_present": 1196,
+    "abstract_present": 1359,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S4-1",
+    "displayed_count": 1883,
+    "exported_count": 1883,
+    "unique_native_ids": 1883,
+    "doi_present": 1680,
+    "abstract_present": 1878,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S4-2",
+    "displayed_count": 361,
+    "exported_count": 361,
+    "unique_native_ids": 361,
+    "doi_present": 339,
+    "abstract_present": 361,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S5-1",
+    "displayed_count": 4834,
+    "exported_count": 4834,
+    "unique_native_ids": 4834,
+    "doi_present": 4375,
+    "abstract_present": 4831,
+    "status": "complete"
+  },
+  {
+    "database": "WoS",
+    "query_id": "S5-2",
+    "displayed_count": 1142,
+    "exported_count": 1142,
+    "unique_native_ids": 1142,
+    "doi_present": 1086,
+    "abstract_present": 1142,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S4-1",
+    "displayed_count": 242,
+    "exported_count": 242,
+    "unique_native_ids": 242,
+    "doi_present": 228,
+    "abstract_present": 242,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S4-2",
+    "displayed_count": 54,
+    "exported_count": 54,
+    "unique_native_ids": 54,
+    "doi_present": 53,
+    "abstract_present": 54,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S5-1",
+    "displayed_count": 433,
+    "exported_count": 433,
+    "unique_native_ids": 433,
+    "doi_present": 399,
+    "abstract_present": 433,
+    "status": "complete"
+  },
+  {
+    "database": "IEEE",
+    "query_id": "S5-2",
+    "displayed_count": 81,
+    "exported_count": 81,
+    "unique_native_ids": 81,
+    "doi_present": 79,
+    "abstract_present": 81,
+    "status": "complete"
+  }
+]
+
+EXECUTION EVIDENCE
+Source: Digital Twin Material Flow Review/protocol/search_log.csv
+database,stage,query_id,search_date,displayed_count,exported_rows,status
+IEEE,S1,DTMF-S1-v1,2026-11-01,389,389,verified_complete
+IEEE,S2,DTMF-S2-v1,2026-11-01,9,9,verified_complete
+IEEE,S3,DTMF-S3-v1,2026-11-01,64,64,verified_complete
+IEEE,S4,DTMF-S4-v1,2026-11-01,160,160,verified_complete
+IEEE,S5,DTMF-S5-v1,2026-11-01,102,102,verified_complete
+Scopus,S1,DTMF-S1-v1,2026-11-01,1043,1043,verified_complete
+Scopus,S2,DTMF-S2-v1,2026-11-01,65,65,verified_complete
+Scopus,S3,DTMF-S3-v1,2026-11-01,115,115,verified_complete
+Scopus,S4,DTMF-S4-v1,2026-11-01,547,547,verified_complete
+Scopus,S5,DTMF-S5-v1,2026-11-01,346,346,verified_complete
+WoS,S1,DTMF-S1-v1,2026-11-01,652,652,verified_complete
+WoS,S2,DTMF-S2-v1,2026-11-01,38,38,verified_complete
+WoS,S3,DTMF-S3-v1,2026-11-01,61,61,verified_complete
+WoS,S4,DTMF-S4-v1,2026-11-01,331,331,verified_complete
+WoS,S5,DTMF-S5-v1,2026-11-01,202,202,verified_complete
+
+
+EXECUTION EVIDENCE
+Source: Digital Twin Material Flow Review/uncertainty_stage_searches_2026-11-02/protocol/search_log.csv
+stage,query_id,database,run_label,date_note,query,field_scope,filters,observed_results,export_format,status
+S1,DTMFU-S1-v1,IEEE,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"(""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (GeoAI OR ""geospatial artificial intelligence"" OR ""remote sensing"" OR ""computer vision"" OR LiDAR OR ""street view"" OR ""street-view"" OR photogrammetr* OR ""point cloud*"" OR ""scan-to-BIM"" OR ""building reconstruction"" OR ""building geometry"" OR ""building classification"" OR ""building age"" OR ""building footprint*"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*"")",Default metadata,No date/language/document-type/access restrictions,80,CSV all native fields,exported_all_count_verified
+S1,DTMFU-S1-v1,Scopus,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TITLE-ABS-KEY((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (GeoAI OR ""geospatial artificial intelligence"" OR ""remote sensing"" OR ""computer vision"" OR LiDAR OR ""street view"" OR ""street-view"" OR photogrammetr* OR ""point cloud*"" OR ""scan-to-BIM"" OR ""building reconstruction"" OR ""building geometry"" OR ""building classification"" OR ""building age"" OR ""building footprint*"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TITLE-ABS-KEY,No date/language/document-type/access restrictions,231,CSV Select all information incl references,exported_all_count_verified
+S1,DTMFU-S1-v1,WoS,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TS=((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (GeoAI OR ""geospatial artificial intelligence"" OR ""remote sensing"" OR ""computer vision"" OR LiDAR OR ""street view"" OR ""street-view"" OR photogrammetr* OR ""point cloud*"" OR ""scan-to-BIM"" OR ""building reconstruction"" OR ""building geometry"" OR ""building classification"" OR ""building age"" OR ""building footprint*"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TS / Core Collection all editions,No date/language/document-type/access restrictions,154,Tab delimited Full Record and Cited References,exported_all_count_verified
+S2,DTMFU-S2-v1,IEEE,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"(""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""material stock*"" OR ""material inventor*"" OR ""material intensit*"" OR ""material composition"" OR ""material quant*"" OR ""component inventor*"" OR ""material passport*"" OR ""building archetype*"" OR ""building typolog*"" OR ""quantity takeoff"" OR ""quantity take-off"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*"")",Default metadata,No date/language/document-type/access restrictions,1,CSV all native fields,exported_all_count_verified
+S2,DTMFU-S2-v1,Scopus,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TITLE-ABS-KEY((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""material stock*"" OR ""material inventor*"" OR ""material intensit*"" OR ""material composition"" OR ""material quant*"" OR ""component inventor*"" OR ""material passport*"" OR ""building archetype*"" OR ""building typolog*"" OR ""quantity takeoff"" OR ""quantity take-off"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TITLE-ABS-KEY,No date/language/document-type/access restrictions,10,CSV Select all information incl references,exported_all_count_verified
+S2,DTMFU-S2-v1,WoS,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TS=((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""material stock*"" OR ""material inventor*"" OR ""material intensit*"" OR ""material composition"" OR ""material quant*"" OR ""component inventor*"" OR ""material passport*"" OR ""building archetype*"" OR ""building typolog*"" OR ""quantity takeoff"" OR ""quantity take-off"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TS / Core Collection all editions,No date/language/document-type/access restrictions,9,Tab delimited Full Record and Cited References,exported_all_count_verified
+S3,DTMFU-S3-v1,IEEE,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"(""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""material flow*"" OR ""stock dynamic*"" OR ""dynamic stock*"" OR ""stock turnover"" OR ""service life"" OR ""remaining useful life"" OR ""building lifetime*"" OR ""building lifespan*"" OR ""demolition timing"" OR ""demolition prediction"" OR ""demolition probabilit*"" OR ""replacement cycle*"" OR ""renovation scenario*"" OR ""material outflow*"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*"")",Default metadata,No date/language/document-type/access restrictions,14,CSV all native fields,exported_all_count_verified
+S3,DTMFU-S3-v1,Scopus,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TITLE-ABS-KEY((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""material flow*"" OR ""stock dynamic*"" OR ""dynamic stock*"" OR ""stock turnover"" OR ""service life"" OR ""remaining useful life"" OR ""building lifetime*"" OR ""building lifespan*"" OR ""demolition timing"" OR ""demolition prediction"" OR ""demolition probabilit*"" OR ""replacement cycle*"" OR ""renovation scenario*"" OR ""material outflow*"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TITLE-ABS-KEY,No date/language/document-type/access restrictions,33,CSV Select all information incl references,exported_all_count_verified
+S3,DTMFU-S3-v1,WoS,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TS=((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""material flow*"" OR ""stock dynamic*"" OR ""dynamic stock*"" OR ""stock turnover"" OR ""service life"" OR ""remaining useful life"" OR ""building lifetime*"" OR ""building lifespan*"" OR ""demolition timing"" OR ""demolition prediction"" OR ""demolition probabilit*"" OR ""replacement cycle*"" OR ""renovation scenario*"" OR ""material outflow*"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TS / Core Collection all editions,No date/language/document-type/access restrictions,13,Tab delimited Full Record and Cited References,exported_all_count_verified
+S4,DTMFU-S4-v1,IEEE,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"(""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (reuse OR recycl* OR recover* OR deconstruction OR ""urban mining"" OR ""secondary material*"" OR ""material passport*"" OR disassembl* OR circular* OR ""reverse logistics"" OR ""material matching"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*"")",Default metadata,No date/language/document-type/access restrictions,40,CSV all native fields,exported_all_count_verified
+S4,DTMFU-S4-v1,Scopus,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TITLE-ABS-KEY((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (reuse OR recycl* OR recover* OR deconstruction OR ""urban mining"" OR ""secondary material*"" OR ""material passport*"" OR disassembl* OR circular* OR ""reverse logistics"" OR ""material matching"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TITLE-ABS-KEY,No date/language/document-type/access restrictions,115,CSV Select all information incl references,exported_all_count_verified
+S4,DTMFU-S4-v1,WoS,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TS=((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (reuse OR recycl* OR recover* OR deconstruction OR ""urban mining"" OR ""secondary material*"" OR ""material passport*"" OR disassembl* OR circular* OR ""reverse logistics"" OR ""material matching"") AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TS / Core Collection all editions,No date/language/document-type/access restrictions,67,Tab delimited Full Record and Cited References,exported_all_count_verified
+S5,DTMFU-S5-v1,IEEE,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"(""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""embodied carbon"" OR ""embodied emission*"" OR ""life cycle assessment"" OR ""life-cycle assessment"" OR LCA OR ""environmental impact*"" OR ""carbon footprint"" OR ((""material flow*"" OR ""material stock*"" OR circular* OR ""secondary material*"") AND (""decision support"" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*"")",Default metadata,No date/language/document-type/access restrictions,21,CSV all native fields,exported_all_count_verified
+S5,DTMFU-S5-v1,Scopus,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TITLE-ABS-KEY((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""embodied carbon"" OR ""embodied emission*"" OR ""life cycle assessment"" OR ""life-cycle assessment"" OR LCA OR ""environmental impact*"" OR ""carbon footprint"" OR ((""material flow*"" OR ""material stock*"" OR circular* OR ""secondary material*"") AND (""decision support"" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TITLE-ABS-KEY,No date/language/document-type/access restrictions,67,CSV Select all information incl references,exported_all_count_verified
+S5,DTMFU-S5-v1,WoS,2026-11-02,Europe/Berlin run label; source download filenames use 2026-11-01 UTC,"TS=((""digital twin"" OR ""digital twins"") AND (building* OR ""built environment"" OR ""urban stock"" OR ""urban stocks"" OR ""material cadastre"" OR ""material cadastres"" OR ""resource cadastre"" OR ""resource cadastres"") AND (""embodied carbon"" OR ""embodied emission*"" OR ""life cycle assessment"" OR ""life-cycle assessment"" OR LCA OR ""environmental impact*"" OR ""carbon footprint"" OR ((""material flow*"" OR ""material stock*"" OR circular* OR ""secondary material*"") AND (""decision support"" OR ranking OR priorit*))) AND (uncertaint* OR probabil* OR stochastic* OR Bayesian OR ""Monte Carlo"" OR sensitiv* OR variabil* OR calibrat* OR robust* OR ""decision confidence"" OR ""value of information"" OR ""prediction interval*"" OR ""confidence interval*""))",TS / Core Collection all editions,No date/language/document-type/access restrictions,48,Tab delimited Full Record and Cited References,exported_all_count_verified
+
+
+EXECUTION EVIDENCE
+Source: Digital Twin Material Flow Review/bridge_searches/protocol/search_log.csv
+database,stage,query_id,search_date,displayed_count,exported_rows,status
+IEEE,B12,DTMF-B12-v1,2026-11-01,4,4,verified_complete
+IEEE,B23,DTMF-B23-v1,2026-11-01,0,0,verified_zero_no_export
+Scopus,B12,DTMF-B12-v1,2026-11-01,36,36,verified_complete
+Scopus,B23,DTMF-B23-v1,2026-11-01,11,11,verified_complete
+WoS,B12,DTMF-B12-v1,2026-11-01,23,23,verified_complete
+WoS,B23,DTMF-B23-v1,2026-11-01,9,9,verified_complete
+

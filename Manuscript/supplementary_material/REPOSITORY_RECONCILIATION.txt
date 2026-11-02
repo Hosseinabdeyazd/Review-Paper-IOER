@@ -1,0 +1,8 @@
+S1–S3 source recovery supersedes the earlier local-only missing-query statement. Exact Scopus S1–S3, IEEE split S1–S3, and WoS S1–S2 expressions are preserved in S1_S3_recovered_queries.txt. The original repository paths precede each source.
+
+WoS S3: the log refers to executed strings absent from the inspected tree, and says S3-2 is not executed despite an archived S3-2 export. Do not infer no search or reconstruct an executed query from a translated Scopus expression.
+
+The recovered S1–S3 Python noise-diagnostic wrappers call diagnostic_core.run_stage with topic regular expressions. They are not evidence of final full-text eligibility.
+
+Methods prose is expanded and ordered. Final PRISMA counts remain unestablished; this edit does not create new full-text decisions.
+
