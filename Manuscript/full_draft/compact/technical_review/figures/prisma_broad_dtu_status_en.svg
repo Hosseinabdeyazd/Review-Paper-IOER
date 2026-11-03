@@ -28,7 +28,7 @@
 <text x="315.0" y="547.5" text-anchor="middle" font-family="Tahoma,Arial" font-size="18" fill="#2f2f2f">Reports selected for retrieval</text>
 <text x="315.0" y="571.5" text-anchor="middle" font-family="Tahoma,Arial" font-size="18" fill="#2f2f2f">and assessment: 308</text>
 <rect x="570" y="491.0" width="390" height="155.0" rx="2" fill="#ececec" stroke="#2f2f2f" stroke-width="1.7" />
-<text x="765.0" y="550.5" text-anchor="middle" font-family="Tahoma,Arial" font-size="18" fill="#2f2f2f">Unresolved retrieval / assessment: 217</text>
+<text x="765.0" y="550.5" text-anchor="middle" font-family="Tahoma,Arial" font-size="18" fill="#2f2f2f">Retrieval / assessment pending: 217</text>
 <text x="765.0" y="574.5" text-anchor="middle" font-family="Tahoma,Arial" font-size="18" fill="#2f2f2f">Includes 2 defective retrieved files</text>
 <text x="765.0" y="598.5" text-anchor="middle" font-family="Tahoma,Arial" font-size="18" fill="#2f2f2f">Not classified as full-text exclusions</text>
 <rect x="120" y="711.0" width="390" height="125.0" rx="2" fill="white" stroke="#2f2f2f" stroke-width="1.7" />
@@ -50,7 +50,7 @@
 <path d="M510,365.0 L570,365.0" fill="none" stroke="#2f2f2f" stroke-width="1.8" marker-end="url(#a)" />
 <path d="M510,553.0 L570,553.0" fill="none" stroke="#2f2f2f" stroke-width="1.8" marker-end="url(#a)" />
 <path d="M510,773.0 L570,773.0" fill="none" stroke="#2f2f2f" stroke-width="1.8" marker-end="url(#a)" />
-<text x="530" y="1059.0" text-anchor="middle" font-family="Tahoma,Arial" font-size="20" fill="#2f2f2f">AUDIT SNAPSHOT — not a final PRISMA 2020 flow</text>
+<text x="530" y="1059.0" text-anchor="middle" font-family="Tahoma,Arial" font-size="20" fill="#2f2f2f">Database identification and report selection</text>
 <text x="530" y="1094.0" text-anchor="middle" font-family="Tahoma,Arial" font-size="17" fill="#2f2f2f">Reports sought/not retrieved and independent-study counts are not yet closed.</text>
 <text x="530" y="1124.0" text-anchor="middle" font-family="Tahoma,Arial" font-size="16" fill="#2f2f2f">Source: archived screening and eligibility decision ledgers.</text>
 <style>text,tspan{font-family:"Times New Roman",serif !important}</style></svg>

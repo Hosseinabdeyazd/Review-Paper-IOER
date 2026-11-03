@@ -9,3 +9,5 @@ Editorial corrections and verification inventory
 
 Scope of verification
 These checks establish traceable membership and arithmetic consistency. They are not a new independent semantic recoding of all studies. The architecture remains an evidence-linked review synthesis, not an empirically deployed end-to-end digital twin. Broad DT+U eligibility remains 91 assessed and 217 pending; those pending reports are not counted as included. Selected S1-S5+U eligibility remains 21 sought, one not retrieved, 20 assessed and 20 included. No scientific counts were changed to close an incomplete selection route.
+
+Follow-up for coauthor review: restored the previous six-column Figure 11 layout. Removed the audit-snapshot footer from Figure 2a, retaining actual pending retrieval/assessment counts. Replaced drafting instructions in Figure 11 with descriptive terminology. Matching captions revised. Latest body count: 8,783 plus 190 abstract words; 28 main pages plus four reference pages.
