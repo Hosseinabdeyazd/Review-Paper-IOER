@@ -1,0 +1,69 @@
+{
+  "assessed_publications": 20,
+  "assessed_contexts": 23,
+  "stage_counts": [
+    {
+      "stage": "S1",
+      "assessed_papers": 9,
+      "partial_n": 1,
+      "partial_pct": 11.11111111111111,
+      "quantified_selected_inputs_n": 0,
+      "quantified_pct": 0.0,
+      "paper_ids": "U01;U02;U03;U04;U05;U06;U07;U08;U09",
+      "partial_ids": "U06",
+      "quantified_ids": ""
+    },
+    {
+      "stage": "S2",
+      "assessed_papers": 13,
+      "partial_n": 4,
+      "partial_pct": 30.76923076923077,
+      "quantified_selected_inputs_n": 2,
+      "quantified_pct": 15.384615384615385,
+      "paper_ids": "U01;U02;U03;U04;U05;U06;U07;U08;U09;U11;U12;U13;U18",
+      "partial_ids": "U01;U06;U13;U18",
+      "quantified_ids": "U11;U12"
+    },
+    {
+      "stage": "S3",
+      "assessed_papers": 6,
+      "partial_n": 3,
+      "partial_pct": 50.0,
+      "quantified_selected_inputs_n": 2,
+      "quantified_pct": 33.333333333333336,
+      "paper_ids": "U01;U06;U11;U12;U13;U18",
+      "partial_ids": "U01;U13;U18",
+      "quantified_ids": "U11;U12"
+    },
+    {
+      "stage": "S4",
+      "assessed_papers": 1,
+      "partial_n": 1,
+      "partial_pct": 100.0,
+      "quantified_selected_inputs_n": 0,
+      "quantified_pct": 0.0,
+      "paper_ids": "U19",
+      "partial_ids": "U19",
+      "quantified_ids": ""
+    },
+    {
+      "stage": "S5",
+      "assessed_papers": 8,
+      "partial_n": 3,
+      "partial_pct": 37.5,
+      "quantified_selected_inputs_n": 2,
+      "quantified_pct": 25.0,
+      "paper_ids": "U06;U14;U15;U16;U17;U19;U20;U21",
+      "partial_ids": "U06;U19;U21",
+      "quantified_ids": "U16;U20"
+    }
+  ],
+  "pilot_records": 73,
+  "new_semantic_coding": false,
+  "method": "Distinct publication sets per endpoint stage; P/E codes retained from existing interface assessments; zero context denominator gives undefined percentage.",
+  "inputs": {
+    "outputs\\Manuscript\\full_draft\\compact\\technical_review\\base_u_comparison\\fulltext_context_evidence.csv": "b5a78db51ddd5abd4f9c29d8badf91ab35f595833993ff9d2cfe9d5cd638be62",
+    "outputs\\Manuscript\\full_draft\\compact\\technical_review\\base_u_comparison\\stage_base_u_counts.csv": "91f3dc38417b841b002a56f56d2f1d47bc7ca63d749938587b951e5e694e4789",
+    "outputs\\Manuscript\\full_draft\\compact\\technical_review\\base_u_comparison\\s123_multistage_screening_source.csv": "abb937ba6f28b66aec1462d7e0ff2fa34a9d0a1189011bae604ee6390e7660f8"
+  }
+}

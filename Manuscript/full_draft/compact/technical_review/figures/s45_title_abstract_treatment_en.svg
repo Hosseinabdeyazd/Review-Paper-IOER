@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="670" viewBox="0 0 1100 670"><rect width="1100" height="670" fill="white"/>
+<rect x="20" y="15" width="1060" height="48" fill="#9D755D" stroke="#7F7F7F"/>
+<text x="40" y="47" text-anchor="start" font-family="Times New Roman" font-size="25" fill="black">Uncertainty treatment among assessed U-layer candidates</text>
+<text x="35" y="102" text-anchor="start" font-family="Times New Roman" font-size="22" fill="black">Title/abstract evidence: S4 n = 143; S5 n = 331; union n = 392 (82 overlap).</text>
+<text x="35" y="180" text-anchor="start" font-family="Times New Roman" font-size="25" fill="black">S4</text>
+<rect x="120" y="145" width="409.72027972027973" height="55" fill="#ECECEC" stroke="#7F7F7F"/>
+<text x="324.86013986013984" y="179" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">63 (44.1%)</text>
+<rect x="529.7202797202797" y="145" width="279.65034965034965" height="55" fill="#4C78A8" stroke="#7F7F7F"/>
+<text x="669.5454545454545" y="179" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">43 (30.1%)</text>
+<rect x="809.3706293706293" y="145" width="130.06993006993008" height="55" fill="#72B7B2" stroke="#7F7F7F"/>
+<text x="874.4055944055943" y="179" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">20 (14.0%)</text>
+<rect x="939.4405594405594" y="145" width="110.55944055944056" height="55" fill="#9D755D" stroke="#7F7F7F"/>
+<text x="994.7202797202797" y="179" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">17 (11.9%)</text>
+<text x="35" y="270" text-anchor="start" font-family="Times New Roman" font-size="25" fill="black">S5</text>
+<rect x="120" y="235" width="314.6827794561934" height="55" fill="#ECECEC" stroke="#7F7F7F"/>
+<text x="277.3413897280967" y="269" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">112 (33.8%)</text>
+<rect x="434.6827794561934" y="235" width="410.21148036253777" height="55" fill="#4C78A8" stroke="#7F7F7F"/>
+<text x="639.7885196374623" y="269" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">146 (44.1%)</text>
+<rect x="844.8942598187311" y="235" width="84.29003021148037" height="55" fill="#72B7B2" stroke="#7F7F7F"/>
+<text x="887.0392749244713" y="269" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">30 (9.1%)</text>
+<rect x="929.1842900302115" y="235" width="120.81570996978851" height="55" fill="#9D755D" stroke="#7F7F7F"/>
+<text x="989.5921450151058" y="269" text-anchor="middle" font-family="Times New Roman" font-size="20" fill="black">43 (13.0%)</text>
+<rect x="35" y="341" width="20" height="20" fill="#ECECEC" stroke="#7F7F7F"/>
+<text x="65" y="357" text-anchor="start" font-family="Times New Roman" font-size="21" fill="black">Mention / no demonstrated UQ</text>
+<rect x="565" y="341" width="20" height="20" fill="#4C78A8" stroke="#7F7F7F"/>
+<text x="595" y="357" text-anchor="start" font-family="Times New Roman" font-size="21" fill="black">Sensitivity or scenarios only</text>
+<rect x="35" y="384" width="20" height="20" fill="#72B7B2" stroke="#7F7F7F"/>
+<text x="65" y="400" text-anchor="start" font-family="Times New Roman" font-size="21" fill="black">Quantified uncertainty only</text>
+<rect x="565" y="384" width="20" height="20" fill="#9D755D" stroke="#7F7F7F"/>
+<text x="595" y="400" text-anchor="start" font-family="Times New Roman" font-size="21" fill="black">Explicit propagation; boundary unspecified</text>
+<text x="35" y="460" text-anchor="start" font-family="Times New Roman" font-size="22" fill="black">Explicit cross-stage screening claims: S4 1/143 (0.7%); S5 3/331 (0.9%).</text>
+<rect x="35" y="490" width="1030" height="94" fill="#ECECEC" stroke="#7F7F7F"/>
+<text x="550" y="525" text-anchor="middle" font-family="Times New Roman" font-size="23" fill="black">Full-text appraisal of the three distinct cross-stage candidates:</text>
+<text x="550" y="558" text-anchor="middle" font-family="Times New Roman" font-size="24" fill="black">1 partial S4→S5 case + 2 other-input→S5 cases</text>
+<text x="35" y="622" text-anchor="start" font-family="Times New Roman" font-size="21" fill="black">Propagation within a model does not establish transfer across S boundaries.</text>
+<text x="35" y="651" text-anchor="start" font-family="Times New Roman" font-size="21" fill="black">These selected-candidate percentages are not prevalence estimates for all Base publications.</text>
+</svg>

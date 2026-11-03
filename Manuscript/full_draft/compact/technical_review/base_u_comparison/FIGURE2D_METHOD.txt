@@ -1,0 +1,7 @@
+Figure 2d: five-stage denominator reconciliation
+Search membership: count the intersection of each Base and U set; divide by Base. Retain S1 reconstructed provenance and S3 U-only record.
+Full-text evidence: use the 23 included paper-context assessments from 20 publications. Assign B12 to S1 and S2; B23 to S2 and S3; B34 to S3 and S4; B45 to S4 and S5; O5 to S5 only. This is endpoint participation, not complete thematic stage coverage. Deduplicate paper IDs within each stage and each evidence category. P is partial transfer; E is quantified outputs for selected uncertain inputs. Neither denotes demonstrated end-to-end continuity. Category memberships can overlap at stage level.
+Boundary panel: denominator is the number of assessed contexts at that boundary. Every context has one status. No assessed B34 context means an undefined percentage.
+S1-S3 title/abstract pilot: 73 multistage records, 62 include, 5 unclear, 5 secondary and 1 exclude. These are relevance decisions, not the uncertainty-method categories used for 392 S4-S5 candidates. They are preserved as separate tables; no invented five-stage title/abstract percentages.
+The earlier S4-S5 mechanism chart is retained as Supplementary Figure S10.
+This revision recomputes existing coding; it does not claim new full-text reading or population-wide uncertainty prevalence.

@@ -1,0 +1,40 @@
+﻿stage,paper_id,doi,context,continuity_code,reason
+S1,U01,10.1016/j.jenvman.2020.111879,B12,N,Geometry/material stock errors are discussed; the extraction does not carry their joint uncertainty into stock outputs.
+S1,U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,Q,"Source accuracy, completeness and currency concern stock inputs; qualitative comparison only."
+S1,U03,10.1111/jiec.13174,B12,R,Fitted MI distributions are available to a downstream stock model; propagation is not executed.
+S1,U04,10.1111/jiec.13332,B12,N,"RF validation, bootstrap and importance address MI estimates; total-stock uncertainty is not propagated. Training bootstrap is not counted as output-UQ bootstrap."
+S1,U05,10.1111/jiec.13348,B12,N,"Building-feature prediction errors are discussed, but point estimates are aggregated; bootstrap augmentation is not output-UQ propagation."
+S1,U06,10.1021/acs.est.5c03058,B12,P,"MI ranges are rescaled into quantities, while footprint/height/classification errors are not jointly propagated. Uses the revised U06 main+SI note."
+S1,U07,10.1016/j.resconrec.2025.108392,B12,S,Geometry-informed and archetypal MI representations differ; variability is not automatically a probability distribution.
+S1,U08,10.1016/j.jobe.2025.113391,B12,N,Geometry/archetype/upscaling uncertainties are acknowledged; no demonstrated propagation.
+S1,U09,10.1007/s44498-026-00138-5,B12,S,Design-space sensitivity is explicitly distinguished from real-world probability distributions.
+S2,U01,10.1016/j.jenvman.2020.111879,B12,N,Geometry/material stock errors are discussed; the extraction does not carry their joint uncertainty into stock outputs.
+S2,U01,10.1016/j.jenvman.2020.111879,B23,P,Lifetime/scenario uncertainty is introduced in dynamic waste modelling; upstream geometry/MI error is not jointly carried.
+S2,U02,10.5194/isprs-annals-X-4-W2-2022-225-2022,B12,Q,"Source accuracy, completeness and currency concern stock inputs; qualitative comparison only."
+S2,U03,10.1111/jiec.13174,B12,R,Fitted MI distributions are available to a downstream stock model; propagation is not executed.
+S2,U04,10.1111/jiec.13332,B12,N,"RF validation, bootstrap and importance address MI estimates; total-stock uncertainty is not propagated. Training bootstrap is not counted as output-UQ bootstrap."
+S2,U05,10.1111/jiec.13348,B12,N,"Building-feature prediction errors are discussed, but point estimates are aggregated; bootstrap augmentation is not output-UQ propagation."
+S2,U06,10.1021/acs.est.5c03058,B12,P,"MI ranges are rescaled into quantities, while footprint/height/classification errors are not jointly propagated. Uses the revised U06 main+SI note."
+S2,U06,10.1021/acs.est.5c03058,B23,N,Construction/demolition-year accuracy is evaluated; probabilities are reduced to selected event years. The new U06 note does not demonstrate uncertainty transfer at this specific boundary.
+S2,U07,10.1016/j.resconrec.2025.108392,B12,S,Geometry-informed and archetypal MI representations differ; variability is not automatically a probability distribution.
+S2,U08,10.1016/j.jobe.2025.113391,B12,N,Geometry/archetype/upscaling uncertainties are acknowledged; no demonstrated propagation.
+S2,U09,10.1007/s44498-026-00138-5,B12,S,Design-space sensitivity is explicitly distinguished from real-world probability distributions.
+S2,U11,10.1016/j.resconrec.2017.01.015,B23,E,Lifetime-family and parameter uncertainty is sampled into stocks and demolition flows; scale affects outputs.
+S2,U12,10.1111/jiec.12579,B23,E,Monte Carlo and bootstrap propagate selected inputs into dynamic stock/flow probability intervals.
+S2,U13,10.1111/jiec.12739,B23,P,"Spatial stock attributes, lifetime parameters and scenarios affect flows, but full output UQ remains incomplete."
+S2,U18,10.1007/s44498-026-00164-3,B23,P,Layer lifetimes/model form change renovation flows; no full joint probabilistic propagation.
+S3,U01,10.1016/j.jenvman.2020.111879,B23,P,Lifetime/scenario uncertainty is introduced in dynamic waste modelling; upstream geometry/MI error is not jointly carried.
+S3,U06,10.1021/acs.est.5c03058,B23,N,Construction/demolition-year accuracy is evaluated; probabilities are reduced to selected event years. The new U06 note does not demonstrate uncertainty transfer at this specific boundary.
+S3,U11,10.1016/j.resconrec.2017.01.015,B23,E,Lifetime-family and parameter uncertainty is sampled into stocks and demolition flows; scale affects outputs.
+S3,U12,10.1111/jiec.12579,B23,E,Monte Carlo and bootstrap propagate selected inputs into dynamic stock/flow probability intervals.
+S3,U13,10.1111/jiec.12739,B23,P,"Spatial stock attributes, lifetime parameters and scenarios affect flows, but full output UQ remains incomplete."
+S3,U18,10.1007/s44498-026-00164-3,B23,P,Layer lifetimes/model form change renovation flows; no full joint probabilistic propagation.
+S4,U19,10.1016/j.jclepro.2026.148705,B45,P,"Recovery/reuse feasibility constrains circularity and CFF branches; Monte Carlo and scenarios are reported, but paired draws/dependence are undocumented."
+S5,U06,10.1021/acs.est.5c03058,O5,P,Emission-factor distributions are constructed and transformed to carbon; upstream EO error and joint dependence are not carried. No recovery stage is established.
+S5,U14,10.1016/j.rser.2024.115262,O5,Q,"Review of dynamic LCA; methodological evidence, not an observed primary transfer."
+S5,U15,10.1021/acs.est.4c08994,O5,S,Emission/decarbonization scenarios and sensitivity; not a direct recovery-to-impact transition.
+S5,U16,10.1016/j.resconrec.2025.108228,O5,E,Emission factors propagated into carbon SE and confidence intervals; no demolition-timing transfer is inferred.
+S5,U17,10.1016/j.resconrec.2024.107971,O5,S,"Lifetime, factors and policy scenarios varied individually/scenario-wise; no joint probability distribution."
+S5,U19,10.1016/j.jclepro.2026.148705,B45,P,"Recovery/reuse feasibility constrains circularity and CFF branches; Monte Carlo and scenarios are reported, but paired draws/dependence are undocumented."
+S5,U20,10.1016/j.jobe.2023.108149,O5,E,"Complementary damage-to-carbon probabilistic conversion; recycling is fixed, so this is not S4→S5 recovery-yield evidence."
+S5,U21,10.1038/s41467-025-68120-6,O5,P,Complementary expected-loss-to-carbon proxy and aggregation; joint final uncertainty distribution undocumented.
